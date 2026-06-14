@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { EPISODES, BY_SLUG } from '@/lib/episodes'
+import { EPISODES, BY_SLUG, getAdjacentEpisodes } from '@/lib/episodes'
+import { parseDescription } from '@/lib/parseEpisode'
 
 export async function generateStaticParams() {
   return EPISODES.map(e => ({ slug: e.slug }))
@@ -12,7 +13,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const ep = BY_SLUG(slug)
   if (!ep) return {}
   const title = ep.guest !== 'Savan Kong' ? `${ep.guest} | ${ep.show}` : ep.youtubeTitle
-  const description = ep.description || `${ep.guest} on Life Between Titles — ${ep.show}, Season ${ep.season}${ep.episode ? `, Episode ${ep.episode}` : ''}.`
+  const description = ep.description
+    ? ep.description.replace(/<br\s*\/?>/gi, ' ').slice(0, 200).trim() + '…'
+    : `${ep.guest} on Life Between Titles — ${ep.show}, Season ${ep.season}${ep.episode ? `, Episode ${ep.episode}` : ''}.`
   return {
     title,
     description,
@@ -40,18 +43,17 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
 
   const color = SHOW_COLOR[ep.show] ?? 'var(--terra)'
   const allTags = [ep.mainTags, ep.tags].filter(Boolean).join(' ').split(' ').filter(t => t.startsWith('#'))
+  const { intro, bullets, chapters } = parseDescription(ep.description)
+  const { prev, next } = getAdjacentEpisodes(slug)
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'PodcastEpisode',
     name: ep.youtubeTitle,
-    description: ep.description || undefined,
+    description: intro || undefined,
     partOfSeries: { '@type': 'PodcastSeries', name: ep.show },
     episodeNumber: ep.episode,
-    actor: ep.guest !== 'Savan Kong' ? {
-      '@type': 'Person',
-      name: ep.guest,
-    } : undefined,
+    actor: ep.guest !== 'Savan Kong' ? { '@type': 'Person', name: ep.guest } : undefined,
     image: ep.photo || undefined,
     url: `https://www.lifebetweentitles.com/shows/${slug}`,
   }
@@ -97,12 +99,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 {ep.youtubeTitle}
               </h1>
               {ep.guest !== 'Savan Kong' && (
-                <p style={{fontSize:'1.05rem',fontWeight:600,color:'var(--muted)',marginBottom:20}}>with {ep.guest}</p>
-              )}
-              {ep.description && (
-                <p style={{fontSize:'1.02rem',lineHeight:1.78,color:'var(--muted)',marginBottom:32}}>
-                  {ep.description}
-                </p>
+                <p style={{fontSize:'1.05rem',fontWeight:600,color:'var(--muted)',marginBottom:28}}>with {ep.guest}</p>
               )}
 
               {/* CTA row */}
@@ -138,9 +135,90 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
         </div>
       </header>
 
+      {/* Intro + In This Episode + Chapters */}
+      {(intro || bullets.length > 0 || chapters.length > 0) && (
+        <section className="section" style={{paddingTop:64,paddingBottom:0}}>
+          <div className="container" style={{maxWidth:800}}>
+
+            {/* Intro paragraph */}
+            {intro && (
+              <p style={{fontSize:'1.08rem',lineHeight:1.82,color:'var(--muted)',marginBottom:48}}>
+                {intro}
+              </p>
+            )}
+
+            {/* In this episode */}
+            {bullets.length > 0 && (
+              <div style={{marginBottom:48}}>
+                <span className="label" style={{marginBottom:16,display:'block'}}>In this episode</span>
+                <ul style={{listStyle:'none',padding:0,margin:0,display:'flex',flexDirection:'column',gap:10}}>
+                  {bullets.map((b, i) => (
+                    <li key={i} style={{display:'flex',gap:12,alignItems:'flex-start',
+                      fontSize:'.96rem',lineHeight:1.6,color:'var(--muted)'}}>
+                      <span style={{color,fontWeight:700,flexShrink:0,marginTop:2}}>→</span>
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Chapters */}
+            {chapters.length > 0 && (
+              <div style={{marginBottom:48}}>
+                <span className="label" style={{marginBottom:16,display:'block'}}>Chapters</span>
+                <div className="glass" style={{borderRadius:16,overflow:'hidden'}}>
+                  {chapters.map((ch, i) => (
+                    <div key={i} style={{
+                      display:'flex',alignItems:'center',gap:16,
+                      padding:'14px 24px',
+                      borderBottom: i < chapters.length - 1 ? '1px solid var(--border)' : 'none',
+                      background: i % 2 === 0 ? 'transparent' : 'rgba(0,0,0,.02)',
+                    }}>
+                      {ch.time && (
+                        <span style={{
+                          fontVariantNumeric:'tabular-nums',
+                          fontSize:'.78rem',fontWeight:700,
+                          color,flexShrink:0,
+                          background:`${color}14`,
+                          padding:'3px 10px',borderRadius:8,
+                          letterSpacing:'.02em',
+                        }}>{ch.time}</span>
+                      )}
+                      <span style={{fontSize:'.9rem',color:'var(--ink)',lineHeight:1.5}}>{ch.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* Substack feature story */}
+      {ep.substack && (
+        <section style={{paddingTop:0,paddingBottom:0}} className="section">
+          <div className="container" style={{maxWidth:800}}>
+            <div className="glass-gold" style={{borderRadius:20,padding:'36px 40px',
+              display:'flex',flexDirection:'column',gap:16,
+              borderLeft:`4px solid ${color}`}}>
+              <span className="label">Feature Story</span>
+              <p style={{fontSize:'1rem',lineHeight:1.72,color:'var(--muted)',margin:0}}>
+                We turned this conversation into a long-form essay — with more context, more depth,
+                and the moments that didn&apos;t make the edit.
+              </p>
+              <a href={ep.substack} target="_blank" rel="noopener noreferrer"
+                className="btn btn-gold" style={{alignSelf:'flex-start'}}>
+                Read on Substack →
+              </a>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Tags + Resources */}
       {(allTags.length > 0 || ep.resources) && (
-        <section className="section" style={{paddingTop:56,paddingBottom:56}}>
+        <section className="section" style={{paddingBottom:56}}>
           <div className="container" style={{maxWidth:800}}>
             {allTags.length > 0 && (
               <div style={{marginBottom:40}}>
@@ -159,8 +237,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <div>
                 <span className="label" style={{marginBottom:14,display:'block'}}>Resources & Support the Show</span>
                 <div className="glass" style={{borderRadius:16,padding:'24px 28px'}}>
-                  {ep.resources.split('|').map((r, i) => (
-                    <p key={i} style={{fontSize:'.88rem',lineHeight:1.7,marginBottom: i < ep.resources.split('|').length - 1 ? 8 : 0}}>
+                  {ep.resources.split('|').map((r, i, arr) => (
+                    <p key={i} style={{fontSize:'.88rem',lineHeight:1.7,marginBottom: i < arr.length - 1 ? 8 : 0}}>
                       {r.trim()}
                     </p>
                   ))}
@@ -172,6 +250,45 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       )}
 
       <div className="divider" />
+
+      {/* Prev / Next navigation */}
+      {(prev || next) && (
+        <section className="section" style={{paddingTop:56,paddingBottom:56}}>
+          <div className="container" style={{maxWidth:800}}>
+            <span className="label" style={{marginBottom:24,display:'block'}}>More Episodes</span>
+            <div style={{display:'grid',gridTemplateColumns: prev && next ? '1fr 1fr' : '1fr',gap:16}}>
+              {prev && (
+                <Link href={`/shows/${prev.slug}`} style={{textDecoration:'none'}}>
+                  <div className="glass" style={{borderRadius:16,padding:'20px 24px',
+                    borderLeft:`3px solid ${SHOW_COLOR[prev.show] ?? 'var(--terra)'}`,
+                    transition:'box-shadow .18s',height:'100%'}}>
+                    <p style={{fontSize:'.7rem',fontWeight:700,letterSpacing:'.06em',
+                      textTransform:'uppercase',color:'var(--faint)',marginBottom:6}}>← Previous</p>
+                    <p style={{fontSize:'.88rem',fontWeight:600,color:'var(--ink)',lineHeight:1.4,marginBottom:4}}>
+                      {prev.youtubeTitle}
+                    </p>
+                    <p style={{fontSize:'.78rem',color:'var(--muted)'}}>{prev.guest}</p>
+                  </div>
+                </Link>
+              )}
+              {next && (
+                <Link href={`/shows/${next.slug}`} style={{textDecoration:'none'}}>
+                  <div className="glass" style={{borderRadius:16,padding:'20px 24px',
+                    borderRight:`3px solid ${SHOW_COLOR[next.show] ?? 'var(--terra)'}`,
+                    textAlign:'right',transition:'box-shadow .18s',height:'100%'}}>
+                    <p style={{fontSize:'.7rem',fontWeight:700,letterSpacing:'.06em',
+                      textTransform:'uppercase',color:'var(--faint)',marginBottom:6}}>Next →</p>
+                    <p style={{fontSize:'.88rem',fontWeight:600,color:'var(--ink)',lineHeight:1.4,marginBottom:4}}>
+                      {next.youtubeTitle}
+                    </p>
+                    <p style={{fontSize:'.78rem',color:'var(--muted)'}}>{next.guest}</p>
+                  </div>
+                </Link>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="cta-section">
