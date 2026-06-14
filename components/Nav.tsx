@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const LINKS = [
   { href: '/shows',   label: 'Shows' },
@@ -13,14 +13,22 @@ const LINKS = [
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const close = () => setOpen(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   return (
     <>
-      <nav className="nav">
+      <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
         <div className="nav-inner">
           <Link href="/" className="nav-logo" onClick={close}>
-            Life Between <span>Titles</span>
+            Life Between Titles
           </Link>
           <div className="nav-links">
             {LINKS.map(l => (

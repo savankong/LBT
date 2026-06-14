@@ -3,21 +3,109 @@ import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
+const SITE_URL = 'https://www.lifebetweentitles.com'
+const SITE_NAME = 'Life Between Titles'
+const SITE_DESC = 'Life Between Titles is a podcast network for career transitions. Honest, unscripted stories from people navigating layoffs, identity shifts, burnout, and the uncertain space between one chapter and the next.'
+
 export const metadata: Metadata = {
-  title: { default: 'Life Between Titles', template: '%s | Life Between Titles' },
-  description: 'Honest stories of anxiety, loss, and the light that finds you when you least expect it. A podcast network for people navigating career transitions.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} — Podcast Network for Career Transitions`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESC,
+  keywords: [
+    'career transition podcast', 'job loss podcast', 'layoff recovery',
+    'career change stories', 'career identity', 'work podcast',
+    'Life Between Titles', 'Savan Kong', 'career pivot podcast',
+    'burnout podcast', 'professional reinvention',
+  ],
+  authors: [{ name: 'Savan Kong', url: `${SITE_URL}/about` }],
+  creator: 'Savan Kong',
+  publisher: SITE_NAME,
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
-    title: 'Life Between Titles',
-    description: 'A media platform for people navigating career transitions, identity shifts, and the uncertain space between chapters.',
-    url: 'https://www.lifebetweentitles.com',
-    siteName: 'Life Between Titles',
     type: 'website',
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — Podcast Network for Career Transitions`,
+    description: SITE_DESC,
+    url: SITE_URL,
+    locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Life Between Titles',
-    description: 'Honest stories of anxiety, loss, and the light that finds you when you least expect it.',
+    site: '@lifebetweentitles',
+    title: `${SITE_NAME} — Podcast Network for Career Transitions`,
+    description: SITE_DESC,
   },
+  alternates: { canonical: SITE_URL },
+  category: 'podcast',
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: SITE_NAME,
+      url: SITE_URL,
+      description: SITE_DESC,
+      founder: {
+        '@type': 'Person',
+        name: 'Savan Kong',
+        url: `${SITE_URL}/about`,
+        jobTitle: 'Founder & Host',
+      },
+      sameAs: [
+        'https://www.youtube.com/@LifeBetweenTitles',
+        'https://lifebetweentitles.substack.com',
+        'https://www.instagram.com/lifebetweentitles',
+        'https://www.linkedin.com/company/life-between-titles/',
+      ],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: SITE_NAME,
+      description: SITE_DESC,
+      publisher: { '@id': `${SITE_URL}/#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/shows?q={search_term_string}` },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'PodcastSeries',
+      name: 'Life Between Titles',
+      description: 'Raw, unscripted conversations with people in the middle of, or just on the other side of, a major career transition — layoffs, pivots, burnout, reinvention.',
+      url: `${SITE_URL}/shows#life-between-titles`,
+      author: { '@id': `${SITE_URL}/#organization` },
+      genre: 'Careers',
+      inLanguage: 'en-US',
+      webFeed: 'https://lifebetweentitles.substack.com/feed',
+    },
+    {
+      '@type': 'PodcastSeries',
+      name: 'Office Hours',
+      description: 'Structured, practical conversations with coaches, recruiters, therapists, and executives who help people navigate career transitions.',
+      url: `${SITE_URL}/shows#office-hours`,
+      author: { '@id': `${SITE_URL}/#organization` },
+      genre: 'Careers',
+      inLanguage: 'en-US',
+    },
+    {
+      '@type': 'PodcastSeries',
+      name: 'Work, Unscripted',
+      description: 'A deep dive into careers most people have never considered — unusual, surprising paths that do not show up in guidance counselors\' offices.',
+      url: `${SITE_URL}/shows#work-unscripted`,
+      author: { '@id': `${SITE_URL}/#organization` },
+      genre: 'Careers',
+      inLanguage: 'en-US',
+    },
+  ],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -27,8 +115,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&family=Wix+Madefor+Text:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
           rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body>
