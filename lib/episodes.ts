@@ -1,6 +1,11 @@
 export type Show = 'Life Between Titles' | 'Work Unscripted' | 'Office Hours'
 export type Status = 'Published' | 'Recorded' | 'Scheduled' | 'Reached Out' | 'To Be Planned'
 
+export interface FAQ {
+  q: string
+  a: string
+}
+
 export interface Episode {
   slug: string
   videoNumber?: number
@@ -17,6 +22,10 @@ export interface Episode {
   photo: string
   youtubeUrl?: string
   substack?: string
+  guestBio?: string
+  keyInsights?: string[]
+  faq?: FAQ[]
+  transcriptFile?: string
 }
 
 const CDN = 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367'
@@ -143,6 +152,81 @@ CHAPTERS
     photo: `${CDN}/7d4c7999-6b47-4aef-897e-087f10deeacc/IMG_8366.jpeg`,
     youtubeUrl: 'https://youtu.be/LpJ0p-HIoeE',
     substack: 'https://lifebetweentitles.substack.com/p/two-mics-one-mission',
+  },
+  {
+    slug: 'vanny-whitchelo-khmer-voices-cambodian-podcaster',
+    show: 'Work Unscripted',
+    season: 1,
+    episode: 11,
+    guest: 'Vanny Whitchelo',
+    youtubeTitle: 'She Started a Podcast for Her Culture. Then She Built the Organization to Match.',
+    description: `Vanny Whitchelo was born in a Cambodian refugee camp in Thailand and raised in Hamilton, Ontario. She spent four years thinking about what she was missing before launching Khmer Voices, a podcast about the careers and stories of the Cambodian diaspora. While working a full-time job and raising two kids, she co-founded the Cambodian Cultural Center of Vancouver — an organization that sold out a 500-person event in two weeks.
+
+In this episode:
+• Why she spent four years thinking before she launched Khmer Voices
+• What the Black Lives Matter movement cracked open about connecting through joy instead of trauma
+• How she runs a podcast, a nonprofit, two kids, and a full-time job — and still wakes up at 5am
+• What survivor's guilt looks like for 1.5 and second-generation Cambodians
+• Why community is more powerful than your network
+• What selling out a 500-person cultural event in two weeks revealed about hunger in the diaspora
+• The advice she gives anyone who wants to start something but doesn't know what
+
+CHAPTERS
+• Born in a refugee camp: growing up 1.5 generation Cambodian in Canada
+• Why she spent four years thinking before launching the podcast
+• Connecting through joy instead of trauma
+• The themes she keeps hearing from her guests
+• Survivor's guilt and thriving vs. surviving
+• Building the Cambodian Cultural Center of Vancouver
+• How she actually manages it all: the 5am club
+• What she's most scared of for her kids' future
+• Her advice for anyone on the edge of starting something`,
+    mainTags: '#lifebetweentitles #careertransition #lifetransition #identity #workunscripted',
+    tags: '#cambodian #diaspora #podcasting #nonprofit #community',
+    resources: '',
+    status: 'Published',
+    photo: '',
+    guestBio: `Vanny Whitchelo is a Cambodian-Canadian podcaster, nonprofit co-founder, and community builder based in Vancouver, British Columbia. Born in a refugee camp in Thailand, she is part of the 1.5 generation — those born outside Cambodia who grew up straddling their parents' survival story and the life they were building in a new country. She launched Khmer Voices in October 2024, a podcast dedicated to the careers and stories of the Cambodian diaspora, after spending four years searching for something she couldn't yet name. She is also co-founder of the Cambodian Cultural Center of Vancouver, an organization she helped build from nothing into an operation that sold out a 500-person cultural event within two weeks. She does all of this while working full time and raising two children under ten.`,
+    keyInsights: [
+      'The Cambodian diaspora started from zero in 1979 — and 1.5 and second-generation Cambodians carry that history while building entirely new lives, which creates a specific kind of guilt and a specific kind of ambition.',
+      'Vanny built Khmer Voices not to connect through trauma, but to connect through joy — a reframe she credits to a woman she heard speaking during the 2020 Black Lives Matter movement.',
+      'Community is not the same as your network. Your network is broad. Your community are the people who talk about you when you\'re not in the room.',
+      'The 5am club is real. Vanny wakes at 5am to do her podcast, nonprofit work, and creative thinking before the noise of the day starts. Early mornings removed distractions, not extra hours.',
+      'Selling out a 500-person Cambodian cultural event in two weeks — with people flying in from California and Toronto — revealed that hunger doesn\'t require a large community. It requires someone to build the thing.',
+      'Podcasting became unexpected therapy. Hearing her guests\' stories helped Vanny understand her own community, her own parents\' PTSD, and the forces that shaped the choices Cambodians made after the genocide.',
+      'Her advice to anyone stuck: just do something. Action creates opportunities. Nobody is watching as closely as you think, and the fear of criticism matters less than showing up.',
+    ],
+    faq: [
+      {
+        q: 'Why did Vanny Whitchelo start the Khmer Voices podcast?',
+        a: 'Vanny launched Khmer Voices because she saw a gap: Cambodian stories of resilience and achievement weren\'t being told. The genocide that wiped out a quarter of Cambodia\'s population between 1975 and 1979 shaped the diaspora profoundly, but the narrative of the community remained focused on survival and trauma. Vanny wanted to shift that lens — to celebrate what Cambodians had built and accomplished, and to connect through joy rather than shared darkness. She was also inspired by what she saw in the Cambodian-American community in Long Beach, California, and wanted to create something similar for the diaspora in Canada.',
+      },
+      {
+        q: 'How does Vanny Whitchelo balance a podcast, a nonprofit, a full-time job, and two kids?',
+        a: 'Vanny credits three things: the 5am club, her calendar, and her support system. She wakes before the rest of her household to work in quiet, with no emails or messages coming in yet. She blocks everything that matters in her calendar — including workouts she kept skipping — because if it\'s not scheduled, it\'s not prioritized. And she doesn\'t do it alone: her husband and in-laws help with the kids, and the Cambodian Cultural Center runs on a strong volunteer team with different skill sets. She also acknowledges that each project has gotten faster as she\'s gotten more efficient.',
+      },
+      {
+        q: 'What is survivor\'s guilt for 1.5 and second-generation Cambodians?',
+        a: 'Survivor\'s guilt for this generation is the feeling that you don\'t have the right to feel sad, stressed, or frustrated — because your parents survived the Khmer Rouge genocide, came to a new country with nothing, and rebuilt from zero. When you feel that life is unfair, you catch yourself thinking: "Why am I complaining? I didn\'t have to go through what they went through." Vanny says the point is not to minimize that — it\'s to understand that the goal of life is not merely to survive. Thriving is also valid, and the human experience includes pain and injustice regardless of how bad things could have been.',
+      },
+      {
+        q: 'What themes come up most in Vanny\'s interviews on Khmer Voices?',
+        a: 'Two themes dominate: perseverance and impact. Almost every guest Vanny has interviewed shows perseverance — regardless of what field they\'re in. But the more surprising theme is that many guests don\'t start their careers driven by a specific profession. They start driven by the impact they want to make, and the career follows. One guest left a law position in France to work for an NGO in Cambodia. Another pivoted from corporate life to community organizing. The "what" of the career matters less than the "why" behind it.',
+      },
+      {
+        q: 'How did the Cambodian Cultural Center of Vancouver get started?',
+        a: 'Vanny and her co-founder met at a Vancouver production of Cambodian Rock Band — a play that had toured the US and eventually came to Canada. That show sparked the idea. They established the Cambodian Cultural Center of Vancouver in late May and threw a debut event in July that sold out 100 people with two weeks left. Their October event drew over 500 attendees — including people who flew in from California, Toronto, and Alberta — and featured Cambodian-American singer Jay Chan and nonprofit organization Rescue Cambodia. Brian Jessel BMW was the title sponsor.',
+      },
+      {
+        q: 'What advice does Vanny Whitchelo give to someone who wants to start something but doesn\'t know where to begin?',
+        a: 'Just do something. Vanny\'s advice is not to wait until the idea is fully formed. Action leads to opportunities, the right people, and the ideas themselves. She points out that she didn\'t know what she wanted to create for four years — she just kept researching her roots, listening to podcasts, and following her curiosity. The podcast didn\'t come to her until 2023. But staying in motion is what got her there. She also says not to fear what people will think — most people aren\'t watching as closely as you fear, and if they criticize, they\'re not doing it themselves.',
+      },
+      {
+        q: 'Why is community more powerful than your professional network?',
+        a: 'Vanny draws a clear distinction: your network is broad but often transactional. Your community are the people who will actually speak about you with others when you\'re not in the room — who will advocate for you, connect you to opportunities, and support you when things go wrong. She learned this through building Khmer Voices and the Cultural Center: the community she built would help her find her footing if she ever lost her nine-to-five. The podcast and nonprofit have made her network and community stronger in ways her job alone never could.',
+      },
+    ],
+    transcriptFile: 'vanny-whitchelo-khmer-voices-cambodian-podcaster.txt',
   },
   // ── Life Between Titles S1 ────────────────────────────────────
   {

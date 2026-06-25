@@ -1,3 +1,69 @@
+export interface TranscriptBlock {
+  speaker: string
+  timestamp: string
+  text: string
+}
+
+export interface TranscriptSection {
+  anchorId: string
+  label: string
+  blocks: TranscriptBlock[]
+}
+
+/** Parse a raw .txt transcript into speaker blocks, then group into ~10-min sections */
+export function parseTranscript(raw: string): TranscriptSection[] {
+  if (!raw) return []
+
+  const lines = raw.split('\n')
+  const blocks: TranscriptBlock[] = []
+  let i = 0
+
+  while (i < lines.length) {
+    const line = lines[i].trim()
+    // Match "Speaker Name (HH:MM:SS)" or "Speaker Name (MM:SS)"
+    const headerMatch = line.match(/^(.+?)\s+\((\d{1,2}:\d{2}(?::\d{2})?)\)\s*$/)
+    if (headerMatch) {
+      const speaker = headerMatch[1].trim()
+      const timestamp = headerMatch[2].trim()
+      const textLines: string[] = []
+      i++
+      while (i < lines.length) {
+        const next = lines[i].trim()
+        if (next.match(/^(.+?)\s+\(\d{1,2}:\d{2}(?::\d{2})?\)\s*$/)) break
+        if (next) textLines.push(next)
+        i++
+      }
+      const text = textLines.join(' ').trim()
+      if (text) blocks.push({ speaker, timestamp, text })
+    } else {
+      i++
+    }
+  }
+
+  // Group into sections by ~10 minutes using first block's timestamp
+  const sections: TranscriptSection[] = []
+  let currentSection: TranscriptSection | null = null
+  let sectionStartMinutes = -1
+
+  for (const block of blocks) {
+    const parts = block.timestamp.split(':').map(Number)
+    const totalMinutes = parts.length === 3
+      ? parts[0] * 60 + parts[1]
+      : parts[0]
+
+    if (!currentSection || totalMinutes - sectionStartMinutes >= 10) {
+      const label = `[${block.timestamp}]`
+      const anchorId = `t-${block.timestamp.replace(/:/g, '-')}`
+      currentSection = { anchorId, label, blocks: [] }
+      sections.push(currentSection)
+      sectionStartMinutes = totalMinutes
+    }
+    currentSection.blocks.push(block)
+  }
+
+  return sections
+}
+
 /** Parse a Notion Description field into structured sections */
 export interface ParsedEpisode {
   intro: string
