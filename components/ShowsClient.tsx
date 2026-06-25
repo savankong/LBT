@@ -21,109 +21,192 @@ export default function ShowsClient() {
 
   const visible = EPISODES
     .filter(e => active === 'All' || e.show === active)
-    .filter(e => e.youtubeTitle && e.youtubeTitle !== e.guest) // skip placeholder-only entries
+    .filter(e => e.youtubeTitle && e.youtubeTitle !== e.guest)
     .sort((a, b) => (b.videoNumber ?? 0) - (a.videoNumber ?? 0))
 
   return (
-    <section className="section">
+    <section style={{ paddingBottom: 0 }}>
       <div className="container">
 
-        {/* Filter nav */}
-        <div style={{display:'flex',gap:10,flexWrap:'wrap',marginBottom:48}}>
-          {FILTERS.map(f => (
-            <button
-              key={f.value}
-              onClick={() => setActive(f.value)}
+        {/* Platform links */}
+        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'center', padding: '40px 0 36px' }}>
+          {[
+            { label: 'YouTube', icon: '▶', href: 'https://www.youtube.com/@LifeBetweenTitles' },
+            { label: 'Spotify', icon: '◎', href: 'https://open.spotify.com/show/lifebetweentitles' },
+            { label: 'Apple Podcasts', icon: '♫', href: 'https://podcasts.apple.com/us/podcast/life-between-titles' },
+            { label: 'Substack', icon: '✉', href: 'https://lifebetweentitles.substack.com' },
+          ].map(p => (
+            <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer"
               style={{
-                padding:'10px 22px',
-                borderRadius:100,
-                fontSize:'.84rem',
-                fontWeight:600,
-                letterSpacing:'-.01em',
-                border: active === f.value ? 'none' : '1.5px solid var(--border-med)',
-                background: active === f.value ? 'var(--ink)' : 'transparent',
-                color: active === f.value ? '#fff' : 'var(--muted)',
-                transition:'all .18s',
-                cursor:'pointer',
+                display: 'inline-flex', alignItems: 'center', gap: 8,
+                padding: '10px 20px', borderRadius: 100,
+                border: '1.5px solid var(--border-med)',
+                fontSize: '.84rem', fontWeight: 600, color: 'var(--ink)',
+                transition: 'border-color .18s, background .18s',
+              }}
+              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--ink)'; (e.currentTarget as HTMLElement).style.background = 'rgba(0,0,0,.03)' }}
+              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border-med)'; (e.currentTarget as HTMLElement).style.background = 'transparent' }}
+            >
+              <span style={{ fontSize: '.7rem' }}>{p.icon}</span>
+              {p.label}
+            </a>
+          ))}
+        </div>
+
+        {/* Filter tabs */}
+        <div style={{
+          display: 'flex', gap: 0, borderBottom: '1px solid var(--border)',
+          marginBottom: 0, overflowX: 'auto',
+        }}>
+          {FILTERS.map(f => (
+            <button key={f.value} onClick={() => setActive(f.value)}
+              style={{
+                padding: '14px 22px',
+                fontSize: '.78rem', fontWeight: 700,
+                letterSpacing: '.08em', textTransform: 'uppercase',
+                border: 'none', borderBottom: active === f.value ? '2px solid var(--ink)' : '2px solid transparent',
+                background: 'transparent',
+                color: active === f.value ? 'var(--ink)' : 'var(--faint)',
+                cursor: 'pointer', whiteSpace: 'nowrap',
+                transition: 'color .18s, border-color .18s',
+                marginBottom: '-1px',
               }}
             >
               {f.label}
-              {f.value !== 'All' && (
-                <span style={{
-                  marginLeft:8,
-                  fontSize:'.75rem',
-                  background: active === f.value ? 'rgba(255,255,255,.18)' : 'rgba(0,0,0,.06)',
-                  borderRadius:20,
-                  padding:'1px 7px',
-                  color: active === f.value ? '#fff' : 'var(--faint)',
-                }}>
-                  {EPISODES.filter(e => e.show === f.value && e.youtubeTitle !== e.guest).length}
-                </span>
-              )}
             </button>
           ))}
         </div>
 
-        {/* Count */}
-        <p style={{fontSize:'.82rem',color:'var(--faint)',marginBottom:28,fontWeight:500}}>
-          {visible.length} episode{visible.length !== 1 ? 's' : ''}
-          {active !== 'All' ? ` · ${active}` : ''}
-        </p>
-
-        {/* Grid */}
+        {/* Episode list */}
         {visible.length === 0 ? (
-          <div className="glass" style={{borderRadius:16,padding:48,textAlign:'center',maxWidth:480}}>
-            <p style={{marginBottom:20}}>No episodes yet — subscribe to stay in the loop.</p>
+          <div style={{ padding: '64px 0', textAlign: 'center' }}>
+            <p style={{ marginBottom: 20 }}>No episodes yet — subscribe to stay in the loop.</p>
             <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Subscribe on Substack</a>
           </div>
         ) : (
-          <div className="episodes-grid">
-            {visible.map((ep) => {
+          <div>
+            {visible.map((ep, idx) => {
               const color = SHOW_COLOR[ep.show]
+              const epNum = ep.episode ? `EP · ${String(ep.episode).padStart(3, '0')}` : ''
               return (
-                <Link href={`/shows/${ep.slug}`} key={ep.slug} style={{textDecoration:'none',display:'flex',flexDirection:'column'}}>
-                  <article className="episode-card glass" style={{height:'100%',display:'flex',flexDirection:'column'}}>
-                    {/* Photo or colour block */}
-                    <div className="episode-card-img" style={{position:'relative',background:ep.photo ? undefined : `${color}18`}}>
-                      {ep.photo ? (
-                        <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" />
-                      ) : (
-                        <div style={{width:'100%',height:'100%',display:'flex',alignItems:'center',
-                          justifyContent:'center',fontSize:'2rem',fontWeight:800,
-                          color,fontFamily:'var(--font-display,inherit)',letterSpacing:'-.04em',
-                          padding:16,textAlign:'center',lineHeight:1.1}}>
-                          {ep.guest.split(' ').map(w => w[0]).join('').slice(0,2)}
-                        </div>
-                      )}
-                      {/* Show colour bar overlay */}
-                      <div style={{position:'absolute',top:0,left:0,right:0,height:3,background:color}} />
-                    </div>
+                <article key={ep.slug} style={{
+                  display: 'grid',
+                  gridTemplateColumns: '180px 72px 1fr auto',
+                  gap: 0,
+                  alignItems: 'stretch',
+                  borderBottom: '1px solid var(--border)',
+                  minHeight: 120,
+                }}>
+                  {/* Thumbnail */}
+                  <div style={{ position: 'relative', overflow: 'hidden', background: ep.photo ? undefined : `${color}12` }}>
+                    {ep.photo ? (
+                      <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                    ) : (
+                      <div style={{
+                        width: '100%', height: '100%', minHeight: 120,
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        fontSize: '1.5rem', fontWeight: 800, color,
+                        letterSpacing: '-.04em',
+                      }}>
+                        {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
+                      </div>
+                    )}
+                    <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: color }} />
+                  </div>
 
-                    <div className="episode-card-body" style={{padding:'16px 18px 20px',flex:1,display:'flex',flexDirection:'column'}}>
-                      <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:8}}>
-                        <span className="ep-show-tag" style={{color}}>{ep.show}</span>
-                        {ep.season && ep.episode && (
-                          <span style={{fontSize:'.7rem',color:'var(--faint)',fontWeight:600,letterSpacing:'.04em'}}>
-                            S{ep.season < 10 ? '0' : ''}{ep.season}E{String(ep.episode).padStart(2,'0')}
-                          </span>
-                        )}
-                      </div>
-                      <h4 style={{marginBottom:'auto',lineHeight:1.4,fontSize:'.88rem',paddingBottom:12}}>
-                        {ep.youtubeTitle}
-                      </h4>
-                      <div style={{paddingTop:12,borderTop:'1px solid var(--border)',
-                        display:'flex',alignItems:'center',justifyContent:'space-between'}}>
-                        <span style={{fontSize:'.78rem',color:'var(--muted)',fontWeight:600}}>{ep.guest}</span>
-                        <span style={{
-                          fontSize:'.68rem',fontWeight:700,letterSpacing:'.04em',textTransform:'uppercase',
-                          padding:'3px 9px',borderRadius:20,
-                          background: ep.status === 'Published' ? 'rgba(194,106,74,.1)' : 'rgba(0,0,0,.05)',
-                          color: ep.status === 'Published' ? 'var(--terra)' : 'var(--faint)',
-                        }}>{ep.status}</span>
-                      </div>
+                  {/* Episode number — vertical */}
+                  <div style={{
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    borderRight: '1px solid var(--border)',
+                    padding: '0 8px',
+                  }}>
+                    <span style={{
+                      writingMode: 'vertical-rl',
+                      textOrientation: 'mixed',
+                      transform: 'rotate(180deg)',
+                      fontSize: '.65rem', fontWeight: 700,
+                      letterSpacing: '.12em', textTransform: 'uppercase',
+                      color: 'var(--faint)',
+                    }}>
+                      {epNum || ep.show.split(' ').map(w => w[0]).join('')}
+                    </span>
+                  </div>
+
+                  {/* Content */}
+                  <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 8 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                      <span style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color }}>{ep.show}</span>
+                      <span style={{ fontSize: '.7rem', color: 'var(--faint)', fontWeight: 500 }}>{ep.guest}</span>
                     </div>
-                  </article>
-                </Link>
+                    <Link href={`/shows/${ep.slug}`} style={{ textDecoration: 'none' }}>
+                      <h3 style={{
+                        fontSize: 'clamp(.9rem,1.4vw,1.05rem)',
+                        fontWeight: 700,
+                        color: 'var(--ink)',
+                        lineHeight: 1.35,
+                        letterSpacing: '-.01em',
+                        fontFamily: 'inherit',
+                        transition: 'color .15s',
+                      }}
+                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = color}
+                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--ink)'}
+                      >
+                        {ep.youtubeTitle.toUpperCase()}
+                      </h3>
+                    </Link>
+                    <Link href={`/shows/${ep.slug}`}
+                      style={{ fontSize: '.75rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--faint)', textDecoration: 'underline', textUnderlineOffset: 3 }}>
+                      Read More
+                    </Link>
+                  </div>
+
+                  {/* Actions */}
+                  <div style={{
+                    display: 'flex', flexDirection: 'column', gap: 0,
+                    borderLeft: '1px solid var(--border)',
+                    minWidth: 110,
+                  }}>
+                    {ep.youtubeUrl ? (
+                      <a href={ep.youtubeUrl} target="_blank" rel="noopener noreferrer"
+                        style={{
+                          flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                          fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
+                          color: 'var(--ink)', borderBottom: '1px solid var(--border)',
+                          padding: '0 20px', transition: 'background .15s',
+                        }}
+                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--bg2)'}
+                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'transparent'}
+                      >
+                        Watch <span style={{ fontSize: '1rem' }}>▶</span>
+                      </a>
+                    ) : (
+                      <Link href={`/shows/${ep.slug}`}
+                        style={{
+                          flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                          fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
+                          color: 'var(--ink)', borderBottom: '1px solid var(--border)',
+                          padding: '0 20px', transition: 'background .15s',
+                        }}
+                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--bg2)'}
+                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'transparent'}
+                      >
+                        Watch <span style={{ fontSize: '1rem' }}>▶</span>
+                      </Link>
+                    )}
+                    <Link href={`/shows/${ep.slug}`}
+                      style={{
+                        flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                        fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
+                        color: 'var(--ink)', padding: '0 20px', transition: 'background .15s',
+                      }}
+                      onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--bg2)'}
+                      onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'transparent'}
+                    >
+                      Listen <span style={{ fontSize: '1rem' }}>🔊</span>
+                    </Link>
+                  </div>
+                </article>
               )
             })}
           </div>
