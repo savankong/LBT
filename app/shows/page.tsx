@@ -1,5 +1,8 @@
 import type { Metadata } from 'next'
 import ShowsClient from '@/components/ShowsClient'
+import { getEpisodes } from '@/lib/episodes-db'
+
+export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
   title: 'Episodes | Life Between Titles',
@@ -11,7 +14,9 @@ export const metadata: Metadata = {
   },
 }
 
-export default function ShowsPage() {
+export default async function ShowsPage() {
+  const episodes = await getEpisodes()
+
   return (
     <>
       <div style={{ paddingTop: 'var(--nav-h)', borderBottom: '1px solid var(--border)', background: 'var(--bg)' }}>
@@ -21,7 +26,7 @@ export default function ShowsPage() {
         </div>
       </div>
 
-      <ShowsClient />
+      <ShowsClient episodes={episodes} />
 
       <div style={{ height: 80 }} />
     </>

@@ -3,16 +3,17 @@ import path from 'path'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { EPISODES, BY_SLUG, getAdjacentEpisodes } from '@/lib/episodes'
+import { getEpisodes, getEpisode, getAdjacentEpisodesDB } from '@/lib/episodes-db'
 import { parseDescription, parseTranscript } from '@/lib/parseEpisode'
 
 export async function generateStaticParams() {
-  return EPISODES.map(e => ({ slug: e.slug }))
+  const episodes = await getEpisodes()
+  return episodes.map(e => ({ slug: e.slug }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
-  const ep = BY_SLUG(slug)
+  const ep = await getEpisode(slug)
   if (!ep) return {}
   const title = ep.guest !== 'Savan Kong'
     ? `${ep.guest} on ${ep.show} | Life Between Titles`
@@ -47,16 +48,17 @@ function getYoutubeId(url: string) {
 
 export default async function EpisodePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const ep = BY_SLUG(slug)
+  const ep = await getEpisode(slug)
   if (!ep) notFound()
 
   const color = SHOW_COLOR[ep.show] ?? 'var(--terra)'
   const allTags = [ep.mainTags, ep.tags].filter(Boolean).join(' ').split(' ').filter(t => t.startsWith('#'))
   const { intro, bullets, chapters } = parseDescription(ep.description)
-  const { prev, next } = getAdjacentEpisodes(slug)
+  const { prev, next } = await getAdjacentEpisodesDB(slug)
   const youtubeId = ep.youtubeUrl ? getYoutubeId(ep.youtubeUrl) : null
 
-  const related = EPISODES
+  const allEpisodes = await getEpisodes()
+  const related = allEpisodes
     .filter(e => e.slug !== ep.slug && e.show === ep.show && e.status === 'Published')
     .slice(0, 3)
 
@@ -117,37 +119,20 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
       ) : ep.photo ? (
-        <div style={{
-          paddingTop: 'var(--nav-h)', background: '#000',
-          position: 'relative', height: 'clamp(320px, 50vw, 560px)',
-          overflow: 'hidden',
-        }}>
+        <div style={{ paddingTop: 'var(--nav-h)', background: '#000', position: 'relative', height: 'clamp(320px, 50vw, 560px)', overflow: 'hidden' }}>
           <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
             style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: .55 }} />
           <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <a href="https://www.youtube.com/@LifeBetweenTitles" target="_blank" rel="noopener noreferrer"
-              style={{
-                width: 72, height: 72, borderRadius: '50%',
-                background: 'rgba(255,255,255,.18)', backdropFilter: 'blur(8px)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: '1.6rem', color: '#fff', border: '2px solid rgba(255,255,255,.4)',
-              }}>▶</a>
+              style={{ width: 72, height: 72, borderRadius: '50%', background: 'rgba(255,255,255,.18)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.6rem', color: '#fff', border: '2px solid rgba(255,255,255,.4)' }}>▶</a>
           </div>
         </div>
       ) : (
-        <div style={{
-          paddingTop: 'var(--nav-h)', background: `${color}18`,
-          height: 'clamp(160px, 20vw, 240px)',
-          borderBottom: '1px solid var(--border)',
-        }} />
+        <div style={{ paddingTop: 'var(--nav-h)', background: `${color}18`, height: 'clamp(160px, 20vw, 240px)', borderBottom: '1px solid var(--border)' }} />
       )}
 
       <div style={{ borderBottom: '1px solid var(--border)', background: 'var(--bg)' }}>
-        <div className="container" style={{
-          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-          padding: '14px clamp(20px,5vw,64px)',
-          fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-        }}>
+        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '14px clamp(20px,5vw,64px)', fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase' }}>
           {prev ? (
             <Link href={`/shows/${prev.slug}`} className="ep-nav-link" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>← Prev</Link>
           ) : <span />}
@@ -170,12 +155,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               { label: 'Substack', href: 'https://lifebetweentitles.substack.com' },
             ].map(p => (
               <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer" className="platform-pill"
-                style={{
-                  display: 'inline-flex', alignItems: 'center', gap: 7,
-                  padding: '8px 18px', borderRadius: 100,
-                  fontSize: '.76rem', fontWeight: 700, letterSpacing: '.04em',
-                  color: 'var(--ink)',
-                }}>
+                style={{ display: 'inline-flex', alignItems: 'center', gap: 7, padding: '8px 18px', borderRadius: 100, fontSize: '.76rem', fontWeight: 700, letterSpacing: '.04em', color: 'var(--ink)' }}>
                 {p.label}
               </a>
             ))}
@@ -183,12 +163,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           <div style={{ marginBottom: 16 }}>
             <span style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color }}>{ep.show}</span>
           </div>
-          <h1 style={{
-            fontSize: 'clamp(1.4rem,3.4vw,2.4rem)',
-            lineHeight: 1.15, letterSpacing: '-.02em',
-            marginBottom: ep.guest !== 'Savan Kong' ? 16 : 0,
-            textTransform: 'uppercase',
-          }}>
+          <h1 style={{ fontSize: 'clamp(1.4rem,3.4vw,2.4rem)', lineHeight: 1.15, letterSpacing: '-.02em', marginBottom: ep.guest !== 'Savan Kong' ? 16 : 0, textTransform: 'uppercase' }}>
             {ep.youtubeTitle}
           </h1>
           {ep.guest !== 'Savan Kong' && (
@@ -200,9 +175,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       <div style={{ background: 'var(--bg)' }}>
         <div className="container" style={{ maxWidth: 760, paddingTop: 56, paddingBottom: 64 }}>
 
-          {intro && (
-            <p style={{ fontSize: '1rem', lineHeight: 1.82, color: 'var(--muted)', marginBottom: 48 }}>{intro}</p>
-          )}
+          {intro && <p style={{ fontSize: '1rem', lineHeight: 1.82, color: 'var(--muted)', marginBottom: 48 }}>{intro}</p>}
 
           {ep.keyInsights && ep.keyInsights.length > 0 && (
             <div style={{ marginBottom: 48 }}>
@@ -230,17 +203,10 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           )}
 
           {ep.substack && (
-            <div style={{
-              borderRadius: 12, padding: '28px 32px', marginBottom: 48,
-              background: `${color}08`, border: `1px solid ${color}28`, borderLeft: `3px solid ${color}`,
-            }}>
+            <div style={{ borderRadius: 12, padding: '28px 32px', marginBottom: 48, background: `${color}08`, border: `1px solid ${color}28`, borderLeft: `3px solid ${color}` }}>
               <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 10 }}>Feature Story</p>
-              <p style={{ fontSize: '.93rem', lineHeight: 1.72, color: 'var(--muted)', marginBottom: 16 }}>
-                We turned this conversation into a long-form essay — with more context, more depth, and the moments that didn&apos;t make the edit.
-              </p>
-              <a href={ep.substack} target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.82rem', padding: '10px 20px' }}>
-                Read on Substack →
-              </a>
+              <p style={{ fontSize: '.93rem', lineHeight: 1.72, color: 'var(--muted)', marginBottom: 16 }}>We turned this conversation into a long-form essay — with more context, more depth, and the moments that didn&apos;t make the edit.</p>
+              <a href={ep.substack} target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.82rem', padding: '10px 20px' }}>Read on Substack →</a>
             </div>
           )}
 
@@ -249,13 +215,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>What We Discuss</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                 {chapters.map((ch, i) => (
-                  <div key={i} style={{
-                    display: 'flex', alignItems: 'flex-start', gap: 16, padding: '10px 0',
-                    borderBottom: i < chapters.length - 1 ? '1px solid var(--border)' : 'none',
-                  }}>
-                    {ch.time && (
-                      <span style={{ flexShrink: 0, fontVariantNumeric: 'tabular-nums', fontSize: '.78rem', fontWeight: 700, color, minWidth: 48 }}>{ch.time}</span>
-                    )}
+                  <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, padding: '10px 0', borderBottom: i < chapters.length - 1 ? '1px solid var(--border)' : 'none' }}>
+                    {ch.time && <span style={{ flexShrink: 0, fontVariantNumeric: 'tabular-nums', fontSize: '.78rem', fontWeight: 700, color, minWidth: 48 }}>{ch.time}</span>}
                     <span style={{ fontSize: '.9rem', color: 'var(--muted)', lineHeight: 1.5 }}>{ch.label}</span>
                   </div>
                 ))}
@@ -267,9 +228,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             <div style={{ marginBottom: 48 }}>
               <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>Episode Resources</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                {ep.resources.split('|').map((r, i) => (
-                  <p key={i} style={{ fontSize: '.9rem', lineHeight: 1.7, margin: 0 }}>{r.trim()}</p>
-                ))}
+                {ep.resources.split('|').map((r, i) => <p key={i} style={{ fontSize: '.9rem', lineHeight: 1.7, margin: 0 }}>{r.trim()}</p>)}
               </div>
             </div>
           )}
@@ -320,16 +279,11 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             <article style={{ display: 'flex', flexDirection: 'column', gap: 40 }}>
               {transcriptSections.map(sec => (
                 <div key={sec.anchorId} id={sec.anchorId}>
-                  <h2 style={{
-                    fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase',
-                    color, marginBottom: 20, paddingBottom: 8, borderBottom: `1px solid ${color}28`,
-                  }}>{sec.label}</h2>
+                  <h2 style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 20, paddingBottom: 8, borderBottom: `1px solid ${color}28` }}>{sec.label}</h2>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                     {sec.blocks.map((block, i) => (
                       <div key={i} style={{ display: 'grid', gridTemplateColumns: '120px 1fr', gap: 16, alignItems: 'flex-start' }}>
-                        <span style={{ fontSize: '.73rem', fontWeight: 700, color: 'var(--faint)', paddingTop: 2, textTransform: 'uppercase', letterSpacing: '.04em', lineHeight: 1.4 }}>
-                          {block.speaker}
-                        </span>
+                        <span style={{ fontSize: '.73rem', fontWeight: 700, color: 'var(--faint)', paddingTop: 2, textTransform: 'uppercase', letterSpacing: '.04em', lineHeight: 1.4 }}>{block.speaker}</span>
                         <p style={{ fontSize: '.92rem', lineHeight: 1.78, color: 'var(--muted)', margin: 0 }}>{block.text}</p>
                       </div>
                     ))}
@@ -350,15 +304,10 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 const rc = SHOW_COLOR[r.show] ?? 'var(--terra)'
                 return (
                   <Link key={r.slug} href={`/shows/${r.slug}`} style={{ textDecoration: 'none' }}>
-                    <article className="related-card" style={{
-                      borderRadius: 12, overflow: 'hidden',
-                      border: '1px solid var(--border-med)',
-                      background: 'var(--bg)',
-                    }}>
+                    <article className="related-card" style={{ borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border-med)', background: 'var(--bg)' }}>
                       <div style={{ aspectRatio: '16/9', background: r.photo ? undefined : `${rc}12`, overflow: 'hidden', position: 'relative' }}>
                         {r.photo ? (
-                          <img src={r.photo} alt={r.guest} referrerPolicy="no-referrer"
-                            style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                          <img src={r.photo} alt={r.guest} referrerPolicy="no-referrer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         ) : (
                           <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.8rem', fontWeight: 800, color: rc }}>
                             {r.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}

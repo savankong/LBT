@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
-import { EPISODES, type Show } from '@/lib/episodes'
+import type { Episode, Show } from '@/lib/episodes'
 
 const FILTERS: { label: string; value: Show | 'All' }[] = [
   { label: 'All Episodes', value: 'All' },
@@ -16,13 +16,12 @@ const SHOW_COLOR: Record<Show, string> = {
   'Office Hours': '#7c4ac2',
 }
 
-export default function ShowsClient() {
+export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
   const [active, setActive] = useState<Show | 'All'>('All')
 
-  const visible = EPISODES
+  const visible = episodes
     .filter(e => active === 'All' || e.show === active)
     .filter(e => e.youtubeTitle && e.youtubeTitle !== e.guest)
-    .sort((a, b) => (b.videoNumber ?? 0) - (a.videoNumber ?? 0))
 
   return (
     <section style={{ paddingBottom: 0 }}>
@@ -37,16 +36,12 @@ export default function ShowsClient() {
             { label: 'Substack', icon: '✉', href: 'https://lifebetweentitles.substack.com' },
           ].map(p => (
             <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer"
+              className="platform-pill"
               style={{
                 display: 'inline-flex', alignItems: 'center', gap: 8,
                 padding: '10px 20px', borderRadius: 100,
-                border: '1.5px solid var(--border-med)',
                 fontSize: '.84rem', fontWeight: 600, color: 'var(--ink)',
-                transition: 'border-color .18s, background .18s',
-              }}
-              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--ink)'; (e.currentTarget as HTMLElement).style.background = 'rgba(0,0,0,.03)' }}
-              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border-med)'; (e.currentTarget as HTMLElement).style.background = 'transparent' }}
-            >
+              }}>
               <span style={{ fontSize: '.7rem' }}>{p.icon}</span>
               {p.label}
             </a>
@@ -54,10 +49,7 @@ export default function ShowsClient() {
         </div>
 
         {/* Filter tabs */}
-        <div style={{
-          display: 'flex', gap: 0, borderBottom: '1px solid var(--border)',
-          marginBottom: 0, overflowX: 'auto',
-        }}>
+        <div style={{ display: 'flex', gap: 0, borderBottom: '1px solid var(--border)', marginBottom: 0, overflowX: 'auto' }}>
           {FILTERS.map(f => (
             <button key={f.value} onClick={() => setActive(f.value)}
               style={{
@@ -85,7 +77,7 @@ export default function ShowsClient() {
           </div>
         ) : (
           <div>
-            {visible.map((ep, idx) => {
+            {visible.map((ep) => {
               const color = SHOW_COLOR[ep.show]
               const epNum = ep.episode ? `EP · ${String(ep.episode).padStart(3, '0')}` : ''
               return (
@@ -107,7 +99,6 @@ export default function ShowsClient() {
                         width: '100%', height: '100%', minHeight: 120,
                         display: 'flex', alignItems: 'center', justifyContent: 'center',
                         fontSize: '1.5rem', fontWeight: 800, color,
-                        letterSpacing: '-.04em',
                       }}>
                         {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
                       </div>
@@ -118,15 +109,11 @@ export default function ShowsClient() {
                   {/* Episode number — vertical */}
                   <div style={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    borderRight: '1px solid var(--border)',
-                    padding: '0 8px',
+                    borderRight: '1px solid var(--border)', padding: '0 8px',
                   }}>
                     <span style={{
-                      writingMode: 'vertical-rl',
-                      textOrientation: 'mixed',
-                      transform: 'rotate(180deg)',
-                      fontSize: '.65rem', fontWeight: 700,
-                      letterSpacing: '.12em', textTransform: 'uppercase',
+                      writingMode: 'vertical-rl', textOrientation: 'mixed', transform: 'rotate(180deg)',
+                      fontSize: '.65rem', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase',
                       color: 'var(--faint)',
                     }}>
                       {epNum || ep.show.split(' ').map(w => w[0]).join('')}
@@ -141,17 +128,9 @@ export default function ShowsClient() {
                     </div>
                     <Link href={`/shows/${ep.slug}`} style={{ textDecoration: 'none' }}>
                       <h3 style={{
-                        fontSize: 'clamp(.9rem,1.4vw,1.05rem)',
-                        fontWeight: 700,
-                        color: 'var(--ink)',
-                        lineHeight: 1.35,
-                        letterSpacing: '-.01em',
-                        fontFamily: 'inherit',
-                        transition: 'color .15s',
-                      }}
-                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = color}
-                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--ink)'}
-                      >
+                        fontSize: 'clamp(.9rem,1.4vw,1.05rem)', fontWeight: 700, color: 'var(--ink)',
+                        lineHeight: 1.35, letterSpacing: '-.01em', fontFamily: 'inherit',
+                      }}>
                         {ep.youtubeTitle.toUpperCase()}
                       </h3>
                     </Link>
@@ -162,47 +141,33 @@ export default function ShowsClient() {
                   </div>
 
                   {/* Actions */}
-                  <div style={{
-                    display: 'flex', flexDirection: 'column', gap: 0,
-                    borderLeft: '1px solid var(--border)',
-                    minWidth: 110,
-                  }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 0, borderLeft: '1px solid var(--border)', minWidth: 110 }}>
                     {ep.youtubeUrl ? (
                       <a href={ep.youtubeUrl} target="_blank" rel="noopener noreferrer"
+                        className="ep-row-action"
                         style={{
                           flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
                           fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-                          color: 'var(--ink)', borderBottom: '1px solid var(--border)',
-                          padding: '0 20px', transition: 'background .15s',
-                        }}
-                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--bg2)'}
-                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'transparent'}
-                      >
+                          color: 'var(--ink)', borderBottom: '1px solid var(--border)', padding: '0 20px',
+                        }}>
                         Watch <span style={{ fontSize: '1rem' }}>▶</span>
                       </a>
                     ) : (
-                      <Link href={`/shows/${ep.slug}`}
+                      <Link href={`/shows/${ep.slug}`} className="ep-row-action"
                         style={{
                           flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
                           fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-                          color: 'var(--ink)', borderBottom: '1px solid var(--border)',
-                          padding: '0 20px', transition: 'background .15s',
-                        }}
-                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--bg2)'}
-                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'transparent'}
-                      >
+                          color: 'var(--ink)', borderBottom: '1px solid var(--border)', padding: '0 20px',
+                        }}>
                         Watch <span style={{ fontSize: '1rem' }}>▶</span>
                       </Link>
                     )}
-                    <Link href={`/shows/${ep.slug}`}
+                    <Link href={`/shows/${ep.slug}`} className="ep-row-action"
                       style={{
                         flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
                         fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-                        color: 'var(--ink)', padding: '0 20px', transition: 'background .15s',
-                      }}
-                      onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--bg2)'}
-                      onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'transparent'}
-                    >
+                        color: 'var(--ink)', padding: '0 20px',
+                      }}>
                       Listen <span style={{ fontSize: '1rem' }}>🔊</span>
                     </Link>
                   </div>

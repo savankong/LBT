@@ -13,3 +13,4 @@ yarn-error.log*
 .netlify
 .claude/
 *.tsbuildinfo
+.env.local
