@@ -28,33 +28,33 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
       <div className="container">
 
         {/* Platform links */}
-        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'center', padding: '40px 0 36px' }}>
+        <div className="ep-platform-bar">
           {[
             { label: 'YouTube', icon: '▶', href: 'https://www.youtube.com/@LifeBetweenTitles' },
-            { label: 'Spotify', icon: '◎', href: 'https://open.spotify.com/show/lifebetweentitles' },
-            { label: 'Apple Podcasts', icon: '♫', href: 'https://podcasts.apple.com/us/podcast/life-between-titles' },
+            { label: 'Spotify', icon: '🎧', href: 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir' },
+            { label: 'Apple Podcasts', icon: '🎙', href: 'https://podcasts.apple.com/us/podcast/life-between-titles/id1844748787' },
             { label: 'Substack', icon: '✉', href: 'https://lifebetweentitles.substack.com' },
           ].map(p => (
             <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer"
               className="platform-pill"
               style={{
-                display: 'inline-flex', alignItems: 'center', gap: 8,
-                padding: '10px 20px', borderRadius: 100,
-                fontSize: '.84rem', fontWeight: 600, color: 'var(--ink)',
+                display: 'inline-flex', alignItems: 'center', gap: 7,
+                padding: '9px 18px', borderRadius: 100,
+                fontSize: '.82rem', fontWeight: 600, color: 'var(--ink)',
               }}>
-              <span style={{ fontSize: '.7rem' }}>{p.icon}</span>
+              <span style={{ fontSize: '.75rem' }}>{p.icon}</span>
               {p.label}
             </a>
           ))}
         </div>
 
         {/* Filter tabs */}
-        <div style={{ display: 'flex', gap: 0, borderBottom: '1px solid var(--border)', marginBottom: 0, overflowX: 'auto' }}>
+        <div className="ep-filter-tabs">
           {FILTERS.map(f => (
             <button key={f.value} onClick={() => setActive(f.value)}
               style={{
-                padding: '14px 22px',
-                fontSize: '.78rem', fontWeight: 700,
+                padding: '14px 20px',
+                fontSize: '.76rem', fontWeight: 700,
                 letterSpacing: '.08em', textTransform: 'uppercase',
                 border: 'none', borderBottom: active === f.value ? '2px solid var(--ink)' : '2px solid transparent',
                 background: 'transparent',
@@ -62,6 +62,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                 cursor: 'pointer', whiteSpace: 'nowrap',
                 transition: 'color .18s, border-color .18s',
                 marginBottom: '-1px',
+                flexShrink: 0,
               }}
             >
               {f.label}
@@ -81,24 +82,18 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
               const color = SHOW_COLOR[ep.show]
               const epNum = ep.episode ? `EP · ${String(ep.episode).padStart(3, '0')}` : ''
               return (
-                <article key={ep.slug} style={{
-                  display: 'grid',
-                  gridTemplateColumns: '180px 72px 1fr auto',
-                  gap: 0,
-                  alignItems: 'stretch',
-                  borderBottom: '1px solid var(--border)',
-                  minHeight: 120,
-                }}>
+                <article key={ep.slug} className="ep-row">
+
                   {/* Thumbnail */}
-                  <div style={{ position: 'relative', overflow: 'hidden', background: ep.photo ? undefined : `${color}12` }}>
+                  <div className="ep-row-thumb" style={{ background: ep.photo ? undefined : `${color}12` }}>
                     {ep.photo ? (
                       <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
                         style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                     ) : (
                       <div style={{
-                        width: '100%', height: '100%', minHeight: 120,
+                        width: '100%', height: '100%', minHeight: 100,
                         display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        fontSize: '1.5rem', fontWeight: 800, color,
+                        fontSize: '1.4rem', fontWeight: 800, color,
                       }}>
                         {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
                       </div>
@@ -106,14 +101,11 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                     <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: color }} />
                   </div>
 
-                  {/* Episode number — vertical */}
-                  <div style={{
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    borderRight: '1px solid var(--border)', padding: '0 8px',
-                  }}>
+                  {/* Episode number — vertical, hidden on mobile via CSS */}
+                  <div className="ep-row-num" style={{ borderRight: '1px solid var(--border)' }}>
                     <span style={{
                       writingMode: 'vertical-rl', textOrientation: 'mixed', transform: 'rotate(180deg)',
-                      fontSize: '.65rem', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase',
+                      fontSize: '.62rem', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase',
                       color: 'var(--faint)',
                     }}>
                       {epNum || ep.show.split(' ').map(w => w[0]).join('')}
@@ -121,54 +113,54 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                   </div>
 
                   {/* Content */}
-                  <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 8 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                      <span style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color }}>{ep.show}</span>
-                      <span style={{ fontSize: '.7rem', color: 'var(--faint)', fontWeight: 500 }}>{ep.guest}</span>
+                  <div className="ep-row-content">
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+                      <span style={{ fontSize: '.68rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color }}>{ep.show}</span>
+                      <span style={{ fontSize: '.68rem', color: 'var(--faint)', fontWeight: 500 }}>{ep.guest}</span>
                     </div>
                     <Link href={`/shows/${ep.slug}`} style={{ textDecoration: 'none' }}>
                       <h3 style={{
-                        fontSize: 'clamp(.9rem,1.4vw,1.05rem)', fontWeight: 700, color: 'var(--ink)',
+                        fontSize: 'clamp(.88rem,1.3vw,1.02rem)', fontWeight: 700, color: 'var(--ink)',
                         lineHeight: 1.35, letterSpacing: '-.01em', fontFamily: 'inherit',
                       }}>
                         {ep.youtubeTitle.toUpperCase()}
                       </h3>
                     </Link>
                     <Link href={`/shows/${ep.slug}`}
-                      style={{ fontSize: '.75rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--faint)', textDecoration: 'underline', textUnderlineOffset: 3 }}>
+                      style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--faint)', textDecoration: 'underline', textUnderlineOffset: 3 }}>
                       Read More
                     </Link>
                   </div>
 
-                  {/* Actions */}
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 0, borderLeft: '1px solid var(--border)', minWidth: 110 }}>
+                  {/* Actions — hidden on mobile via CSS */}
+                  <div className="ep-row-actions">
                     {ep.youtubeUrl ? (
                       <a href={ep.youtubeUrl} target="_blank" rel="noopener noreferrer"
                         className="ep-row-action"
                         style={{
-                          flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
-                          fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-                          color: 'var(--ink)', borderBottom: '1px solid var(--border)', padding: '0 20px',
+                          flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7,
+                          fontSize: '.7rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
+                          color: 'var(--ink)', borderBottom: '1px solid var(--border)', padding: '0 16px',
                         }}>
-                        Watch <span style={{ fontSize: '1rem' }}>▶</span>
+                        Watch <span style={{ fontSize: '.9rem' }}>▶</span>
                       </a>
                     ) : (
                       <Link href={`/shows/${ep.slug}`} className="ep-row-action"
                         style={{
-                          flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
-                          fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-                          color: 'var(--ink)', borderBottom: '1px solid var(--border)', padding: '0 20px',
+                          flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7,
+                          fontSize: '.7rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
+                          color: 'var(--ink)', borderBottom: '1px solid var(--border)', padding: '0 16px',
                         }}>
-                        Watch <span style={{ fontSize: '1rem' }}>▶</span>
+                        Watch <span style={{ fontSize: '.9rem' }}>▶</span>
                       </Link>
                     )}
                     <Link href={`/shows/${ep.slug}`} className="ep-row-action"
                       style={{
-                        flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
-                        fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
-                        color: 'var(--ink)', padding: '0 20px',
+                        flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7,
+                        fontSize: '.7rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase',
+                        color: 'var(--ink)', padding: '0 16px',
                       }}>
-                      Listen <span style={{ fontSize: '1rem' }}>🔊</span>
+                      Listen <span style={{ fontSize: '.9rem' }}>🔊</span>
                     </Link>
                   </div>
                 </article>

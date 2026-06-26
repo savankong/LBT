@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title,
       description,
       type: 'article',
-      images: ep.photo ? [{ url: ep.photo, alt: ep.guest }] : [],
+      images: ep.photo ? [{ url: ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo, alt: ep.guest }] : [],
     },
     twitter: { card: ep.photo ? 'summary_large_image' : 'summary', title, description },
   }
@@ -41,10 +41,35 @@ const SHOW_COLOR: Record<string, string> = {
   'Office Hours': '#7c4ac2',
 }
 
+const PLATFORM_ICON: Record<string, string> = {
+  Spotify: '🎧',
+  'Apple Podcasts': '🎙',
+  'Amazon Music': '🎵',
+  YouTube: '▶',
+  Substack: '✉',
+}
+
 function getYoutubeId(url: string) {
   const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([^&?/\s]{11})/)
   return match ? match[1] : null
 }
+
+const AFFILIATES = [
+  {
+    badge: 'Sponsor',
+    heading: 'Rebuilding your résumé?',
+    body: "Teal's AI resume tool makes it easier than starting from scratch.",
+    cta: 'Try Teal Free →',
+    href: 'https://get.tealhq.com/zzNxQ7',
+  },
+  {
+    badge: 'Sponsor',
+    heading: 'Navigating anxiety during a transition?',
+    body: 'Take a free assessment and find the right support.',
+    cta: 'Take the Free Assessment →',
+    href: 'https://go.online-therapy.com/SHwO',
+  },
+]
 
 export default async function EpisodePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -73,6 +98,14 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
     }
   }
 
+  const platforms = [
+    ep.spotifyUrl ? { label: 'Spotify', href: ep.spotifyUrl } : null,
+    ep.appleUrl ? { label: 'Apple Podcasts', href: ep.appleUrl } : null,
+    ep.amazonUrl ? { label: 'Amazon Music', href: ep.amazonUrl } : null,
+    ep.youtubeUrl ? { label: 'YouTube', href: ep.youtubeUrl } : null,
+    ep.substack ? { label: 'Substack', href: ep.substack } : null,
+  ].filter(Boolean) as { label: string; href: string }[]
+
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -90,7 +123,9 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
     partOfSeries: { '@type': 'PodcastSeries', name: ep.show, url: 'https://www.lifebetweentitles.com/shows' },
     episodeNumber: ep.episode,
     url: `https://www.lifebetweentitles.com/shows/${slug}`,
-    image: ep.photo || undefined,
+    image: ep.photo ? (ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo) : undefined,
+    ...(ep.spotifyUrl ? { associatedMedia: [{ '@type': 'AudioObject', contentUrl: ep.spotifyUrl }] } : {}),
+    ...(ep.appleUrl ? { sameAs: ep.appleUrl } : {}),
     ...(ep.guest !== 'Savan Kong' ? { actor: { '@type': 'Person', name: ep.guest, ...(ep.guestBio ? { description: ep.guestBio } : {}) } } : {}),
     ...(transcriptSections.length > 0 ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#transcript'] } } : {}),
   }
@@ -106,6 +141,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(episodeLd) }} />
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
 
+      {/* ── Hero ── */}
       {youtubeId ? (
         <div style={{ paddingTop: 'var(--nav-h)', background: '#000' }}>
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
@@ -119,7 +155,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
       ) : ep.photo ? (
-        <div style={{ paddingTop: 'var(--nav-h)', background: '#000', position: 'relative', height: 'clamp(320px, 50vw, 560px)', overflow: 'hidden' }}>
+        <div style={{ paddingTop: 'var(--nav-h)', background: '#000', position: 'relative', height: 'clamp(260px,45vw,520px)', overflow: 'hidden' }}>
           <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
             style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: .55 }} />
           <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -128,179 +164,231 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
       ) : (
-        <div style={{ paddingTop: 'var(--nav-h)', background: `${color}18`, height: 'clamp(160px, 20vw, 240px)', borderBottom: '1px solid var(--border)' }} />
+        <div style={{ paddingTop: 'var(--nav-h)', background: `${color}18`, height: 'clamp(120px,16vw,200px)', borderBottom: '1px solid var(--border)' }} />
       )}
 
+      {/* ── Prev / Next nav ── */}
       <div style={{ borderBottom: '1px solid var(--border)', background: 'var(--bg)' }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '14px clamp(20px,5vw,64px)', fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase' }}>
+        <div style={{ maxWidth: 1140, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '14px clamp(20px,5vw,48px)', fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase' }}>
           {prev ? (
-            <Link href={`/shows/${prev.slug}`} className="ep-nav-link" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>← Prev</Link>
+            <Link href={`/shows/${prev.slug}`} className="ep-nav-link" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>← Prev</Link>
           ) : <span />}
-          <span style={{ color: 'var(--faint)' }}>
-            {ep.show} {ep.season && ep.episode ? `· S${String(ep.season).padStart(2,'0')} E${String(ep.episode).padStart(2,'0')}` : ''}
+          <span style={{ color: 'var(--faint)', textAlign: 'center' }}>
+            {ep.show}{ep.season && ep.episode ? ` · S${String(ep.season).padStart(2,'0')} E${String(ep.episode).padStart(2,'0')}` : ''}
           </span>
           {next ? (
-            <Link href={`/shows/${next.slug}`} className="ep-nav-link" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>Next →</Link>
+            <Link href={`/shows/${next.slug}`} className="ep-nav-link" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>Next →</Link>
           ) : <span />}
         </div>
       </div>
 
-      <div style={{ background: 'var(--bg)', paddingTop: 48, paddingBottom: 40, borderBottom: '1px solid var(--border)' }}>
-        <div className="container" style={{ maxWidth: 860, textAlign: 'center' }}>
-          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'center', marginBottom: 36 }}>
-            {[
-              ep.spotifyUrl ? { label: 'Spotify', href: ep.spotifyUrl } : null,
-              ep.appleUrl ? { label: 'Apple Podcasts', href: ep.appleUrl } : null,
-              ep.amazonUrl ? { label: 'Amazon Music', href: ep.amazonUrl } : null,
-              ep.youtubeUrl ? { label: 'YouTube', href: ep.youtubeUrl } : null,
-              ep.substack ? { label: 'Substack', href: ep.substack } : null,
-            ].filter(Boolean).map(p => p && (
-              <a key={p!.label} href={p!.href} target="_blank" rel="noopener noreferrer" className="platform-pill"
-                style={{ display: 'inline-flex', alignItems: 'center', gap: 7, padding: '8px 18px', borderRadius: 100, fontSize: '.76rem', fontWeight: 700, letterSpacing: '.04em', color: 'var(--ink)' }}>
-                {p!.label}
-              </a>
-            ))}
+      {/* ── Title / Header ── */}
+      <div style={{ background: 'var(--bg)', paddingTop: 40, paddingBottom: 36, borderBottom: '1px solid var(--border)' }}>
+        <div className="ep-detail-header" style={{ textAlign: 'center' }}>
+          <div style={{ marginBottom: 12 }}>
+            <span style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color }}>{ep.show}</span>
           </div>
-          <div style={{ marginBottom: 16 }}>
-            <span style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color }}>{ep.show}</span>
-          </div>
-          <h1 style={{ fontSize: 'clamp(1.4rem,3.4vw,2.4rem)', lineHeight: 1.15, letterSpacing: '-.02em', marginBottom: ep.guest !== 'Savan Kong' ? 16 : 0, textTransform: 'uppercase' }}>
+          <h1 style={{ fontSize: 'clamp(1.35rem,3vw,2.2rem)', lineHeight: 1.18, letterSpacing: '-.02em', marginBottom: ep.guest !== 'Savan Kong' ? 12 : 0, textTransform: 'uppercase', maxWidth: 800, margin: '0 auto' }}>
             {ep.youtubeTitle}
           </h1>
           {ep.guest !== 'Savan Kong' && (
-            <p style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--muted)', marginBottom: 0 }}>with {ep.guest}</p>
-          )}
-        </div>
-      </div>
-
-      <div style={{ background: 'var(--bg)' }}>
-        <div className="container" style={{ maxWidth: 760, paddingTop: 56, paddingBottom: 64 }}>
-
-          {intro && <p style={{ fontSize: '1rem', lineHeight: 1.82, color: 'var(--muted)', marginBottom: 48 }}>{intro}</p>}
-
-          {ep.keyInsights && ep.keyInsights.length > 0 && (
-            <div style={{ marginBottom: 48 }}>
-              <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>Key Takeaways</p>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                {ep.keyInsights.map((insight, i) => (
-                  <li key={i} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', fontSize: '.96rem', lineHeight: 1.65, color: 'var(--muted)' }}>
-                    <span style={{ color, fontWeight: 700, flexShrink: 0, marginTop: 2 }}>→</span>
-                    {insight}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <p style={{ fontSize: '.95rem', fontWeight: 600, color: 'var(--muted)', marginTop: 12, marginBottom: 0 }}>with {ep.guest}</p>
           )}
 
-          {bullets.length > 0 && (
-            <div style={{ marginBottom: 48 }}>
-              <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>In this episode you&apos;ll learn</p>
-              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
-                {bullets.map((b, i) => (
-                  <li key={i} style={{ fontSize: '.95rem', lineHeight: 1.6, color: 'var(--muted)', paddingLeft: 16, borderLeft: `2px solid ${color}` }}>{b}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          {ep.substack && (
-            <div style={{ borderRadius: 12, padding: '28px 32px', marginBottom: 48, background: `${color}08`, border: `1px solid ${color}28`, borderLeft: `3px solid ${color}` }}>
-              <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 10 }}>Feature Story</p>
-              <p style={{ fontSize: '.93rem', lineHeight: 1.72, color: 'var(--muted)', marginBottom: 16 }}>We turned this conversation into a long-form essay — with more context, more depth, and the moments that didn&apos;t make the edit.</p>
-              <a href={ep.substack} target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.82rem', padding: '10px 20px' }}>Read on Substack →</a>
-            </div>
-          )}
-
-          {chapters.length > 0 && (
-            <div style={{ marginBottom: 48 }}>
-              <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>What We Discuss</p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-                {chapters.map((ch, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, padding: '10px 0', borderBottom: i < chapters.length - 1 ? '1px solid var(--border)' : 'none' }}>
-                    {ch.time && <span style={{ flexShrink: 0, fontVariantNumeric: 'tabular-nums', fontSize: '.78rem', fontWeight: 700, color, minWidth: 48 }}>{ch.time}</span>}
-                    <span style={{ fontSize: '.9rem', color: 'var(--muted)', lineHeight: 1.5 }}>{ch.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {ep.resources && (
-            <div style={{ marginBottom: 48 }}>
-              <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>Episode Resources</p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                {ep.resources.split('|').map((r, i) => <p key={i} style={{ fontSize: '.9rem', lineHeight: 1.7, margin: 0 }}>{r.trim()}</p>)}
-              </div>
-            </div>
-          )}
-
-          {ep.faq && ep.faq.length > 0 && (
-            <div style={{ marginBottom: 48 }}>
-              <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 4 }}>Q&amp;A</p>
-              <p style={{ fontSize: '.82rem', color: 'var(--faint)', marginBottom: 24 }}>Questions answered in this episode</p>
-              {ep.faq.map(({ q, a }, i) => (
-                <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: 24, paddingBottom: 24 }}>
-                  <h3 style={{ fontSize: '.98rem', fontWeight: 700, color: 'var(--ink)', marginBottom: 12, lineHeight: 1.4, letterSpacing: '-.01em', fontFamily: 'inherit' }}>{q}</h3>
-                  <p style={{ fontSize: '.9rem', lineHeight: 1.78, color: 'var(--muted)', margin: 0 }}>{a}</p>
-                </div>
-              ))}
-            </div>
-          )}
-
-          {ep.guestBio && ep.guest !== 'Savan Kong' && (
-            <div style={{ borderTop: '1px solid var(--border)', paddingTop: 32, marginBottom: 48 }}>
-              <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>About {ep.guest}</p>
-              <p style={{ fontSize: '.9rem', lineHeight: 1.78, color: 'var(--muted)' }}>{ep.guestBio}</p>
-            </div>
-          )}
-
-          {allTags.length > 0 && (
-            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', borderTop: '1px solid var(--border)', paddingTop: 28 }}>
-              {allTags.map(t => (
-                <span key={t} style={{ padding: '5px 12px', borderRadius: 20, fontSize: '.73rem', fontWeight: 600, background: 'var(--terra-dim)', color: 'var(--terra)' }}>{t}</span>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
-
-      {transcriptSections.length > 0 && (
-        <div style={{ borderTop: '1px solid var(--border)', background: 'var(--bg2)' }} id="transcript">
-          <div className="container" style={{ maxWidth: 760, paddingTop: 64, paddingBottom: 80 }}>
-            <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 8 }}>Full Transcript</p>
-            <p style={{ fontSize: '.82rem', color: 'var(--faint)', marginBottom: 36 }}>Lightly edited for readability.</p>
-            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 48 }}>
-              {transcriptSections.map(sec => (
-                <a key={sec.anchorId} href={`#${sec.anchorId}`}
-                  style={{ padding: '4px 12px', borderRadius: 20, fontSize: '.73rem', fontWeight: 600, background: `${color}14`, color, textDecoration: 'none' }}>
-                  {sec.label}
+          {/* Platform pills — always visible, especially useful on mobile */}
+          {platforms.length > 0 && (
+            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', justifyContent: 'center', marginTop: 24 }}>
+              {platforms.map(p => (
+                <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer sponsored" className="platform-pill"
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '7px 16px', borderRadius: 100, fontSize: '.74rem', fontWeight: 700, letterSpacing: '.04em', color: 'var(--ink)' }}>
+                  {PLATFORM_ICON[p.label] && <span style={{ fontSize: '.8rem' }}>{PLATFORM_ICON[p.label]}</span>}
+                  {p.label}
                 </a>
               ))}
             </div>
-            <article style={{ display: 'flex', flexDirection: 'column', gap: 40 }}>
-              {transcriptSections.map(sec => (
-                <div key={sec.anchorId} id={sec.anchorId}>
-                  <h2 style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 20, paddingBottom: 8, borderBottom: `1px solid ${color}28` }}>{sec.label}</h2>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                    {sec.blocks.map((block, i) => (
-                      <div key={i} style={{ display: 'grid', gridTemplateColumns: '120px 1fr', gap: 16, alignItems: 'flex-start' }}>
-                        <span style={{ fontSize: '.73rem', fontWeight: 700, color: 'var(--faint)', paddingTop: 2, textTransform: 'uppercase', letterSpacing: '.04em', lineHeight: 1.4 }}>{block.speaker}</span>
-                        <p style={{ fontSize: '.92rem', lineHeight: 1.78, color: 'var(--muted)', margin: 0 }}>{block.text}</p>
-                      </div>
+          )}
+        </div>
+      </div>
+
+      {/* ── 2-col content layout ── */}
+      <div style={{ background: 'var(--bg)' }}>
+        <div className="ep-layout">
+
+          {/* ── LEFT: main content ── */}
+          <div className="ep-main">
+
+            {intro && <p style={{ fontSize: '1.02rem', lineHeight: 1.85, color: 'var(--muted)', marginBottom: 44 }}>{intro}</p>}
+
+            {ep.keyInsights && ep.keyInsights.length > 0 && (
+              <div style={{ marginBottom: 44 }}>
+                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>Key Takeaways</p>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                  {ep.keyInsights.map((insight, i) => (
+                    <li key={i} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', fontSize: '.97rem', lineHeight: 1.7, color: 'var(--muted)' }}>
+                      <span style={{ color, fontWeight: 700, flexShrink: 0, marginTop: 3 }}>→</span>
+                      {insight}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {bullets.length > 0 && (
+              <div style={{ marginBottom: 44 }}>
+                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>In This Episode</p>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {bullets.map((b, i) => (
+                    <li key={i} style={{ fontSize: '.97rem', lineHeight: 1.65, color: 'var(--muted)', paddingLeft: 16, borderLeft: `2px solid ${color}` }}>{b}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {ep.substack && (
+              <div style={{ borderRadius: 12, padding: '24px 28px', marginBottom: 44, background: `${color}08`, border: `1px solid ${color}28`, borderLeft: `3px solid ${color}` }}>
+                <p style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 8 }}>Full Essay</p>
+                <p style={{ fontSize: '.92rem', lineHeight: 1.7, color: 'var(--muted)', marginBottom: 14 }}>We turned this conversation into a long-form essay — with more context, more depth, and the moments that didn&apos;t make the edit.</p>
+                <a href={ep.substack} target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.8rem', padding: '10px 20px' }}>Read on Substack →</a>
+              </div>
+            )}
+
+            {chapters.length > 0 && (
+              <div style={{ marginBottom: 44 }}>
+                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>What We Discuss</p>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+                  {chapters.map((ch, i) => (
+                    <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, padding: '10px 0', borderBottom: i < chapters.length - 1 ? '1px solid var(--border)' : 'none' }}>
+                      {ch.time && <span style={{ flexShrink: 0, fontVariantNumeric: 'tabular-nums', fontSize: '.76rem', fontWeight: 700, color, minWidth: 44 }}>{ch.time}</span>}
+                      <span style={{ fontSize: '.92rem', color: 'var(--muted)', lineHeight: 1.55 }}>{ch.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {ep.resources && (
+              <div style={{ marginBottom: 44 }}>
+                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>Episode Resources</p>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {ep.resources.split('|').map((r, i) => <p key={i} style={{ fontSize: '.92rem', lineHeight: 1.7, margin: 0 }}>{r.trim()}</p>)}
+                </div>
+              </div>
+            )}
+
+            {ep.faq && ep.faq.length > 0 && (
+              <div style={{ marginBottom: 44 }}>
+                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 4 }}>Q&amp;A</p>
+                <p style={{ fontSize: '.8rem', color: 'var(--faint)', marginBottom: 22 }}>Questions answered in this episode</p>
+                {ep.faq.map(({ q, a }, i) => (
+                  <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: 22, paddingBottom: 22 }}>
+                    <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', marginBottom: 10, lineHeight: 1.45, letterSpacing: '-.01em', fontFamily: 'inherit' }}>{q}</h3>
+                    <p style={{ fontSize: '.92rem', lineHeight: 1.82, color: 'var(--muted)', margin: 0 }}>{a}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {ep.guestBio && ep.guest !== 'Savan Kong' && (
+              <div style={{ borderTop: '1px solid var(--border)', paddingTop: 28, marginBottom: 44 }}>
+                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 14 }}>About {ep.guest}</p>
+                <p style={{ fontSize: '.92rem', lineHeight: 1.82, color: 'var(--muted)' }}>{ep.guestBio}</p>
+              </div>
+            )}
+
+            {allTags.length > 0 && (
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', borderTop: '1px solid var(--border)', paddingTop: 24 }}>
+                {allTags.map(t => (
+                  <span key={t} style={{ padding: '5px 12px', borderRadius: 20, fontSize: '.73rem', fontWeight: 600, background: 'var(--terra-dim)', color: 'var(--terra)' }}>{t}</span>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* ── RIGHT: sidebar ── */}
+          <aside className="ep-sidebar">
+
+            {/* Listen & Watch */}
+            {platforms.length > 0 && (
+              <div className="ep-sidebar-box">
+                <p className="ep-sidebar-label">Listen &amp; Watch</p>
+                <div className="ep-sidebar-pills">
+                  {platforms.map(p => (
+                    <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer" className="ep-sidebar-pill">
+                      <span className="ep-sidebar-pill-icon">{PLATFORM_ICON[p.label] ?? '🔗'}</span>
+                      {p.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Affiliate links */}
+            {AFFILIATES.map(af => (
+              <div key={af.href} className="ep-affiliate">
+                <span className="ep-affiliate-badge">{af.badge}</span>
+                <p style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '.86rem', margin: 0 }}>{af.heading}</p>
+                <p>{af.body}</p>
+                <a href={af.href} target="_blank" rel="noopener noreferrer sponsored" className="ep-affiliate-cta">{af.cta}</a>
+              </div>
+            ))}
+
+          </aside>
+        </div>
+      </div>
+
+      {/* ── Transcript accordion ── */}
+      {transcriptSections.length > 0 && (
+        <div className="ep-transcript" id="transcript">
+          <div className="ep-transcript-inner">
+            <details className="ep-transcript-details">
+              <summary>
+                <div className="ep-transcript-summary-left">
+                  <span className="ep-transcript-title">Full Transcript</span>
+                  <span className="ep-transcript-hint">Lightly edited for readability · click to expand</span>
+                </div>
+                <span className="ep-transcript-toggle" aria-hidden="true">↓</span>
+              </summary>
+
+              <div className="ep-transcript-body">
+                {transcriptSections.length > 1 && (
+                  <div className="ep-transcript-anchors">
+                    {transcriptSections.map(sec => (
+                      <a key={sec.anchorId} href={`#${sec.anchorId}`} className="ep-transcript-anchor"
+                        style={{ background: `${color}14`, color }}>
+                        {sec.label}
+                      </a>
                     ))}
                   </div>
-                </div>
-              ))}
-            </article>
+                )}
+                <article style={{ display: 'flex', flexDirection: 'column', gap: 40 }}>
+                  {transcriptSections.map(sec => (
+                    <div key={sec.anchorId} id={sec.anchorId}>
+                      {transcriptSections.length > 1 && (
+                        <h2 style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 18, paddingBottom: 8, borderBottom: `1px solid ${color}28` }}>{sec.label}</h2>
+                      )}
+                      <div className="ep-transcript-blocks">
+                        {sec.blocks.map((block, i) => (
+                          <div key={i} className="ep-transcript-block">
+                            <span style={{ fontSize: '.7rem', fontWeight: 700, color: 'var(--faint)', textTransform: 'uppercase', letterSpacing: '.04em', lineHeight: 1.4 }}>{block.speaker}</span>
+                            <p style={{ fontSize: '.93rem', lineHeight: 1.82, color: 'var(--muted)', margin: 0 }}>{block.text}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </article>
+              </div>
+            </details>
           </div>
         </div>
       )}
 
+      {/* ── Related Episodes ── */}
       {related.length > 0 && (
-        <div style={{ borderTop: '1px solid var(--border)', background: 'var(--bg)', paddingTop: 64, paddingBottom: 72 }}>
+        <div style={{ borderTop: '1px solid var(--border)', background: 'var(--bg)', paddingTop: 56, paddingBottom: 64 }}>
           <div className="container">
-            <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', textAlign: 'center', marginBottom: 36 }}>Related Episodes</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
+            <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', textAlign: 'center', marginBottom: 32 }}>Related Episodes</p>
+            <div className="related-grid">
               {related.map(r => {
                 const rc = SHOW_COLOR[r.show] ?? 'var(--terra)'
                 return (
@@ -317,7 +405,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: rc }} />
                       </div>
                       <div style={{ padding: '16px 18px' }}>
-                        <p style={{ fontSize: '.65rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: rc, marginBottom: 8 }}>
+                        <p style={{ fontSize: '.64rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: rc, marginBottom: 7 }}>
                           {r.season && r.episode ? `EP · ${String(r.episode).padStart(3,'0')}` : r.show}
                         </p>
                         <p style={{ fontSize: '.86rem', fontWeight: 700, color: 'var(--ink)', lineHeight: 1.35, margin: 0 }}>{r.youtubeTitle.toUpperCase()}</p>
@@ -331,11 +419,12 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
         </div>
       )}
 
-      <div style={{ borderTop: '1px solid var(--border)', background: 'var(--bg2)', paddingTop: 64, paddingBottom: 80 }}>
+      {/* ── Keep Listening CTA ── */}
+      <div style={{ borderTop: '1px solid var(--border)', background: 'var(--bg2)', paddingTop: 56, paddingBottom: 72 }}>
         <div className="container" style={{ maxWidth: 640, textAlign: 'center' }}>
-          <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>More Conversations</p>
-          <h2 style={{ fontSize: 'clamp(1.6rem,3vw,2.4rem)', marginBottom: 16 }}>Keep Listening</h2>
-          <p style={{ marginBottom: 32 }}>Every episode is a different story about the space between one chapter and the next.</p>
+          <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 14 }}>More Conversations</p>
+          <h2 style={{ fontSize: 'clamp(1.5rem,3vw,2.2rem)', marginBottom: 14 }}>Keep Listening</h2>
+          <p style={{ marginBottom: 28, fontSize: '.97rem' }}>Every episode is a different story about the space between one chapter and the next.</p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/shows" className="btn btn-gold">Browse All Episodes</Link>
             <Link href="/guest-submission" className="btn btn-glass">Submit a Guest</Link>

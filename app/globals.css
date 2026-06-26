@@ -738,7 +738,7 @@ strong { color: var(--ink); font-weight: 700; }
   .footer-bottom { flex-direction: column; text-align: center; }
 }
 
-/* Episode page hover utilities */
+/* ── Episode page hover utilities ────────────────────────── */
 .ep-nav-link { color: var(--faint); transition: color .15s; }
 .ep-nav-link:hover { color: var(--ink); }
 
@@ -757,3 +757,264 @@ strong { color: var(--ink); font-weight: 700; }
 /* Episode list row — action cells */
 .ep-row-action { transition: background .15s; }
 .ep-row-action:hover { background: var(--bg2) !important; }
+
+/* ── Episode list row — mobile responsive ─────────────────── */
+.ep-row {
+  display: grid;
+  grid-template-columns: 140px 56px 1fr auto;
+  gap: 0;
+  align-items: stretch;
+  border-bottom: 1px solid var(--border);
+  min-height: 110px;
+}
+.ep-row-thumb { position: relative; overflow: hidden; }
+.ep-row-num {
+  display: flex; align-items: center; justify-content: center;
+  border-right: 1px solid var(--border); padding: 0 8px;
+}
+.ep-row-content { padding: 20px 24px; display: flex; flex-direction: column; justify-content: center; gap: 7px; }
+.ep-row-actions { display: flex; flex-direction: column; gap: 0; border-left: 1px solid var(--border); min-width: 100px; }
+
+@media (max-width: 640px) {
+  .ep-row {
+    grid-template-columns: 100px 1fr;
+    min-height: 90px;
+  }
+  .ep-row-num { display: none; }
+  .ep-row-actions { display: none; }
+  .ep-row-content { padding: 14px 16px; }
+}
+
+/* ── Episode detail page — 2-col layout ──────────────────── */
+.ep-detail-header { max-width: 1140px; margin: 0 auto; padding: 0 clamp(20px,5vw,48px); }
+
+.ep-layout {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 52px clamp(20px,5vw,48px) 64px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 56px;
+  align-items: flex-start;
+}
+.ep-main { min-width: 0; }
+.ep-sidebar {
+  position: sticky;
+  top: calc(var(--nav-h) + 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ep-sidebar-box {
+  border-radius: 14px;
+  border: 1px solid var(--border-med);
+  background: var(--bg);
+  overflow: hidden;
+}
+.ep-sidebar-label {
+  font-size: .67rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--faint);
+  padding: 16px 18px 10px;
+  border-bottom: 1px solid var(--border);
+}
+.ep-sidebar-pills {
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ep-sidebar-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 9px;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--ink);
+  border: 1.5px solid var(--border-med);
+  transition: border-color .15s, background .15s;
+  text-decoration: none;
+}
+.ep-sidebar-pill:hover { border-color: var(--ink); background: var(--bg2); }
+.ep-sidebar-pill-icon { font-size: .9rem; width: 20px; text-align: center; flex-shrink: 0; }
+
+.ep-affiliate {
+  border-radius: 14px;
+  border: 1px solid var(--border-med);
+  padding: 18px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ep-affiliate-badge {
+  display: inline-block;
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--faint);
+  border: 1px solid var(--border-med);
+  padding: 3px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.ep-affiliate p {
+  font-size: .84rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0;
+}
+.ep-affiliate a.ep-affiliate-cta {
+  display: inline-flex;
+  align-items: center;
+  font-size: .78rem;
+  font-weight: 700;
+  color: var(--terra);
+  text-decoration: none;
+  gap: 5px;
+  transition: opacity .15s;
+}
+.ep-affiliate a.ep-affiliate-cta:hover { opacity: .75; }
+
+/* ── Transcript accordion ─────────────────────────────────── */
+.ep-transcript {
+  border-top: 1px solid var(--border);
+  background: var(--bg2);
+}
+.ep-transcript-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 clamp(20px,5vw,48px);
+}
+details.ep-transcript-details { width: 100%; }
+details.ep-transcript-details summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid var(--border);
+}
+details.ep-transcript-details summary::-webkit-details-marker { display: none; }
+.ep-transcript-summary-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ep-transcript-title {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.ep-transcript-hint {
+  font-size: .8rem;
+  color: var(--faint);
+}
+.ep-transcript-toggle {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-med);
+  background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .85rem;
+  color: var(--faint);
+  transition: background .15s, border-color .15s;
+  flex-shrink: 0;
+}
+details.ep-transcript-details[open] .ep-transcript-toggle {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+  transform: rotate(180deg);
+}
+.ep-transcript-body {
+  padding: 40px 0 72px;
+}
+.ep-transcript-anchors {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 40px;
+}
+.ep-transcript-anchor {
+  padding: 4px 12px; border-radius: 20px;
+  font-size: .73rem; font-weight: 600;
+  text-decoration: none;
+}
+.ep-transcript-blocks {
+  display: flex; flex-direction: column; gap: 16px;
+}
+.ep-transcript-block {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 16px;
+  align-items: flex-start;
+}
+@media (max-width: 540px) {
+  .ep-transcript-block { grid-template-columns: 1fr; gap: 4px; }
+}
+
+/* ── Episode detail — mobile responsive ──────────────────── */
+@media (max-width: 900px) {
+  .ep-layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 0;
+  }
+  .ep-sidebar {
+    position: static;
+    order: -1;
+    padding: 24px clamp(20px,5vw,48px) 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .ep-sidebar-box { flex: 1 1 100%; }
+  .ep-affiliate { flex: 1 1 calc(50% - 6px); min-width: 240px; }
+  .ep-main { padding-top: 40px; }
+}
+@media (max-width: 540px) {
+  .ep-affiliate { flex: 1 1 100%; }
+  .ep-sidebar { gap: 12px; }
+}
+
+/* Related episodes — mobile responsive */
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .related-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .related-grid { grid-template-columns: 1fr; }
+}
+
+/* Episode list filter tabs — scroll on mobile */
+.ep-filter-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.ep-filter-tabs::-webkit-scrollbar { display: none; }
+
+/* Platform pills on shows page — wrap nicely on mobile */
+.ep-platform-bar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 32px 0 28px;
+}
