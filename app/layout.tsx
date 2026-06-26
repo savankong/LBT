@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import NewsletterBanner from '@/components/NewsletterBanner'
 
 const SITE_URL = 'https://www.lifebetweentitles.com'
 const SITE_NAME = 'Life Between Titles'
@@ -124,6 +125,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <NewsletterBanner />
         <Nav />
         <main>{children}</main>
         <Footer />
