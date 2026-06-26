@@ -28,7 +28,8 @@ function blankEpisode(): Episode {
     slug: '', videoNumber: undefined, show: 'Life Between Titles', season: 1,
     episode: undefined, guest: '', youtubeTitle: '', description: '',
     mainTags: '', tags: '', resources: '', status: 'Recorded', photo: '',
-    youtubeUrl: '', substack: '', guestBio: '', keyInsights: [], faq: [],
+    youtubeUrl: '', spotifyUrl: '', appleUrl: '', amazonUrl: '',
+    substack: '', guestBio: '', keyInsights: [], faq: [],
   }
 }
 
@@ -260,6 +261,15 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
               </Field>
               <Field label="YouTube URL" hint="Full watch URL — e.g. https://www.youtube.com/watch?v=...">
                 <input style={inputStyle} value={form.youtubeUrl ?? ''} onChange={e => set('youtubeUrl', e.target.value)} />
+              </Field>
+              <Field label="Spotify Episode URL">
+                <input style={inputStyle} value={form.spotifyUrl ?? ''} onChange={e => set('spotifyUrl', e.target.value)} />
+              </Field>
+              <Field label="Apple Podcasts Episode URL">
+                <input style={inputStyle} value={form.appleUrl ?? ''} onChange={e => set('appleUrl', e.target.value)} />
+              </Field>
+              <Field label="Amazon Music Episode URL">
+                <input style={inputStyle} value={form.amazonUrl ?? ''} onChange={e => set('amazonUrl', e.target.value)} />
               </Field>
               <Field label="Substack Post URL">
                 <input style={inputStyle} value={form.substack ?? ''} onChange={e => set('substack', e.target.value)} />

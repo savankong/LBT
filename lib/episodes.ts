@@ -21,6 +21,9 @@ export interface Episode {
   status: Status
   photo: string
   youtubeUrl?: string
+  spotifyUrl?: string
+  appleUrl?: string
+  amazonUrl?: string
   substack?: string
   guestBio?: string
   keyInsights?: string[]

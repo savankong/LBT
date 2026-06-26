@@ -149,14 +149,15 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
         <div className="container" style={{ maxWidth: 860, textAlign: 'center' }}>
           <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'center', marginBottom: 36 }}>
             {[
-              { label: 'Spotify', href: 'https://open.spotify.com/show/lifebetweentitles' },
-              { label: 'Apple', href: 'https://podcasts.apple.com' },
-              { label: 'YouTube', href: ep.youtubeUrl ?? 'https://www.youtube.com/@LifeBetweenTitles' },
-              { label: 'Substack', href: 'https://lifebetweentitles.substack.com' },
-            ].map(p => (
-              <a key={p.label} href={p.href} target="_blank" rel="noopener noreferrer" className="platform-pill"
+              ep.spotifyUrl ? { label: 'Spotify', href: ep.spotifyUrl } : null,
+              ep.appleUrl ? { label: 'Apple Podcasts', href: ep.appleUrl } : null,
+              ep.amazonUrl ? { label: 'Amazon Music', href: ep.amazonUrl } : null,
+              ep.youtubeUrl ? { label: 'YouTube', href: ep.youtubeUrl } : null,
+              ep.substack ? { label: 'Substack', href: ep.substack } : null,
+            ].filter(Boolean).map(p => p && (
+              <a key={p!.label} href={p!.href} target="_blank" rel="noopener noreferrer" className="platform-pill"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: 7, padding: '8px 18px', borderRadius: 100, fontSize: '.76rem', fontWeight: 700, letterSpacing: '.04em', color: 'var(--ink)' }}>
-                {p.label}
+                {p!.label}
               </a>
             ))}
           </div>

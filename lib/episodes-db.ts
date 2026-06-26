@@ -17,6 +17,9 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
     status: r.status as Status,
     photo: r.photo as string,
     youtubeUrl: r.youtube_url as string | undefined,
+    spotifyUrl: r.spotify_url as string | undefined,
+    appleUrl: r.apple_url as string | undefined,
+    amazonUrl: r.amazon_url as string | undefined,
     substack: r.substack as string | undefined,
     guestBio: r.guest_bio as string | undefined,
     keyInsights: (r.key_insights as string[] | null) ?? undefined,
@@ -72,12 +75,14 @@ export async function createEpisode(ep: Episode): Promise<Episode> {
     INSERT INTO episodes (
       slug, video_number, show_name, season, episode_number, guest,
       youtube_title, description, main_tags, tags, resources, status, photo,
-      youtube_url, substack, guest_bio, key_insights, faq, transcript_file
+      youtube_url, spotify_url, apple_url, amazon_url, substack, guest_bio,
+      key_insights, faq, transcript_file
     ) VALUES (
       ${ep.slug}, ${ep.videoNumber ?? null}, ${ep.show}, ${ep.season},
       ${ep.episode ?? null}, ${ep.guest}, ${ep.youtubeTitle}, ${ep.description},
       ${ep.mainTags}, ${ep.tags}, ${ep.resources}, ${ep.status}, ${ep.photo},
-      ${ep.youtubeUrl ?? null}, ${ep.substack ?? null}, ${ep.guestBio ?? null},
+      ${ep.youtubeUrl ?? null}, ${ep.spotifyUrl ?? null}, ${ep.appleUrl ?? null},
+      ${ep.amazonUrl ?? null}, ${ep.substack ?? null}, ${ep.guestBio ?? null},
       ${ep.keyInsights ? JSON.stringify(ep.keyInsights) : null},
       ${ep.faq ? JSON.stringify(ep.faq) : null},
       ${ep.transcriptFile ?? null}
@@ -104,6 +109,9 @@ export async function updateEpisode(slug: string, ep: Episode): Promise<Episode>
       status          = ${ep.status},
       photo           = ${ep.photo},
       youtube_url     = ${ep.youtubeUrl ?? null},
+      spotify_url     = ${ep.spotifyUrl ?? null},
+      apple_url       = ${ep.appleUrl ?? null},
+      amazon_url      = ${ep.amazonUrl ?? null},
       substack        = ${ep.substack ?? null},
       guest_bio       = ${ep.guestBio ?? null},
       key_insights    = ${ep.keyInsights ? JSON.stringify(ep.keyInsights) : null},
