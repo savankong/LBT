@@ -7,25 +7,18 @@ export default function NewsletterBanner() {
   const [msg, setMsg] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
 
-  async function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (status === 'loading' || status === 'success') return
-    setStatus('loading')
-
-    const res = await fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email }),
-    })
-    const data = await res.json()
-
-    if (data.ok) {
-      setStatus('success')
-      setMsg('You\'re in! Check your inbox.')
-    } else {
-      setStatus('error')
-      setMsg(data.error ?? 'Something went wrong.')
-    }
+    if (status === 'success') return
+    // Open Substack subscribe page with email pre-filled in a new tab
+    // (Substack's API blocks server-side requests via Cloudflare)
+    window.open(
+      `https://lifebetweentitles.substack.com/subscribe?email=${encodeURIComponent(email)}`,
+      '_blank',
+      'noopener,noreferrer'
+    )
+    setStatus('success')
+    setMsg('Check the new tab to confirm your subscription!')
   }
 
   return (
