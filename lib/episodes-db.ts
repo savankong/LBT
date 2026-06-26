@@ -1,7 +1,6 @@
 import { sql } from './db'
 import { EPISODES, type Episode, type Show, type Status } from './episodes'
 
-// Map DB row → Episode interface
 function rowToEpisode(r: Record<string, unknown>): Episode {
   return {
     slug: r.slug as string,
@@ -26,39 +25,36 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
   }
 }
 
-const hasRealDb = () =>
-  !!(process.env.DATABASE_URL && !process.env.DATABASE_URL.includes('placeholder'))
+// Falls back to static data if DB is unavailable (e.g. local build without netlify dev)
+async function withFallback<T>(
+  fn: () => Promise<T>,
+  fallback: () => T
+): Promise<T> {
+  try {
+    return await fn()
+  } catch {
+    return fallback()
+  }
+}
 
 export async function getEpisodes(): Promise<Episode[]> {
-  if (!hasRealDb()) return [...EPISODES]
-  try {
-    const rows = await sql`
-      SELECT * FROM episodes ORDER BY video_number DESC NULLS LAST, id DESC
-    `
-    return rows.map(rowToEpisode)
-  } catch {
-    return [...EPISODES]
-  }
+  return withFallback(
+    async () => {
+      const rows = await sql`SELECT * FROM episodes ORDER BY video_number DESC NULLS LAST, id DESC`
+      return rows.map(rowToEpisode)
+    },
+    () => [...EPISODES]
+  )
 }
 
 export async function getEpisode(slug: string): Promise<Episode | null> {
-  if (!hasRealDb()) return EPISODES.find(e => e.slug === slug) ?? null
-  try {
-    const rows = await sql`SELECT * FROM episodes WHERE slug = ${slug} LIMIT 1`
-    return rows[0] ? rowToEpisode(rows[0]) : null
-  } catch {
-    return EPISODES.find(e => e.slug === slug) ?? null
-  }
-}
-
-export async function getPublishedEpisodeSlugs(): Promise<string[]> {
-  if (!hasRealDb()) return EPISODES.map(e => e.slug)
-  try {
-    const rows = await sql`SELECT slug FROM episodes ORDER BY video_number DESC NULLS LAST`
-    return rows.map(r => r.slug as string)
-  } catch {
-    return EPISODES.map(e => e.slug)
-  }
+  return withFallback(
+    async () => {
+      const rows = await sql`SELECT * FROM episodes WHERE slug = ${slug} LIMIT 1`
+      return rows[0] ? rowToEpisode(rows[0]) : null
+    },
+    () => EPISODES.find(e => e.slug === slug) ?? null
+  )
 }
 
 export async function getAdjacentEpisodesDB(slug: string): Promise<{ prev: Episode | null; next: Episode | null }> {

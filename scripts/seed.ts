@@ -1,19 +1,17 @@
 /**
- * Seeds the episodes table from the existing lib/episodes.ts static array.
- * Run once after migrate: npx tsx scripts/seed.ts
- * Safe to re-run — uses INSERT ... ON CONFLICT DO UPDATE.
+ * Seeds episodes table from lib/episodes.ts static data.
+ * Usage: NETLIFY_DB_URL=<url> npx tsx scripts/seed.ts
+ * Get the URL from: netlify database connect --json
  */
-import { neon } from '@neondatabase/serverless'
-import * as dotenv from 'dotenv'
-import { resolve } from 'path'
+import { getDatabase } from '@netlify/database'
 
-dotenv.config({ path: resolve(process.cwd(), '.env.local') })
-
-// Dynamic import so this script can run standalone
 async function main() {
-  const sql = neon(process.env.DATABASE_URL!)
+  if (!process.env.NETLIFY_DB_URL) {
+    console.error('Set NETLIFY_DB_URL first. Get it from: netlify database connect --json')
+    process.exit(1)
+  }
 
-  // Load episodes from the TS source
+  const { sql } = getDatabase()
   const { EPISODES } = await import('../lib/episodes.js')
 
   console.log(`Seeding ${EPISODES.length} episodes…`)
@@ -70,7 +68,4 @@ async function main() {
   console.log(`✓ Done — ${inserted} inserted, ${updated} updated`)
 }
 
-main().catch(err => {
-  console.error(err)
-  process.exit(1)
-})
+main().catch(err => { console.error(err); process.exit(1) })

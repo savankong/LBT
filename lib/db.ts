@@ -1,16 +1,12 @@
-import { neon, type NeonQueryFunction } from '@neondatabase/serverless'
+import { getDatabase } from '@netlify/database'
 
-let _sql: NeonQueryFunction<false, false> | null = null
+type DbSql = ReturnType<typeof getDatabase>['sql']
 
-export function getDb(): NeonQueryFunction<false, false> {
-  if (!_sql) {
-    const url = process.env.DATABASE_URL
-    if (!url) throw new Error('DATABASE_URL is not set')
-    _sql = neon(url)
-  }
+let _sql: DbSql | null = null
+
+function getSql(): DbSql {
+  if (!_sql) _sql = getDatabase().sql
   return _sql
 }
 
-// Tagged-template helper that mirrors the `sql` export callers expect
-export const sql: NeonQueryFunction<false, false> = ((...args: Parameters<NeonQueryFunction<false, false>>) =>
-  getDb()(...args)) as NeonQueryFunction<false, false>
+export const sql: DbSql = ((...args: Parameters<DbSql>) => getSql()(...args)) as DbSql
