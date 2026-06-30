@@ -32,31 +32,15 @@ export default function BookPage() {
               <p style={{fontStyle:'italic',fontSize:'1.15rem',color:'var(--terra)',lineHeight:1.55}}>More details — and a way to be first to know when it&apos;s available — coming soon.</p>
               <div style={{marginTop:36}}>
                 <BookEarlyAccessForm />
-                <Link href="/about" className="btn btn-glass" style={{marginTop:14,display:'inline-flex'}}>Our Story</Link>
               </div>
             </div>
-            <div className="glass-gold" style={{borderRadius:24,padding:'64px 48px',textAlign:'center',aspectRatio:'3/4',display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',gap:16}}>
-              <span style={{fontSize:'.85rem',letterSpacing:'.2em',textTransform:'uppercase',color:'var(--terra)',display:'block'}}>Life Between Titles</span>
-              <h3 style={{fontSize:'2.4rem',fontWeight:400,letterSpacing:'.01em',lineHeight:1.1,maxWidth:240}}>Titles Are Temporary. Identity Is Not.</h3>
-              <span style={{fontSize:'.9rem',color:'var(--muted)',marginTop:12}}>Coming Soon</span>
-              <div style={{width:40,height:2,background:'var(--terra)',marginTop:24,borderRadius:2}} />
+            <div style={{borderRadius:24,background:'#fff',display:'flex',alignItems:'center',justifyContent:'center',padding:32}}>
+              <img src="/ebook.png" alt="Life Between Titles Book" style={{width:'100%',maxWidth:400,height:'auto',display:'block'}} />
             </div>
           </div>
         </div>
       </section>
 
-      <div className="divider" />
-      <section className="cta-section">
-        <div className="cta-box">
-          <span className="label">Stay in the Loop</span>
-          <h2>Be the first to know</h2>
-          <p>Subscribe to the Life Between Titles newsletter to get updates on the book, new episodes, and everything in between.</p>
-          <div className="cta-actions">
-            <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Subscribe on Substack</a>
-            <Link href="/shows" className="btn btn-glass">Listen to the Show</Link>
-          </div>
-        </div>
-      </section>
     </>
   )
 }
