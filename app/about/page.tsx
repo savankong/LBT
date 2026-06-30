@@ -132,6 +132,23 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <section className="cta-bleach" style={{ padding: '90px 0' }}>
+        <div className="container cta-bleach-inner" style={{ maxWidth: 720 }}>
+          <span className="label">For Brands &amp; Partners</span>
+          <h2 style={{ fontSize: 'clamp(32px,5vw,56px)' }}>
+            <span className="black">Want in front of this</span><br />
+            <span className="magenta-split">audience?</span>
+          </h2>
+          <p className="cta-bleach-sub">
+            We partner with a small number of sponsors who genuinely help people improve their careers, lives, or
+            wellbeing — trust with our audience matters more than ad volume.
+          </p>
+          <div className="cta-bleach-actions">
+            <Link href="/sponsor" className="btn btn-gold">Become a Sponsor →</Link>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

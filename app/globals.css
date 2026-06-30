@@ -303,9 +303,11 @@ body.scrolled .nav {
 }
 .hero-figure {
   position: absolute;
-  right: -30px; top: 0;
-  height: 760px;
+  right: clamp(24px, 6vw, 110px);
+  top: 0;
+  height: clamp(360px, 42vw, 600px);
   width: auto;
+  max-height: 100%;
   z-index: 1;
   pointer-events: none;
 }
@@ -844,7 +846,7 @@ body.scrolled .nl-banner {
   .shows-grid-3 { grid-template-columns: 1fr; border-top: none; }
   .shows-grid-3-cell { border-right: none; border-bottom: 1px solid var(--border); }
   .origin-grid { grid-template-columns: 1fr; gap: 40px; }
-  .hero-figure { height: 480px; right: -10px; bottom: -40px; opacity: .5; }
+  .hero-figure { height: 380px; right: 16px; opacity: .55; }
   .featured-ep { flex-direction: column; }
   .featured-ep-img { width: 100%; height: 200px; }
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import SponsorForm from '@/components/SponsorForm'
 
 export const metadata: Metadata = {
   title: 'Become a Sponsor',
@@ -7,9 +8,9 @@ export const metadata: Metadata = {
 }
 
 const TIERS = [
-  { tier:'Presenting', price:'Custom', description:'Full-episode presenting sponsorship across one or more shows. Includes host-read ad, dedicated email mention, social promotion, and website placement. Best for brands seeking deep integration with our audience.', features:['Host-read 60s ad','Episode newsletter mention','Social media feature','Website sponsor badge','Custom engagement package'] },
-  { tier:'Mid-Roll', price:'Custom', description:'A focused, authentic mid-roll placement within individual episodes. Host-read and tailored to feel native to the conversation rather than a standard commercial break.', features:['Host-read 30s ad','Episode show notes mention','Authentic brand integration','Audience trust premium'] },
-  { tier:'Newsletter', price:'Custom', description:'Direct placement in the Life Between Titles Substack newsletter — a highly engaged audience of professionals actively thinking about career and identity.', features:['Sponsored content block','Audience: career transitioners','High open-rate readership','Link placement'] },
+  { tier:'Presenting', price:'$600', unit:'/ month', description:'Full-episode presenting sponsorship across one or more shows. Includes host-read ad, dedicated email mention, social promotion, and website placement. Best for brands seeking deep integration with our audience.', features:['Host-read 60s ad','Episode newsletter mention','Social media feature','Website sponsor badge','Custom engagement package'] },
+  { tier:'Mid-Roll', price:'$150', unit:'/ episode', description:'A focused, authentic mid-roll placement within individual episodes. Host-read and tailored to feel native to the conversation rather than a standard commercial break.', features:['Host-read 30s ad','Episode show notes mention','Authentic brand integration','Audience trust premium'] },
+  { tier:'Newsletter', price:'$125', unit:'/ issue', description:'Direct placement in the Life Between Titles Substack newsletter — a highly engaged audience of professionals actively thinking about career and identity.', features:['Sponsored content block','Audience: career transitioners','High open-rate readership','Link placement'] },
 ]
 
 const STATS = [
@@ -52,13 +53,14 @@ export default function SponsorPage() {
             </div>
           </div>
 
-          <span className="label" style={{marginBottom:24,display:'block'}}>Sponsorship Options</span>
+          <span className="label" style={{marginBottom:8,display:'block'}}>Sponsorship Options</span>
+          <p style={{fontSize:'.85rem',color:'var(--faint)',marginBottom:24}}>Founding-partner rates — locked in for early sponsors as the audience grows.</p>
           <div className="sponsor-grid">
             {TIERS.map(t => (
               <div key={t.tier} className="sponsor-card">
                 <div className="show-card-tag">{t.tier} Sponsor</div>
                 <h3>{t.tier}</h3>
-                <div className="sponsor-price">{t.price}</div>
+                <div className="sponsor-price">{t.price}<span style={{fontSize:'.9rem',color:'var(--faint)',fontWeight:600}}>{t.unit}</span></div>
                 <p>{t.description}</p>
                 <ul style={{listStyle:'none',display:'flex',flexDirection:'column',gap:8,marginTop:8}}>
                   {t.features.map(f => (
@@ -74,14 +76,11 @@ export default function SponsorPage() {
       </section>
 
       <div className="divider" />
-      <section className="cta-section">
-        <div className="cta-box">
-          <span className="label">Get in Touch</span>
-          <h2>Ready to start the conversation?</h2>
-          <p>Reach out directly and tell us about your brand, your goals, and why you think Life Between Titles is the right fit.</p>
-          <div className="cta-actions">
-            <a href="mailto:hello@lifebetweentitles.com?subject=Sponsorship%20Inquiry" className="btn btn-gold">Apply to Become a Sponsor</a>
-          </div>
+      <section className="section section-sand">
+        <div className="container" style={{maxWidth:760}}>
+          <span className="label">Apply</span>
+          <h2 style={{marginBottom:20}}>Tell us about your brand</h2>
+          <SponsorForm />
         </div>
       </section>
     </>
