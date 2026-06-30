@@ -221,7 +221,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                             <div className="ep-row-thumb" style={{ background: ep.photo ? undefined : `${color}12` }}>
                               {ep.photo ? (
                                 <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
-                                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }} />
                               ) : (
                                 <div style={{ width: '100%', height: '100%', minHeight: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.4rem', fontWeight: 800, color }}>
                                   {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
@@ -302,7 +302,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                     <div className="ep-row-thumb" style={{ background: ep.photo ? undefined : `${color}12`, position: 'relative' }}>
                       {ep.photo ? (
                         <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
-                          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'grayscale(60%)' }} />
+                          style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block', filter: 'grayscale(60%)' }} />
                       ) : (
                         <div style={{ width: '100%', height: '100%', minHeight: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.4rem', fontWeight: 800, color }}>
                           {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}

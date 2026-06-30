@@ -283,7 +283,7 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
                 </div>
                 {form.photo && (
                   <img src={form.photo} alt="preview" referrerPolicy="no-referrer"
-                    style={{ width: 80, height: 80, objectFit: 'cover', borderRadius: 10, border: '2px solid var(--border)' }} />
+                    style={{ width: 80, height: 80, objectFit: 'cover', objectPosition: 'center top', borderRadius: 10, border: '2px solid var(--border)' }} />
                 )}
               </Field>
               <Field label="YouTube URL" hint="Full watch URL — e.g. https://www.youtube.com/watch?v=...">
@@ -521,7 +521,7 @@ export default function AdminClient() {
                 {/* Photo */}
                 <div style={{ alignSelf: 'center' }}>
                   {ep.photo ? (
-                    <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover' }} />
+                    <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top' }} />
                   ) : (
                     <div style={{ width: 32, height: 32, borderRadius: '50%', background: `${SHOW_COLOR[ep.show]}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.72rem', fontWeight: 800, color: SHOW_COLOR[ep.show] }}>
                       {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}

@@ -157,7 +157,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 src={ep.photo}
                 alt={ep.guest}
                 referrerPolicy="no-referrer"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
               />
             </div>
           )}
@@ -216,7 +216,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             {ep.additionalPhotos.map((src, i) => (
               <div key={i} style={{ flex: '1 1 200px', maxWidth: 320, borderRadius: 12, overflow: 'hidden', border: `2px solid ${color}28` }}>
                 <img src={src} alt={`${ep.guest} ${i + 2}`} referrerPolicy="no-referrer"
-                  style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block' }} />
+                  style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', objectPosition: 'center top', display: 'block' }} />
               </div>
             ))}
           </div>
@@ -473,7 +473,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                     <article className="related-card" style={{ borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border-med)', background: 'var(--bg)' }}>
                       <div style={{ aspectRatio: '16/9', background: r.photo ? undefined : `${rc}12`, overflow: 'hidden', position: 'relative' }}>
                         {r.photo ? (
-                          <img src={r.photo} alt={r.guest} referrerPolicy="no-referrer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                          <img src={r.photo} alt={r.guest} referrerPolicy="no-referrer" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
                         ) : (
                           <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.8rem', fontWeight: 800, color: rc }}>
                             {r.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
