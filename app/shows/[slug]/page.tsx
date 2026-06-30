@@ -36,9 +36,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 const SHOW_COLOR: Record<string, string> = {
-  'Life Between Titles': '#C26A4A',
-  'Work Unscripted': '#4a7ec2',
-  'Office Hours': '#7c4ac2',
+  'Life Between Titles': '#ff1b8d',
+  'Work Unscripted': '#00e0ff',
+  'Office Hours': '#ffb800',
 }
 
 const PLATFORM_ICON: Record<string, string> = {
@@ -54,21 +54,12 @@ function getYoutubeId(url: string) {
   return match ? match[1] : null
 }
 
-const AFFILIATES = [
-  {
-    badge: 'Sponsor',
-    heading: 'Rebuilding your résumé?',
-    body: "Teal's AI resume tool makes it easier than starting from scratch.",
-    cta: 'Try Teal Free →',
-    href: 'https://get.tealhq.com/zzNxQ7',
-  },
-  {
-    badge: 'Sponsor',
-    heading: 'Navigating anxiety during a transition?',
-    body: 'Take a free assessment and find the right support.',
-    cta: 'Take the Free Assessment →',
-    href: 'https://go.online-therapy.com/SHwO',
-  },
+const BMC_URL = 'https://buymeacoffee.com/lifebtwtitles'
+const BMC_TIERS = [
+  { label: 'Member', price: '$5/mo' },
+  { label: 'Coffee', price: '$1' },
+  { label: 'Coffee', price: '$25' },
+  { label: 'Coffee', price: '$50' },
 ]
 
 export default async function EpisodePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -411,15 +402,20 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               </div>
             )}
 
-            {/* Affiliate links */}
-            {AFFILIATES.map(af => (
-              <div key={af.href} className="ep-affiliate">
-                <span className="ep-affiliate-badge">{af.badge}</span>
-                <p style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '.86rem', margin: 0 }}>{af.heading}</p>
-                <p>{af.body}</p>
-                <a href={af.href} target="_blank" rel="noopener noreferrer sponsored" className="ep-affiliate-cta">{af.cta}</a>
+            {/* Support LBT */}
+            <div className="ep-affiliate">
+              <span className="ep-affiliate-badge">Support</span>
+              <p style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '.86rem', margin: 0 }}>Enjoying the show?</p>
+              <p>Buy a coffee or become a monthly member — every bit helps keep these conversations free.</p>
+              <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', margin: '4px 0 2px' }}>
+                {BMC_TIERS.map(t => (
+                  <span key={t.label + t.price} style={{ fontSize: '.66rem', fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', padding: '4px 9px', border: '1px solid var(--terra)', color: 'var(--terra)' }}>
+                    {t.label} · {t.price}
+                  </span>
+                ))}
               </div>
-            ))}
+              <a href={BMC_URL} target="_blank" rel="noopener noreferrer" className="ep-affiliate-cta">Support on Buy Me a Coffee →</a>
+            </div>
 
           </aside>
         </div>

@@ -49,7 +49,6 @@ export default async function HomePage() {
                 <div className="featured-ep-img">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={featured.photo} alt={featured.guest} referrerPolicy="no-referrer" />
-                  <div className="featured-ep-play">▶</div>
                 </div>
                 <div className="featured-ep-body">
                   <div className="featured-ep-meta">
@@ -120,7 +119,7 @@ export default async function HomePage() {
           <div className="origin-aside">
             <div className="origin-photo">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/savan-about.png" alt="Savan Kong, Founder and Host of Life Between Titles" />
+              <img src="/savan-homepage.png" alt="Savan Kong, Founder and Host of Life Between Titles" />
             </div>
             <div className="origin-name">Savan Kong</div>
             <div className="origin-role">Founder &amp; Host</div>
