@@ -398,11 +398,15 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             )}
 
             {/* Support LBT */}
-            <div className="ep-affiliate">
-              <span className="ep-affiliate-badge">Support</span>
-              <p style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '.86rem', margin: 0 }}>Enjoying the show?</p>
-              <p>Buy a coffee or become a monthly member — every bit helps keep these conversations free.</p>
-              <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.78rem', padding: '10px 20px', alignSelf: 'flex-start', marginTop: 4 }}>Support LBT</a>
+            <div className="ep-sidebar-box">
+              <p className="ep-sidebar-label">Support LBT</p>
+              <div className="ep-sidebar-pills">
+                <p style={{ fontSize: '.84rem', lineHeight: 1.55, color: 'var(--muted)', margin: '0 0 4px' }}>Enjoying the show? Buy a coffee or become a monthly member — every bit helps keep these conversations free.</p>
+                <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="ep-sidebar-pill">
+                  <span className="ep-sidebar-pill-icon">☕</span>
+                  Support LBT
+                </a>
+              </div>
             </div>
 
           </aside>

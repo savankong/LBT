@@ -988,34 +988,6 @@ body.scrolled .nl-banner {
 .ep-sidebar-pill:hover { border-color: var(--terra); color: var(--terra); background: var(--terra-dim); }
 .ep-sidebar-pill-icon { font-size: .9rem; width: 20px; text-align: center; flex-shrink: 0; }
 
-.ep-affiliate {
-  border-radius: 0;
-  border: 1px solid var(--ink);
-  padding: 18px;
-  background: var(--bg);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.ep-affiliate-badge {
-  display: inline-block;
-  font-family: 'Archivo', sans-serif;
-  font-size: .6rem;
-  font-weight: 800;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--ink);
-  background: var(--terra);
-  padding: 3px 8px;
-  border-radius: 0;
-  width: fit-content;
-}
-.ep-affiliate p {
-  font-size: .84rem;
-  line-height: 1.55;
-  color: var(--muted);
-  margin: 0;
-}
 
 /* ── Transcript accordion ─────────────────────────────────── */
 .ep-transcript {
@@ -1112,11 +1084,9 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
     gap: 12px;
   }
   .ep-sidebar-box { flex: 1 1 100%; }
-  .ep-affiliate { flex: 1 1 calc(50% - 6px); min-width: 240px; }
   .ep-main { padding-top: 40px; }
 }
 @media (max-width: 540px) {
-  .ep-affiliate { flex: 1 1 100%; }
   .ep-sidebar { gap: 12px; }
 }
 
