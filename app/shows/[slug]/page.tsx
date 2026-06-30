@@ -54,7 +54,6 @@ function getYoutubeId(url: string) {
   return match ? match[1] : null
 }
 
-const BMC_URL = 'https://buymeacoffee.com/lifebtwtitles'
 const BMC_TIERS = [
   { label: 'Member', price: '$5/mo' },
   { label: 'Coffee', price: '$1' },
@@ -414,7 +413,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                   </span>
                 ))}
               </div>
-              <a href={BMC_URL} target="_blank" rel="noopener noreferrer" className="ep-affiliate-cta">Support on Buy Me a Coffee →</a>
+              <Link href="/support" className="ep-affiliate-cta">Support LBT →</Link>
             </div>
 
           </aside>

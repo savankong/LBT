@@ -28,7 +28,7 @@ export default function Nav() {
               <Link key={l.href} href={l.href} className="nav-link">{l.label}</Link>
             ))}
           </div>
-          <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="nav-cta">Support LBT</a>
+          <Link href="/support" className="nav-cta" onClick={close}>Support LBT</Link>
           <button
             className="nav-burger"
             onClick={() => setOpen(o => !o)}
@@ -44,6 +44,7 @@ export default function Nav() {
         {LINKS.map(l => (
           <Link key={l.href} href={l.href} className="nav-link" onClick={close}>{l.label}</Link>
         ))}
+        <Link href="/support" className="nav-cta" onClick={close}>Support LBT</Link>
       </div>
     </>
   )

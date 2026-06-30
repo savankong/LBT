@@ -41,7 +41,7 @@ export default function Footer() {
             <Link href="/sponsor">Become a Sponsor</Link>
             <Link href="/guest-submission">Submit a Guest</Link>
             <Link href="/build">Build Your Own Show</Link>
-            <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer">Support LBT</a>
+            <Link href="/support">Support LBT</Link>
           </div>
         </div>
         <div className="footer-bottom">

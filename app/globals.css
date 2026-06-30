@@ -302,15 +302,13 @@ body.scrolled .nav {
   min-height: 560px;
 }
 .hero-top-row {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: clamp(20px, 3vw, 40px);
-  flex-wrap: wrap;
+  position: relative;
 }
 .hero-figure {
-  flex-shrink: 0;
-  height: clamp(320px, 36vw, 520px);
+  position: absolute;
+  right: clamp(0px, 1vw, 20px);
+  bottom: 0;
+  height: clamp(544px, 61vw, 884px);
   width: auto;
   z-index: 1;
   pointer-events: none;
