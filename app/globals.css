@@ -301,15 +301,20 @@ body.scrolled .nav {
   z-index: 2;
   min-height: 560px;
 }
+.hero-top-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: clamp(20px, 3vw, 40px);
+  flex-wrap: wrap;
+}
 .hero-figure {
-  position: absolute;
-  right: clamp(24px, 6vw, 110px);
-  top: 0;
-  height: clamp(360px, 42vw, 600px);
+  flex-shrink: 0;
+  height: clamp(320px, 36vw, 520px);
   width: auto;
-  max-height: 100%;
   z-index: 1;
   pointer-events: none;
+  filter: drop-shadow(5px 0 0 var(--terra)) drop-shadow(-5px 0 0 var(--cyan));
 }
 .hero-text { position: relative; z-index: 2; max-width: 620px; }
 .hero-badge {
@@ -838,7 +843,7 @@ body.scrolled .nl-banner {
   .shows-grid-3 { grid-template-columns: 1fr; border-top: none; }
   .shows-grid-3-cell { border-right: none; border-bottom: 1px solid var(--border); }
   .origin-grid { grid-template-columns: 1fr; gap: 40px; }
-  .hero-figure { height: 380px; right: 16px; opacity: .55; }
+  .hero-figure { height: 320px; }
   .featured-ep { flex-direction: column; }
   .featured-ep-img { width: 100%; height: 200px; }
 }

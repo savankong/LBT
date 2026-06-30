@@ -21,26 +21,28 @@ export default async function HomePage() {
         <div className="hero-pillars" aria-hidden="true" />
         <div className="hero-glow" aria-hidden="true" />
         <div className="container hero-inner">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/savan-bw.png" alt="" className="hero-figure" aria-hidden="true" />
-          <div className="hero-text">
-            <div className="hero-badge">
-              <span className="hero-badge-bar" />
-              <span className="hero-badge-text">A Podcast Network for Career Transitions</span>
+          <div className="hero-top-row">
+            <div className="hero-text">
+              <div className="hero-badge">
+                <span className="hero-badge-bar" />
+                <span className="hero-badge-text">A Podcast Network for Career Transitions</span>
+              </div>
+              <h1>
+                <span>Where one</span>
+                <span className="split">title ends</span>
+                <span className="magenta">&amp; the real</span>
+                <span className="split">story begins.</span>
+              </h1>
+              <p className="hero-subtitle">
+                Honest stories of anxiety, loss, and the light that finds you when you least expect it.
+              </p>
+              <div className="hero-actions">
+                <Link href="/shows" className="btn btn-gold">See All Episodes →</Link>
+                <Link href="/guest-submission" className="btn btn-glass" style={{ color: '#fff', borderColor: '#fff' }}>Submit a Guest</Link>
+              </div>
             </div>
-            <h1>
-              <span>Where one</span>
-              <span className="split">title ends</span>
-              <span className="magenta">&amp; the real</span>
-              <span className="split">story begins.</span>
-            </h1>
-            <p className="hero-subtitle">
-              Honest stories of anxiety, loss, and the light that finds you when you least expect it.
-            </p>
-            <div className="hero-actions">
-              <Link href="/shows" className="btn btn-gold">See All Episodes →</Link>
-              <Link href="/guest-submission" className="btn btn-glass" style={{ color: '#fff', borderColor: '#fff' }}>Submit a Guest</Link>
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/savan-bw.png" alt="" className="hero-figure" aria-hidden="true" />
           </div>
 
           {featured && (
