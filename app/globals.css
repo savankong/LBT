@@ -308,7 +308,7 @@ body.scrolled .nav {
   position: absolute;
   right: clamp(0px, 1vw, 20px);
   bottom: 0;
-  height: clamp(544px, 61vw, 884px);
+  height: clamp(400px, 44vw, 660px);
   width: auto;
   z-index: 1;
   pointer-events: none;

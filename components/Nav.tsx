@@ -28,7 +28,7 @@ export default function Nav() {
               <Link key={l.href} href={l.href} className="nav-link">{l.label}</Link>
             ))}
           </div>
-          <Link href="/support" className="nav-cta" onClick={close}>Support LBT</Link>
+          <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="nav-cta" onClick={close}>Support LBT</a>
           <button
             className="nav-burger"
             onClick={() => setOpen(o => !o)}

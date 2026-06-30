@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import BuildShowForm from '@/components/BuildShowForm'
 
 export const metadata: Metadata = {
   title: 'Build Your Own Show',
@@ -53,13 +54,11 @@ export default function BuildPage() {
 
       <div className="divider" />
       <section className="cta-section">
-        <div className="cta-box">
+        <div className="cta-box" style={{ maxWidth: 640, textAlign: 'left' }}>
           <span className="label">Let&apos;s Talk</span>
-          <h2>Ready to start building?</h2>
-          <p>Tell us about your idea and we&apos;ll tell you whether we think we can help. No pitch required — just a real conversation.</p>
-          <div className="cta-actions">
-            <a href="mailto:hello@lifebetweentitles.com?subject=Build%20My%20Show" className="btn btn-gold">Get in Touch</a>
-          </div>
+          <h2 style={{ marginBottom: 20 }}>Ready to start building?</h2>
+          <p style={{ marginBottom: 28 }}>Tell us about your idea and we&apos;ll tell you whether we think we can help. No pitch required — just a real conversation.</p>
+          <BuildShowForm />
         </div>
       </section>
     </>

@@ -12,10 +12,11 @@ export const metadata: Metadata = {
   openGraph: { title: 'Guests | Life Between Titles', description: 'From retired generals to pediatric surgeons to professional disc golfers — every guest has a real career story.' },
 }
 
+// Triadic palette built off the brand magenta — matches Shows page
 const SHOW_COLOR: Record<Show, string> = {
-  'Life Between Titles': '#C26A4A',
-  'Work Unscripted': '#4a7ec2',
-  'Office Hours': '#7c4ac2',
+  'Life Between Titles': '#ff1b8d',
+  'Work Unscripted': '#00e0ff',
+  'Office Hours': '#ffb800',
 }
 
 const SHOW_ORDER: Show[] = ['Life Between Titles', 'Work Unscripted', 'Office Hours']
@@ -81,7 +82,7 @@ export default async function GuestsPage() {
               const ep = eps[0]
               const color = SHOW_COLOR[ep.show]
               return (
-                <div className="guest-card" key={ep.guest} style={{ display: 'flex', flexDirection: 'column' }}>
+                <Link href={`/shows/${ep.slug}`} className="guest-card" key={ep.guest} style={{ display: 'flex', flexDirection: 'column' }}>
                   {/* Photo */}
                   <div className="guest-card-img" style={{ position: 'relative' }}>
                     {ep.photo ? (
@@ -115,36 +116,8 @@ export default async function GuestsPage() {
                         </p>
                       ))}
                     </div>
-
-                    {/* Episode link(s) */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginTop: 4 }}>
-                      {eps.map(e => (
-                        <Link
-                          key={e.slug}
-                          href={`/shows/${e.slug}`}
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: 6,
-                            fontSize: '.68rem',
-                            fontWeight: 700,
-                            letterSpacing: '.08em',
-                            textTransform: 'uppercase',
-                            color,
-                            textDecoration: 'none',
-                            paddingTop: 6,
-                            borderTop: '1px solid var(--border)',
-                          }}
-                        >
-                          <span style={{ opacity: .7 }}>▶</span>
-                          {eps.length > 1
-                            ? episodeLabel(e.show, e.season, e.episode)
-                            : 'Watch Episode'}
-                        </Link>
-                      ))}
-                    </div>
                   </div>
-                </div>
+                </Link>
               )
             })}
           </div>

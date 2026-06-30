@@ -413,7 +413,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                   </span>
                 ))}
               </div>
-              <Link href="/support" className="ep-affiliate-cta">Support LBT →</Link>
+              <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="ep-affiliate-cta">Support on Buy Me a Coffee →</a>
             </div>
 
           </aside>
