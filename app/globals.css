@@ -881,12 +881,17 @@ body.scrolled .nl-banner {
 .ep-nav-link:hover { color: var(--ink); }
 
 .platform-pill {
-  border: 1.5px solid var(--border-med) !important;
-  transition: border-color .15s, background .15s;
+  border: 2px solid var(--ink) !important;
+  border-radius: 0 !important;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800 !important;
+  letter-spacing: .08em !important;
+  text-transform: uppercase;
+  transition: background .15s, color .15s;
 }
 .platform-pill:hover {
-  border-color: var(--ink) !important;
-  background: rgba(0,0,0,.03);
+  background: var(--ink) !important;
+  color: #fff !important;
 }
 
 .related-card { transition: transform .2s, box-shadow .2s; }
@@ -1210,19 +1215,20 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
   width: 100%;
   text-align: left;
   padding: 7px 12px;
+  font-family: 'Archivo', sans-serif;
   font-size: .78rem;
-  font-weight: 600;
+  font-weight: 700;
   border: 1.5px solid var(--border);
-  border-radius: 6px;
+  border-radius: 0;
   background: transparent;
   color: var(--faint);
   cursor: pointer;
   transition: all .15s;
 }
-.shows-filter-btn:hover { border-color: var(--ink); color: var(--ink); }
+.shows-filter-btn:hover { border-color: var(--terra); color: var(--ink); }
 .shows-filter-btn.active {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--bg);
+  background: var(--terra);
+  border-color: var(--terra);
+  color: var(--ink);
 }
 .shows-main { min-width: 0; }

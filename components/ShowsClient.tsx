@@ -24,10 +24,13 @@ const TAXONOMY_TAGS = [
   'Women in Leadership',
 ]
 
+// Triadic palette built off the brand magenta (#ff1b8d) — cyan is its
+// established split-complement (see chromatic-aberration text-shadow),
+// amber completes the trio so all three shows pop equally against black.
 const SHOW_COLOR: Record<Show, string> = {
-  'Life Between Titles': '#C26A4A',
-  'Work Unscripted': '#4a7ec2',
-  'Office Hours': '#7c4ac2',
+  'Life Between Titles': '#ff1b8d',
+  'Work Unscripted': '#00e0ff',
+  'Office Hours': '#ffb800',
 }
 
 type SortOption = 'newest' | 'oldest'
@@ -102,7 +105,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                   padding: '14px 20px',
                   fontSize: '.76rem', fontWeight: 700,
                   letterSpacing: '.08em', textTransform: 'uppercase',
-                  border: 'none', borderBottom: activeShow === f.value ? '2px solid var(--ink)' : '2px solid transparent',
+                  border: 'none', borderBottom: activeShow === f.value ? '3px solid var(--terra)' : '3px solid transparent',
                   background: 'transparent',
                   color: activeShow === f.value ? 'var(--ink)' : 'var(--faint)',
                   cursor: 'pointer', whiteSpace: 'nowrap',
@@ -187,7 +190,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                   <>
                     <p style={{ marginBottom: 20 }}>No episodes tagged &ldquo;{activeTag}&rdquo; yet.</p>
                     <button onClick={() => setActiveTag(null)}
-                      style={{ background: 'none', border: '1px solid var(--border)', borderRadius: 6, padding: '8px 18px', cursor: 'pointer', fontSize: '.8rem' }}>
+                      style={{ background: 'none', border: '2px solid var(--ink)', borderRadius: 0, padding: '8px 18px', cursor: 'pointer', fontSize: '.8rem', fontWeight: 700, fontFamily: 'Archivo, sans-serif', textTransform: 'uppercase', letterSpacing: '.06em' }}>
                       Clear filter
                     </button>
                   </>
@@ -243,7 +246,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                                 <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginTop: 4 }}>
                                   {(ep.taxonomyTags ?? []).map(tag => (
                                     <button key={tag} onClick={() => setActiveTag(activeTag === tag ? null : tag)}
-                                      style={{ fontSize: '.6rem', fontWeight: 600, letterSpacing: '.04em', padding: '2px 8px', borderRadius: 100, border: `1px solid ${activeTag === tag ? 'var(--ink)' : 'var(--border)'}`, background: activeTag === tag ? 'var(--ink)' : 'transparent', color: activeTag === tag ? 'var(--bg)' : 'var(--faint)', cursor: 'pointer' }}>
+                                      style={{ fontSize: '.6rem', fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', padding: '2px 8px', borderRadius: 0, border: `1px solid ${activeTag === tag ? 'var(--terra)' : 'var(--border)'}`, background: activeTag === tag ? 'var(--terra)' : 'transparent', color: activeTag === tag ? 'var(--ink)' : 'var(--faint)', cursor: 'pointer' }}>
                                       {tag}
                                     </button>
                                   ))}

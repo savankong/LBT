@@ -19,7 +19,7 @@ export default async function ShowsPage() {
 
   return (
     <>
-      <div style={{ paddingTop: 'var(--nav-h)', borderBottom: '1px solid var(--border)', background: 'var(--bg)' }}>
+      <div style={{ paddingTop: 'var(--nav-h)', borderBottom: '3px solid var(--ink)', background: 'var(--bg)' }}>
         <div className="container" style={{ textAlign: 'center', paddingTop: 56, paddingBottom: 8 }}>
           <span className="label" style={{ display: 'block', marginBottom: 10 }}>New episodes every week</span>
           <h1 style={{ fontSize: 'clamp(2.4rem,5vw,4rem)', marginBottom: 0 }}>All Episodes</h1>
