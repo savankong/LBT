@@ -22,7 +22,7 @@ export default function NewsletterBanner() {
   }
 
   return (
-    <div className="nl-banner">
+    <div className="nl-banner" id="subscribe">
       <div className="nl-banner-inner">
         {/* Left: copy */}
         <div className="nl-copy">

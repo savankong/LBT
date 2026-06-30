@@ -28,6 +28,7 @@ export default function Nav() {
               <Link key={l.href} href={l.href} className="nav-link">{l.label}</Link>
             ))}
           </div>
+          <a href="#subscribe" className="nav-cta">Subscribe</a>
           <button
             className="nav-burger"
             onClick={() => setOpen(o => !o)}
