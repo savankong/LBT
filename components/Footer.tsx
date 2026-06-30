@@ -34,7 +34,7 @@ export default function Footer() {
             <Link href="/newsletter">Newsletter</Link>
             <Link href="/book">The Book</Link>
             <Link href="/faq">FAQ</Link>
-            <a href="mailto:hello@lifebetweentitles.com">Contact Us</a>
+            <Link href="/contact">Contact Us</Link>
           </div>
           <div className="footer-col">
             <h4>Work With Us</h4>
