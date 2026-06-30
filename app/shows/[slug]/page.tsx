@@ -91,7 +91,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
   }
 
   const platforms = [
-    { label: 'Spotify', href: SPOTIFY_SHOW_URL },
+    { label: 'Spotify', href: ep.spotifyUrl || SPOTIFY_SHOW_URL },
     ep.appleUrl ? { label: 'Apple Podcasts', href: ep.appleUrl } : null,
     ep.amazonUrl ? { label: 'Amazon Music', href: ep.amazonUrl } : null,
     ep.youtubeUrl ? { label: 'YouTube', href: ep.youtubeUrl } : null,
@@ -116,7 +116,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
     episodeNumber: ep.episode,
     url: `https://www.lifebetweentitles.com/shows/${slug}`,
     image: ep.photo ? (ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo) : undefined,
-    associatedMedia: [{ '@type': 'AudioObject', contentUrl: SPOTIFY_SHOW_URL }],
+    associatedMedia: [{ '@type': 'AudioObject', contentUrl: ep.spotifyUrl || SPOTIFY_SHOW_URL }],
     ...(ep.appleUrl ? { sameAs: ep.appleUrl } : {}),
     ...(ep.guest !== 'Savan Kong' ? { actor: { '@type': 'Person', name: ep.guest, ...(ep.guestBio ? { description: ep.guestBio } : {}) } } : {}),
     ...(transcriptSections.length > 0 ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#transcript'] } } : {}),

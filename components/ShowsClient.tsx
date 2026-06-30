@@ -270,7 +270,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                                   Watch <span style={{ fontSize: '.9rem' }}>▶</span>
                                 </Link>
                               )}
-                              <a href={SPOTIFY_SHOW_URL} target="_blank" rel="noopener noreferrer" className="ep-row-action"
+                              <a href={ep.spotifyUrl || SPOTIFY_SHOW_URL} target="_blank" rel="noopener noreferrer" className="ep-row-action"
                                 style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7, fontSize: '.7rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--ink)', padding: '0 16px' }}>
                                 Listen <span style={{ fontSize: '.9rem' }}>🔊</span>
                               </a>
