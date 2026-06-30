@@ -27,33 +27,42 @@ export default function NewsletterPage() {
 
       <section className="section">
         <div className="container">
-          <div className="glass-gold" style={{borderRadius:20,padding:'56px 48px',marginBottom:80}}>
-            <span className="label" style={{display:'block',marginBottom:16}}>Life Between Titles on Substack</span>
-            <h2 style={{marginBottom:16}}>The job title is gone.<br /><em>The panic is real.</em></h2>
-            <p style={{maxWidth:600,fontSize:'1.02rem',lineHeight:1.8}}>LBT is where people just like you found what was left — and what was actually worth keeping. The newsletter explores life transitions after job loss: the identity crisis nobody talks about, the slow work of figuring out who you are without a title, and the surprising things that happen when you stop rushing to the next chapter.</p>
-            <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{marginTop:32,display:'inline-flex'}}>Subscribe on Substack →</a>
-          </div>
+          <div className="nl-page-layout">
+            <div>
+              <p style={{ maxWidth: 640, fontSize: '1.02rem', lineHeight: 1.8, marginBottom: 18 }}>
+                Each issue is a written companion to the show — essays on what it actually feels like to lose the
+                identity you built your life around, written from the middle of it, not the comfortable other side.
+                No frameworks, no &ldquo;5 steps to reinvent yourself.&rdquo; Just honest writing about the gap.
+              </p>
+              <p style={{ maxWidth: 640, fontSize: '1.02rem', lineHeight: 1.8, marginBottom: 18 }}>
+                You&apos;ll get first access to new episodes, behind-the-scenes notes from conversations that didn&apos;t
+                make the final cut, and reflections on the questions listeners and guests keep coming back to —
+                things like who am I without this job, and what do I actually do with the silence.
+              </p>
+              <p style={{ maxWidth: 640, fontSize: '1.02rem', lineHeight: 1.8, marginBottom: 40 }}>
+                Free, no spam, no upsells. Unsubscribe anytime — though most people stick around for the part where
+                it stops feeling like advice and starts feeling like company.
+              </p>
 
-          <span className="label" style={{marginBottom:24,display:'block'}}>What to Expect</span>
-          <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:20}}>
-            {CARDS.map(c => (
-              <div key={c.title} className="glass" style={{borderRadius:16,padding:'36px 28px'}}>
-                <h4 style={{marginBottom:12,fontSize:'1.1rem'}}>{c.title}</h4>
-                <p style={{fontSize:'.9rem'}}>{c.body}</p>
+              <span className="label" style={{ marginBottom: 24, display: 'block' }}>What to Expect</span>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 20 }}>
+                {CARDS.map(c => (
+                  <div key={c.title} className="glass" style={{ borderRadius: 0, padding: '36px 28px' }}>
+                    <h4 style={{ marginBottom: 12, fontSize: '1.1rem' }}>{c.title}</h4>
+                    <p style={{ fontSize: '.9rem' }}>{c.body}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+            </div>
 
-      <div className="divider" />
-      <section className="cta-section">
-        <div className="cta-box">
-          <span className="label">Free to Read</span>
-          <h2>Join the community</h2>
-          <p>Subscribe on Substack and get every new issue in your inbox. No spam, no upsells — just honest writing about what matters.</p>
-          <div className="cta-actions">
-            <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Subscribe on Substack</a>
+            <aside className="nl-page-aside">
+              <div className="nl-page-subscribe-box">
+                <span className="label">Free Newsletter</span>
+                <h3>Subscribe on Substack</h3>
+                <p>Get every new issue in your inbox the moment it&apos;s published. Read recent issues first if you want a feel for it.</p>
+                <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Subscribe →</a>
+              </div>
+            </aside>
           </div>
         </div>
       </section>

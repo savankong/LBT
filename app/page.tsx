@@ -118,7 +118,10 @@ export default async function HomePage() {
             <Link href="/about" className="link-arrow origin-link">Read our story →</Link>
           </div>
           <div className="origin-aside">
-            <div className="origin-avatar">SK</div>
+            <div className="origin-photo">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/savan-about.png" alt="Savan Kong, Founder and Host of Life Between Titles" />
+            </div>
             <div className="origin-name">Savan Kong</div>
             <div className="origin-role">Founder &amp; Host</div>
             <div className="origin-launched">Launched Oct 2025</div>

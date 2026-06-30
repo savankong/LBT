@@ -31,6 +31,7 @@ const VALUES = [
   { num:'05', title:'Everyone deserves a thoughtful transition', body:'Career transition support has historically gone to people who could afford a coach, had a strong network, or worked somewhere with outplacement services. Most people do not have that. Life Between Titles is free, honest, and built for that person as much as anyone else.', mantra:'Access to perspective should not depend on your severance package.' },
   { num:'06', title:'The personal and professional are the same conversation', body:'We do not believe that work stress lives only at work, or that burnout is just a scheduling problem. The way someone loses a job can shape their sense of self for years. We treat career transitions as whole-person experiences, because that is what they are.', mantra:'We have never believed the human and the professional were different things.' },
   { num:'07', title:'Curiosity is a career strategy', body:"One of the things we believe most deeply is that getting genuinely curious about other people's paths expands your sense of what is possible for your own. The person who knows what a craniofacial surgeon's day looks like, or what a post-military career really feels like, has a wider map than they started with.", mantra:'Knowing what is possible is half the work of figuring out what you want.' },
+  { num:'08', title:'You do not have to have it figured out', body:"Most of our guests said yes to this show before they had a tidy ending to their story. Some still don't. We are not interested in waiting for resolution before a story is worth telling — the not-knowing is the story, and pretending otherwise just teaches people to perform certainty they do not feel.", mantra:'Clarity is not a prerequisite for being heard.' },
 ]
 
 export default function AboutPage() {
@@ -51,7 +52,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="founder-grid">
             <div className="founder-img">
-              <img src="https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/ca15d266-eeb0-4750-8266-828ab73926ab/savan-thumb.png" alt="Savan Kong — Founder and Host of Life Between Titles" referrerPolicy="no-referrer" />
+              <img src="/savan-about.png" alt="Savan Kong — Founder and Host of Life Between Titles" />
             </div>
             <div className="founder-copy">
               <span className="label">The Founder</span>
@@ -104,7 +105,7 @@ export default function AboutPage() {
       <section className="section section-sand">
         <div className="container">
           <span className="label">What We Believe</span>
-          <h2 style={{maxWidth:440,marginBottom:56}}>Seven things we hold to be true</h2>
+          <h2 style={{maxWidth:440,marginBottom:56}}>Eight things we hold to be true</h2>
           <div className="values-grid">
             {VALUES.map(v => (
               <div key={v.num} className="value-item">
