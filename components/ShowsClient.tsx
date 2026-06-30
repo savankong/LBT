@@ -11,6 +11,8 @@ const SHOW_FILTERS: { label: string; value: Show | 'All' }[] = [
   { label: 'Office Hours', value: 'Office Hours' },
 ]
 
+const SPOTIFY_SHOW_URL = 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir?si=y2sfmQ5DTPiC8EzS4_iBqQ'
+
 const TAXONOMY_TAGS = [
   'Career Change',
   'Layoffs & Job Loss',
@@ -79,7 +81,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
         <div className="ep-platform-bar">
           {[
             { label: 'YouTube', icon: '▶', href: 'https://www.youtube.com/@LifeBetweenTitles' },
-            { label: 'Spotify', icon: '🎧', href: 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir' },
+            { label: 'Spotify', icon: '🎧', href: SPOTIFY_SHOW_URL },
             { label: 'Apple Podcasts', icon: '🎙', href: 'https://podcasts.apple.com/us/podcast/life-between-titles/id1844748787' },
             { label: 'Substack', icon: '✉', href: 'https://lifebetweentitles.substack.com' },
           ].map(p => (
@@ -268,10 +270,10 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                                   Watch <span style={{ fontSize: '.9rem' }}>▶</span>
                                 </Link>
                               )}
-                              <Link href={`/shows/${ep.slug}`} className="ep-row-action"
+                              <a href={SPOTIFY_SHOW_URL} target="_blank" rel="noopener noreferrer" className="ep-row-action"
                                 style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7, fontSize: '.7rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--ink)', padding: '0 16px' }}>
                                 Listen <span style={{ fontSize: '.9rem' }}>🔊</span>
-                              </Link>
+                              </a>
                             </div>
                           </article>
                         )

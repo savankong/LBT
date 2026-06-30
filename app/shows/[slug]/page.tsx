@@ -41,6 +41,8 @@ const SHOW_COLOR: Record<string, string> = {
   'Office Hours': '#ffb800',
 }
 
+const SPOTIFY_SHOW_URL = 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir?si=y2sfmQ5DTPiC8EzS4_iBqQ'
+
 const PLATFORM_ICON: Record<string, string> = {
   Spotify: '🎧',
   'Apple Podcasts': '🎙',
@@ -89,7 +91,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
   }
 
   const platforms = [
-    ep.spotifyUrl ? { label: 'Spotify', href: ep.spotifyUrl } : null,
+    { label: 'Spotify', href: SPOTIFY_SHOW_URL },
     ep.appleUrl ? { label: 'Apple Podcasts', href: ep.appleUrl } : null,
     ep.amazonUrl ? { label: 'Amazon Music', href: ep.amazonUrl } : null,
     ep.youtubeUrl ? { label: 'YouTube', href: ep.youtubeUrl } : null,
@@ -114,7 +116,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
     episodeNumber: ep.episode,
     url: `https://www.lifebetweentitles.com/shows/${slug}`,
     image: ep.photo ? (ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo) : undefined,
-    ...(ep.spotifyUrl ? { associatedMedia: [{ '@type': 'AudioObject', contentUrl: ep.spotifyUrl }] } : {}),
+    associatedMedia: [{ '@type': 'AudioObject', contentUrl: SPOTIFY_SHOW_URL }],
     ...(ep.appleUrl ? { sameAs: ep.appleUrl } : {}),
     ...(ep.guest !== 'Savan Kong' ? { actor: { '@type': 'Person', name: ep.guest, ...(ep.guestBio ? { description: ep.guestBio } : {}) } } : {}),
     ...(transcriptSections.length > 0 ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#transcript'] } } : {}),
