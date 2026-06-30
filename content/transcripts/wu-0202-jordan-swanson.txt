@@ -1,0 +1,867 @@
+Jordan Swanson (00:00)
+In one of those early surgeries, the patient was in the middle of the surgery, the pediatric neurosurgeon in Nicaragua and I were in the middle of the surgery. It And we were just starting to make the cut in the bone of the skull to let us do the part inside the skull. the anesthesiologist said, I've lost the pulse.
+
+which is of course one of those feared things you hear in this case with an 18 month old patient on the table. And of course my training when we're doing a surgery like that is there's two really common things. One is bleeding hemorrhage, which was not present in this case. And the second is what's called an air embolism where a little air gets into a vein, it travels into the heart and that interrupts the blood flow in the heart and lungs. But again, we weren't in a part in that surgery where that could have happened. And I was a bit stunned
+
+Savan Kong (00:17)
+No.
+
+Wow.
+
+Okay.
+
+Jordan Swanson (00:45)
+and a bit incapacitated in knowing quite what to do next given that one of these wasn't happening. fortunately, one of the things we had done three months before getting ready for this is done resuscitative training to everybody on the team, nurses, anesthesiologists, extra training on resuscitation. And honestly, at the time, I thought it was just being a good steward,
+
+Savan Kong (00:52)
+Yeah.
+
+Jordan Swanson (01:06)
+But immediately the anesthesiologist sort of kicked into that training and looked at some of the EKG patterns and said, know, gosh, just before we lost the pulse, I think I see a pattern that suggests elevated potassium. Well, that's weird. Elevated potassium, we hadn't given potassium. We had just been starting a blood transfusion, but we started CPR. We were able to stabilize the patient. The labs came back and sure enough, it was elevated potassium.
+
+and we treated some medicines to treat that potassium. We got the rhythm back. We ended up suspending that surgery to stabilize the patient, but then a month later, did the surgery, completed it, it all went well. Well, what had happened? We started this blood transfusion, and if you or your child gets a blood transfusion in a hospital in the US, that blood is probably a week old or so. In Nicaragua, unfortunately, it was about six weeks old.
+
+Savan Kong (01:33)
+Wow.
+
+Yeah.
+
+Jordan Swanson (01:57)
+And during that time from the blood being donated to it being hung on the IV pole in the surgery, the potassium that's inside our blood cells had leached out into what's called the plasma or the fluid around the blood cells. And it was unbeknownst to us giving a fatal dose of potassium as part of this medicine we were trying to do obviously as part of precautionary measures for the patient. And it was to me such an illustrative story because it was
+
+How do you deal with risks you don't even expect to have happen that require both thinking outside the box, but you don't have just sort of abstract time to think outside the box. You have to take care of the patient second to second in front of you. And we were very fortunate again to have invested in all those extra layers of training to make sure we were as safe as possible.
+
+Savan Kong (02:28)
+Exactly.
+
+Savan Kong (02:45)
+So there's a version of this conversation I've been thinking about for a while.
+
+You see Jordan and I went to the same high school together, a place called Lakeside in North Seattle. And if you didn't know about it, you'd probably drive right past it.
+
+We were teenagers in the same hallway, probably focused on surviving adolescence, then trying to figure out what we wanted to be when we grew up.
+
+and now he rebuilds children's faces for a living. And that's not an over dramatic simplification. You see, Jordan Swanson is now Dr. Jordan Swanson. He's a pediatric surgeon at the Children's Hospital of Philadelphia.
+
+And as patients, are kids born with a condition that affects the structure of their skull, their faces, and sometimes their brain? Kids whose first surgery might happen before they're old enough to even remember it.
+
+I think about what it takes to choose that path, not just the decades of formal training, but the actual decision-making process and the moment where someone decides that that's going to be their work for life.
+
+that these are their patients, that this is what his hands are made for.
+
+And I'm just in awe at how he's dedicated his life to ensuring that these kids have a fair and just opportunity to be able to live a fulfilling life. It's a path that I know I couldn't personally take because I probably don't have the skills or the stamina, but Jordan definitely does, and he's one of the best at it. So my conversation with him.
+
+is about the surgery and about his craft, but I feel like more than anything it's about the heart that goes into the work.
+
+here's my conversation with my good friend, Dr. Jordan Swanson. Let's get it.
+
+Savan Kong (05:02)
+to work unscripted. I'm your host, Evan. And today I've got my good friend, Jordan Swanson. Jordan, what's up?
+
+Jordan Swanson (05:09)
+Hi, Savan
+
+Savan Kong (05:10)
+Jordan, man, you and I have known each other for many, many years, probably more than half our lives now. I don't know what the math adds up to, but it's probably up there. Yeah, man, that's a long time. And for the listeners that don't know, Jordan and I, you we went to high school together. went to a school called Lakeside over in Seattle. ⁓ And Jordan, I have to start here, my man, because even though we went to high school together,
+
+Jordan Swanson (05:19)
+About three decades, I think.
+
+Savan Kong (05:39)
+and I knew you back then, I still don't fully understand what you do now. Like, I don't know how to explain it. I was trying to explain it to people that was asking me about who's coming up next. And, you know, I was like, I don't know, I'm gonna let him explain it. So if you saw a stranger that didn't know you, how would you explain what you do?
+
+Jordan Swanson (05:45)
+Yeah
+
+Yeah, this happens once in a while on airplanes where the person in the seat next to me looks over at my computer screen and says, what are those photos of? So I am a pediatric plastic and craniofacial surgeon. ⁓ I work at the Children's Hospital of Philadelphia, as well as I'm on faculty of the University of Pennsylvania. And in that role, I am primarily a surgeon.
+
+Savan Kong (06:07)
+Ha!
+
+Jordan Swanson (06:25)
+When I was a medical student, I thought plastic surgery is probably like what most of you think plastic surgery is. And I thought that came from the word plastic, like the plastic material that, you know, Barbies are made out of. ⁓ And it took me until my third year to realize that plastic comes from the Greek plastos, which is to shape. And our field was really born about a hundred years ago to reconstruct people.
+
+Savan Kong (06:32)
+Mm-hmm.
+
+Yeah. Yeah.
+
+⁓
+
+Jordan Swanson (06:51)
+And reconstruction is a huge range of things. Everything from hand surgery and repairing trauma or ⁓ arthritis or congenital differences of hands to ⁓ missing parts of your body such as in cancer resection of the breasts or of the face and reconstructing that with sometimes implant-based reconstruction and sometimes with your own tissue that we move from one part of your body to another.
+
+Savan Kong (06:52)
+Wow.
+
+Okay.
+
+Jordan Swanson (07:19)
+⁓ I primarily work in the craniofacial space. And so the biggest part of what I do is with children and that's cleft lip and palate reconstruction for children born with clefts. Clefts ⁓ occur in one in 600 births, which is actually pretty common. It's the most common head and neck congenital difference. ⁓ I reconstruct heads and faces. Some children are born where their head does not grow with their brain and their face does not grow forward to make space for their teeth and their airway as it should. ⁓
+
+Savan Kong (07:33)
+Wow!
+
+Jordan Swanson (07:48)
+as well as cancer and trauma and other differences in kids. ⁓ But although it's reconstruction, of course, coming full circle, a lot of what we do is focused on appearance because even for kids born with differences, they want to look normal or passable or similar without stigma, ⁓ just like you and me do. ⁓ So that's what I do.
+
+Savan Kong (08:06)
+Yeah. Yeah.
+
+Yeah, that's crazy. That is nuts. And the reason that's nuts is because from the time when we were in high school together till now, I've had many opportunities to think about wild things I could do to better humanity. And for you, you've done it, right? Like you're at this place where you're helping out, especially kids. At what point did that click for you? You're like, this is
+
+what I'm going to do, I'm going to be a plastic surgeon and I'm going to help kids throughout the world that are affected with these clefs. Like, when did that click?
+
+Jordan Swanson (08:49)
+It was pretty late for me. So, you know, a fair number of doctors and other medical people I work with learned medicine either because their parents or family were in medicine. Some of them had a bad childhood injury and got to know an orthopedist who, for instance, fixed their arm. Fortunately, my adventures never quite resulted in that as a kid. On the lakeside, cross-country and tennis teams, the risk of morbid injury was not excessive.
+
+Savan Kong (09:20)
+No man, we weren't that good in tennis. you know, there's that. Well, a couple of us were good. Most of us were not that great.
+
+Jordan Swanson (09:25)
+⁓
+
+You know, so a little bit about my upbringing. I grew up near Seattle on Bambridge Island, which when I grew up there was fairly rural. And, you know, we'd play in our soccer league along the Olympic Peninsula. And a lot of weekends when I was in middle school and high school were, you know, climbing in the Olympics. And that was some of the first exposures I had with medicine people that got injured while hiking or in the back country, sometimes skiing ⁓ and trying to figure out how to get help to them.
+
+And I thought that was really interesting. It was kind of problem solving. It was helping take care of people in need. And the Mountaineers ⁓ Club, which is in Seattle, had some really cool wilderness first aid courses. And I took those when I was in high school. I thought it was interesting. And that's kind of what triggered an interest in medicine. It was honestly a curiosity more than like an excitement about a vocation. ⁓ I just thought it was really interesting and it was sort of self-preservation ⁓ because
+
+Savan Kong (10:20)
+Right? Right.
+
+Jordan Swanson (10:24)
+I tended to kind of wander off and was a little bit adventurous with some of our classmates as well. We'd sometimes get into some tense situations ⁓ in the wilderness. ⁓ And it was in college that I kind of had to make the decision about moving more towards medicine and medical school. In college, what was really cool ⁓ was really as a country bumpkin raised in the Northwest and then going east to Harvard for college and really being aware of a lot of
+
+medical needs more broadly in the world and starting to learn about things like public health. And was really fortunate to spend a couple of summers ⁓ overseas in Honduras and in ⁓ Bangladesh and in Thailand ⁓ doing some medical work and some medical research. And it really opened my eyes to the immense needs out there. And suddenly that was kind of this new aspect to medicine. It wasn't just about helping peers or friends that were
+
+in the back country and injured in the Northwest. It was really the immense need of people. The similarity though was that a lot of, think, people who lack resources to medicine ⁓ benefit from more innovative sort of problem solving to get that care. In a lot of places, poverty is such a limiter of access to healthcare. Just replicating or duplicating what we have in the U.S. isn't gonna be a really realistic solution for a lot of places.
+
+Savan Kong (11:33)
+Mm-hmm.
+
+Jordan Swanson (11:51)
+Plus, think both of us would agree, there's ways to do healthcare better than we do it here, certainly for less expense. ⁓ So it all kinda came together with different elements of interest in medicine, and then it was actually late in medical school when I stumbled on plastic surgery. And it was like, wow, this is like really cool, technical, reconstructive work with my hands, something I always loved doing. It serves a really interesting need.
+
+Savan Kong (11:57)
+yeah. yeah. Yeah. Yeah.
+
+Jordan Swanson (12:18)
+both for children and adults here in the US, but it also has a real overlap with public health because it involves treatment of so many congenital anomalies and other differences like traumatic injuries that keep people from working and earning and contributing. ⁓ So it all kind of came together late in medical school with this. And since then, I haven't really looked back.
+
+Savan Kong (12:33)
+Right.
+
+Yeah, that's crazy, man. mean, that's quite a journey. So after high school, did you take any time off between Lakeside and Harvard? Or did you just go straight there? OK. What did you study over at Harvard?
+
+Jordan Swanson (12:48)
+No, I went right through. Yeah.
+
+I studied the history of science and it was a really weird choice of what to study. I've always liked history. It's not a thing in many places, but it was just a really kind of cool chance encounter. thought history of science, that's kind of interesting. I kind of like history. I don't know much about the history of science, but it was a really small department at Harvard and it involved professors and other faculty that worked really closely with undergrads, which was cool. I kind of liked the idea of a little smaller environment than like a really big major.
+
+Savan Kong (13:00)
+Yeah, I didn't even know that was a thing. Yeah.
+
+Jordan Swanson (13:24)
+with tons and tons of people trying to study the same big courses from people. But one of the first ⁓ sort of seminars they did is we went down to this collection of historical scientific instruments and we all had to put on these white gloves so they wouldn't get our oils on things. And they put these objects in our hands and they gave us a few minutes to try to guess what they were. And the object that was in my hands was this really heavy brass compass.
+
+Savan Kong (13:37)
+Okay.
+
+Yeah.
+
+Jordan Swanson (13:52)
+like looked really old and it was mounted on a gimbal, know, so it could kind of tilt it had a bracket on it. But here's what was weird. North was up, south was down, but east was to the left and west was to the right. It was backwards, a backwards compass. And they said, okay, take a minute and tell us what this is. Of course, I have no idea. But a few of us worked together and we're kind of holding this thing up and moving it around and eventually figured out if you hold it up,
+
+Savan Kong (14:06)
+WAP!
+
+Jordan Swanson (14:19)
+and you looked up at it, then the compass kind of pointed the right direction. But we still couldn't figure out why you would ever want a compass on a roof. Well, it turns out, we got a little help from the professor, but this was a captain's berth's compass. And back in like the 16th century, they would mount this above the captain's bed so that at night when they were sailing, the captain could look up from the candlelight and see which direction the boat was going because if there was a mutiny, what they would do
+
+Savan Kong (14:23)
+⁓
+
+Okay.
+
+Jordan Swanson (14:49)
+would be when the captain was sleeping, turn the ship like towards land they wanted to go to instead of where the captain was going. And these were apparently really common on sailing ships in the 16th and 17th century. So I was like, wow, that's really interesting. And it was kind of this moment of like, I kind of like doing this. This is kind of detective work. ⁓ you know, I really enjoy the history of science.
+
+Savan Kong (15:03)
+That's crazy.
+
+That's crazy. How heavy is that? I could imagine that's pretty heavy. Like if it fell down on you, that'd probably hurt, right? Yeah, yeah.
+
+Jordan Swanson (15:17)
+Would not be good. Yeah, it was heavy.
+
+was like, I don't know, probably three or four pounds, heavy brass.
+
+Savan Kong (15:24)
+Wow, that's crazy man. ⁓ So after Harvard then, you went to the London School of Economics, is that right?
+
+Jordan Swanson (15:35)
+So there's a little detour between, I went straight from Harvard to Hopkins for medical school. And I was really interested in Hopkins actually because they had this really cool history of medicine department. So that was my major in college, I was a total geek. And this medical school, which was really one of the oldest American medical schools that really sort of taught things from a scientific method. Back 150 years ago when Hopkins was founded, most...
+
+Savan Kong (15:41)
+Okay.
+
+Yeah.
+
+Jordan Swanson (16:03)
+medical schools just involved kind of you shadowing doctors and doctors back then that didn't have antibiotics, they didn't have antisepsis, ⁓ a lot of, they didn't have ⁓ many things that were actually kind of scientifically proven. And so there was a lot of quackery and Hopkins was one of the first places that kind of followed the German model of rotations and learning the science. And I thought it was just super cool. ⁓
+
+Savan Kong (16:09)
+Right?
+
+⁓
+
+Jordan Swanson (16:28)
+An older Lakesider, her name ⁓ is Susanna Mattson, or ⁓ her now married name is Susanna Nazarian. She was a few years ahead of us at Lakeside, and she was a medical student at Hopkins. And she was so cool, I went down to visit, was like, she is Chaballer with her short white coat walking around the hospital as a third year medical student. I was like, that's really cool, I wanna be like that. And so I was really lucky to start at Hopkins, but at this point I'd gone straight through.
+
+Savan Kong (16:39)
+Mm-hmm.
+
+Jordan Swanson (16:57)
+And this is one of the first points where, you know, my path kind of took a little bit of a switch up. And I was getting a little bit burned out by my third year of medical school. And I think part of it was we learn a lot of this science. We learn this body of knowledge. It's really kind of rote. It's just study, study, study. And then, and then a challenge in the med school was there was obviously a lot of poverty in East Baltimore. And I felt like I was seeing a lot of patients come in with conditions.
+
+Savan Kong (16:59)
+Right.
+
+Jordan Swanson (17:26)
+they'd get prescribed medicines, maybe they could get them, maybe they could afford them, maybe they couldn't, and they would kind of bounce back. And I was a little bit frustrated with this really interesting scientific medicine I was learning, but really its ability to kind of connect with patients. And I was wondering whether being a doctor was really what I was meant to do. ⁓ so I thought, well, I want to finish medical school, but maybe I want to take a little break before the end between third and fourth year. And...
+
+Savan Kong (17:53)
+Right.
+
+Jordan Swanson (17:53)
+check
+
+out kind of other aspects of medicine. And so, you know, one aspect that I was really interested in was this international health side of things. Another side was the business of medicine. And I thought, you know, I was working with some startups at that point. ⁓ And I thought maybe the best way I could contribute would be to working with a business that develops pharmaceuticals or maybe helps kind of solve some of these problems with, you know, new innovations. Maybe that would be cool. And
+
+So I persuaded the Dean, who was a bit skeptical about this plan, but I persuaded him to let me take two years off. One year would be working, and I worked with McKinsey & Company, the management consulting firm. And I spent a year studying, as you mentioned, at London School of Economics. And when I left, I really thought I would probably not come back to clinical medicine. And...
+
+Savan Kong (18:30)
+Okay.
+
+Jordan Swanson (18:45)
+I actually really enjoyed getting to know McKinsey and I thought working as a consultant and helping kind of solve problems, especially in the healthcare space would actually be a really good fit. And right before I left, I did a plastic surgery rotation. And it's when I had this kind of glimmer of like, wow, this could actually be a really cool clinical field. And then, woof, I was gone. And the two years away were awesome. They were really mind-opening.
+
+Savan Kong (18:56)
+Mm-hmm.
+
+Wow.
+
+Jordan Swanson (19:12)
+And I can't tell you how cool a lot of my colleagues at McKinsey were. It was a time in 2006, 2007 that, you know, it was an economic growth time for the country. And a lot of the studies we were working on were really interesting strategic studies, how to use dotcoms and web solutions and things like that to, you know, expand what we can do. And for biotech and for kind of new solutions to healthcare delivery, was really cool stuff.
+
+Savan Kong (19:24)
+Yeah.
+
+Mm-hmm.
+
+Jordan Swanson (19:42)
+⁓ And similarly at the London School of Economics, we learned a lot about international health. And from the standpoint of a place that you realize England's history, a lot of their international history is colored by things like colonialism. And it was a much more humble approach to international health than in the US where I would say it was a lot more gung-ho, so to speak. And those experiences were great, but they also made me miss medicine. They made me miss
+
+working alongside other doctors and taking care of patients day in and day out. And surgery and plastic surgery, I realized by the end of that experience was probably the best fit. It was hard to say goodbye to McKinsey, which was a really cool company, but it had been the right fit for me to go back to medicine.
+
+Savan Kong (20:24)
+I want to maybe talk a little bit about that rotation that you had that inspired you to go back to medicine. Was there a specific experience or a specific patient that stood out during that time to make you go back into the medical field and say, this is going to be my thing now for the foreseeable future?
+
+Jordan Swanson (20:46)
+And even more so, Savan, it was a couple of people. It was a couple of surgeons. ⁓ One surgeon in particular whose name is Rick Redette, and he's a wonderful surgeon. He's such a wonderful guy that he has grown to be the department chair at Johns Hopkins Plastic Surgery and then has become the physician in chief for the hospital because I'm not apparently the only one that finds him to be very compelling. But ⁓ Rick was in the Peace Corps for a number of years. And again,
+
+Savan Kong (20:50)
+Okay, okay.
+
+Wow.
+
+Jordan Swanson (21:14)
+Most people think plastic surgeon, P score, these are like opposite ends of the spectrum. But ⁓ Rick is somebody, Dr. Redette, that, ⁓ you know, really like me felt a calling to serve, but also really enjoyed seeing tangible results of work. And I think liked the idea of problem solving that went with surgical problems and literally surgical gaps and holes and trying to figure out how to creatively fix them. And so.
+
+Savan Kong (21:15)
+Yeah, awesome.
+
+yeah.
+
+Mm-hmm.
+
+Jordan Swanson (21:42)
+One memorable day with him was watching him reconstruct this burned ear of this child and bringing graphs of cartilage in and rotating flaps. And he's doing this as he's talking to me and I'm cutting suture for him and talking about his life story and watching the transformation in such real ways that was happening to this child as we talked was just really compelling to me. And I met a few people like him ⁓ that I thought, you know, these are people that are bright.
+
+Savan Kong (21:48)
+Wow.
+
+Jordan Swanson (22:11)
+They're hardworking, they care about people, they're creative. And it was this sort of coming together of that that I thought was really, really special.
+
+Savan Kong (22:15)
+Mm-hmm.
+
+I want to maybe get a little bit into the approach and the mentality that you take when you are building this skill ⁓ of being an exceptional plastic surgeon because I don't know about you, but when I'm carving out something in wood, I could barely do it well without, you know, like, and I'm not like a hands-on guy by any means.
+
+Jordan Swanson (22:38)
+You
+
+Savan Kong (22:43)
+⁓ But I also know that it takes repetition and it takes mentorship and it takes experience. When you're going into this, especially sort of like when you decided to come back into the medical field, how did you approach, you know, the craft that you're honing over these years? What was your mentality like?
+
+Jordan Swanson (23:03)
+I love that question and I love your use of the term craft. ⁓ I think that this is a super important topic. How do we not only choose what we want to do because we are making an active choice of what we want to do, but how do we do sort of an inventory or assessment of what we are good at?
+
+And I think it's that and other things that kind of come together. And I think we oftentimes it's easy to lack some of that self-awareness. I'd be a great example of that sometimes into our strengths and weaknesses. So surgery is craftsmanship. And one of the roles I have now is I've been for the last five years the director of the craniofacial fellowship at CHOP. And so part of my job is to choose and then to take a real lead role in training the people that will be the future craniofacial surgeons.
+
+We talk a lot about what are those inputs that are key? Should we be testing them on how well they build things or how well they do a woodworking project? ⁓ Interestingly, I think a lot of those things can be taught. And one of the themes that Malcolm Gladwell has popularized and others talk about is this idea of 10,000 hours to develop expertise. And that's something that I think is still very true in medicine. Medicine and surgery in particular is totally an apprenticeship.
+
+Savan Kong (23:56)
+Mm-hmm. Yeah.
+
+Jordan Swanson (24:17)
+You know, I've been telling you about my kind of 20s, which were kind of adventurous and trying some new things on and trying to figure out what the right fit was and what I enjoyed and what would be the future. When I turned 28, I came back to Seattle and I started residency at the University of Washington. And residency in plastic surgery is six years long. And if you're doing the math on about 80 hours a week of working, that gives you about 3,500 hours
+
+of working per year and times six years gives you about 20,000 hours. And that's what residency was. There weren't shortcuts. You know, I did about 3,000 surgical procedures during that time and graduating from observing to doing some very basic parts to near the end doing some very much on my own ⁓ and some still assisting with more challenging ones, just like you see on Grey's Anatomy.
+
+Savan Kong (25:02)
+Wow.
+
+Jordan Swanson (25:16)
+It's exactly like Grey's Anatomy, I'm obviously kidding. But Grey's Anatomy was set in Seattle at Harborview, which is where I was training and it came out the year before we started as residents. So it was kind of a comical overlap to what we were doing in real life. So, you know, there is that training and I think it's another interesting thing that I've tried to wrestle with, which was what's the difference between public health and medicine, right?
+
+Savan Kong (25:17)
+Yeah, crazy. Crazy.
+
+Jordan Swanson (25:42)
+Public health is thinking about health for the masses, and you're looking at indicators of broad groups of people. And you want to see broad indicators get better, like you want to see ⁓ life expectancy get longer, and you want to see the cost of health care per outcome per year of survival, et cetera, go down. We want to do it in a cost-effective way. Medicine, I would say, is really different. Medicine is one-to-one.
+
+Savan Kong (26:06)
+Mm-hmm.
+
+Jordan Swanson (26:10)
+Medicine is I have a relationship with this patient and it is my job to advocate for them. And even though the public health answer might be that it is a long shot that you might benefit from this therapy, for instance, and it might not be cost effective, so to speak, in a large group of people, it's also my job as somebody's physician to advocate for them. And that means it's on one-to-one doing my absolute very best.
+
+And it doesn't mean we ignore cost effectiveness. We're very, very focused on that. We do a lot of research focused on that, but it's taking that one-to-one role of being an advocate. And in some ways that's stepping back from when you think about, who's going to have big impact. So maybe it's the person doing stats and policy at a national, international level. And I think there's a role for that. But one thing I just love is the depth of working with patients one-on-one, trying to heal one-on-one.
+
+And the way that I kind of spread that is partly by figuring out how we do these surgeries better and have more impact and get better outcomes and then do the research and do the writing and do the work to help spread that. ⁓ So that's one of the ways I juggle with that. you your point about craftsmanship and how we balance depth versus breadth, it's a great question.
+
+Savan Kong (27:19)
+Yeah.
+
+Yeah, Jordan, I love that answer. one of the things that stands out to me is all these roles that you have that you're responsible for right now. we're going to dive into the craftsmanship of being a surgeon and the responsibilities there. What I find highly fascinating is you also have this huge burden of being a mentor and a teacher.
+
+which I think those skill sets are not the same because you could have a great physician, but they might not be a good mentor. They might not have that eye to train people in an effective way. ⁓ How do you approach crafting the next set of great surgeons that are coming up through the pipeline? What does that look like?
+
+Jordan Swanson (28:18)
+Yeah. Well, part of it is we're all paying it forward because this is something that others invested for us to do. And so one of the things you learn in working as an apprentice for six, seven years ⁓ is that others have invested in you. And I think that mantra to who much is given, much is expected is something that I've always believed in. got something at Lakeside kind of instilled in us back when. ⁓
+
+Savan Kong (28:25)
+Right.
+
+Yeah. Yeah.
+
+Jordan Swanson (28:47)
+I think part of it, and look, it's a balance, especially when it comes to education through surgery, right? There's obviously that mantra, don't get sick in July when the new residents and new interns start, because that's the time of year you're most likely to get an inexperienced person taking care of you. And that's kind of funny, and it's kind of want to laugh it off. And there's a lot of measures in place to try to give good mentorship, especially on July 1st every year.
+
+Savan Kong (29:16)
+I didn't even know
+
+that. That's crazy. I won't get sick in July then. Yeah, okay.
+
+Jordan Swanson (29:17)
+Yeah, but there's still some truth to that.
+
+you know, again, I have to take responsibility and accountability for every surgery that I do, knowing that in some of them trainees play a role in that to get good outcomes. And here's, I still wrestle with how to do that sometimes, but one of the things that's become really clear to me over time is that when I invest in people around me, it makes the team better.
+
+Savan Kong (29:46)
+Mm-hmm.
+
+Jordan Swanson (29:47)
+and that makes better things for the patient and for me. So, you know, we have residents, junior residents that we have in our cases and I'm telling them, even as an intern, some of these details about how I'm repairing this cleft lip and that's not as common at other places, other medical schools, other residency programs that might be later more older senior residents that scrub in for these cases.
+
+Savan Kong (29:50)
+Yeah. Yeah.
+
+Jordan Swanson (30:12)
+And interns aren't doing very much in these cases, but they're doing some pieces and they're learning. And the reason that's so important to me is that when I am teaching that first year resident how to do these things, that means when they're taking calls, a second year resident, and they're getting calls from maybe a patient who has an issue, they know a lot more about what's going on. And as a third and fourth year resident, they're starting to take more and more role and responsibility under supervision for cases.
+
+Savan Kong (30:31)
+Mm-hmm.
+
+Jordan Swanson (30:38)
+And by the time they become chief residents, they are incredibly talented. And I not only lean on them as a partner with surgery, because many complex surgeries take really four or six hands to do at the same time. There's a lot of hands in a surgical field. It might be one is dissecting, one is suctioning, two are retracting, one is illuminating. A lot of things might be going on at the same time. And so you training that team to work together.
+
+is really how a lot of complex surgery works. It's not a single surgeon operating alone. The other thing I've learned is, you know, our craniofacial fellows spend a year with us. And in the first few months of the year, they are learning a lot. They've been doctors for six years, they've been surgeons for six years, they are, you know, board certified basically. And this is finishing school, they're bright. But they have a lot to learn. And one of the cool things, we're right now in March, and so our current craniofacial fellow, who's a terrific guy,
+
+you know, he is just thriving right now because of that early investment we made in him. So he is helping us think at the next level in a case slow. We usually do it this way. What about doing it this way? You know, there's a variability here. How should we think about that? That to me is bringing like 120 % level care to patients. And so it's really investing in the team to do it. ⁓ So that's kind of some of the things that I try to focus on, even though you're right, my day starts early. We have a faculty meeting at 6 a.m. tomorrow.
+
+I have always some residency evals coming into my inbox and that's a part of what it involves, but it's so affirming when you see how it works and it really results in better care for people.
+
+Savan Kong (32:06)
+Oof.
+
+That's amazing. mean, I can't help but notice the parallels of what you're talking about with the business world, the startup world, where, you know, as a manager, your job and what I tell people whenever I'm leading teams is that my job is to make sure that I'm training you well enough so you can take my job eventually, right? Like you're giving them the skills and you're affording them sort of the freedom to make decisions. Take me a little bit behind the scenes, Jordan, of
+
+how you give people ⁓ constructive feedback if they're lacking in some areas. I would imagine that's what's different about your field than the business field is, like you said, you could spend up to six years trying to get through a program in the residency. And I would imagine across that time, you're gonna learn a bunch of new things. However, you may end up seeing something where you're like, maybe my hands aren't steady anymore, right? Like as I'm like,
+
+going through this thing, maybe I don't have as good of a vision or whatever those criteria are that you look at, how do you break that news to people to say like, I know you're hoping to do this, but maybe you might want to think about these other things. Because I would imagine there's a bunch of emotional investment that people have in their paths.
+
+Jordan Swanson (33:37)
+Yeah,
+
+yeah. Well, there's, there's, think two parts to what you're asking. And one is kind of how we give feedback day to day or month to month. And another is what happens if somebody is maybe not such a great fit for something and a more challenging conversation around that. The first one is something that I've evolved a lot on.
+
+Savan Kong (33:49)
+Yeah. Yeah.
+
+Jordan Swanson (33:55)
+And the reason is, I think maybe 10 years ago, I sort of had the sense that, you know, there would be a good time, a rainy day to give feedback. You know, some of those emails stack up in the inbox, there'd be like this eighth day of the week that would start coming where we would just catch up on that stuff. And I've now gained enough awareness to know that's never gonna happen. And so the way I translate that is feedback has to be immediate. If it's not done really immediately, then it's probably not gonna happen. And so one of the things I try to do,
+
+Savan Kong (34:03)
+Mm-hmm. Yeah, never. There's never. Yep.
+
+Jordan Swanson (34:23)
+is just normalize the feedback process. I talk about things all the time. So in a surgery case, I mean, look, the thing about surgery is we're working the whole time. You can't really speed up that surgeries last sometimes a few minutes, but many times hours, sometimes 12 hours or 15 hours. But we do get to listen to good music during that time. And during lulls in the more difficult part of the surgery, we get to chat a lot and you get to get to people so well. There's also so many opportunities to share things.
+
+Savan Kong (34:27)
+I love that. Yep.
+
+⁓ okay.
+
+Really?
+
+Jordan Swanson (34:53)
+So I frequently just share things and I try to share things that I like, things that impress me about how somebody's doing something. If I see it, I try to say it. And then I also normalize the fact that, you know, I'm gonna try for most people to say about three nice things for every constructive thing I say, but those constructive things are gonna happen. And for many things, to me, it's normal to give feedback to a junior resident in front of a senior resident. It's constructive to give feedback to a senior resident in front of a junior resident.
+
+Again, it sort destigmatizes this as being like a bad thing. It's just what we do as we go. And I'm comfortable in many cases, I think getting that too. Hey, Dr. Swanson, you need to make sure you're always washing your hands, not only before you put on the gloves, but after you take off the gloves. ⁓ good point, I forgot that time. And then it's not charged, it's not complicated. ⁓
+
+Savan Kong (35:33)
+Mm-hmm.
+
+Jordan Swanson (35:48)
+And so I think that's been one thing that I try to do is just give feedback in the moment. And people know they're gonna hear a lot when they're operating with me. And sometimes I'm gonna get it wrong. I'm gonna say something you that you're like, man, don't dwell on that. I usually do it the other way. Fine, I'm not giving it more weight than just what I said. ⁓ At the same time, I think more challenging is when you see some more important deficiencies.
+
+that are beyond just that immediate feedback and how you handle it. And one that happened to me actually last month was with one of our second year residents. And this person struck me in a couple of ways as being very impressive. First of all, he came to clinic with me a lot. It's hard to get residents sometimes out of the operating room where they love to learn and do surgery into clinic. ⁓ And he was frequently in clinic. He was really bright about thinking about when we would see a problem in clinic.
+
+What's the different sort of solution space? What should we weigh in thinking about the problem and the solution? Way above his level for a second year resident. He was also incredibly courteous. Way more than normal, I was hearing nurses and families say that they thought he was extremely kind and caring. ⁓ I love hearing those things. But when we...
+
+Savan Kong (37:00)
+Yeah. That's amazing. Especially in stressful
+
+environments, you lose that courtesy pretty quickly.
+
+Jordan Swanson (37:07)
+⁓
+
+totally. Well, and again, this is about the character and people that matters so much. But here was the thing in the pit of my stomach. I was cringing when we would operate together because operating is a dance. And when my hands and this person's hands would come into the field, there wasn't this just intuitive flow and
+
+Savan Kong (37:12)
+Right? Right?
+
+Jordan Swanson (37:33)
+You know, one of the tasks that lots of our junior residents will do is learning to sew and learn to suture. And it's something that is a craft that requires a lot of refinement. And if a stitch isn't placed well, I can redo that stitch. And so it's a very small risk ⁓ to patients if something is not done as excellently as it can be. And obviously we select opportunities for them to suture when it's appropriate for the level of training. ⁓ But I would just, there wasn't that flow with him.
+
+Savan Kong (37:33)
+Thank you.
+
+Jordan Swanson (38:02)
+And it was happening and I was seeing it and it would happen again. And I found myself just getting a little bit anxious when we would scrub into a case. He was, he was adequate, but he was not at the level that was matching the rest of him. And so, you know, I remember, I remember the Friday afternoon that was the end of his rotation. And, um, you know, I said, we got to talk. And I know that when I say that to a resident, I say, let's go out to the lounge for a few minutes. I know they know this is going to be a little longer conversation. That's a little shot across the bow.
+
+Savan Kong (38:15)
+I see.
+
+Jordan Swanson (38:31)
+It was very easy for me. I'd talk to the nurse. I'd talk to some of our nurse navigators about how you interact with families. had all of these really positive things to genuinely say. And that was really important to share those positive things, but also say this is a really important negative thing. And if people aren't sharing it with you, it's because our system of feedback is not being honest enough about some of these deficiencies. But why is this important? He's a second year resident. He's got four and a half years to go. This is a very correctable thing.
+
+It's just like all of us, my seventh grade son, you know, when he's practicing drums, he loves to go back to that easy part that he knows really well and practice that part because he knows it. And it's hard. We all struggle with focusing on the hard part, but I think it starts with identifying that hard part and then helping people make a strategy of like how you're actually going to do it. We got a lot of adjuncts. We have these really cool simulators now in surgeries. People can actually practice a lot of the surgical movements on either VR sets or on silicone models.
+
+Savan Kong (39:00)
+Right.
+
+Yeah, absolutely.
+
+Jordan Swanson (39:29)
+⁓ One of the things that I did as a junior resident is I might, you know, there might be a very complicated abdominal surgery case where it's going to be the attending surgeon and the fellow, the most serious, most experienced people that are doing the part right along the pancreas or right along the ducts of the gallbladder. But any abdominal surgery that's open starts with a 12 inch incision and finishes with closing that incision up.
+
+Savan Kong (39:30)
+WAH!
+
+Jordan Swanson (39:58)
+And those are parts that a first and second year resident can do very adequately and get a lot of practice. so encouraging this residents, you know, get into those cases and you might not be doing the main central part of the case, but you might be assisting for parts that beginning and end, they're going to help you build those reps. So, you know, how we kind of problem solve and focus on those. ⁓ look, I think all of us have strengths and weaknesses. I come from a place where I wake up each day and there's a number of things that I, I know I probably need to do better. And a few things I don't know yet that I need to do better.
+
+Savan Kong (40:27)
+yeah.
+
+Jordan Swanson (40:28)
+And so if we can try to share those things more, destigmatize them and then help each other kind of lean into it, I think that's how we all get better.
+
+Savan Kong (40:34)
+Yeah, that's amazing. That's amazing. Jordan, we've talked a lot about the sort of external aspects of your job. I want to dig into more of the internal things, the things that you're feeling ⁓ while you're doing the things that you're doing. You operate on children's skulls and faces all day. Sometimes they're maybe days old. I don't know what the youngest is.
+
+that they have to be in order for you to operate on them. What is it like to have and to hold that responsibility in your hands with your team? Like take me into your head and your heart about what that feels like.
+
+Jordan Swanson (41:18)
+Yeah, it's very sacred. ⁓ My college roommate's son had a hernia. And this was when I was still a medical student, that it was after I was heading into surgery. And they called me up after their consultation with their surgeon. And they said, gosh, it was terrifying. We meet this person that's gonna do surgery on our four month old.
+
+Savan Kong (41:27)
+Uh-huh.
+
+Jordan Swanson (41:44)
+but he seems both pretty confident and a little bit cocky. And I think that's what we wanted in our surgeon for our son, which I say mostly ⁓ as a joke, but it's so interesting that we have these really 10 or 12 minute consultations for many patients. And I think when I was maybe a resident, I sort of thought of this as a transaction of me getting the information I needed to make a safe.
+
+Savan Kong (41:49)
+Right. You don't want the nervous one.
+
+Jordan Swanson (42:11)
+surgical plan and decision about whether they needed surgery. But from the standpoint of parents, my goodness, it's an incredibly powerful, scary, anxiety-provoking interaction. And you are trying to size up this person and try to assess their competency and their judgment. ⁓ And if there is that chemistry of trust.
+
+Savan Kong (42:30)
+Mm-hmm.
+
+Jordan Swanson (42:36)
+And for what it's worth, that's what I am increasingly doing too, and especially more complex things. ⁓ My job is to safely as possible get a patient through a procedure, to give the best possible surgical treatment, to get the best possible outcome. But at end of the day, to make sure people have a very positive experience through that. ⁓ One of the things that I think is so interesting is that I've learned that I can have a result
+
+that I might be a little bit critical of and families are thrilled. That's always really nice. One of the things that I do, for instance, is reconstruct ears of babies born without ears, children born without ears. ⁓ And reconstructing an ear is a very challenging bit of craftsmanship. And the traditional way we reconstructed ears was taking out four ribs from somebody's body.
+
+Savan Kong (43:10)
+Hmm.
+
+Yeah, I could imagine.
+
+Jordan Swanson (43:32)
+and in four stages, first moving the lobule of the ear and then carving a new ear's cartilage from those four ribs, placing it under the scalp, and then in two more stages, elevating it and refining the shape. But you can imagine to make what looks like an ear out of biblical as it may seem, is also technically very challenging. And...
+
+Savan Kong (43:56)
+Yeah.
+
+Jordan Swanson (43:57)
+One of the other ways we do that now is using actually a special implant, but covering it with a tissue flap inside of our scalp that's about two millimeters thick. And if you make it too thick, it looks bulky and loses its blood flow. And if you make it too thin, it doesn't survive and the implant gets exposed and gets infected and has to be removed. So a lot of precise sort of challenges. And that's the sort of case that, you know, I aim to have all of them look excellent.
+
+And some look a little better than others. Fortunately, I think many of look really good and it's been a very affirming thing to see as I treat more and more patients with this, how the satisfaction they have is a huge motivator to me to do these and to do better. But there's also the cases that we have that I love how the outcome is objectively and families are disappointed for whatever reason.
+
+Savan Kong (44:42)
+Yeah. Yeah.
+
+Jordan Swanson (44:50)
+And many of those times, I think it's not because of the objective result, it's something about the experience or something about what they were expecting or, you know, some disconnect that happened. And these happen only very rarely, but when they do, they're reminders to me of the importance of just communicating and setting everything else up for success.
+
+Savan Kong (45:09)
+Yeah, mean, I can only imagine the amount of stress because of the responsibility that you have. When you are getting that feedback from somebody where the expectations are not aligned, something had happened, how do you process that? How do you communicate that back to your team and yourself just to get you through those days? Because I would imagine...
+
+Those are probably the hardest days is when those expectations aren't aligned and it can be a lot of stress on your shoulders and anxiety. How do you get through that?
+
+Jordan Swanson (45:45)
+Luckily, this is one of the awesome things about medical training is that we get a lot of coaching, I think, about how to do this. And it's some counterintuitive things because I think probably what most humans, me included, would feel like if I was having a bad interaction with a potential patient or I was experiencing some tension with a patient would be to avoid it. That's what most humans tend to do with conflict.
+
+Savan Kong (46:08)
+Okay, yeah.
+
+Yeah, yeah.
+
+Jordan Swanson (46:10)
+And one of the things
+
+we get trained to do that I am extremely committed to is you lean into those situations. So the patient that has some questions or some concerns or you feel like maybe the communication isn't at 100%, those are ones that instead of saying, great, I'll see you in a few weeks. I'll see you tomorrow. I'll give you a call a couple of days after that. I'll see you back next week. We're gonna check in again really closely.
+
+because I really want that person to be supported and I want us to be as close as we can be, me, my team, listening, trying to really understand what's going on so we can get things on track. ⁓ For patients that are having, potentially they have a challenging condition, maybe they've not had surgery yet, but it's a potentially surgically treatable condition, there may be suffering other comorbidities or issues going on that means surgery isn't ready yet.
+
+But spending time with those patients, those families, they can be very long times, long days, long weeks for them in the hospital. Sometimes I feel like I'm just sitting and holding vigil with parents. And maybe we're not talking. Maybe we're both just kind of in each other's presence and thinking a little bit, but it's showing up. It's showing that this stuff is important and we might not have an answer. We might not have a solution. ⁓
+
+Savan Kong (47:04)
+Mm-hmm.
+
+Yeah.
+
+Jordan Swanson (47:33)
+but we're gonna be present and we're gonna be supportive. ⁓ And I think one of the reasons for that is, you know, it's scary for a loved one to have somebody need to undergo surgery. And ⁓ one of the things I find myself telling families a lot, because I feel that anxiety around them, is that, you know, I want you to take some of that anxiety and put it on my shoulders. Because some of what you're anxious about are things that
+
+Savan Kong (47:58)
+Mm-hmm.
+
+Jordan Swanson (48:03)
+We've been through this enough. We know enough about this condition and how the surgery goes that we have a pretty good confidence and set of expectations about how things are gonna be. And that's not worth you worrying about. There are other things worth worrying about. And I'm not saying don't worry. We always have to be worried, to be cautious and be careful. But some of that, I think we can help go away with reassurance. Not naive reassurance, but educating and giving support.
+
+Savan Kong (48:16)
+Right.
+
+Right.
+
+Jordan Swanson (48:31)
+And so that's part of what I try to do. I think that's what I'd want in return.
+
+Savan Kong (48:36)
+Yeah, I love that, man. this is probably a good segue to talk about more of the global impact you've had with your surgery. We talked about the importance of communication, which I completely agree with, and being able to set expectations so that both you and the patients know what you're getting into. When you're at a place like Nicaragua, where you were, you were doing work there and building out this program, ⁓
+
+Tell me a little bit about the program, but also I think more importantly, tell me how did you communicate with the people over there when English is not their first language, right? And like, what are the
+
+Jordan Swanson (49:06)
+you
+
+Savan Kong (49:17)
+types of things you do to make sure you are still facilitating that same type of care that you have in America, in South America, or in Asia or wherever else that you need to go, especially when that language is not the same?
+
+Jordan Swanson (49:32)
+Yeah, great questions. I'll try to do a little bit of justice at least to start, but so you referred to Nicaragua and when I finished my formal surgical training after being a resident and after being a fellow in craniofacial surgery, my life took another kind of detour.
+
+And ⁓ my wife Magda and my son Laz was two at the time and I moved for two years to Nicaragua. And the road to getting there was a little bit ⁓ circuitous and had a lot of uncertainties and dips and dodges. ⁓ It really originated from a calling that I think that we felt to serve those most in need and a real sense that a lot of those people, ⁓ even though there's many people that need more.
+
+Savan Kong (49:48)
+Yeah, I love it.
+
+Yeah.
+
+Jordan Swanson (50:15)
+care and service in the US was wanting to serve people overseas. ⁓ also as somebody who had now been for a decade or so involved in some aspects of global health, a real sense that the most appropriate and honest, incredible way to do that was to really walk in the shoes of people on the front lines in these places doing this. ⁓ And that was the most appropriate way to learn and to potentially contribute. ⁓ So.
+
+Savan Kong (50:20)
+Mm-hmm.
+
+Jordan Swanson (50:43)
+A lot of people thought we were crazy, leaving a very established training program in the US and some really great job opportunities in the US to do this. And a lot of people said, you're giving up a lot, you're taking a big risk here. And it was some of that, but there were also a lot of people that came out of the woodwork to be supportive. And this is something just advice I share with anybody who's considering taking a risk, because I think when you share that with other people, you find people that are really supportive and often share.
+
+and I think a collective wanting to be a part of that. ⁓ Not everybody has the ability to take some of that time or those opportunities, but if we can do it kind of on behalf of a group, we pull the group along together. As simple as the fact that, you know, it was abnormal as somebody who would be taking the medical boards to go overseas instead of taking the medical boards. Almost seems like you're dodging the draft or something like that.
+
+Savan Kong (51:35)
+Mmm. Yeah.
+
+Jordan Swanson (51:37)
+You know,
+
+Savan Kong (51:37)
+Yeah.
+
+Jordan Swanson (51:38)
+in plastic surgery, actually collect your cases for your first year in practice and you submit cases, all of the photos, your pre and post-operative photos, your operative reports to the board of plastic surgery as part of your credentialing. And the head of the board quickly realized I was not going to have access to pathology reports and CT scans in Nicaragua. And he said, you know, take two years, suspend your preparation for the board.
+
+⁓ which was a very anxiety provoking thing to do, but it was again an example of support that I really appreciated. ⁓ In Nicaragua, you know, I was a learner and I think a key thing that made that a really positive experience was showing up not to say, hey, I know how to do things or hey, our healthcare system in America, ⁓ you know, has more resources than yours. It was really by learning. And one of the things I learned a lot about was that cleft lip and palate surgery
+
+Savan Kong (52:32)
+Mm-hmm.
+
+Jordan Swanson (52:36)
+is probably best done in some different ways in those places than how we get trained to in the US. Some of the ages in which we do it and some of the techniques we use might not be quite robust enough for some of the nutritional fragility that kids have there. Some of the lack of diagnoses of other related things that are vulnerabilities that they have. so learning a lot from the seasoned surgeons and nurses there was a lot. we really worked hard to push things to new levels.
+
+Savan Kong (52:49)
+Wow.
+
+Jordan Swanson (53:05)
+We had some challenges along the way, but one of the themes that I learned a lot was to do it by trying to really work together as a team and really over-prepare for things. I think there can be a sense of there's a massive need here, so we just wanna do something. And while well-intentioned, that obviously can have very effects on patients if things aren't really prepared, but can also then...
+
+really thwart future efforts because there are negative experiences about that sort of ⁓ collaboration. And I'll tell you one story about that, which was we started up from a lot of experience in cleft lip and palate surgery there to doing higher level intracranial type surgery, which was a real goal. A lot of patients with these intracranial pathologies had yet to that point not had any access to treatment. And so we really wanted to open up these new paradigms of care. Peter Thiel's
+
+zero to one concept. Let's take something that there is not anything of now and actually build it and get it going, which is really compelling. In one of those early surgeries, the patient was in the middle of the surgery, the pediatric neurosurgeon in Nicaragua and I were in the middle of the surgery. It was fairly early in the surgery. And we were just starting to make the cut in the bone of the skull to let us do the part inside the skull. And the anesthesiologist said, I've lost the pulse.
+
+Savan Kong (54:07)
+Right?
+
+Jordan Swanson (54:30)
+which is of course one of those feared things you hear in this case with an 18 month old patient on the table. And of course my training when we're doing a surgery like that is there's two really common things. One is bleeding hemorrhage, which was not present in this case. And the second is what's called an air embolism where a little air gets into a vein, it travels into the heart and that interrupts the blood flow in the heart and lungs. But again, we weren't in a part in that surgery where that could have happened. And I was a bit stunned
+
+Savan Kong (54:31)
+No.
+
+Wow.
+
+Okay.
+
+Jordan Swanson (55:00)
+and a bit sort of incapacitated in knowing quite what to do next given that one of these wasn't happening. fortunately, one of the things we had done three months before getting ready for this is done resuscitative training to everybody on the team, nurses, anesthesiologists, extra training on resuscitation. And honestly, at the time, I thought it was just being a good steward, a good preparer. ⁓
+
+Savan Kong (55:09)
+Yeah.
+
+Right. Right.
+
+Jordan Swanson (55:26)
+But immediately the anesthesiologist sort of kicked into that training and looked at some of the EKG patterns and said, know, gosh, just before we lost the pulse, I think I see a pattern that suggests elevated potassium. Well, that's weird. Elevated potassium, we hadn't given potassium. ⁓ We had just been starting a blood transfusion, but we started CPR. We were able to stabilize the patient. The labs came back and sure enough, it was elevated potassium.
+
+and we treated some medicines to treat that potassium. We got the rhythm back. We ended up suspending that surgery to stabilize the patient, but then a month later, did the surgery, completed it, it all went well. Well, what had happened? We started this blood transfusion, and if you or your child gets a blood transfusion in a hospital in the US, that blood is probably a week old or so. In Nicaragua, unfortunately, it was about six weeks old.
+
+Savan Kong (55:56)
+Wow.
+
+Yeah.
+
+Jordan Swanson (56:22)
+And during that time from the blood being donated to it being hung on the IV pole in the surgery, the potassium that's inside our blood cells had leached out into what's called the plasma or the fluid around the blood cells. And it was unbeknownst to us giving a fatal dose of potassium as part of this medicine we were trying to do obviously as part of precautionary measures for the patient. And it was to me such an illustrative story because it was
+
+How do you deal with risks you don't even expect to have happen that require both thinking outside the box, but you don't have just sort of abstract time to think outside the box. You have to take care of the patient second to second in front of you. And we were very fortunate again to have invested in all those extra layers of training to make sure we were as safe as possible.
+
+Savan Kong (56:56)
+Exactly.
+
+Yeah, wow, what an amazing story. I mean, there's just so much that we could dive into there. But I think the thing I want to follow up on is this experience that you just had in Nicaragua. you now have the ability to look at the American health care system and health care systems all over the place through this story. Plus, I'm sure hundreds of others that you've experienced. ⁓ What do you think that experience teaches you about?
+
+the American healthcare system that we have now, what are some of the reflections that you have now that you've seen a broader picture of what that looks like worldwide?
+
+Jordan Swanson (57:53)
+Yeah. Well, you know, our health care system is a great health care system. It's one that prioritizes access and prioritizes choice. And both of those things are relatively costly. And that's one of the reasons that our health care system for somewhat similar outcomes ⁓ gets, you know, requires an investment level of about twice what a lot of other more higher developed countries.
+
+Savan Kong (58:01)
+Mm-hmm.
+
+Jordan Swanson (58:19)
+invest in the healthcare system. ⁓ It also is an incredible engine of innovation. And I choose to orient my career, my practice to take advantage of being at a place like CHOP, where a lot of those awesome investment in innovation happens, where we are really trying to invest to make things better. And, you know, one of the things that I look at our healthcare system as is around somebody who takes care of kids.
+
+with somebody who also has taken a few classes in economics. And I love to look at patterns. I love to look at data. And one of the things that's remarkable about our country is if you look at infant mortality rate, the number of children that die by their first birthday, in 1915, a little over 100 years ago, that was about 100 births out of a thousand. So about one in 10 kids did not survive to one. And this year, this decade, is to about
+
+Savan Kong (58:54)
+Mm-hmm.
+
+Wow, I didn't know it was that high.
+
+Jordan Swanson (59:16)
+five in a thousand. That number has dropped by 20x. 95 % of the mortality has gone away. And that is incredible. There's no other time period where you would see a century and have that big of an impact. And that is awesome. CHOP, the hospital where I work, was the first children's hospital in the U.S. was built in 1855. So it was around before that revolution in mortality happened.
+
+Savan Kong (59:27)
+Yeah.
+
+Yeah.
+
+Jordan Swanson (59:46)
+It's witnessed that, it's been a part of that. And that is awesome. The amount of healthcare spending on kids in the US is about 3 % of total healthcare spending. But the impact of any intervention that kids get is gonna get amortized over their entire life. And so it makes good sense economically as well as just being good humans that we need to take better care of kids. And it's not just about survival.
+
+as I said about infant mortality, it's about helping kids thrive. You have a young child, I have two young boys. There's a lot in our world that are challenging for kids. But let's look outside the US because infant mortality in Madagascar is still 50 per 1000. It is 10X what it is in the US. And it's not for want of the solutions to these things, it's for implementation of them. And it's not just kids. So one of the...
+
+things that I think of myself doing each day, even though I am a surgeon, is actually not the act of surgery, but what the act of surgery enables for people to do. One of the economists that I think is really compelling is a person named Amartya Sen. He was an Indian born economist that lived in the UK for much of his life. And he talked about how economics can improve the welfare for people. And he talks about development. we think about international development and how we ought to help
+
+Savan Kong (1:00:53)
+Mm-hmm.
+
+Jordan Swanson (1:01:12)
+partner with people to make the world better. The main goal of that, in his words, I think is very eloquent, is about creating freedoms. And I think that is a really good central point. I think about surgery as addressing injustice. And I think of a person who cannot use their hands to work and who cannot earn money for their family and who is suffering from the poverty and the prejudice of a non-working hand.
+
+Savan Kong (1:01:14)
+Mm-hmm.
+
+Thank you.
+
+Jordan Swanson (1:01:39)
+Doing a surgical procedure on him might be surgery, but it is creating the surgical justice of enabling him to be able. And that's similarly how I think about what I do for patients that I treat with primarily craniofacial problems. They may not be able to breathe because their jaw is compressing their airway. And if I can bring that jaw forward, it will enable them to breathe and feed and get out of the hospital. But that also means that that mom can get back to taking care of her other kids.
+
+Savan Kong (1:01:48)
+Yeah.
+
+Jordan Swanson (1:02:07)
+and that family can stop living life in the hospital and out of the fear of threat and succumbing to these conditions and enjoy that justice. So that's how I think of healthcare in our system that I would like us to all be more oriented towards is how can we think about the justices this can bring about and how can that motivate us as we think about people in our own cities that are disenfranchised from access to care and from those overseas and how we can create more justices.
+
+Savan Kong (1:02:38)
+Yeah, that's, man, that's amazing. There's so many things that you brought up that I would never have even thought about before we had this conversation. ⁓ Jordan, as we're sort of hitting the tail end of our conversation here, I wanna ask you, you've worn so many hats over the years. ⁓ You've won awards, you held the endowed chair, you trained surgeons, you've done so many things. ⁓ What?
+
+has not shown up in your CV or your resume that you're exceptionally proud of that doesn't get talked about.
+
+Jordan Swanson (1:03:14)
+man, I mean, I think you might feel the same way as this, but I think the particularly proud things for us, who at the end of the day are fathers and husbands, ⁓ is the wins that we see in our kids. Partly because there's sometimes few and far between. ⁓ You know, some of those studying for math homework among seventh grade can have a lot of challenges before we get a smile. ⁓ But it's just like celebrating successes in those that we love.
+
+Savan Kong (1:03:25)
+Yeah, agreed.
+
+Yes.
+
+Yes. Yeah.
+
+Jordan Swanson (1:03:43)
+⁓ You know, at work, you know, the favorite awards I've gotten actually are the ones that I have not received, but my trainees have received the Junior Investigator Awards. They've won because they, you know, we did some work together and they, you know, had the confidence to do a project and get some recognition for something good and grew and got motivation and further along in what they're doing.
+
+Savan Kong (1:03:53)
+Yes, I love that.
+
+Mm-hmm.
+
+Jordan Swanson (1:04:08)
+And it's the same thing with our kids. They show up, they're such curious little beings, a little younger than when you and I first met, but equally mischievous. it's the trials and tribulations, that some things will go well, some things won't go well. And you're always kind of working ⁓ with others to help bring out the best in your kids, try to be a good parent. It's humbling.
+
+Savan Kong (1:04:18)
+Yeah, yes, absolutely.
+
+Jordan Swanson (1:04:34)
+⁓ But I think equally when things go well, that's when you beam extra bright.
+
+Savan Kong (1:04:39)
+Yeah, that's amazing, Jordan, last question for you, my friend. And this was one that was sent to me by a couple of the listeners. I told them that you were coming up and what you do. So here's the question. You ready? This is probably the most important question that we have of the day. ⁓ But of all the movies and TV shows about the medical practice, which one is the closest to reality?
+
+Jordan Swanson (1:04:53)
+All right.
+
+Scrubs, 100%. I mean, phenomenal. Carrie, ⁓ you know, it's a great group. I think the thing about medicine is, you know, it is very serious work that we do, ⁓ but you have to have an outlet, you have to have your humor. And some of the best, most compelling surgeons and physicians that I work with are the ones that do good work, but at the end of the day, they have a great sense of humor.
+
+Savan Kong (1:05:23)
+Yeah.
+
+Jordan Swanson (1:05:35)
+They know the bigger picture in life. And I think that's what helps keep the balance and the perspective. I love scrumps, man. I actually saw an ad recently. I couldn't tell whether they were getting the gang back together for like a new season or if it was just like that whatever 30 year thing where the good stuff comes back and it's like, know, retro vintage again and we're starting over again. But I'm psyched to tune back in.
+
+Savan Kong (1:05:36)
+Nice.
+
+Yeah!
+
+That's amazing, Last personal question. Yeah, last personal question. You know, I'm not a, I don't watch a lot of medical TV, but the one I did catch back in the day was, I believe it was called House. ⁓ Exceptionally smart dude. ⁓ Are there really people like that that work in your field that sort of have this detective, very deep, intimate knowledge of these obscure things that can solve problems the way he does?
+
+Jordan Swanson (1:06:00)
+What is your favorite medical TV?
+
+yeah, and some that are even more socially awkward than he is. ⁓ Actually, you know, at many meetings that we go to, the way it works is you're up on the podium, you give a talk, sometimes with a group of people, and then they open the microphone for questions and comments. And there's a few notorious ones in our field that you just shudder when you see them starting to walk up at the microphone because they have an encyclopedic knowledge. They're gonna both ask a very, you know, specific question of you.
+
+Savan Kong (1:06:37)
+Ugh.
+
+Jordan Swanson (1:06:59)
+and humiliate you if you don't know some of the literature that they know on the topic you just presented on. And here's where this is all changing. Open evidence up to date. mean, in the last two or three years, the number of families or patients that come in and see me and say, hey, I was looking on Google or I was asking Chad GBT about this. And some of it is pretty accurate, pretty right, pretty helpful. And some I think is very misleading. ⁓
+
+Savan Kong (1:06:59)
+Yeah.
+
+Mm.
+
+Jordan Swanson (1:07:26)
+how we use it as professionals is really interesting. We're actually working on number of research projects to use AI to help hone what we do with our craft to improve the effects of the outcomes. ⁓ It's really interesting. It's really wild time. ⁓ So I think that's a particularly interesting area of things right now.
+
+Savan Kong (1:07:44)
+Wow, man, that is wild, Jordan. That is wild, my man. Well, hey, that wraps up our show. Jordan, I just wanna thank you so much. It's an honor to call you a friend. I appreciate you taking the time out of your super busy day, man. And I'm hoping that by the end of this conversation, we have inspired a ton of new people to get into the field that you're in. And if there's any links you want me to add to the description of...
+
+programs or things you want people to be aware of, send those over. But I wish you well, my friend. It's always good to talk to you.
+
+Jordan Swanson (1:08:20)
+Awesome. And to everybody tuning in and to those who are living life between titles and emerging into new roles or out of old ones, think, you know, people say that life is what happens when you are planning for something next. Lean into these moments. They make us stronger. They can be hard moments, but they can be really positive moments.
+
+Savan Kong (1:08:35)
+Yeah.
+
+Jordan Swanson (1:08:40)
+galvanizing moments and Savan, I hope next time we get to turn the tables and I get to ask you all of these questions about your tremendous adventures since we were last in school together. ⁓ Hardly. Thanks so much for having me on. been great to connect.
+
+Savan Kong (1:08:50)
+Nobody wants to hear about my adventures.
+
+All right, my friend, you take it easy. appreciate
+
+it. All right, see you.
+
+Savan Kong (1:09:19)
+All right, if you've made it this far, you've just heard my conversation with Dr. Jordan Swanson and.
+
+And I want to leave you with one thing. You see, when I asked him how he handles the weight of operating on a child's skull, their face, the cornerstone of their identity, the stakes and the margin of error is very, very little.
+
+You see, when I asked him about the weight of operating on a child's skull, considering that the margin of error is so small and that the kids can't advocate for themselves, how does he handle that? How does he compartmentalize that pressure?
+
+does he not get burnt out by the amount of stress that's on his shoulders every day?
+
+And he told me that the weight is the point.
+
+he said the weight is the point. That if you ever stop feeling the weight of that pressure on your shoulders, that's when you start to be worried. That's when you start to pay attention. That if you ever stop feeling that weight on your shoulders, that's when you need to start paying attention.
+
+I think about how many of us are quietly trying to get lighter, to care less so we can feel less, so we can hurt less. and here's someone who's built an entire career based on that weight.
+
+on his shoulders.
+
+who chose the hardest patients, the most complex surgeries, the most complex cases, the surgeries that most people would pass up on.
+
+And the takeaway for me is this, you don't need to find harder work.
+
+It's the things that are worth doing that carry the most amount of mass.
+
+and maybe the goal isn't to put them down.
+
+maybe it's to get stronger.
+
+So Jordan, thank you for this lesson, for the time and your honesty. and if this conversation resonated with you, please consider subscribing, leaving a comment. It'll go a long way.
+
+This is your host, Savan. Until the next one.
+

@@ -1,0 +1,1510 @@
+Matt Kelly (00:00)
+I just, got to a point where I like, wanted to kind of like take some time for just myself and my family and just kind of step back and really like rethink what I wanted to do because like what ended up happening is I just like, I just wasn't trying hard.
+
+You know, I was, I was sure I just wasn't like.
+
+I wasn't doing the stuff that I knew I could do. I was in my own way. I needed to kind of reset.
+
+Savan Kong (00:23)
+Yeah.
+
+Was that you
+
+think you think that was because you didn't have the experience or the time
+
+Matt Kelly (00:33)
+I think after years, know, a decade of being a traveling like enterprise level high pressure sales guy that had to hop a flight several times a week and entertain customers and schmooze and go to thousand dollar dinners and drink whiskey until 3am like
+
+Savan Kong (00:46)
+It's a grind, man.
+
+Matt Kelly (00:55)
+I became a guy who ate huge dinners and went and drank whiskey until 3 a.m. because I had to, you know what I mean? Like I had to be that guy. Like that was the job. You know what I mean? And, and a decade of that, I just got run down, dude. I was like 240 pounds. I wasn't sleeping well. I just wasn't healthy, man. And I, you know, and like,
+
+Savan Kong (01:01)
+Yeah, it's part of ⁓
+
+Matt Kelly (01:15)
+There's a lot of that, that like, wasn't working out. wasn't running. was, mean, just nothing, right? And my testosterone was, low. whatever, like just, you know, I just didn't feel good. And when you don't feel good physically, it's super hard to be in a, in a mentality of like hunger and growth and what's next. I'm just trying to like get through the day so I can go to bed.
+
+Savan Kong (01:36)
+Yep, because you're just trying to survive for the next thing. Yeah.
+
+Matt Kelly (01:41)
+go to sleep and wake up the next day and then make it through so that I can go to sleep again. You know, and I got really good sleep, you know, sometimes, but I'd be waking up at, you know, 11, I'd be waking up at two, I'd be going to, you know, the bathroom at 4 a.m. and then I'd be on my phone from 4 a.m. to seven, you know, reading the news and playing chess and checking my email and what, you know, I don't
+
+And I just, it just, I just, it was me, you know, it was me, it was me. The problem was me.
+
+Savan Kong (02:16)
+Matt and I first met at a place called Kario. We were building and selling medical software to independent practices. During this time I was working on the product and design teams and he's working on the sales side. And what I learned during this time about Matt was two things. One, that he's exceptionally good at his job. And the second thing is sales is really, really hard.
+
+The thing that people don't realize is when you're selling something, especially a commodity that may be unknown, you have to build trust. And in order to do that, you have to be able to invest the time in building relationships. That investment at times can be very costly. And there's many nights where you're saying up late, you're going to dinners and maybe you're drinking a little too much in order to build that trust.
+
+And over time that cost takes a toll on you, whether it's with your family or your health or your mental well-being. What I love about our conversation today is Matt doesn't hold back when he talks about the accountability of himself and where he wants to be now that he's at this inflection point as a father, as a husband, and as a person who has a couple of years under their belt doing a bunch of different things.
+
+The conversation we have today is super fun. go from his aspiring career of being a rapper to now being an entrepreneur in the AI space. And I think the greatest thing about this conversation is how Frank, talks about his reflections and where he wants to go and what he wants to be.
+
+So here's my conversation with Matt Kelly. Let's get it.
+
+Savan Kong (04:12)
+Welcome to Life Between Titles. I'm your host, Savan, and today I've got my good friend, Matt. Matt, what's up?
+
+Matt Kelly (04:18)
+Hey, how you doing? Thanks for having me on.
+
+Savan Kong (04:21)
+You know, I'm stoked, man. We've known each other for many, many years off and on. as it happens, life gets in the way of a lot of these things that we want to do in terms of our professional career. But for the people that don't know us, Matt, tell me a little bit about yourself. Where do you live now? Where'd you grow up? Give me a little bit of that background.
+
+Matt Kelly (04:44)
+Yeah. Well, thanks. Yeah. And we obviously we go way back to a startup we were at a long time ago called Kareo, but we both been at a bunch of different places since then. Now, man, I'm a dad, dude. I'm a dad and I've got two, you know, beautiful children that I just feel so lucky to have and be around. And I'm between titles right now. Right.
+
+Savan Kong (04:53)
+Yep.
+
+Yeah, crazy.
+
+Yeah?
+
+Yeah.
+
+Matt Kelly (05:12)
+When I
+
+started to really like see what you were doing with this podcast, I thought, you know what? I fit this. I got some cool stuff that we could talk about, I think, of what I'm going through. But I've been working for a couple different companies. I've had a bunch of different titles and responsibilities, and now I'm just exploring the world.
+
+Savan Kong (05:22)
+Yeah, for sure.
+
+Right?
+
+Yeah, that's fantastic, man. Matt, where did you grow up? Where were you born?
+
+Matt Kelly (05:38)
+Yeah, so I was born in Indianapolis, Indiana, where I still live. I grew up in a town called Fortville, which is a little smaller town, but, you know, late 80s, throughout the 90s, Fortville was the best possible place you could want to grow up, I think. Had a lot of fun. It's a rural town, so there's a lot of like cornfields, you know, agriculture.
+
+Savan Kong (05:41)
+Nice.
+
+Yeah.
+
+What was it like? What was it like?
+
+Matt Kelly (06:04)
+livestock, a lot of the kids that go to the high schools in the area, like they're in 4-H and stuff like that. That's how I grew up. I ran around the woods, I got dirty in the creek, I learned how to hunt, you know, that kind of thing. But I went to a high school that had ⁓ more of a suburban
+
+Savan Kong (06:04)
+Yeah.
+
+Yeah.
+
+Yeah, nice.
+
+Matt Kelly (06:24)
+like economy around it. Right. And so all the kids that I started to go to high school with were in a little bit of a different, I lived over the County line and a little bit of a nicer area, Hamilton County, Indiana, which is like, ⁓ the wealthier part of the suburbs of Indianapolis, the North side. And, I was around a bunch of kids that like their parents, you know, were white collar. had, you know, interesting tech jobs. They traveled a lot. You know, they just, they had, they had a little bit of a different,
+
+Savan Kong (06:26)
+Mm-hmm.
+
+Okay.
+
+Matt Kelly (06:53)
+way that their lives worked that was different than mine because my parents were both blue collar and gave me a great life. We didn't, we never wanted for anything at all, but like, you know, like my, my dad wasn't hopping on a plane every, every week to go somewhere, you know? So, but yeah, that's, that's me. That's where I'm from.
+
+Savan Kong (06:56)
+Yeah.
+
+Right.
+
+Right. Right.
+
+That's awesome man. was your prized thing that you've hunted as a kid? If you could remember that one thing, what would it be? Would it be like pigeons or what was it? A deer? What was your prized possession?
+
+Matt Kelly (07:28)
+Man, you know, I had a grandma that was like really into Native American stuff. And like, she told me that we were Native Americans, but like, it was like not true, you know? Like, you know, like, like she would like make up all these like tales about being Native Americans and stuff. And I was really into it. we would like make like,
+
+Savan Kong (07:37)
+Okay.
+
+God, grandma.
+
+Matt Kelly (07:54)
+bow and arrows. I literally grew up making bows and arrows. And I never killed anything, but the whole process was fun to do. And then that led into ⁓ spearfishing, trying to spearfish. Yeah, in Indiana, a lot of the ponds around here have these huge carp. And these carp...
+
+Savan Kong (07:59)
+Nice.
+
+Right?
+
+⁓ yeah, that looks awesome.
+
+Yeah.
+
+Matt Kelly (08:18)
+just like sit there huge and fat and ugly. And they just like, they come up for sunshine when it's sunny in the summer, but they're huge. You know, they're like two feet long. And so, you know, I never actually got one, but we would stand there on the shore all day, just like, that was fun. I don't know. I grew up. I mean, I've hunted deer. I've hunted boar. I've hunted other stuff, but like,
+
+Savan Kong (08:36)
+Yeah! ⁓
+
+Yeah. Yeah.
+
+Matt Kelly (08:47)
+I stopped because it just became gross kind of like, you know, once, once you get something, you've got to like do a bunch of messy, gross, smelly things in order to get it on your table. And I just, you know,
+
+Savan Kong (09:02)
+I,
+
+you know, it's funny, like, ⁓ the more I learn about that whole universe, the more interesting it gets because I always associated, you know, people that...
+
+loved firearms. have a lot of friends have tons of firearms and love guns with being good hunters, but most of them fucking hate hunting. They're just like, dude, it's a chore, man. It sucks. But I like to shoot my guns. So you know, but like growing up, I was always like, oh man, you own guns, you must be a good hunter then. Like, no, that's not the case, man.
+
+Matt Kelly (09:20)
+Yeah, it sucks actually. Yeah. Right. Yeah.
+
+Yeah.
+
+Yeah. I was in, was in, ⁓ I joined four H, but I didn't have any like animals or anything. You know what I mean? Like I was, I didn't have any like skills that typically people would, would have in four H. So yeah, no, I would. Well, what I, what I learned though, what I learned in the four H catalog of like skill, you know, four H is this, if you're familiar, it's an organization that helps teach kids skills. And you go through this catalog.
+
+Savan Kong (09:42)
+Right, right. You would die on the show alone then, right? Like you would be like the first one?
+
+Right. It's like Boy Scouts, like
+
+Boy Scouts sort of.
+
+Matt Kelly (09:59)
+Boy Scouts, but like it's like ⁓ you produce something and then you whatever you produce, like it could be gardening and your skill is growing vegetables, right? And what you do is you grow the vegetables and you bring them into the county fair and you show off your vegetable. And then like somebody wins a blue ribbon and then you take your prize winning eggplant to the state fair and then you compete against all the kids in the state. And you just become like this skilled
+
+Savan Kong (10:06)
+Okay.
+
+Okay, okay, gotcha, I gotcha.
+
+Nice. Yeah.
+
+Yeah.
+
+Matt Kelly (10:30)
+Whatever you choose. Well, my, my skill was a marksmanship. I looked in the catalog. was in fourth grade. I looked at the catalog and it said marksmanship, shoot guns. I said, let's do that. So, they took me to a skeet shooting range. was, I was 10 years old. They handed me a shotgun. They taught me how to use it. They taught me how to be safe. They taught me how to make sure was safety, not to point it anywhere. It was very, very strict on like disciplined gun safety, but I shot guns.
+
+Savan Kong (10:31)
+Right.
+
+⁓ Yeah.
+
+Yeah, that's the one, right?
+
+Nice.
+
+Yeah? Yeah.
+
+Matt Kelly (10:59)
+every day of the week and it was
+
+it was pretty cool.
+
+Savan Kong (11:03)
+Wow. Were you good at it? Like, did you win any prizes or anything like that?
+
+Matt Kelly (11:09)
+When I was 10 years old I could shoot 19 out of 25 clay pigeons
+
+Savan Kong (11:13)
+Holy smokes. I couldn't even do that in Duck Hunt, bro. that was hard on the Nintendo system.
+
+Matt Kelly (11:18)
+I got
+
+massive, the blue ribbon that I won was for the ⁓ bruises on my shoulder from the shotgun. Just kidding. Just kidding. Yeah.
+
+Savan Kong (11:29)
+⁓ man, that's awesome. That's awesome.
+
+So what was high school like? You told me that it was more affluent than where you grew up. How did you adjust to that? What did that look like for you?
+
+Matt Kelly (11:38)
+Shit.
+
+Yeah, I was, ⁓ I dropped out of sports, pretty, pretty, you know, I wrestled for a long time. I think football, I put, you know, I played sports. I w I'm not an athlete. I would never claim to be an athlete at all, but like, you know, I played, I had fun, but like I dropped out of sports in high school and I became more of like, ⁓ like I was in choir. ⁓ I was more of like a,
+
+Savan Kong (11:49)
+Yeah.
+
+Right. Yep.
+
+Matt Kelly (12:06)
+personality person. You know, I was a people person. was a kid amongst all of the people, you know, very diplomatic. But I didn't like, you know, I got a job. I worked, you know, I had a car early. You know what? One fun fact. Here's a clip for the shorts that you produced from this is I had spinning hubcaps on a Ford tempo.
+
+Savan Kong (12:08)
+Hahaha
+
+Yeah.
+
+Yeah.
+
+Ahahaha
+
+Matt Kelly (12:35)
+and I had a sub in my trunk and I would drive around and I would stop and I'd be playing a song called Riding Spinners by Three Six Mafia. And I would stop and they would spin and I would, mean, well, they didn't light up, but that would have been cool. I would have done it. I would have done that if they had those. But I bought them at Ed Boys. They were like 25 bucks for four.
+
+Savan Kong (12:38)
+Yep.
+
+Yeah, yeah, three six. Did they light up too? Did they light up? ⁓ okay.
+
+Yep.
+
+Yeah.
+
+Oh man, that's hilarious. How did you get that inspiration? I guess that's a good segue. What inspired you when you were a teenager, man? What did you get into?
+
+Matt Kelly (13:11)
+And you know, liked music a lot. I, my friends and I, ⁓ we would like freestyle rap a lot. And we would have like CDs with a bunch of like beats and instrumentals that we were downloading off Napster. And then we'd burn it onto a CD and we'd ride around and like one of our cars or one of our like parents cars, my mom let me borrow her van. It was like a full size Astro van and we would pile eight dudes in it. Right.
+
+Savan Kong (13:19)
+Yep.
+
+Yeah.
+
+Nice
+
+Yeah, yeah, yeah
+
+Matt Kelly (13:40)
+drive around, get, you know, getting into trouble. ⁓ Not, not real trouble, but you know, just.
+
+Savan Kong (13:45)
+Right,
+
+looking for adventure.
+
+Matt Kelly (13:48)
+trying to have fun. And the whole time we would ⁓ freestyle rap and it was really bad, you know, but ⁓ I was into that. I liked it. I liked it a lot. yeah.
+
+Savan Kong (13:50)
+Right.
+
+Yeah.
+
+Yeah. Did you go to college or what did you do after high school?
+
+Matt Kelly (14:08)
+I did.
+
+I did. went to Purdue, ⁓ for two years. Yeah. I liked it. got it. got a really good score on my SATs. ⁓ not a good, not a good like GPA. I think I was like a C student. I mean, I didn't, you know, I didn't really, I would like not do my homework and then I'd show up and just like get an A on the test and then just, I'd be like, I'm, know, I'm just not going to do the, I'm not going to do the homework. So like, sorry.
+
+Savan Kong (14:11)
+Nice. Nice.
+
+Okay.
+
+and do the test. Yeah.
+
+Yeah, yeah, yeah, yeah, no, I hear ya, I hear ya. I was
+
+the opposite, man. I bomb tests. I'm so bad at taking tests, but I can definitely put in the time to do the homework. I don't remember getting a good SAT score. I think back in our day, what was the perfect score, like a 1600? Yeah, I don't even remember what I got. Probably like 11, 12?
+
+Matt Kelly (14:51)
+16? Yeah, 1600.
+
+I mean.
+
+Yeah? He's good. ⁓
+
+Savan Kong (15:00)
+Maybe 13? I don't even know. It was enough to get into
+
+a few schools, but not like the top cream of the crop schools.
+
+Matt Kelly (15:06)
+Yeah, I didn't get a 1600. I'm just saying that's the only reason I got into Purdue. Like I volunteered at a hospital and I would like take people around on their wheelchairs and stuff because my mom was there and she like just got me a volunteer job. So on my essay to Purdue, I was like, look, I'm a good kid. I'm a C student. I got a good SAT score. I volunteered the hospital. I want to be a Boilermaker. And I sent in all my stuff like day one.
+
+Savan Kong (15:11)
+Yeah.
+
+Yep.
+
+Yeah.
+
+Matt Kelly (15:35)
+Like literally the first day that they were even like accepting them at all for the year, the year before that I was going to go. And I just lucked out and they, know, so.
+
+Savan Kong (15:38)
+Right.
+
+Yeah.
+
+It's funny dude, I remember Cario, we had a lot of Boilermakers there, Like you went there, think Corey went there, he played football there, a couple other people went there, I can't remember who else. Oh that's right, yeah, yeah. That's interesting man, I never actually put that connection together until you started talking about it now. What was Purdue like, was it pretty intense as a school?
+
+Matt Kelly (15:51)
+Yeah. ⁓
+
+Yeah.
+
+⁓ no, only because I didn't try hard. I, what I did was I, I joined a fraternity, like a meeting, like, you know, step one, join fraternity, step two, be in a fraternity. ⁓ but ⁓ like, I didn't know what I wanted to do. I didn't, you know, I don't know. Like I was taking all kinds of cool classes and just like learning and then like not actually.
+
+Savan Kong (16:14)
+Okay, the same. Yep.
+
+Yeah.
+
+Yeah, right.
+
+Right.
+
+Matt Kelly (16:37)
+I wouldn't actually like complete the class. And so I failed a couple of classes and I ended up leaving Purdue really because like being in a fraternity is amazing. I had a lot of cool people that I met there and a lot of relationships that have lasted my whole life. out to Theta Chi people. If any of you see this and you're my brother from Theta Chi, we're brothers for life, right? Like I out dude, I dropped out because it was like.
+
+Savan Kong (16:42)
+Yeah.
+
+Yep.
+
+Yep.
+
+Ahahaha, right.
+
+Matt Kelly (17:03)
+This sucks, you know? And so I went to a school called Full Sail University, which is in Orlando. Full Sail is like. It's a for-profit school, you I mean, you're buying a degree, but it's it's intense, so it's like it's you have to go every class is four hours a day, six days a week, and you can't be more than 15 minutes late or they mark you absent if you're absent twice.
+
+Savan Kong (17:05)
+Mhm.
+
+What is, yeah, what is that?
+
+Okay.
+
+Okay.
+
+Wow.
+
+Matt Kelly (17:31)
+You you're you're out. And so like in the program that I was in, it was a audio engineering. So like how to run a studio, how to record bands and whatever. And. Like we started with like 250 kids in the class and we graduated with 26. Yeah, because they just they just they people just can't, you know, I mean, it's like they will accept anybody as long as you're willing to sign that you want alone.
+
+Savan Kong (17:34)
+Wow.
+
+Mm-hmm.
+
+Holy smokes.
+
+Matt Kelly (18:01)
+to pay to go there, right? It was 60 K a year. I was done in 12 months. had a ⁓ associate's degree in audio engineering and I recorded a bunch of music. I recorded a bunch of cool music. I learned how to make beats. was a rapper. My name was mean, Maddie green. ⁓ yeah, dude. Yeah. And it was, mean, I was, I, I performed, had like shows, like I went to, ⁓ festivals. had songs that people knew and liked. just,
+
+Savan Kong (18:02)
+Right. Wow. Yeah.
+
+Mm-hmm.
+
+⁓ yeah, I remember this. Yes.
+
+Matt Kelly (18:30)
+I made no money. I didn't make a single dollar. Like not one. Right.
+
+Savan Kong (18:32)
+Mm-hmm. Yep.
+
+Dude,
+
+how did you decide to become an audio engineer at, was it Full Sail? ⁓ How did you decide that?
+
+Matt Kelly (18:45)
+Yes. It's in, it's in Orlando.
+
+Yeah. So I had a buddy that went there and he, couple of buddies that went there actually. And, ⁓ they were in the same boat. Like they tried a school, they tried a four year school and they just left earlier and went down here. And then they had like multiple programs. like they were all condensed programs. So I chose the associates program, but like, I had other friends that were down there that were going for a bachelor's degree. That took two years, a master's degree, which took three years.
+
+Savan Kong (18:50)
+Okay.
+
+Yeah.
+
+Matt Kelly (19:13)
+But it's the same kind of thing. It's six days a week. mean, sometimes you got two or three classes. Like there are sometimes some months where you're going 12 hours a day back to back to back. Yeah. And you can't be late, dude. You can't be late and you can't miss class and you can't skip class and you can't leave class and like come back. Anyway.
+
+Savan Kong (19:32)
+Did
+
+they make you pay for it upfront? that how, okay, so you're like, already paid for this, I better get my ass to school.
+
+Matt Kelly (19:36)
+Yes. Yeah. Yes.
+
+And if you failed, they wouldn't reenroll you in like just charge you more. You know what mean? Like they'd be like, okay, now that's another 20 K. If you want to get back in.
+
+Savan Kong (19:50)
+Right, dang, dang, that's intense, man. What was a typical class like? I've never talked to somebody who has an audio engineering degree. What was it like? Like, what did you guys end up doing?
+
+Matt Kelly (19:52)
+Yeah. Yeah. Yeah.
+
+Yeah, I was there in 2007. Here's an example that might be interesting. I was there in 2007 and at the time RSS feeds had just been like popularized and sent out into the world as like a way to syndicate digital media. MySpace was pretty big, but like people weren't really doing podcasts on MySpace pages. They were just uploading audio clips and...
+
+Savan Kong (20:12)
+Right. Yep. Yep.
+
+Yeah.
+
+Right.
+
+Yeah.
+
+Matt Kelly (20:27)
+designing their pages with HTML and making them look cool or whatever, but like a SoundCloud launched the year that I was there. Anyway, RSS feeds were just a bit. And so I had this whole lecture, this like series of lectures for a week on just, just podcasts. And it wasn't even a thing that like existed yet. Right. It was like, this is the next thing for how people are going to create audio, design content to be syndicated.
+
+Savan Kong (20:34)
+Yep.
+
+Yeah.
+
+Matt Kelly (20:56)
+And for people to subscribe to with an RSS feed and it will be auto delivered to them every time that you drop a new episode. And so they're essentially like signing up for your channel. And so you have an opportunity to brand it. Right. And so like I learned how to make a podcast before podcasts really actually like literally were on the market. Like iPhones didn't exist yet. I think I felt probably like invented in 2007. I don't know. I forget when that
+
+Savan Kong (21:04)
+Yeah.
+
+Yep.
+
+Right? Right?
+
+Yeah, yeah,
+
+just came out. Yeah, it just came out. ⁓ What's interesting is I think around that time I was working at a startup in New York called Blog Talk Radio.
+
+Matt Kelly (21:26)
+Yeah. ⁓
+
+Yeah.
+
+Savan Kong (21:37)
+and
+
+they were the only blogging podcast platform and like they actually had a system online where you can call them with your phone and you could take people's calls and it would do the RSS stuff but yeah that was a new frontier across the board because I was thinking at the time even though I was working there I was like who the hell's gonna listen to me talk and here we are you know 20 years later. ⁓
+
+Matt Kelly (21:59)
+Yeah. Yeah. Yeah. Yeah. I mean, I,
+
+I, made a podcast, which was, ⁓ at the time it was just, remixes. So I would take like little Wayne beats and then I'd go to my buddy's studio or, you know, apartment in his closet of his bedroom at night. And we would record these remixes of me just freestyling on little Wayne beats. And then that was the pod. Like that was like episode one leather. So soft episode two.
+
+Savan Kong (22:10)
+Yeah. Yeah.
+
+Right.
+
+Right?
+
+Matt Kelly (22:27)
+Hustler music, you know, and you would just do them and, uh, they all sucked. It was stupid. You know, in fact, once I, once I got a real job, uh, so in 2009, I got into SAS. I started working for a marketing, um, technology company, but, uh, within months of working there, it like came out that I was a rapper. Like I, like my friends called me, me, Maddie green. People found my Facebook. Like they found all this stuff online and
+
+Savan Kong (22:29)
+Right, right, right, right.
+
+Hahaha
+
+Yeah.
+
+Yeah.
+
+Matt Kelly (22:57)
+I was super embarrassed. it actually like because people had made a joke about it and I just I was serious. And so when people were laughing about it and make it because it's a funny thing. I mean you meet a serious guy that wears a tie to work and he says he's a rapper. I mean you giggle a little bit. I mean you know it's like oh ha ha ha that's cool like you know. But because I was embarrassed by it like I deleted every I deleted my Facebook. I'm not on Facebook to this day.
+
+Savan Kong (23:16)
+Yeah, yeah, yeah, yeah, for sure.
+
+Oof.
+
+Yeah, I'm not either. Yeah. ⁓
+
+Matt Kelly (23:26)
+because I deleted it, right?
+
+I deleted my MySpace. I scoured every database. I deleted my SoundCloud. I deleted my YouTube videos of my concerts purely so that nobody could ever discover that I was actually meme at it. Yeah.
+
+Savan Kong (23:41)
+Yeah. Do
+
+you, I want to circle back to that story towards the end. ⁓ But ⁓ before we get to that, tell me about sort of your mentality when you were finishing up your degree, your audio engineering degree, like what did you want to do with your life after that? Like what was your plan as a, I would imagine this is like early twenties, right? Like maybe early mid twenties. Yeah.
+
+Matt Kelly (24:03)
+Yeah, was 21.
+
+Savan Kong (24:07)
+Yeah, what was your train of thought? Like, what'd you tell your folks you were gonna do after you paid all this money for this degree?
+
+Matt Kelly (24:09)
+Thank you.
+
+My folks were great.
+
+My folks were great about it. Like they were so supportive and like positive and like they believed in me, you know? And like I was, you know, I don't know. I was, ⁓
+
+Savan Kong (24:19)
+Yeah, dude, that's awesome, That's awesome. Yep, yep.
+
+Matt Kelly (24:33)
+felt like I could do anything, which I feel like I still feel that way. But like, I feel like I feel like I could do anything. And I was like, I thought that I was like this special person, which, you know, like, I still do kind of. And ⁓ I thought that like, no matter how good I rap or how bad I rap, like I'm, I enjoy this. And it's it's
+
+Savan Kong (24:35)
+Yep.
+
+Yeah.
+
+Mm-hmm.
+
+Matt Kelly (24:59)
+clearly like good at it kind of and I'm just gonna get better and this world is taken off and like whatever and and Sally may start so anyway so I was doing it right I like worked at a studio I went to the studio every day I like vacuumed and like wiped down the glass and organized the chords and like you know for free just so I could be there just so could be at the studio and and ⁓ I was making songs and I was
+
+Savan Kong (25:13)
+Yeah.
+
+Matt Kelly (25:27)
+doing shows for free and I was like being a rapper, I guess. And I had like a part-time job as a waiter at an Italian restaurant where I would just like try to sell as much like Chianti and clams as I could. No, no, it was a place called Goodfellas and it was like brick oven, New York style pizza, but it had like a nice restaurant attached to it too. So we were doing like.
+
+Savan Kong (25:44)
+Yeah, was it Olive Garden?
+
+okay.
+
+Matt Kelly (25:55)
+you know, $30 bowls of pasta and really nice wine and like really nice scotch and like, you um, so anyway, I'd like talk up the alcoholics and have them come back and just get boozed up on my, on my tail. Right. Um, I mean, I don't know, you know, like, don't know, but anyway, so my parent, Sally may started calling my parents' house because I lived there, right? I lived with my parents and like,
+
+Savan Kong (26:13)
+Man.
+
+Okay. Yeah.
+
+Matt Kelly (26:22)
+they were ⁓ leaving voice masks. Hey, you know, you're six months late on your payment for your student loan. Like we're going to, you know, you have to pay this, please call us back. And I just, I was just ignoring them. Like I was deleting them and whatever. And my, so my dad, you know, he was like, Hey, look, like I'm not going to pay your student loans. I'm not going to make a single payment.
+
+Like these loans, if you believe that this is your life and this is what you want to do and you sign for these loans and you want to do this, you're paying your loans. And that starts with you actually making money. You have to actually go make actual real money. Right. And I was like, yeah, okay. I guess, you know, and one of my fraternity brothers from Purdue reaches out to me. He was like, he liked to rap and freestyle. He thought it was funny that I was doing it.
+
+Savan Kong (26:58)
+Yep. Yep.
+
+⁓ man.
+
+Matt Kelly (27:14)
+And he just got a sales job at a SaaS company and he was like, dude, you could do this. All I do is just freestyle on the phone every day. Somebody answers. have a on the spot conversation where I just find any way to get past them to actually talk to the guy I got to talk to. Right. And then once I talked to that guy, I just got to make up any reason that I can get him to book an appointment. And you know, it's just the whole, I wing it the whole time. I got a script, but like I have to wing it. And he was like, you
+
+Savan Kong (27:14)
+Uh-huh.
+
+Yeah.
+
+Matt Kelly (27:45)
+I mean, you could do that. And I was like, fine. That's if that, I guess, you know, I'll do an interview and yeah, I've been doing that ever since.
+
+Savan Kong (27:56)
+Yeah, I mean, there's a lot of parallels to what you're doing now in your world. I mean, not even now, but like, you even back to the the Karyo days and S. Alice days and, you know, Salesforce days where you are really sort of like.
+
+Matt Kelly (28:06)
+Yeah.
+
+Savan Kong (28:11)
+trying to get people to understand these concepts and values even before you understand them completely. I think the thing that's interesting to me, ⁓ especially about artists, is there's that fine line between hubris and confidence, right? And you've got to straddle that line. And then you also have to know when the fuck to get off, because it's like, well, I've already put five years into this thing. When do I say, OK, that was a valiant effort? For you, when was that? Because you'd
+
+Matt Kelly (28:34)
+Yeah.
+
+Savan Kong (28:41)
+got to school for this, you're now trying to make a career out of it. Like, how did you know when it was over?
+
+Matt Kelly (28:47)
+Yeah,
+
+I started to open my eyes to how people saw me. And at the time, you know, the way that people sort of saw me is this like an entertaining thing that just had very little value and very little potential. I mean, people just didn't like take it seriously that like this was a choice that I made no matter what my song sound like, you know, like
+
+Savan Kong (29:11)
+Yeah.
+
+Matt Kelly (29:16)
+I wasn't bad. Like I'm downplaying it. Like I was some kind of joke. Like it wasn't like I was actually like, you know, but, but nobody cares. Nobody cares. Right. I mean, you know, I was never going to be like, like, like Drake, for instance, Drake, right. He had just done his first, like three singles in like 2008 or something. Yeah.
+
+Savan Kong (29:41)
+Yeah, those mixtapes. His mixtapes dropped.
+
+Yeah, for sure.
+
+Matt Kelly (29:44)
+That was
+
+the same year I was rapping. Like dude, I was rapping on stage in front of people that when that shit dropped, I was not going to win verse Drake. You know what I mean? Like, so, so at some point, like I started to see that people saw that and like, that's what people saw when they talked to me. It didn't matter how exuberant I was in my explanation that I'm incredible and you should listen to my music. They didn't care. Right. It was like, ⁓ that's okay. You know, ⁓
+
+Savan Kong (29:53)
+Right, right.
+
+Matt Kelly (30:13)
+but I definitely knew that I didn't want to, I didn't want to let my parents down and, and default on my loans and, and, and whatever. And once I tried the sales job, I realized that like, I'm, I'm just as good at this. And all I gotta do is like, be present and care and try. And I can figure out anything. I can figure it out as long as I like intentionally choose to not get frustrated.
+
+not feel like a failure, not be afraid to try something I've never done. And then I just figure stuff out step by step. might not do it the right way. I might do it. Like now I'm about to set up this claw bot, bro. I'm about to set up today.
+
+Savan Kong (30:56)
+Yeah, nice. You probably bought the last
+
+fucking Mac in the world, bro. Those are going like hotcakes.
+
+Matt Kelly (31:01)
+eBay,
+
+all day. I'll get you 10. I'll get you. Listen, listen, man. I'll buy you 10. I will set them up for you and I will ship them to you. OK.
+
+Savan Kong (31:05)
+Hahaha
+
+Hey, you know
+
+what? We might do an episode just on that. Let's put a pin in it.
+
+Matt Kelly (31:14)
+Bro.
+
+Anyway, anyway, what I, what I learned by just trying that is that like, like I was a BDR, right? And a BDR is like here every day. Here's my KPIs come to work early. ⁓
+
+Savan Kong (31:24)
+Yeah.
+
+Yeah, for
+
+the people that don't know, what's a BDR and a KPI?
+
+Matt Kelly (31:32)
+yeah.
+
+Sorry. Sorry. So basic B2B sales, right? A BDR is a business development representative. Typically the responsibilities are outreach, manual outreach to businesses, decision makers, gatekeepers, whatever, to try to find a person that is willing to join an evaluation of your technology, right? They don't have to.
+
+Savan Kong (31:39)
+Yep.
+
+Matt Kelly (31:56)
+You know, you're really just trying to start the process and qualify whether or not they'd even be a good fit for whatever you do. Right. Well, the first BDR job that I got, they gave me a script. We went over it a couple of times. I worked for this guy named Jason McDonald, not afraid to shout him out. The guy's a mentor. I followed them to three other companies. You know, Jason, it's been, you know, Jason. So Jason hired me and in the interview he said, so your buddy tells me that you're a rapper named mean Maddie green. And I was like, yeah, yeah.
+
+Savan Kong (32:02)
+Right.
+
+Yep, uh-huh, absolutely, absolutely.
+
+Thanks buddy!
+
+Matt Kelly (32:25)
+I am, I
+
+am. And he goes, so, so you can, you can spit, can spit hot fire. And I'm like, I, but, but, but can I spit hot fire? Yes, I can. He said, okay, come in for an interview, whatever interview went well, whatever. He gave me a script and he gave me like a license to Salesforce, thousands of leads for community colleges.
+
+Savan Kong (32:39)
+Uh-huh.
+
+Matt Kelly (32:52)
+My job was to call these admissions departments of community colleges and sell them a marketing technology that they could record an acceptance message and distribute that recording to a list of phone numbers that had opted in to receive news about their application to go to the college, right?
+
+80 calls a day minimum and two or, and or two appointments a day minimum. So if I got two appointments and it was only 20 calls, I still had to make the 80 calls and vice versa. If I made the 80 calls, but I didn't have the two appointments, I had to keep making calls until I got the two appointments. Right? Those are the only KPIs, right? And probably four other BDRs and me and
+
+Savan Kong (33:35)
+Wow. Okay.
+
+Matt Kelly (33:41)
+Two was the daily quota. A lot of people were kind of struggling to hit two every day. Within the first two months, I was slinging eight appointments a day. I mean, every day. I called myself the man, the myth, the lead gin. I thought I was pretty clever at the time. Super corny and cheesy now, but like I was slinging it, dude. I was closing them. Not actually closing the deals, but just like.
+
+Savan Kong (33:46)
+Yeah.
+
+Wow.
+
+Yeah. Yeah, yeah, yeah.
+
+Matt Kelly (34:09)
+Just give me an hour and tell me when it is. Yeah, yeah, I was the hype guy and yeah, anyway.
+
+Savan Kong (34:09)
+Yeah. Prime in the pump. Prime in the pump.
+
+So that was your, was that your first foray into the sales world, account executive sales world? Interesting. ⁓ Matt, you are probably one of the best sales people I've worked with just in terms of like getting people to feel... ⁓
+
+Matt Kelly (34:22)
+Yeah. Yes. Yeah.
+
+Savan Kong (34:35)
+very relaxed when you talk to them and I feel like that's the skill set that is very hard to master over the years because you have to have that resilience and the ability to handle rejection very well. And like I think a lot of the themes that comes up on this podcast is about rejection, right? Like you're going and you're trying to get that job and you may not get the interview or you may go through three interviews and you get rejected and that just goes over and over.
+
+you, how have you sort of framed conversations, especially hard conversations, so that you can actually like say, okay, like that one did work out, I'm gonna go to the next one and then the next one and then the next one and handle that rejection in a positive way where you could still move forward because I think like a lot of times people get stuck because they're like, I've I sent out five resumes or I called five people and everybody said no, so I don't know what to do now. But like you fine-tuned that skill.
+
+⁓ How did you sort of like do that over the years and what does that look like?
+
+Matt Kelly (35:35)
+Yeah.
+
+It's a it's a great question. I want to try to answer it in ⁓ a succinct way because I could probably give you two hours on that. you know, ⁓
+
+Savan Kong (35:47)
+Yeah, yeah, yeah. Answer it however you think
+
+would be best. I would love to hear it.
+
+Matt Kelly (35:52)
+Well, let's, I'm happy to give you the, extended version, the extendo whenever you want it. But like the, the quick, the quick answer that I think is really interesting and where I'm at now, right? This, this idea that like I'm between titles and I'm creating new titles for myself every day. You know, I'm trying to do this fractional consulting thing, which is basically like the willingness to take on really any title fractionally, as long as I'm helping in a certain foray into what my skill set is.
+
+Savan Kong (36:11)
+Yeah.
+
+Right? Yeah.
+
+Matt Kelly (36:22)
+But, but your question, your question is a really good one. And in like, you know, I've, I've scaled sales teams. I've hired a bunch of people. I've tried to mentor them as best I could. Sometimes I, I fucked it up. Sorry. I messed it up. But, uh, well, so, uh, eventually I realized that I should try therapy and I got into therapy and
+
+Savan Kong (36:22)
+Right.
+
+Yeah, for sure. Yeah, yeah, yeah. I feel the same way with some of the stuff I've done, for sure.
+
+Matt Kelly (36:48)
+we really started to like explore some of these same questions, you know, because like, you know, there's a lot of things that you go through as a salesperson, no matter what your title is or what level you are or whatever, like sales can beat you down. And when you're selling yourself in the interview process, you're trying to sell a reason why somebody should buy you, right? I mean, an offer letter is a purchase agreement in a lot of, right. What I learned is that like,
+
+Savan Kong (37:00)
+yeah.
+
+Yep.
+
+Right? Yep.
+
+Matt Kelly (37:16)
+A yes or a no isn't really my goal. My goal is and when I say goal, the word I want to use is Ikegai. ⁓ You're familiar with Ikegai, really quick explanation. It's like the Japanese method of finding exactly what you're meant to do in life, like your purpose in life. And it's all these like interconnected Venn diagrams of like this category in this category and blah, blah, blah. And in the middle is your Ikegai, right? My Ikegai.
+
+Savan Kong (37:43)
+Right.
+
+Matt Kelly (37:46)
+is connection. I want to connect with people. And whether it's a no or a yes, the only way I lose is if we failed to connect with one another, right? If I get a no or a yes, or it wasn't right, or you're not the guy, or better luck next time, or whatever it is, as long as I connected with the person and I really feel like we, like, I know this, like we, you know, we had a like moment where like we understood each other. If the answer is no, the answer is no.
+
+Savan Kong (37:58)
+Hmm.
+
+Right.
+
+Matt Kelly (38:15)
+You know what I mean? That's, know, they're not rejecting me. They're rejecting, they're rejecting the like situation where we're, we're discussing, right? But if we connected, I get a win. It's a W right. And, and like, I realized like that's everything. Sales is everything. Parenting is sales. Like every relationship you have is sales. Your, your interactions with my homeowner's association is sales. You know what I mean?
+
+Savan Kong (38:40)
+Yeah.
+
+Yeah.
+
+Matt Kelly (38:41)
+Because
+
+that's what it is. It's transactional. Most of life and most of interactions between humans, they're transactional interactions. And that's okay. But where it transcends that is when you really have a moment and you connect with somebody. And that's special. And that's a W no matter what the outcome is. And so that's the mindset that I go into a lot of these things with is like, does this connect with me? Is this me? Do I want this?
+
+Savan Kong (39:09)
+Mm-hmm.
+
+Matt Kelly (39:09)
+And if I don't,
+
+then I don't even, I don't spend any time thinking about it or caring about it or worrying why I got, or, is there a problem with me? Like.
+
+Savan Kong (39:12)
+Yep.
+
+Yeah. I would love to dig into that a little bit more. Like one of the things as I'm doing these conversations.
+
+That I hear pretty often is, you there'll be people that go through interviews and they feel really good about them. I've had this experience myself. Like you go in, you're like, oh man, we connected very well, had great conversations. I thought I did a good job. I thought I explained myself well. And you know, at the end of the day, when all is said and done, they passed me over. Even though you thought you made a connection of some sort. From your perspective, like, what would be
+
+Matt Kelly (39:53)
+you
+
+Savan Kong (39:57)
+an example of characteristics of good connections, ⁓ especially when the outcome isn't what you expect, right? Especially if you felt like it went well but I got passed up for something else. Like what would some of those characteristics be?
+
+Matt Kelly (40:12)
+Yeah, I've got a really good set of examples from a company that I was just with called Bold Orange. They're a customer experience agency in Minneapolis. Incredible company, incredible group of people. They're all like good hearted Midwestern, honest, sincere, genuine people. They're talented. They're smart. They're just good folks. And
+
+Savan Kong (40:19)
+nice.
+
+Okay?
+
+Matt Kelly (40:37)
+almost every interaction that I had with every single person that I worked with within that company was based and rooted in just being sincere and like real and like happy kind of, know, and like, like wishing people the best and doing the right thing. And I mean, it was just, it was, it was a really good vibe. Like they took care of people, like they win all these awards every year for like best place. So, I mean, it's, not bulls**t. It's not marketing. It's like real.
+
+Savan Kong (40:47)
+Mm-hmm.
+
+Right.
+
+Yeah. Yeah.
+
+Matt Kelly (41:03)
+Like they're a great group of folks. I worked for a guy named Spencer, Spencer Smith, um, for two years, you know, every interaction we had, every, every one-on-one we had, every scenario that we, you know, I was, I was a grow, I was strategic growth. So my job was to basically grow our Salesforce practice, oversee the partnership, understand how to like.
+
+drive brand awareness that we are a partner that can take on certain types of project and consulting, you know, ⁓ like categories of what is inside the Salesforce ecosystem and what's peripheral, to the Salesforce ecosystem that we could like expand into. we bring them in with Salesforce and expand into their website and their, you know, like their advertising and their live events and their, you know, blah, blah. ⁓ but
+
+vice versa, right? Like we'd have customers that would come in for a website. And then all of a sudden we learned that they hate HubSpot. They want to switch over to marketing cloud. They don't know anything about it. And they need like a person on the backend that's not a Salesforce employee to just give them like a co be a coach really, and like help them understand like what, how they should buy, how you should evaluate this, how you should really structure your internal teams to support this project. Because
+
+Savan Kong (42:07)
+Mm-hmm.
+
+Matt Kelly (42:16)
+Most people don't do it that way and really like guide them through that. That was really a big part of what I did. we, every single turn of like customer interactions and the pipeline that we created and the opportunities that we were forecasting or whatever that I was a part of, every time we talked about them, it was always like, what can we do to leave them with something good, even when they don't choose us? Because we are more expensive than all of our competitors. We are the ones that are going to cost the most.
+
+Savan Kong (42:18)
+Right.
+
+Right.
+
+Matt Kelly (42:47)
+You're going to choose us because you're going to love working with us. You're going to love every single time that you get on the phone. We're going to do the right thing every single time. We're going to tell you the hard news that you don't want to hear as soon as we possibly can so it doesn't fester. And it was just like a really good example where everyone around me was setting good examples of that. And I got to like benefit from it.
+
+And it was really easy to model. you know, every good salesman learns to match and mirror being able to match and mirror an environment and a culture that's like, that's like that. It, like, I just did really fine tunes, like how you can show up and just be a good person. And then stuff will work out for you. You know, like that sounds delusional kind of, because that's not reality for a lot of people, but like,
+
+Savan Kong (43:09)
+Mm-hmm.
+
+Yeah. Yeah.
+
+Matt Kelly (43:33)
+You know, we're talking about delusion. You were talking about being delusional as an artist and there's a fine line between hubris and what like that's that's thinking delusionally. You know, and it's you know, it's a good place to be, think, actually.
+
+Savan Kong (43:36)
+Yep.
+
+Matt tell me about when you moved when you decided to move to California because I would imagine that was probably a Big difference than where you were born and where you grew up and now you're living on the west coast. What was ⁓ What what were you guys thinking sort of like what was your mentality going into that?
+
+Matt Kelly (44:03)
+Yeah.
+
+We weren't permanent on the West Coast. We were just coming there like, you know, throughout the year for little periods of time, we got married out in California. I mean, we really fell in love with the Orange County area, but we never lived there. We always had a place in Indianapolis, but we like, the whole thing about California is that like, all these opportunities just came to me.
+
+Savan Kong (44:20)
+Yeah,
+
+Matt Kelly (44:32)
+You know, like Jason McDonald in particular left this company Vaughn to the like cold calling job that I'm telling you about, right? Left that company. Vaughn to went under because they didn't get around the funding that they needed. They couldn't float, whatever. They weren't profitable, so they just shut down and, ⁓ Jason calls me.
+
+Savan Kong (44:33)
+All right.
+
+Matt Kelly (44:54)
+And I'm like, Hey, look, I got a couple offers. I'm going to be a BDR here. I'm to be an AE there. Like, what do you think? Where should I go? And he was like, no, you're not going to go anywhere. You're going to work for me. Please come to my house at 9 a.m. tomorrow. You can just wear like basketball shorts and whatever. I'll give you a computer and a phone and you're going to work for me. And the company's called Cario. We got like 14 people. You'll work out of your basement. mean, you know, like you're going to work for me.
+
+Savan Kong (45:09)
+Yeah. Yep.
+
+Yeah.
+
+Yeah.
+
+Matt Kelly (45:21)
+I'm not interviewing yet. I'll write a foot offer. You know, what do you want to get paid at the time? I making 24 K a year and he offered me 36 and I was like, bro, clock it clock it.
+
+Savan Kong (45:26)
+Right.
+
+⁓
+
+man, that's hilarious. That's hilarious. I mean, it does show you sort of the power of building good relationships. And, you know, I did a video segment on...
+
+Matt Kelly (45:37)
+Enough. Enough.
+
+Yeah.
+
+Savan Kong (45:47)
+the hidden job market and the power of the hidden job market. It's like stuff that people don't post that they need. And most of the jobs that you actually end up getting are through relationships, like people you know, people you've worked with. And it sounds like throughout the years that's sort of been a big deal for you and sort of the places you've jumped from and to.
+
+Matt Kelly (46:08)
+Yeah. yeah. The relationships I've brought with me every single time I've been, ⁓ have been amazing, you know, and they're all, they're all unique and in, like the different ways that those relationships started, like some of them are, you know, like think about all the people you've ever worked with. Sometimes they were your boss. Sometimes you were their boss. Sometimes you appear sometimes like you just like worked in the same building and you know, ran into each other every, you know what I mean? And, and, you know, all of them are, are, are,
+
+Savan Kong (46:27)
+Yep.
+
+Yep.
+
+Matt Kelly (46:37)
+are really interesting. It's the ones that like last where you just stay in touch and you, you know, you hear from that person or you reach out and they respond, you know, once or twice a year are, ⁓ the ones where like you think, man, we should talk more. Like I should call this guy more, you know? and then you don't, you know, you just like send each other weird DMS on Instagram or something every, every couple of weeks. And, know, but I don't know. I, I,
+
+Savan Kong (46:42)
+Mhm.
+
+Yeah.
+
+I know.
+
+Right. Right, right.
+
+Matt Kelly (47:06)
+I think it's a good reminder, just bringing it up at all in the context of this conversation is a good reminder to reach out to those folks because I guarantee we all have somebody that we used to work with that we just, if you called on it, you would just pick right back up where you left off and you should, we all should.
+
+Savan Kong (47:17)
+Mm-hmm.
+
+Yeah, no, I agree.
+
+Yeah, know, life just gets in the way of so many things, but ⁓ you spend probably more time on your phone randomly scrolling on things than it would take you to make a phone call, right? Matt, I want to talk a little bit about...
+
+Matt Kelly (47:34)
+Yeah.
+
+Savan Kong (47:40)
+skillsets and ⁓ sort of how you've grown them. like you go from being this audio engineer to then being ⁓ a single salesperson for lack of a better word, a single contributor. And then you're at Kareo and you guys are growing quickly or we were growing quickly, got a bigger sales team. ⁓ Take me through sort of the motion of going from an individual contributor being sort of like
+
+you were the only person you were responsible for to now having to understand how to grow sales teams. Like, what is that like? What does that look like?
+
+Matt Kelly (48:17)
+Yeah. Yeah,
+
+I, ⁓
+
+I've had a bunch of ⁓ interactions and meetings and opportunities to have this same conversation with younger reps, less experienced folks that were coming up, people that I had the opportunity to just like train up a little bit and give them some things to think about when they were ⁓ first becoming salespeople. ⁓
+
+Savan Kong (48:38)
+Right?
+
+Matt Kelly (48:44)
+And the same thing that I tell them is, what I try to do myself when I try something new, like I try a different position, a different part of the industry, a different service line, ⁓ you know, whatever is that like, you've got to stop thinking and just start doing things because you're just going to fail and you're going to fail no matter what. And you can't see there, no matter how hard you study the first time, first 10 times you do something.
+
+Savan Kong (49:10)
+Yeah, sucks. ⁓
+
+Matt Kelly (49:11)
+It sucks. you just like
+
+get through the 10. You know, like I read this thing that like if you knew that it took 30 failures for you to be successful, how excited would you be to fail? Right. I mean, just like if you you know that all you have to do is just keep going. And do it over and over again, eventually it's going to work. That's that's pretty true for basically everything, right?
+
+Savan Kong (49:23)
+Right, not excited.
+
+Yep.
+
+Right.
+
+Matt Kelly (49:40)
+So I used to show this clip on YouTube of this movie with Tom Cruise called The Last Samurai. And he's like, he's like a drunk and he's like held captive in this like Japanese town, right? And he's like watching all these people learn how to start sword fight. And he wants to learn how to sword fight too. So he goes out there and he's got this like bamboo sword. He's trying, just keeps getting whipped every time, right? And this, you know, other character, maybe a younger character.
+
+Savan Kong (49:48)
+yeah, I've seen that, yep.
+
+Matt Kelly (50:08)
+He says, says, he says, Hey, too many mind. He says, you mind the people watching your minding your sword, your minding your opponent. And you're thinking, he said it differently, but like you're thinking about all these things at once. And you're not just like present on what's happening. Right. And single singularly focused on what's happening right now. Right. And that's like selling. That's exactly like selling. You're in a combative conversation.
+
+It's, it doesn't have to be that way. It's amazing when it's not that way. And the person just loves you. And it's like a, you know, an older lady from Mississippi who's got a real sweet heart and wants to talk to you and you guys like each other and she buys and it's perfect. Right. But it's not always like that. And so when you're having that conversation, you're trying to figure out like what, what's this person's pain? What do they care about? What's their problem? Do we even have a solution that's going to fix this problem? Right. Like you have,
+
+Savan Kong (51:06)
+Mm-hmm.
+
+Matt Kelly (51:07)
+people like don't listen. They wait to talk. And when I think about like sword fighting and that scene, what that person was trying to tell them is listen to what's happening. Listen, right? And like that, that's what I try to do. Anytime that I try something new, I'm in a new position. I'm, I'm, talking to a customer that's talking about something I'm never, and I've got to like, look like I know what I'm doing. I just listen really well.
+
+Savan Kong (51:20)
+Yep.
+
+Matt Kelly (51:38)
+And that usually helps.
+
+Savan Kong (51:42)
+Yeah, I mean, it's exceptionally hard to just be present and just do one singular thing, especially with all the technology we have and all the stresses we have and all those things that we have. ⁓ What are some things that you think from your experience helps you be more present and really sort of like fine tune that craft of of listening and understanding?
+
+Matt Kelly (51:50)
+So hard.
+
+I think it starts with recognizing that you're not doing it. know, like finding yourself in a moment where you realize that you're not doing that and the confusion you're feeling, the stress you're feeling, the like, this is an emergency and I've got to solve it right now and a bear is chasing me and I've got to wash my hands and I've got to, I've got to put the, and I've got to close the fridge before it beeps and I got to, you know, it's like,
+
+That happens. And I get that way too, right? But like, I notice I'm aware that I'm not in that place of being, I'm not present. And like more that I can remember to like recognize that I'm not present, even if I can't really get there, even if I don't have the space and the time and stuff, it actually really is urgent. And I got to like, whatever. And at least I know that like the
+
+Savan Kong (52:40)
+Yeah. yeah.
+
+Matt Kelly (53:04)
+problem that I'm having right now is that I'm not present. can't be present right now and that sucks, but like what's happening right now and the stress that I'm feeling and the pressure and like my veins popping out of my neck is because I'm not present right now.
+
+Savan Kong (53:18)
+Yeah,
+
+I love that. I love that. Especially like when a lot of the structure of our day.
+
+because the work is not there. Work inherently gives you some structure, right? It's like you clock in, you have meetings, you do some work, you clock out, then you do the next thing. Once that goes away, it becomes a lot harder and you have to be more disciplined to put that structure in place, because nobody's gonna tell you what the fuck to do besides maybe your partner and your kids. But other than that, yeah, it's up to you, It's up to you. Yeah. ⁓
+
+Matt Kelly (53:42)
+Yeah. Yeah. Yeah. Yeah. And my claw bot, my claw bot is going to do it.
+
+Savan Kong (53:54)
+it's fucking amazing. ⁓
+
+Matt, tell me about ⁓ fatherhood and growing your universe to beyond yourself. What did that initially look like for you? Was it intentional? How did that happen? I mean, I know how it happened biologically, but how did that happen for you?
+
+Matt Kelly (54:09)
+Yeah. Yeah. Sure. Sure.
+
+Yeah. I think my wife and I were ready. We knew we were ready. ⁓ we went on a vacation to France and Italy. ⁓ it probably sounds like I'm, trying to purposely bring it up somehow to like, just talk about it. Cause that's what people do when they go to France and Italy, but like, you know, very like warning, like douchebag moment. Right? So I was, you're in Italy, right? And like,
+
+Savan Kong (54:28)
+Yeah.
+
+Matt Kelly (54:40)
+We came home with a third person and that was so cool, dude. That was 2018. Uh, my son was born in May, 2019 Mason. He's awesome. He's creative. He's a, he's smart. He's too smart. He's too smart. Um, but he reads, he,
+
+Savan Kong (54:48)
+Yeah.
+
+⁓ Nice, nice.
+
+Right? They
+
+always are, man. Even my kids, I always feel like they're sharper and more in tune to things than I was when I was their age. You know what saying?
+
+Matt Kelly (55:10)
+No.
+
+It's also like the recall, like, you know, they listen to everything and then all of a sudden they'll like weave it into their language and you realize that they listen to everything you say, you know? And like.
+
+Savan Kong (55:24)
+Yep.
+
+Matt Kelly (55:26)
+they immediately know, know, like what, what you mean, you know, it's, it's, it's very cool to see how they learn language and like slang and, and turns of phrase and humor, you know, like, like dad jokes and puns, like puns are really funny to me. And, and like, I'll, I'll catch a pun and I'll say, you know, whatever, I'll make a little like stupid joke and like, nobody laughs with me. And it's, you know, I don't know, like
+
+Savan Kong (55:43)
+Yeah
+
+Yeah.
+
+It's
+
+all good. It's all good.
+
+Matt Kelly (55:54)
+You know, they're
+
+great though, dude. Like there's like lightning from Zeus, dude. The puns that I bring up. But like, you know, my son is starting to like get it, you know? He he listens to like my tonality, you know? And I like say it in a certain way. And he, you know, he picks it up. ⁓ But, you know, I don't know. He's cool. He's creating all kinds of cool stuff. He's a creator. We can tell, you know, he's playing basketball, but he's not playing basketball. If that makes
+
+Savan Kong (55:58)
+Yeah!
+
+Right.
+
+Right?
+
+He's going through the motion.
+
+Matt Kelly (56:25)
+That's all right, though.
+
+He's having fun. He's out there. doing, you know, he's smiling. That's good. But my daughter has just like, absolutely like. Changed my world like my daughter is just.
+
+Savan Kong (56:28)
+⁓ man, that's great.
+
+Matt Kelly (56:41)
+the best thing that's ever happened to me. And I mean, like I love my son and I know by all means, dude, like I'm not trying to like say that she's my favorite, but like everybody in my life tells me that she's my favorite and I need to like chill out because she's like very clearly my favorite. And I gotta like figure that out because, you know, I don't know that.
+
+Savan Kong (56:56)
+Yeah, yeah.
+
+Yeah, we're gonna send this to
+
+Mason in 10 years or I'm gonna send this to you buddy.
+
+Matt Kelly (57:08)
+He knows, he knows, he can feel it. I gotta do better. I gotta do better.
+
+Savan Kong (57:12)
+What has fatherhood changed about you just in terms of your perspective of what work means and what a career is?
+
+Matt Kelly (57:25)
+Yeah, You know, parenthood is a really cool opportunity to look at it like a mirror. And I've really looked in the mirror a lot being a dad, because you feel certain things, you want certain things, you tell them certain things that they should think or not think or whatever. And it's really kind of like...
+
+It's not always necessary. you know, like they can figure out stuff for themselves sometimes. And so, you know, it's like, why do I have to be the one who decides what they think about this thing? You know, it's, I, it's probably weird. I don't know if that's vague or confusing, but like, I'm really, I'm really looking in the mirror a ton, man. And like, you know, I quit drinking. I like, I lost 50 pounds in the last, you know, six months, seven months.
+
+Savan Kong (58:14)
+Congrats, dude.
+
+Matt Kelly (58:16)
+Yeah, man, it's crazy. I'm trying to run. like, I'm 40. I just turned 40 and I'm just like really, I'm really like in this place where I want my kids to see me and we're growing up together. Like we're, know, I'm still growing up and they're growing up and we're doing it together. And I want them to like, have a good example of humanity from me.
+
+Savan Kong (58:21)
+Yeah, congrats.
+
+Yeah.
+
+Matt Kelly (58:44)
+and not have to tiptoe around my flaws and my bad habits and my laziness and my complacency and my pessimism and my, you know, like those are my problems. Those don't have to be their problems, you know? And so it's like, it's a really cool journey that I'm trying to step through of being a cool person for them and
+
+Savan Kong (59:00)
+Right.
+
+Mm-hmm.
+
+Matt Kelly (59:13)
+That's my responsibility, you know? so, anyway, that's dadhood.
+
+Savan Kong (59:20)
+Yeah, that's awesome, man. What, just in terms of...
+
+You know, being a dad now, it gives you a different set of circumstances and requirements. And in some ways it restricts your ability to do maybe crazy things that you would have done in your twenties, right? Like you can't go and work 18 hour days, 12 hour days, just cause there's another human being waiting for you on the other side of that. But right now, you know, I see you're doing a bunch of different things, just, you know,
+
+Matt Kelly (59:38)
+sure.
+
+Yeah.
+
+Savan Kong (59:55)
+⁓ different business ideas, different technologies you're trying to adopt. How have you sort of balanced the need for being a dad, a good dad like you were talking about, with the creativity that you are expressing through a lot of these other initiatives? And ⁓ how do you balance that out in your day-to-day life?
+
+Matt Kelly (59:57)
+Yeah.
+
+Yeah, I think it just happens. I don't know if I have any strategy or plan or like process or method. I think I'm just more, I just enjoy being around them. And so when the opportunities come in my schedule and in my day to like lock in and be dad and be with them, that's what I did.
+
+Savan Kong (1:00:39)
+Yeah.
+
+Matt Kelly (1:00:39)
+And
+
+like a lot of the business ventures and ideas and whatever, like I've, I've just really, really adopted AI in ways that I'm, I'm, I'm trying to like better or, or find a way to articulate so that I can explain this to other people because I'm doing 10 different things fractionally for myself.
+
+Savan Kong (1:01:01)
+Mm-hmm.
+
+Matt Kelly (1:01:07)
+And I'm exploring all these different tools. have all of these different like Instagram accounts and like folders and projects and Claude in ⁓ obviously like, know, Jim and I and Chachapi T, but I'm also using Manus for Metta. Manus is sick. Manus is amazing, dude. It's not, I don't think a lot of people are using it yet, but like I can build a website in 30 minutes. I can build a landing page that's perfect in less than that, right?
+
+Savan Kong (1:01:07)
+Mm-hmm.
+
+Yeah.
+
+Mm-hmm.
+
+Matt Kelly (1:01:35)
+based on like the brand that I'm creating. Like I'm doing a lot of like things that are being done for me while I go do something else because the systems will just burn tokens and complete tasks over two hours and then I'll go check back in in two hours and open it back up and it's all done waiting for me to decide what the next thing is. And so I'm just doing that, you know, I'm like, I'm shuffling around or whatever.
+
+Savan Kong (1:01:47)
+Right.
+
+Yep.
+
+Matt Kelly (1:02:04)
+I'm trying all these things and then throughout that I'm like, I go to the gym every, I have a pretty structured routine. Like I wake up, do get the kids up when my wife and I kind of trade off on that day by day. I go to the gym.
+
+⁓ until about 10, I go to the public library in my town. It's beautiful. It's really nice. They got a digital media lab with like recording booths, a video room. They got six 3D printers. They got 12 workstations with Mac minis and just, mean, it's like beautiful standing desks, ⁓ coffee shop right outside the door.
+
+Savan Kong (1:02:28)
+wow.
+
+Yeah,
+
+it sounds like a free WeWork. Dang. Wow.
+
+Matt Kelly (1:02:43)
+Yes. Yeah. But better, better because
+
+there's also like a like digital media lab employees there that are subject matter experts on anything like, you know, so that, mean, they're just there to like help anybody use anything that's that, know, and so it's, it's, it's so, ⁓ it's really actually like delete that whole clip because I don't want more people coming there. You know I mean? Like it's right now it's kind of a that nobody really knows about.
+
+Savan Kong (1:03:01)
+Yeah, that's awesome.
+
+Yeah, yeah, yeah.
+
+Yeah.
+
+Matt Kelly (1:03:13)
+⁓
+
+but it's incredible. And it's, it's, you know, my taxes pay for it. Right. And so anyway, ⁓ I, I work there for most of day. I get home at like three. I check in with my wife, Jamie, see what the day's like, whatever I gotta do. If there's like household stuff I gotta do, I do it then if there's, I run an errand and drop some stuff off to ship it, whatever. ⁓ I'm learning like coding language now. So when I say ship something, I mean like,
+
+Savan Kong (1:03:20)
+Yeah. Dang, that's awesome, man.
+
+Matt Kelly (1:03:42)
+I'm shipping stuff like, you know, like a coder says I'm a coder now. Not really. I'm not, but like I manage a gang of coders that, you know, right, right. But anyway, I'm like, I'm trying to like pretend I'm a, you know, anyway.
+
+Savan Kong (1:03:44)
+Yep. Yep.
+
+Yeah, programmatic coders.
+
+Matt,
+
+I love that hustle and one of the things that I actually love the most about it is that you have this almost the exact opposite of an engineering degree and experience. ⁓
+
+Matt Kelly (1:04:18)
+Yes.
+
+Savan Kong (1:04:19)
+and now you're sort of like pushing yourself to experiment with things that are very new. ⁓ Maybe for the people that are listening, tell me about some of the things that you're experimenting with in terms of technologies and businesses and what that looks like and what you would hope it would achieve for you. Like what would be the ideal outcome of some of these endeavors?
+
+Matt Kelly (1:04:44)
+Sure. ⁓
+
+how do I make this not sound crazy and unorganized and manic and ⁓ so like I was at Salesforce for six years, ran a lot of huge contracts, like three, you know, two, $3 million contracts and a pretty complex ecosystems and environments. Once I left there, most of what I did was I helped triangulate between customers and consultants that were
+
+Savan Kong (1:04:53)
+I don't know.
+
+Yeah.
+
+Matt Kelly (1:05:16)
+building and managing these environments for the customer. And then I'd sell it and basically I just renewed their contract and try to add 20 % or whatever. And then I do that five or six times and that was my quota. Well, I went to Bold Orange and you know, really is a great fit because Bold Orange needed to build and really scale a Salesforce practice that they had acquired.
+
+they acquired a small Salesforce partner that was specializing in marketing cloud. They're really good. They were local to St. Paul, Minneapolis area. But once they acquired that, they lost a couple of people. It just didn't take off after the acquisition. And so I came in to grow that and scale that and we killed it. Like killed it. And it's just me being lucky. it wasn't me. I just showed up and tried and it all worked. I, know,
+
+Savan Kong (1:05:40)
+Mmm.
+
+you this year.
+
+Matt Kelly (1:06:08)
+So anyway, but I learned what I learned. had never been a consultant before. And what I learned is that like economics, the like financial model of how a consulting business functions, right? And crazy amount of like just growth and understanding of like that side of the market. And then I started to realize that like a lot of these people that we're working with have the ability to be fraction.
+
+Savan Kong (1:06:14)
+Mmm.
+
+Yeah.
+
+Matt Kelly (1:06:31)
+Like they can take on a side contract at any time. And a lot of these people that we were working with were doing that. And so, ⁓ you know, I just, got to a point where I like, wanted to kind of like take some time for just myself and my family and just kind of step back and really like rethink what I wanted to do because like what ended up happening is I just like, I just wasn't trying hard.
+
+Savan Kong (1:06:36)
+Right.
+
+Right.
+
+Matt Kelly (1:07:00)
+You know, I was, I was sure I just wasn't like.
+
+I wasn't doing the stuff that I knew I could do. I was in my own way. I needed to kind of reset.
+
+Savan Kong (1:07:10)
+Yeah.
+
+Matt Kelly (1:07:25)
+Yeah, I think after years, know, a decade of being a traveling like enterprise level high pressure sales guy that had to hop a flight several times a week and entertain customers and schmooze and go to thousand dollar dinners and drink whiskey until 3am like
+
+Savan Kong (1:07:41)
+It's a grind, man.
+
+Matt Kelly (1:07:51)
+I became a guy who ate huge dinners and went and drank whiskey until 3 a.m. because I had to, you know what I mean? Like I had to be that guy. Like that was the job. You know what I mean? And, and a decade of that, I just got run down, dude. I was like 240 pounds. I wasn't sleeping well. I just wasn't healthy, man. And I, you know, and like,
+
+Savan Kong (1:07:57)
+Yeah, it's part of ⁓
+
+Matt Kelly (1:08:13)
+There's a lot of that, that like, wasn't working out. wasn't running. was, mean, just nothing, right? And my testosterone was, low. whatever, like just, you know, I just didn't feel good. And when you don't feel good physically, it's super hard to be in a, in a mentality of like hunger and growth and what's next. I'm just trying to like get through the day so I can go to bed.
+
+Savan Kong (1:08:33)
+Yep, because you're just trying to survive for the next thing. Yeah.
+
+Matt Kelly (1:08:40)
+go to sleep and wake up the next day and then make it through so that I can go to sleep again. You know, and I got really good sleep, you know, sometimes, but I'd be waking up at, you know, 11, I'd be waking up at two, I'd be going to, you know, the bathroom at 4 a.m. and then I'd be on my phone from 4 a.m. to seven, you know, reading the news and playing chess and checking my email and what, you know, I don't
+
+And I just, it just, I just, it was me, you know, it was me, it was me. The problem was me. And you know, one of the reasons why I wanted to reach out to your podcast is that like, you know, all these people are that find themselves in this, in this phase, no matter how they find themselves there, whether it's voluntary or, or involuntary or
+
+whatever, something happens to them in life and they're forced to leave their job because of a whatever, whatever it is, right? Like it's just this tremendous opportunity to slow down and like look at yourself and like if you got something that you can change or like address or like acknowledge,
+
+and be vulnerable about and just admit to yourself that like you're not living life the way that you could be. Like it's there's no better time than this time, right? And like we were talking about being present a moment ago. There's no better time than right now, dude.
+
+Savan Kong (1:10:12)
+Mm-hmm.
+
+so how did that, how did that sort of like transition into the things you're doing now? Like the series of things you're doing now?
+
+Matt Kelly (1:10:23)
+Yeah. Yeah.
+
+Yeah. So like when I left Salesforce, we were launching agent force. We were using Slack and all these ⁓ light, agentic ways, know, summaries of meetings, follow up emails, stuff like that, that were, were not really autonomous, but the beginning of like what we were trying to figure out how to use AI in a business way.
+
+Savan Kong (1:10:33)
+Right?
+
+Matt Kelly (1:10:49)
+At Bold Orange, was dealing with a lot of like data cloud projects and, and, know, we were really thinking about data in, ⁓ and how it could support all these different ways that it could be used that people hadn't really like thought of yet because the, know, AI and the technology around it and the models that were being really like updated constantly were just like, all this new stuff would be available. And the learning curve is, is hard because people are still like spinning from the thing that
+
+was six months ago and like they, they, you know, they waste so much. No, it's not wasted time. Let me, let me rephrase that. They, they invest so much time trying to figure it out and messing around with it and coming up with different prime experimenting and trying stuff that like, you know, they get frustrated, doesn't work. And then they like, you know, they start to like,
+
+poo poo AI, they're like, you oh no, no, AI can't do that. Oh, I know when that's AI. I can tell if something's written by AI. I go on LinkedIn every day and I read everybody's posts and it has the like sentence format of like, it's not this, it's that. It's not just, know, whatever. like, okay, you know, whatever. But like.
+
+Savan Kong (1:11:49)
+Right.
+
+Yeah.
+
+Matt Kelly (1:12:03)
+Like there's, there's this, there's a tremendous opportunity to like just, just mess around and experiment. I got a, I got a coding buddy that I best friend I've been, you know, guy that I've known since I was in first grade, grew up in Fort bill, same story that I'm talking about, kind of a hillbilly kid, but he's like a coder and he's like an AI, he builds AI models and
+
+He's like, he's like, you know, he's like, dude, right now you're in something we call explore and exploit. You're exploring all of these different things, all these different like formats of whatever and business models. And I got a YouTube channel. I got a, I got a children's book. I got a, I got a ⁓ platform for lonely elders and they can just connect with other people. And then I want to spend that into like a companionship in person service.
+
+Savan Kong (1:12:43)
+Mm-hmm.
+
+Matt Kelly (1:12:56)
+where human companions that are just good people like that, the interview process is going to suck because we're to have to find like literally actually purely good people like, you know, like that's, that's going to be difficult. But I want, I want to like deliver this like companionship solution for these lonely people, dude. There's it's not just seniors, man. Like there's these lonely people all over the world, like veterans, people that are self secluding and their hermits, right. And like,
+
+Savan Kong (1:13:08)
+Yeah, yeah.
+
+Matt Kelly (1:13:26)
+They're lonely. It's a comorbidity. like literally it is a, it is a scientific way for you to kill yourself is to just isolate and be lonely and you will die way faster than if you just have a buddy. Right? Like if I could solve loneliness with humans, like pure, good, soulful humans, but build an AI platform.
+
+underneath it that supports like interactions, documentation, like helping their family stay engaged when all the family lives all over the place. like, like that's exciting. I'm building that. Like I, I coded, I coded in 90 style AOL chat room app and integrated it with my website in two nights, using Manus and it works.
+
+Savan Kong (1:14:20)
+Wow.
+
+Matt Kelly (1:14:21)
+It's I mean,
+
+Savan Kong (1:14:21)
+Wow.
+
+Matt Kelly (1:14:22)
+it's, you know, I want to, I want to like, it obviously needs a lot of work. Like it's not, you know, it's not done, but, like, it's cool. It's cool. And it looks old and vintage and like, you know, so a boomer that's like 70 remembers AOL. They remember it. They remember when they got into their first chat room and it was kind of cool. Right. There's a, there's something pure about it because you know, I'm not doing like emojis, no gifts. You can't turn on the camera. It's, you know I mean? Like it's like, it's anonymous. Really? mean, lot in a lot of anyway.
+
+Savan Kong (1:14:26)
+Right.
+
+Yeah. Yeah?
+
+Yeah?
+
+Matt Kelly (1:14:51)
+Anyway, ⁓ but besides all that, like what I've done over and over and over again for every company that I've either worked for directly or I've worked on behalf of as a consultant or an advisor or a salesperson, frankly, is go to market optimization. And so my, I've got a consulting LLC that is just go to market optimization. could be AI, could be what it could be. Just me showing up fractionally.
+
+couple hours a week and just sitting in on your leadership meetings and leadership calls and giving you coaching and just say, Hey, look, no, that's going to work. That's not going to work. Or, you know, like what people aren't telling you is this. I've interviewed these seven people and they're afraid to tell you this. Right. And, and people need that. People need like real, like help.
+
+Savan Kong (1:15:32)
+Mm-hmm.
+
+Matt Kelly (1:15:39)
+getting everybody on the same page and working as a team. And there's no better place to do that than people that own huge Salesforce contracts because it's a mess. Adoption is low. Everything is bad. Everything needs to be upgraded. And then they got to renew their contract for 20 % more and they're using 10 % of it. know, like that anyway, I lost my train of thought, but I'm doing so many things that like,
+
+Savan Kong (1:15:42)
+Right.
+
+Yep.
+
+Matt Kelly (1:16:10)
+agentically.
+
+there's all these micro problems that can be solved that I don't ever have to actually do or think about. And the more that I realize that I need to take myself out of this equation because my human brain is stupid. Like I'm dumb compared to all of these agents. Right. And like, if I just stopped telling it what to do and making the decisions and ask it to make the decisions and explain to me what decision it's made so that I could just learn, you know, like,
+
+I feel like I've been telling some of my buddies that I've been talking to every day that like, just make fun of me. You know, I get like my group chat high school friends that just, it's nothing but ridicule and, know, making fun of me. I send gifts of Neo getting the like cord stuck in his, cause that's what I feel like every day. I'm just like, I'm locked in downloading information every day. I used to terminate time a week ago. Like anyway. Yeah.
+
+Savan Kong (1:16:53)
+Yeah, yeah. I love this.
+
+⁓ yeah. Yep. Yep.
+
+⁓ man.
+
+Wow. That's crazy, man. That's crazy.
+
+Matt, wanna, two things here. I know we're getting a little close to time, but I wanna circle back to the statement that you had made about when you were...
+
+an aspiring rapper and you started to go down and delete all your profiles online like your myspace and whatever else you had youtube videos ⁓ is there a point that you're at now because that scrubbing to me that scrubbing of the information is is in some ways sort of like removing parts of your past intentionally is there any part of you now with this transition where you feel like you're
+
+Matt Kelly (1:17:33)
+Yeah.
+
+Yeah. Yeah.
+
+Savan Kong (1:17:56)
+maybe that same point where you're like I wish I had the ability to remove these things in my past or I wish I had the ability to go and maybe change up some of these things in my past so that I can be at a better footing for future opportunities ⁓ and if so what would some of those things be?
+
+Matt Kelly (1:18:17)
+Yeah.
+
+Great. Great question. I, ⁓ I would love to tell myself that I don't have any regrets. And if I, even now, as I try to think about what my regrets would be, like there's this voice in my head that's telling me like, nah, man, like, no, you know, like, no, why, why, why do you, know, you're
+
+I'm in a good place, man. And, and, you know, and like, I, when I, when I think back at that, right. The question is, you know, do you regret if you would have done this differently or whatever, whatever, and it's holding you back from, from something, you know, I think the opposite all the time, because if I didn't do this, then I wouldn't have worked there. Then I wouldn't have been a carrier. Then I wouldn't have met my wife. Then I wouldn't have had my son. Then I wouldn't have met my daughter. And like, I believe whether it makes me less credible,
+
+Savan Kong (1:19:05)
+Yeah.
+
+Matt Kelly (1:19:11)
+or not, I believe without question that all of that stuff had to happen so that I could meet my daughter. My daughter has to live and be a human being in this world. And if any of that stuff had gone wrong or gone different or worked out or whatever.
+
+Savan Kong (1:19:31)
+Yeah. Yep.
+
+Matt Kelly (1:19:32)
+You know what mean? Like,
+
+so, so, you know, like.
+
+I've got all these visions of like the movie Back to the Future with Marty McFly and he's like, you know, like running around with his puffer vest and like getting into trouble. Like, I don't want to do that. I don't want to change this. I don't want to mess up this.
+
+don't know man, I just, I know not everybody feels that way and there probably are people that hear that question that you ask and they immediately think of those things. man, if I just would have caught that pass in that football game, like dude, googly woo, like what?
+
+Savan Kong (1:20:15)
+I
+
+know, I feel ya, I feel ya. ⁓ last two questions Matt. ⁓
+
+Matt Kelly (1:20:22)
+Yeah.
+
+Savan Kong (1:20:25)
+If you had to explain what you do now to a future employer, how would you describe yourself?
+
+Matt Kelly (1:20:38)
+Sure. It's really hard ⁓ to do because I'm such a like practiced salesperson that the answer to that question would be unique and personalized and different for every conversation that I would be in. There is not an answer to that question other than the unique answer that appears when the question is asked when it matters. Right? Like I don't have an answer to that question until
+
+Savan Kong (1:20:50)
+Okay.
+
+Matt Kelly (1:21:04)
+I'm in a situation where I have to come up with that answer because I don't know, dude. I don't know. Like it's, actually like really a gigantic advantage to be able to be flexible enough to describe what I do in whatever different way I need to describe it to my advantage. Right. And so, and that's not lying. That's not like making up like things that aren't real, but it's, it's
+
+Savan Kong (1:21:17)
+Mm-hmm.
+
+Matt Kelly (1:21:31)
+It's creating a description that's able to like describe a different type of existence. This is really deep. Are you familiar with Soren Kierkegaard? Soren Kierkegaard was this like Dutch. I actually don't know where he's from, but like let's say he's from Holland or something, right? So somewhere like that, right?
+
+Savan Kong (1:21:40)
+Mm-mm.
+
+Yeah, yeah, yeah, sounds like it.
+
+Matt Kelly (1:21:51)
+And he was like one of the first existentialists philosophers. And he wrote all this stuff about how like you can't really name something if as soon as you name something and you call it something and you label it and you like give it a like explanation of or a definition of what this is. You negate it because it could be all these different things, you know, like if you describe something as one thing, you're you're leaving this this unrecognized.
+
+Savan Kong (1:22:13)
+Right? That makes sense.
+
+Matt Kelly (1:22:20)
+halo of things that I'm also, I am also this and I also do that. and I also have these six talents. And if you need a rap song and a 16 that knocks your socks off, I'll have it to you in 10 minutes. Right. But I can't, I can't tell somebody that until I know what they need. I need to connect with them. I need to use my Iki guy connect with who they are.
+
+Savan Kong (1:22:32)
+Right.
+
+Great.
+
+Matt Kelly (1:22:44)
+understand what they need me to be. And then I show up and I say, I can be that or I can't. If I can, I'll explain to you how and I'll explain to you how much that costs.
+
+Savan Kong (1:22:52)
+Yep.
+
+Yeah, I love that. I love that. ⁓ Last question, Matt. Fast forward this 20 years, whatever platform we're watching this on, your kids stumble upon it. Somehow they do a search for you. ⁓ Who knows, man? It could be number one on the internet by then. ⁓ What do you hope they take out of our conversation today?
+
+Matt Kelly (1:23:05)
+Yeah, it'll be scrubbed by then dude. Yeah, maybe.
+
+that I love them so much. And if they're watching this in 20 years and we're not together and they're not seeing me and hearing from me several times a week, we messed up and we got to come back to some way where we can be locked in. Okay. And I don't care what they're doing, where they are, what's gone wrong, whatever. Like I'm your dad.
+
+And I will always love you, always. So please play this in 20 years and call me.
+
+Savan Kong (1:23:56)
+⁓ man, I love that. That's a great way to wrap up our segment, my friend. ⁓ Matt, I appreciate you. Thanks for coming and sharing your story, man. I wish you the best.
+
+Matt Kelly (1:24:07)
+Man, I really appreciate having the opportunity to be on this. I love the conversation. If you have any other like whatever times where you need like a third guest on a panel or something and you want a guy to come in and see these, please, please.
+
+Savan Kong (1:24:12)
+Yeah, me too.
+
+I may take you up on that cloud bot thing. Do you I may
+
+take you up on the cloud bot that might be a special a special episode Yeah, we'll see how that goes All right, my friend. I'll talk to you later. See you All right
+
+Matt Kelly (1:24:26)
+Side project? All right. All right. Yeah. All right. Thanks, man. Bye.
+

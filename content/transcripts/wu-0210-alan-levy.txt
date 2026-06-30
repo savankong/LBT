@@ -1,0 +1,721 @@
+Savan Kong (00:01.056)
+Welcome to Work Unscripted, I'm your host, Savan, and today I have a living legend who also used to be my boss, the one and only Alan Levi-Ellen. Hello, sir.
+
+Alan (00:14.754)
+Hey, Sivan, how are you? Great. Thank you for inviting me on. Really appreciate it.
+
+Savan Kong (00:20.005)
+Hey, it's, it's my pleasure, my friend, it's been a long time coming, we're gonna get to a lot of things. But I want to kick off our conversation by talking a little bit about your approach. And I feel like you're one of the rare people that I've met in life that has like this rare passion.
+
+Alan (00:28.866)
+Good.
+
+Savan Kong (00:47.701)
+for solving problems and building businesses. you know, nowadays, and I don't want to sound old. I mean, I'm 46, I'm not that old. But like nowadays, it's this hustle culture where people just want results fast, right? They just want things like to happen immediately. But that's not how that shit happens. Like you've got to put in both the work but also have that vision for it. I want to start off, Alan, by talking about
+
+Alan (00:51.073)
+Mm-hmm.
+
+Alan (00:57.442)
+Right.
+
+Savan Kong (01:16.245)
+Dude, how have you refined your craft of that approach over the years? Because you've been successful on many different levels.
+
+Alan (01:25.496)
+Well, it's a process, you know, and it's obviously today's environment is far different than it was 20 years ago when I founded Block Talk Radio. And even 30 years ago, I was involved in the telecom space. You know, I'm always trying to solve a problem. That's really what you just said, which is the key. What is the problem you're trying to solve? There's a lot of issues that go into it. And then
+
+Savan Kong (01:43.774)
+Right?
+
+Alan (01:55.884)
+Okay, so what is the problem you're to solve? What is the technology required to solve that problem? And is it defensible? Most times, you know, given, you know, the size of the competition, and we saw that with Facebook when we were doing Blockblog Radio. I mean, these companies are, whether they're the hyperscalers now, but any app that would have been developed, you would think, would likely just been
+
+you know, disintermediate my company, like, like in this investment. So while you, we may solve a problem, figuring out the technology is certainly important to that. But then if you do figure out the technology, how do you protect the idea? Cause you know, at the end of the day, these companies will see what you're doing and just copy it and throw a thousand engineers at it, you know, and product resource. So it's really an important aspect of,
+
+kind of thinking through ideas and which ones can hold up. And now we're in a different paradigm with AI, but that's really important is kind of think through. Well, it's just not simply just solving an idea or a problem that exists, how does that roll out and who can disintermediate it, who can destroy it? And then that's really where value gets destroyed over time. So it's really important.
+
+Savan Kong (03:18.333)
+Yeah, I love that. I love that man. I read this Facebook or this LinkedIn post about from a guy now his name is Manny. He built a company called outreach.io. It raised hundreds of millions in VC money and did very well for years. And it seemed like in the blink of an eye, his competitors ate his lunch.
+
+And it, you know, they had to sell it for pennies on the dollar. And, you know, he, he, he wrote this post about how his only goal as the CEO was to destroy the competition. wasn't to build culture. It's not to have these fantastic workplaces, but his goal is literally to destroy the competition so that you can stay in business. Cause somebody else is out there looking for you. Um, and you know what you just talked about Alan.
+
+which is essentially trying to get ahead of that curve so you can take advantage of these opportunities, man. How did you get that instinct? When you were growing up, were you a pretty aggressive business kid? What did that look like? How did all this start?
+
+Alan (04:34.286)
+I mean, the ironic thing about it is that I actually grew up as an accountant. I'm a CPA. I mean, I was. I went to BU. I got an accounting degree. I became an accountant. I was a CPA. And, you know, I saw lots of businesses. had an opportunity. I wasn't in a large firm, so I had an opportunity to really get in the weeds on a lot of different types of companies and service businesses, import-export businesses, garment apparel.
+
+Savan Kong (04:38.985)
+man, I should have known.
+
+Alan (05:03.68)
+all kinds of things. it gave me a good broad section and I was, you know, I love to kind of sell ideas. mean, essentially what I was doing is a young, very young account were selling ideas, but these ideas at time were tax ideas, estate planning or whatever it may be, whatever the ideas I was always, whether it was also nuances within a business that I could find efficiencies and, and give it my perspective, mostly from a financial aspect.
+
+I didn't really get into it until I was into entrepreneurship until I was in my kind of early 30s when I became the CFO of a telecom business called Vietel. And I was the accountant for that company and I helped them raise the first hundred million dollars. I'd never raised capital before. I was always an accountant for mid-sized accounting firm, but I didn't know telecom. I didn't know how to raise capital. I never worked with banks like Morgan Stanley and here it was in 93, 94.
+
+Savan Kong (05:39.881)
+Mmm.
+
+Alan (06:02.549)
+I got thrown right in the middle of this capital raise and had to lead it and we were successful. So you got to sometimes dive in head first, feet first, you know, and it was unbelievable. mean, so, but at the end of the day, what really helped me and throughout all my businesses was really actually my finance background helped me understand the fundamentals of the business. What are the true economics? are, what are the key? Is you got to,
+
+Savan Kong (06:13.875)
+Yeah, no kidding.
+
+Alan (06:31.781)
+as an entrepreneur, must understand these things, right? And, you know, that's what, and then I started finding myself when I got out, when I sold that company, I retired when I was 40. And then I came up with this idea for Blog Talk Radio, which is where we work together, which was, you know, solving a problem. I mean, it was so ahead of its time, and I'm sure we'll talk about Blog Talk Radio, but I still to this day think of ideas.
+
+Savan Kong (06:34.995)
+Right.
+
+Savan Kong (06:44.882)
+Right?
+
+Savan Kong (06:57.981)
+Yeah, yeah.
+
+Alan (07:00.789)
+And many of the ones that I think of, I'll socialize the idea with people and I'll get lukewarm results and I'll think through it and then I say, you know what, not gonna work. It's just too difficult, it can be easily disrupted, it's gonna be too hard to scale. So you gotta really go through those things and obviously not everyone's gonna be a winner. And in order to be efficient in time, you have to be able to quickly say, okay, now that idea's not gonna work. Cut it, move on.
+
+Savan Kong (07:27.943)
+Yeah. Alan, was, especially being an accountant where things line up, the good accountants know how to sort of work on the edges so you can actually figure out how to run your business in creative ways. But during 93, 94, mean even the mid-90s, this explosion of internet technology companies raising massive rounds of money and
+
+What was funny to me during that time, especially during the late 90s was the economics of it never made any sense to me, right? Like they're all losing money. You're raising these massive amounts with the idea of growth as being sort of the main driver. Like what was going on in your head, you know, being a trained accountant and then going in and raising all this money and trying to build this massive business. Like was there ever a time where you said, guys,
+
+Alan (08:22.839)
+Right.
+
+Savan Kong (08:24.785)
+Like this doesn't make any sense. Why are we taking in all this money?
+
+Alan (08:28.749)
+Well, I mean, just to put in perspective, the amount of capital that was raised and my emphasis at the time was telecommunications. So we were building, we started, I joined a company when there was about 25 employees in 93. And we ultimately, actually 96, it was my second business. In 93, I joined when I was with an accountant. He was my client. I went over there for three years, lived in London.
+
+And then I joined a firm that had 25 people and helped grow it to 350 people in three years. We raised $450 million. I was president of that business and we scaled it from 30 people to 1300 people. And we had about 350 million of run rate revenue when we sold it. And we sold it around when Bernie, WorldCom blew up. And what was going on is while, so there were two really interesting dynamics in the end of the nineties.
+
+Savan Kong (09:04.977)
+Wow.
+
+Savan Kong (09:10.736)
+Dang.
+
+Savan Kong (09:20.528)
+yeah.
+
+Alan (09:25.621)
+You had the pets.com era and all these companies that really just nothing. were just, they had a lot of eyeballs, but they didn't monetize them. And then I had a business that had generated 300 million of revenue. We were not making profits because we were, we just quite frankly trying to do too much in too many places and competing against Deutsche Telekom and Franz Telekom and AT &T. we act a legitimate business. had,
+
+400,000 customers and so on. So we raised a lot of money, as I said, and we decided to sell the company at May 99. We took it public and got out by December 99. We closed right before the bubble burst. And then you know what happened in March 2000 was the high of this market. And there's a funny story. were on the road show in May of 1999.
+
+Savan Kong (10:09.628)
+Wow.
+
+Alan (10:22.925)
+Morgan Stanley just taken us public and we went public at $10 a share, is, know, and we actually went public at 10, which is a disappointment. Companies would go public at 20 and trade at 80, 90. It was again, all this craze of eyeballs. you know, we knew that it was a challenge and the market was really getting very frothy at that time. And we were on the roadshow at Janus funds in Colorado.
+
+Savan Kong (10:45.466)
+Yeah.
+
+Alan (10:51.563)
+And we were in a limousine doing our roadshow presentation to Janice. we were locked into the parking lot because there were too many limos. I turned to my partner and I said, this is the tell, we've got to get out. And we sold the company in August, signed the deal. One quarter we were public and we got out. That was the of the tell. But it was a very difficult environment and most companies got
+
+caught up in it and we had 400 million in debt. we sold it to a company which was my prior business and they bought it and they had 800 million in debt. I mean the amount of money that was kind of lost in the telecom era dwarfs what was done in dot com bubble.
+
+Savan Kong (11:39.021)
+Right, that is crazy. mean, how do you even like, how do you even know when is a good time to exit? Because I know I have a lot of friends that are entrepreneurs that have built pretty massive businesses, billion dollar businesses, public businesses. And it's always that sort of like, that intuition that great founders have on when to pivot or sell or acquire. Like for you during that time, what were some of those things besides
+
+being in a parking lot full of limos. Like what else was going on?
+
+Alan (12:11.532)
+Well, having $400 million of debt is a bit scary. now about $300 million of it or at least was what was called, it was PIK, P-I-K, meaning there was interest was just a crowing. So we were, you know, it was a zero coupon bond. it felt it was like equity and then the debt would mature in five years. And then the interest, then those would start paying interest. So we knew there was a time when it had to be, you know,
+
+Savan Kong (12:15.651)
+Yeah, I was gonna say.
+
+Alan (12:40.896)
+taken out. there was a kind of a window. And I think in that era, too, what was also going on was fraud, not in our company, but with WorldCom. We were selling long distance services, and they were selling, if I recall, for five cents a minute, you know, just long distance. And we know that our cost was like six or seven. So we had no idea how they were able to do it. And we learned later that they in fact were not, they were
+
+Savan Kong (12:53.042)
+that's right.
+
+Alan (13:10.72)
+capitalizing their line costs. So therefore the numbers weren't real. So that's again my CFO, my financial ability say, okay, wait a minute, something's off. And when you've got a leading company like WorldCom doing this. So in other instances, you know, with Blogtok radio, we knew we needed to, you know, that's a whole different situation. We sold it to iHeartRadio. We merged with another company.
+
+We needed scale, we were sub-scale. each entity, each requires a different kind of perspective of when's that right time? When is the right time to raise capital? I stayed away from VC my whole life, which was good and it's helped me because VC's was really tough, difficult to navigate and very expensive money.
+
+Savan Kong (13:46.062)
+Yeah.
+
+Savan Kong (14:02.936)
+Yeah, I mean, it's very expensive, but it also costs you so much because the people that are doing the raising are typically the C-suite people. And it's a full-time job for months, if not years on end. And you're essentially selling equity in your business on the idea of the promise that it'll do well. And then now you're beholden to the VCs on how it's doing versus yourself and your own team. That's crazy.
+
+Alan (14:10.028)
+the
+
+Alan (14:30.782)
+Of and it's crazy and not only that, the nature of the capital that you're raising generally has a preference to it. So you're a founder, you own common shares, you have the largest amount of equity in the company, but there's no liquidation preference. The first dollar is out, go to the VCs and then ultimately the debt holders. So it's a complicated thing.
+
+Savan Kong (14:38.648)
+Mm-hmm.
+
+Alan (15:00.212)
+Look, I don't know, it's a different world today, you know, and, but, you know, it's, it's, it's a lot of things have to go right to pull it off and, you know, make it happen. but sometimes survival instincts, you know, if you're subscale business, I mean, I knew when, example, in the blog talk radio time, we had done a remarkable job in an industry that didn't exist. mean, I think we were founders of, of one of the early podcasting companies.
+
+I mean, it wasn't even a word really. mean, was there Dave Weiner had invented it and Adam got his last name, but he partnered with Dave Weiner. But, you know, we needed far more technology, far more engineering capability, network effects had to be developed. We didn't have those resources and I knew that we had to sell. were subscale in so many ways.
+
+Savan Kong (15:31.088)
+yeah.
+
+Alan (16:02.74)
+I lost you on your audio.
+
+Alan (16:08.652)
+Can't hear you.
+
+Alan (16:19.212)
+Now I got you. I'm happy that I don't own a podcasting company.
+
+Savan Kong (16:24.953)
+Well Riverside fixes all this but Give me one second here. All right. Let's try that again. All right, we back
+
+Alan (16:31.116)
+There you go. Okay.
+
+Savan Kong (16:36.138)
+All right, so Alan, dang it, did this recording stop? Hold on.
+
+Alan (16:42.986)
+It says it's still recording.
+
+Savan Kong (16:44.788)
+Yeah, it says it's still recording. Let's try this. Let's just keep going and I'll edit it all together. I want to take it back a little bit because we talked about blog talk radio a couple of times, but you're a guy from New York who is an accountant, then worked at a telecom company, and then you started a podcast business, which was at the time really online talk radio business, right? Like there was
+
+Alan (16:48.886)
+Yeah, yeah, yeah, yeah.
+
+Savan Kong (17:12.147)
+not this industry that we have now. Like talk me through how that happened. Was there a through line there or like what did that look like?
+
+Alan (17:22.412)
+Well, really interesting. mean, you know, when I sold the company in 99 and I had retired in basically the telecom industry, semi-retired, whatever it's called. I mean, I took some time off to see my family. had three children. I only saw two of them. So I got to know my third child daughter. But, you know, at the time my industry was over. know, telecom was the bubble at first.
+
+Savan Kong (17:36.619)
+I think you've retired like six times.
+
+Savan Kong (17:43.253)
+Yeah, yeah, yeah.
+
+Alan (17:52.044)
+Cisco, you know, and everything was down, you know, so there was no industry. So I kind of took my time to get back into it. And then about five years later in 05 and 06, I was itching around to do something. I still a young guy, was 45. I was like, you know, I don't know. And my dad got cancer, non-Hodgkin's lymphoma, and was tough on family and of course, like it is for all families.
+
+and he got it and then he recovered and he got it again. And you know, at the time I spent a lot of time online reading about his disease and you know, treatments and you know, I just immersed myself. I had the time, I had the capacity. But then I also started reading through blogs and I didn't even know what a blog was. And then I'm looking at these blogs and I see the 75 million TechCrunch, I became aware of TechCrunch and...
+
+And then I bought a couple of books. was like, what is the blog? What is the blogosphere? What is this? And I see every topic under the sun. And then I see the comment section where people are typing their comments to these blogs. And I said, you know, there's something interesting. These people to me, they're like these bloggers are like, they seem like talk radio hosts. mean, they just, whether it's sports talk radio, political talk radio, whatever it may be, gardening.
+
+Savan Kong (18:45.495)
+Yeah.
+
+Alan (19:14.591)
+But there's no platform for people like this. Wouldn't it be interesting if they could somehow create their own, use a platform, use my platform to host their own radio show? And radio show, the concept of radio show didn't exist. It was a conference bridge where we built streaming into it. So I learned as an older guy, quote unquote, at the time living in North Jersey, what a blog was.
+
+Who were the influencers in this? And then I work with my tech guys who we are, I had a lot of telecom infrastructure because of what went on with the bubble bursting. So I could access capacity. I said, could we create a live streaming platform that would let people host their own show, their own podcasts or recording using a phone? I don't want any other technology other than a phone. knew everyone had the phone and could we let people call in?
+
+I said we could interact and interview a guest and so on and so forth. Then the tech, my guys there at the time said, you know, I don't know. We think we can do it. And about three or four months later, we got it. And we had initial foray and then no one had done this before. Ultimately it was patented. And the thing that was really exciting is that in my research, I found out that the place to get it done was pub promoted out because I didn't have anyone on the network really.
+
+Savan Kong (20:23.53)
+Yeah.
+
+Alan (20:41.737)
+was TechCrunch. So I reached out to Mike Arrington, who I spoke to, visited his house in Silicon Valley, and Robert Scoble, and the Scoble-izer, and he had a huge blog. So I would post to these bloggers, I would post to them, so what do you think of this idea? And a lot of them were like, wow, that's really cool. Yeah, that could...
+
+Savan Kong (20:43.263)
+Yeah.
+
+Savan Kong (20:52.821)
+Yeah.
+
+Yeah, that's right. Yeah. Yeah.
+
+Alan (21:08.147)
+You know, no one had done it before. And then TechCrunch ultimately took us out and was promoted Blog Talk Radio. That's how we got our start on TechCrunch.
+
+Savan Kong (21:17.814)
+Yeah, that's crazy. I mean, I didn't start working with you until you guys were a little bit further along. I mean, before CinchCast, but like that first year, what was that like? Especially trying to carve out a new market, a new industry for this. Like, what did that look like?
+
+Alan (21:24.063)
+Yeah. Yeah.
+
+Alan (21:36.297)
+It was crazy. mean, it was nuts. mean, I was actually on the phone around the clock just talking to myself and recording these podcasts. So we built this platform that you could, you know, create your own time slot when you wanted to do it. And that would automatically upload into Apple iTunes. We were the largest contributor of podcasts to iTunes, but it was an outreach.
+
+magnified and what I'd one employee who worked with me Amy who you remember Amy domestic somehow found me through tech crunch and a few people I think when we launched on tech crunch the technology we were crossing our fingers if it would work right I mean you know that that's like tipping point when you get tech crunch and I think we had people in 75 countries try the services it crashed our servers right so we got it back up and running but Amy found us
+
+Savan Kong (22:07.988)
+Yeah, yes, she's great.
+
+Savan Kong (22:19.7)
+Right?
+
+Alan (22:33.483)
+and she had authors, she had author blogs, and she's like, I love this idea, and she would be doing outreach for me. She would be constantly sending the link around, or sending it around, and offering up opportunities for people to host their own radio show. And everybody wants to either host one at that time, or be on one. And that's when I put the name, I bought the name for $9, Blog Talk Radio, I think I said,
+
+Savan Kong (22:54.93)
+Right.
+
+Alan (23:02.997)
+because I invented it. The fact is I put the words talk in it and radio in it and the word blog. So I mean, if someone had a blog, what a natural extension it would be, you know, and where, know, kind of be easier to talk than write. And that's how we started. So it was just outreach to everyone. then remarkably, over two years and two years, we had Obama do the Obamacare on Logtalk radio.
+
+Savan Kong (23:10.803)
+Yeah.
+
+Savan Kong (23:28.277)
+Yep. Yeah. Yeah, that was wild. That was just wild seeing that man. And you know, it's like during that time, people aren't listening to podcasts or blog talk radio sessions as much as they did back. Like now it's this massive industry, but back then you weren't, unless you like subscribed to it and you knew exactly what you were trying to do, it was hard to really consume like you do now.
+
+Alan (23:57.322)
+No, very difficult. I mean, we were driving people to our website. That's where we would promote the shows and the content we started. I mean, it was before revenue model existed really. There was no, we didn't have enough scale. There was poor measurement tools. There was not a lot of metadata in the search when you search audio, of course, which still is a problem. And, you know, we're trying to solve these major problems and
+
+Savan Kong (24:09.918)
+Yeah.
+
+Savan Kong (24:19.293)
+Yeah.
+
+Alan (24:24.924)
+You know, but we did some really cool things. I mean, we had the Department of Defense on Blog Talk Radio. I met with the Assistant Secretary of Defense, Public Affairs. I was in DC. They used to use it for communicating with soldiers in Afghanistan. You know, so anyway, it's really fascinating. But, you know, just it's just kind of creating a paradigm here that that, you know,
+
+We knew it was emotional and people felt attached to it, but how do you get it out? And as well before it was commercially viable. I met with every ad agency under the sun. I took meetings with every ad agency. They love the concept, but they're like, how do we know the numbers? How do we know it makes an impact? This is the burgeoning medium. So those are tough.
+
+Savan Kong (25:01.788)
+Right? Right.
+
+Savan Kong (25:20.359)
+Yeah.
+
+Alan (25:23.08)
+Those are tough times, you know.
+
+Savan Kong (25:25.032)
+Yeah, I I think that the one thing about what we were doing at the time was we were trying to describe to people in many ways the impact that the shows were having across the board, but the technology, and in many ways, it's even the market for it. We were ahead of it, that curve, so far that it took the entire world, what, like I would say maybe five to seven years to even catch up.
+
+with what BTR was doing back in the day. And I'll tell you, Alan, like I think there were so many days where we were just trying different things. Like the team was really small when I was there. How big were we? Like I would say 10, 15, I don't know.
+
+Alan (25:53.322)
+Yeah.
+
+Alan (26:04.852)
+Yeah, yes.
+
+Yeah, I mean the tech team, were in product and you know, couple of engineers and we had a couple of engineers outside the country. know, it's interesting because even today, you know, like if we wanted to interview, we're having this conversation now. If you wanted to take callers and you know, say, it was a question for Alan. That's not easy to do. We did that though. We did that at scale and stream.
+
+Savan Kong (26:12.754)
+Yeah.
+
+Savan Kong (26:17.235)
+Yeah.
+
+Alan (26:35.218)
+Now, it was not audio, it was audio, it wasn't video, which of course is a more powerful medium. But the concept of really digging into a topic in long form, this also was unknown as well because Twitter launched around 08, 07. Everything was 140 characters. So we had a tiny team. And what I really try to do with it and...
+
+Savan Kong (26:51.729)
+Yep. Yep.
+
+Alan (27:03.056)
+and then spent a lot of time with the radio industry. They couldn't understand me, what we were trying to do, Blog Talk Radio. know, music was, digital music was really started by Pandora and a subscription model and then of course Spotify. And podcasts at the time were not on Spotify or Pandora, unlike today. And my view was,
+
+Savan Kong (27:18.002)
+Yeah.
+
+Savan Kong (27:28.114)
+Right.
+
+Alan (27:31.964)
+I wanted to meet with the radio, the talk radio guys, because I talk radio on the AM dial or anywhere across the country was going to ultimately on FM was going to go away. And it did. and millions and millions of people love talk radio, but there's no platform for it. And I felt like I demonstrated that this block talk radio could be the platform, in a white label form, didn't have to be called block talk radio. Wasn't necessarily.
+
+Savan Kong (27:42.503)
+Yeah. Yeah.
+
+Savan Kong (27:59.921)
+Right.
+
+Alan (28:00.558)
+But if they use my network or technology, that would be powerful, right? That would be huge. And they thought they viewed us as a threat.
+
+Savan Kong (28:05.064)
+Right.
+
+Savan Kong (28:09.895)
+Yeah, I we did have some branded channels on there while we were trying to roll that out, like white-linking.
+
+Alan (28:14.76)
+Right. right. Exactly. But but I feel like Westwood One Radio Network, for example, which does, you know, the NFL or they'll do the Major League Baseball Game of the Week or NPR. I mean, these are these are, you know, they're relics. mean, NPR is almost gone now. I mean, they had such mass audiences. But what I was really trying to do was enable talk radio to get into the digital space by leveraging
+
+this technology and that would be ultimately streamed in the car that could have callers that would be recorded as a podcast and upload into iTunes or wherever you pulled an RSS feed. So that was the intention, you know, and, which is a good plan except that the talk radio industry just didn't want to, they just, they died. They didn't want to hear about it. They didn't have, they weren't innovators.
+
+Savan Kong (29:11.226)
+Yeah.
+
+No, mean, especially with the market size that they had for that type of media, like, why would you change unless you felt the pressure from different places? And at that point, the technology that we had was so far advanced and being able to take literal phone calls. This wasn't like you're using your speaker and your microphone. Like you could use your telephone and dial a number and then be able to call in. exactly, exactly.
+
+Alan (29:39.89)
+get it that call screened in a virtual studio. Yeah, it's primitive. It's the merging of telecom, streaming, and then recording.
+
+Savan Kong (29:53.209)
+Yep. Yep. Yep.
+
+Alan (29:54.908)
+And it has not, it still doesn't exist. There's no platform that you can do that.
+
+Savan Kong (29:59.449)
+Yeah, yeah, I mean, you know what was funny was I had somebody reach out to me on Reddit and they were trying to build a live podcast service where people could dial in. I was like, that sounds very familiar. So it was almost like a Discord where, those video gamers, they'll play, people can chat. But for podcasts and shows,
+
+Alan (30:18.099)
+Yeah.
+
+Alan (30:23.773)
+Yeah.
+
+Savan Kong (30:28.726)
+And you're right, like there isn't, I was thinking about there isn't a good platform for live shows right now where you can't do those things. It's like not there.
+
+Alan (30:35.699)
+No, no, doesn't exist. it's sad, know, like I really did feel like I had, you know, as the CEO of the company, I had the right to put whatever I wanted on the homepage, you know, so I had my own show. And I interviewed David Beldachi, Andrew Morton, I interviewed authors, famous novelists and authors, Marcus.
+
+Savan Kong (30:52.6)
+Yeah. Yeah.
+
+Alan (31:03.891)
+The guy from the Navy SEALs who was in Afghanistan, the guy from Texas, I interviewed him, 45 minutes. We had callers, we were doing shows about Alzheimer's, families would call in and ask questions of doctors. Doctors, I could reach out to them, dial out to them, or they could call into the show. We did it, there was the Mumbai attacks, we were live in those Mumbai attacks and occurred across the world and we had immediately
+
+we had people from all cities, London and, and, and New York and LA all talking about what's going on in the streets of Mumbai. This notion of combining, aggregating these calls and creating this interactivity connectivity doesn't exist, which, you know, surprises, but the technology is much harder than it, than anyone.
+
+would think it seems rudimentary but it's very difficult and that's why i think it's it's either people don't want to do it because they don't see value in it or it's just no one's thought no one's thinking about it but
+
+Savan Kong (32:09.732)
+Yeah, or or or it's expensive as hell to do right like
+
+Alan (32:14.089)
+Well, it's telecom and you know, they're much different than digital bits. You know, it's a different world. And now of course, we're, you video is just, you know, direct line, me to you, here it is, but it's, it can't be infiltrated really with the calling. And that was really the beauty of it, right? The ability to interview, you're a thought leader, you're a host on Blockbuck Radio, you're a thought leader in politics or thought leader in sports and you could interview anybody.
+
+I I remember Eli Manning would come on a show and we interviewed, we had a big Knicks show and now he works for the Madison Square Garden, guy Anthony at MSG. He had all the basketball players on. So yeah, it's awesome. I wish someone would go about doing it again. We do own, I don't even know who owns the patents on it, but it's Dorman. We did get a patent actually. I still have them.
+
+Savan Kong (32:56.697)
+Yeah, that's all.
+
+Savan Kong (33:11.097)
+Yeah, somebody yeah, I mean, like in many ways, Alan, that could be, you know, your your fifth go around of things, right? Maybe you could take that on.
+
+Alan (33:20.073)
+I have other things I'm working on, I would say that that one ran its course. I'd love to advise anyone that'd be willing to do it.
+
+Savan Kong (33:27.652)
+Hahaha.
+
+Ellen, I actually never asked you this, like of all the people you interviewed, who was your favorite?
+
+Alan (33:37.449)
+Well, Marcus Luttrell, know, he's the, that Mark Wahlberg was in the movie, you know, about Afghanistan. He was dropped in. That was an unbelievable interview. I interviewed him for 45 minutes. And I also enjoyed interviewing Andrew Morton. He had written the book about Diane and, and, and, and, and, you know, I had some, and David Baldacci.
+
+Savan Kong (33:46.542)
+Right? Yep.
+
+Savan Kong (33:58.729)
+yeah, that's right.
+
+Alan (34:04.102)
+I interviewed so many authors and a few of them said to me as we finished up and they said, this has been so delightful because it's not a five minute little conversation that we have to fill in or three minutes. We gave 30, 40 minutes, whatever the time they needed. And for us, it was wonderful. there's so many. I think the highlight of course was when Obama wanted to promote
+
+Savan Kong (34:16.472)
+Right?
+
+Savan Kong (34:25.037)
+Yeah.
+
+Alan (34:34.153)
+the Affordable Care Act and he went to churches throughout the country and we streamed live from churches throughout the country. It was unbelievable. Obama was really trying to use the newest technologies available and support them. We were one of them and we actually hosted this event. We had, I don't know, 60,000 live concurrent
+
+Savan Kong (34:46.253)
+Right. Right.
+
+Alan (35:02.075)
+listeners which like blew our system up, but it worked. Obviously Obamacare was an incredible thing, but that's the highlight of what we did to be able to
+
+Savan Kong (35:10.34)
+Yeah.
+
+Savan Kong (35:13.972)
+That's crazy. did you get connected with the Obama folks? Did they just like see the TechCrunch article? I can't remember that story.
+
+Alan (35:20.879)
+No, no. So I think it's because we had a lot of political, we had a lot of shows, Breitbart, I mean, had a lot, know, talk radio really mostly dominated by right, the right, know, Rush Limbaugh at the time, Breitbart, and the left never really could get its act together. They still can't get its act together in anything. That's right, exactly. So, you know, we were just this kind of,
+
+Savan Kong (35:35.181)
+Yeah, right. yeah, for sure. It's huge.
+
+Savan Kong (35:40.847)
+No, no, that is 100 % true.
+
+Alan (35:49.449)
+independent platform. We don't have a right or left. We just wanted to provide the capability. And I'm not sure how we, you know, we, I think, I think it's probably because we were working with the Department of Defense. I had met someone there and they loved what we were doing. And they could see that they could have their own channel and they could communicate because the soldiers were all, all could answer a phone. Our platform, we built it in such a way that you could dial out.
+
+Savan Kong (36:06.392)
+Right.
+
+Alan (36:17.063)
+So if a soldier at the time was there, they could speak to their kids. I mean, we created, so there was some knowledge of what, that we existed. And I think that's probably how it happened. And it just, what they wanted was to have a streamed event at a church, at churches at a low cost way. And we were streaming and he was on and he talked about Obamacare, which is unbelievable. So.
+
+it's a fascinating time.
+
+Savan Kong (36:47.618)
+Yeah, yeah, no kidding, no kidding. Alan, I wanna talk, cause like I had left Blog Talk Radio and went to Amazon and then did a bunch of things, but you were still there with Megan and Bob and Rob and all the guys, but like talk to me about sort of the end of the journey there, cause I would imagine like if I were to look at sort of the graph of how things were going, you know, there's us really up here.
+
+Alan (36:59.048)
+Yeah.
+
+Savan Kong (37:16.245)
+and then eventually selling to I Heart Radio. But like you looked at the podcasts and the pick up of it and you could see that it's picking up steam. But like why did you eventually decide to sell that out? Especially considering like the audience was pretty good just in terms of the people that were loyal fans. Like they weren't just regular, you know, casual fans. These are people that could do this thing consistently. And you know, you had great shows and you had great hosts, but.
+
+Alan (37:38.397)
+Yeah.
+
+Savan Kong (37:44.845)
+Talk to me about sort of the end of that run.
+
+Alan (37:48.637)
+Well, as I said earlier, we were sub scale one. So we really, we need a lot more resource to, kind of stay current with new technologies, integrating it into Twitter, integrating it into Facebook. Back then it was MySpace, believe it or not. So, you know, so, you know, we wanted our player, you know, embedded everywhere. So that was important and we were sub scale. didn't have enough resource.
+
+Savan Kong (37:52.407)
+Right.
+
+Savan Kong (38:05.057)
+Yeah. Yeah.
+
+Alan (38:15.226)
+And the other thing and also was that we were very, we were, we were before monetization really happened in the podcast space. You know, we, I'd be meeting with, I met with the New York times or the wall street journal at that time. now there's big dollars with podcasting as you know, it's a big, a much, a much larger industry at the time we, we had founded the, I founded the company, the New York times had no podcasts on their website whatsoever.
+
+Savan Kong (38:32.77)
+yeah!
+
+Alan (38:43.432)
+All the podcasts for the New York Times were on iTunes. So you'd go to iTunes. It would be iTunes.com forward slash podcast forward slash New York Times. And I meet with the New York Times. met with our author, Ocs Holtzberger and myself way back when I said, why are you not hosting these events and the podcasts on the New York Times website? You have enormous traffic. Why are we going to bother with with audio? It's not, it's no one's interested in it. Okay.
+
+Savan Kong (39:11.788)
+Mm-hmm.
+
+Alan (39:12.636)
+I said, they are. So sure enough, look what happened. same with the Wall Street Journal. So we were so early for both the brands, the agencies, and even the publishers. We did some things with HarperCollins. There were some innovative players out there that wanted to try new technologies, which was good. But you have to sustain a business at the end of the day. And we just couldn't get over the hurdle.
+
+on the monetization that one of the things we did focus on was building a monetization engine for ads, self-serving of ads, because we also learned that, you know, if you're the large podcasters with large audiences at the time, like Fresh Air, of course, you're gonna get sponsorships, but how is the individual podcaster gonna make any money? So we had thousands of them, and we had millions of listeners, but we...
+
+Savan Kong (39:50.114)
+Yeah.
+
+Savan Kong (40:03.702)
+Yeah.
+
+Alan (40:10.245)
+So we did build technology that they got at least some share of that insertion technology and other capabilities that ultimately was sold along with the platform to IHAR.
+
+Savan Kong (40:21.249)
+Yeah. How did that feel when you sold off the business?
+
+Alan (40:25.5)
+Relief. I mean, it was a long haul. It was a tough road. spent a lot of time in LA. spent a lot. mean, I would be going. I had met with every major. I met with Sony in the studios and we're all interested in what we were doing. But at the end of the day, it's you got to, you know, we could have raised a lot more money. But again, we got diluted. It wouldn't be economically feasible.
+
+for me and other founder. And, you know, so felt good. I felt like we, gave it a go. We started from nothing and it exited in a good way. And ultimately I heart is a a big podcast player now. So can we just pause this for a moment? Okay. Okay. Hold on. Let me just get this.
+
+Savan Kong (41:11.007)
+Yeah.
+
+Yeah, yeah, no, just keep keep we can keep rolling. I'll edit out
+
+Alan (42:01.938)
+Alright, sorry, you can edit all that out.
+
+Savan Kong (42:04.875)
+Well we may keep it, who knows, that would be the B-roll.
+
+Alan (42:07.464)
+Good. All good. Yeah.
+
+Savan Kong (42:09.771)
+Oh man. Alan, I want to talk a little bit about the future, my friend. And I want to talk about some of your perspective on some of the things, specifically around artificial intelligence, because you've been in this business for so long, in a wide variety of different industries. I want to ask, what are you most scared of or worried about with this wave of AI coming up now?
+
+Alan (42:15.453)
+Yes.
+
+Alan (42:28.785)
+Yeah.
+
+Savan Kong (42:39.093)
+petrifies you, what scares you?
+
+Alan (42:42.322)
+Well, I'm actually starting, you know, I mean, obviously invested in a lot of companies that, you know, or have been, you know, leaders in it and new AI platforms. It is scary. It's like a race to where, you know, it frightens me that there's no real guardrails on it. There's every, you know, the, you know, the Sam Altman and Musk now having this legal battle and, you know, fighting it out.
+
+Savan Kong (43:02.058)
+Yeah.
+
+Alan (43:09.32)
+you know, both of them agree that it could end the world. Obviously, you know, it's not a good thing. It's scary. It's scary as hell. And I've been using, I'm launching another I'm thinking about launching another idea. It's a kind of a whole different in the beauty space, believe it or not. But and I started using chat GPT. And
+
+Savan Kong (43:14.909)
+Yeah.
+
+Alan (43:35.112)
+What I've learned about it is it's just remarkable the amount of data on the one hand, like I wanted to build a spreadsheet. For example, I wanted to know the top 100 businesses in this vertical and this state and with this caveat and create a pivot table. It's something that would have taken me historically two weeks if I could even pull the data. It's literally in three minutes. Here it is. You know, could I do the following else things for you? So it's mind blowing.
+
+Savan Kong (43:54.373)
+yeah, yeah, yeah.
+
+Alan (44:03.496)
+Now, as an entrepreneur, I look at it and say, if I had this tool 20 years ago, I'm like, wow, I mean, I don't know, look what I could have built. mean, look how much time this has taken. Now, that's a positive on it, right? And it is, the thing that I'm finding negative on it, and I'm using ChatGPT, it really just regurgitates what you wanna hear often, which is a problem. You know, I mean.
+
+Savan Kong (44:16.319)
+Right?
+
+Savan Kong (44:29.29)
+Yeah.
+
+Alan (44:31.399)
+you know, how do you get around the noise and, and, that it just sucks up to you, you know, kind of a thing. So it is, you know, that is, it seems to be a problem for me on that. I'm not so sure about how it's going to display some work. I think at the end of the day, there are certain industries are obviously going to get displaced from this. know, so engineering or the code, the paralegals.
+
+Savan Kong (44:54.302)
+Yep.
+
+Alan (44:59.719)
+I just don't know. It also frightens me what's going on in colleges and schools, in grade schools, high school, essays. How are you going to decipher when these kids, you there's no, you know, I'm invested in the hedge fund and the issue of quarterly letter and it's watermarked, it's stamped. If I print it, it's got their name on it. They know what I'm doing with it. But what about AI? Where's the stamp? So it's, it is,
+
+Savan Kong (45:09.554)
+Mm-hmm.
+
+Alan (45:29.681)
+frightening. I don't know how you feel about it. but
+
+Savan Kong (45:34.822)
+I mean, it is. It's so pervasive so quickly that I don't think anybody saw this coming besides some of the major players. And I know it's been in the works for a long time, but just the amount of things that are now AI enabled or branded AI. I mean, we just saw Allbirds, right? The shoe company out of San Francisco pivot to being an AI company now. I'm like...
+
+Alan (45:57.381)
+Yeah. Yeah.
+
+Savan Kong (46:01.93)
+What world are we living in where you could do that, but also your stock can go up because you've gone from a shoe company to guy company.
+
+Alan (46:06.024)
+Well, they were desperate. They were desperate. And I actually was an investor in Allbirds on the private side. then, yeah, yeah, but we got out years ago and we did well. you know, look, when you're desperate, you're going to, you know, look what you're going to try to create. I saw today that GameStop is trying to buy eBay. mean, yeah, yeah, yeah. He's trying to. And the guy's the most arrogant guy. I saw him on TV. He was on Squawk Box this morning.
+
+Savan Kong (46:14.02)
+really?
+
+Savan Kong (46:26.462)
+is that right?
+
+Alan (46:35.675)
+the CEO of GameStop is the guy said joke. mean, I can't see it happening, but you know, they were asking these questions. look, we've seen time and time again where, you know, most of these things are going to fail. know, all birds becoming an AI company that was selling, you know, a sneaker or a soft comfortable shoe. I I would invest in that.
+
+Savan Kong (46:39.274)
+That is wild.
+
+Savan Kong (46:54.088)
+Yeah, 100%.
+
+Savan Kong (47:05.041)
+No, no, wouldn't either. I wouldn't either, my friend. Alan, what's getting you excited here recently within like, I'd say the last year and a half, maybe two years, what's gotten you fired up in the morning? Okay.
+
+Alan (47:05.927)
+Excuse me.
+
+Alan (47:18.119)
+Just gotta give me another, just give me another moment. Sorry.
+
+Alan (47:34.631)
+this podcast. I'll write that. Yeah, hand back. So, so one of the things that I'm thinking about, I don't know, I was talking to someone recently about, like, trade, the trade world, like, like, people have to do stuff, right? So AI is replacing lawyers, engineers, at the end of the day, though,
+
+Are they going to replace plumbers? Right? No, I don't think so. And, and beauticians or, or, you know, electricians or guys that are building homes. The processes that they use will be refined and easy to be, to, you know, made easier. But I still think that there's people going to do stuff. If you sell, if you're, if you're in the business of selling ideas or selling product.
+
+Savan Kong (48:05.818)
+Right? Right.
+
+Alan (48:33.221)
+You still got to go through the process of convincing someone and needs that human touch. So there will be loss, no question in terms of job, but I'm interested to see how, who's going to, what is truly going to be the impact on the labor market? I don't know. I hope for our society's sake, given that two thirds of our GDP is funded by the consumer, that
+
+Savan Kong (48:50.31)
+Yeah.
+
+Savan Kong (49:01.128)
+Mm-hmm.
+
+Alan (49:01.776)
+we will have employment in this country and and the world you know and and that that's that scares me i think what could happen
+
+Savan Kong (49:08.668)
+Yeah, I mean, the thing was I had seen a graph where they were talking about the displacement of workers and the ones that were safer like the janitors, the secretaries that need to be there, the electricians, just really fundamental people. And that leads me to my last question for you, Alan. And my last question is, if you...
+
+had to invest in a business right now, which business would that be? Knowing what we've just talked about.
+
+Alan (49:46.341)
+Well, like again, I invest, I mostly allow the professionals to do it for me, you know, but because when I invest private equity, I don't really do private equity only in things that I'm kind of influenced that I touch and feel.
+
+Savan Kong (50:03.888)
+Right, if you were an angel investor and somebody's pitching you, what would be the perfect idea for Alan right now to invest in?
+
+Alan (50:09.243)
+Yeah, I don't know. I probably wouldn't invest. I don't think I would. It would be too imp... There's a lot of risk out there. And I think that, like, I think it goes back really to what I said at the onset of this. It's like, you could come up with this idea, but when it reaches scale, how do you protect that idea? How do you make sure that that idea is not...
+
+Savan Kong (50:35.247)
+Right.
+
+Alan (50:37.894)
+going to be destroyed by AI or destroyed by Google or these massive companies. How do you know that? So I think it's a really challenging time. And if you think through that and you think through the what ifs, then maybe you have a shot at it. while the cost of
+
+production, cost of building a company has gone way down, cost of creating a website. It's all these barriers have been, many of these have been broken down, but it's the same way for everyone else. So what is, know, that makes it a very challenging environment. used to be capital was a barrier to entry. You know, we raised 400 million years ago, which is a huge amount of money and we ultimately paid back all of it.
+
+Savan Kong (51:25.391)
+Right.
+
+Alan (51:31.974)
+Um, that was a barrier to entry. had capital, we had resource, we were able to scale, you know, and, and what happens now? Where, where do you, how do you protect these ideas that you've, you've created and you're scaling, um, without AI, let's use it as a generic term, taking it. So, you know, but.
+
+Savan Kong (51:32.048)
+Mm-hmm.
+
+Savan Kong (51:53.638)
+Yeah, yeah, no, I absolutely agree. absolutely agree. All right, now last words of wisdom for the future generation, my friend, for the kids and their kids' kids and their kids' kids. If they were to watch this thing, what would be your words of wisdom for them as they embark on their own transition and their own investments?
+
+Alan (52:15.802)
+Yeah, I think, look, I've always taught my kids, I've now, you know, I'm kids for grandchildren. It's like, you know, work, it all comes down to effort and work out, work out, working hard, making it, making an impact. You have an idea, it's great. At the end of the day, you have to work it, you have to work it through. There's no shortcuts, there's no easy ways.
+
+You could innovate. You've had a good career. You went from your path and then you went into the government space and now you've been involved in different things. Well, it's a common denominator effort and working hard. It's no shortcuts, no matter what you do. And, you know, that's always been my kind of my view of it all.
+
+Savan Kong (52:58.118)
+Yeah, absolutely none. Absolutely none.
+
+Savan Kong (53:04.612)
+Yeah, I love that, man. I love that. All right, I lied. Last question. Who's winning the World Series this year?
+
+Alan (53:10.822)
+Well, I'm Mets fan, so I know they're not. I'm hoping my New York Giants can at least make it to 500. And I did have a good time with you when we saw, congrats on the Seattle team. That was a great, a lot of fun. But who's going to win the World Series this year? I've just canceled my SNY MLB. It's not even, it is May, May 3rd. No more. I guess I got to come up with another business idea,
+
+Savan Kong (53:22.894)
+I appreciate that.
+
+Savan Kong (53:26.821)
+Yeah.
+
+Savan Kong (53:40.303)
+Yeah.
+
+Alan (53:41.082)
+Hahaha!
+
+Savan Kong (53:43.295)
+man, that's amazing. All right, Alan. Hey, I appreciate you for coming on my friend. It's been fantastic and I wish you well and we'll talk soon.
+
+Alan (53:45.51)
+Thanks, Sven.
+
+Alan (53:53.572)
+Love it. Appreciate it. Thank you. Have a good
+
+Savan Kong (53:55.503)
+All right, I'll see you,
+

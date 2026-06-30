@@ -141,30 +141,100 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(episodeLd) }} />
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
 
-      {/* ── Hero ── */}
-      {youtubeId ? (
-        <div style={{ paddingTop: 'var(--nav-h)', background: '#000' }}>
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
-            <iframe
-              src={`https://www.youtube.com/embed/${youtubeId}?autoplay=0&rel=0`}
-              title={ep.youtubeTitle}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-            />
+      {/* ── Quote + Photo Hero ── */}
+      <div style={{
+        paddingTop: 'var(--nav-h)',
+        background: `${color}0f`,
+        borderBottom: `1px solid ${color}28`,
+      }}>
+        <div style={{
+          maxWidth: 1100,
+          margin: '0 auto',
+          padding: 'clamp(40px,7vw,80px) clamp(24px,5vw,48px)',
+          display: 'flex',
+          alignItems: 'center',
+          gap: 'clamp(32px,5vw,72px)',
+          flexWrap: 'wrap',
+        }}>
+          {/* Photo */}
+          {ep.photo && (
+            <div style={{
+              flexShrink: 0,
+              width: 'clamp(160px,22vw,260px)',
+              height: 'clamp(160px,22vw,260px)',
+              borderRadius: '50%',
+              overflow: 'hidden',
+              border: `4px solid ${color}`,
+              boxShadow: `0 8px 32px ${color}30`,
+            }}>
+              <img
+                src={ep.photo}
+                alt={ep.guest}
+                referrerPolicy="no-referrer"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </div>
+          )}
+          {/* Quote */}
+          <div style={{ flex: 1, minWidth: 240 }}>
+            {ep.quote ? (
+              <>
+                <div style={{
+                  fontSize: 'clamp(2.5rem,5vw,5rem)',
+                  lineHeight: 0.8,
+                  color,
+                  fontFamily: 'Georgia, serif',
+                  marginBottom: '0.2em',
+                  opacity: 0.5,
+                }}>&ldquo;</div>
+                <blockquote style={{
+                  margin: 0,
+                  fontSize: 'clamp(1.1rem,2.2vw,1.7rem)',
+                  lineHeight: 1.5,
+                  fontStyle: 'italic',
+                  color: 'var(--ink)',
+                  fontFamily: 'Georgia, serif',
+                  fontWeight: 400,
+                }}>
+                  {ep.quote}
+                </blockquote>
+                <div style={{
+                  marginTop: 'clamp(16px,2.5vw,28px)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 12,
+                }}>
+                  <span style={{ display: 'inline-block', width: 32, height: 2, background: color, opacity: 0.6, borderRadius: 2 }} />
+                  <span style={{
+                    fontSize: '0.75rem',
+                    fontWeight: 700,
+                    letterSpacing: '0.12em',
+                    textTransform: 'uppercase',
+                    color,
+                  }}>{ep.guest}</span>
+                </div>
+              </>
+            ) : (
+              <div style={{ fontSize: 'clamp(1.4rem,3vw,2.2rem)', fontWeight: 700, color: 'var(--ink)' }}>
+                {ep.guest}
+              </div>
+            )}
           </div>
         </div>
-      ) : ep.photo ? (
-        <div style={{ paddingTop: 'var(--nav-h)', background: '#000', position: 'relative', height: 'clamp(260px,45vw,520px)', overflow: 'hidden' }}>
-          <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: .55 }} />
-          <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <a href="https://www.youtube.com/@LifeBetweenTitles" target="_blank" rel="noopener noreferrer"
-              style={{ width: 72, height: 72, borderRadius: '50%', background: 'rgba(255,255,255,.18)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.6rem', color: '#fff', border: '2px solid rgba(255,255,255,.4)' }}>▶</a>
+      </div>
+
+      {/* ── Additional Photos ── */}
+      {ep.additionalPhotos && ep.additionalPhotos.length > 0 && (
+        <div style={{ background: 'var(--bg)', borderBottom: '1px solid var(--border)', padding: 'clamp(24px,4vw,48px) clamp(24px,5vw,48px)' }}>
+          <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+            {ep.additionalPhotos.map((src, i) => (
+              <div key={i} style={{ flex: '1 1 200px', maxWidth: 320, borderRadius: 12, overflow: 'hidden', border: `2px solid ${color}28` }}>
+                <img src={src} alt={`${ep.guest} ${i + 2}`} referrerPolicy="no-referrer"
+                  style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block' }} />
+              </div>
+            ))}
           </div>
         </div>
-      ) : (
-        <div style={{ paddingTop: 'var(--nav-h)', background: `${color}18`, height: 'clamp(120px,16vw,200px)', borderBottom: '1px solid var(--border)' }} />
       )}
 
       {/* ── Prev / Next nav ── */}
@@ -181,6 +251,31 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           ) : <span />}
         </div>
       </div>
+
+      {/* ── Coming Soon banner ── */}
+      {(ep.status as string).toLowerCase() !== 'published' && (
+        <div style={{ background: `${color}10`, borderBottom: `1px solid ${color}28` }}>
+          <div style={{ maxWidth: 1140, margin: '0 auto', padding: '20px clamp(20px,5vw,48px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+              <span style={{ fontSize: '.65rem', fontWeight: 800, letterSpacing: '.12em', textTransform: 'uppercase', color, background: `${color}20`, padding: '4px 10px', borderRadius: 100, border: `1px solid ${color}40`, whiteSpace: 'nowrap' }}>
+                Coming Soon
+              </span>
+              <p style={{ fontSize: '.88rem', color: 'var(--muted)', margin: 0, lineHeight: 1.5 }}>
+                This episode hasn&apos;t dropped yet — subscribe to get notified when it&apos;s out.
+              </p>
+            </div>
+            <a
+              href="https://lifebetweentitles.substack.com/subscribe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-gold"
+              style={{ fontSize: '.78rem', padding: '9px 20px', whiteSpace: 'nowrap' }}
+            >
+              Subscribe for Updates →
+            </a>
+          </div>
+        </div>
+      )}
 
       {/* ── Title / Header ── */}
       <div style={{ background: 'var(--bg)', paddingTop: 40, paddingBottom: 36, borderBottom: '1px solid var(--border)' }}>
@@ -226,7 +321,9 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                   {ep.keyInsights.map((insight, i) => (
                     <li key={i} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', fontSize: '.97rem', lineHeight: 1.7, color: 'var(--muted)' }}>
                       <span style={{ color, fontWeight: 700, flexShrink: 0, marginTop: 3 }}>→</span>
-                      {insight}
+                      {typeof insight === 'string' ? insight : (
+                        <span><strong style={{ color: 'var(--ink)' }}>{(insight as {heading:string;body:string}).heading}</strong> — {(insight as {heading:string;body:string}).body}</span>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -266,14 +363,6 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               </div>
             )}
 
-            {ep.resources && (
-              <div style={{ marginBottom: 44 }}>
-                <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 16 }}>Episode Resources</p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  {ep.resources.split('|').map((r, i) => <p key={i} style={{ fontSize: '.92rem', lineHeight: 1.7, margin: 0 }}>{r.trim()}</p>)}
-                </div>
-              </div>
-            )}
 
             {ep.faq && ep.faq.length > 0 && (
               <div style={{ marginBottom: 44 }}>

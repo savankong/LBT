@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 const LINKS = [
   { href: '/shows',   label: 'Shows' },
@@ -13,29 +13,21 @@ const LINKS = [
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
   const close = () => setOpen(false)
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40)
-    window.addEventListener('scroll', onScroll, { passive: true })
-    onScroll()
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
 
   return (
     <>
-      <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
+      <nav className="nav">
         <div className="nav-inner">
           <Link href="/" className="nav-logo" onClick={close}>
-            Life Between Titles
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/lbt-logo.png" alt="LBT" style={{ height: 36, width: 'auto', display: 'block', filter: 'brightness(0) invert(1)' }} />
           </Link>
           <div className="nav-links">
             {LINKS.map(l => (
               <Link key={l.href} href={l.href} className="nav-link">{l.label}</Link>
             ))}
           </div>
-          <Link href="/guest-submission" className="nav-cta">Submit a Guest</Link>
           <button
             className="nav-burger"
             onClick={() => setOpen(o => !o)}
@@ -51,7 +43,6 @@ export default function Nav() {
         {LINKS.map(l => (
           <Link key={l.href} href={l.href} className="nav-link" onClick={close}>{l.label}</Link>
         ))}
-        <Link href="/guest-submission" className="nav-cta" onClick={close}>Submit a Guest</Link>
       </div>
     </>
   )

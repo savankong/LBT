@@ -1,0 +1,1208 @@
+Savan Kong (00:01.253)
+Welcome to Life Between Titles. I'm your host Savan, and today I've got my good friend Rory Martin. Rory, what's up?
+
+Rory Martin (00:09.698)
+Hey man, how are ya?
+
+Savan Kong (00:11.569)
+Dude, I'm doing well, man. You know, it's been a wild ride. You and I have known each other for so many years and it feels like we've known each other through a bunch of lifetimes. Like there's been so many reinventions since gosh, what has it been like twenty ten? Probably like twenty.
+
+Rory Martin (00:29.516)
+Earlier. I think t I think t two thousand eight ish. Yeah.
+
+Savan Kong (00:34.024)
+Yeah. Yeah. Dude. Long time. Long time. Yeah. And I'm excited to have you on because there's a couple things I want to cover in today's conversation, you know, spanning from the work that we did back at Kanenza. We're gonna dive deep into sobriety. We're also gonna talk about your entrepreneurship with RoryMartin.com and your new adventures. And
+
+Rory Martin (00:37.816)
+Yeah.
+
+Savan Kong (01:02.043)
+And I think it's so timely, man, to talk about all these things because you know the podcast focuses on transitions and your life has literally been transitions. Like every fucking three or four years you're you're doing something new, dude. How do you keep that up, man? That's my first question. Like, how do you keep that motivation, that passion going for for these changes? Cause change is fucking hard, man.
+
+Rory Martin (01:25.654)
+Yeah. Well, I I think my the simplest way to answer, you know, why do I change is I just get bored. You know, I get boy I I've been building websites and marketing web, you know, web brands for 30 years. And and I did the thing that most people don't do, which is I started my personal brand first before I ever got a corporate gig building websites.
+
+Savan Kong (01:29.974)
+I think answer why do I change.
+
+Savan Kong (01:41.594)
+Yeah.
+
+Savan Kong (01:50.971)
+Mm-hmm.
+
+Rory Martin (01:54.496)
+I started there. And then when I got a job, it was like, okay, well, I'll come back to that. But it was always percolating and slowly building. And, you know, you do anything for a long enough time, you and and network and continue to tell people, you're gonna build a referral business over the over 10 years that's strong enough to let you let it ride for a while.
+
+Savan Kong (02:00.132)
+Yeah.
+
+Savan Kong (02:20.111)
+Right.
+
+Rory Martin (02:20.908)
+So anyway, you know, I I mean, I've gone through at least three phases where I was gonna quit building websites and become an organic farmer, you know. And I go tell all my friends I'm gonna do that for like two months, and then they go, yeah, really? When are you gonna do that? And then I realize, wait a second, I'm really good at this. I just got bored. Maybe I should just double down and refocus. And but but yeah, I usually get bored and then I I find something new to do. I I think that there's been pivotal times where
+
+Savan Kong (02:42.469)
+Yeah.
+
+Rory Martin (02:50.72)
+Change has been perceived to need to happen. And then there's what's happening right now, which is I think very different than any other tech change that I've experienced. because I started building websites really when the internet was sort of starting from an e-commerce perspective. and so I was a little bit early there, but what's happening now with AI is so transformative in an in an
+
+Savan Kong (03:02.533)
+Yeah.
+
+Savan Kong (03:11.012)
+Right.
+
+Rory Martin (03:20.212)
+Exponential way. Exponential is almost like a a way of poo-pooing it. It's so big and so fast that that I think now is really the time for not just tech people and you and I, people like you and I with our backgrounds, but everybody should be asking the question what is coming next for my career? So
+
+Savan Kong (03:28.207)
+Mm-hmm.
+
+Savan Kong (03:44.083)
+Yeah. Yeah. No, for sure. For sure. And you know, it's it's it's like one of those things where you hear about it in the periphery and you see people doing it, but to embrace it is a totally different story because there's so many unknowns, there's so many things moving, and you don't know where to start with these things, and
+
+You know, I definitely want to touch on that towards the end, but maybe let's start at the beginning a little bit and fat and and move back a couple years. you know, when you and I first met, you were running RoryMartin.com and that was your own business. And then you and I started working at a place called Kanenza. but you know, take me back to when you started RoryMartin.com. Like, why did you even want to start a a web design business? Like what was
+
+Rory Martin (04:15.64)
+Yeah.
+
+Savan Kong (04:35.843)
+What was the impetus for that? Did you like the design work or was it more just a a good business?
+
+Rory Martin (04:42.462)
+Yeah. So, you know, I was raised, I raised myself in the restaurant business. And so I had had over 10 years managing restaurants, running restaurants, front of the house, back of the house, serving people. And so I really, you know, I got my chops on service and and pleasing people and making them happy and serving them in the restaurant business.
+
+Savan Kong (04:50.361)
+Right. Yep.
+
+Rory Martin (05:10.99)
+And I also, you know, then because I was managing, sort of understood how to run a business and budgeting and all this other stuff. And just like anything else, you know, after 10 years, you go, well, what am I gonna do? Go get a million dollar loan from somebody to buy a a thing that's more than likely gonna fail. So at the time, I was acting and I was playing music and I needed my nights free and I was sick and tired of waiting tables for like quarters flipped on my tray. And I went and sold travel.
+
+Savan Kong (05:27.395)
+Yeah.
+
+Savan Kong (05:40.684)
+Yeah.
+
+Rory Martin (05:40.834)
+at the and at this travel agency, I learned a programming language that was super basic, invented by American Airlines called Saber. And it was kind of like, you know, you book the travel by typing in SEA, cross Lorraine, L A X, slash, and then the time, and then you know, all this other stuff. And one day I just announced that I loved that I could program this thing that I sort of learned on the fly to do my job. And the manager said,
+
+Savan Kong (05:58.557)
+Yeah.
+
+Rory Martin (06:08.546)
+Hey, why don't you build a website?
+
+Savan Kong (06:11.282)
+Right.
+
+Rory Martin (06:12.65)
+And I it was nineteen ninety six. And I said, well, that's just sort of a fad. All these companies are failing all around us. Haven't you read the Times? You know? And so he said, Well, my wife, my wife has a dog walking business. And if you change your mind, let me know. And I thought about it and I thought about it. And it occurred to me that I was, you know, sort of once again not really passionate about selling travel on the phone on a queue of 20 people that want to s you know, save 10 bucks. So
+
+Savan Kong (06:18.009)
+Mm-hmm.
+
+Savan Kong (06:34.436)
+Yeah.
+
+Rory Martin (06:42.134)
+Anyway, I was like, I'm gonna build a website. And I didn't have any money for college, and I didn't think it made any sense for me to consider that route. And I went to the used bookstore and I bought six coding books and I bought six design books. And so you'll remember that O'Reilly used to publish syntax books so you could learn to code from scratch. This is pre content management systems, pre WordPress, pre Joomla Drupal.
+
+Savan Kong (06:52.127)
+It's
+
+Savan Kong (06:58.048)
+Yep.
+
+Savan Kong (07:10.146)
+Yeah.
+
+Rory Martin (07:12.086)
+And at the same time, Linda from Lynda.com had started making these design books that pretty much taught me my foundation for not you. So I had the coding framework that I was learning. And then I learned from her about brand and layout and typography and all these other things. And I just like anything else that I become interested in, because I have an addictive personality, I would stay up all night long.
+
+Savan Kong (07:16.343)
+Yep.
+
+Savan Kong (07:39.484)
+yeah. Me too.
+
+Rory Martin (07:39.786)
+n night after night after night after night after night. And before I knew it, I had finished that website and three other people I knew needed a website. And and before I knew it, I was like, my God, I'm building websites. And I was I was way in over my head. I had no idea what I was doing. And I just won it. And so that was really how it got started. I think the most interesting part of that time
+
+Savan Kong (07:49.75)
+Dang.
+
+Savan Kong (08:00.075)
+Yeah.
+
+Savan Kong (08:05.13)
+Yeah.
+
+Rory Martin (08:09.536)
+And I I which kind of ties into what I've been doing the last 10 years of my career, sort of avocationally, you know, so like from a spiritual perspective, doing all this coaching and stuff for free based, you know, until recently, is I I saw my I saw my weaknesses and I was willing to address them and I sought out mentors. And I I found this guy who is a neighbor and I said, look, man.
+
+Savan Kong (08:25.688)
+Right.
+
+Savan Kong (08:34.956)
+Mm-hmm.
+
+Rory Martin (08:39.21)
+I'm gonna bring you a 12 pack of beer and a pizza every Friday. And I'm gonna bring you my syntax that I cannot figure out. I'm gonna you're gonna debug it. And he was like, sweet, this is great. And so, and it was a great deal. It was killer for me. I was like, I don't, I could I do that three times a week, but he was like, Yeah, that's great. And he was a genius, so he could debug my stuff fast. But he really helped me understand how to.
+
+Savan Kong (08:50.377)
+Right. It's a good deal, dude. Yeah. Yeah.
+
+Savan Kong (09:01.26)
+Yeah.
+
+Rory Martin (09:09.132)
+really think about getting that job and how long it would take and what I needed to practice and what I needed to focus on. And with his input, I was able to then get hired into, you know, a company and start building really big websites and and learn from other really great people. But yeah, seeking mentorship was really key in those early days. But yeah, I I got swept away. It wasn't really like, this is a good business to be in. It was just one day I I one day I wasn't and the next day I was.
+
+Savan Kong (09:34.943)
+Yeah.
+
+Rory Martin (09:38.786)
+And that's just how it went.
+
+Savan Kong (09:40.886)
+Yeah, I wanna talk a little bit about, you know, the this journey of seeking mentors because I think one of the things that is a consistent pattern, especially with topics on this podcast, is s raising your hand when you need help, right? And it's like really, really fucking hard, especially if you're a little bit further along in your career and you're a director and
+
+all of a sudden you feel like you should know these things or you should have that network, but more times than not, you know, you you feel like maybe a little too proud to say, hey, like, I need to get help in some way, whether it's coding help or networking or building a business or whatever it may be. But you've never had that problem, dude. I feel like you're one of those people that, if you don't know something, you're just gonna like knock on doors and, you know, bring pizza, right?
+
+Rory Martin (10:34.626)
+Yeah. Yeah. Bring pizza, right? Yeah. See seek the help. When I've never brought that Well, it's funny because you know, we all have our own different sort of psychology and our own upbringing. And we have our all all we have our own story that's either true or not. And I think for me in my early part of my life, my story was I needed to look good so you would accept me. Like
+
+Savan Kong (10:36.799)
+Like what's your approach for that?
+
+Savan Kong (10:54.347)
+Mm-hmm.
+
+Savan Kong (11:03.104)
+Mm.
+
+Rory Martin (11:03.384)
+You know, if we break down like what blocks us from moving forward and asking for what we want and getting what we want and seeking help, you know, it's really our fears are very basic. And the this might sound simple, but it's rather advanced and it took me many, many, many years to to dig into and figure out like how to create a fear list.
+
+How to deduce what you what the deepest, darkest fear is underneath all of that. Where does that come from? You know, do I need to do some work on forgiveness and all this other stuff? Anyway, I think that what I learned as I became successful is I was never asking anybody for help.
+
+Savan Kong (11:26.922)
+Mm-hmm.
+
+Rory Martin (11:48.588)
+Like as I bought the house and then I got the wife and then I got the kids and I was doing all my yard work and I was running the company and I was doing the things. Like I found myself one day in this sort of overwhelming position. I can't remember exactly what it was in our life that was going on. It might have been my wife's mom passing and us having to take care. We we did her end of life in our house over the course of a few months.
+
+Savan Kong (11:48.852)
+Mm-hmm.
+
+Savan Kong (12:12.933)
+Yep.
+
+Rory Martin (12:14.486)
+And it might have been earlier in in other forms, but I realized I I think a friend told me they were like, dude, you never ask, you're always there when somebody needs it, but you don't ever ask for help when you need it. Why are you afraid to ask for help? This is so simple. There's like a hundred people you could post a thing on Facebook and they just come over and make dinner or help with the, you know, garden or whatever the hell it is that you're you need help with. You know, you're overwhelmed, just ask for help.
+
+Savan Kong (12:31.18)
+Yes, it's simple.
+
+Savan Kong (12:44.725)
+Yeah.
+
+Rory Martin (12:45.174)
+And it occurred to me that he was totally right. And I wasn't, I wasn't really, I was kind of falling back on that needing to look good, needing to everybody to think everything's fine. And that was just a defense thing. I think that when somebody is in their 50s, there's a lot of stories that we have built and told ourselves that are based on untruths.
+
+Savan Kong (12:57.507)
+Yeah
+
+Rory Martin (13:12.086)
+And so if we were to get let go, I think everybody should go through instead of like a a transitional pamphlet that takes us to a phone number where we maybe do a Zoom seminar, I think we should seek some more therapeutic, like in depth, like what is blocking me from the next big thing? Why am I not able to look at this as a door opening?
+
+Savan Kong (13:32.542)
+Mm-hmm.
+
+Rory Martin (13:35.81)
+You know, I I just got done interviewing a guy that got let go from a a framing job after 19 years and he started his own art framing business. And I said, Man, when you called me, I just was like, this is so awesome because now anything is possible. When you know, and it's like if we can shift our thinking to, crap, how am I gonna pay for my kids' college tuition now? How am I gonna make mortgage? Like,
+
+Savan Kong (13:45.267)
+Nice.
+
+Savan Kong (13:54.395)
+Mm-hmm.
+
+Savan Kong (14:03.295)
+Yeah.
+
+Rory Martin (14:04.307)
+Even after the buffer, it's still gonna be gone. There's no, there's no replacement yet. And so we go to fear, we go to reptile brain, we do all this weird sort of negotiating about and and oftentimes starting to lower our standards, settling for less. and there's this process that has begun that's super I think unhelpful to what should be happening, which is okay, now I should do some healing.
+
+I should maybe get honest about why that actually wasn't so great. And so I can let go of these ideals and these things I thought were important were actually driving me nuts. Now I've been let I've been released and no, and it's like anything's possible. And it's especially now. So with the new tech that's becoming available every single day, I could start a hundred businesses in a month, you know? So
+
+Savan Kong (14:31.944)
+Mm-hmm.
+
+Savan Kong (14:42.187)
+Right. Yeah. Yeah.
+
+Savan Kong (14:59.795)
+Yeah, for sure. Yeah, I mean the the thing you know, the thing that I want to ask you, Rory, is that I would I don't even know how long it's been, maybe like ten years ago. you know, if somebody were to look at your life, it would look like the picturesque life, right? And and you could probably say same the same thing about a lot of people where they're like, You've got the house, beautiful wife, kids
+
+Rory Martin (15:01.121)
+Anyway.
+
+Savan Kong (15:28.631)
+great family, great friends. you've got stuff to do every day that brings you happiness. But you know, at that point, maybe a decade ago, maybe even longer than that, like you you have gone through several big transformations, including sobriety and including sort of making these life-changing adjustments. and that's actually been a common topic here with a lot of my guests, is
+
+if they've come back from let's just say Afghanistan and they're going through these struggles or they've lost a job and the first thing they do is they lean on a lot of these vices to help them get through it. Like for you, when you were going through those struggles, how did you go about, you know, processing what that looked like?
+
+Rory Martin (16:00.362)
+Afghanistan and they're through these troubles.
+
+Rory Martin (16:07.981)
+Mm-hmm.
+
+Rory Martin (16:20.654)
+are is the question like when I was drinking and partying, how did I also then deal with life? Or
+
+Savan Kong (16:30.556)
+Yeah, I mean I think I think it's really how did you how did you approach the situation that was in front of you so that you can actually make that change to become a better person, you know?
+
+Rory Martin (16:43.702)
+Yeah. Yeah. I mean, if we're talking about sobriety, which I'm totally I'm happy to talk about, you know, it was just one too one too many benders, you know, once again. And our son was being born and it was and I had a problem. You know, this is now I think I'll be sober 16 years in July. So I'm coming up on 16 years.
+
+Savan Kong (17:11.003)
+Yeah, wow.
+
+Rory Martin (17:13.554)
+And you know, at the time w w what had happened is I had been sober before, but this time we had had a miscarriage and it was really scary this next pregnancy. And I found myself drinking every day and just partying like crazy and and really kind of slipping into a dark place. And, you know, my best friend and my wife.
+
+one morning, after a long crazy weekend, said, You need to go to treatment. And I said, Well, what about the baby? Because Griffin was on the way. He was like twenty days away.
+
+Savan Kong (17:55.247)
+Mm-hmm. Yeah.
+
+Rory Martin (17:56.544)
+And they said, Well, the baby's coming anyway. You can't stay here. You you need to be you need to go get some help. And I said, Well, what about the company? Because at the time, my best friend's wife worked for me and they had figured it all out. And so Courtney would bring me contracts and checks to sign on visiting hours. And then she would leave. And then my wife and daughter would show up and they worked all that out. But before I knew any of that was going to happen, still on that porch.
+
+Savan Kong (18:09.721)
+Right.
+
+Rory Martin (18:26.272)
+I I then said, well, what about the garden? And we all laughed and then we cried and then I went off to treatment, you know. And my my my sober story is, you know, I would love to to tell that, but I I think that I think we could like get deeper into that another time. But really, I just was sick and tired of being sick and tired.
+
+Savan Kong (18:30.621)
+There was always that next thing, right? There's always one more thing.
+
+Savan Kong (18:39.239)
+Yeah.
+
+Rory Martin (18:55.382)
+And I knew I needed some help and I was willing to accept it. And it was kind of you know, the carrot for me was, hey, you know, be a part of your new son's life and your wife and your kid and this house that you've, you know, recently bought or not. And so for for me, that was what I needed at that time. And then I went on to follow some instructions and get sober. And, you know, I did put my business on hold. I didn't
+
+Put it on hold, but I didn't pursue stuff until I knew I was really solid in sobriety. but to your point, some of us that get dealt a blow, like, you know, losing a job, really do we we gotta be careful because we can slip into without any intent, into addiction or vices or whatever really fast. And then before we know it, we
+
+Savan Kong (19:30.555)
+Yeah.
+
+Rory Martin (19:53.868)
+We never intended to be addicted, but then we became addicted. And so, you know, then it's like too late and we've damaged relationships and we've you know, lost a house or whatever, and it's like cleanup time. So so that's I mean, what happened there? I just kind of was forced into a, you know, it was a self-imposed crisis I could not postpone or evade, you know. So
+
+Savan Kong (20:06.49)
+Yeah. Yeah.
+
+Savan Kong (20:19.226)
+Yeah. I mean what what are what are s like, you know, when when people lose their jobs, the the thing I've been hearing is there's there's a lot of times where they they they don't know sort of how to fill up that time in their day because that structure is gone now, right? Like you you go from having a boss to multiple meetings and deliverables and all of a sudden it's like, man, I can do pretty much anything. I could start a business or I could just sleep all day.
+
+And you've been an entrepreneur pretty much your whole life. Like, talk to me about sort of how you structure your days so that you can both commit to bettering yourself personally, because a lot of times when we, you know, we work these jobs, something will suffer, like your health, your family, whatever, because you're spending so much time. But also at the same time, you know, you can continue to build.
+
+Rory Martin (21:08.118)
+Yeah, you're spending so much time.
+
+Savan Kong (21:14.411)
+a profitable business or even if it's not profitable, something that brings you brings you joy, right? Like it like really excites you.
+
+Rory Martin (21:23.126)
+Yeah. So the the secret sauce for my life and my scenario is I have to put I so the number one most important thing in my life, not because I'm a good guy, but because I have to stay alive and I want to is is I I have to put sobriety first. So I do that.
+
+Savan Kong (21:45.404)
+Yeah, it's important.
+
+Rory Martin (21:51.072)
+What that means and what that looks like is I talk to a sober person or I I'm responding to a text or a call every single day of my life. I usually have somebody on my couch about one to three times a week, sometimes more. I go to a meeting or two a week and and I have a spiritual practice and I basically it boils down to three things. I have a I have to be honest. So I have to practice being honest.
+
+Savan Kong (21:59.174)
+Mm-hmm.
+
+Rory Martin (22:20.77)
+Sometimes people are dishonest and they don't know it. So you have to practice your way out of dishonesty and then continue to practice being honest. I gotta be honest with myself and learn how to be honest with myself so I can be honest with you. And then beyond that, I have to find ways to be of service to people in my community. Now that's easy going to a meeting.
+
+Savan Kong (22:34.884)
+Mm-hmm.
+
+Rory Martin (22:43.49)
+But then I need to be of service to my wife, to my kids, to my kids' teachers, to the lady that just cut me off. I need to be empathetic to her, to the person that's coming in the door. I'm gonna hold the door. If somebody needs help moving their the to another house, I'm gonna be available. I make myself available for service, not only in gesture, but physically and also mentally, right? So I can sort of live in a spirit of service. That's what I try to do.
+
+Savan Kong (23:06.299)
+That's right.
+
+Rory Martin (23:11.498)
+And for whatever reason, I cannot do those things on my own without consulting some sort or having a conversation with some sort of higher power or spiritual thing that I direct my attention to. And what that is doesn't matter. so my day is filled sort of based on that. Everything else, as long as those things happen, then
+
+Savan Kong (23:28.344)
+Yeah.
+
+Rory Martin (23:38.164)
+I can work or not work, walk the dogs, not walk the dogs, do the laundry, not do the laundry, it doesn't matter. But the way I work is I typically do really intense sprints. In the old days, it was I needed to be regimened because I had a staff that I needed, I was really sort of I managed in a very sort of hover helicopter way in the in the early days. And then I shifted out of that.
+
+Savan Kong (23:44.012)
+The window
+
+Savan Kong (23:56.355)
+Yeah,
+
+Rory Martin (24:07.402)
+And really started leaning into lean practices where you're doing a lot less, you know, reporting and checking in, and you're doing more tactical, you know, deployment of things. But basically, my day consists of making sure that I've met my family's needs and then the work kind of fits in in and out, you know, in all these different places, you know. So, so
+
+Savan Kong (24:12.749)
+Yeah.
+
+Savan Kong (24:32.807)
+Right. Right. So,
+
+Rory Martin (24:36.152)
+Typically I'm I'm checking email. I'm making sure there's no fires that need to be put out. I'm checking Slack. I'm check checking basically all communications andor using any tools to automate that for me. and then I'm moving into what I would call like the prioritized list of the week, or if I've made a prioritized list for the next day, because usually that's what I do. I live by my calendar and I live by lists. And I make sure that anything that like is on that number past number 15, it just gets
+
+Savan Kong (24:44.513)
+Right.
+
+Rory Martin (25:06.442)
+gone or tabled, you know. But I I'm I'm a great believer in time and fitting those things that you need to get done into the time that you have. And you know, I I would say time is a is a big one where we lie to ourselves. It I can't tell you how many times somebody says to me when they seek vocational counseling for me, because I do that a lot, I don't have any time.
+
+Savan Kong (25:07.448)
+Right.
+
+Savan Kong (25:34.04)
+Yeah.
+
+Rory Martin (25:34.966)
+And I say, really? How many kids do you have? They have they have none. I go, how many wives do you have? They they say none. I go, how many mortgages and yards and dogs do you have? How many companies do you run? I mean, how many people do you help at like a church or a spiritual thing every week? Like how many times do you volunteer? I do all of that and I always have time for you. I I do all of that and I always have time.
+
+Savan Kong (25:38.656)
+Mm-hmm.
+
+Yeah. Right. I mean
+
+Savan Kong (25:56.675)
+Right. Yeah.
+
+Savan Kong (26:01.441)
+Yeah. It's that intention. Yeah, that intention, right? Of where you you focus and put your time.
+
+Rory Martin (26:07.828)
+It's in it's intention, but we lie to ourselves. We we we live by these untruths. When I say I don't have time, I don't have time. When I say I do have time or I will make time, I have time. It's literally that simple. And then multiply that times all the other lies you tell yourself. I don't deserve it. I'm not qualified enough. Blah, blah, I'm too old.
+
+Savan Kong (26:20.341)
+Mm-hmm.
+
+Savan Kong (26:31.672)
+Yeah. I mean, what are break that down a little bit for me, Rory, 'cause I I actually really like that framework. especially for people that that are going through these cycles in their head where they don't feel deserving and then they don't because they don't feel deserving, they don't reach out. And they don't reach out, then they don't get that help they need. And it's just this vicious cycle, especially when you get dealt a life-changing event of some sort, like
+
+How can a person break those barriers down so they can actually start to go on this righteous path where they are, you know, in service of other people?
+
+Rory Martin (27:12.14)
+Yeah, I mean, tactically, if I were to transfer some of the spiritual work I've done in sobriety over to like, you know, losing a job and then and then getting another doing the next thing, I would say that the the big thing I would do right away is or that that you can do is get very clear about what your fears are. Most of your fears are based on complete lies. Sure.
+
+Savan Kong (27:22.115)
+Yeah.
+
+Savan Kong (27:34.625)
+Is that like a spreadsheet or something, Rory? Like how do you how did you break that down? Okay.
+
+Rory Martin (27:37.89)
+Just yeah, you write it. Y there's a lot of different ways you can do it, but I would start simple. So you can get really you can get really complex and sort of hoity toity with how you're breaking your thinking down. But most people haven't written a fear list and they're like forty or fifty years old.
+
+Savan Kong (27:43.426)
+Okay.
+
+Savan Kong (27:56.886)
+I I don't have one. I mean I have one in my head but I don't have one physically written down.
+
+Rory Martin (28:01.646)
+So the first thing you want to do is write out a fear list. What are my fears? Right. And then that's on maybe on one side of the page. What are my fears? And then on the other side of the page, this is the first time doing this. I would write, what would the universe, or if you're a spiritual person or a religious person, I would say, what would God have me be? So if I'm scared of not making enough money.
+
+Savan Kong (28:08.15)
+Mm-hmm.
+
+Rory Martin (28:31.72)
+God would have me feel hopeful about abundance and deserving. Right now, some of this sounds like psycho babble a little bit. So if you don't feel qualified, you may want to just bring this to like a counselor or somebody or a vocational counselor and say, Hey, I really want to work on my fears or see if I have any that are blocking me. But the first step is acknowledging that you have them. And so you can I
+
+Savan Kong (28:37.804)
+Mm-hmm.
+
+Savan Kong (28:53.94)
+or
+
+Rory Martin (29:00.768)
+So you can basically diminish their power, right? That's the first step. And so the what what would the you Yeah, well, you're you're basically admitting it. So if you're not going to write it down, tell somebody. Telling somebody immediately drops its worth like 50%. Like the weight of it just diminishes the moment you tell somebody. It's this isn't a new spiritual concept. That's why we confess our sins. Now I'm not a I don't go to church, but
+
+Savan Kong (29:05.398)
+Yeah, you're giving it a name.
+
+Savan Kong (29:19.104)
+Right.
+
+Savan Kong (29:23.34)
+Right.
+
+Rory Martin (29:30.05)
+People confess so they can so the weight of it can be lifted. There's no physical thing that happens. You're not any less fearful. You've literally just magically released that. And now you hear yourself witness you witness yourself saying the thing that you know actually isn't true. And so then it's it its power goes. Sometimes it vanishes. Sometimes often all we need to do is talk about our fears to have them go away. And some of us need to do more work.
+
+Savan Kong (29:48.056)
+Right.
+
+Savan Kong (29:59.456)
+Yeah.
+
+Rory Martin (30:00.992)
+Now, a deeper way of doing this exercise would be to ask ourselves why. Every time you write a fear, I'm a as an example, I'm afraid of not having enough money. Why am I afraid of that? Well, because I might not be able to pay my mortgage. Why am I afraid of that? Well, because then my family would wouldn't have a home. Why am I afraid of that? Well, because I need a roof.
+
+My kids need to be safe and secure. Why am I afraid of that? and it all kind of leads to this one place, which is I'm afraid I will not be taken care of. It's this weird, you, you root it, you go down to the root fear. I'm afraid of being abandoned. I'm afraid of not having any help in the world ever again. You know, this these things that are just most of the time total bullshit.
+
+Savan Kong (30:35.404)
+mhm
+
+Savan Kong (30:57.365)
+Mm-hmm.
+
+Rory Martin (31:01.538)
+We have families, we have friends. We would never go homeless. If our house burnt down, we would have places to stay. Our friends would take care of us. We would have a couch to live on. You know, I can go flip burgers. I know it's not ideal, but I can. If I need, you know, it's it's gonna be fine. But we sit there and we get we get super heady about all these fear. That's just one fear. If you did that with all of your fears, now you're like, the that.
+
+Savan Kong (31:04.811)
+Right.
+
+Savan Kong (31:08.928)
+Right.
+
+Yeah.
+
+Rory Martin (31:31.234)
+Digging down to its root and unpeeling the onion, if you will, that shows you how unreasonable you are in your thinking, if it's fear-based, if you're spending a lot of time deer in the headlights and not taking action. And so what I've learned is even though we're talking about thinking about stuff, the truth is, is like,
+
+Savan Kong (31:48.906)
+Yeah.
+
+Rory Martin (31:56.31)
+You ask me what's my process. I get up, I get my coffee, I put eye drops in, I put one foot in front of the other. And that's in good times and in bad times. And it's it's like without action, nothing happens. So quit thinking and just set a task list and then start getting shit done. That's it. It's that simple. You may not get the result you want from that one social media post or that one ad funnel you ran or that.
+
+Savan Kong (32:05.687)
+So we're thinking that's it.
+
+Savan Kong (32:20.438)
+Yeah.
+
+Rory Martin (32:24.152)
+Five of those 500 resumes you sent out, but you are taking action. If you continue, you will get dividends. And so
+
+Savan Kong (32:32.426)
+Yeah. Yeah, I mean I wonder what's you know, there's there's something to be said about starting new initiatives and you you've done a bunch of different things over the last ten years. talk to me a little bit about the process of how you how you've gotten over rejection and people just saying, you know what, like I don't I don't wanna buy your service or I don't wanna
+
+you know, use whatever you have. That that fear of rejection is a big part of what people struggle with nowadays. How have you sort of gotten over that?
+
+Rory Martin (33:12.578)
+Yeah, I mean, it's a trip. I think about, you know, the difference between being an agency owner and an employee of an agency is that when you're an employee and you're not in sales, you don't have to worry about being told no. You know, your boss might not like an idea you have, but that that's a lot more rare than.
+
+you know, having to touch people from a sales perspective every day, over and over and over for the rest of your life. And so I think through practice, what there first of all, there's plenty of literature. I've read I run a I read a ton of books starting in my teenage years on how to deal with rejection. You know, I was just talking about this. One of the very first books I read when I was a teenager, I was like 15 years old.
+
+Savan Kong (33:45.045)
+Mm-hmm.
+
+Rory Martin (34:07.648)
+And I read Dale Carnegie's How to Win Friends and Influence People. It's a it's an old, it's an old classic. And but there are some things in there, and so there's some strategy and technique. And then there's many, many others that can help you sort of frame, you know, your thinking around the rejection. But you know, I look at it like this. I have a 25-year-old daughter. And
+
+Savan Kong (34:11.056)
+yeah. Yeah, classic.
+
+Yeah.
+
+Rory Martin (34:33.014)
+She's in this universe of and sort of time frame of like dating and meeting people. And most most of her partners are not really ready to be adults. Like, and so, you know, whenever anybody doesn't work out, I always say, you know, the universe just got you closer to the person of your dreams. You're just one step closer now, you know. So
+
+Savan Kong (34:40.319)
+Mid twenties.
+
+Savan Kong (34:59.676)
+Yeah. Yeah.
+
+Rory Martin (35:01.12)
+It's like that person wasn't for you. And I know you're suffering and I know it's painful. And we get through all that stuff. But then, sort of when we've already talked about it two or three times, they go, less, now you're just one step closer to that person you're supposed to be with. You know, it's the same thing with rejection. Oftentimes I'm interviewing my client and I need to remember that I don't need their money. I want their money. I want their business. I want their five-star review. But the truth is, is that.
+
+Savan Kong (35:14.131)
+Yeah.
+
+Rory Martin (35:30.978)
+They need my services as well. And so before I go into a sales call, I will, especially if I'm new, I don't do this anymore. but in the old days, I would have a pep talk, like, hey, they want me, they need me. These are things that I need to be conscious of. So I'm not sitting there going, we're really good at we're really good. We promise it's gonna be amazing, you know. No, it's like, yeah, and then you're more relaxed.
+
+Savan Kong (35:54.79)
+Yeah.
+
+Rory Martin (35:58.37)
+Like I said, there's a lot of technique that goes into a sales conversation. and dealing with rejection just takes practice. You just gotta get told like a a you know, 50,000 no's. And then it does and then when you get one, you're like, sweet, thank you for not wasting my time. Like it's almost like you literally I I now have gratif, I have, I have gratitude because the next thing I think is.
+
+Savan Kong (36:19.293)
+Yeah.
+
+Right.
+
+Right.
+
+Rory Martin (36:27.458)
+I probably wasn't supposed to work with that person. Yeah. It's completely agree. That's it. That's all there is to it. But we want to make it like, we didn't wear the right tie, or we didn't say the right thing, or we didn't prepare enough. Well, maybe all those things are true. But who cares? It's out of our control. Quit trying to play God. Do your best. Show up. Prepare. Prepare. If you're not prepared, there's no excuse.
+
+Savan Kong (36:31.154)
+Yeah, I completely agree. Completely agree.
+
+Savan Kong (36:46.248)
+Mm-hmm.
+
+Savan Kong (36:55.186)
+Yeah.
+
+Rory Martin (36:56.908)
+You should be hard on yourself. If you are prepared and you did the very best you could to get up to the plate and swing the bat, who cares where the ball goes? Sometimes we hit home runs, sometimes we don't.
+
+Savan Kong (36:58.685)
+Yeah.
+
+Savan Kong (37:05.49)
+Yeah. I there's there's there's there's two things I want to double down on with with that Rory and I I think they're they're really interesting, especially during these times. Like the the first is this idea that you're interviewing the employer or you're interviewing your customer as much as they're interviewing you. And I think that's a very powerful position to be in, knowing that it's a two-way street, whether it's a relationship.
+
+a sales call, an employment. Like you both have to work up for each other. And I think there's a lot there that many people don't realize. They they just think that, you know, the the employer has all the power. But really that's that's not the case because you're giving up years of your life to go work for them or do something for them or commit to that person. And you know what? The sooner you can realize that you're giving
+
+value your value to them, the more empowered you will be to make a lot of those like decisions on if this place is right for you or this person's right for you, you know? yeah, I think the other thing that you talked about, Rory, that that was really interesting to me was there's there's this idea of preparedness that a lot of people talk about that
+
+Rory Martin (38:16.962)
+For sure.
+
+Savan Kong (38:34.493)
+they're stressed about. And I wonder for you, how much time do you spend preparing for something? And yeah, I had a lady on, she talked about how she would spend hours getting ready for an interview and she'd still vomit. And she's like, I should have spent more time but, you know, I'm like, that's I don't think more time would have done you any good. Right? Like
+
+Rory Martin (38:51.405)
+Yeah.
+
+Rory Martin (39:00.182)
+Yeah, I think there's over pre preparation. but that doesn't that sounds to me like almost over worrying. So I think that there should be some strat so when you're inner being interviewed for a job, that's different than getting on a call to win, you know, a website gig or a marketing gig, you know, from a marketing agency. It's different. because first of all
+
+Savan Kong (39:08.465)
+Mm-hmm.
+
+Savan Kong (39:25.19)
+Mm-hmm.
+
+Rory Martin (39:28.372)
+I already have clients. That's kind of how how the how the client is perceiving you. there's a little less power, I I would say, most of the time. when you don't have a job, and you know, it's like the your power is perceived to be reduced, right? It just looks less powerful because and and it almost in a lot of ways can feel
+
+Savan Kong (39:51.29)
+Mm-hmm.
+
+Rory Martin (39:58.188)
+There's shame there. You feel dirty, you know, like you're not, you're not one of the chosen ones yet, you know? So, so preparation, I would say in every scenario, I ask myself, what do I need to be successful in this call? Especially if I if I don't know how I'm gonna do the call or if I don't know, you know, whatever. I ask myself, what do I need to be, what do I need to know and have ready?
+
+Savan Kong (40:04.819)
+Yeah. Yeah. So, thing.
+
+Rory Martin (40:27.69)
+Even if it's some note cards off to the side that I can scan while they're asking or talking or just doing small talk, just so I can, you know, refer to some things that I thought were really important that I should bring up about my skill set, my understanding of their vertical or their or their customer or the product or whatever it is that I'm I I interviewing for. there's strategy and technique. And so I would say.
+
+You know, in this context of getting a job or interviewing, again, you should not have to you should not have to look very far to get a custom list of things that you should do to prepare correctly for an interview. You know, you can literally jump onto AI and say, Hey, listen, I want you to look at their website and I want you to to help me prepare with a bulleted list.
+
+Savan Kong (41:11.344)
+Mm-hmm.
+
+Savan Kong (41:16.058)
+Mm-hmm.
+
+Rory Martin (41:20.128)
+That is broken down into three, these three categories. One is my awareness of their brand, their customer, their service set, whatever. Tell me about the company. Tell me about the value that they bring to the market. Tell me about the specific role and how you think I should talk about adding value based on you could literally have AI prep you. You can also go to a real person and have them help you prep.
+
+Savan Kong (41:26.407)
+Yep.
+
+Rory Martin (41:47.712)
+You can also go get a book on how to interview, but that would be the the preparation, especially for the woman that is spending three hours getting you should spend twenty minutes prepping for an interview. unless that was all research time.
+
+Savan Kong (41:59.886)
+I'm good for an interview. Yeah.
+
+Rory Martin (42:06.808)
+But you're not gonna memorize it and you're you know, so have some note cards, have a couple of bullets, you know.
+
+Savan Kong (42:13.71)
+Yeah. I mean I think the there's there's you know this idea that you know if you do too much research and you try to sort of ingrain yourself with the current culture there you start to lose why they actually want to talk to you, right? Where you sound like a robot and all of a sudden you're just regurgitating things and you know people want to talk to you because because it's you.
+
+Rory Martin (42:35.848)
+a hundred per a hundred percent. Cause you don't really, you don't even know what's on their mind. You don't know what they had for lunch. You don't know if they got in a fight with their wife. You have no idea. So again, you're there to listen to them. You're there to learn and ask questions as well. Definitely, definitely come with questions, you know, that help you understand what they're like. Cause we're going on a date. We're not getting married yet. You know, this is our first day.
+
+Savan Kong (42:41.038)
+Yeah. Yeah.
+
+Savan Kong (42:46.745)
+Yeah.
+
+Savan Kong (42:53.444)
+Yeah.
+
+Savan Kong (42:58.661)
+Mm-hmm.
+
+Savan Kong (43:03.47)
+Yeah. I love that analogy. man. Rory, I want to talk about your latest venture, Hustle fifty. tell me a little bit about that. How did it start, my man?
+
+Rory Martin (43:18.988)
+Yeah. So I, you know, I've been building websites since ninety six. I've been marketing brands since pretty much the early two thousands regularly. I've started several companies and several brands doing this. The RoyMartin.com is really the one that I decided to to strike out on my own with in two thousand and eight and build out teams for all three service sets, you know, web search and social.
+
+Savan Kong (43:28.538)
+Yeah.
+
+Rory Martin (43:46.506)
+And ad spend and all this other stuff. So I've been doing it forever. And somewhere along the way, around I want to say even over 10 years ago, people in town started seeking me out to help them with their career. I think they thought, well, Rory knows how to run a business and he's successful. He's bought a house. He's got all this stuff. So I'm gonna go ask him. and so I started.
+
+Savan Kong (44:08.591)
+Mm-hmm.
+
+Rory Martin (44:13.014)
+I kind of created a mentoring and coaching plan out of thin air and said, we're gonna meet once a week and we're gonna talk about, you know, task lists and we're gonna have check-ins. And essentially, like you know, you do in 12-step programs, you sponsor people. In this, I would just kind of like be their vocational sponsor, you know, or mentor, whatever. And so there would be some accountability because if
+
+Savan Kong (44:21.145)
+And we're gonna
+
+Savan Kong (44:36.098)
+Mm, okay.
+
+Rory Martin (44:42.506)
+If they weren't willing to be accountable, I didn't, I couldn't really do anything for them. I mean, I can talk to you all day long, but if you're not going to do the stuff we talk about, what's the point? So I find out if I found out if they're accountable. And then I I found myself years later going, Whoa, I've helped many people like totally transform their lives into new careers. Like a couple examples is one guy was managing bands. He wanted to get into tech.
+
+Savan Kong (44:52.504)
+Right.
+
+Rory Martin (45:11.948)
+So we sat down and we figured out that that's kind of that would be a good idea. And so I recommended he go to the PMP at UW, which is like project man professional project management certification program. You don't have to go to college, it's like a vocational degree. He went and got that certification and had a job within six months and like was living a new life.
+
+Savan Kong (45:12.196)
+Mm-hmm.
+
+Savan Kong (45:23.696)
+Right. Yep.
+
+Savan Kong (45:36.111)
+Yeah.
+
+Rory Martin (45:37.366)
+I've had vice presidents of, you know, one of the biggest design agencies call me and go, and she calls me like once every two years. And we have a coffee and she says, I want to quit, or I want to, you know, move laterally, or I want to something. And we talk, we talk through that. sometimes more than once, but there's usually some accountability there. Anyway, I was what happened is in November.
+
+Savan Kong (45:48.948)
+Yeah.
+
+Rory Martin (46:08.014)
+all of the ski resorts. So I for my mental health and my physical health, I like to snowboard about 25 times a year in the winter. Every single road got washed out to every single resort in Washington. And I live in Seattle. So Stevens Pass, you couldn't get to, Crystal Mountain, you couldn't get to, Snow Qualmamy, you couldn't get to. And I'm a pass holder at Stevens. And when
+
+Savan Kong (46:25.592)
+Yeah.
+
+Rory Martin (46:35.222)
+That road shut down. I FOMO'd into a a day pass or a weekly pass at Crystal. And then that road was out. And then they opened up the roads faster than normal. So I'd spent double when I didn't need to. And then the snow melted off. And I I was losing my mind. Anybody that's in Washington that skis, they're gonna know what I'm talking about. They're gonna be like, yes, I lost my mind. So anyway, so
+
+Savan Kong (46:49.103)
+Yeah, God.
+
+I don't know.
+
+Rory Martin (47:03.456)
+I went to Dawn, my wife, and I said, listen, ski season's totally ruined. I am going to double triple down into investigating what AI tech and tools and macro sort of news, just really learn about where everything's going. And then I'm gonna I think I'm gonna try and start like 10 different websites or brands in the next three months.
+
+I think I can do about three a month based on what I was seeing with some of the tools I was using. And I just was like, okay, that's what I'm do. And I set out to start using tools. And I built this my first project was I wanted to make it easy for people to get an ad for their company, like their plumbing company or their HVAC company for a hundred bucks. Like, how do I do that? Okay, well, I'm gonna have to use AI. I'm gonna have to.
+
+Savan Kong (47:34.593)
+Yeah.
+
+Savan Kong (47:55.736)
+Okay
+
+Rory Martin (47:59.586)
+you know, make it super easy. And so I built this thing called outlandish dot app APP. And you can go on there and you can buy one or you can buy a set or you can buy a whole like social media program or whatever. But I built a full e-commerce, fully full admin, connected to Stripe, all of the notifications, all of the integrated sort of like e commerce architecture you would get out of the box with a WooCommerce or a
+
+Savan Kong (48:13.454)
+Okay.
+
+Rory Martin (48:29.378)
+Big Commerce or a Shopify, I built it in 12 hours. The whole thing soup to nuts done. And I was like, dude, I would have charged somebody forty thousand dollars for what I just built in 12 hours by myself. This is crazy.
+
+Savan Kong (48:33.961)
+Nice.
+
+Savan Kong (48:43.316)
+Right.
+
+Rory Martin (48:47.5)
+So I walked away from that and was like, okay, that's interesting. and my first thought was like, okay, I guess web designers are done, you know? And I thought, out of my first thought was kind of a fear. It's like, well, what am I gonna do? How does that if everybody can do that, then how am I gonna sell web design from developers, right? How am I gonna sell WordPress? And so I was like, okay, that's interesting. and then
+
+Savan Kong (48:57.433)
+huh.
+
+Savan Kong (49:08.225)
+Yeah.
+
+Rory Martin (49:18.11)
+I I kind of kept using other tools and I got sort of deeper and deeper into how to deploy to GitHub and how to make things live in an automated way and how to use other ancillary AI tools. And I was just meditating on it. Like, who cares? Like, okay, I can commoditize this. And then, you know, the one thing that was really cool is I realized, well.
+
+The I used to not get out of bed for under a couple of thousand dollars. But now you can call me and I can build you if your budget's 500, I can do something for you now. Like I don't have to have this minimum retainer anymore because I can just do it for you. we don't need to bring in the team. Now that's if they're open, the cost is down to zero. So it's really my time and and 30 years of expertise.
+
+Savan Kong (49:50.975)
+Mm-hmm.
+
+Savan Kong (49:56.589)
+Like I don't know.
+
+Yeah, the cost has gone down.
+
+Rory Martin (50:15.222)
+So I can, I can pad it a little bit better than the guy that's, you know, 22 that started using the same tools I'm using. He's still going to make mistakes that maybe I won't make. And and but then I thought, well, so what? You know, so okay, great. I'm I've already been building websites. There's nothing new here. And so I went back to the drawing board and asked myself in meditation, like, what do I really love doing?
+
+Savan Kong (50:15.584)
+Right.
+
+Savan Kong (50:22.827)
+Yeah.
+
+Rory Martin (50:44.93)
+And the truth is, is I love I love mentoring people in their careers. I love it. I love helping people understand like what the next step is, what tools they need, what skills they need to like get reacquainted with and how to get going, how to take action. And I think it's because I love sponsoring sober people so much that I love helping out in this way as well.
+
+Savan Kong (51:06.516)
+Mm-hmm.
+
+Savan Kong (51:14.54)
+Yes.
+
+Rory Martin (51:14.838)
+And I thought, I think I'm gonna stop doing that for free. I think I'm just gonna turn this new brand. I'm gonna create a new brand that's really around coaching. And I'm gonna target it towards people that are close to 50s or afraid of aging out or afraid of AI taking their job. So you can be any age where that happens, but really it's those folks that haven't taken AI seriously.
+
+Savan Kong (51:23.978)
+Yep.
+
+Savan Kong (51:32.897)
+Yep. So
+
+Rory Martin (51:41.504)
+And they've they're about to lose their job or they're afraid of losing their job. And so Hustle 50 was born. And the now we're I'm about to launch the YouTube channel this week. It might even I might do it tonight. I might wait a day or two. but the YouTube channel's live, the newsletter's live. I wrote an ebook for free. I, you know, I'm putting content out where my goal is to be helpful to enough people where that builds that channel.
+
+and then I start monetizing later. But really, I have the time and the ability to push out a lot of educational content, inspirational content, both for sales and marketing and or vocation or whatever. But I'm also really loving the interviews like we're doing now. I'm doing a bunch of interviews with people that have started their own thing and we we talk about the fears that they had. And we talk about what was what are the things that we wouldn't know that, you know.
+
+Savan Kong (52:10.932)
+Yeah.
+
+Savan Kong (52:17.436)
+out a lot of educational contact, experiential content, sales market, but also
+
+Savan Kong (52:35.903)
+Yeah.
+
+Rory Martin (52:40.428)
+We talk about really cool stuff. So that's that's my new focus. Obviously, Rory Martin.com still is an agency and we still I still have to manage that, but I've built that in a way where it it runs for the most part on its own. aside from my client touches that I have to, you know, keep up with. I make sure my team is empowered and happy. And so that's running on its own and that's doing great.
+
+Savan Kong (52:54.245)
+Right.
+
+Savan Kong (53:07.579)
+Rory, what do you think would be some of the common traits or things that people should look out for that would be a good customer for Hustle 50? I'm thinking about like the main demographic of this podcast is are people from 30 to 59, right? Both men and women. and so there's a lot of people that are looking for different ideas. but if they wanted to
+
+work with you or read your pot or you know read your newsletter, listen to the podcast, like what are some things that they should come into the conversations with you with? Are there questions they should be asking themselves? Are there things they should be like reading ahead of time? Like how do they approach working with a coach and how do they approach consuming your your information to be the most effective?
+
+Rory Martin (53:51.535)
+for sure.
+
+Rory Martin (54:01.568)
+Yeah. So I would say that first and foremost, I believe that now, more than any other time in history, we should be taking our personal digital footprint or our personal brand or our personal website or our personal social platforms more seriously than ever. I think it is it is going to be the age of
+
+you know, the business of one, and that is me, that is my brand, and how I say what I say and how I talk about what I do, way more than any other time in history. And because it's super easy to light up a brand online, you know, I'm usually gonna be the most helpful to somebody that is overwhelmed by how to build a website.
+
+Savan Kong (54:35.807)
+Mm-hmm.
+
+Savan Kong (54:43.967)
+History.
+
+Rory Martin (55:00.92)
+quickly and how do you know how do I trust that it's good enough and and fantastic enough for me to not worry about how it looks and what it says and what it does. So if I'm overwhelmed with that, if I'm overwhelmed with where do I start pushing content about the thing that I'm doing or whatever that is in connected to my brand, it's some of the
+
+Savan Kong (55:02.336)
+Yeah.
+
+Rory Martin (55:29.806)
+How do I not get overwhelmed with too much tech? How do I prioritize my how do I prioritize the tasks that I spend my time on for marketing? Should I do that or should I pass that off to somebody else? Is that somebody else, somebody, you know, somebody that understands what I'm trying to do or qualified or not? then you can get sort of like really into.
+
+Savan Kong (55:34.131)
+Yeah. Yeah, that's a big one.
+
+Rory Martin (55:59.734)
+The details that help a successful brand build and grow? Do I start a newsletter? Or should I just run a YouTube channel? Or should I just push something out on social media? Or should I not do any of that and just go do public speaking and get invited on podcasts using like PodMatch or some other tool that might get you you know, real video interview content or whatever? That's really when they're
+
+Savan Kong (56:12.425)
+Mm-hmm.
+
+Rory Martin (56:27.138)
+When they're struggling with how do I light up my personal brand, that's when they come to me. Before we start anything, we'll do a niche validation because I'm a big believer in like you got to pick a niche. Don't be suitable, don't try and be everything to everyone. You know, grow and scale down the road. But right now, let's pick a target archetype prospect and then let's go even deeper into however we can segment those. Let's target those people.
+
+Savan Kong (56:32.271)
+Mm-hmm.
+
+Savan Kong (56:39.581)
+Mm-hmm.
+
+Savan Kong (56:51.652)
+So
+
+Rory Martin (56:57.112)
+Let's make all of our content target those people so we can be a big fish in a small pond. So we'll do a lot of validation in that very first call. And the way I set it up was I was like, okay, how do I not give my super valuable time away for free, but still give high value? And at first I was like, for a thousand dollars a month and for 3,000, I was like, wait, wait, wait, wait. If somebody just wants to talk to me for an hour.
+
+Savan Kong (56:57.157)
+Yeah. That's what I'm saying.
+
+Savan Kong (57:06.911)
+Very
+
+Rory Martin (57:25.164)
+They can. So I have like a little like hourly, you can book my time for an hour. And we'll validate the niche. We'll, we'll figure out whether or not your idea makes sense. And there are enough tools with enough reporting and metrics that you can easily see market cap size in your local city. If it's national and there's not enough locally, if you want to do digital marketing, you can reach people, you know, in your state or in your country. Like we go through the whole like how to get the addressable market.
+
+Savan Kong (57:28.392)
+Right.
+
+Savan Kong (57:54.025)
+Figure it out.
+
+Rory Martin (57:54.892)
+figured out. So, because if you don't know the addressable market, you can't really divide up the amount of people you'd have to talk to to then deduce how many people you'd have to charge to make the living that you want. So we start there, like what's the size of the market? Who am I going to talk to? How do I get is that valid? So we validate that and then we go, okay, now it's probably time to build a website. And then we just move through all that stuff. If they want career coaching,
+
+Savan Kong (58:05.932)
+Yeah. Yeah.
+
+Savan Kong (58:18.758)
+Mm-hmm.
+
+Savan Kong (58:22.523)
+It's
+
+Rory Martin (58:25.178)
+that's sort of custom and I would just in we would just create some sort of plan for them. But usually it's the the customer that really doesn't know where to start with their brand.
+
+Savan Kong (58:30.998)
+Right.
+
+Savan Kong (58:37.15)
+Yeah, I mean I think like that's that's the challenge when when you're either fully employed or you're unemployed and you're trying to pick up the a next thing is how do you start to refine your ideas, things you're passionate about that you may not know that you can make money on. Let's just say writing poetry, writing music, like all those things that you've sort of pushed off to the side. How would you
+
+Rory Martin (59:02.84)
+dude.
+
+Savan Kong (59:03.707)
+How would you take that idea? If I came to you and I said, Rory like, you know, I enjoy I don't know, like making beats, right? I'm fifty five, I enjoy making beats I've never monetized it before. Like, talk me through that process of how I could do that and work with you on hustle fifty.
+
+Rory Martin (59:22.175)
+Yeah. Well, this is actually, you know, where the where my idea exploded in my perception of the value that I'm bringing to the market with Hustle 50 is when I started writing the ebook that's 50 side hustles anyone can do. Because I was thinking about the 50-year-old. So what okay, here's what happened. I love pressure washing my driveway. Some people hate pressure washing, but I love it.
+
+Savan Kong (59:33.149)
+Mm-hmm.
+
+Savan Kong (59:38.79)
+Yeah.
+
+Savan Kong (59:46.3)
+Mm-hmm.
+
+Rory Martin (59:50.44)
+And it's very meditative. I get to be super anal retentive and just be like, just you know, just grind on it. And I just love it. Some people hate it, you know? And then I went, my buddy Greg, his mom needed help moving all this stuff out of their garage. And I said, Hey, I got a trailer, I'll just come help you. You know, so we I went and grabbed the trailer, hooked it up to the the X1, and we did like three or four dump runs.
+
+Savan Kong (59:56.434)
+Yeah. Yeah. Just love it. Yeah.
+
+Rory Martin (01:00:19.114)
+And it was awesome. It was the best day. It felt good to be lifting stuff and throwing stuff at the dump. And I just I just have a good time going to the dump. I just love it. And I was like, if the bottom dropped out, I could just junk haul junk. That's totally fine. And I was like, my God, anybody in their 50s probably has five or sometimes 10 or 15 things that they could do that they actually enjoy doing.
+
+Savan Kong (01:00:28.764)
+Yeah.
+
+Savan Kong (01:00:33.574)
+Yeah. Absolutely, dude.
+
+Rory Martin (01:00:47.32)
+That has nothing to do with a freaking career. Like they could literally go on to Nextdoor and say, Do you need any junk hauled? I'll give you a deal. Here's a picture of my trailer or my truck or whatever. And I was, I my I was like, my God. Every I know it's really popular for people to be talking about side hustles, but like I want to tell shout it at the mountaintop. Like if the bottom drops out, here's 50 things you can do that have nothing to do with the computer.
+
+Savan Kong (01:00:57.541)
+Yeah.
+
+Savan Kong (01:01:16.699)
+Mm-hmm.
+
+Rory Martin (01:01:17.186)
+So I wrote that book and I put I put that out. And then I did the whole 50 tech ones because those that's what's actually getting monetized and selling more. So if you go to hustle50.com, you'll see tech and non-tech. so I started with the non-tech, I'll do one with the tech, but to your specific question, where we would start is okay, first of all, how many beats have you written?
+
+Savan Kong (01:01:27.151)
+Right.
+
+Rory Martin (01:01:42.498)
+You want to make beats professionally, you want to sell beats, or you want to get a producer job. We don't know what that's going to look like in terms of how you're going to make money, but how many? I'm going to start asking questions. So I need I need to understand like how qualified are you? So right. So I'm thinking, does he have a repository of a thousand beats? Or has he made four that he really likes? Right. So I we'd start with how many beats have you created? Cause I want to know what if I'm thinking when I'm helping somebody, can I?
+
+Savan Kong (01:01:57.927)
+Right? So
+
+Savan Kong (01:02:11.335)
+Can't
+
+Rory Martin (01:02:11.896)
+Can they tell me enough information for me to know how to sell you right now? Cause if you've got four beats, that's going to be really hard to sell. If you've got 200 beats, whoa. Hey, has anybody seen this database? This beatmaker is crazy. It's got like over a hundred beats on there. Like 40 of them are for free. A couple of them are like $799. Some of them are exclusive. And you also work with this guy, and bam, I'm selling them.
+
+Savan Kong (01:02:23.698)
+Yep.
+
+Yeah.
+
+Rory Martin (01:02:38.198)
+If I can't sell you, then we haven't really reached what I would call like a validated niche, right? We haven't qualified your business idea yet. Then usually I say, I need to do some research on how where the marketplaces are that people are having the most success selling beats as new beat makers.
+
+Savan Kong (01:02:38.372)
+Right.
+
+Savan Kong (01:02:46.866)
+Mm-hmm.
+
+Savan Kong (01:03:01.412)
+I see.
+
+Rory Martin (01:03:02.284)
+So now we're going to dig into what's the marketplace look like. Again, this all goes back to the TAM, total addressable market, right? I need to understand how do I cut through the noise? How do I choose one to maybe three top platforms to sell my beats on? And then how do I promote that in order to get those beats sold? So I'm going to exhaust every possible digital way for you to do marketing from a bootstrap or free perspective.
+
+And then once that's done, it's like, well, what if we had somebody or a team doing that? Now I'm going to conventions, I'm showing up to the club, I'm passing out business cards. And I'm also saying, okay, what does a beatmaker really do? A beatmaker sits at a computer, they usually have instruments, they're producing. So do you want to be a producer?
+
+Savan Kong (01:03:37.38)
+Right. Now,
+
+Savan Kong (01:03:57.039)
+Yep.
+
+Rory Martin (01:03:59.584)
+Or do you want to sell beats? Like, do you want to be in the sound booth and participate in the production of the song? Or do you just want to like have a beat and then provide that to a bunch of artists? Because if you also want to be a producer, well, now we can say I'm a producer. Right. So now I can build out when it says services in that web. So we help essentially establish all the things that you want to do and are willing to.
+
+Savan Kong (01:04:16.414)
+Mm-hmm.
+
+Rory Martin (01:04:29.08)
+To like make money doing, we would just build all that thinking out. And it just looks like, you know, a navigation on a website. This is who I am. This is what I do. This is what I charge. This is how you get a hold of me. This is the stuff that I've been working on. Check out my Insta, check out my TikTok, whatever. And then it's like, okay, how do I deploy a strategy that gets me out into the city shaking hands? Because community is going to be huge. Bootstrap marketing.
+
+Savan Kong (01:04:44.274)
+Right.
+
+Rory Martin (01:04:57.346)
+Gorilla style marketing is going to be really huge in that in that scenario. And he's going to have, he or she is going to have to shake hands and make a community. They're going to have to be around people that are making beats. They're going to have to put in the work. Yeah. I'll, I'll tell you, I'll tell you a story about how I put in the work early on, really quick. When I was first starting out, and this relates to like going out into the community, right? When I was first starting out.
+
+Savan Kong (01:05:01.562)
+Yeah. And he's gonna she shape Yeah. Like put in the work. Yeah. They're gonna have to put Yeah, for sure. Sure.
+
+Savan Kong (01:05:17.72)
+Okay, yeah, let's hear it.
+
+Rory Martin (01:05:26.442)
+I had no marketing budget. But because I'd been because I was in the restaurant business, I knew all the bartenders of all the cool spots in town. So I printed up business, more business cards, and I would go to each one of these guys and I'd give them like a pack of 50 cards and I'd say, Listen, you don't have to do anything different than what you're already doing. The only thing I want you to do is when you say, How's business?
+
+Savan Kong (01:05:29.21)
+Yeah, you never do.
+
+Rory Martin (01:05:55.084)
+You know, that vice president that sits at your bar, if he says anything other than totally amazing, everything's great, couldn't be better. If he says, Well, it's all right, you hand him a card and you say, I don't know if this guy can specifically help, you know, help you with your problem, but he might be able to make things better for you, something like that. And he would just and so all you got to do is say what you normally say. If they say something negative, hand them my card. And three months later, I get a call from Matt Skeel down at Serafina.
+
+Savan Kong (01:06:14.136)
+Yeah.
+
+Rory Martin (01:06:25.046)
+And he goes, I got one. It's like 1130 at night. It was a vice president of aviation partners Boeing, which built winglets for 737s. We're in Seattle. So, you know, Boeing is a big, they have a big infrastructure here for partners. And man, we won that account. And it took a it was amazing.
+
+Savan Kong (01:06:28.13)
+Ha ha
+
+Savan Kong (01:06:37.844)
+Yeah.
+
+Savan Kong (01:06:45.612)
+Yeah, that's amazing.
+
+Rory Martin (01:06:48.236)
+And that's an example. Like I went out into the community. I handed somebody something to somebody. I told them what I wanted that. I asked them to do something. And the kickback was you were going to get, he was going to get 3% of the gross because he basically created a lead for me. He's a sales guy. He's a sales guy. He's creating the lead. And I would have had to pay thousands for that lead had I not gone his way. So it's worth it for me to make that offering. So that's an example of like gorilla.
+
+Savan Kong (01:07:01.593)
+Mm. He's a sales guy, yeah. He's he's creating value.
+
+Savan Kong (01:07:10.659)
+Yeah.
+
+Savan Kong (01:07:15.309)
+Yeah. So that's I mean that's just even creative too, like just even thinking about unorthodox ways you can approach growing your idea. I mean that's just a that's a great example there, Rory. okay, so just just a a a recap here. So you've got a website that has a list of ideas. So if I was 50 or over and I'm like, I want a side hustle so I'm trying to make a little bit more money, but I don't know what where to start.
+
+Rory Martin (01:07:17.528)
+Bootstrap.
+
+Savan Kong (01:07:45.036)
+your website will have a list of things, both tech and non tech. And then on top of that, let's just say I did have an idea or I chose one, I could call you up and you could help sort of structure how to get that started and get it sort of off the ground. What does that look like, let's just say after I've made the first sale or two and we're, you know, I'm I'm I'm working on this thing for three months, four months. Is that like a continuous engagement or
+
+Rory Martin (01:07:59.672)
+Yeah.
+
+Savan Kong (01:08:14.838)
+Are you like trying to take people, you know, put them on training wheels and and then eventually they'll come off the training wheels and they'll go off and do their own thing?
+
+Rory Martin (01:08:25.218)
+Yeah. So because we have people, you know, on marketing retainers for Rory Martin.com, I'm always going to welcome, you know, doing like taking over anybody's marketing. But when they first are starting out, it's very unlikely that they're gonna have enough budget for that kind of thing. So I I'm getting them, like you said, I'm pushing them out in the world on the training wheels and they're they're making that progress over those first few months or year, right?
+
+Savan Kong (01:08:30.969)
+Mm-hmm.
+
+Savan Kong (01:08:44.195)
+Yep.
+
+Rory Martin (01:08:54.7)
+And that usually is sort of like a one and done kind of thing right up front. And then there's a follow up where they're gonna come back and go, I don't know what I should do for CRM. I don't know what I should do for my email and let newsletter list. I don't know what I if I should be posting on LinkedIn or running ads on LinkedIn or just Facebook. I don't know. And so all of a sudden they need marketing consulting. That's where they don't have to now seek out a different vendor. I have an agency.
+
+Savan Kong (01:09:06.425)
+Yeah.
+
+Savan Kong (01:09:22.605)
+Mm-hmm.
+
+Rory Martin (01:09:24.45)
+But because I'm pretty much doing it myself, I can make it about the margin I need to make to give you to my team. And so really this is about me doing this with tools that we've either developed in-house or that are we're also using to help me do my job, either building you the website or marketing, handling anything within the tech stack of the marketing tools that you need to be to grow.
+
+Savan Kong (01:09:50.712)
+Yeah.
+
+Yeah.
+
+Rory Martin (01:09:53.41)
+So each scenario is gonna be a little bit different, but usually it's like, Hey, I wanna start a newsletter, what should I use? How do I set that up correctly? Okay. Well that's you know.
+
+Savan Kong (01:10:02.209)
+Yeah. Okay. Or what's even the power of a newsletter? Like why even do it, right? Like what are some of the values of that and all those questions?
+
+Rory Martin (01:10:06.88)
+Right.
+
+Right. And also setting expectation and teaching people like, hey, this is a dividend game. You know, building a personal brand is about consistency, continuing to take repetitive, reliable, predictable actions so your clients see that you're pushing out content and or doing something. and then you just gotta do it over and over and over and over and over and over. And if you don't have that in you, you're gonna have to pay somebody to do it. Which is great because I
+
+Savan Kong (01:10:20.117)
+Mm-hmm.
+
+Savan Kong (01:10:29.751)
+Yeah.
+
+Yeah.
+
+Savan Kong (01:10:37.976)
+Yeah.
+
+Rory Martin (01:10:39.35)
+I can do that too. So it's kind of for me, it's kind of like, sweet. It it helps me do stuff for the little guy and it helps me take on bigger bigger projects as they grow or want to scale. And, you know, they have the funds to do that.
+
+Savan Kong (01:10:54.016)
+Yeah, I mean I Rory, I love I love Hustle Fifty. I love your idea for so many different reasons. And especially I love it especially now with where the economy is and where we're at as a country. And and and really, you know, it's it gives people this opportunity to do a couple things in my head. one, it gives them the opportunity to start building their own brand in a way that they may not have thought about it, especially for people that
+
+have worked in say the federal government for 30 years and all you know is that job and you've never thought about anything else. And it gives you the ability to be creative about things you enjoy and then make money off that. And it also gives you the repetition of being rejected, which I think is is is a strong thing, like to to go through and try to sell somebody and them saying no and then getting on your feet and doing it again and again and again.
+
+Rory Martin (01:11:49.676)
+Yeah.
+
+Savan Kong (01:11:52.672)
+until you get to that first yes, which is absolutely powerful, 'cause then you've define something of value that somebody will give you money for. I think that cycle is is so empowering. But you can't do that on your own. There's no entrepreneur out there. There's no founder out there that has ever done it on their own. And yeah, I love I love the idea of hustle fifty because it it gives people that foundation, especially the older people that
+
+y they might not have had, right? Like, where do I go for this type of stuff?
+
+Savan Kong (01:12:44.362)
+Uh-huh.
+
+Savan Kong (01:12:52.939)
+Yeah.
+
+Savan Kong (01:13:05.567)
+Yeah. So yeah.
+
+Savan Kong (01:13:23.413)
+Yeah.
+
+Savan Kong (01:13:31.702)
+Yeah.
+
+Savan Kong (01:13:37.973)
+Yeah. I I love I love that dude.
+
+Savan Kong (01:13:47.135)
+Yeah.
+
+Savan Kong (01:14:05.654)
+Yeah.
+
+Savan Kong (01:14:12.64)
+Yeah.
+
+Savan Kong (01:14:30.794)
+I know.
+
+Savan Kong (01:14:35.678)
+Yeah.
+
+That's wild, man. all right, Rory. Last last question for you. If you had to pitch Hustle fifty now to the people listening to the show that are in your demographic, both men and women, how would you how would you pitch hustle fifty? Why should they care about it and why should they join?
+
+Savan Kong (01:15:10.367)
+yeah. Yeah.
+
+Savan Kong (01:15:53.874)
+Yeah.
+
+Savan Kong (01:16:06.845)
+Nice.
+
+Savan Kong (01:16:13.854)
+Mm-hmm.
+
+Savan Kong (01:16:25.371)
+cool.
+
+Savan Kong (01:16:32.485)
+awesome. Awesome.
+
+Savan Kong (01:16:38.313)
+Right.
+
+Savan Kong (01:16:42.628)
+Yeah.
+
+Savan Kong (01:17:09.197)
+Yeah.
+
+Savan Kong (01:17:28.157)
+Mm-hmm and
+
+Savan Kong (01:17:38.375)
+Yeah. Agreed. Agreed.
+
+Savan Kong (01:17:49.0)
+Yep.
+
+Savan Kong (01:17:58.141)
+Yeah.
+
+Savan Kong (01:18:10.387)
+Yeah, get up and going. I love that man. I I mean, I I'm I'm so excited for hustle fifty for so many different reasons. But you know, I think the the biggest reason is that it empowers people to essentially carve out their own future, right? Like whether this becomes their full time job or not by multiple side hustles. You're empowering yourself through the website, through the coaching and through all these things that you're doing.
+
+we'll put all of the links that you send in the description and we'll also post it on Instagram and TikTok and LinkedIn and all those those great places. But I wanna thank you for coming on, Rory. I appreciate you, man.
+
+Savan Kong (01:19:05.768)
+Ha coming up, brother. All right. We'll talk soon. Take care.
+
+All right, bye bye.
+

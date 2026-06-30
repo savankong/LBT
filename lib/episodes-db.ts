@@ -25,6 +25,16 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
     keyInsights: (r.key_insights as string[] | null) ?? undefined,
     faq: (r.faq as { q: string; a: string }[] | null) ?? undefined,
     transcriptFile: r.transcript_file as string | undefined,
+    quote: r.quote as string | undefined,
+    additionalPhotos: (() => {
+      if (!r.additional_photos) return undefined
+      try { return JSON.parse(r.additional_photos as string) as string[] } catch { return undefined }
+    })(),
+    taxonomyTags: (() => {
+      if (!r.tags) return []
+      if (Array.isArray(r.tags)) return r.tags as string[]
+      try { return JSON.parse(r.tags as string) as string[] } catch { return [] }
+    })(),
   }
 }
 

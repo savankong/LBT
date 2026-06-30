@@ -1,0 +1,1075 @@
+Savan Kong (00:03.719)
+Welcome to Work Unscripted. I'm your host, Savan, and today I've got one of the best friends I've got in the world. She is the amazing Katie Savage. Used to be Katie Olsen. Katie, how are you? It's good to see you. And as always, your outfit looks phenomenal, unlike mine with just this t-shirt, but you know, it's probably powerful.
+
+Katie Savage (00:16.302)
+I'm doing great. It's so good to see you.
+
+Katie Savage (00:27.97)
+But I was a judge this morning for a datathon. So I had to like go out, go out into the world.
+
+Savan Kong (00:37.096)
+What is that? Like what do you do at a datathon?
+
+Katie Savage (00:40.173)
+was like a hackathon. So the state of Maryland where I work now gave University of Maryland, Smith School of Business, and American University, Cogod School of Business, transportation data sets related to a transit oriented development project they're looking at, and basically asked them to look at the economic impact of the transit, to figure out how to maximize the investment.
+
+Savan Kong (00:59.154)
+Yeah.
+
+Katie Savage (01:08.701)
+And they gave them like two weeks to put together presentations on what they do. So, yeah.
+
+Savan Kong (01:13.416)
+Wow, how many people were there? Like did they get prize money or what does that look like?
+
+Katie Savage (01:19.949)
+They did. I don't know what the amount was. They said that they were getting, they were getting money, but I don't know what that looks like. Like the winner would, but they had six teams. Each team was about like four or five people. Yeah. Yeah. So was cool.
+
+Savan Kong (01:33.447)
+Okay. And did they show you like full prototypes or how do you judge something like that?
+
+Katie Savage (01:42.796)
+Yeah, it's a good question. I thought it would be more to your point applications. It was more on the analysis side. The closest thing that one group did for a prototype was they designed a new metro card or a new transit card that would be multimodal. So rail, bus, bike share, things like that.
+
+Savan Kong (02:10.693)
+Yeah.
+
+Katie Savage (02:11.455)
+But it wasn't, I was expecting apps because that's sort of the world I live in, but it was more like, here's the economic development. Here's the impact of like adding another bus line to the proposed purple line to connect riders in this neighborhood. So it was more of like the more presentations.
+
+Savan Kong (02:28.157)
+Yeah.
+
+Yeah, that's awesome. mean, being a judge in something like that is always fun, but it's also a lot of pressure because you're like, you gotta tell these guys, you know, our reality of things that suck and things that are great and then judge them in real time.
+
+Katie Savage (02:36.191)
+Yeah. Yeah.
+
+Well, yeah.
+
+Katie Savage (02:45.612)
+Well, two things that sort of helped me was that, you know, my background is in urban planning. And actually, you know, I started, yeah, I started life as a planner looking specifically at these types of problems. So that was really helpful. I actually sort of comment on, know, TOD, transitory development, things like that. The other thing that I think you'll appreciate was it was very clear to me that even though it was not an application, they hadn't really talked to users.
+
+Savan Kong (02:52.026)
+Yeah.
+
+Katie Savage (03:15.947)
+Um, you know, like they were proposing, um, uh, bike shares to and from, you know, people's office commute. And so I asked at the end, like, and, know, that's been a popular solution, um, around among like, uh, transit advocates for a long time. But I said, you know, have any, did any of you like put on a suit and get on the bus and then get on a bike share and then try and go to an office.
+
+Savan Kong (03:16.408)
+you
+
+Savan Kong (03:38.149)
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Katie Savage (03:44.556)
+And so, you know, I never miss an opportunity, try not to miss an opportunity to preach, you human centered design. So, you know, I really encourage them, like, even if you're not building an application, like go talk to, you know, in this case, riders, like, why are people, you know, if we want to incentivize people to take transit, go talk to people who are already taking it and like what motivates them. And then do the route yourself, you know, another group proposed.
+
+Savan Kong (03:51.546)
+Mm-hmm.
+
+Katie Savage (04:11.339)
+bus rapid transit on like what is a very rural highway in Maryland. And I was like, let's break that down a little bit. Have you seen it? And I mean, they're so impressive. I mean, I feel like this generation is so impressive. At the same time, I really, you know, I think there's these kind
+
+Savan Kong (04:16.39)
+you
+
+Savan Kong (04:22.02)
+Yeah, yeah, god.
+
+Savan Kong (04:31.076)
+Right.
+
+Katie Savage (04:36.972)
+higher level principles that, especially in B-school, you might not be thinking about or learning about.
+
+Savan Kong (04:42.19)
+Yeah, no, absolutely. I mean, there's something about the real world that teaches you lessons pretty quickly. That's absolutely true. Katie, want to start, you know, one of the things I'm excited to talk about is really the idea of being a woman, especially in leadership positions in tech. I had Anne Duncan on who was the CIO
+
+Katie Savage (04:47.284)
+Yeah.
+
+Yeah.
+
+Katie Savage (05:05.31)
+Yeah.
+
+Katie Savage (05:08.659)
+Yeah!
+
+Savan Kong (05:10.566)
+for the Department of Energy and I was at Georgia Tech and we touched upon it a little bit. I want to ask you very similar questions because like the thing about being a CIO in a large scale organization is there's a, one, a ton of responsibility with it because you're wielding these massive budgets that impact potentially millions of people. But also at the same time, there's a lot of eyeballs and spotlight on that role.
+
+Katie Savage (05:29.108)
+Yeah. Yeah.
+
+Katie Savage (05:38.911)
+Yeah.
+
+Savan Kong (05:39.853)
+or you feel like you always have to make the right decision. And I want to maybe start off with that, Katie, like when you took on this role after leaving the DOD, what were your expectations of it? How did you sort of like create that mindset of going into a role like CIO for Maryland?
+
+Katie Savage (05:49.78)
+Yeah.
+
+Katie Savage (06:00.233)
+Yeah. So it's a good, it's a great question. mean, on the one hand, um, it felt like the logical next step. mean, when I, when I, when I went to the defense department, you know, I had wanted, you know, I wanted to be on the CIO track. Um, I wanted to be, I thought like a city CIO, going back to this, this background in urban planning and, you know, I moved from Chicago and I felt like,
+
+Savan Kong (06:12.358)
+you
+
+Savan Kong (06:25.944)
+Yeah.
+
+Katie Savage (06:28.905)
+I knew I would get great experience being part of a digital services team and learn more about the intelligence space. But I did worry about getting off the city of Chicago CIO track. And so when this popped up, I was like, oh, makes so much sense. This is getting me back to what I wanted to do. And I will say, I was very, I didn't totally know what to expect.
+
+Savan Kong (06:42.435)
+Mm-hmm.
+
+Katie Savage (06:58.865)
+And it's, I will say, coming from a primarily software development team, I was expecting like developers, designers, product managers, people like that. And what I found was that a lot of the team was really focused on managing contracts, managing vendors, as opposed to sort like being the tech experts themselves.
+
+Savan Kong (07:04.555)
+We.
+
+Savan Kong (07:09.828)
+Thank
+
+Savan Kong (07:16.325)
+You.
+
+Katie Savage (07:29.064)
+And so it, you know, I've done a lot to really focus on building talent. And when I realized like that was the opportunity, it started to feel very even more natural to me because that's so much of what, you know, we did at a defense digital service was building out, you know, a talent pipeline. To your point though about, especially being like a woman in this space,
+
+I was eight months pregnant when I started the job. yeah. And that was, you know, I sort of didn't know what to, yeah, what to expect from to your point, suddenly having this massive team, a massive budget, and then becoming a parent. And maybe it was good that it happened all at once because I sort of had to adjust to.
+
+Savan Kong (07:58.816)
+Yeah, you were judging a lot of things.
+
+Savan Kong (08:17.412)
+.
+
+Katie Savage (08:22.438)
+all these new realities, all these new changes at once. And so from the get-go, I to think about how I manage my time, I, know, ruthless prioritization, how to set boundaries. And, know, it also, you know, to your point, it's not like I could hide anyway, but it was, I mean, it sort of made my age and sex like very, know, point and center.
+
+Savan Kong (08:26.863)
+Yeah.
+
+Savan Kong (08:49.31)
+Yeah. Yeah. Yeah. No, I, and especially, you know, one of the things about being in a IT organization where technology is the primary thing, regardless of if you're doing like policy forward or if you're doing acquisitions or whatever it be, predominantly it's been very male oriented. Predominantly it's been, you know, pretty heavy.
+
+Katie Savage (09:07.823)
+Yeah.
+
+Savan Kong (09:16.308)
+on the male side and the one thing that I've always admired about you stepping into these types of roles is your ability to come in and be able to lead organizations that are predominantly male, whether it's at the DOD or Maryland. And I wonder though, what do you think are the things that you're doing now that
+
+sort of helps you influence those changes and helps you to pave the way for other young ladies, young women to be able to do what you're doing. What does that somewhat look like?
+
+Katie Savage (09:52.324)
+Bye.
+
+Katie Savage (09:57.412)
+I I do want to acknowledge the role of mentors and the importance of mentors in this space. I was brought to DDS and to the Defense Department by Brett Goldstein. yeah, Vanderbilt Brett. There was a meeting where he literally dragged a chair to the table for me. And to your point, there aren't
+
+Savan Kong (10:04.856)
+Yeah.
+
+Savan Kong (10:13.057)
+Yeah, Vanderbilt Brett now.
+
+Savan Kong (10:23.553)
+Yep.
+
+Katie Savage (10:27.305)
+there, you know, at the time there weren't a lot of women in the space and people would just assume I was, you know, an assistant and nothing wrong with being an assistant. But when he wanted me there to contribute to the meeting, you know, there were meetings where he literally dragged a table. I remember another meeting, it was after Brett left, but it was with a meeting in the depth sex office, deputy secretary's office.
+
+Savan Kong (10:38.71)
+Mm-hmm.
+
+Savan Kong (10:51.881)
+Thank
+
+Katie Savage (10:56.484)
+And a man came up to me and asked where he was supposed to be seated. He asked me about the seating position because he assumed I was protocol. And I have a lot of those stories. I do think it's, however you identify, if you're in a position where you can
+
+Savan Kong (11:05.59)
+Yeah. You figured that out by your damn self.
+
+Katie Savage (11:23.971)
+see women, people of color and like literally create space for them. I've had that, people do that for me and I try and do the same. But I think one of the most powerful lessons that, I guess not lessons, but I had a leadership coach for a while. And one of the things that she said to me when I was stepping first into the DDS director role was,
+
+Savan Kong (11:53.89)
+Yeah.
+
+Katie Savage (11:54.498)
+You don't have to do this like, you know, you don't have to do this like your predecessors, your male predecessors. If you're, if you know, if you're trying to do this, like they are, it's not going to feel natural and you will fail. And, you know, I, I, think that's maybe intuitive, but it was really helpful to hear. And it really allowed me to think about my strengths, you know, listening to people collaborating.
+
+Savan Kong (12:08.102)
+Yep.
+
+Katie Savage (12:24.548)
+playing the politics, investing in people. know, one of my strengths by understrengths is like, I think as a ranger, you know, trying to find and build the right teams. And once I took the pressure off myself to be like the male models that I mostly had and look at what my unique leadership strengths were, I felt like something just clicked and I really found my groove as a leader.
+
+Savan Kong (12:53.994)
+Yeah, that's awesome. Have you always had more male role models? Because I look at my time throughout the years now, and I actually think I've had more women bosses. And on average, I've had
+
+Katie Savage (13:02.69)
+Yeah.
+
+Katie Savage (13:06.115)
+I've been more women too. Yeah. That's also, know, and yes, I've also had more female bosses. And I think that has been probably, you know, also really helpful back to this idea of mentors, because I saw also how they performed in not just male dominated environments, but very political environments. And had to be, you know, extremely
+
+Savan Kong (13:07.221)
+better women losses than men for some reason.
+
+Katie Savage (13:33.912)
+diplomatic or thoughtful about both sides. And that goes back to, you know, some college internships. I think she's still there. Michelle Smith was Chairman Bernanke's Chief of Staff at the Federal Reserve during the financial crisis. So I can talk about, you know, like a political role. Brenna Berman, who is the CIO of Chicago. So I had a number
+
+Savan Kong (13:51.681)
+Mm.
+
+Katie Savage (14:03.299)
+You know, even, yeah, I would say grad school as well. You know, I had a lot of very strong role models in that space. And so I think maybe it was the combination of those things. Like I knew the qualities of good leaders that I wanted to emulate that I'd seen women do or, you know, display and then bringing those with me, not being afraid to bring those with me into a male environment and lean into those. I think maybe that was the combination.
+
+Savan Kong (14:20.491)
+Yeah.
+
+Savan Kong (14:31.501)
+Right, right. Yeah, I love that. I love that a lot. Okay, I want to ask for the people because we have a wide variety of different types of people that listen to the show, some very technical, but what does CIO do for the state in general? Like, what is their what is your roles and responsibilities?
+
+Katie Savage (14:44.321)
+Yeah.
+
+Katie Savage (14:52.225)
+Yeah.
+
+Katie Savage (14:55.585)
+So it's interesting. I've been in this role for three and a half, almost three and a half years. I know, I know. It's kind of wild. Yeah, time has gone by really fast. And it's changed even when I look at my peers in other states. So traditionally, and this was the profile of other states when I started, a lot of it going back to it was contract management.
+
+Savan Kong (15:01.15)
+Wow, folks.
+
+Okay.
+
+Savan Kong (15:16.522)
+Yeah.
+
+Katie Savage (15:25.001)
+And vendor management, you know, they expect, you know, lot of my peers in other States at the time were lawyers because the thought was, you know, we need to set the terms and conditions with, you know, our enterprise platform providers. So, you know, Google, Microsoft, ServiceNow, network provider, know, internet service providers, things like that. And it's, to me, you know, I really wanted to shift to that.
+
+Savan Kong (15:48.374)
+Right.
+
+Katie Savage (15:54.464)
+Um, I had seen because of my time at defense digital service, I think it's really important to have in-house expertise, um, who can still leverage vendors certainly. Um, but have enough technical depth to direct, know, direct the work and be in service of a broader vision. So for me, and this is where it's been really fun because I've dabbled in almost all of the areas of our portfolio.
+
+Savan Kong (16:04.788)
+Yeah.
+
+Savan Kong (16:17.504)
+Mm-hmm.
+
+Katie Savage (16:25.15)
+we have enterprise platforms. So that is, your, basic productivity suite, Google, Microsoft, things like that, that people use. Maryland is unique in that we have our own fiber network. We're one of the only states that do. So we run internet for everybody. you know, for network Maryland. and we also run the state's radio network. So it's the network that most, first responders, actually all first responders in Maryland leverage.
+
+Savan Kong (16:30.815)
+Yep.
+
+Savan Kong (16:39.071)
+Really? What happened?
+
+Savan Kong (16:55.359)
+Wow.
+
+Katie Savage (16:55.781)
+So when we've seen major incidents in the DC area, such as the plane crash last January, a lot of those calls were made over our radio network. So it's really critical. So infrastructure is a big part of the work that we do. A couple of new things that I moved or moved in partnership with the governor. So the governor's office made the decision to
+
+Savan Kong (17:03.391)
+Really?
+
+Katie Savage (17:24.176)
+moved the office of the state chief data officer to me. we had a data team, but that allowed us to sort of expand the remit of our data office. And then we had and really expanded the office of security management, so cybersecurity. So we oversee cybersecurity for the state. And then the new area that I created is a digital service. So you can take the girl out of digital service, but you can't take the digital service out of the girl.
+
+Savan Kong (17:32.338)
+Mm-hmm.
+
+Savan Kong (17:38.687)
+Yeah, fantastic.
+
+Katie Savage (17:53.981)
+So I am, and because of the climate and the DMV, there's a lot of people that are looking for work. And so I've been able to bring a lot of former USDSers and DOGE employees over to the state who want to keep doing the work. So it's really a broad portfolio. The other...
+
+Savan Kong (17:54.025)
+That's right.
+
+Savan Kong (18:09.277)
+Yeah.
+
+Katie Savage (18:19.076)
+decision that Governor Moore and I made was to anchor our public benefits platform under me as well. So we have a program called Maryland Benefits, which is where Marylanders apply for SNAP, WIC, energy assistance, major federal benefits that are administered at the state level like that. And it's actually a very mature cloud environment.
+
+Savan Kong (18:27.004)
+Mm-hmm.
+
+Savan Kong (18:42.396)
+Yeah.
+
+Katie Savage (18:45.733)
+And so it's, I see it as a jumping off point for a lot of the sort of development projects that we might want to do in the state. That's also been a unique, it's unique to Maryland, but I think a really exciting opportunity for us.
+
+Savan Kong (18:54.214)
+Yeah.
+
+Savan Kong (19:00.455)
+Yeah, I think that's so fascinating. And I've had firsthand experience now of interacting with state level sites like unemployment, you know, those benefits that that that you festival to you, it makes a lot of sense for to roll under one office so that you can streamline and see the customer journey. Those things. What's been sort of the most challenging part so far of
+
+Katie Savage (19:08.998)
+Yeah.
+
+Katie Savage (19:12.742)
+Yeah.
+
+Katie Savage (19:19.622)
+Yeah, yeah, yes, yes.
+
+Savan Kong (19:26.718)
+you know, consolidating this experience so that it's all sort of under the CIO rule, making sure that, you know, the experience that citizens have, because at the end of the day, citizens don't care where the shit sits. They're just like, just get it to work, right? Like that's the end of it.
+
+Katie Savage (19:30.821)
+Yeah.
+
+Katie Savage (19:36.291)
+Yeah, yeah.
+
+Katie Savage (19:41.115)
+Yeah, no, you're, you're a hundred percent right. And you'll have to reel me back. I could talk about this for a long time. I mean, that is one of the challenges is that we think of, we think of experiences by agency and not by, um, by outcome. So if you're trying to start a business, it's not like go here and here are the 10 permits that you need. It's, know, I'll link out to the department of the environment. I'll link out to the department of planning.
+
+Savan Kong (20:04.222)
+Exactly.
+
+Katie Savage (20:11.132)
+Um, so that is one of the challenges that we're trying to like think through holistically. And it's not just for licensing and permitting, but, as you said, for a number of, of benefits that we provide in the state. So that's one of the challenges, um, you know, is, thinking about the experience and not the, or like you said, the journey and, and not the agency. The other big challenge is, you know, I think Maryland's not unique in this when our organization was created, when information technology was created.
+
+they pulled, you know, they basically pulled all the IT staff from the state agencies, so labor, environment, etc. to create our agency. And that left a lot of like not a lot of capability at the agencies to implement IT. At the same time, agencies are sort of a free for all to buy their own products. So you know, even like, you know, when I started, there were 13 different Microsoft contracts. And
+
+Savan Kong (20:50.295)
+Savan Kong (21:08.495)
+God.
+
+Katie Savage (21:09.336)
+And so I've tried to reverse those things, like let us do the central buying so that we can use a concentrated purchasing power, but let's push talent back to the agencies. Because if I have a strong CIO at health, for example, mean, or human services, that allows us to partner more effectively. So the big thing has also been like consolidating
+
+Savan Kong (21:19.111)
+that.
+
+Savan Kong (21:32.389)
+Yeah.
+
+Katie Savage (21:37.026)
+our enterprise architecture, the common tools that we all need, and then putting talent back at the agencies.
+
+Savan Kong (21:46.292)
+Yeah, yeah, I love that model for so many reasons. Katie, the thing about the way you're structuring the CIO office in Maryland is, in my opinion, people have different opinions, is pretty forward-facing in that you are staffing it up with people that one can actually call bullshit if...
+
+somebody's talking about something technical that doesn't work. But also you do have people that have skill sets that can directly understand the problems of the users like we were talking about. How do you compete with private industry to get these fantastic people to work there? in my opinion, I feel like you've probably got the best of the best from the DDS crew and the USDS crew there that live in that area.
+
+Katie Savage (22:10.637)
+Yeah.
+
+Katie Savage (22:21.965)
+Yeah.
+
+Katie Savage (22:30.169)
+Yeah.
+
+Savan Kong (22:39.726)
+And it's really hard from a talent perspective to get them there, right? Like, how do you do that?
+
+Katie Savage (22:44.249)
+Yeah. And I think this is where the having to recruit during the pandemic was really a good learning experience. You know, we can't compete on salary and we should, we can and do try and be as competitive as we can. And, you know, I am regularly making the case to, you know, to adjust based on industry standards, but it's really the mission. You know, if I'm recruiting for cyber talents,
+
+Savan Kong (22:50.449)
+Yeah. Yeah.
+
+Katie Savage (23:13.625)
+You know, I can offer them things like you're going to work on critical and protecting our critical infrastructure. You're going to work on ransomware attacks. You're going to, you're going to work on a 21st building on a 24 seven sock. Um, you know, and you get to work for, we have an incredible boss and governor Moore is like such a visionary. Um, he has such a big heart, um, really cares about service. So, you know, I, you know, I do want to give a lot of credit to his administration too. think, um,
+
+Savan Kong (23:19.238)
+and
+
+Savan Kong (23:29.5)
+Yeah. Yeah.
+
+Katie Savage (23:42.462)
+In addition to the mission that we provide in my agency, I think someone like him does a lot of the heavy lifting for the recruiting because he is such a forward-looking leader who obviously has a lot of heart and compassion.
+
+Savan Kong (23:51.662)
+Thank
+
+Yeah, yeah, shout out to Governor Moore, who's my choice for president at some point in the future, hopefully in the near future. So Governor Moore, if you're listening to this, you've got my vote. You've got me to Washington state. So let's just throw that out there. Katie, I want to maybe take it back a little bit and go back to how you got to where you are. Talk to me a little bit about
+
+Katie Savage (24:10.424)
+laughs
+
+Thank
+
+Savan Kong (24:27.172)
+your high school and college experience, you we talked about you being a city planner. I know the story, but just for people that want to figure out how they can become a CIO at the federal, state, or even local level, tell us a little bit about how you got to where you are.
+
+Katie Savage (24:32.116)
+Yeah.
+
+Katie Savage (24:36.694)
+Yeah.
+
+Katie Savage (24:43.286)
+Yeah, in high school, I was a political science junkie and I really wanted to get out of my hometown and thought like, let's combine these things, go to DC. And, you know, I quickly discovered when I got here that Capitol Hill was not for me. which I didn't, I couldn't put words to it at the time, but I guess it's basically I'm an operator. You know, I'm less of a policy person and more of an operator.
+
+I like to build things. I like to build teams. I like to set KPIs, put out deliverables. And so the policy world was just like not for me. think it's really important, obviously, but so I kind of shifted my focus towards the end of my time in college and knew I wanted to be an urban planner. And to do that, I actually took a detour through P-Score. So I was in Malawi for two years.
+
+Savan Kong (25:34.489)
+Yeah.
+
+Katie Savage (25:43.393)
+I am Peace Corps, you know, I've said this to you before Peace Corps was doing human centered design before it was the term that we all know. Yeah. Um, I still wish to God I had saved it, but I didn't. Um, but they had this Brown handbook. If anyone, if any of your listeners have it, um, please find a way to send it to me. Um, it was called the participatory, um, and capacity assessment handbook.
+
+Savan Kong (25:50.897)
+Or it was sexy. Yeah.
+
+Savan Kong (26:04.281)
+Yes.
+
+Katie Savage (26:10.134)
+Brown spiral bound notebook. And, you know, I just, really recognized because, you know, while I was in college, I was doing a lot of work in, in DC and the greater DC community and realized that I was not being trained in my political science degree to go out and talk to people and to engage, to understand, to do sort of problem mapping. And I knew that's what Peace Corps taught. So I did that for two years and did learn a lot of the skills, you know, that we were talking about following people, you know, in their day-to-day life.
+
+Savan Kong (26:15.406)
+Thank
+
+Katie Savage (26:39.557)
+and presenting information back to them, especially girls. And there's a huge education disparity and kind of reflecting back to them like, this is maybe why you don't have time to go to school because these are all like the, you at home activities that you're doing. So I took this detour through P-Score and then did pursue my master in city planning from University of Pennsylvania. And while I was there, the summer between the two years,
+
+Savan Kong (26:40.858)
+Yeah.
+
+Savan Kong (26:54.82)
+Right?
+
+Katie Savage (27:06.855)
+the opportunity to be a mayoral fellow for Mayor Emanuel. And Mayor Emanuel had just named Brett Goldstein, who you'll remember from earlier in the story, first municipal data officer in the country. Now everybody has a chief data officer, but at the time, you know, this was really novel. you know, sort of like, you know, matched with Brett in terms of the projects, you know, we the opportunity to choose some projects and
+
+Savan Kong (27:07.034)
+Mm.
+
+Savan Kong (27:18.199)
+Yeah.
+
+Savan Kong (27:23.546)
+it.
+
+Katie Savage (27:36.728)
+I was interested in what he was working on. And I think he liked my background because I was learning, my way around. GIS as geospatial information systems. cause he had this vision to build an open data portal and to make data transparent and to give into the hands of city commissioners to make decisions. So we worked on things that summer like creating an open data portal. we did things like.
+
+Savan Kong (27:58.218)
+Right.
+
+Katie Savage (28:05.363)
+showing the Department of Housing where at the time the foreclosure crisis was impacting neighborhoods. And so it became this, it was this big aha moment for me of how at the time data and then eventually technology could be used for community development and economic development. And so I finished my, and got my degree, but I knew I kind of wanted to pivot into technology and how cities and states use technology.
+
+Savan Kong (28:21.658)
+Mm-hmm
+
+Savan Kong (28:35.322)
+Yeah. you
+
+Katie Savage (28:35.398)
+So I moved back to Chicago after that. The city actually launched a public private partnership with a number of big companies like Microsoft and Siemens. And we built prototypes using open data and looking at transportation like bus bunching. How can you prevent a bunch of buses from being behind one another so that you don't overcrowd buses and then cause delays? Looking at monitoring flooding.
+
+looking at the effectiveness of economic development incentives. So I did that for a number of years. And then, as I was saying earlier, Brett asked if I would join him in DC to help run the Defense Digital Service and move back to DC and was able to leverage some of the software development background that I had built in Chicago.
+
+Savan Kong (29:22.602)
+Yep.
+
+Katie Savage (29:32.816)
+but also got a lot more steeped into in particular cybersecurity. As you know, that team was really at the forefront well before I got there of thinking about cybersecurity in the federal government. So I'm launching Hack the Pentagon, which was a bug bounty program, finding vulnerabilities in websites and applications. So really, I had the opportunity there to continue to refine a number of skills.
+
+Savan Kong (29:35.065)
+Yeah.
+
+Katie Savage (30:01.999)
+Yeah, I got the call then in late December of 2022 that the governor was really interested in this idea of digital services coming into government and cybersecurity and they were really interested in my background. it all came together.
+
+Savan Kong (30:02.713)
+Thank
+
+Savan Kong (30:18.238)
+Yeah, that's amazing. I love your story, Katie. I want to ask you, know, we know Brett's impact on your career. You've followed him around. And I do the same thing. Like I will typically follow people more than the role or the space. Can you recall a single conversation or a single meeting or something like that that really
+
+Katie Savage (30:34.211)
+Yeah. Yeah.
+
+Savan Kong (30:45.057)
+changed the trajectory of your career and what you wanted to do? Was there anybody who influenced you? That's something where you're like, wow, maybe I should get into whatever that was. And if so, what did that look like?
+
+Katie Savage (30:52.153)
+Hmm.
+
+Katie Savage (31:02.285)
+Yeah, I mean, going back to the time in Chicago, I think there's a few things. And going back to the early experience in Chicago when I was first working for Brett, I remember he literally threw me to the wolves, to the GIS team at the time, and said, basically force them to make an open data portal.
+
+Savan Kong (31:23.384)
+course.
+
+Savan Kong (31:27.212)
+Yeah, yeah.
+
+Katie Savage (31:29.325)
+You know, I mean, you can appreciate it. Like the data was a mess because they just hand jammed it in. It wasn't automated in any way. It wasn't cleaned up. It was just not ready for public consumption. And that was like a real turning point. you know, I feel like sometimes when people are really protective like that, there's something there. You know, there's something there. And it was kind of like, oh, this is the point. This is, this is why we need an open data portal. Cause we're relying on, you know, this, this team.
+
+Savan Kong (31:34.336)
+Yep. Yep.
+
+Katie Savage (31:58.892)
+of GIS developers to tell us everything about the city of Chicago. And so I remember that being, being really influential. You know, I think...
+
+think the other piece too was, you going back to that conversation I had with the leadership coach at the time, when I was really thinking about whether or not I had it in me to be the director of DDS and her sort of encouraging me to, you I was at a point in my career where I needed to develop my own brand, my own style.
+
+Savan Kong (32:39.477)
+Yeah.
+
+Katie Savage (32:41.083)
+And yeah, be my own boss really. And I think that for me, you know, it was sort of that like punch in the gut. think I, need it. but good, true shame too. I think there's, there have been so many incredible leaders and people that I've, that I've worked for. you know, another person I want to recognize is, is Carolyn Collins. she ran the, it was called UI labs, which is where,
+
+Savan Kong (32:46.295)
+Thank
+
+Savan Kong (32:51.511)
+Yeah.
+
+Savan Kong (33:09.688)
+Mm-hmm.
+
+Katie Savage (33:10.571)
+our work was anchored for the public-private partnership in Chicago. And in retrospect, mean, she, a lot of our journey is parallel. She got a tremendous amount of public and private funding to start the lab, had to do a lot of politics, also had her first child. so there's a lot of really, think the other thing about Carolyn and Brenna.
+
+Savan Kong (33:23.479)
+Yeah.
+
+Katie Savage (33:39.083)
+that I want to know is just the kindness and grace and style with which they did things that if anything, just, wanted to, I wanted to present like that. You know, I think I wanted to be as effective in the world and have the kind of impact that they did. Yeah.
+
+Savan Kong (33:43.133)
+Yeah.
+
+Savan Kong (33:59.974)
+Yeah. That's awesome. Katie, you've had this crazy journey, UPenn, Chicago, DC, now state of Maryland. Of all of these movements and pivots you've had, which of them feel like your biggest leap of faith where you're just like,
+
+I don't know what the fuck's gonna happen, but I just believe in myself. I believe that it's gonna work. Which one of those things?
+
+Katie Savage (34:27.747)
+That's a good question. I'm torn between the last two. Because as I said, with the job in Maryland, was definitely like, felt like it was a big leap in terms of portfolio size, but it also felt like the, like I saying, the sort of logical next step, it was what I had hoped to do. So maybe joining DDS, Defense Digital Service.
+
+I think that, you know, I'd been in Chicago for almost 10 years at that point. It was kind of stopping life there, moving back to DC, which I sort of said I would never come back to. I loved Chicago and, you know, had really no experience with defense. So, and it was hard. mean, you know, I mean, those years were really hard. We were trying to do some really hard things in an environment that's very rigid for a reason.
+
+Savan Kong (34:57.27)
+Thank
+
+Savan Kong (35:04.926)
+Yeah. Yeah.
+
+Savan Kong (35:16.042)
+Yeah.
+
+Savan Kong (35:22.356)
+Thank
+
+Katie Savage (35:23.742)
+And it was also the pandemic, which happened about the pandemic was really less than a year after I moved back to DC and started DDS. So it was a really hard journey. But I think it made me really, really resilient. yeah, so I think, yeah, I went through some. Yeah.
+
+Savan Kong (35:32.084)
+Yeah.
+
+Savan Kong (35:43.595)
+yeah, yeah, yeah, we went through some shit like when we were Man what was your mentality going into that job, you know, I remember meeting you in your first day but like You know stepping into the role Trying to figure out sort of like who's who in the zoo and really trying to understand
+
+Katie Savage (36:04.997)
+Yeah.
+
+Savan Kong (36:06.677)
+Like, how did you approach that? Like, what was your sort of disposition for the work?
+
+Katie Savage (36:11.845)
+Yeah. I mean, I learned the hard way. I, I'll be honest. one of the, like the best worst things about Chicago is that it is pretty like, it's very tribal. You know, like when you're in Chicago, you're like downed it in, you're thinking about Chicago and not like national trends. And I just wasn't plugged into the U S the U S digital service scene. And so I had no idea. Yeah. Like I just, didn't know that like,
+
+Savan Kong (36:28.788)
+Yeah.
+
+Savan Kong (36:35.637)
+Yeah, yeah, me too. Yeah.
+
+Katie Savage (36:39.631)
+Defense Digital Service was part of USDS and like the whole movement. Like I was, was tracking, you know, Todd Park and Jen Pelka and the, and like the sort of initial launch of it. You know, and Brett and Jen knew each other. So I sort of like had a little bit of that background, but didn't know that I was part of like this big movement. And I wish in retrospect, I had had a little bit more of that history and then done some more research on what that, what that really looked like. But.
+
+Savan Kong (37:07.734)
+Yeah
+
+Katie Savage (37:09.432)
+You I think I recognized really quickly that it was going be a very steep learning curve. I, it was, it was hard to find a balance between knowing I needed to be in deep listening mode and recognizing that brought me with him to, you know, to bring more operational experience to the team. For a long time, as you know, we had people that were
+
+engineering and doing the budget. so, you know, we were, you know, a lot of my role and I had done that in, you know, as part of the, um, the public private partnership I was with in Chicago. And so, you know, I was trying to strike a balance between like introducing some of those operational changes from the get-go with having a, you know, listening, trying to learn as much as they could about the military, about the department and about USDS and about the team itself. So.
+
+Savan Kong (37:39.329)
+yeah.
+
+Savan Kong (37:44.305)
+Okay.
+
+Katie Savage (38:06.436)
+I think that's a really hard balance as you, you you, we want to come in and set a tone, but you also want to reflect to people that you're, in listening mode. You hear them and, um, part of human centered design, you know, you want to sort of take in a lot of feedback before you pick anyone, anyone's solution.
+
+Savan Kong (38:06.851)
+Yeah. Yeah. Yeah. Yeah. think like for me personally, it was the culture of the military.
+
+that was probably the most stark thing for me to learn. it was, it's not even just the words they use, but just the way information flows, you know, sort of if you've enlisted or if you've been in civilian working for the DOD for a while, you sort of know, but like for people that are coming in from the outside that have never had that experience, it's, you just don't know even how to write a proper email, right? Like it's not,
+
+Katie Savage (38:33.698)
+Yeah.
+
+Katie Savage (38:44.854)
+Mm-hmm.
+
+Katie Savage (39:02.39)
+Right, Yeah.
+
+Savan Kong (39:03.4)
+It's not the same. And that's always somewhat hard. And that's, think, one of the things that many people overlook when they're trying to get into public service is what is that culture? How do you sort of like make sure that you are functioning in that culture, but also making sure that you're not a cog and part of the problem over time where you're just perpetually doing same shit over and over again.
+
+Katie Savage (39:13.388)
+Yeah.
+
+Katie Savage (39:23.744)
+Yeah, yeah.
+
+No, exactly. think that's on a more macro scale. Yeah, what I'm talking about is you want to come in, you want to assimilate a bit and sort of like absorb, but you also, I think Jordan was probably the one who said that like you're here for a reason. You like you're not there to blend in, you're there to advance a point of view and change the way that we're doing things. And so it's to your point, it is...
+
+Savan Kong (39:38.824)
+Yep.
+
+Savan Kong (39:50.696)
+Yeah.
+
+Katie Savage (39:57.578)
+especially in a culture that is really built on tradition and respect and authority and chain of command. You you're trying to balance that, that, those kind of cultural values on the one side with, but I'm here to disrupt. It's just like in some ways, like they are like very diametric, you know, innovation in a culture that's, you know, intentionally designed around like discipline.
+
+Savan Kong (40:16.467)
+Yeah, absolutely.
+
+Katie Savage (40:27.285)
+And I think some of the best leaders that I saw were those, you know, I think of the David Norquist, The defense deputy secretary at the time. You know, I think he, I remember really enjoying working with him because I felt like he, you know, obviously had a role to play, but he also, you know, climbed into, you know, some of the
+
+Savan Kong (40:38.343)
+Yeah.
+
+Katie Savage (40:54.857)
+spooky spots of the Pentagon with us to see what we were working on. So I think balancing innovation and discipline in that environment is tough, and maybe tough anywhere.
+
+Savan Kong (40:57.603)
+Yes.
+
+Savan Kong (41:08.177)
+Yeah, for sure. Compare that to Maryland now. What are some of big differences? Besides one being federal and the other one being state.
+
+Katie Savage (41:17.676)
+Yeah, and specific to the role, one of the things that I love, when we were at Defense Digital Service in the Pentagon, when we were doing cybersecurity programs, we were doing a lot of the discovery of vulnerabilities. And then we would have to give it to someone else to remediate. Or we were doing a lot of the kind same thing, discovery.
+
+observations about applications and websites, but then ultimately it was like another department's ability to or responsibility to implement. And one of the cool things about being in this role is that I get to do both sides. I get to do sort of the discovery, whether it's a vulnerability or a bad process flow. And then I have the team to go and fix it. So that's been, that's been really fun. You know, I think there's a lot of same common challenges around procurement.
+
+Savan Kong (41:55.591)
+Yep.
+
+Savan Kong (42:06.682)
+Yeah.
+
+Katie Savage (42:16.604)
+and hiring and things like that. There's a lot of same challenges at state level that we saw in the federal government. But one of the things I've appreciated in Maryland is that people are really excited to change some of those processes. I have seen a lot of, in cyber in particular, which has been really interesting, I felt like
+
+oftentimes the federal government was like, don't look over here. And we had to really sell people on like the vulnerability disclosure program and doing a bounty. And here, I feel like a lot of my counterparts in the state agencies were like, that makes total sense. Of course we want, we want your team to find any weaknesses before an adversary might. So that's been really cool.
+
+Savan Kong (42:50.81)
+Right.
+
+Savan Kong (43:04.34)
+Yeah, and I feel like a lot of that is the influence of leadership, right? The CIO, the governor, betting sort of that cadence and those expectations that this is probably the right thing to do because of all these positive things that you would get out of it. And I don't know if we've ever had that consistently enough at the DOD to make it successful or as successful as we would have liked.
+
+Katie Savage (43:10.337)
+Bye.
+
+Katie Savage (43:20.937)
+Yeah.
+
+Katie Savage (43:30.474)
+Yeah.
+
+Savan Kong (43:30.492)
+feel like there was so many for us.
+
+Katie Savage (43:33.182)
+to there, we're trying to create a blame, a not blameless culture, but setting aside blame and just sort of focusing on like, how do we, how do we fix this program going forward? We need to hold people accountable, obviously, and evaluate where people are not working. But, you know, I think the
+
+Savan Kong (43:53.925)
+Right.
+
+Katie Savage (44:00.64)
+Assuming people's positive intent and meeting them where they are goes a long way. If people don't feel like they're going to be shamed for admitting what's not working well, I think they're more willing to collaborate with you.
+
+Savan Kong (44:03.883)
+Yeah.
+
+Savan Kong (44:15.815)
+Yeah. Katie, what does that typical day-to-day look like for you? What does it look like for a CIO at the state level?
+
+Katie Savage (44:24.414)
+Yeah. I mean, I would say like most days, most days look like I'm meeting with other agency CIOs. So in Maryland, we have the big five, Department of Transportation, Department of Health, Human Services, Labor, and Corrections. So more often than not, you know, I'm meeting with, and I try to intentionally meet with the other CIOs and understand like some of the macro challenges that we're facing. So.
+
+Savan Kong (44:27.738)
+I would say.
+
+Savan Kong (44:49.754)
+I'm under.
+
+Katie Savage (44:53.843)
+My team has been pretty good about doing road shows with other agencies for me so I can kind of understand their challenges. I do spend a lot of time with my individual kind of units. I like to stay sort of up to speed on how we're thinking about a broadband project or a cybersecurity initiative. So some of it is also like that kind of like down and in work.
+
+Savan Kong (45:01.105)
+Mm-hmm.
+
+Thank
+
+Savan Kong (45:17.647)
+You
+
+Katie Savage (45:23.166)
+And then there's the component of my job, is really up and out. you know, we're in the middle or just wrapping up Monday is actually signing die, which is the last day of our legislative session. So from January to April, a big part of my job is budget hearings and bill testimony, all of that. Um, so there's a, there's a big component of the job too, or like this morning, you know, I, um, spoke at the university of Maryland. So there's a component of doing some.
+
+community engagement and legislative work as well.
+
+Savan Kong (45:56.722)
+Right, right. Yeah, I mean, that's such a wide variety of different skill sets that you need. If you had to tell a young woman, say, either getting into college or maybe graduating college and wants to go to graduate school,
+
+Katie Savage (46:00.54)
+Yeah.
+
+Savan Kong (46:13.581)
+If you had to give them advice on the types of things they should be focusing on or reading or learning to be a CIO at any level, what would some of those things be?
+
+Katie Savage (46:18.654)
+Hmm.
+
+Katie Savage (46:27.932)
+That's a good question. I think to be a successful CIO, you need to have a good mix of IT ops and product. And IT ops is sort of like a broader category of network, cybersecurity, web platforms, servers, data centers. I think it's really helpful to have
+
+and understanding of how the basics work. Enterprise platforms as well, identity and access, and where those things intersect. So a big cyber concern is like identity and access management. So what are the kind of enterprise products that advance and that we need to advance cybersecurity? So I think there's, if there's an opportunity to sort of be part of an IT shop and learn to the IT ops, I think that's really important.
+
+I would say conversely on the product side, if you have an opportunity to be part of, yeah, go do a hackathon or in some way, like honestly with AI, can survive code, like your own application. But I think learning your way around design, engineering, products, and I don't think you necessarily have, they don't have to be in equal proportion, but I think.
+
+They are very different skill sets that are often in the dip in the same space. And so I think being proficient, you know, in ops and proficient in product are actually equally important. I also think, you know, I'm just thinking about this a lot, like increasingly having a, I think it's always been this way, honestly, having a data background, the more you can do, I don't think it hurts anyone to be really proficient in how we collect managed store data.
+
+Savan Kong (48:05.984)
+Yeah.
+
+Savan Kong (48:13.263)
+Okay.
+
+Katie Savage (48:23.064)
+how we analyze it to make decisions, how we display information. So kind of the core of IT as data and then the more you can do to be steeped in data science, I think that is incredibly helpful.
+
+Savan Kong (48:37.635)
+Yeah, are there certain courses or tracks that you would recommend to younger people, that could help maybe jumpstart some of that stuff? Because I know AI is on top of mind for everybody, whether they understand it or not. It's coming for them in some capacity. And we're probably going to see a consolidation or a reinvention of
+
+Katie Savage (48:46.936)
+Mmm.
+
+Katie Savage (48:54.284)
+Yeah.
+
+Yeah.
+
+Savan Kong (49:06.351)
+I was just talking to a friend of mine and we were talking about like, is a traditional product manager even gonna be a thing or a UX designer? Is that even gonna be a thing? It's gonna be this weird hybrid. Like from what are you seeing right now, you know, being at the forefront of information technology at the state level that maybe give younger people like a cheat sheet of like, okay, like maybe these are the things you should probably be focusing on.
+
+Katie Savage (49:07.614)
+Absolutely. Yeah.
+
+Katie Savage (49:15.351)
+Yeah.
+
+Katie Savage (49:26.125)
+Yeah.
+
+Katie Savage (49:33.305)
+I know. I will be honest, this is one of the things that's starting to keep me up at night is, we have been thinking, like, I don't know right way to say it. We've been building these digital service teams for a while. And I still think that's the right approach. Like you still need those proficiencies to your point. But increasingly, those teams are going to have totally different tasks.
+
+Katie Savage (50:02.936)
+there might not even be a need in some cases for an application. You're going to be building an interface because you will have some kind of AI later layer that will extract data. You know, and so it's going to be like, we don't need that. Like it will be a lot of like middleware. think that, you know, pulls from a data source to an interface. And so the UX designer is going to be focused more on like not how do I make a dropdown menu, but like what is.
+
+Savan Kong (50:15.564)
+rate
+
+Katie Savage (50:32.128)
+what are the things that people are looking for from this interface and like, how do I code that? And so I think the, when we, you I was just reading something about like the role, to your point, the role of designers. I'm curious, this is your background, the role of designers in this space. And I don't think we want to automate discovery sprints.
+
+Savan Kong (50:38.499)
+Yep.
+
+Savan Kong (50:53.998)
+Mm-hmm.
+
+Katie Savage (50:57.538)
+But you can learn a lot from the way that you're, and not even just AI. mean, you you're looking at some of the features that you have for like network crawling tools that can tell you a lot. So I think it's increasingly going to be how these different competencies across engineering and design and product interact with these tools a little bit differently. I think it's going to be the, you know, kind of like the
+
+Savan Kong (51:11.975)
+Yep. Yep.
+
+Katie Savage (51:27.473)
+when my colleague says like the full stack builder, versus kind of the kind of individual, like the roles are just, the, the tasks are just going look very different. I
+
+Savan Kong (51:41.05)
+Yeah, I agree. I think there's probably going to be a blending of things, just like there was a blending of, like you were saying, the full stack developer. I feel like on the product side, even on the product marketing side, you probably are going to start shifting towards maybe full stack product people where you get to data.
+
+Katie Savage (52:00.008)
+Yeah, I think so.
+
+Savan Kong (52:03.479)
+pretty quickly, can synthesize it significantly faster. The process at which you're actually like going through it will probably remain the same in that, you you've got to be able to get some information from the user at some capacity, get them to trust you enough to tell you or watch you do it. But, you know, the way you go about doing it is going to be accelerating significantly, which I think is a good thing because, I mean, who the hell does that 10 days worth of notes?
+
+Katie Savage (52:19.763)
+Yeah.
+
+Katie Savage (52:29.652)
+It was a good thing.
+
+Savan Kong (52:33.357)
+you know, and that's
+
+Katie Savage (52:34.004)
+Not just that, but one of the things that I've been thinking about for a while, so last year, two years ago, maybe two years ago, I'm really losing track of time. I had the opportunity to go to Estonia because Maryland and Estonia had this like sister partnership. you know, remember meeting with them about the benefits work. And I thought maybe there was like a language barrier because I was asking them, you how do people apply for things? And they were like,
+
+Savan Kong (52:41.549)
+Cheers.
+
+Savan Kong (52:45.848)
+Oh, yeah.
+
+Katie Savage (53:03.869)
+I don't know you're talking about. And then finally, one of the hosts said, we just don't have applications because we know, we look at your data and we just give you the benefit because we know what you're eligible for. And that's kind of like the parallel that I think about with AI where it's like, you don't need an application application.
+
+Savan Kong (53:17.549)
+you
+
+Savan Kong (53:22.433)
+Yeah.
+
+Savan Kong (53:28.823)
+Yeah, yeah.
+
+Katie Savage (53:30.938)
+extracting data, but it goes back to understanding the core data that you need and knowing how to evaluate that and evaluate models. But I think that to me is the parallel of like, to your point where I'm optimistic about it, because instead of spending time like shoulder surfing, what do paper applications look like now and building an application.
+
+Savan Kong (53:39.85)
+Yeah.
+
+Katie Savage (53:55.7)
+you're focusing more on like, what are those kind of original data sources and how do we transform that into auto automatically give generating the benefit that you need. So I, that's where I'm, trying to be hopeful that that's the type of, know, and there you have the designer. They're not, again, they're not coding the interface of the application, but they are, they are still meeting with people. They still need for them to meet with people and understand like, um, you know, what are the challenges that you're having with the benefits?
+
+Savan Kong (54:05.226)
+Yeah.
+
+Katie Savage (54:25.35)
+now and becomes more of a focus on on that.
+
+Savan Kong (54:27.372)
+Yeah, love, Europe and Estonia specifically are doing so many things right. Like the thing about Estonia, and my brother lived in Finland for a while, so I probably know more about it than I probably could. But I think their default disposition is people should have these things and we're going to give it to them by default versus here. It's like, we're going to make work for it, right? Like, you got to apply for that.
+
+Katie Savage (54:41.076)
+Yeah.
+
+Katie Savage (54:51.374)
+Yes. That's the other difference. That is the other difference. Mm-hmm. Mm-hmm. Yeah, there is the, and that is like a cultural mindset that's hard to change. When, you know, it's interesting. We have a partner right now at some of our benefits work and in some states, you know, the benefits work is about preventing fraud. And then in some states it's about enabling access.
+
+Savan Kong (54:58.985)
+man.
+
+Katie Savage (55:21.711)
+You know, so it's, yeah, so it's really, and to your point, it's, I think what we see in some of our European counterparts, more of the, I think it tends to index more towards enabling access. Yeah.
+
+Savan Kong (55:36.265)
+Right. Katie, on the state level, how does the governor establish the vision for what Maryland should be having? I know the comparable to me in my head at the DOD is we've got, at least on the IT side, we've got the digital modernization strategy that gets published for years and sort of that is the
+
+vision for IT, but at the state level, how does that work and how does it go?
+
+Katie Savage (56:09.912)
+Yeah, yeah, so the governor introduced a state plan about maybe six months after he started or so, and that has 10 priorities across transportation, economic development, climate. And then from there, into your point, we have our own IT plan, IT master plan that speaks to a lot of those initiatives. Some of it is specific to IT and how we're thinking about
+
+the consolidation effort that I mentioned and the talent expansion effort that I mentioned. But, you know, one of the other, I guess, cultural things in trying to push out in Maryland is that technology is the means, the end for almost everything. And, you know, when we see agencies investing in talent, a lot of that needs to be product talent.
+
+Savan Kong (56:58.706)
+100%.
+
+Katie Savage (57:06.223)
+Because if it's benefits, if it's climate, if it's, you know, unemployment insurance, you need people who, you know, they're managing a product at scale and, know, they need to have more of that sort of like business product mindset. So when we look at the priorities in the state plan, we try and map those to what are all the software development requests, you know, or application requests that are coming in and how can we use technology to advance those.
+
+Savan Kong (57:22.174)
+Right.
+
+Savan Kong (57:37.591)
+Mm-hmm. Mm-hmm. Yeah. Is there like a back and forth that you guys have to do before the governor publishes that? Like, what does that look like? Because I know for the DOD, you got a draft, you send it out, it through CADMS, people approve it, send it out. Literally, it takes like a year and a half sometimes to get this document out. But like at the state level, what does that look like?
+
+Katie Savage (57:48.249)
+Yeah.
+
+Katie Savage (57:52.983)
+Yeah, yeah.
+
+Katie Savage (58:00.716)
+Yeah, that's interesting. mean, we have a portfolio of... So by law, our agency has to provide oversight over projects above $5 million. So everything. that is something that I think in different fiscal times, it was like, let's do them all. Here's money for all of them. And not only did that
+
+Savan Kong (58:15.55)
+Yeah, pretty much.
+
+Katie Savage (58:30.279)
+not introduce fiscal responsibility, but you know, as you know, it led to a lot of waterfall development. Let's gather all the requirements and then build. Here's $60 million upfront and we'll see you in five years. And I've tried to really change that. And to your point, it goes to working with the governor on like, okay, there are all these projects that were set in motion before I got here, which of these are priorities? And then how are we going to introduce agile development to them?
+
+And in some cases, like walk back, like the decades of investment in these things and tack it back to like, well, what's the outcome you're trying to solve and hold the vendor accountable for a minimum viable product, you know, even the first year and the kind of scaling from there. So it's something that has been a little bit of the wild west and not just Maryland, but I think a lot of states and frankly, the federal government. So it's something that I'm trying to leave behind as a legacy process.
+
+Savan Kong (59:11.978)
+Yeah.
+
+Savan Kong (59:24.505)
+Yep.
+
+Savan Kong (59:29.936)
+Yeah, I mean to that point Katie, how closely do you guys work with other states? like, you guys collaborate pretty close or is that more just...
+
+Katie Savage (59:35.735)
+Yeah.
+
+We do. Yeah. There's a network of, there's networks by roles. So there's like a chat with all the state CISOs, Information Security Officers. I think there's another group for data officers. Increasingly, there's a group for digital service teams. There are a couple of like the National Association of State CIOs that convene us all.
+
+Savan Kong (59:59.946)
+Mm.
+
+Katie Savage (01:00:05.42)
+But we tend to seek each other out if you've done a specific implementation or having a specific challenge. I'm talking to another state in a couple of weeks about our benefits platform. it has been collaborative. I think there's a really great opportunity as implementation really shifts to the state and local level to compare notes.
+
+Savan Kong (01:00:30.568)
+Yeah.
+
+Katie Savage (01:00:33.572)
+In some cases, share talent. There's been a couple cases where, with Pennsylvania, have, well, if someone moved into Maryland, well, if we someone move into Pennsylvania, this is a great person. So think also recommending talent has been kind of cool thing too.
+
+Savan Kong (01:00:48.032)
+That's awesome. I didn't know that. That's great. That's great. Katie, I want to spend the maybe the last five, 10 minutes here on a few fun things and a few looking ahead. If you...
+
+Katie Savage (01:00:50.921)
+Yeah, yeah.
+
+Katie Savage (01:00:58.7)
+Yeah.
+
+Maybe 10 minutes before my kids make a cameo.
+
+Savan Kong (01:01:05.852)
+Yeah, right. That's fine. If you had to come up with a motto for yourself, what would that motto be? And I'll give you an example. Sam Duncan's motto is, you're not the boss of me. That's her unaffiliated motto. What would yours be?
+
+Katie Savage (01:01:14.71)
+no.
+
+Katie Savage (01:01:20.265)
+Hmm
+
+Katie Savage (01:01:25.612)
+Ugh.
+
+Katie Savage (01:01:31.699)
+I have so many things that, you know I run and I like, I have a lot of ones that are tied to running.
+
+Savan Kong (01:01:39.079)
+Yeah.
+
+Katie Savage (01:01:43.338)
+The one that's coming to mind is never give up on a hill.
+
+Savan Kong (01:01:47.241)
+yes. Yeah. Those hills have beaten me many times and I've given up on many hills. But I like that.
+
+Katie Savage (01:01:52.636)
+Yeah. Yeah. I mean, when you're on the hill, you're like, I'm going to call it. And sometimes you do need to call it. I think giving yourself, pushing yourself to get to the top and then saying like, this isn't the view that I thought it was. I think when you're in the middle of it, it's really hard to make a choice. And that's something that I tell myself as a runner, as a mom.
+
+is not to give up on the hill.
+
+Savan Kong (01:02:26.822)
+I like that. Okay, we're gonna make shirts that we're sell here and we'll give a portion to whatever charity Katie wants, but never go with any them.
+
+Katie Savage (01:02:33.342)
+The other one I say to myself, is not really the motto, be, you can be done in eight minutes or 20. Do you want to run or do want to walk? But that's all I've been going through my head when I'm tired at the end of a race.
+
+Savan Kong (01:02:46.929)
+I like that too.
+
+man.
+
+Savan Kong (01:02:57.212)
+gosh. Katie, last question for you. Let's fast forward 30 years, 35 years down the line and I ask all the parents this question for their finale. But if your kids watch this 35 years from now, what would you hope they take out of our conversation today?
+
+Katie Savage (01:03:06.91)
+Yeah.
+
+Katie Savage (01:03:19.836)
+Hmm.
+
+Well, honey, you're watching this, Agnes Axel, if you're watching this in 35 years, know that I love you. Also know that this work was not done in spite of you, but because of you. Being a parent is, and working parent is very hard.
+
+Savan Kong (01:03:42.161)
+Mm.
+
+Savan Kong (01:03:47.868)
+Yeah.
+
+Katie Savage (01:03:48.455)
+whether you work in the home as a full-time parent or you're doing both with child, it's hard. But it's also a good inspiration. I think a lot, there was a, we kicked off the launch of our one application program this summer. And there was a mom who was talking about dragging her kids on four different buses to different benefits offices. And that touched me in a way that,
+
+It made a larger impact now that I have two kids and have dragged them on buses. You can't imagine doing that, especially when literally my life depended on it. So, you I want them to know that they were as much of an inspiration for this work as anything and don't give up on a hill. It's really hard to balance your personal life and your professional life, especially with
+
+Savan Kong (01:04:21.702)
+right.
+
+Savan Kong (01:04:27.205)
+Mm-hmm.
+
+Katie Savage (01:04:45.401)
+with little kids, but it also makes you, I think, more resilient and gives you the opportunity to model your work at home and in the broader world.
+
+Savan Kong (01:05:00.567)
+Yeah, so kids never get up on that hill there you go
+
+Katie Savage (01:05:04.228)
+Hahahaha
+
+Savan Kong (01:05:07.419)
+Well, Katie, it's been an honor to have you on my friend. I can thank you enough for how you've shaped me both professionally and personally and give the family a hug for me and we'll talk soon.
+
+Katie Savage (01:05:17.358)
+same.
+
+You're welcome.
+
+Thank you. I really appreciate it.
+
+Savan Kong (01:05:25.432)
+All right. Talk to you later. Bye.
+

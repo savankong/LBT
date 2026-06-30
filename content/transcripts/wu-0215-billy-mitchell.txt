@@ -1,0 +1,987 @@
+Savan Kong (00:00.987)
+Welcome to Work Unscripted. I'm your host, Savan, and today I've got my good friend, Billy Mitchell. Billy, what's up? How are you?
+
+Billy Mitchell (00:09.784)
+Savannah, good to see you, man. Long time no see.
+
+Savan Kong (00:12.433)
+Long time no see, my friend. So you wear many hats. You're now, I think it's the senior vice president or the executive vice president, one of those of the same age group.
+
+Billy Mitchell (00:24.408)
+yeah, it's a, it's a loaded title, but I, I'd say I oversee our editorial operations. you know, I think the title I give people most is executive editor and what that to me means. And I mean, you could look at, you know, any publication out there and they're probably going to have some sort of executive editor and it could mean a different thing to me. I'm, the, the top of, of that team, ensuring consistency that people have what they need that, you know,
+
+Savan Kong (00:36.754)
+Mmm.
+
+Billy Mitchell (00:53.184)
+I'm the person that makes sure as the business operates and inner operates with the editorial side of things, I'm sort of the point there to make sure that there's that ethical boundary as well. you know, really just overseeing everything editorially. If you've encountered a scoop news group brand like FedScoop, DefendScoop, et cetera.
+
+Savan Kong (01:14.257)
+Yeah, dude, that's awesome, man. And like, the reason why I love having you on the show is that there's so much out there that's moving so quickly, whether it's AI, our government, changes in industry, and we'll talk about all those things in our podcast interview, but I wanna start somewhere where you posted something, and I found it really fascinating because,
+
+You had said that you can tell almost immediately if your reporters have interviewed the person either via email or actually done it over the phone or in person. I wanna ask you like, one, how do you do that? And then two, how do you build a skill to do that? Cause I love being able to call it bullshit where it's like, dude, did you actually do the work, right? Like, did you actually go and talk to this person? Well, not really, but.
+
+Billy Mitchell (02:10.221)
+Yeah.
+
+Savan Kong (02:11.633)
+Tell me the story, man. Where'd that come from?
+
+Billy Mitchell (02:13.848)
+I think, yeah, I'm trying to remember the posts, but I think there's, spend enough time and just like any, any job, you spend enough time around your job, the type of work in this case, journalism reporting, and you understand this sort of nuances of the industry and sort of how that interaction works. And it's, you know, it's a basic human interaction, but it's also a very complex one. And you can tell based on the sort of canned
+
+Savan Kong (02:22.652)
+Yeah.
+
+Billy Mitchell (02:43.722)
+response you might get from somebody in an email where somebody gets the chance where, you know, if you asked me this question, via email, I would answer it very differently than I would here. you know, on the spot. So I think, you know, there's a value to that. And, and, know, that we as journalists, and, I, as an editor pushing my team as journalists to, you know, do reporting, do journalism, always kind of want that on the record in person.
+
+Savan Kong (02:50.449)
+Yeah.
+
+Savan Kong (02:55.965)
+Yeah.
+
+Billy Mitchell (03:13.278)
+you know, natural human response when, when possible, obviously there's times when, you need that, you can't, maybe you can't get access to someone in the next best option is an emailed type of interview, but, you could tell because, you know, people are going to not have the opportunity to sit there and think about their answers. similar to me rambling on right now, you know, I would give you probably a much more concise into the point and probably less, interesting response. And, and so,
+
+Savan Kong (03:24.593)
+Yeah.
+
+Savan Kong (03:40.925)
+Yeah.
+
+Billy Mitchell (03:41.591)
+Yeah. You, begin to recognize those things. There's other, you know, you begin to recognize also, you know, unfortunately there's been people I've edited for that would pull things straight from press releases and, you know, and in a sense that's a form of plagiarism to me and, know, we'd have to call them out on it and unfortunately fracture those relationships way long time ago. mention, mention any names or types of people and not at my current organization, but you know, you begin to see sort of those, unfortunate hallmarks of what I would call.
+
+Savan Kong (04:00.046)
+and A.
+
+Yeah.
+
+Billy Mitchell (04:10.732)
+lazy work. So I don't remember the post that I put. was probably feeling a little spicy that day and just kind of something but
+
+Savan Kong (04:15.205)
+Yeah, you definitely were. We'll add that to the description of his exact post back to his LinkedIn profile.
+
+Billy Mitchell (04:19.862)
+Yeah. Yeah. But you, you, you learn to see those things. And I mean, unfortunately in today's world, it's like, you know, seeing authenticity and work and being able to, you know, frankly snuff out of something's been created by generative AI. It's the same sort of routine. It's, it's more difficult and it's unfortunately a conversation you never want to have. I haven't had to have with my staff or anybody on my staff,
+
+Savan Kong (04:35.996)
+Yeah, for sure.
+
+Billy Mitchell (04:45.646)
+today in terms of generative AI, I know it's something out there and it's something that we'll have to keep our eyes on. Um, whether it's, know, somebody on our staff using a tool and needing to be more transparent about it, because if you are, you have to be transparent about it or you leave, lose all authority and sort of trust with the reader. Um, but same thing on the other side with, um, you know, whether it's press people, you know, publicists, cetera, creating things from, you know, generative AI. Um, it, it interests you. It introduces a new,
+
+dynamic that it may be helpful and sort of being efficient, but it really takes away from that authenticity, which I think at the end of the day, if journalism is going to win out in the age of AI, you need to be authentic.
+
+Savan Kong (05:22.941)
+Yep.
+
+Savan Kong (05:30.641)
+Yeah, I mean, that's interesting to me. Like, what is your guys' stance at Scoop News about AI in general? Because I know that there are certain organizations that are leaning into it as a tool. There are other ones where they're very against it, very allergic to it. Like, what's your guys' stance?
+
+Billy Mitchell (05:49.997)
+Yeah. So, I mean, for those who may not be aware of what we do, I mean, we're very much a trade publication. We're not the Wall Street Journal. We're not the New York Times. We're not the Washington Post. Nobody's going to read us every day expecting us to cover everything under the sun like those publications do. We really fill a niche, which is, you know, if you look at FedScoop, it's the intersection of federal government and technology. DefenseScoop, very similar. It's the Defense Department and the military apparatus and technology.
+
+Savan Kong (06:07.1)
+Right.
+
+Billy Mitchell (06:19.106)
+You name it, each of our brands kind of fills a similar public sector technology niche. So, as trade publications, you know, we, I don't think, I think it would be a little.
+
+stupid of us maybe to, try to be first move adopters on these things and to kind of like put that risk out there. We don't need to move as quickly. And that's just me being totally objective. And that's my, my thought on it. And people might think that that seems counter or not, you know, innovative enough, but there is a lot of risk, especially again, when you go back to the point I just made about being truth or authoritative and trusting with your audience, AI,
+
+comes with a lot of pitfalls. mean, there's obviously the immense risk on the security side and other, you know, people putting information out there or doing things that you might not want them to do. But, you know, again, somebody writing a story or using generative AI to put something into a piece of content could have massively damaging impacts to a brand, as we've seen with places like Sports Illustrated and other publications. So we are, I think, fast followers at this point. We are being very thoughtful.
+
+about how we use it. I, you know, working in this space and being around technologists all the time in another space that's particularly, you know, late adopters in terms of government, you know, seeing how they kind of follow commercial industry and are thoughtful because of the security requirements. It's a very similar dynamic. And so we want to be conscious of the benefits and the risks.
+
+and smart and I think there's huge potential in using AI as a tool in your tool belt. But the place that I draw the line and I think most folks in my industry would as well as any sort of content that's produced by AI that's going to be made public and presented as anything but AI, as part of a writer's byline or something like that really crosses the line.
+
+Savan Kong (08:07.239)
+right?
+
+Right?
+
+Billy Mitchell (08:32.926)
+I, you know, it may be just a philosophical belief of mine as a journalist and like wanting to empower other journalists and, you know, humans to do that work. But I think ultimately, if you want that authenticity, that trust with the reader and really the expertise, it needs to remain the job of the human. Again, there's places for AI in terms of maybe editing and helping gather information and do research and, you know, this and that.
+
+Savan Kong (08:54.993)
+Right. Right.
+
+Billy Mitchell (09:01.496)
+But once you kind of cross that firewall of the backend reporting, researching, et cetera, into something that's published, I think that's where we, at least at this point, are saying, no, we're not going to cross that line.
+
+Savan Kong (09:15.943)
+Yeah, I I find it so interesting because AI can do so much and it's such a broad term now, you know, because it's baked into literally every single app that you have, whether it's Google Sheets or your email or whatnot. know, the, when you guys actually start to write stories, the one thing that I always wondered about is what's that process look like? And I know you do interviews because you and I have done a bunch in the past and conferences.
+
+Billy Mitchell (09:25.027)
+Yeah.
+
+Billy Mitchell (09:42.306)
+Mm-hmm.
+
+Savan Kong (09:44.509)
+to sort of get to the core of what that story is about. But with AI now, is that something that you're leaning into when you're doing the research part of it? I know the editorial part is probably a lot different, but from a research perspective, how do you guys use AI tools to sort of get maybe the framework of the conversation? Or do you use it at all?
+
+Billy Mitchell (10:09.592)
+I think it depends on the story. I'll give a couple of different examples. mean, I think AI can be a good, know, say I'm having a rainy day and I just can't get going and I, you know, I can't figure out what, you know, and I'm saying this totally hypothetically, you know, as an example. But I need, you know, I'm trying to think of like, how do I, I know there's something I want to write about, you know, let's just say
+
+Savan Kong (10:21.873)
+Yeah.
+
+Savan Kong (10:28.221)
+Right, right.
+
+Billy Mitchell (10:38.05)
+D O D C C that's just something top of mind randomly. And I'm like, what's the latest? And like, what have we not written about? You know, maybe generative AI is a good tool to have a conversation with it and say, you know, what's the latest coverage on CMMC that's out there. helps me kind of cut down on the time that research of like what this status quo article, you know, base database of articles out there is, you know, what
+
+hasn't been written about asking it that question to kind of do that analysis and sort of research in that way. So it can sort of be, you know, a research assistant to kind of help formulate ideas. I think that's a good use case. The place I see it as, you know, maybe most meaningful is really, you know, in data journalism, journalists, it's just using data and using that as the sort of core of your story. So taking, taking large databases and,
+
+Savan Kong (11:23.911)
+Hmm, what is that?
+
+Savan Kong (11:30.673)
+city.
+
+Billy Mitchell (11:34.105)
+There are a lot of highly skilled data journalists out there who have, you know, that really strong data science background to compliment their, their journalism skillset, but there's not many of them. And I think, you know, you talk to a lot of journalists and they, ask them like, how can you progress in your career? What's another thing you're missing that you would like to do? A lot of them say data journalism because there's so much, there's an abundance of publicly available data out there. know this from
+
+Savan Kong (11:37.732)
+Mm-hmm.
+
+Billy Mitchell (12:03.49)
+you know, being in the government space, but, you have to have a skillset to kind of put that together and kind of analyze and take insight out of it. I think AI is a tool where you can begin to lessen that gap as the average journalist in, you know, dropping huge databases or, you know, spreadsheets of data into, you know, a Google notebook or
+
+whatever it might be and start to ask it questions and see if it might be able to put things together for you. And then you might start to discover things out that data set that the human eye isn't going to discover where it would take a really long time to discover. you know, putting that together, creating, I guess, assets that can can supplement a story in a way that really add value for the reader and bring a piece of data or large database to life in a
+
+Savan Kong (12:30.427)
+Yeah.
+
+Billy Mitchell (12:59.146)
+Storytelling Sense is, I think, a big opportunity for AI and one that I think doesn't blur any of the lines ethically. think it's just, again, an assistant now that you have at your disposal in the digital world.
+
+Savan Kong (13:14.289)
+Right, right, right. Yeah, that's super interesting to me, especially the piece where you talk about, you know, where journalists will go about using AI as a tool to facilitate ideation of different story topics and whatnot. I want to maybe circle back a little bit to the work that you guys have been doing at Scoop News Media Group. You've been around for a couple years now.
+
+I've known you guys since I started the DOD, which was like probably eight years now. How long have you guys been around? I would imagine it's around that, right? Like 10 years,
+
+Billy Mitchell (13:50.991)
+It's longer. Yes. I've been there 12 years now. I started out as like editorial assistant and kind of, you know, found some interesting stuff to do and I've kind of worked my way up. But it was created during the first year, I think, of the Obama administration. So I think it's been about 18 years. And that was just at the beginning. FedScoop was the sort of flagship publication. I mean, it's still our
+
+Savan Kong (13:55.643)
+Okay, cool.
+
+Savan Kong (14:05.435)
+Right?
+
+Savan Kong (14:12.567)
+wow.
+
+Billy Mitchell (14:20.302)
+Blackship publication. but that was the only one back then. And then since then I've sort of branched off again in the way I described it earlier, each publication sort of focuses on a different public sector technology angle. So it was Fed scoop and then state scoop. And then I think shortly after that, it was like Ed and cyber scoop around the same time coming to covering the education in the larger cybersecurity market. and then our most recent,
+
+to our defense scoop, is kind of my baby, my passion project that I've spent a lot of time on. And then AI scoop, which is really just kind of compiling all the AI news and different happenings in the public sector as it relates to AI. So we've been around for pushing two decades and I think our MO in everything we do, we also have a massive events business that, you know, lot of people know us for. We put on
+
+Savan Kong (14:50.546)
+Yeah.
+
+Savan Kong (15:03.773)
+you
+
+Billy Mitchell (15:13.976)
+Fantastic events. say we, it's yeah. And it's, it's not me doing it. You might see me on stage talking to folks. There's a whole team that, you know, it's not even a very big team, but they, they absolutely kill what they do. but again, I think the thing that ties all of it together outside of the public sector and the technology focus is really the attention to quality. And, you know, whether it's a story we're writing and we're trying to
+
+Savan Kong (15:15.291)
+Dude, some of the best. Some of the fucking best of the year, bro. Like, you guys are killing it with that.
+
+Savan Kong (15:37.17)
+Yeah.
+
+Billy Mitchell (15:42.179)
+go for the quality over the quantity or the event where we're kind of, you know, no expenses spared, you know, trying to get the best speakers and provide the best experience. That's really our, our brand to a T and, I think it's really, you know, it's, it's helped me as an editor really know what I want to do. Like, you know, what's going to differentiate us from one of our competitors or the next is, is really, you know, we want to be all about quality all the time and, and, you know, providing
+
+Savan Kong (16:10.268)
+Yeah.
+
+Billy Mitchell (16:11.786)
+stories that have impact that you're not going to get elsewhere. So it's been easy to kind of give my team that MO and say, you know, let's not try to write every story. Let's not try to, you know, aggregate or, you know, be a journalism is a word that is tossed around, which just means like turning through stories or content mill. I've been at those places earlier in my career and they're not fun to be a part of. And frankly, they're, they lack a lot.
+
+Savan Kong (16:32.646)
+Yeah.
+
+Billy Mitchell (16:41.414)
+of value to the greater community. I want to create that value and be the publication that doesn't do everything, but that people know when you come to read our stuff, it's going to be different than you're going to find anywhere else.
+
+Savan Kong (16:57.297)
+Yeah, the attention and quality you guys have is impeccable. Like I remember the last panel I was at, I can't remember the venue. This is probably about two years ago now. And I just remember seeing there was like a candy table and I've never thought about a candy table before. But when I saw it, I was like, this is fucking amazing. Like who the hell thinks of these things as part of the experience, but you guys clearly do because
+
+Billy Mitchell (17:15.085)
+Yeah
+
+Billy Mitchell (17:22.135)
+Yeah.
+
+Savan Kong (17:26.137)
+It's intentionally set up to be that way. And the event was packed out, man. I mean, when I say it's probably one of the best, it's definitely up there in terms of private events. Like, how did you guys go from this editorial team covering stories to then putting on these events? Because those two beasts are not the same at all. Like, you could be two different companies all the way around.
+
+Billy Mitchell (17:28.94)
+Yeah.
+
+Billy Mitchell (17:51.063)
+Yeah, I can't say I have any responsibility for that. You know, again, by the time I'd been on board, we had a very successful events and editorial business. it's not uncommon in the media world. I mean, if you look at the post or Politico, they have a lot of events. I would say, though that, it's very beneficial for me and for both sides, cause we're essentially doing the same function just in different form.
+
+you know, we're talking to people and producing stories, which is content. The events team is providing a product, which is that event, which is bringing people together and providing that same content. And both of those things can feed off of one another. I've found it incredibly valuable for my own personal brand and career, to be able to kind of hop back and forth between the events and editorial side have spent a lot more time in the last several years, moderating and hosting.
+
+Savan Kong (18:32.817)
+Yeah.
+
+Billy Mitchell (18:50.784)
+events, just because I've become more ingrained in this federal and defense technology communities where I know these people and I know the topics I know how to talk about it. I know how to kind of go out there and show the importance of it. and so it's very beneficial, but yeah, I mean, it's, it's also, you know, similar to my point about, you know, there being these massive sort of mainstream publications out there, which I wouldn't compare, consider our competitors, but they kind of set a
+
+a level of what people think media should be. And we're something different. We're not trying to go out there and again, write every story or, or, you know, be the paper of record, so to speak, like Washington Post or New York Times. Similar. There's a ton of events across DC everyday. DC is just like a wild events town. You know, not, not in the way that New York is for like fashion and music and entertainment, but
+
+Savan Kong (19:41.29)
+yes. my god. my god.
+
+Billy Mitchell (19:49.123)
+you know, obviously policy politics and, you know, the whole intersection of these various beltway, you know, types of things. We don't want to present the same tired, sleepy basement of the Washington Hilton type event. We want to find cool spots with speakers you can't access anywhere else with a, a uplifting vibe and a mood that's going to kind of create a
+
+better product for the folks that are going to be in attendance and give them something again that they're not going to get anywhere else. Whether that's a candy bar or, you know, an opportunity to rub shoulders with the chief information officer of, you know, the department of war or defense, you know, that they might not be able to access somewhere else. So I think it's presenting things that, you know, have impact that have quality.
+
+Savan Kong (20:27.388)
+Yeah.
+
+Savan Kong (20:36.337)
+Yeah, for sure.
+
+Billy Mitchell (20:45.23)
+that you're not going to be able to get it anywhere else. And I think that kind of is what you see across the board for everything we do at scoop news.
+
+Savan Kong (20:52.305)
+Yeah, that's amazing, man. You guys have done a fantastic job there. Billy, I want to ask a little bit about the span of two decades since you guys started. Multiple administrations, significant changes, even as you look across from Obama until now. The nature of your business changes based on the administration. And unlike the private sector, which could remain steady, you're covering Microsoft.
+
+sort of this natural evolution. The changes within covering FedScoop, DefenseScoop, EdScoop, you name it, is constantly moving. Like how do you guys, one, continue to build trust with new administration changes coming in, right? Like I imagine that's pretty hard. But also two, once you've built that trust, how do you then go about reporting it in a way where...
+
+It's respectful both to the reader because you're not talking down to them, but also to the people that are that you're interviewing because they may have different approaches to how to do the work.
+
+Billy Mitchell (21:59.193)
+Yeah. I will start by saying this was a lot easier two years ago and prior. And I will end my comment there in that regard. you know, it is difficult. The federal government is this beast that is very consistent in some ways. And in other ways, it's very inconsistent or rapidly changing every four years or every eight years, depending on, you know, how long an administration
+
+Savan Kong (22:06.519)
+Yeah.
+
+Yeah, yeah.
+
+Billy Mitchell (22:28.43)
+stays in office. And so you find those things you can sort of cling to those familiar faces. And there are a lot of career folks or were a lot of career folks and folks who stuck around for a long time, there's less of them now, are fewer of them now. And those were the folks that made it easier to kind of transition between administrations or between, you know, when things changed.
+
+Savan Kong (22:40.263)
+Mm-hmm.
+
+Billy Mitchell (22:53.25)
+You kind of stuck to the deputies rather than the top level politicals and, and got to know them. And they were often the folks who could make those intros because they built trust with those new people and could vouch for you. That changed again, because, you know, you saw a mass exodus of folks in the federal government who were in career positions. They were largely targeted. And there's a lot more politicals now who are kind of playing by a different playbook.
+
+Not to say that that is a negative thing. It's just different. And so it's taken a lot more work this time to kind of start net new. It has worked. There are also, I think as that rapid change occurred, you know, in January, 2025 to now, there was a lot of people who probably wouldn't have interacted with the media that were invigorated or kind of
+
+charged in a way that felt like it was their sort of duty to kind of tell their story or tell the story of what was going on. And it was difficult to navigate because, you know, a lot of those folks did not want to go on the record, meaning they didn't want to be attributed to what they were telling us. But there was still a story to tell there. So we had to work extra hard and
+
+I really thought largely of last year as a way that we really did. I forgot the way I characterized it, but it was, it was largely, us doing journalism through, anonymous, you know, sources often. And it's hard to do that. And it's not something I don't think journalists like doing as much as you might see it in some of the. Or your mainstream publications. And when they have these kinds of bombastic stories about.
+
+Savan Kong (24:38.257)
+Okay.
+
+Billy Mitchell (24:48.62)
+you know, something going on at the White House or the signal leak or something like that. you know, a lot of times those come with anonymous, sources or, you know, things that are not attributed directly to someone. And that gives, you know, I know it gives me sort of that uneasy, queasy feeling in my stomach. And it's not always a great look because it's easy for somebody to poke a hole in and say, Hey, look, nobody puts their name next to that. How am I supposed to believe you?
+
+Savan Kong (24:53.073)
+Right?
+
+Savan Kong (25:16.721)
+Right?
+
+Billy Mitchell (25:16.982)
+And again, I think that goes back to the trust and the authenticity and like, you have to build a body of work where people know that they can trust you. And that's why like things like generative AI or, you know, other, you know, actions that might put your credibility or risk or just never worth it because you have that, that you're only as strong as your credibility, authenticity, and trust with the reader in this industry, because you can't pull things off like that. there's other ways you can verify.
+
+people and kind of corroborate stories and obviously saying, I have five people telling me this. I'm not going to name them as much stronger than saying I have one person who does that. but that was a lot of that last year. And so it's, it's difficult. And, you know, over the course of the 20 years that nearly 20 years that we've existed, they were maybe brighter days early on when, you know, things felt very optimistic and everybody was kind of
+
+arm in arm getting excited about technology modernization and doing things better for the taxpayer and for American citizens. Not to say that's not still happening. you know, largely, I think there is this core in government of folks who are really there because they want to do better for the country and kind of use technology to make the country more safe and secure and
+
+Savan Kong (26:22.663)
+Yeah, for sure.
+
+Savan Kong (26:44.253)
+for sure.
+
+Billy Mitchell (26:45.676)
+have better services for Americans. but it was, it was definitely tested, over the last couple of years because there was an ax or a chainsaw taken to that, kind of infrastructure and in that, to that core. so, I think, I think there will be a positive and has been a positive sort of shift back. I think of a lot of things in terms of a pendulum and, know, last year,
+
+Savan Kong (26:57.137)
+Yep.
+
+Savan Kong (27:12.334)
+I agree.
+
+Billy Mitchell (27:13.292)
+last year, things really swung really drastically in one direction. Now we're kind of on our way back and, you know, there will be a more optimistic light at the end of the tunnel here in the future and sort of has been happening. but it was difficult and it was different, but outside of that, you know, it's really, you know, to answer your original question, it really is, you know, building trust and building relationships with people, essentially those career people. you know, obviously again,
+
+There's going to be the kind of shuffling of chairs in terms of top level political people. but that's, that's it. That's a known constant change and you can kind of plan for that to some degree as well. think being established as the place that people are going to want to go to kind of get their message out, whether that's in an event or in the media and the news media, kind of means a lot and they'll want to organically come to us for that reason, but also
+
+Savan Kong (27:49.917)
+Right.
+
+Billy Mitchell (28:12.812)
+having those people inside a government that can vouch for us that we've worked with for years and decades, it really goes a long way.
+
+Savan Kong (28:22.141)
+Yeah, the one thing, you know, I had John Sherman's episode released last week. And the one thing that he talked about was, yeah, I do too, man. I love that guy. He said, you know, technology, there's no political party with technology, right? It's like, either works or it doesn't work. And it's either beneficial or it could be improved on in some way. And I want to ask you maybe the same question, but worded a little bit differently in that when you're...
+
+Billy Mitchell (28:26.946)
+Yeah, I love Doug.
+
+Billy Mitchell (28:35.649)
+Exactly.
+
+Savan Kong (28:50.407)
+picking up stories or writing stories and you're doing these publications over the course of two decades, how do you frame stories in a way where it's not politically charged so that you can write something under both a Republican administration but also a Democrat administration? Like what does that even look like? So that the story's interesting still, but you're sort of getting to the root of why that story's important.
+
+Billy Mitchell (29:20.812)
+Yeah, no, I think that's a good question because I think a lot of people complain what we do with politics and it's not, you know, it is a bipartisan and or nonpartisan focus. you know, technology modernization inherently, I don't think like, you know, you, you said, Mr. Sherman may have said has a political party. It is technology is for the good of the people and, barring some risky decision, you know, buying technology shouldn't be
+
+Savan Kong (29:26.939)
+Right. Right.
+
+Billy Mitchell (29:50.489)
+kind of considered anything political. And therefore, historically has been pretty easy to kind of tow that line. And we really just kind of report the facts. Again, in recent years, have been things that have been politics maybe masqueraded as policy, whether that's like the doge is essentially a policy vehicle to kind of reduce the federal workforce.
+
+but that is laden with politics. And so it is hard to separate that. And it's been increasingly hard to, you know, again, sticking to the truth, sticking to the facts, not, you know, using any sort of opinion, especially the writers, but trying to filter that out from, you know, people have only become more inflamed in terms of the punditry and the way that they kind of go about things and kind of present their politics. So
+
+being wary of that and how that may kind of pervade itself in your stories. But at the end of the day, I think, you know, we still try to stick to the facts and to that, that central line of the truth. And so like, if we're reporting on the Doge, we're not saying, you know, the Doge is bad. We're just saying the Doge is doing this and that's for the reader to make their decision on. Again, I think people with their certain
+
+Savan Kong (31:12.786)
+Right.
+
+Billy Mitchell (31:16.724)
+opinions about things may believe that because we're reporting on it, that that's a choice of, know, and that therefore we are maybe jaded in that direction. I don't necessarily agree with that. I mean, we have sort of editorial principles that kind of guide us in how we navigate that and sort of how we decide what stories are really have merit and are worth writing about. But it has been more hard because those things, as I described them, the
+
+the politics masqueraded as policy come with certain people who, they see you covering it in that way, construe it as negative. And therefore there's this thought that we are biased at the furthest thing from the truth to me, but that's just the modern world. And particularly as more and more, unfortunately, Americans have mistrust in the media.
+
+Savan Kong (32:05.191)
+Yeah.
+
+Billy Mitchell (32:14.368)
+just something we have to deal with. And again, it's up to us to kind of rebuild that trust. And, you know, that's why I think the hallmark of everything we do has to be rooted in decisions where we say, is this based on fact? am I doing it in an authoritative, incredible way? Because if you don't have those things answered, you really aren't doing journalism and you're not going to be able to earn the trust of readers. So I think without that, you really don't have anything. You may be
+
+entertaining someone, you may be helping people pass time. You may even be informing them to some degree, but if you're not earning their trust and doing something in an authentic way like that, it's really not. It's not the same.
+
+Savan Kong (33:02.205)
+Yeah, agreed, agreed. I wanna maybe talk a little bit about the machine that goes into when you guys publish stories, because I don't, as a person who's been interviewed by you guys and also consumes your editorials consistently, I just see the final product of things. But what I'm interested in about is, as a person who's overseeing the editorial team,
+
+Are there certain things that you look for so that your stories are not biased where, you know, potentially a writer will say something a certain way and you're like, well, that might be misconstrued or, you know, that could be taken in a different direction than you were intending. if so, like, what is that? What is that process like? Do you have that filter that lends in your brain as you're going through each story that comes out?
+
+Billy Mitchell (33:58.637)
+Yeah. Yeah. So we have editorial, you know, I call us, call them our editorial standards, that I actually helped create, a couple of years ago. And, I think the, the point of which you're asking them the most relevant one to, this is just like fair, fair, accurate and balanced is sort of three, like a trio of guiding principles. Obviously, everything needs to be accurate or else it's not journalism, it's opinion. And that's not where in the business of, but
+
+Being fair means, you know, if I'm writing something about Savannah, that's negative. I'm going to give Savannah a chance to comment. And if he doesn't, I'm at least going to say, Hey, I gave him the opportunity and he said no. and therefore, you know, I at least gave you that, that opportunity. and, so creating that, that opportunity, that balance I think is sort of essential to that. And, know, there's going to be people out there that say negative things about other
+
+Savan Kong (34:35.132)
+Mmm.
+
+Billy Mitchell (34:56.962)
+people. And obviously there's, there's a whole nother element that kind of gets into that in terms of journalism law or media law in defamation and libel and things of that nature. Those are totally different bars that, but also complete, very relevant ones that, you know, my team and I especially need to be aware of. And so we have a number of editors on staff, including myself that, you know,
+
+Savan Kong (35:01.927)
+Yeah.
+
+Billy Mitchell (35:24.812)
+when we are reading pieces, we're not just looking for typos and misspellings and, you know, misidentifications or this or that in terms of like the grammar and the actual accuracy of the piece. But making sure that it's fair, balanced and accurate and that, you know, if we kind of catch wind of something that could be defamatory or, you know, that feels targeted at someone in a way that crosses a line of, you know, the law.
+
+that kind of people are protected by that we flag that and remediate it or, you know, find a way to address it way, way, way long before the story gets close to publication. so every publication, mean, outside of ours have their own sort of processes for how they address it, but it really differs based on the type of story, the gravity of the story, the sensitivity of the, you know,
+
+Savan Kong (36:08.391)
+Great.
+
+Billy Mitchell (36:25.014)
+matters that are addressed in it. And, you know, when those things happen and we know we're dealing with something particularly thorny or hairy, however you want to describe it, we really kind of convene as early on in the process, preferably before, anybody puts pen to paper, so to speak, so that we can start to be thoughtful about, you know, the way we're going to address it and, know, save people time if we needed to tank a story. I mean, it happens all the time where
+
+you know, somebody starts to report something or research something, maybe even started to draft out a story. And there's something that we're just not comfortable with because it might cross a line. We work with a, a law firm that, know, when we need to write about matters that could be particularly troublesome, you know, for us, we, we kind of consult with them to make sure that our everything's airtight. And if it's not,
+
+We're absolutely not going to publish it. There's no worth in unless there was, I mean, and again, there's, there's this balancing act of like the need to know the information, for the public and the, the accuracy and the, you know, potential damage that might be done if you publish the story. so figuring those things out, it's very hard. There's no like black and white in it. There's a lot of gray area.
+
+Savan Kong (37:25.405)
+Thank
+
+Savan Kong (37:34.449)
+Mm-hmm.
+
+Savan Kong (37:41.414)
+Right.
+
+Savan Kong (37:51.475)
+for sure. For sure.
+
+Billy Mitchell (37:52.895)
+and, and so, you know, I, I'm not saying that I am kind of weak and, you know, puny in that I'll just take a story because I'm scared to, kind of go after someone or something like that, but you really have to be thoughtful about the impact of your work in both good and bad ways. and, and again, thinking about, you know, does the public need to know this?
+
+And if I publish this, what are the potential damages or harm that I can do to the individual or, know, in some cases, I mean, God forbid, you know, we're writing about national security and defense matters. And we've seen it where, you know, publishing something that might be classified or, know, I mean, we don't deal with this a lot, but you know, something that's classified or something that deals with matters of military operations, you know, there's major impacts. And so you need to be.
+
+conscious and reflect on that quite a lot. So I wouldn't say we table a lot of stories, but there's a lot of times where we have these really hard conversations. And then if we need to, because we can't answer something or, know, feel good about that sort of test that we're putting ourselves through, we will just, we'll say, Hey, we got to table this for now. Come back to it. If we can get a better answer to that question or whatever it may be.
+
+But without it, we just don't feel comfortable moving forward. So it happens and you and you have to feel good about that because the worst thing would be to do something that could bring harm to someone else in, know, that you're writing about or to bring disrepute and a lack of credibility to your own publication.
+
+Savan Kong (39:24.859)
+Yeah, no, for sure.
+
+Savan Kong (39:41.393)
+Yeah, I mean, I think like there's that fine line between being thorough about what you're covering and especially when it comes to defense things. would, defense and federal at large, where there's a national security involved, gets really tricky as to where that line is. Like you may have the information, but is it beneficial to actually publish those things?
+
+Billy Mitchell (39:55.491)
+Yeah.
+
+Savan Kong (40:07.785)
+I would love to be a fly on the wall when you guys are going through some of those, that's highly fascinating to me, Billy, I want to talk a little bit about Signalgate since you brought that up. And I know that you guys didn't have anything to do with it. But what were some of the things that you guys felt, or maybe you felt personally, after Signalgate had come out?
+
+Billy Mitchell (40:09.422)
+It's tense.
+
+It's dense.
+
+Savan Kong (40:34.538)
+And did that change anything for how you guys approached reporting against the current administration's efforts?
+
+Billy Mitchell (40:42.958)
+I don't know the change to anything. mean, it was just a very interesting moment. know, I, I wish hopefully one day somebody will write a, you know, like expose or memoir on it or whatever it might be, you know, because I just, it seems so infinitely impossible that I was the, the, the, editor in chief of the Atlantic that was on the Jeff. I can't remember. Maybe it's not his name, but I, that he would have been added to that at a
+
+Savan Kong (40:53.468)
+Yeah.
+
+Savan Kong (41:00.061)
+that happened.
+
+Savan Kong (41:11.708)
+Yeah.
+
+Billy Mitchell (41:12.266)
+editor in chief of the Atlantic would have been added to a signal conversation.
+
+Savan Kong (41:16.667)
+Yeah, that's like me adding you to my signal conversations from back in the day. Like, it's just crazy.
+
+Billy Mitchell (41:20.534)
+Yeah, it's just it's just it's so improbable. And I mean, it's plausible, but it's very improbable to me that that. But but still, it happened nonetheless in some form or fashion. I was incredibly jealous because that's, you know, I just a great story. But it did come with, like you said, like, you know, some lessons to learn from it. I think, you know, the big ones that my staff has been thinking quite a lot about
+
+in this administration is okay. One, as you mentioned, and we kind of referred to in the last topic, you get a piece of information that feels very hot loaded, you know, a piece of military operation that you publish on it. Um, it could result in lives lost in some way, you know, or, you know, and, and something catastrophic that's that's
+
+Savan Kong (42:03.677)
+Mm-hmm.
+
+Savan Kong (42:13.117)
+Yeah.
+
+Billy Mitchell (42:17.966)
+That's difficult. And even if it's not like the kind of potential, even if it's a piece of classified information that you consider publishing, it could bring target and, huge laborious, like exhaustive lawsuits against you under, you know, parts of the first amendment, because not all of that is totally safeguarded. You know, there's certain things that you aren't allowed to publish.
+
+including classified information. And so like, if you don't reveal your sources and things of that nature, we've seen this all kind of happen in various forms and fashions over the year, you know, the, the way it worked with Snowden and, and, know, other, you know, leaks like that of classified information. It's just, you have to be willing to really put it all on the line if you're going to go for that, you know, type of story, not to say it's not worth it. And again, I'm not,
+
+Savan Kong (42:47.633)
+Yeah, for sure.
+
+Billy Mitchell (43:15.598)
+trying to say, cower against it, but you just have to really have a sober mindset when you address those types of things. The other thing I would mention regarding just this administration and some of what you saw in the aftermath of Signalgate, it's just, I think the media, the appetite for the media in the current American landscape is probably the lowest it's ever been, at least in
+
+recent memory and, and, you know, folks are just not trusting and further more want to do things to sabotage and or target members of the media. So I'm not saying it's this happened to me and it's not something I particularly worry about for myself, particularly as, you know, a white male. And unfortunately there's other dynamics that play into it. And there's a lot of women on our staff who feel more threatened often, but, you know, just the, the worry of like, if I write something like that,
+
+Savan Kong (44:04.551)
+Yeah.
+
+Billy Mitchell (44:14.25)
+even if it's not unlawful, you know, is there somebody who's going to publish information about me that is private in a way that could really hurt me? Could they target me in other ways? Is there, you know, some sort of doxing or, you know, other campaign that may happen as retribution? And we've seen our president, you know, really, really target folks after they've written, you know, unflattering stories about him.
+
+Savan Kong (44:37.137)
+Yeah. for sure.
+
+Billy Mitchell (44:42.826)
+in truth social posts. So, you know, I think that's the bigger takeaway, whether it's signal gate or other just really high profile stories, you really see those folks go through the wringer. And we've seen even the, the, the department of justice, you know, target people. We saw the Washington post reporter who was reporting on Doge, you know, be detained and had her, you know,
+
+Savan Kong (45:02.541)
+yeah. yeah.
+
+Billy Mitchell (45:11.202)
+devices confiscated in, what are looked at and, you know, just because she was writing about the administration and I didn't think she was particularly writing about anything very sensitive. so, you know, it's not just folks in their personal regard. You also are starting to see that blur into sort of the weaponization of the government. so
+
+Savan Kong (45:29.937)
+Yeah, it's so crazy to me, Billy. It's so crazy to me, And, you know, I do wonder for reporters or people working in media, like, what is that thing that keeps you guys going, especially when you've got all these chips now stacked against you and it feels like the stuff that you're producing, people are a little bit more hesitant about, or maybe they live a more leery on in terms of.
+
+the truthfulness of the story and the people you're reporting against are doing these vindictive things. Like what's keeping you guys going from a journalist perspective to continue to do the things you guys do? It sounds ridiculous to me.
+
+Billy Mitchell (46:12.14)
+Yeah. It is in some regards, you know, I can't say that I'm like a model journalist in any regard. You know, I've been very lucky through my career. A lot of folks, you know, and I'd say most no journalists get into this field because they want to become rich or, know, some obviously do it for the status. And you see a lot of them on the broadcast side that, you know, they want to be under the bright lights and, know, on TV and things like that. But
+
+Savan Kong (46:31.409)
+Right.
+
+Billy Mitchell (46:41.304)
+when you think about like traditional journalists, print and, you know, digital, the folks who are putting pen to paper, writing things like that, that aren't really becoming, you know, players that are, you know, becoming what am I trying to say that they're not becoming the pseudo celebrities that some journalists have become because of other things. It's, really this, it's, it's similar to a public service in the way that you see folks in government want to
+
+do something that is bigger than them. think journalists get into this business and stick with it and want to commit to it because they want to speak truth to power. They believe they have a belief in, in truth and, that spreading information about that truth is a greater good for humanity. ultimately. so, you know, it's, it's interesting because, with that comes some very quirky people too. I've, know,
+
+Savan Kong (47:38.609)
+Hahaha!
+
+Billy Mitchell (47:38.915)
+But my life and my entire career in newsrooms and journalists are just they're very interesting folks. You know, they're creatures of habit. They're they're very hard nose. They're very stubborn. They're very they have a very strong moral compass usually. And so like they can sniff bullshit. Usually they hate being asked to do something that's not their job.
+
+Savan Kong (47:49.042)
+Yeah.
+
+Savan Kong (47:57.042)
+Yeah.
+
+Billy Mitchell (48:05.644)
+You know, if, you know, they w they want to be reporters and writers and they know they're not going to get paid while, mean, we try our best to pay them, you know, at the top end of the pay band in terms of like journalism pay in DC, but you know, compared to where other folks are in their peer group are in their careers, they might not be getting paid as much. And so like there are certain things that they're going to demand then. And that's why you see a lot of unionization and they know that this industry is very tenuous and
+
+ebbs and flows quite a lot. see a lot of layoffs and they recognize that and they decide to stick with it because again, I think it's ultimately that belief in the greater good and that, you know, writing stories, obviously there's a thrill too, that comes with breaking stories and you know, unleashing information that has been, you know, not shared publicly prior to that. There's something, you know, thrilling about that, but ultimately I think it's because they believe that makes the world a better place in some way.
+
+Savan Kong (49:05.073)
+Yeah, I've always wondered, you know, for me, being a product guy, I get excited. I get my rocks off when I release something and somebody's using it. And I'd like, I see the metrics, people are buying it, they're using it, they're telling their friends. What is the, a similar thing on the publishing side? Like where do you guys get that high after you've done? Cause I would imagine there's probably a cycle, right? That you go through.
+
+where you're going through the research, you do the interviews, you publish it, and then something happens after that. like, where does that dopamine hit for you guys? And where do you get excited typically?
+
+Billy Mitchell (49:43.139)
+Yeah. I'd say beyond like, you know, beyond the breaking of news, which is probably like one of the bigger highs you can get in this industry. It's just like, you know, I just, you know, Uncovered this, this and this and, know, I'm the first person to reveal it. You know, that's, that's a big deal. Exactly. We, I miss those days. I think the, thing that is sort of the, the validation that you're talking about in, in, can be somebody saying like,
+
+Savan Kong (49:49.607)
+Yeah.
+
+Savan Kong (49:55.314)
+Yeah.
+
+You're like, Jedi's canceled. I broke that new.
+
+god.
+
+Billy Mitchell (50:13.026)
+coming up to you and being like, I read that story. That was great. Thank you so much. Or somebody leaving a comment on a story or some seeing somebody share that story. But I think the bigger ones are like, especially in this space. One, when you see a bigger publication, kind of sweep up your news and say like, Hey, fed scoop first reported that this and this and this, and, know, kind of write a story around your story. You know that you're making impact because other public.
+
+publications have deemed like, can't get this anywhere else. They got it first. And we're just going to go based on their reporting. And that's, that's a huge sort of source of validation and like a big, you know, feeling of like, okay, I know that like, I'm onto something bigger. Similarly in this space, because there are so many congressional hearings or different like GAO audits and things like that. There's quite often we see our work, our week, our work cited in those
+
+Savan Kong (50:44.838)
+I see.
+
+Savan Kong (51:04.198)
+God, God, all the audits.
+
+Billy Mitchell (51:10.274)
+types of things. so like, you know, seeing a congressional or like a letter from a lawmaker to an agency, you know, an oversight letter and saying like, Hey, this fed scoop story said that this bad things have been happening. I need you to answer these questions. And like having that happen, like again, you see that people who are important are reading your work. And again, it's making an impact because
+
+Savan Kong (51:11.186)
+Yeah.
+
+Billy Mitchell (51:38.207)
+that person is taking action on it. It's not like sitting there in a vacuum and just, just in informing or simply entertaining people. It's, it's driving people to take some sort of action. and so I think that is probably one of the highest compliments that we see our reporters get and that you can get in this industry is again, seeing people that matter, read it and sort of take action, whether that's like writing another article about it or
+
+Savan Kong (51:42.62)
+Yeah.
+
+Billy Mitchell (52:07.832)
+furthering your reporting in some way or kind of compelling some sort of, you know, audit or oversight action in the government space. It's always, you know, I think when our team gets most excited.
+
+Savan Kong (52:21.095)
+Dude, that's awesome, man. And I would imagine, God, those fucking audits, I have PTSD, all the audits. How much time do you guys spend going back and seeing if your stuff was picked up, like in audits or hearings and stuff like that? What does that even look like?
+
+Billy Mitchell (52:26.286)
+Ha
+
+Billy Mitchell (52:36.738)
+Yeah, it's a lot of times it happens by happenstance. You know, we'll be just like somebody will be just thumbing through something because we're reporting on it ourselves. And we're like, look, you know, Madison's piece on this made it into this lawsuit or, know, Matt wrote about this and this is, you know, cited in this new GAO report. So it'll happen that way. You know, we have sort of triggers and alerts set for folks names and things like that. So when things get published,
+
+Savan Kong (52:50.427)
+Yeah.
+
+Savan Kong (52:55.536)
+Right.
+
+Billy Mitchell (53:05.376)
+on the internet, it might trigger it. We probably could spend more time doing it. It is, you know, a hard thing to do though. And it's often, you know, either by word of mouth or happenstance. But, you know, again, I think those are the hallmarks and it is good to kind of, you know, go digging for those things or keep an eye out. It is hard to kind of always spot them though. One thing we could probably do a better job of on the other side is really sort of
+
+up marketing our work because we do fit in this very narrow niche that I would say should be very important to every American, but really isn't. It's not a, again, a mainstream topic when you think about government and technology. But there are times, especially last year, when it did become a mainstream topic. And so I think we could do a better job of making
+
+you know, other publications aware of when we do have those wins so that, you know, the posts might want to pick up one of our stories or at least advance our reporting and say, Hey, like we see that you guys have been reporting on government as well. Look at this thing we did. You know, if you want to write about it, that'd be great. Or, you know, same thing with some of the networks I've been on CBS or different networks talking about my work. think, you know, positioning ourselves, it's hard sometimes as a journalist to always
+
+you know, point back to yourself because journalists are very journalists. One I want journalism one on one is really to think about yourself as the storyteller, but that's it. You don't insert yourself into the story. So very large. It's kind of unnatural to then become that common Terry person about it. So, but it is very important and helpful to your work. and I've done it where you kind of say, you know, somebody will invite you onto a
+
+a talk show to talk about a story because you're then an expert on it, which again can be difficult because you kind of blur the lines a bit about where you fit in that. But it does help promote it and it is largely a win because you start to reach a larger audience.
+
+Savan Kong (55:01.021)
+Right.
+
+Savan Kong (55:11.633)
+Yeah, that's awesome, Billy, when did this passion for journalism kick in, man? Take me back to the 90s or whatever. Do you always want to be a journalist? Or what'd that look like?
+
+Billy Mitchell (55:23.146)
+No, no, man. I, I wanted to be an engineer. I went to, yeah, I, I'll take you back to high school. I was a math whiz. I was a math whiz. was,
+
+Savan Kong (55:29.049)
+Wow.
+
+Okay.
+
+We're just going your SCTs.
+
+Billy Mitchell (55:37.775)
+Oh man, I don't even remember. I was in a great test taker, so I don't think they're that high. I scored high enough to get into most of the schools I wanted to. But yeah, I just, I don't know. I never put much into it. I think in hindsight, I probably could have done a lot better. But that said, I was like a math whiz, like AP Calc, my junior year of high school and like went on to do more and more math.
+
+Savan Kong (55:42.385)
+Yeah, me neither.
+
+Savan Kong (55:48.146)
+Yeah.
+
+Savan Kong (55:56.348)
+Me too.
+
+Billy Mitchell (56:06.584)
+I was like, okay. I guess I'll do engineering, Virginia tech. I'm from Virginia was a school that everybody was going to seem like a college experience. And then I went there and, spent my first half of my freshman year in engineering classes and totally hated it. it didn't stick. It was not a great experience. and I was like, what else can I do? Like, am I just going to like drop out? Am I going to transfer? What am I going to, am I just going to change majors?
+
+Savan Kong (56:12.636)
+Right?
+
+Savan Kong (56:23.884)
+God.
+
+Billy Mitchell (56:35.982)
+So I spent some time reflecting. was actually taking an English course at the time and I really liked the teacher. and we really connected well and he really kind of helped, you know, inspire me a bit. Not that I went in the direction of English, but that writing was something I could do. and I was, it took me a long time to connect to journalism because journalism really wasn't anything I ever thought about doing. In fact, I, I, the closest thing I ever did to it prior to that was like yearbook class in high school.
+
+Savan Kong (56:36.05)
+Yeah.
+
+Billy Mitchell (57:04.238)
+And I got demoted. I was like an editor, the sports editor for my yearbook. And I got demoted because I was so lazy and I couldn't get the work done. It was just, it wasn't anything that like I necessarily had a knack for. But it's like, I was, I was a decent writer. I wanted to do something where I knew I could like have more external experience talking to people, going and doing things sort of like seeing the world.
+
+rather than I had this probably really jaded view that engineering was going to keep me behind a computer and yada, yada, yada, which is not largely true. but that's the way I perceived it at the time and just really didn't like the coursework. So I switched to a communication and journalism major my sophomore year, of college at Virginia tech and, really kind of took off from there. because I transitioned a little late and the job market wasn't great in the mid to late
+
+Savan Kong (57:47.805)
+Okay.
+
+Savan Kong (57:51.261)
+you
+
+Billy Mitchell (58:00.015)
+20 early aughts. I decided to go to grad school. went to NYU. My dad is a army vet. So I got really lucky and got some GI bill benefits and didn't to pay the substantial college tuition to go to NYU and hang out in New York for a couple years. Yeah. Yeah. And so I really lucked out. I basically got a free ride to go spend a couple of years in New York and learn how to be a better journalist.
+
+Savan Kong (58:12.475)
+yeah, there you go.
+
+Savan Kong (58:19.783)
+Thank you.
+
+Billy Mitchell (58:29.088)
+And at that time.
+
+Savan Kong (58:29.721)
+Isn't NYU one of the best in the world, in terms of journalism?
+
+Billy Mitchell (58:32.302)
+Yeah, it's it's it's I mean, I don't know where it is today, but it's NYU Columbia Northwestern are annually the top three There's a couple other like CUNY like City University of New York has a good school Syracuse has a good school There's a couple other I'm sure it's largely changed since I did any research on it But yeah in Arizona, I think the Arizona's Cronkite school, but but
+
+Savan Kong (58:57.554)
+Really?
+
+Billy Mitchell (59:00.352)
+Anyways, I was there and I really, I was doing like magazine writing. Like that's what I thought was going to be like my entry into the journalism world.
+
+Savan Kong (59:09.245)
+Wait, any magazine or like, what does that even look like? Like what is magazine writing?
+
+Billy Mitchell (59:13.29)
+It's just like a more long form type of journalism where it's like, I mean, you you read magazine features and it's, I mean, it's like you're kind of learning another discipline of journalism. And that's kind of the field I wanted to go into. And I really wanted to work for Rolling Stone. And so I spent a semester interning at Rolling Stone when Rolling Stone was, I mean, it's still a thing, but it was a much different thing back then. And that totally opened my eyes to one.
+
+Savan Kong (59:19.067)
+okay, I get it, yeah.
+
+Savan Kong (59:27.963)
+Yeah!
+
+Billy Mitchell (59:40.879)
+how jaded and just, what's the word, just like violent, not violence is the wrong word, but just how hard it was gonna be to climb the ranks in New York journalism, like entertainment, magazine, media, almost if you watched, what's the, I can't think, I'm blanking on the movie about the fashion magazine with Anne Hathaway and.
+
+Savan Kong (01:00:09.412)
+yeah.
+
+Billy Mitchell (01:00:10.414)
+But it's, they just came out with another one. can't I think of Devil Wears Prada? Exactly. I should know that. But it's, kind of like that, you know, just dog eat dog, very small fish in a big pond world. And I was just like, I do not know if I'm going to be cut out for that. And so I took a step back and I was like, I'm just going to kind of start small in a smaller pool. Did some like local journalism. Actually like worked in rural Kentucky for
+
+Savan Kong (01:00:13.671)
+Devil wears Prada. Yeah.
+
+Billy Mitchell (01:00:37.024)
+about a half a year doing crime reporting. And then eventually got a opportunity to come to DC to focus on. We called it DC Tech, but was really like local startups in the DC space, which if you know, this area is not very exciting. There's not a lot going on there, but you know, it gave me kind of my entry here. And that's kind of where I start to write about tech and
+
+business and things like that and really honed my craft and then eventually got plucked away by my CEO now and the rest is sort of history. Not a space I necessarily ever thought I would be in, but one I've learned to love nonetheless because it's very sticky, it's very important and is very relevant to the modern world.
+
+Savan Kong (01:01:29.595)
+Yeah. How much do you need to be passionate about the topic you're covering? mean, man, you went from engineering to sports to what was it? Crime reporting to tech startups and now the entire sort of like scene in DC. How passionate do you need to be about that topic to be a good journalist?
+
+Billy Mitchell (01:01:43.063)
+Yeah.
+
+Billy Mitchell (01:01:53.935)
+think it helps. I think there's benefits to being maybe agnostic too, but I also think like particularly in this very nuanced space, you have to sort of be a subject matter expertise or have a subject matter expertise or be a subject matter expert to really carry any water. You know, all of my reporters.
+
+Savan Kong (01:02:09.51)
+Right.
+
+Billy Mitchell (01:02:18.798)
+have gone through like the rigorous learning curve to get to a place where they can talk to talk and sort of walk the walk and, know inherently what is important to this community. Um, but especially as you get more embedded, as I have my, my work has sort of blurred into this space of where, sure, I'm an editor and I'm a journalist by trade, but I'm doing a lot of stuff where, um, I'm talking to people on stage and I'm
+
+I'm kind of commentating on these things. And it's almost like after, you know, sports journalists over time, you know, spend enough time writing sports stories about local sports or college sports, or even getting into the big leagues, they eventually get to become like commenters on things and really the experts for that field. so the expertise is incredibly important, particularly as you stay in it longer. And it really just like, it makes your job.
+
+immensely easier if you can actually invest and be passionate about it and like actually care about the people you're talking to and not just use them as a transactional relationship to kind of get from point A to point B, but actually invest in spending the time as we did early on kind of chatting and getting to know each other beyond just like, Sivan, can you give me a scoop on this? And then I never talk to you again. We wouldn't be here probably talking today.
+
+Savan Kong (01:03:21.412)
+yeah.
+
+Savan Kong (01:03:35.421)
+Yes. Yes.
+
+Billy Mitchell (01:03:46.559)
+but it, so it's things like that. And then just knowing what's important and how to navigate it, goes such a long way. And the longer you do it, the easier it gets in terms of like the stories almost write them or they don't write themselves, but they kind of present themselves because, you are a known commodity and you know, so many people that, and have that trust as I've talked about earlier in the conversation that they kind of come to you.
+
+and the things present themselves to you in a way that they really don't earlier on in your time in this space.
+
+Savan Kong (01:04:21.117)
+Yeah, how much time do you guys spend when you're building relationships, especially for like a new journalist coming onto the team, right? Because there's the craft of it, but there's all the other things that go into making sure you're building that rapport with people. And the DC scene is absolutely massive. And you could easily go down a rabbit hole of spending way too much time trying to build connections.
+
+Billy Mitchell (01:04:31.885)
+Yeah.
+
+Savan Kong (01:04:50.045)
+What sort of that look like? How do you walk through that scene?
+
+Billy Mitchell (01:04:54.956)
+Yeah, I try to push the team and I did myself spend a lot of time doing it. You you just kind of grind away, just no agenda. You know, once you identify the people that are sort of the, the figures that are essential and central to, you know, the beach you're on, you try to spend as much time as you can with them to become familiar, to build trust, and to build that relationship so that, you know,
+
+Savan Kong (01:05:01.49)
+Yes.
+
+Billy Mitchell (01:05:23.938)
+when the time comes or, you know, vice versa, when the person feels open to it, that that information can be shared or that that kind of connection can advance in a way. doesn't always, sometimes there's just people that become sort of professional friends. And, you know, that's, that's good too, cause you know, they can connect you with other people. again, it's not a matter of like seeing it as a game to play, but more so just, you know,
+
+I think putting a level of something more substantive on top of what you're doing, like this isn't just a job always. And, you know, there's consequences and impact and, you know, good and bad that can come with the work you do. and realizing that it comes, you, need to kind of have a level of care for the people you're dealing with. again, I think my biggest advice to,
+
+Savan Kong (01:06:19.655)
+Yeah.
+
+Billy Mitchell (01:06:23.33)
+journalists who are new to the space or on the opposite side, folks who are, you know, public relations, like press people who are working with companies or agencies that want to pitch something to journalists is you can't consider this a transactional, type of operation. You need a level of substance and depth and care that goes into it or else it's never going to materialize into anything more. mean, I think secretly or
+
+Honestly, there, there is a level of like, yeah, sure. We are doing jobs both on both sides that, you know, the person on the opposite side of the table you're talking to is has a, they have a benefit or an objective in why they're talking to you as well. You know, they, they, they see you as a platform that they can spread a message or, you know, do something, but at the same rate, like I think the most successful relationships like that are the ones where
+
+Savan Kong (01:07:07.95)
+for sure, for sure.
+
+Billy Mitchell (01:07:21.912)
+people actually spend time getting to know each other, to care about each other, to kind of understand and trust each other.
+
+Savan Kong (01:07:29.243)
+Yeah, that's so fucking hard to do, especially in the defense space. It's probably hard to do everywhere, but especially in the defense space where you're briefed constantly, you're trained on classification of data and projects and the nuances of all that stuff. what are some of the things that, you could do as a journalist to, to build that trust? Like what are some concrete things that your team has done well over the years to, facilitate those conversations in a way where.
+
+Billy Mitchell (01:07:31.918)
+yeah.
+
+Savan Kong (01:07:57.981)
+people that are working within the DOD are now more trusting of talking to reporters. Another thing they talked to us about is like, like, and it's not like, you know, if you actually go and fuck it up and you release something, it's a bad mark on your thing. It's like, no, dude, you're potentially going to jail. So try to avoid that. And there's no reason to talk to reporters unless it's specifically, you know, told to you. And so your job as a reporter is exceptionally hard to.
+
+to build those relationships, but you've done it for so long. What are some of the concrete things that you do to build that trust, aside from the fact of doing good reporting?
+
+Billy Mitchell (01:08:31.864)
+Yeah.
+
+Billy Mitchell (01:08:40.258)
+Yeah, no, it's, it is hard. mean, it, particularly in the defense space and then, you know, even harder in the intelligence space. you know, why you see so few great reporters, particularly, you know, when you look at like the IC and things like that, it's, it's perennially something we have a lot of trouble with because it's really hard to build those relationships. And I don't know that I have the answer. think sometimes I want to joke and say, like, it's just like wearing those people down. and, and like,
+
+Savan Kong (01:08:47.905)
+yeah.
+
+Billy Mitchell (01:09:09.314)
+persistence wins. but I mean, it's true. And, and, and it's also kind of a cliche corny thing to say, but, it's, it's also just being a human, you know, and, sort of connecting in a deeper way and sort of putting your cards in the table and sort of disarming and making yourself vulnerable. it's almost like dating, you know, like you kind of cross that threshold in a relationship with somebody when you kind of just presented all.
+
+Savan Kong (01:09:09.917)
+Yeah
+
+Savan Kong (01:09:32.498)
+Yeah.
+
+Billy Mitchell (01:09:38.413)
+and say like, Hey, look, this is who I am. Take it or leave it. And, you know, that's when you can kind of be yourselves. And like a lot of people take the leap into a relationship or, know, become, you know, official, if you will. It's, it's very similar in, in sort of the sourcing world where, you know, you are sort of dating people and like, you're not going to, you know,
+
+Savan Kong (01:09:56.061)
+Thank you.
+
+Yeah.
+
+Billy Mitchell (01:10:00.591)
+across certain boundaries on, on date number one. And maybe after a couple of dates, you get to that point or, you know, source coffees or whatever you want to call it. and so, there's a lot of that. And so I see it largely in, in really that cultivation of, of a relationship. there is, there, I'm sure there's other people out there that would talk a lot more in terms of like quid pro quo in like, you know, what will you do for me? And I'll do this for you if you do this for me and you know,
+
+Savan Kong (01:10:03.847)
+Yeah.
+
+Billy Mitchell (01:10:29.974)
+I don't necessarily like that or believe in it. Like, you know, in terms of like, I'll place this story for you if you come back to me and do something, but there is a level of when you get to a point with a source and you want to navigate a relationship and they have asks and, know, you're not going to do for most people what you might do for a really high level source, obviously within law.
+
+ethics, et cetera. You're not going to cross certain boundaries, but, you know, there, there is a little bit of that navigating and negotiation of, of certain things where, you think about, and I think in certain industries, particularly, I would imagine in, in the, sort of intelligence space, that's where you see a lot more of that type of thing. just because, it is, it is, it is so immensely hard to trust and not be skeptical.
+
+Savan Kong (01:11:21.191)
+Yeah, for sure.
+
+Billy Mitchell (01:11:29.224)
+of people and same thing for journalists. I mean, you start to work with folks in those spaces and they're not going to, they're not going to give you the crown jewels. They're going to give you bits and pieces. And so you have to do the work to put it together and verify it. And you have to ultimately trust that person that they're giving you accurate, accurate information. So it goes both ways. And, you know, it's hard. And so, I mean, like, I really have the utmost respect for folks who can.
+
+do that really well and have committed their careers to do it. We have some really great reporters on our staff who are great and just like Jedis when it comes to being able to, you know, work with sources and get them to tell them things and manage those relationships in a way that they don't burn them or put them in a place of conflict or risk. It's very difficult and it's, you know, not something that gets a lot of attention.
+
+Savan Kong (01:12:05.959)
+Thank
+
+Billy Mitchell (01:12:26.638)
+when you think about what journalists do every day.
+
+Savan Kong (01:12:26.919)
+Right.
+
+Savan Kong (01:12:30.941)
+That's actually a great segue to one of my last questions, Billy. Are you a comic book fan?
+
+Billy Mitchell (01:12:39.746)
+What kind of comics? I think my answer is going to be no, unfortunately. But I've got kids and they like they're starting to like comics and things of that nature. But I just haven't never gotten too much into them.
+
+Savan Kong (01:12:45.273)
+Okay.
+
+Savan Kong (01:12:52.335)
+Okay, that's all right. I'm going to ask you the question regardless. That was just more to be nice. All right, quick answers to these questions. I want you to identify either people on your team or people within your sphere that would be applicable to the names I'm giving you. so first name is Clark Kent.
+
+Billy Mitchell (01:12:58.349)
+Yeah.
+
+Billy Mitchell (01:13:15.167)
+Okay.
+
+Savan Kong (01:13:21.169)
+who is also known as Superman. So if you had to pick somebody in your world, that would be the Clark Kent of the space. Who would that be?
+
+Billy Mitchell (01:13:23.725)
+Yeah.
+
+Billy Mitchell (01:13:29.742)
+I'm going to go, I'm going to go with it. This is a woman, but I'm going to go with Madison Alder on our fed scoop team. Um, I don't know something about it. She's, she's got the look that, you know, is very polished, but I think she could, she could be super Superman, super woman behind the scenes. She's very good at her job too.
+
+Savan Kong (01:13:37.894)
+Nice.
+
+Savan Kong (01:13:47.357)
+Yeah, I love that. I love that. All right, who would be the counterpart Lois Lane, the go-getter sort of in your face, get the story, gets the job done, doesn't take any shit.
+
+Billy Mitchell (01:14:02.579)
+Brandy, you know, Brandy, Brandy, Vincent, owner, defense team. Yeah. Yeah. They're good friends too. So they'd get along in that regard, but yeah, Brandy is a, she's, she's, she's good at it. she gets stories. She's the person I was thinking of when I was talking about, can, can really has a mastery of how to work with sources and get stories and also doesn't take any BS.
+
+Savan Kong (01:14:05.021)
+I know, Brent. Yeah. yeah. Good choice. Good.
+
+Savan Kong (01:14:27.195)
+Yeah.
+
+Savan Kong (01:14:30.865)
+No, no, I love Brandy. She's been great. Every interaction I've had with her has been fantastic. All right, who would be the sort of gold standard either in your team or on your sphere, the Barbara Walters type person that you can think of?
+
+Billy Mitchell (01:14:33.87)
+Yeah. Yeah.
+
+Billy Mitchell (01:14:50.346)
+I don't know. I I'm going to, I'm going to name two people for differing reasons. one, the editor in chief of our fed scoop publication is probably like my most like reliable deputy, like person who just like, I know I can rely on him in any scenario to, represent, do the right thing, have like the moral compass, have a good head on his shoulders, Matt Bracken. he's phenomenal.
+
+Savan Kong (01:15:16.701)
+All right, man, there you go.
+
+Billy Mitchell (01:15:18.178)
+He's, he's sort of newer to the industry. but he's just like, when you think of like those folks I was talking about earlier, the journalists who care about it, who are passionate about it and do it for the right reasons. He's that guy. the other person just from like a industry has been around for awhile. When you think about the gravitas of a Walters and can just like really like, just, he's, he's the
+
+Savan Kong (01:15:30.301)
+Nice.
+
+Billy Mitchell (01:15:45.398)
+almost one of the he's he's one of the best at what he does. When it comes to cybersecurity journalism, Tim Starks, he's fantastic. And so I could totally see him being a Barbara Walters type.
+
+Savan Kong (01:15:57.447)
+Dude, awesome. All right, last two real quick. The person you've enjoyed interviewing the most over your career, who would that be besides me?
+
+Billy Mitchell (01:16:11.077)
+I mean, I want to say John, you mentioned him already, but that may be recency bias. He's he's just like he's the nicest, best dude. And like the story you guys talked about with being in the situation room on 9 11 is just phenomenal. It's just so amazing. I've met so many cool people and a lot of people who are just super generous with their time and, you know,
+
+Also getting to know generous in terms of getting to know me beyond that. think of people like former federal CIO, Suzette Kent, um, and, and, other folks like that. I'm just going to go to John Sherman because he's just like, he's got the cool story. He's the nicest guy out there. He means well, and he, he, he's not afraid to kind of stand tall in what he believes in. And that's like kind of rare in like somebody who will push back on, uh,
+
+Savan Kong (01:16:51.868)
+Yeah.
+
+Savan Kong (01:17:06.061)
+man, even having Jedi land, and I can say this now because Jedi started within DDS with Chris Lynch and then eventually transitioned over to John's office. And then I was eventually there, but even being able to navigate Jedi to eventually now then be JWCC where you had so much pressure from not just industry, but like people within the DOD as well.
+
+to go from one contract to the breaking it up and, you know, like the balls to do that and to be ready for the backlash, man, it's hard. Shit like that, it's so hard to do and it takes a lot of guts. Yeah, yeah, for sure. All right, Billy, last question, my friend. And the question is this. So fast forward 30 years, you've got kids. One of them says dad or daddy or whatever they call you, papa.
+
+Billy Mitchell (01:17:45.068)
+Yeah. Yeah, he got it done though.
+
+Savan Kong (01:18:05.021)
+I want to be a journalist. Give me one reason why they shouldn't be a journalist when they're 33 or 35, and then give me one reason why they should be a journalist.
+
+Billy Mitchell (01:18:17.582)
+Why shouldn't they be a journalist? Because it doesn't pay well, no.
+
+Billy Mitchell (01:18:26.466)
+I think, I think, look, I think journalism is a high calling. I think there are probably higher callings out there though. And so I think things like that you've done in your career and that folks in uniform do every day are way more meaningful, not to say that journalism isn't meaningful. I'm again, a son of a veteran, army veteran. So I know like what sacrifice looks like.
+
+not that I want my kids to do that either. I'm like, I took a, you know, purposeful, you know, decision to not go in the route that, my family lineage did with the military. that said, I think, you know, it's, it's similar in that vein. so yeah, I think the reason I'd say not to is just because there's probably higher colleagues and if they, you know, aspire to one of them, I would push them in that direction. I didn't think there's anything inherently.
+
+Savan Kong (01:19:04.081)
+Right.
+
+Billy Mitchell (01:19:19.106)
+bad about journalism. can be a grind depending on where you land. And it can be superficial and fruitless if you're in a part of the industry that just grind. Yeah, it can it can really grind you down. And I've been in some of those roles and I'm lucky where I am today that I'm kind of made it past that. So, I mean, there's obviously inherently, you know, not great things, too. But I don't think that should be a reason not to think, you know,
+
+Savan Kong (01:19:31.527)
+imagine you have to have thick skin too, right? Like
+
+Billy Mitchell (01:19:49.694)
+There's just maybe some other stuff out there that might be a little bit more interesting and cooler and more purposeful than, than this. Exactly. Yeah.
+
+Savan Kong (01:19:55.527)
+Yeah, Dalai Lama, right?
+
+Billy Mitchell (01:20:00.361)
+and reason, so that was the reason not to, and the reason to do it was the other question. It'll show you and introduce you to, you know, some amazing things. And at the end of the day, you know, your job is getting to be a human and talking to people and writing about it and chronicling it and, you know, getting to do some thrilling things. And, yeah, I think, you know, there's not a lot of
+
+Savan Kong (01:20:18.877)
+I love that.
+
+Billy Mitchell (01:20:30.166)
+industries out there. This is, you know, one of the oldest that I can think of, you know, beyond the ones that they say are the oldest industries in the world. And so I think there's, there's a lot of power in the written word and being the one to kind of, you know, hold the pen in that regard. The pen is mightier than the sword is the old philosophy goes. And I think that remains true despite the
+
+kind of trajectory that industry has gone in. I think there's a lot of, know, if it is something that my kids aspire to do, I would sort of try to instill in them that moral compass and that, that passion and kind of will to do good and do something bigger than themselves. And so, yeah, I think that's why journalism has stuck with me is because at the end of the day, I get to do some pretty cool things. And, you know, at end of the day, I think I'm making
+
+this space, this tiny nook that I live in and work in, in the world, a better place. you know, until that stops happening, I guess I'm going to keep doing it.
+
+Savan Kong (01:21:40.349)
+Yeah, that's fantastic, man. All right, Billy, I wanna thank you so much. My friend, you are a master at your craft. You and your entire team do amazing work. And I think going into the next couple of years, it's gonna be very interesting how things shake out, but I have the utmost faith in the things you guys are producing. And I just wanna thank you for being on my show.
+
+Billy Mitchell (01:22:05.944)
+Yeah, man. Well, it's been fun and I love seeing what you're doing and, you know, it's, fun to be on the other side. So, but I think, I think, I think this, you know, makes it so I need to bring you back on one of my podcasts soon to return the favor. we'll, try to line that up.
+
+Savan Kong (01:22:13.104)
+you
+
+Savan Kong (01:22:18.653)
+Anytime, man. I always got time for you, All right, hang in there. We'll talk soon. Peace.
+
+Billy Mitchell (01:22:23.764)
+That's me. All right.
+

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ShowsClient from '@/components/ShowsClient'
 import { getEpisodes } from '@/lib/episodes-db'
 
-export const dynamic = 'force-static'
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Episodes | Life Between Titles',

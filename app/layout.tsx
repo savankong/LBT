@@ -3,6 +3,7 @@ import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import NewsletterBanner from '@/components/NewsletterBanner'
+import ScrollWatcher from '@/components/ScrollWatcher'
 
 const SITE_URL = 'https://www.lifebetweentitles.com'
 const SITE_NAME = 'Life Between Titles'
@@ -125,6 +126,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <ScrollWatcher />
         <NewsletterBanner />
         <Nav />
         <main>{children}</main>

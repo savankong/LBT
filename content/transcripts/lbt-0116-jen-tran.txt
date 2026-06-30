@@ -1,0 +1,1654 @@
+Jen (00:00)
+I remember my first GA class. it was kind of like left, left and right. These are your colleagues, but realistically,
+
+Savan Kong (00:06)
+Mm-hmm.
+
+Jen (00:08)
+not all of you are going to make it through UX, well transition through, because like I was sitting down with like people with a lot of potential to transition through or figuring out what is UX and I'm pretty sure it's like out of the 20 people, maybe three people successfully transitioned and a lot of them kind of just like, I'm going to return to what I did,
+
+Savan Kong (00:17)
+Yeah.
+
+Jen (00:31)
+I have to say it is very stressful. when I transitioned I was in my mid thirties, right? And it was
+
+Savan Kong (00:37)
+Yeah.
+
+Jen (00:37)
+It was very scary because you're thinking like, you're in your mid 30s. You're supposed to be a certain person. Obviously, I was not that certain person that I wanted to be doing this And I'm just kind of like, OK, no support. even my parents were kind of like, why are you doing this? And I'm just kind of like, because this is what I want to do.
+
+Savan Kong (00:44)
+Yeah.
+
+Jen (00:56)
+this is the first time I'm going to be on my own, no support. doing this. I'm putting all the eggs in my basket versus diversifying your investments. But I'm like, okay, this is your time. And I remember that first year or like after when the boot camp was over, I questioned a lot about myself.
+
+Savan Kong (01:06)
+Yeah.
+
+Jen (01:17)
+Do I even have the talent?
+
+Savan Kong (01:19)
+Hey everyone, this is the last guest episode of the year and I wanted to close out with a conversation that tells the truth about career transition. The parts that rarely make it into our highlight
+
+Jen remembers walking into her first General Assembly UX class and having a sobering thought. Look left, then look right. These are your colleagues, but not all of them are going to make it through.
+
+She said there were about 20 people in her class, people with real potential, people that had the desire to take on UX as a new profession. And by the time she finished that class, she said there were only about three people that eventually made it.
+
+People with real potential, but by the time they'd finished, there were only three people that were successful in the transition to becoming a user experience designer.
+
+Jen was in her mid-30s, feeling the pressure of trying to figure out who she was supposed to be at that age, and noticing how lonely can get when you make a big change without a built-in support.
+
+Even her parents questioned it, not because they didn't love her or support her, but because they couldn't see the path. She went on to talk about how it was very vulnerable and risky to put all of her eggs in one basket.
+
+Then she said something that stuck with me. After the boot camp ended, she questioned herself. She questioned her talent and she wondered if she even belonged in the field at all.
+
+And that's where the conversation really starts. Not with a polished origin story, but with the real question almost everyone asks in the middle of a change. Do I actually have what it takes to make it? supporting the show, the simplest way is to follow or subscribe wherever you're listening, leave a rating, or leave a short review.
+
+and share this episode with your friends.
+
+And now here's my segment with Jen Tran. Let's get it.
+
+Savan Kong (03:33)
+Welcome to Life Between Titles. I'm your host, Savan and today I've got my good friend, Jen. Jen, Merry Christmas.
+
+Jen (03:40)
+Merry Christmas to you, Savaan
+
+Savan Kong (03:42)
+How are you doing? You hanging in there?
+
+Jen (03:44)
+Yeah, I'm just hanging in there. Just so I'm located in California and we're having the rain. And this morning when I was walking my dog, it's not like cold rain. So it's like I feel like a like heat, like it's a tropical rain. I'm all like, am I in Cancun? Like it's not winter here.
+
+Savan Kong (03:50)
+Ooh, yep.
+
+⁓ man, I remember
+
+that. I remember it was just like, it was uncomfortable, the rain in California. It wasn't like a refreshing, you know, Irish spring commercial type rain. Yeah, yeah. that's awesome. Well, I'm glad to have you on the show. I'm really excited about our segment today. ⁓ No, absolutely.
+
+Jen (04:10)
+Mm-hmm.
+
+Yeah
+
+But you're like, I'm invigorated.
+
+Yeah, thank you for inviting me.
+
+Savan Kong (04:31)
+Absolutely. Jen, I wanted to get started with a question about some of the stuff that you had sent me earlier. And I always find it funny what people actually send me about themselves because it gives me a glimpse into who they are outside of the workplace. But one of the things that you had said was you love workplace potlucks.
+
+Jen (04:44)
+Okay.
+
+Yes,
+
+I do.
+
+Savan Kong (04:55)
+I've never heard that
+
+before. I've never heard that before. And, for the people listening, we had worked together at a place called Kareo for a few years. And I remember they had some pretty epic potlucks in their time. But what about them do you love?
+
+Jen (05:03)
+Yep.
+
+Yeah. Yeah.
+
+So it's just like the joining of community, you know, cause you're spending what four 40 plus hours with your work fellows, right? And like there is, it's like in a sense, like a humanistic things like, okay, granted I love people who bring the Costco, you know, entrees and stuff that no, you know,
+
+Savan Kong (05:23)
+Yeah.
+
+Jen (05:36)
+It's not my favorite thing, but you know what you're getting versus like people who make stuff. It's like stuff that they're known for, like potato salad or, stew or something. It's like you get to taste a little bit more of their personality and how their skill sets like they're more than, you know,
+
+Savan Kong (05:39)
+Yep.
+
+Yeah.
+
+Jen (05:54)
+your coworkers are like, you know, the Chatty Cathys or the Naked Nancies in your office space, right? And so it's just kind of like, there's more to them. Like I think when I was, when I entered the professional world, at a college, was, it was very difficult for me to find community because it's not like, you know, the transition from college to workforce was very difficult in a sense,
+
+Savan Kong (05:59)
+Yeah.
+
+Jen (06:16)
+These are full on adults. Now you are in the real rat race of it. It's difficult to have a connection in a sense of like, how do you get to know people like more? And I think that was such a hard thing.
+
+And then when I discovered the office potluck, it's like kind of like, ⁓ this person's a really good cook. I want to know more about them. So it brings more character of my fellow coworkers. And that's why I love them.
+
+Savan Kong (06:43)
+Yeah, yeah, that's amazing. What was your favorite potluck over your time working? Is there one that stood out?
+
+Jen (06:50)
+Okay, so I this is so bad, but I love competition potlucks So you get to like sample and like every you know, it could be like the leadership team is judging But you know the leadership team may be not good judges in a sense like they're not real foodies. They don't understand the art of the Versus like you have the people like amongst your peers
+
+Savan Kong (07:01)
+Yep. Yep.
+
+Jen (07:14)
+to judge you or like, you know, put in the ticket. And I love those type of potlucks because it's kind of like, you know, I would love to boast that I am a wonderful, you know, cook and stuff like that. But I know there's better cooks than me. So that has tampered me down. But I think like chili cook off was, yeah.
+
+Savan Kong (07:29)
+yeah.
+
+Yeah.
+
+Jen (07:35)
+That was like one of my favorites you don't know who you're gonna get you don't even know the new spices that you're discovering or the usage of them so that was one of my favorite and most memorable
+
+Savan Kong (07:42)
+Yeah.
+
+Yeah.
+
+I remember, you know, we had a bunch of pretty epic chili cook-offs at Kareo and, I remember just starving myself the entire morning just so I could eat as much as possible. And then it's the second half of the day is pretty much a goner. You're like, nope, there's no work getting done after this.
+
+Jen (07:53)
+Mm-hmm.
+
+Yes!
+
+Yeah.
+
+Yeah, you're just lying
+
+down and like, all the good chili is gone. So like the losing chilies, you're just kind of like, I don't want it.
+
+Savan Kong (08:14)
+Yeah, I mean that's probably how you know who won, right? It's like whoever's
+
+chili got eaten first is the winner.
+
+Jen (08:21)
+Yeah.
+
+Savan Kong (08:23)
+⁓ man, that's awesome.
+
+Yeah, we had some pretty, we had some pretty great cook-offs, but we also had some really good catering there. I do, I do miss that. You know, when, when I transitioned to work for, for the DOD, nothing was catered. Like we couldn't get food from anybody because of all these stupid rules. And on top of that, the crazy thing was you, you're not supposed to bring to a team event.
+
+Jen (08:37)
+Mm-hmm.
+
+Savan Kong (08:49)
+like home-cooked foods because of liability reasons. And so for like a span of eight years there, I didn't have any potlucks or anything. And I actually really missed that.
+
+Jen (08:53)
+Really?
+
+that? that's sad. What was it? Why the rules of, you know, you can't bring in your own food to share anything.
+
+Savan Kong (09:02)
+Yeah.
+
+I think it's, just in case somebody has an allergy and it's a work event and it's, part of the government. They didn't want anybody to sue the workplace because of stupid reasons. Yeah, I don't know. I don't know. I think it's dumb.
+
+Jen (09:12)
+Mm-hmm.
+
+No liabilities here. ⁓
+
+Like, I'm thinking like, even for the government, you know, there's so many cultures and so many people with various backgrounds, like, why not share a piece of you, but maybe there's, you know, the inventors of keep work at work and home at home. And if you want to intermingle, just keep that a secret or something.
+
+Savan Kong (09:29)
+Yeah.
+
+Yep.
+
+Yeah,
+
+yeah, it's crazy to me. It's crazy to me. Jen, I want to maybe start off our conversation with a really quick question. It might be quick, it might not be, but where did you grow up? Where did you sort of like call your home before being in California?
+
+Jen (09:59)
+So I am born and raised in Orange County. ⁓ So I'm still in Orange County. I haven't left, But majority of my life was in Irvine. So I went to school in Irvine. A bunch of my life was in Irvine. So.
+
+Savan Kong (10:03)
+Okay.
+
+Uh-huh.
+
+Mm-hmm, yep.
+
+Jen (10:18)
+I can say I'm a little bit like the cookie cutter or really like the bubble. everybody in Irvine or particularly SoCal Orange County calls Orange County or realistically Irvine the bubble. It's like and and if you're from South County, most South County people do not cross Jamboree. And if you know, you know. Exactly.
+
+Savan Kong (10:33)
+Yeah, for sure it is.
+
+Yeah, yes. The elusive Jamboree, I know.
+
+Jen (10:45)
+you
+
+Savan Kong (10:47)
+So did you, when you were going to school, did you have an idea of what you wanted to do after high school? Like what was that like for you?
+
+Jen (10:55)
+So in high school, I honestly wanted to be an artist. Like that's what I wanted to do. And my parents totally poo-pooed that. Like I actually said, like, I want to be a fashion designer.
+
+Savan Kong (11:03)
+Yeah.
+
+Jen (11:10)
+and they were looking at FIDM and other fashion well I was looking at them my parents weren't they were just more like looking at the check that they would sign if I were to get accepted and go and they really were
+
+Savan Kong (11:10)
+Okay.
+
+Yeah. yeah.
+
+Jen (11:27)
+were hard like no you're not going particularly it was kind of like my mom kind of had some insight because she was a factory worker or part-time factory worker ⁓ in textile and she's just like your life is just gonna be so hard like it's so immensely hard and then even though like i didn't
+
+Savan Kong (11:43)
+Yeah.
+
+Jen (11:47)
+see as hard and this is probably because you know as in a child's face it's like your parents are working you know they're they're doing the best they can and this is the greatest thing it's like the concept of money until i lived in Irvine like when my parents moved us to in Irv- to Irvine was not like a
+
+Savan Kong (11:59)
+Yeah.
+
+Jen (12:04)
+I didn't recognize wealth. Okay. I was a little bit naive and then eight years old, it's like a different school district, wealthier neighborhoods and stuff like that. It's just like, okay. Now I understand it. Like, you know, that type of, ⁓ life and environment. But yeah, in high school, I wanted to be a fashion designer. My parents said no, but I think the thing that my mom thought I was going to be my sister and me to be was become like,
+
+Savan Kong (12:26)
+Yeah.
+
+Jen (12:32)
+Sound engineers or music engineers and I was this is three years after when I'm done with college when I saw paper that she wrote in her creative writing class like Aspirations for your children and she wrote down a description of a sound engineer even though she doesn't know what a sound engineer is I was just kind of like what like if she said that I think my life would have changed a lot more going into that but
+
+Savan Kong (12:35)
+⁓
+
+Yeah.
+
+Wow.
+
+Yeah.
+
+Jen (12:59)
+definitely something in design or being in the creative market. But what I went and I went to Cal State Fullerton. So at the time I did it because they had a fencing team. I went to that school because one was they had a fencing team and they had a business program that was like, like famous.
+
+Savan Kong (13:03)
+Yeah.
+
+Mm-hmm.
+
+Jen (13:17)
+Go Titans. But then my first year there, like being a business major, it was so difficult because I don't think business is for me. And so I switched majors and I double major into communications and anthropology. And so...
+
+Savan Kong (13:28)
+Yeah. Okay.
+
+wow.
+
+Jen (13:33)
+Yeah, totally two different things. And I was just kind of like, I still want to be an artist. I don't know what type of whatever. So that's the communication side. And the anthropology side is because I'm like, I really like to know about culture and also like humans like, and I think ⁓ also I was thinking about going to forensics anthropology until I talked to the anthropologist and she was like the leading lady at that time in the nation for forensic anthropology. She kind of
+
+Savan Kong (13:42)
+Right.
+
+Yeah.
+
+Jen (14:01)
+laid down the law like, hey, it's a it's not lucrative. Like, you're gonna work a lot. But I'm like, yeah, it was just so eye opening. Yeah, it's it was so funny. Because she's like, I work for the FBI work, you know, for any cases that need me. But it's just a hard life. And I'm all like, ⁓ yeah. Yeah, it's not like
+
+Savan Kong (14:09)
+Yeah, yeah.
+
+Yeah. Not as sexy as you thought it would be? Right.
+
+Jen (14:25)
+bones on tv but they're like if for
+
+instance anthropologists no it's ⁓ you're going on you know detect you know sight digs of you know these forensic cases and you're just like you know archaeology's doing stuff but long days in the sun all that stuff and i think
+
+even so early forensic anthropologists, they were like trying to sculpt the look of that person. So it's a lot of like ⁓ archaeology, like, ⁓ early man, this is what early man would look like and just like sculpting it. So that was like really fascinating if if people didn't know about the origins of forensics.
+
+Savan Kong (14:51)
+Mm-hmm.
+
+Yeah,
+
+that's crazy. It's funny to me what we choose to major. I majored in communication as well in college. And
+
+Jen (15:08)
+Thanks.
+
+Savan Kong (15:10)
+I know that right when I graduated, I don't think I did anything with it. But now that I'm older and I'm thinking back to it, I feel like there's a lot of stuff that I learned that were pretty foundational. The ability to write in a persuasive way, the ability to communicate, understanding how media works. For you, do you feel like you've gotten anything out of your double majors for what you're using today?
+
+Jen (15:15)
+Yeah
+
+Mm-hmm.
+
+Yeah.
+
+I think when I transitioned to UX, 100 % used everything. Because a lot of UX is how you convey things, right? And also how would, the anthropology of it is the research of human behavior and also how would a user do certain things. And so I have to say, with me not knowing what I majored in to fast forward,
+
+Savan Kong (15:43)
+Yeah.
+
+Jen (16:02)
+I don't know, 17 years later when I moved into UX, like, oh, I used everything. Like my college experience is worth it. Wait. So I it's very interesting in that sense, but I think that when the advent of YouTube was coming out, so that was probably in early aughts. I oh, man, I did not lean hard on that because I thought it was such like.
+
+Savan Kong (16:08)
+Yep.
+
+Yeah.
+
+Mm-hmm.
+
+Jen (16:27)
+you know, a novelty and it's like, why would you want to show your kids opening Christmas present? Which was everybody's like, you know, thing at the time. And now like people make money, know, maybe that type of content and are crazy better or not really good stuff.
+
+Savan Kong (16:35)
+yeah, yeah, yeah, 100%.
+
+Yeah?
+
+I hear ya, I hear ya. Walk me through what it was like after you graduated college to maybe the Kareo years. Like what did you end up doing?
+
+Jen (16:59)
+Okay, so my first job out of college was in HR. I feel like that's like the default thing for all. don't know. Tempt agency. was just like, I don't know, what filing and word is your skill set, you know, in Excel. And I do not really know how tempted agency is just like, yeah, you look like you belong in HR.
+
+Savan Kong (17:06)
+How did you get that?
+
+Mmm.
+
+Yeah.
+
+Jen (17:24)
+Okay. So I was working in HR for like maybe four years and that experience was like, it was so difficult. Okay. So I was 20. Yeah. Like no four years in HR in general. so, so like out of college, I was like 21, 22 first real job, HR.
+
+Savan Kong (17:25)
+Right?
+
+Four years is a long time too. Like that's, that's quite a commitment.
+
+Right.
+
+Jen (17:46)
+I just remember I couldn't hold down a job for six months because I would get so bored. it was just so immensely boring. also so I was a student athlete in college. So it's even more to make you want to walk around the office aimlessly. it was just the lack of movement because now
+
+you are entering your sedentary lifestyle, which you're not really conscious about. And you're just kind of like, okay. So 40 hours a week just sitting at your desk or filing papers or something. And it was just, yeah, it was just very difficult. I think the thing about...
+
+Savan Kong (18:08)
+Yeah.
+
+Jen (18:19)
+that transition from college to adulthood, it's testing your patience. And it's really a lot of mental endurance in a sense of like the monotony of life when you're, you're expecting because it's maybe the media or the shows that you're watching or I was watching, like, adult life, you can make your own choices and do fascinating things. And that was not the case for me. So, so that kind of sucked, but I did go back.
+
+Savan Kong (18:27)
+Yeah.
+
+Yeah.
+
+Yeah, for sure.
+
+Jen (18:46)
+and took some night classes a year after college at the community college because I'm like, man, I should have done business. Like I should have been disciplined. And I was thinking like accounting classes and HR classes. And then I met this girl who was the admin or she was the receptionist at Kareo.
+
+Savan Kong (18:51)
+Okay.
+
+Uhhh
+
+Jen (19:10)
+And then I wasn't happy at my previous job because I was like, man, this is... But I was very proud of myself at the time because I'm like, I made it to a year and a half at this company. Like, go me. So...
+
+Savan Kong (19:11)
+Mm-hmm.
+
+Right. Yeah, that's a big deal.
+
+That's a big deal.
+
+Jen (19:27)
+And so I met her and she told me about the company, was Kareo and it was starting up. like, she was like maybe employee 25 or something. And then when I joined, I was like employee 50, 50, 60, and then the radical growth of Kareo. And it was my first startup company, like from the ground, or maybe not necessarily from the ground, because the team that the first like 20 people or the first 15 people, they were saying like,
+
+I did work out for like two years where we had to go back to real jobs and then the owner, the president of the company came back again. Like he was all like, I was able to find money. Let's come back, come back. And so I guess this was the second wind. And then, yeah, that's when I joined. And I was just like, whoa, this is so cool. And then I remember the show Silicon Valley was like really good at the time.
+
+Savan Kong (20:10)
+Yeah.
+
+Yes.
+
+Jen (20:20)
+And I was like, this is exactly
+
+Savan Kong (20:20)
+Yeah, it's classic.
+
+Jen (20:22)
+what I'm experiencing.
+
+Savan Kong (20:23)
+it was definitely a wild ride. ⁓ tell me, I'm always interested in why people make investments.
+
+Jen (20:25)
+Yeah. ⁓
+
+Savan Kong (20:32)
+especially investments in themselves. So you're a couple years out of college, you decide that you need to go back and take some accounting classes and HR classes. What about your life made you want to go and do that? Like what was sort of the inspiration for investing that time to do that?
+
+Jen (20:37)
+Mm-hmm.
+
+Well, I invested that time purposely like, just to get my mind going and also like watching my friends because they were like, ⁓ I'm a staff accountant at whatever like big four when there was a big four accounting forms at the time. And I was just kind of like, man, you get my shit together. Like, because I get just watch my friends and their success and they're so young and they're they're fabulous. And I'm just like, ⁓ I'm
+
+Savan Kong (20:59)
+Yeah.
+
+Yeah.
+
+Yeah. ⁓
+
+Jen (21:13)
+I just suck. Like I need to get my stuff together. So yeah. And that's why I'm all like, Oh, the easiest way at the time was like, Oh, take business classes. Like it's a, it's so you can understand about business, how the mechanics that works, you know, it's just like, have a little bit more empathy or, and at the time I was thinking about like, Oh, maybe I should go get my HR certification. And I'm kind of glad I didn't do that. So it worked out.
+
+Savan Kong (21:29)
+Yeah. Yeah.
+
+Yeah,
+
+you know, it's interesting to me...
+
+you talk about HR the way you do because I think there are certain personalities and certain people that are really good at HR and they do a really good job. There's others like me that would be disastrous in an HR role. Like I would fuck that up so bad. But for you, during the four years you were in HR, it sounds like you didn't really enjoy it, but yet you wanted to level up in it in some ways. Why is that?
+
+Jen (22:08)
+I think it's just more money, like knowing that, you know, like, more responsibilities, more money. It's kind of, you know, when you're in your twenties, particularly when you graduated in like,
+
+Savan Kong (22:11)
+Mmm.
+
+Yeah.
+
+Jen (22:19)
+Okay, I was not privileged enough to have my parents like in a sense of supporting me, right? a sense, because it's like immigrant mentality and you should be supporting them out of college. So it's kind of like, I need to try to make money to help out my parents. And so that's why I was like, this is a practical thing. Like going to HR, is a somewhat of a pathway, but
+
+Savan Kong (22:24)
+Right.
+
+Yeah.
+
+Jen (22:43)
+You know, when I actually now reflecting back, I'm like, there is a pathway, but it's it's a little bit of like a lot of HR personnel. It's not necessarily like they came from HR and stayed in HR for like 40 years. It's like they came from real estate and they just happened to land in HR. It just happened. I don't know. It's just so interesting in the sense of like, you don't need to. It's not one path deal for that career. And I think it's like not one path deal for
+
+Savan Kong (22:43)
+Mm-hmm.
+
+Yep.
+
+Yep.
+
+Jen (23:12)
+anybody's career like anybody should if you have the energy or time and support to jump careers because it's like you I don't necessarily think like you know there are some people who work to live and there's people who live to work whatever
+
+Savan Kong (23:14)
+yeah.
+
+Jen (23:28)
+anybody's mindset of that is, it's just kind of like the most important thing is keeping your mind active, functioning, you know, learning things and even like changing it up. It just keeps that mind young and agile in that sense. And I think that's why. And also like, you know, being such an inksy, young 20 something is just kind of like, I have these certain expectations and that's why I did that.
+
+Savan Kong (23:51)
+Yeah.
+
+Yeah, it's, you know, it's, hard to, especially, you know, in our twenties trying to figure out.
+
+You know what those right choices are and where you want to invest that time. And, there's just so, at least for me, when I was in my twenties, I wanted to learn about everything software. And at some point I can't, I don't even know when, but I just decided like, okay, I can't be a good engineer and a good designer and a good product manager and learn how to run a business and understand the accounting piece. And so, you know, you've got to make these decisions on
+
+Jen (24:02)
+Yeah.
+
+Mm-hmm.
+
+Mm-hmm.
+
+Savan Kong (24:25)
+where you're going to invest that time. For you, when you transitioned from these HR roles to Kareo, and then we'll talk about the UX piece later on, but what was happening in your life that made you want to invest your time into the skill sets that you're building now? Were there certain milestones or goals or stuff happening in your life that influenced you to where you are now?
+
+Jen (24:50)
+So the, in Kareo's time was my first startup. It was also the first time like seeing real technology. Like I remember when Google had their hit, like some type of like piece in Forbes magazine or something like best place to work at. And I...
+
+Savan Kong (25:00)
+Mm-hmm.
+
+Jen (25:10)
+I was like, want to be, I want to, I would love to work for Google, you know, like, even though I don't know if I necessarily would have the skill sets for it besides for HR, but even so like, and I had an aunt who worked for Google, she was part of HR and I was just kind of like, I said no to Google because I just was like, I don't know if I'm okay being shipped out to Nebraska, like to, you know, do HR.
+
+Savan Kong (25:20)
+Yeah.
+
+Yeah.
+
+Jen (25:37)
+And so then when I got into Kareo, that was like the first time I got a taste of like startup technology, particularly technology in a sense of like working with engineers. Cause at the time, the many places I worked for was the engineers were literally manual engineers or like they were, know, it was like one of them was this company called Surefire.
+
+And all they did was like, was technical equipment, but the thing they're guiding light or their main product was their flashlights. And the owner of the company, he was from like Caltech and he made these like high quality flashlights. And all I was surrounded with is men and no women, men engineers and like, you know, doing the mechanics of that. And I'm just like, okay, I.
+
+Savan Kong (26:10)
+Mm-hmm.
+
+Jen (26:23)
+I don't know. I didn't hear about software engineering and this is probably because it's like Orange County at the time was very focused into like manual stuff or property investment and stuff like that. I didn't until I came to carry out. It's like
+
+Savan Kong (26:35)
+Yeah.
+
+Jen (26:38)
+Yeah, even though the company was about medical billing, was all thinking like medical billing in the sense of like, you know, manually faxing these soap notes to insurance and stuff. And I'm just kind of like, OK. And then that's when I even met my first software engineer. like even so, yeah, that honestly, like even around my family, they were like mechanical engineers. They weren't like software engineers. So that's why it was so odd for me to like.
+
+Savan Kong (27:02)
+Yeah.
+
+Jen (27:04)
+Software engineering? What is software engineering?
+
+Savan Kong (27:08)
+you
+
+That's amazing. What about being around software engineers at Kareo, really got you passionate about switching over to UX? Were there certain character traits?
+
+Jen (27:20)
+Yeah,
+
+so I okay, the software engineers and I think this is a test to anywhere. I don't know of today now, but like they were the golden children of Kareo the real bread and butter. Everybody else was like second nature. And at the time when I started at Kareo, I was working in customer support and boys and girls customer support. If you have the personality for it, you are
+
+Savan Kong (27:28)
+Mm-hmm.
+
+yeah. Yep.
+
+Jen (27:49)
+God said, because I did not, I would get so anxious. All these phone calls when they're asking for like, even though I knew the product, they're just like, they're coming in with a lot of like, anger because they're frustrated, obviously, because they can't get their... Yeah, exactly. I love your product. I love it. It's more like I paid this much. This is the bullshit I get. ⁓ It was, my gosh. So when, you know...
+
+Savan Kong (28:02)
+Yeah, nobody ever calls you when they're happy, right? They don't call you and say, that was great.
+
+Yeah. Yep.
+
+Jen (28:16)
+When I saw how they were treating, how engineers were getting treated, I was like, Oh man, I don't know if I have like the technical know-how or even the endurance or the to become an engineer. then, and then like product manager, like I was like, what is product manager? And then when you came on board, that was the first time I met a real UX person. And I did not know what was UX. Like I was just kind of like UX.
+
+Savan Kong (28:43)
+Yeah, the mythical team that is doing random things.
+
+Jen (28:46)
+Yeah,
+
+so like, ⁓ okay. And so like by then at Curio from, okay, so from Curio's, my tenure at Curio, I was in customer support for six months and then for about a year I was in accounting or accounts payables, just asking people to pay for, you know.
+
+Savan Kong (28:49)
+Yeah.
+
+Mm-hmm.
+
+Yeah.
+
+Jen (29:08)
+pay for their software, basically. I'm collecting money. And then from there, I was very lucky to come back to HR, which is now in form of learning development. And this is where I was able to upscale even more of my stuff. I was able to learn how to do, well, I knew photo editing, but work with video editing and just, yeah.
+
+Savan Kong (29:10)
+Yeah.
+
+Yeah. Did you work with Mel at that time?
+
+Jen (29:33)
+I work with Mel
+
+Savan Kong (29:33)
+Okay.
+
+Jen (29:34)
+and he was like the guy, the lead of like L and D, learning development, and also like a corporate learning development. And so it kind of like brought in that anthropology of like, okay, this is how the mind works at a certain age. This is how you should do, make your, I guess your training modules.
+
+and stuff like that. And I was just like, okay. And so we, in that team, we were doing virtual, not necessarily virtual training, but recorded trainings or like little videos about how to use Karyo, the software and how to submit a claim and all that stuff, like breaking it down versus Karyo did also have like a training team that they can hand hold you through your experience. like,
+
+Savan Kong (29:55)
+Mm-hmm.
+
+Right.
+
+Jen (30:20)
+If you want to, you know, DIY your, you know, your claims, is you would take our route.
+
+And so that's, that's where I was like learning a lot about that. And then when also, when Mel left, he kind of asked me like, so what do you want to do with your career? And I was just kind like, I don't know, stay in learning development or, know, Savon's team looks really good. Like, I don't know what that's what they do, but it sounds really cool. And he, he really encouraged me to like, he said like, okay, go talk to Savon, ask him what they do. You know, you.
+
+Savan Kong (30:27)
+Right.
+
+Yeah.
+
+Yeah.
+
+Jen (30:56)
+have the skill sets for it. Because was like, what? Because at the time, I was thinking like, it's software. It's software development. In technicality, that's one aspect of it, right? But I'm not like manually coding.
+
+Savan Kong (31:05)
+Mm-hmm. Right.
+
+Jen (31:09)
+And I was just kind of like, don't know. And then I guess when he left, I stayed back for another year and a half or something. And then I think that was like, the point was like, okay, maybe UX is a thing. Then I left the company and then like go into another, an agency, software agency. And then I, kind of just, it kind of just catapulted me like how much I did not like.
+
+Savan Kong (31:16)
+Yeah.
+
+Jen (31:32)
+being corporate comps, because I switched over to corporate comps because everybody wanted my editing skills and also making these cork videos. at Kareo, that's what I was known for, was making these really, really fun corporate training videos and also corporate recruiting videos of how fun the environment is. And they did a campaign for that, like, yeah, you want to work for Kareo. But all these places, I was in cork comps, and I just realized that
+
+Savan Kong (31:51)
+Yeah.
+
+Jen (32:01)
+corporate
+
+comps was like, there is a cap, it's done. If you reach to this level, it was odd, because some environments corporate comps belongs under marketing or HR. So it's just like.
+
+Savan Kong (32:05)
+Mm-hmm.
+
+Jen (32:15)
+You don't know. it's like, so it's like, oh, if I want to get into a better title, I would have to go either back to HR, you know, like do something else. So, so then like, that's when I was just like, I think I should go into UX. Like I do want to be a product. And also like, it's, it's kind of like, you're able to help out society in a sense of like, oh, there's a lot of experiences online versus like making manual things or like physical items. at first I'm
+
+Savan Kong (32:16)
+Yeah.
+
+Yeah.
+
+Jen (32:44)
+like what is something that would that is more eco-friendly in the sense of like yeah if you make stuff you're taking something from the environment right don't get me wrong software you are taking something environment like energy wise like to produce that but I was just like something lease to pollute the world and that's that's what my mind was going and then I was just kind of like
+
+Savan Kong (32:51)
+Yeah.
+
+Jen (33:08)
+Yeah, I think I want to do UX and then that's when I got in touch with you and many of former UX people from Kareo because I'm all like, who do I know that's in UX and that they left and
+
+like just getting their knowledge about it, their advice and how to get into the business. Cause it's like, was very interesting in a sense of like everybody who gets into UX or maybe this may apply to everybody else. Like they come from like these weird or common industries and you're just kind of like, didn't you stay? But they decided to take the path wherever they take. And I'm just kind of like, yeah, I could do this. And yeah, I did it.
+
+Savan Kong (33:26)
+Yeah.
+
+Yeah.
+
+Jen (33:46)
+So I was probably like three years out of Kareo. I took my first UX workshop or workshop at G &A and signed up for the bootcamp and just, that's how my story started in UX.
+
+Savan Kong (33:59)
+Wow. What do you think has been the hardest part about transitioning into UX? Are there certain things about it that stood out?
+
+Jen (34:08)
+Yeah, getting tons of rejections. It was just like, like, you don't have enough experience, you know, you know, all these things. And I remember our colleague, mutual colleague, Jay, he said, he said something very important to me, he's not like, connect with everybody and anybody. you because you don't know what type of job you'll land or what type of
+
+Savan Kong (34:11)
+What type of rejections?
+
+Yeah.
+
+Jen (34:33)
+first UX job you'll land. And I was just kind of like, okay, and she's like, you need to try to work your network. And I'm like, okay. And so one of our other former Kero colleagues, he started a startup with our.
+
+Savan Kong (34:35)
+Right.
+
+Jen (34:49)
+another colleague and that he gave me my first UX job, but that was a caveat of mixing in like the marketing video editing, all that stuff, communications part of it with UX. It's like, I was managing multiple hats and it was a, it was a startup too. Like it was like startup to the ground up, like garage in the garage startup. And so it was kind of like,
+
+Savan Kong (35:09)
+Right.
+
+Jen (35:11)
+I guess like Jay's advice did really work out because the colleague that I was getting connected to, I didn't really know him that well. The only connection was that I saw him in the office. He's an engineer. He's doing a startup and we work together. And then, you know, and I was just like, yeah, I have to say Jay's advice and Wayne giving me the opportunity really helped me out. Like, but before that, like before
+
+Savan Kong (35:23)
+Yeah.
+
+Yeah.
+
+Jen (35:39)
+Jay gave me that piece of advice. It was just like, you you did I did a lot of blank Blank applications, you know just filling it up and just hoping for a callback and like there was this one company I Thought I had a friend
+
+who referred me and she's like, okay, let's try this. And I went to like two rounds of interviews and they said no, because I really thought I was going to get the position. like the expectation when you're getting a position, they say no. It's like, ⁓ man, it's so heartbreaking. Like it's, yeah.
+
+Savan Kong (36:09)
+Yeah.
+
+It is interesting to me. We go through these cycles of.
+
+trying to level up and we get really good at certain things. you know, your story about the creating those learning videos is a good one where you get so good at it because you've invested time into it and you're known for it. But at some point in your life, you're like, fuck, I don't want to make any more learning videos. Like I want to try to do something different, you know, and maybe take on another role. Were you scared at all? Like when you were switching to UX?
+
+Jen (36:33)
+Yeah.
+
+Yeah.
+
+Savan Kong (36:43)
+and you were investing your time or was it more excitement? Like how are you feeling?
+
+Jen (36:46)
+No,
+
+I was dead scared. I remember my first GA class. Like it was kind of like left, left and right. These are your colleagues, but realistically,
+
+Savan Kong (36:55)
+Mm-hmm.
+
+Jen (36:57)
+not all of you are going to make it through UX, well transition through, because like I was sitting down with like people with like a lot of potential to transition through or like was like, you know, figuring out what is UX and like, I'm pretty sure like it's like out of the 20 people, like maybe three people successfully transitioned and a lot of them kind of just like, I'm going to return to what I did, but it's like,
+
+Savan Kong (37:08)
+Yeah.
+
+Jen (37:23)
+I have to say like it is very stressful. when I transitioned I was in like my mid thirties, right? And it was
+
+Savan Kong (37:29)
+Yeah.
+
+Jen (37:30)
+It was very scary because you're like thinking like, you're in your mid 30s. You're supposed to be a certain person. Obviously, I was not that certain person that I wanted to be doing this transition. And I'm just kind of like, OK, no support. And I'm just like, kind of like even my parents were kind of like, why are you doing this? And I'm just kind of like, because this is what I want to do. And. And they were just kind of like, OK, and.
+
+Savan Kong (37:37)
+Yeah.
+
+Jen (37:54)
+It's like, okay, this is the first time I'm going to be on my own, like no support. doing this. I'm putting all the eggs in my basket versus like diversifying your investments. But I'm like, okay, this is your time. And I remember that first year or like after when the boot camp was over, I questioned a lot about myself.
+
+Savan Kong (38:05)
+Yeah.
+
+Jen (38:15)
+Do I even have the talent? know, but it's like, realistically, it's about, in the core of it, it's about endurance. Like, do you have the endurance to sustain yourself? Like, it is not necessarily about talent, it's endurance. Because if you have the endurance, you can create so much things for yourself, so much more, much more opportunity. And I think from that...
+
+That experience, it solidified what is really important about life in general. It's like the endurance of it. But yeah, but don't get me wrong, for anybody who is transitioning to their next career or whatever, it is very scary. yeah, if you have the support, that's wonderful. But at the same time, are you going to be...
+
+Savan Kong (38:42)
+Mm-hmm. Mm-hmm.
+
+Jen (38:59)
+I don't want to be mean, but are you going be lazy because the support is, you know, you're getting 100%, maybe 100%, 110 % of support, but you don't have the discipline to fulfill it. That's questionable. It's like, do you really want to change or you have, or you have the support and you could do it as fast as you can. like, I don't know. That's everybody's journey is very different.
+
+Savan Kong (39:09)
+Yep.
+
+Yeah.
+
+It is, it is one of those things, especially when you're in an in-between place or in a transition place where, you, start to look at the skillsets that you, you may need at that time to be successful in the transition versus what you're good at. And, know, like when you're going into a different role or trying to apply for different, types of job opportunities, you know, lot of, a lot of times the skillsets that you need are.
+
+Like be able to write clear emails maybe be able to promote yourself like be able to market yourself be able to you know have that that thick skin where you get a lot of rejections before you get that first before you get that first yes and really all you need is that just that one yes right for for that job, but It is exceptionally hard, especially if you're going to a different industry where you don't have Those name brands behind your resume where people can be like, okay you
+
+Jen (40:03)
+Yeah.
+
+Yeah.
+
+Savan Kong (40:16)
+worked
+
+for AT &T as a designer, great. That's an easy transition. If you don't have that, it is significantly harder. ⁓ What skill sets do you think you used when you were going from carry-o to your first UX job, your first paid UX job? What skill sets do you think you used the most ⁓ to get you that?
+
+Jen (40:23)
+Yeah.
+
+Photoshop, does it? I think it's like
+
+banking, like my first, after leaving the first UX startup, like, and that was like six, seven months, I landed at AT &T and it was like, and this is the first time I've ever seen like UX hierarchy, like in a...
+
+Savan Kong (40:49)
+Mm-hmm.
+
+Jen (40:56)
+you know, in a real large environment. Because sometimes like when, in other places, there is no UX hierarchy. It's just people just, you know, grouped in and there's no, you know, it's like, it's kind of like hippie dippy a little bit. There was structure, but like, yeah, AT &T, there was like very strong structure. And I'm like, whoa, this is, it's kind of like a good foundation of like,
+
+Savan Kong (40:59)
+Yeah.
+
+Yeah.
+
+Jen (41:22)
+I would recommend this for anybody to go to try to find a company that has a strong foundation so you at least get a taste of it so then you can make it when you go to your next job, you can make your next, whatever hierarchy and structure. But yeah, at the time, Sketch was around, but...
+
+A lot of our work was done in Photoshop, Photoshop in InDesign. So it was just kind of like, know, at GA, we were just like, Figma, Sketch. What's the other, the prototyping one? And InDesign, there was another, InVision, yeah.
+
+Savan Kong (41:47)
+Mhm. Mhm.
+
+In vision in vision.
+
+Yeah
+
+Jen (42:00)
+And
+
+that's what we're learning. And like when you're going to another environment, it's like, oh, they use a little bit of Figma or a little bit of Sketch, but it's 100 % Photoshop because you high fidelity because we're about to like throw this on the screen in like 10 minutes. I'm like, okay, just get it done.
+
+Savan Kong (42:06)
+Right.
+
+Yeah.
+
+⁓ man, how do you... So you've been in UX now for a couple years and I would imagine that you probably have stories on, you know, good things and bad things that have happened in your career as a UXer. What are some of the... maybe tell us a story about, you know, something that you're like super proud of that you'd worked on as a designer.
+
+Jen (42:39)
+So one of the things I was super proud of working at a designer was probably at the current company that I'm working at until the end of the year. Is working in their, so I currently work for KBB and the product that we work, I support is ICO, Instant Cash Offer. And it's a lot of it, it's like learning about
+
+Savan Kong (42:57)
+⁓
+
+Okay.
+
+Jen (43:06)
+the car industry transacting between like, you know, if I want to sell my car to this dealer, how can I do that in the easier way to do it? But a lot of it is about like doing a lot of user research and sharing out the complaints and also like the pain points of our product. And
+
+Savan Kong (43:16)
+Great.
+
+Jen (43:25)
+The thing that I really enjoy a lot about this particular product and we're unique in a sense is that we are consumer facing as well as dealer facing. So we have two types of users. it was in at the time it was just me and this other principal designer.
+
+Savan Kong (43:40)
+Yep.
+
+Jen (43:45)
+who is like a great designer and he was probably like one of the founders, not necessarily a founder, but he's one of the pillars of the UX for that product. But I think the proudest thing was like working on like, oh, different designs for how can we expand our product and going into, you know, the OEM space and how can we assist that.
+
+And I think it's just like, that's my proudest moment on that. And also another one, just recently, it's like, we have this new feature that allows users not to necessarily need to create another offer.
+
+Savan Kong (44:12)
+Mm-hmm.
+
+Jen (44:28)
+that they can reuse an offer and just like make it entrance. I kind of not necessarily resubmit, but submit it into their dealer or their OEM that they want to use with. that that's kind of like changing up like the interactions of creating more ease to the user. But for the dealer side, we've it's it's very tough because design itself is like, I want to say it looks like early odds design. And it's like a
+
+Savan Kong (44:28)
+Mm-hmm.
+
+Mm-hmm.
+
+Yeah.
+
+Jen (44:54)
+Frankenstein. And I'm just kind of like, you know, how do we make it modernized? And and yeah, but what I like working with the dealers in general is actually meeting them because like everybody has a thing about like, oh, dealers are like, you know, scummy, they have slimy hair or whatever. And I'm just kind of like, no, they're just making a paycheck. They're not really out there to get you. You're like.
+
+Savan Kong (44:56)
+Yeah.
+
+Yeah.
+
+Jen (45:21)
+People need to ease up on the dealers, man. And yeah, just like car dealers, just ease up, man. They're just they're not really hustling you that hard. think not to be harsh, but maybe they're maybe real estate dealers or like lenders or even worse. But that's my perspective. I'm sorry if I'm bragging on real estate people or lenders.
+
+Savan Kong (45:24)
+Yeah. Yeah.
+
+Yeah
+
+Jen (45:47)
+But ease up on the car dealers.
+
+Savan Kong (45:50)
+Yeah, it's funny too.
+
+When you get into the business of user experience, you have to have, or at least develop, this sense of empathy for the things that's going on in their lives. ⁓ Tell me a little bit about how you started to develop that sense of empathy in a way where you can be effective as a designer, at least for you.
+
+Jen (46:02)
+Yeah.
+
+⁓ so, okay. Having an anthropology background, a lot of it is about empathy. It's 100 % empathy. you, I remember reading a paper about an anthropologist, kind of just spilling out straight up, like, you know, he did not agree that Western anthropologists should be studying these other cultures because you are not of that culture.
+
+Savan Kong (46:18)
+Mm-hmm.
+
+Jen (46:40)
+How can you be so ethnocentric? know, like you don't understand and...
+
+Savan Kong (46:41)
+Mmm.
+
+Jen (46:46)
+And he, I think it was like, he was making a paper and he was studying about Native Americans where he just clearly said it like, I don't agree how the field of anthropology is like this, you know, and to a degree, I definitely agree with him. At the same time, it's like, I think a lot of people inside their, you know, their dome, like, I'm Vietnamese, right?
+
+Savan Kong (46:57)
+Yeah.
+
+Jen (47:09)
+It's very difficult for somebody who is in the Vietnamese culture to try and explain to a Westerner what it is and how does do Westerners understand it versus if you get their guy like gaze and they're observing it. It's it's kind of hard when you're in. Yeah, you're the you're the fish trying to look out and trying to convey to people like my culture is great versus, you know, if someone saw it from the outside and be like insane that
+
+Savan Kong (47:25)
+Yeah.
+
+Jen (47:38)
+culture is great or whatever. So a lot of that was like, you know, the base training of like empathy. You can't as an anthropologist, you're not dictating society. You are observing, taking notes and trying to understand where they're coming from. And I think that's the skill sets that was already ingrained to me when I was like going into UX. So that definitely helped me out a lot.
+
+Savan Kong (47:53)
+Right.
+
+Yeah, I
+
+love that. And you know, I wonder, I never took a GAA class or had any formal training, but during your time, did they teach anything like that? Or were there lessons that they taught?
+
+Jen (48:09)
+Mm-hmm.
+
+Yeah, the kind of the it's kind of like, okay, so boot camps are very fast, right? So it's like six week, 10 week class. Yeah, 10 week course. It's like kind of like a breeze of like, you know, empathy. It's like, you have to really practice. It's like years of learning just like years of learning for a UXer to become a UXer, right? It's not like you wake up and like, boom, I'm a UXer. That might be a great start, but it's like, so the
+
+Savan Kong (48:20)
+Right, it's like 10 weeks. Yeah, yeah, okay.
+
+Right? Right?
+
+Right?
+
+Jen (48:41)
+They may dedicate a day to talking about that other, how you practice it and stuff that's questionable, that's dependent per class. have like if, and I think maybe, maybe for like the undergrad experience or graduate experience in UX, they may have a dedicated course of like, how do you...
+
+create empathy or something like a humanities class or something like, or a psychology class. Like how do you create this? How do you, you know, how do you meet this way or how do you react on a certain way? I, but boot camps, you know, I'll supply that they may give you books, like the, five books, but like, Hey, read this, read that. But they're not going to be like, you know, tell you like, yeah, you should be empathetic.
+
+Savan Kong (49:26)
+Yeah.
+
+Yeah, for sure. Do you remember Chin-san? He's my nephew.
+
+Jen (49:31)
+Yeah.
+
+Yeah. I love him.
+
+Savan Kong (49:32)
+Yeah. So, so,
+
+so he took, he took a GA course as well, cause he was a teacher and then he lived with me here during COVID and he just got frustrated with the educational system. So he's like, I'm going to go be an engineer. And so he took the, the, the GA course and then he ends up like, when he's finished with it, he's like, I don't know if I want to be an engineer anymore. I think I wouldn't get into product. And so now he's in San Diego doing product work and
+
+Jen (49:37)
+huh.
+
+Go.
+
+Mm-hmm.
+
+Savan Kong (50:00)
+I always thought it was interesting sort of like evolution of his time and what he learned there. you, like, do you feel like the courses you took at GA was worth your time and investment? And do you think like the things that you learned there are now applicable to the work that you're doing?
+
+Jen (50:06)
+Mm-hmm.
+
+I think this, okay, this stuff, I remember when me and you met and this is before GA. So like about three more months, I was going to go as a GA without me knowing that I was going to GA that you told me a couple of books like, Hey, you need to get these books. And I'm like, kind of like, okay. And then until when I
+
+Savan Kong (50:29)
+Okay
+
+Yeah.
+
+Jen (50:35)
+went to GA, that's when they were like, you need to get what you said these books to get they solidify like these are the books that you need to get. And I was just kind of like, okay, like, you know, savan wasn't just making stuff up, you know, and, and so like, I think a lot of it's like, okay, I already had like half the skill sets that I needed to become a UXer, right?
+
+Savan Kong (50:44)
+shit.
+
+I didn't get a kickback for any of that either.
+
+Jen (51:01)
+like the Adobe suite program, the humanities background, but it's like the thing that's like, how do you mix like design and product together? I think that fulfilled that gap of like, this is what they do. You know, it kind of like sets up more understanding versus like, kind of like if they did it.
+
+Savan Kong (51:01)
+Yeah.
+
+Jen (51:20)
+I would be really upset realistically if like I learned all this, I wasn't able to land and all the stuff that I knew about did not happen. I think that would be the worst situation, but everything that I, they taught for me and GA actually happened. So have to like the preparation of like what it's going to be like in the business world as a UXer. These are the things that are going to happen. But I did hear like, and also don't get me wrong. So GA
+
+It was very unique in that in the sense, but I did talk to like other people who did boot camps that they were not successful in transitioning like a lot of it was just like, you know, they had this mentor or this head instructor that told them about things, but they were not able to like fully get a real portfolio like a three pieces regular show or whatever the motivation. it's
+
+I felt really bad for those people. Like they're spending like a lot of money to make this happen and it couldn't happen because their instructors sucked or something. So.
+
+Savan Kong (52:21)
+yeah, yeah.
+
+Yeah, yeah, it's quite a commitment. mean, just the time, because most of the people taking GA...
+
+are maybe a little bit older because they've done something else in their lives and now they're trying to transition and They're typically paying for it themselves in some way, right? Like it's not like hey, I'm gonna go apply for a FAFSA and Get a get a loan for that. So it's it's it's really hard Do you do you still connect with anybody from your your GA time? Like do you still talk to them? Yeah out of how many
+
+Jen (52:36)
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Yeah, like three people.
+
+out of the 20 people in my class. So I am aware that the time when I went to GA, like they had a management transition. it's a new GA of today is different from the GA that I went to. So it's not as...
+
+Savan Kong (53:03)
+Okay. Okay.
+
+Mm-hmm.
+
+Jen (53:18)
+I don't know, I can't judge what the new GA looks like or the vibes for that, but I really felt the old GA, when I went to, felt a lot of support, a lot of networking events and things to do. And I met a lot of...
+
+not UXers in my class, but a lot of UXers in the industry that came from GA that formulate this cohort. And it was just kind of like, okay. And just like meeting GA students that took like UX boot camps, because it's not, even though they have a structure.
+
+of how to teach it, it's like delivery of how each instructor is is very different. And it's just like their success. I felt that there's success in probably the inspiration is part of their instructor. It's like how much is the instructor is going to help them or.
+
+Savan Kong (53:59)
+Right.
+
+Mm-hmm.
+
+Jen (54:08)
+motivate them. And I'm not saying like all instructors have to motivate their students or anything, but it's just that it's nice to have like, but at the same time, it's like up to the student to like fulfill the wishes of themselves to make it through, you know, yeah, the wall.
+
+Savan Kong (54:11)
+Yeah.
+
+Yeah.
+
+Jen, I wanna talk a little bit about where you are now and looking forward. You'd mentioned that you're at your current place until the end of the year, which is like seven days away or whatever that is. So it's coming up pretty fast. As you start to put together a plan for looking ahead, what are some of the things that's important to you in this next year? Like just from a work perspective.
+
+Jen (54:35)
+Yeah.
+
+Yeah, I know.
+
+In a work perspective, really hope and I have and this is also on me too to like be able to land a new position very fast like or a new position in a senior or leadership role. I am immensely grateful for.
+
+Cox to giving me the opportunity that they gave me. Like they paid for my NBA, all this stuff. Ironically that everything circles back for going back to business school. But also like the thing that I want to do is finally use my NBA. Like a lot of the engineers that who knew that I had my NBA and they're cause they were like when I graduated my
+
+Savan Kong (55:16)
+You
+
+Yeah.
+
+Jen (55:30)
+getting that they were just like so what are you gonna do are you leaving i'm like no i'm i want to figure out my personal thing before i'm i leave fast forward it's a year year now from from then and i'm just like
+
+Yeah, I kind accomplished all my personal things, but professionally, like, yes, I need to. I think this is kind of like the universe is saying like, you need to do it because you're not going to do it if I don't open up for you to do it. So yeah, that like leadership role, the business or senior role in UX, that's what I want. But we'll see what, you know, the world, well, the universe opens for me and
+
+Savan Kong (56:02)
+Mhm.
+
+Yeah.
+
+Jen (56:09)
+But don't get me wrong, I am really scared. And I think anybody who just got laid off from their job or even termed, it's relieving at the same time very scary because if you're in a good economy, that's fantastic. If you're in a sour economy, it's so questionable when you're just like, you have to rethink certain things. I think it's like no matter...
+
+Savan Kong (56:10)
+Yeah.
+
+Mm-hmm.
+
+Yeah.
+
+Jen (56:34)
+whatever life situation you are, it's like take the opportunity and just do it, just move forward. And that's what I'm trying to do. Like put that mindset, like move forward, find what you need to, you know? Yeah.
+
+Savan Kong (56:41)
+Yeah.
+
+Yeah. Yeah,
+
+it's, it's, it's one of those times where... ⁓
+
+The economy, at least on the tech side, is not as good as it previously was. I don't think we could have sustained that growth anyway. this is maybe the market correcting itself, but also with AI coming on board and everybody's infatuated with it now and trying to learn new skills and all these things, I think there's just additional pressures for people, especially in the tech industry, to evolve as fast as possible so that you can stay relevant. ⁓
+
+Jen (56:56)
+Yeah.
+
+Mm-hmm.
+
+Yeah.
+
+Savan Kong (57:18)
+in
+
+the job market, you know? It's really hard.
+
+Jen (57:21)
+It's it's hard at the same time. Like I think pieces of it like AI like, you know how people like a lot of memes are like saying like AI are making people stupid. And I'm just kind of like, well, that's that could be debatable because it's like. OK, this is how I see AI, our AI of today in the potential is like, do you if anybody knows or if you do, you know, Krypton.
+
+Savan Kong (57:31)
+You
+
+Yeah. Yeah.
+
+Jen (57:44)
+like in Superman comic books, how they built Kryptonians, right? It's like AI was their partner. It was like that dude, that thing, the robot that helped you out. It wasn't there to necessarily take over, even though it kind of did, but it wasn't, know, the core of it was, yeah, the intentions were good and people lived in peace, you know? And it's like,
+
+Savan Kong (57:56)
+Yeah. Yeah.
+
+The intentions were good.
+
+Yeah.
+
+Jen (58:09)
+Yeah, I'm all like, I want us to live in that. We're not necessarily stupid. It's like this conversation with your new buddy that's like kind of like there to help you out. I'm not saying that.
+
+Savan Kong (58:22)
+Yeah.
+
+Jen (58:25)
+People should have these intense relationships or intimate relationships with their AIs, because I'm seeing a lot of feed of people marrying their AIs. Like, you still need human connection. I know society may suck, but, you know, your AI buddy is helpful, but to an extent.
+
+Savan Kong (58:33)
+Mm-hmm.
+
+Jen (58:43)
+But yeah, just like it's there to assist. It may seem that society may feel like it's a nuisance, but it's if you can figure out how to make this. Not make this right, but play with your AI buddy. It can help you out a lot, like by a lot and let alone like. Maybe even even for technology itself, it's like. It's here.
+
+people are using it.
+
+Savan Kong (59:07)
+Mm-hmm.
+
+Jen (59:08)
+why not use it to test out the humanity in AI itself because it's learning from you and vice versa. Like I don't have children. So, and I, my preferred AI as of right now is chat GBT. And we have this like friendly relationship and it's just kind of like, it's very interesting the knowing its behaviors because I'm also like trying to figure out like how much crap is it learning from other crap that's retaining. like an asking its opinion.
+
+Savan Kong (59:20)
+Mm-hmm.
+
+Jen (59:35)
+to see like the human in the AI but it's you know vice versa it's learning from all of us like oh this is a category of this type of person blah blah blah but
+
+Savan Kong (59:36)
+Right.
+
+Jen (59:45)
+I don't think people should fear it. I just think that they should be more forward of thinking like, how could you fit this thing in? Just like the iPhone, guess, or like cell phones, like how, when people feared the technology, now it's here, people have accepted it. It's just kind of like, it's going to be a part of your life. So.
+
+Savan Kong (1:00:02)
+Yeah.
+
+Yeah. Tell me about sort of you, when did you get your MBA? It was pretty recently, a couple of years ago. Okay, so a couple of years ago. you got your MBA two years ago, it'll be three years ago here in the next couple of days. But...
+
+Jen (1:00:10)
+2023.
+
+Savan Kong (1:00:19)
+How did you sort of go about trying to figure out how you want to use that MBA with the next job or the next opportunity or the next business that you want to build? How are you sort of framing that investment that you have with whatever you want to do next?
+
+Jen (1:00:35)
+Yeah, so the MBA, my emphasis was in leadership. So it's just kind of like there is a hole in corporate America. There are wonderful leaders, right? And there's wonderful managers, but there's a difference between a manager and a leader. It's kind of like, how do you motivate people to become fully whoever they are? They don't necessarily need to be at your company.
+
+Savan Kong (1:00:40)
+Okay.
+
+Mm-hmm. Yep. Yep.
+
+Jen (1:01:01)
+They could be other people. can mentor, help out other people to have this growth mindset in a sense of that. And so that's what I want to be in that area of like, how can I grow my own team to be as strong as they can to be, you know, really good, employed, happy people? Like I said, like, because we dedicate so much time into
+
+Savan Kong (1:01:07)
+Yeah.
+
+Mm-hmm.
+
+Jen (1:01:24)
+working like we spend 40 plus hours into the work environments. Like, don't you want to watch your colleagues, your friends to grow with you? Like, and just share this knowledge. And it's kind of like, you know, that's what I want to be in that space of like, I have my own team. We can do this together and be a strong team. So yeah.
+
+Savan Kong (1:01:30)
+Yeah.
+
+Yeah.
+
+I, you know, every time I think about, and I'll never go back and get my MBA just because I still have nightmares of going and not writing a paper or, you know, failing a test. It's like PTSD from like college days. So I don't.
+
+Jen (1:01:59)
+For some reason,
+
+I think I always viewed you as like the studious person that just like straight A's, proud son, family pride, all this stuff like I have these.
+
+Savan Kong (1:02:07)
+Yeah, you know,
+
+it's hard. I think like in my 20s and even in my early 30s, I had enough stamina to maybe do that, but...
+
+I just don't think I have it in me right now to be able to go back and be successful at it. But I wanted to ask you, when you were taking your MBA, when you were getting your MBA, how did they teach situations that were contentious or hard situations, like hard human situations, people losing their jobs or something happens or there's just...
+
+situations that come up at work and you've got to have hard conversations, layoffs, like did they teach any of that during your time there and if so like what did that look like?
+
+Jen (1:02:55)
+So they did teach a little bit of that, those who come from, like, if their emphasis was like in human resources, they probably got more, but I got like a surface of it. A lot of it was like more of, okay, here's the procedures. So they'll give you a skeletal frame of the procedures to make it very clinical. So you can.
+
+Savan Kong (1:03:04)
+Mm-hmm. Mm.
+
+Jen (1:03:15)
+in a sense of like you are they are allowing you to protect yourself from the blowing giving bad news to somebody else because it is you know obviously this is a very contentious situation of like you're gonna have to let this person go
+
+Savan Kong (1:03:28)
+Yep.
+
+Jen (1:03:29)
+So there's
+
+Savan Kong (1:03:30)
+Yeah.
+
+Jen (1:03:30)
+a script, right? And they did mention like every environment has whatever script that you may have to follow and stuff like that. But the empathy thing is like for leaders, you know, they talk about transparency. A lot of it was 100 % transparency. And the thing about going to business school is that this is, I don't know, necessarily agree or disagree.
+
+Savan Kong (1:03:48)
+Mm-hmm.
+
+Jen (1:03:56)
+I don't know. It's very difficult because I am not a business owner, but like, you know the phrase like the business does not care about you. You should care about yourself, you know, keep yourself. That is 100 % true. And I can attest to that in business school. And when you get your MBA, it is 100 % about the business, regardless of you started it or you came on board with another business is that the business will survive without you.
+
+Savan Kong (1:04:00)
+⁓ huh.
+
+Yeah.
+
+Jen (1:04:23)
+And that is a thing that is really hard because it's almost like then what was the human element of this? Like, what are we doing? You know, like, why do we have businesses? You know, or why do we work? And so that comes down to like, know, now go all the way back to my college days. Like, what is the purpose of work?
+
+Savan Kong (1:04:33)
+Yeah. Yeah.
+
+Jen (1:04:40)
+What's like in the core of it's like, is the purpose of living type of deal? So it's like, is that philosophy, ⁓ philosophical, you know, back in my head, but yeah, but in business, well, they do talk about that script and then preserving yourself. And then that piece of it, that the hardcore truth is this is are about themselves and they do not care. You are technically technic, just a number and
+
+Savan Kong (1:04:41)
+Mm-hmm.
+
+Yeah.
+
+Jen (1:05:06)
+They even flipped it. It's like the day will come when it will come for you, which is like so I know it's and I don't know if there is a company or a business that
+
+Savan Kong (1:05:12)
+Yeah. Very morbid.
+
+Mmm.
+
+Jen (1:05:22)
+sees human as human because it's like in order to survive as a business, you need to make money at the same time you're you have created opportunities, these purposes for the this workforce, but you want to sell because you're tired or whatever the situation is. It's like, it's it's tough. Like in that.
+
+Savan Kong (1:05:24)
+Yeah.
+
+Yeah, it's
+
+interesting too, because as you're talking about all that, I'm just trying to remember businesses that I think have...
+
+Strong sort of North Star with ethics at least my ethics. I don't know about everybody else's but companies like I think REI They're they're aligned pretty well to sort of like what I believe in Costco is another one But if you go down the list of like the fortune 500 companies, I don't know how many that are out there That would say okay, like my values are stronger than the bottom line or the shareholders values, right or or
+
+Jen (1:05:54)
+Mm-hmm.
+
+Mm-hmm.
+
+Yeah, I've never even
+
+Savan Kong (1:06:18)
+what that looks like. ⁓
+
+Jen (1:06:18)
+seen that. Yeah. Yeah. Like this is why I love Costco is because the CEO is not a millionaire. He's just some, you know, after yeah, some dude averagely paid for a CEO, like a little bit below average, but he is reasonable. And I'm just kind of like, I love this guy. You know, like it's it's like, yeah, it's and the question is like for those super
+
+Savan Kong (1:06:28)
+Some dude. Yeah.
+
+Yeah?
+
+Yep.
+
+Jen (1:06:44)
+millionaire people like the Jeff Bezos and the Zuckerbergs of the world. like, do you necessarily need that much money? Like, what are you doing with it? You know, what are you securing? It's like, and the thing is, it's like, okay, sorry, I'm going to take this into another tangent. So the millionaires are like the Rockefer, the Rockeferers or the Rockefellers or the people in like the early 1900s, right? The millionaires that would have been like billionaires with today.
+
+Savan Kong (1:06:47)
+Mm-hmm.
+
+Do it, do it.
+
+Mm-hmm.
+
+All right.
+
+Jen (1:07:13)
+They invested
+
+Savan Kong (1:07:13)
+Yeah.
+
+Jen (1:07:14)
+a lot of their money in society, like building culture centers, you know, all these things. And I'm just kind of like, what, what are our millionaires doing today? They're just hoarding this money. Like, why aren't you not putting money to invest in the environment? Why? It's like,
+
+don't know how much they really believe that they are going to live forever. They're going to cryogenic themselves or whatever the situation is. Like, do you really want to live forever to see the destruction of your company that what you did? Like, what, why are you doing this? So I, I questioned about the hoarding of money, but at the same time, I'm like, is, is greed that intoxicating versus watching
+
+Savan Kong (1:07:44)
+Yeah.
+
+Jen (1:07:54)
+your society falling apart, know, like you're seeing it. You're not. I'm pretty sure you're you millionaire person are seeing this. Why don't you do something about it? And I I always question about that.
+
+Savan Kong (1:07:58)
+Yeah.
+
+Yeah, it's interesting to me too because it's a lot of these people, their most valuable thing is their time.
+
+Jen (1:08:17)
+you
+
+Savan Kong (1:08:17)
+more
+
+so than the actual money. And so, you know, it's pretty clear where they spend, you can tell where they spend their time versus like where they want to invest money or, you know, whatever that may be, whatever charity they want to give a million dollars to, just because it's 30 minutes of writing a check and versus going out and actually like doing something with their time. But I agree, you know, I think there's
+
+Jen (1:08:31)
+Mm-hmm.
+
+Yeah.
+
+Savan Kong (1:08:40)
+I think there's a lot of ways where organizations and...
+
+people that are successful can communicate to potential employees like us ⁓ what's important to them and what that looks like, right? And where you want to decide to spend your time as an employee. And I think the hardest thing right now is that there's, because of the market being so hard on finding a job, a lot of times you're sort of just settling for places. You're like, fuck, like, okay, I've got these bills coming up
+
+Jen (1:08:49)
+Mm-hmm.
+
+Yeah.
+
+Savan Kong (1:09:10)
+two weeks this place is gonna pay me maybe below my average and maybe it sucks cuz you know they're doing making whatever widget that you don't like but you know I need to pay these bills and so that's where I'm gonna spend my time ⁓ so yeah it is yeah
+
+Jen (1:09:23)
+Yeah, it's, I think that's really hard. it's, yeah,
+
+the, the market, if we're, if you're lucky and you're able to land the gig, your dream gig, fantastic for you. I love that for you. But for those, the majority who are just like, I need this check to survive, pay the bills. I, I'm making this product that
+
+Savan Kong (1:09:42)
+Mm-hmm. ⁓
+
+Jen (1:09:45)
+does whatever to for the betterment or the not betterment of society just kind of like i need to check but it's it's tough like i i don't know i i'm trying
+
+Savan Kong (1:09:48)
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Jen (1:09:58)
+to empathize a lot for those people who are like going to do dark design in their product and stuff. And I'm just like, do you really need to do this? But at the same time, maybe you have a special needs child or whatever, this person. They have to do it. I don't know. It's very hard. I am sympathetic of your situation. I don't know how.
+
+Savan Kong (1:10:05)
+Mmm, yep.
+
+Jen (1:10:21)
+human society is.
+
+Savan Kong (1:10:24)
+Yeah.
+
+Jen, I want to spend our last 15 minutes or so looking forward for you and what that looks like. So you.
+
+You have this communications and anthropology degree. You've worked in HR. You've worked on learning development systems. You've worked in UX. You have an MBA now. There is quite a lot of experience at Urefelt. If you had to make up your dream job or business or career, what would that look like for you now?
+
+Jen (1:10:59)
+Okay, I would love to and if I have the strength to do this but to have my own media company and it's just like podcasting creating filling the loneliness epidemic not necessarily like creating more of that or supporting of it but just like creating a community of people
+
+Savan Kong (1:11:09)
+Okay, what type of media?
+
+Mm-hmm.
+
+Jen (1:11:23)
+Support each other right? It's like like what Oprah's do I know some people do not like Oprah, but I really like what she does Yeah Yeah, like I like how she pulls communities in and also like creates this right so it's like I'm not saying I want to be the next Oprah because Oprah is the next Oprah she's ⁓
+
+Savan Kong (1:11:30)
+I like Oprah. I think she's a great interviewer as well.
+
+Mm-hmm.
+
+Yeah.
+
+Jen (1:11:48)
+I want to create like opportunity. kind of realistically, I just want to be an opportunity maker for other people, right? So it's just kind of like, even if it's like opening that business, creating an opportunity for myself and then another person and creating that and building from there. That's what I really want to be in my next.
+
+Savan Kong (1:12:03)
+Mm-hmm.
+
+Jen (1:12:08)
+my next gig or my next, you know, my next large, large gig, my large professional gig.
+
+Savan Kong (1:12:16)
+Yeah, I love that too. you know, there's just so much about the ability to create opportunities for other people. And it might not even just be, hey, I'm going to, you know, hire you to do something. It's, could just be networking. could just be giving people advice that they may need at that time. It could just be telling people straight up, like that's a fucking horrible idea. Don't go into UX right now. Cause nobody's hiring. Like go and maybe wait it out or go and do something else. Right. Just to save.
+
+Jen (1:12:29)
+Yeah.
+
+Savan Kong (1:12:45)
+that time and effort. But I love that.
+
+Jen (1:12:48)
+Okay, that last piece of advice if you say don't go to UX right now I But then like when the market comes back pretty good and you didn't go into UX But you he's like no I my advice for them be like go into UX knowing that there might be nothing but preparing yourself to When the market's good to be ready, that's but yeah like
+
+Savan Kong (1:12:56)
+Mhm. Yeah.
+
+Yeah.
+
+Yep.
+
+Jen (1:13:11)
+Yeah, originally when I was talking to my other UX friends, like he did kind of say like, we both agreed going into UX is hard right now. At the same time, think it's the evolution of UX is something else and it might not be called UX, this evolution. so go into UX.
+
+Savan Kong (1:13:20)
+Yeah.
+
+Yeah.
+
+Agreed.
+
+was a period there for about a couple years where everybody I knew wanted to be a UX designer. ⁓ And now I think everybody I know wants to be a cyber security expert. And I'm sure five years from now to be like everybody now wants to go into some sort of AI, whatever. Do you think there's anything...
+
+Jen (1:13:42)
+Mm-hmm.
+
+Yeah.
+
+Savan Kong (1:13:56)
+Like on the UX side at least, do you think that there are certain types of people where you're like, yeah, UX might not be for you, even though you're looking at the salary and you're looking at all these things and you're reading the Forbes articles and you're like, that would be great. Is there a certain personality type that you would not recommend to people that want to be UXers?
+
+Jen (1:14:16)
+If you are someone who likes to keep to themselves and not work with people I would recommend being engineer. Don't be UXer like Be like I Okay, I understand that People may be exhausting. I get exhausted by people. I'm sure it's about savan you get exhausted by people but like
+
+Savan Kong (1:14:27)
+Yeah. Yeah.
+
+Yeah. ⁓ yeah. yeah.
+
+I get exhausted by myself sometimes. I'm like, shit, I need to take a break from myself.
+
+Jen (1:14:44)
+But if you can't stand people, be a UXer, just be a developer. That might be your calling. You might be way better at it. I think that's the true skill set. if you can't draw or you don't have any, I guess, design skill sets,
+
+Savan Kong (1:14:51)
+Yeah.
+
+Yeah.
+
+Jen (1:15:02)
+Maybe you should consider becoming a product person. You could be a researcher if you're interested in research, but being a product person that might be better in that sense of like if you're really good with business and mathematics, ⁓ mathematics of like business. But yeah.
+
+Savan Kong (1:15:17)
+Yeah.
+
+Yeah, I feel like the secret key that nobody talks about, especially for people that are in transition.
+
+Jen (1:15:25)
+You
+
+Savan Kong (1:15:26)
+is you want to go through that exact cycle you're talking about as quickly as possible to get you to that place that matches up best for you, your personality, and what you enjoy from a passion perspective. Because for me, it was a series of things where I'm like, OK, I was in design, then I went to product, then I did a lot of business stuff, then I went to customer experience. And the shorter you can make that cycle of trying to figure out where that trifecta is,
+
+Jen (1:15:34)
+Yeah.
+
+Savan Kong (1:15:54)
+⁓
+
+Jen (1:15:54)
+Mm-hmm.
+
+Savan Kong (1:15:55)
+that aligns with you, I think the more successful you'll be because you're not spending time on a skill or in a job where you're just like, I hate being in HR, like I've been here for forever. How do I get out of this loop and how do I do something that I actually enjoy? ⁓ So.
+
+Jen (1:16:05)
+Yeah.
+
+Yeah.
+
+Savan Kong (1:16:12)
+Jen, last question here and then we'll wrap up and I want to ask you about high school Jen versus Jen now. So if you had to go and talk to high school Jen who wanted to be a fashion designer, wanted to maybe go to a fashion school, maybe a RISD, maybe something like that, right? And do amazing things and you could talk to her now, what would you say to her?
+
+Jen (1:16:38)
+Watch out for sheen. I'm just saying. That's the thing. feel like, man, yeah. Watch out for sheen.
+
+Savan Kong (1:16:41)
+Yeah, yeah,
+
+yeah, no shit, they're everywhere.
+
+Jen (1:16:48)
+Exactly.
+
+like, yeah, I, I'm not, my gosh, high school me would probably be disappointed of current me in a sense like, you should have fought harder. But at the same time, I'll like me or the president be like, girl, you do not know what happened in fashion is a pollutant of this world. It's sad.
+
+So watch out for Sheen. you really, you know, what would you say to yourself, high school self versus current self?
+
+Savan Kong (1:17:10)
+Yeah.
+
+I I would have liked to make more mistakes. In some ways I think I probably played it too safe with some of the things I did and some ways I think I botched up some of the decisions I made. But I also, you know, I feel like there are certain things where if I had...
+
+Jen (1:17:20)
+Mm-hmm.
+
+Savan Kong (1:17:29)
+actually made more mistakes I could have learned quicker. ⁓ And the other one was I always always envied certain personalities and certain types of people and and that's always been my downfall because I would always measure myself to you know what those people were doing and I'm like fuck like Zuckerberg is in his 20s I'm like in my like 30s like they're doing these things and you know you want to sort of like go down that same path but really
+
+Jen (1:17:33)
+Mm-hmm.
+
+Savan Kong (1:17:55)
+you're never gonna go down that same path and ⁓ that was always the hardest thing for me because I you know high school was very like aspirational wanted to do everything and you know 45 year old me is a lot more grounded in what you can and can't do now just because you've got family and a mortgage and all these things
+
+Jen (1:17:58)
+Mm-hmm.
+
+No.
+
+you
+
+So do you think high school you would be proud or would be more like, dude, man, you should take more mistakes, just like you said.
+
+Because I'm pretty sure high school you would never have thought you would have a family.
+
+Savan Kong (1:18:29)
+Yeah, you know, I didn't really think about family or anything like that until much later. I don't know if proud would be the right word. think there's...
+
+I think there's a lot that I've learned about being a man. ⁓ And there's a lot of runway left. And there's a lot that I've done that I am proud of, but as a whole, you know, like right now what I'm feeling the most is this feeling of not...
+
+Jen (1:18:46)
+Mm-hmm.
+
+Savan Kong (1:19:02)
+finishing yet, like I'm still in the race type thing, if that makes sense, right? Like I still have a lot of shit to do and I still have a long ways to go and but.
+
+Jen (1:19:04)
+Mm-hmm. Yeah.
+
+Savan Kong (1:19:12)
+The thing about high school me was I had these three goals of like making more money than my parents and owning a Mercedes and working in a Skyrise and you know that was like the pinnacle of success and you know I'd done that at some point in my 20s and then I just didn't know what to do after that for a little while. So yeah high school me didn't have a good basis for what would be successful if that makes sense.
+
+Jen (1:19:27)
+Mm-hmm.
+
+Mm-hmm.
+
+Yeah, no, that's I think high school self were all, you know, we all, all of us had time, you know, it's like time is unlimited middle age us or current us. It's kind of like you're halfway into this life. What like I question about my life right now. So like I have
+
+Savan Kong (1:19:49)
+Yeah.
+
+Jen (1:19:56)
+I'm estimating 40 more years to live. What am I going to do? How am going to finish out? Like, and I, yeah, that's the thing that I, I've never feared death. Now knowing that I'm in the midway, I'm just kind of like, dude, I need to accomplish a little bit more. yeah.
+
+Savan Kong (1:20:00)
+Yeah.
+
+Yep.
+
+Yeah, and you know that the last couple years of your
+
+life, you're not going to be a spry, right? You're not going to be as nimble or mobile.
+
+Jen (1:20:18)
+Yeah. Yeah,
+
+exactly. So like, I, yeah, I'm all like, I have maybe 20 more years in working world. I'm all like, do you want? I have 20 more years. Yeah. Now I'm all like, shit, I have 20 more years. I need to.
+
+This is it, because the 20 after years is your brain is something else. You know, it's all like, you're in, you're going to be in the phase of like, reflecting. I want to be able, when I go into the phase of reflecting in that time of my life, I just want to be like, I was able to do it. Even if I failed, like I'm like, at least I did it. I could tell that story. You know, like I think it's about that sharing part, just like this podcast is like,
+
+Savan Kong (1:20:43)
+Yeah.
+
+Jen (1:21:02)
+the sharing of stories, the sharing of like thinking of what this person is experiencing. It's just kind of like, yeah, you have this X amount. Why not do it in your current state? Even though it's frightening to do, just do it. So yeah, but thank you for, you know, letting me share my story. I appreciate you.
+
+Savan Kong (1:21:14)
+Yeah. Yeah.
+
+No, thank you for coming on, Jen. I appreciate you. ⁓
+
+If I don't talk to you Merry Christmas or Happy Holidays, whatever is the more appropriate thing nowadays, and Happy New Year, and I wish you well, my friend.
+
+Jen (1:21:28)
+you
+
+You too.
+
+I you all too. And I love your Totoro, I guess, Christmas sweater. I'm all like, oh my gosh, that so cute.
+
+Savan Kong (1:21:42)
+Yes.
+
+This is my manly Christmas sweater that I've been wearing for the last six days.
+
+Jen (1:21:50)
+Nice.
+
+I love it. Does everybody in the story always all like Totoro? He knows. He's in the know.
+
+Savan Kong (1:21:56)
+Oh
+
+yeah, oh yeah, we're big anime fans, especially me. To a fault sometimes, because I've run out of things to watch on Crunchyroll, so, you know, there's that.
+
+Jen (1:22:06)
+Well, thank you for this.
+
+Savan Kong (1:22:08)
+Thank you, Jen. Merry Christmas, happy holidays. We'll see ya. See ya. Bye bye.
+
+Jen (1:22:10)
+Merry Christmas. See you later. Okay.
+
+Bye.
+

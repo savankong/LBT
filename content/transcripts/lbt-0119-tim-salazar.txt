@@ -1,0 +1,1193 @@
+Savan Kong (00:00)
+Were your parents supportive of sort of this creative angle that you were taking in life or were they just like, what the hell are you doing, man?
+
+Tim Salazar (00:08)
+Yeah, yeah, more the latter. mean, especially
+
+because like the, you know, they're immigrants. come to, I keep saying, can come to somewhere and you got to grind. And that's what they did. They came to America and they just, my dad worked all the time. I didn't see him a ton. And then my mom also worked. So ⁓ they were both ⁓ just working to make ends meet. And they, I think they,
+
+Savan Kong (00:20)
+Mm-hmm.
+
+Tim Salazar (00:35)
+they were not supportive. I think the thing is, like a lot of immigrant parents come here and grind for the sole purpose of making things better for you. So that maybe you don't have to grind. think some, like, I think some parents are like, you know, go be a doctor, go be a lawyer or whatever. And I think that that is definitely, you know, an ambition that they have for their kids. But I think that
+
+Savan Kong (00:49)
+Right. Yep.
+
+Yep. Yep.
+
+Tim Salazar (01:05)
+really what they want behind that is for you to not have to worry about like money or, and certainly some of this status, but I think that they were really supportive in that sense where they just wanted me to be happy.
+
+Savan Kong (01:19)
+Yeah, yeah, I think like now now that I'm in my 40s, it's I've circled back around to realizing that they probably just want me to be happy. But I definitely think like growing up there was at least in the Cambodian culture, there's like the the blueprint that everybody talks about. like, you know, like for first generation immigrants, it's you come here, you don't know what the fuck is possible. So you just talk to your
+
+Relatives and whatnot and they'll tell you yeah, you should go and do this. They're like, shit Yeah, I'm gonna put my kids in that they're gonna do that and that's the blueprint that they need to work off of But you know as we've gotten older and I'd be interested in seeing sort of like what our kids, know eventually end up doing with with their lives, but the Doing things that may not necessarily make as much money Say being a designer or a painter or a poet or where the fuck it is
+
+is ⁓ i think will be significantly harder just because i don't know i mean there's a certain amount of grit that your your parents had you know that they've instilled in you and like i know for sure for me ⁓ like
+
+just raising my kids here, it's like, damn, do I have that same amount of grit? Am I instilling that? Like, are you teaching those same lessons or are they just like blowing past it because we want them to have an easier life? ⁓ Man, it's really fucking hard.
+
+Tim Salazar (02:47)
+Yeah, for sure.
+
+Yeah. And like, once you start bringing, like your kids into it and seeing like, okay, what kind of parent am I compared to my parents? And what are they? What am I giving them? Am I giving them too much? Like, my son told me the other day, he's like, Dad, we're spoiled. And I'm like, yeah, damn right, you're spoiled. ⁓ And I'm like, but you know that we have that privilege to spoil you in some ways. But I think in other ways, they gotta learn those lessons.
+
+Savan Kong (03:00)
+Yeah.
+
+Yep.
+
+Tim Salazar (03:16)
+It's hard.
+
+Savan Kong (03:16)
+Yeah.
+
+Savan Kong (03:17)
+Tim's story sits right at the heart of the show.
+
+He's a first generation Filipino-American who grew up moving between Northern California, Eastern Washington, and eventually landing in Seattle.
+
+Before design, Tim's path ran through comparative literature, film, and a serious attempt at becoming a writer in Los Angeles. Like a lot of creative careers, that meant doing unglamorous work to stay afloat, captioning, QA, and whatever else was needed, while still chasing the work that actually mattered to him.
+
+We talk about his transition into UX through the library school at Pratt, coming up during the era of massive waterfall specs, and eventually landing at Amazon, where Tim and I first crossed paths.
+
+If you enjoy conversations like this and want to support Life Between Titles, there are a few simple ways to help. Subscribe to the show wherever you're listening, leave a rating or review. It genuinely helps more people find these stories.
+
+Share this episode with someone who might be navigating a transition of their own. And if you want to go deeper, check out the links in the show notes for ways to support the project directly and help keep these conversations going. And with that, here's my conversation with Tim Salazar. Let's get it.
+
+Savan Kong (04:46)
+Welcome to Life Between Titles. I'm your host, Savan And today I've got my good friend, Tim. Tim, what's up? How are you doing?
+
+Tim Salazar (04:54)
+Yo, what's happening? Doing all right? How about you?
+
+Savan Kong (04:56)
+You know,
+
+same old, old. ⁓ Got our Seahawks going to the Super Bowl. I can't complain about that. Can't complain about that. So it's been a good start to the week. ⁓
+
+Tim Salazar (05:11)
+Sorry Niners fans. Sorry Rams fans.
+
+Savan Kong (05:13)
+Bang, bang. ⁓
+
+⁓ man, I love it. I love it. Tim, you're still in Seattle. What part of Seattle ⁓ are you at right now?
+
+Tim Salazar (05:23)
+⁓
+
+Right in central, right in the middle of it, just a little ways up from the ID, International District between, yeah, just like kind of the nexus of all of the immigrant communities. International District, Beacon Hill, ⁓ and Central District.
+
+Savan Kong (05:30)
+Yeah.
+
+Yep. Yep.
+
+Yeah, I, for those that don't know, actually used to live in that area too. Not that far north, I think that's like a little bit boosier, but I used to live in Rainier Beach, which was, you know, a little bit further south, a little bit further south, but we'll claim it all as a CD. ⁓
+
+Tim Salazar (05:56)
+Yeah.
+
+Yeah, Beach has got
+
+the number one basketball draft pick this year. You hear about that? Yeah. Yeah, he's, I don't remember his name, but he's playing at Rainier Beach and you cannot get any tickets to go see him because he's that hot.
+
+Savan Kong (06:06)
+is that right? No, who is it?
+
+⁓ that's right. Wasn't that ⁓ Jamal's son's playing with him too? Or something like that?
+
+Tim Salazar (06:23)
+Yeah, he was, I think he was playing ⁓ up at SAS for a little while, but then they left SAS and I think they went down to beach. Yeah, something like that.
+
+Savan Kong (06:32)
+Man, that's crazy. They've
+
+been so good for so long and with the remodel that they're doing over there, it's getting nuts, man. The amount of overhaul that school's done since I was living there, it's just, you don't even recognize it anymore. That whole area actually is completely different. It's actually more expensive now.
+
+Tim Salazar (06:52)
+Yeah, yeah.
+
+Yeah, mean, it's gentrification. It's all going down. It's from the city. Yeah.
+
+Savan Kong (06:57)
+⁓
+
+man, Tim, I want to start off ⁓ maybe a little bit further back than usual. ⁓ But, you know, one of the things that you had sent me was ⁓ that you were a first generation Filipino American. ⁓ Tell me about where you grew up, man. Like, how did you come to where you live now?
+
+Tim Salazar (07:24)
+Yeah, so I grew up in Northern California, both my parents immigrated from the Philippines, my dad's from ⁓ Bataan, my mom's from Basig, which is in Manila. ⁓ And they both came over to the States. ⁓ They entered in the bay, and they were supposed to go to, I think, Iowa, or somewhere in the Midwest.
+
+Savan Kong (07:35)
+Mm-hmm.
+
+⁓ man.
+
+Tim Salazar (07:48)
+They were like, well, we actually know a lot of people here in the Bay Area, so we're going to stay here. And so they did. ⁓ And so I grew, I was born in San Francisco, grew up in Sonoma County and I was there for about 15 years.
+
+It was, you know, was, was your regular California suburban life. ⁓ And then I moved to Eastern Washington in my sophomore year of high school in the Tri-Cities. So I went to Richland ⁓ and I went to Hanford High School and that was a huge change between ⁓ California and Eastern Washington. But so I graduated from there and then went to U-Dub, ⁓ lived in LA, lived in New York.
+
+Savan Kong (08:08)
+Yeah.
+
+Oof. Wow.
+
+Tim Salazar (08:31)
+keep coming back to Seattle because we got family here.
+
+Savan Kong (08:34)
+Yeah, that's crazy, man. How did you guys choose Eastern Washington? Like, don't know a lot of immigrants in that area, but there might be now. Like, how did you guys choose that?
+
+Tim Salazar (08:47)
+There was actually ⁓ a pretty strong community of Filipinos that had gone there because my dad's a mechanical engineer. And so he knew somebody who was a mechanical engineer who's also Filipino who lived in Runner Park where we lived. And he moved up there because he had a job and he needed a job. ⁓
+
+Savan Kong (08:55)
+Okay.
+
+Tim Salazar (09:06)
+went up to Hanford cleanup and helped to do some of that stuff there. My mom was there too. I actually stayed a year or so in California kind of just by myself, me and my Lola. So my grandma was like raising me like my freshman year of high school, but she was also kind of like, she was old already and not really there. So I was kind of on my own my freshman year of high school and it was, it was hard. But yeah, I mean, like
+
+Savan Kong (09:20)
+Wow.
+
+Tim Salazar (09:36)
+She doesn't speak English and so I that's why I learned the Gallag from her and so kind of this split between like going to this school and I went to private school in California. I went to a Catholic high school. Yeah, yeah, and I think I was one of 30 kids and there was another
+
+Savan Kong (09:42)
+Mm-hmm.
+
+Catholic school? Yeah.
+
+Tim Salazar (09:58)
+half Filipino kid and that was it. The rest was pretty, mostly white, but otherwise, yeah. And then I went to Richland and there were, yeah, like a pretty small community of Filipinos there, but there were other, but it was like, that high school was much bigger. So.
+
+Savan Kong (10:19)
+Yep.
+
+Was that a shock? Like going from, you know, a school like that in California to a bigger school with more diversity?
+
+Tim Salazar (10:28)
+Yeah, yeah, for sure. And I think that for me, it was probably a pretty good thing because I think the private school was also like really insular and definitely like
+
+⁓ didn't get a lot of, least like, socioeconomic diversity. ⁓ and that felt a little bit like, ⁓ I didn't know people and I fell into a pretty, decent group over in high school. ⁓ and I, I understand that those were like formative years. ⁓ and you tend to stick around with those people that you meet there, but I'm not sure I would have, I don't, I don't talk to anybody that I went to grade school or high school or for freshman year from California.
+
+Savan Kong (10:47)
+Yeah, for sure.
+
+Tim Salazar (11:11)
+really. So yeah, it's definitely a change. ⁓ And Eastern Washington in general is just like from California, it's like, you think that there's a bunch of
+
+Savan Kong (11:11)
+Wow.
+
+Tim Salazar (11:24)
+Eastern Washington, you think of Eastern Washington as pretty homogenous. But yeah, yeah. And I think ⁓ that was different because there's a bunch of folks that were scientist kids or other kids that moved there because they needed work. ⁓ So yeah, was different class.
+
+Savan Kong (11:27)
+Desert. Yeah, yeah, yep.
+
+Yeah.
+
+Dang, that's nuts. Did that influence you to go out to U-Dub where you just like, okay, I gotta get out of here or was it more accepting of what you wanted to do as a young adult and maybe you didn't wanna move as far?
+
+Tim Salazar (12:03)
+You know, I think ⁓ that actually when I graduated high school, my parents moved back to California in the place that we grew up to. like they were like, OK, peace out. And they moved ⁓ directly back there. so I there was there's nothing in in Hanford. I mean, in Richland, I guess you go to the community college there. There's a WSU satellite campus there. But I mean, you dub was the place that most of the kids went to. ⁓ And.
+
+Savan Kong (12:09)
+Hahaha
+
+⁓ Yeah.
+
+Yeah.
+
+Yep.
+
+Tim Salazar (12:32)
+So, you know, that I applied to, I tried to get back to California too. And I did not get into UC Berkeley, which, you know, I remember hanging up my rejection letter on the wall and be like,
+
+Savan Kong (12:45)
+I got a lot of those too, man. got a lot of those
+
+too. Yep, Dartmouth, Columbia.
+
+Tim Salazar (12:51)
+Yeah. Yeah.
+
+Yeah. Yeah. So, mean, UW was, it was a good school at the time. It was cheap back then. was like, ⁓ was good to go. ⁓
+
+Savan Kong (12:59)
+Yeah, that in-state tuition, that in-state tuition
+
+was very appealing. Like, I think it was, man, when I went, what was it like? 15,000, maybe 20, something like that?
+
+Tim Salazar (13:13)
+Yeah, it was like
+
+maybe four thousand a quarter or something if you're taking like a full load, but it was like nowadays you're like, how would they drill?
+
+Savan Kong (13:20)
+Yeah.
+
+Yeah,
+
+it's like kids forget about college. ⁓ man. So what did you study at UW?
+
+Tim Salazar (13:29)
+Mm-hmm. Yeah.
+
+⁓ I was a comparative literature and ⁓ film major. So comparative literature, yeah, it's just like I studied a lot of modern Japanese literature, and then I did a lot of ⁓ movies. And, you know, it was college and I was like, ⁓ I get to watch movies for for for education. So I watched a ton of movies and I wrote about them. And that was pretty like ⁓
+
+Savan Kong (13:48)
+Yeah.
+
+Yeah.
+
+Tim Salazar (14:03)
+I was always into that stuff and I always really liked writing and that was the type of thing that really I could pay attention to, right? I didn't know this. I didn't know this then, but now I understand like I'm like ADHD and like I can't pay attention to, I can't pay attention to shit that doesn't interest me. And that includes like meetings and like going to, I'm just like, I really cannot be here. So that.
+
+Savan Kong (14:12)
+Yeah, yeah.
+
+Yeah.
+
+Yeah.
+
+Yeah ⁓
+
+Tim Salazar (14:33)
+That was ⁓ why I got into that stuff and it was the only thing that could hold my attention.
+
+Savan Kong (14:37)
+Yeah, man, it's crazy. you look at the ⁓ the landscape of where media is now versus when we were in school and the amount of skill sets you need like from being
+
+somebody who studies film and studies how to produce media, think like, don't know if anybody would have guessed that those skill sets would be as useful now, like creating all this Instagram reels and YouTube videos and making sure you're like adhering to good principles. Like, did you ever think about maybe trying to apply like your film skills that you've learned into something new?
+
+Tim Salazar (15:20)
+Yeah, I mean, I think, you know, I tried to do it into something not new. tried to move to, I told you, I moved to LA for a few years and I tried to, I became a registered writer at the Writers Guild. We, a friend and I wrote a screenplay and you know, it got.
+
+Savan Kong (15:29)
+Yeah.
+
+Tim Salazar (15:42)
+got registered in there and everything and we tried to sell it and it was cool. It was interesting. But it's also like, I really have no idea what I'm doing. And that those skills are like, yeah, a lot of it I still think about today and a lot of it is really like critique and create and that gets like us back to sort of like
+
+design in general is really understanding how to tell stories ⁓ using design, how to articulate your design decisions. And the only way to do that is really to put the person in that particular position and say, this is the things that are happening, these are the highs and lows, and this is ⁓ how you get them through there. And painting the picture of the problem is the really important part in order to...
+
+Savan Kong (16:05)
+Yep. Yep.
+
+Tim Salazar (16:29)
+get people to empathize with whatever it is that you're going to propose a solution. So I definitely think that from a film perspective has helped. And then I wasn't really writing film as much in college as I was just watching movies and just sort of seeing, this is how the narrative is structured. And this is how they get you to feel a certain way. And this is how it reflects the culture at the time and all this context that is actually super useful when you are trying to understand something.
+
+understand the problems. Like all this context builds up into something that gives you a really good understanding of what is going on in that time, place, moment, life.
+
+Savan Kong (17:10)
+Yeah. Yeah,
+
+it's crazy. I didn't know anything about that either. And the first, my first foray into any type of ⁓ analysis of films and movies was this cinematography class I took. ⁓
+
+I think my senior year in high school and then I took a shitload of ⁓ Asian film study classes in college, even though I didn't do anything with it. like, yeah, it broke down a lot of ⁓ the impact to just Asian American culture, ⁓ especially I think it was like back in the 60s and 70s. And you're like, you'd never know that they made that many films. ⁓
+
+But like for you, when you went down to LA, was that something that you wanted to continue doing or did you want to actually like start doing screenplay writing or like maybe get into like more Hollywood type things?
+
+Tim Salazar (18:06)
+Yeah,
+
+I wanted to do that. I wanted to be a writer for a really long time. actually, while I was writing that screenplay, I was working.
+
+The gig that I had to pay the bills was captioning movies and QA and captions. so I watched, again, I was just like, I watched every single episode of Dawson's Creek and captioned all that stuff and all the Lord of the Rings and all those things. But at the same time, I was doing a lot of writing while I was sitting there.
+
+Savan Kong (18:23)
+Yeah.
+
+Tim Salazar (18:42)
+and just I was actually doing a lot of blogging at that point and again like just commenting on film and music and Just pop culture in general and I got a pretty good following for for a while because of the consistency and the cadence and that was like, know thinking about how
+
+Savan Kong (18:46)
+Mm.
+
+Tim Salazar (19:00)
+people build audiences today as influencers and things like that. I understand what it takes to get there and do it. It's definitely a grind. I think that that kind of thing is like, I think it's gotten easier in a lot of ways, but I think it's also gotten harder in a lot of ways in order to try to stand out. Back then you had a blog and there was very few people with blog and you find the other people with blogs and ⁓ you follow each other and you comment and stuff like that. So, yeah.
+
+Savan Kong (19:22)
+Yeah.
+
+Yeah,
+
+that's interesting. mean, there's definitely a lot more noise now and it's so much easier to create content than it was back then where you had to like figure out where to host this thing and rudimentary HTML and like in addition to the actual writing itself. ⁓ What was it like ⁓ living in SoCal and trying to sort of break into that industry for the people that don't know?
+
+Was it a grind like most people say or was it maybe a little bit easier than you thought?
+
+Tim Salazar (20:02)
+Yeah, no, think ⁓ it's a lot about luck. I remember hearing about a dude that ⁓ we knew that used to work at a Tower Records. ⁓ And that was his thing, trying to get noticed in Tower Records. And he would keep his sketches with him all the time.
+
+Savan Kong (20:16)
+Yeah.
+
+Tim Salazar (20:25)
+And one day ⁓ Guillermo del Toro showed up in the Tower Records and he was like, hey, can you look at my sketches? And right there, del ⁓ Toro was blown away and picked him up. he did a bunch of the drawings and stuff for Hellboy and a lot of those other things. And so you get super lucky. But there's also other people that just go and grind. just like me,
+
+Savan Kong (20:28)
+nice.
+
+Mm-hmm.
+
+Wow.
+
+Tim Salazar (20:53)
+I was ⁓ working at this other job, trying to do this other thing, and then doing the real passion work, ⁓ like sometimes at work, right? And there's this guy, and you might know him, his name is Matt De La Pena, and he wrote a bunch of like YA books, like ⁓ youth, ⁓ young adult books about basketball. And he's pretty famous now. He does a lot of children's books, but I remember seeing him every morning.
+
+Savan Kong (21:14)
+Mm-hmm. Mm-hmm.
+
+Tim Salazar (21:22)
+like being there before everybody else, but he's just writing for like two or three hours grinding. And I was like, dude, all right. Yeah. And that gets me back to like, you know, at a certain point you and I've tried to do this in a lot of different ways. It's like, what, what type of grind do you need to do in order to get like to be an artist? And then after I had done that,
+
+Savan Kong (21:27)
+You're like, how come I can't be like this guy?
+
+Tim Salazar (21:49)
+I was also playing music at the time. And then I was like, well, let me, would I play music? And then that's the same sort of thing. It's like, you get brushes with fame and success, but you gotta also like pick up the guitar every day. You gotta be writing songs every day. That's the kind of thing that people don't sometimes understand is that work is work. And if you want to be an artist to work, gotta work at it.
+
+Savan Kong (22:13)
+Yeah, no kidding, man. It's that consistency. That's the hardest. I mean, with any, I think, like creative thing that you want to do is getting over that hurdle of...
+
+doing it enough times to be good at it. But then there's also the doing it enough times to be good at it and stand out. And then like the third part is standing out and then getting paid for it or having somebody give you money for it. I it's so it's so fucking hard, man. ⁓ Are you are you glad to be out of the captioning business? Because I could imagine that A.I. is probably taking over all those jobs right now, right?
+
+Tim Salazar (22:47)
+⁓ Totally.
+
+I don't see how it could be. I guess they might still need a human in the loop to QA it. really, like, really? Do they really need it? I don't know. I'm starting to wonder if they're going to need the humans in the loop to QA code, you know? Like, at some point.
+
+Savan Kong (22:56)
+Yeah.
+
+Yeah.
+
+At this rate
+
+brother, I don't even I don't even think so man. I don't like ⁓ Damn, that's a whole nother segment of a whole nother podcast. But it's a the way it's trending it could be ⁓ One of those skill sets that's probably not needed. ⁓ Dude, tell me tell me how you got to be so creative Considering your dad was like a mechanical engineer. Like was your grandma like creative or like how did that happen?
+
+Tim Salazar (23:18)
+Hahaha
+
+You know, I started ⁓ skateboarding when I was 13 or 14 and hanging out with the buddies of mine in the suburbs, just skating every day. And I think that from there, we started listening to punk rock. And the punk rock was like, ⁓ you just need to know this shape of, you know, for the guitar.
+
+Savan Kong (23:44)
+Yeah.
+
+Tim Salazar (24:03)
+So like, this is a power cord and you just need to do that. You move that up and down the fretboard for like three times and you got a song. And I was like, oh, that seems pretty easy. Like, let's try that. And then and then like I got a set of drums at that point as well. And it was really like my my grandma didn't she like she she could care less. And she was like.
+
+Savan Kong (24:06)
+Uh-huh.
+
+Yeah.
+
+Tim Salazar (24:29)
+you know, just there to kind of like feed me and make sure that I was, ⁓ yeah. So like, think it was mostly my peers and, know, like ⁓ once we got into punk, we started, you know, playing our own punk music. And then when I moved to Eastern Washington, I lived in the basement of the house and I had my drum set in there. And as a teenager, you get to start brooding and... ⁓
+
+Savan Kong (24:32)
+Yeah, make sure you didn't die.
+
+Tim Salazar (24:55)
+and get real depressed and ⁓ writing your own songs and that kind of shit. so that's, I started doing that. And yeah, again, it was like, I was really lucky to find people that were also sort of creative, wanted to do stuff. And a lot of it was, again, like my best buddy that I met in Eastern Washington was a skateboarder. And that's how we connected and that's how we started.
+
+Savan Kong (24:55)
+Yeah.
+
+Yeah.
+
+Tim Salazar (25:21)
+hanging out and started playing music together and all that stuff. So yeah, skateboarding.
+
+Savan Kong (25:26)
+Damn.
+
+Were your parents supportive of sort of this creative angle that you were taking in life or were they just like, what the hell are you doing, man?
+
+Tim Salazar (25:38)
+Yeah, yeah, more the latter. mean, especially
+
+because like the, you know, they're immigrants. come to, I keep saying, can come to somewhere and you got to grind. And that's what they did. They came to America and they just, my dad worked all the time. I didn't see him a ton. And then my mom also worked. So ⁓ they were both ⁓ just working to make ends meet. And they, I think they,
+
+Savan Kong (25:50)
+Mm-hmm.
+
+Tim Salazar (26:05)
+they were not supportive. I think the thing is, like a lot of immigrant parents come here and grind for the sole purpose of making things better for you. So that maybe you don't have to grind. think some, like, I think some parents are like, you know, go be a doctor, go be a lawyer or whatever. And I think that that is definitely, you know, an ambition that they have for their kids. But I think that
+
+Savan Kong (26:19)
+Right. Yep.
+
+Yep. Yep.
+
+Tim Salazar (26:35)
+really what they want behind that is for you to not have to worry about like money or, and certainly some of this status, but I think that they were really supportive in that sense where they just wanted me to be happy.
+
+Savan Kong (26:48)
+Yeah, yeah, I think like now now that I'm in my 40s, it's I've circled back around to realizing that they probably just want me to be happy. But I definitely think like growing up there was at least in the Cambodian culture, there's like the the blueprint that everybody talks about. like, you know, like for first generation immigrants, it's you come here, you don't know what the fuck is possible. So you just talk to your
+
+Relatives and whatnot and they'll tell you yeah, you should go and do this. They're like, shit Yeah, I'm gonna put my kids in that they're gonna do that and that's the blueprint that they need to work off of But you know as we've gotten older and I'd be interested in seeing sort of like what our kids, know eventually end up doing with with their lives, but the Doing things that may not necessarily make as much money Say being a designer or a painter or a poet or where the fuck it is
+
+is ⁓ i think will be significantly harder just because i don't know i mean there's a certain amount of grit that your your parents had you know that they've instilled in you and like i know for sure for me ⁓ like
+
+just raising my kids here, it's like, damn, do I have that same amount of grit? Am I instilling that? Like, are you teaching those same lessons or are they just like blowing past it because we want them to have an easier life? ⁓ Man, it's really fucking hard.
+
+Tim Salazar (28:17)
+Yeah, for sure.
+
+Yeah. And like, once you start bringing, like your kids into it and seeing like, okay, what kind of parent am I compared to my parents? And what are they? What am I giving them? Am I giving them too much? Like, my son told me the other day, he's like, Dad, we're spoiled. And I'm like, yeah, damn right, you're spoiled. ⁓ And I'm like, but you know that we have that privilege to spoil you in some ways. But I think in other ways, they gotta learn those lessons.
+
+Savan Kong (28:29)
+Yeah.
+
+Yep.
+
+Tim Salazar (28:46)
+It's hard. Did you have to code switch a lot when you were a kid, like in terms of like Cambodian culture? Yeah.
+
+Savan Kong (28:46)
+Yeah.
+
+yeah. yeah,
+
+yeah, yeah, yeah. I mean, not even, I mean, I'd say it's like across a wide variety of things. You know, the Cambodian culture for sure was one and then.
+
+⁓ I did go to like a private school, so that was another one. And then work was one. And then just the people that... Like I love hip hop. I love hip hop culture. Like that's sort of, you know, where I grew up in. And so like having my friends there too. Yeah, I mean, but also, you know, in when you're a kid, you're just trying to figure out like your identity and what that looks like. Shit, I feel like sometimes now I'm still trying to figure that out, right? what the fuck does this look like?
+
+Tim Salazar (29:28)
+Totally. Yeah. Yeah.
+
+Yeah, for sure. And I think that that's interesting because ⁓ you and I both, you've been in the defense side for a lot longer than I have, going from when we met at Amazon is like, okay, that's startup culture, or not startup culture, but like corporate culture. And then you go into defense, that's a different code switch completely, right? Like,
+
+Savan Kong (29:33)
+⁓ man.
+
+Yeah.
+
+Yeah.
+
+⁓ yeah,
+
+yeah, yeah, yeah. It was, I think that's probably the most shocking thing for me was ⁓ the amount of ⁓ just shit that they knew, because you you served in the military, ⁓ that you, people that have never been in that universe has to learn like pretty quick, just so you seem credible, right? Like I think in the tech side, ⁓
+
+You could probably pick that up pretty easily reading books and whatnot. But like, if you've never been in that those meetings or that sphere, it's a lot harder. And like, it's a lot jarring to you because it's like so rigorous and regimented in terms of like how you address people and you know how you communicate. ⁓ It took me a little while. It took me a long while to like figure out what the hell that all looked like.
+
+Tim Salazar (30:42)
+Yeah, I think that there's an insularity there, an exclusivity that you don't really... ⁓
+
+Savan Kong (30:48)
+Mm-hmm.
+
+Tim Salazar (30:51)
+get a catch a glimpse. mean, you see it in movies and shit, but it's not not the same. But I think ⁓ so for me, in addition to defense, like I've been working in cyber for the past four years. And cyber in itself is like this other subculture. And part of it is like all these folks that are defense and cyber, but there's also like the cyberpunk like hacker group. And that is there is also like
+
+Savan Kong (30:55)
+Yep.
+
+Yeah, yeah, that's right.
+
+Yeah.
+
+Yep.
+
+Tim Salazar (31:17)
+a whole different world there that is just like, ⁓ it's also like hard to discover and hard to talk to. you again, you like you can catch glimpses, you read some ⁓ Neil Stevenson books or whatever, and try to like, catch up and understand it. But if you're not, if you don't have like cred, like, I hacked this or I stopped, I stopped this hack, then ⁓ it's really hard to get people to listen to you.
+
+Savan Kong (31:27)
+Yeah. Right. ⁓
+
+Yeah, for sure, ⁓ Tell me how did you get into UX design from your college degrees?
+
+Tim Salazar (31:50)
+Yeah, so I actually started ⁓ after a few years in LA, I went back to Seattle ⁓ with.
+
+Savan Kong (32:00)
+Was it
+
+out of poverty that you went back or was it more just like, need to get back to family?
+
+Tim Salazar (32:03)
+Well, my my
+
+⁓ my wife it's my girlfriend at the time ⁓ was actually teaching at TFA in LA for a while and so she she taught right in between Compton and Watts it was like the the deep shit and it was it was cool as life-changing for her when she was done we thought about staying there but again it was like hard to figure out what we're gonna do so we went back to Seattle and
+
+Savan Kong (32:14)
+Okay, yeah.
+
+Tim Salazar (32:32)
+In Seattle, like I bounced around. did, I was a paralegal for a couple years and I was unemployed for a while. And I, you know, I just tried to figure out what I was doing. So I eventually applied to library school because I thought I wanted to be a a law librarian. And
+
+Savan Kong (32:51)
+Wow. Dude,
+
+how did you get into law? I'm trying to make this connection. Like, you had comparative literature, the film stuff, and then you're doing law? Like, ⁓ how did that happen? okay, okay.
+
+Tim Salazar (33:00)
+Yeah, I think the writing piece, yeah, it was mostly the
+
+writing piece. heard, you know, I had heard or read or saw a bunch of people, ⁓ lawyers are really good fucking writers. And I was like, really? Cool. Yeah. I want to be a good writer. So that was one of the things that I was like, OK, maybe that's how I can apply this and actually make some money as well. But then so I actually applied to law school. I only applied to one law school. And again, I didn't get it.
+
+Savan Kong (33:15)
+Yeah, for sure. Yeah.
+
+Tim Salazar (33:29)
+but I was like I I feel like that was a I dodged the bullet there because law school was just like ⁓ hard to I know but people that did end up going to law school and They resettled with tons of debt afterwards and ⁓ they had to grind at ⁓ some law firm and all that stuff, so I applied
+
+Savan Kong (33:30)
+Yeah.
+
+Mm-hmm.
+
+Tim Salazar (33:58)
+And then I said, maybe I'll do law library, ⁓ be a law librarian. And so I did some of that. ⁓ And I got into library school. And I got into library school in New York at Pratt Institute. ⁓ And there, I started taking ⁓ standard librarian classes, but also ⁓ usability classes and information architecture and all that stuff. And I was like, this is pretty cool. ⁓
+
+Savan Kong (34:11)
+Mm-hmm.
+
+Tim Salazar (34:25)
+This is computer stuff that I've always been into since I was a kid. So I started doing more and more of that. And then that's how I got into design because Pratt is like also like one of the best design schools out there. So there was a huge influence on the library school that it was like a design bent on librarianship. Yeah, so that was how I got into design from there, from UX.
+
+Savan Kong (34:38)
+yeah. Yeah.
+
+Wow. What was, for people that don't know, what was the design culture like when you started? Like if you had to describe it, what would it be like?
+
+Tim Salazar (35:01)
+⁓ so my, I, I started out, I worked for an agency for a little while and that agency was like kind of wild west. They hired, they had designers and information architecture. ⁓ they didn't really know what we should be doing. And so that was like, ⁓ that, was kind of, ⁓ it was all, it was all kind of brand new. And then I got hired at.
+
+Savan Kong (35:22)
+Yeah.
+
+Tim Salazar (35:30)
+Tippi Morgan Chase. that was ⁓ my boss there was awesome. And she hired me right out of grad school. The team was also incredibly diverse because it was like, ⁓ I think half women. ⁓ And I was not the only black or brown person there. And there was a usability researcher.
+
+already on the team so it was a team of like five or six people and It was like I learned a lot there and at the same time it was like a lot of ⁓ fast ⁓ Movement so like these people that I was working with had worked also at agencies for a while before this So they kind of knew what they were doing. ⁓ I got teamed up with a dude that just wrote this ⁓ huge spec for this ⁓
+
+this application, I think is, ⁓ it was called TSS administrative privileges. It was just all privileges. The whole thing was just like granting people access to accounts and, or like putting them in account groups, all this stuff. And it was all built, ⁓ I remember working in fireworks and fireworks was the only thing that ⁓ we just used it.
+
+Savan Kong (36:49)
+yeah. RIP Macromedia.
+
+Tim Salazar (36:54)
+in order to spec the entire thing and it was entirely waterfall. And so eventually I became the owner of this spec and it was 160 pages or something. And every time someone was like, hey, we got to change this, I would make the change, ⁓ put something in the change log, file a change order, and we would send it back out. And people were like, okay, that was like, ⁓ you know, I write a sentence about what the change was for. And it was mostly because, you know, development couldn't.
+
+Savan Kong (37:12)
+Uh-huh.
+
+Tim Salazar (37:23)
+make it the way we wanted to make it or whatever. And it's a huge mess. I was there for two years and we never shipped. then after two years, there was a reorg and they were like, we're starting over. And I was like, oh fuck, are you serious? We're starting over like on this thing? I was like, so we had made a bunch of design changes and all that stuff. So it was interesting. I was there for a while.
+
+Savan Kong (37:26)
+Yeah.
+
+Yeah.
+
+my god.
+
+Tim Salazar (37:53)
+It was it was I learned a ton. But it was definitely like a lot more slow moving than I can't even imagine like what how much money went into all that stuff. It's just they're just like, Oh, all right. We're good. Yeah.
+
+Savan Kong (38:06)
+⁓ millions, I bet millions, yeah.
+
+Good lord man. Did you ⁓ enjoy working there? Like relative to your other jobs?
+
+Tim Salazar (38:17)
+⁓ You know, I was doing the count with my kids, you know, ⁓ I got laid off a couple weeks ago, as you know, and I did the count with my kids and I was like, how many how many jobs have you had, dad? And my daughter was like, like, did you like any of your jobs? It's like, yeah, no, I really did. I quit my first four jobs or my first five jobs after, you know, a couple of years.
+
+Savan Kong (38:24)
+Mm-hmm.
+
+Tim Salazar (38:45)
+And there were, there's obviously like there's moments where you really like it and there's moments where you really don't. And I think the thing that is most consistent is like, I stay at jobs where I really like the people and I'm learning from them and really understanding how to do things or just enjoying like solving problems with them. So ⁓ at JB Morgan, I, after the reorg, I basically got moved from all the folks that I had originally gotten hired to work with. So that was hard.
+
+Savan Kong (38:56)
+Right.
+
+Tim Salazar (39:15)
+And I think that as I grew further and further away from those folks, it became harder and harder to like the job just because I didn't ⁓ have the sort of connection that I had with other folks. ⁓ So the first five jobs, I quit. And then my last four jobs, I've been laid off, which is just like, ⁓ that's tech, right? It's like, ⁓ and my daughter said, you should really
+
+Savan Kong (39:37)
+Yeah. Yeah.
+
+Tim Salazar (39:44)
+find something that you like doing and do that. Very wise. She's ⁓ nine. She's nine. So she's like, yeah, all right, at least I'm teaching you that lesson. ⁓
+
+Savan Kong (39:47)
+⁓ man. Yeah. Okay.
+
+Yeah, yeah, yeah,
+
+dude, kids have the best way of telling you the truth. ⁓ Yeah, I don't even know if my daughter knows what I've done over the last like 15 years. My mom still thinks I build websites. ⁓ man. Dude, talk to me about how you landed at Amazon because that's where we initially met.
+
+Tim Salazar (40:13)
+Yeah, same.
+
+Yeah. So, ⁓ when I was at JP Morgan, we were in New York for, I don't know, three and a half years or something. And then I moved back, ⁓ here and I was still working for JP Morgan out of the Washington mutual offices that they, because they bought WAMU. So this is funny. Cause, ⁓ for, for a while there, I was, I thought I was like doomed to go into every, ⁓ industry that just like,
+
+Savan Kong (40:41)
+⁓ Yeah.
+
+Tim Salazar (40:53)
+something catastrophic would happen because I was there during the subprime mortgage crisis and I remember on walking on Wall Street seeing the dudes from Bear Stearns like walking out with their boxes and just being like totally distraught and then ⁓ So we yeah, shaping Morgan bought wall moo So I move it said I'm gonna move back to Seattle and I was working out of the one who offices I was the only one on the floor that it was like just dark everywhere and it was it was weird eventually I
+
+Savan Kong (41:03)
+Damn.
+
+Wow.
+
+Tim Salazar (41:22)
+I had a buddy that worked at AT &T and I said, hey, you got anything for me? And so I worked on contract for AT &T for a few months. And then that was all the way in Bothell and I was commuting like an hour, hour and a half on the bus. And so then ⁓ I saw that Amazon was hiring contractors. And so I got a contract with Amazon and then worked there for a few months before I got FTE.
+
+Savan Kong (41:40)
+Casperoodle.
+
+Tim Salazar (41:52)
+And yeah, I think ⁓ Angela was the only one hiring me ⁓ and she was awesome. ⁓ So she did ⁓ like we worked on Kindle stuff and it was ⁓ as much as I had learned my first year or so at JP Morgan, I got to Amazon and I was like, okay, these, especially when I started working with product people, I was pretty intimidated with the product people that were like super technical.
+
+Savan Kong (42:14)
+Mm-hmm.
+
+Mm-hmm.
+
+Tim Salazar (42:21)
+And they would, the other thing that really surprised me when I got on Amazon is like, they would, they would cuss like crazy. I would work with guys and I'd be like, are you like, wow, like you're really, you're really getting into this. I was like, ⁓ but they were, they were super smart. I remember working with ⁓ a bunch of product managers that I still to this day are probably some of the best PMs I've worked with. ⁓ And super, super on top of it, ⁓ asking great questions, really.
+
+Savan Kong (42:27)
+hahahaha
+
+Yeah. Yeah.
+
+Tim Salazar (42:50)
+understanding and also like giving the room to design ⁓ stuff. that was like, I don't know, I'm not really sure like, where it came from, or how sort of Amazon instilled that in their culture. But it's something that when I go to other places, especially like early stage startups, and I see folks that are trying to do product and like, you know, we should do it like this or like that. It's kind of like a lot of like foundational lessons for designing product.
+
+Savan Kong (43:07)
+Mm-hmm.
+
+Tim Salazar (43:19)
+came from Amazon.
+
+Savan Kong (43:19)
+Yeah.
+
+Yeah. I mean, now that we have a couple of years under our belt, like looking back at the Amazon times, I would agree. think those are probably some of the most talented people that I've worked with, at least like, you know, coupling like PMs ⁓ and designers as a whole. don't think there was a single one that, you know, I was like, I don't know what the fuck, like.
+
+I don't know what this guy's doing or, you know, I think he's out of his league. Most people there because they hired the hiring was so rigorous. I think at least the FTEs, I didn't work with any contractors, but most of them there, like they've done some pretty incredible shit in the past already to be working there, especially if you're like a pretty senior person. ⁓
+
+Yeah, and even my team, like ⁓ with our small team of designers, like I thought every single one of them, ⁓ Alice, Allah, like they were all, they're all great. They're all great.
+
+Tim Salazar (44:21)
+Yeah, yeah, I agree. I it was, I think I was trying to figure out. So the reason I left Amazon was I got, I got sick of all the VP reviews. I felt like we were, I felt like we were just like working from VP review to VP review, not really talking to users and, sort of like, that was the thing. And I remember going into these reviews and being like, Oh,
+
+Savan Kong (44:33)
+god.
+
+Yep.
+
+We were. We were, yeah.
+
+Tim Salazar (44:48)
+I remember ⁓ our VP at the time was Russ Grandinetti. And Russ was just like, he would go in and he'd ask like these really poignant questions. And then I'm like, man, we did all this to get that question. And then now we got to go back and rework everything. I was sort of appalled that it took that long to get just to that point. And then now we are back kind of to the drawing board.
+
+Savan Kong (44:52)
+Yeah. Yeah.
+
+Mm-hmm. Uh-huh.
+
+Yep.
+
+Yeah, yeah, for me it was, you know, I had left Redfin for a little while. I'd worked at I think one or two other places. Then I went to Amazon. the thing that surprised me the most was ⁓
+
+We never brought in any users. It was just all like data points, like the PMs had data points or, and I was like, when are we gonna actually go and talk to anybody? Then we never did. It was crazy. And the craziest thing was...
+
+Tim Salazar (45:41)
+Yeah, yeah, yeah.
+
+Savan Kong (45:47)
+that one Jeff Bezos review, and I think your team was part of it too, where we got put into the room and we just like, we printed out all of our shit. I'm like, this is supposed to be digital, but I'm literally printing out stacks of designs, putting it on a wall. So yeah, just so he can walk around. And I'm just thinking like, how is this an effective use? And thank God he liked the shit that we did, because I didn't want to go back and redo that shit again. But thank God, but like.
+
+Tim Salazar (45:57)
+Yeah. It's all on the walls. Yeah.
+
+Yeah. Yeah.
+
+Savan Kong (46:14)
+That was a shock to me how ⁓ I think how calculated they were as to the decision making, but also just like it flew against everything that I learned as a designer, right? Like not talking to users, any like knowing any of the data points, not being able to sort of push back on some of the things. It was pretty nuts.
+
+Tim Salazar (46:36)
+Yeah, yeah. Again, like the with those Bezos reviews. ⁓ It was just like, ⁓ really? This is where this is how we're doing it. But I and I remember like that all the way until the time because I worked on the fire phone. ⁓ And just having like the to put these like
+
+Savan Kong (46:47)
+Yeah. ⁓ man.
+
+Yeah, rip.
+
+Tim Salazar (47:05)
+novelty ideas into the entire design because this is what Jeff wanted or whatever and we were like, okay, like no one wants this. No one's going to use this and let's go spend a ton of cash on it and then kill it, which is like totally like that you have the ⁓ reserves to be able to do that and that's how you operate your business and that's like how they figure out.
+
+Savan Kong (47:10)
+Mm-hmm.
+
+Yeah.
+
+Tim Salazar (47:32)
+It's kind ⁓ of like VC, right? They're go throw a bunch of shit at the wall and figure out if one of those works, then hey, it's gonna be a 10x and 100x and that'll float everything else. That's fine.
+
+Savan Kong (47:35)
+Yeah.
+
+I mean,
+
+I think like the Kindle Fire like had just come out. I don't know if it was like the second version or whatnot, but nobody used that except for the people that worked at Amazon at least like at the time. I was just thinking Holy smokes, man. Yeah, that's wild. Where'd you go after that? I think you went to like Chef Steps or something like that after that. Like, why'd you go to a startup after Amazon?
+
+Tim Salazar (47:58)
+Yeah. Yeah.
+
+Yeah, I went to ChefStep. So
+
+the thing about ⁓ Amazon, like I said, was like VP reviews. And I was like, I want to just work on something that is going to be a lot more visceral, closer to the things that ⁓ I'm interested in. a lot of times, I actually worked on some pretty cool projects at Amazon that like...
+
+were that still exists today, right? Like the send a Kindle thing ⁓ is something that I really like still. And but I think I remember ⁓ Russ also saying, guys, ⁓ insta paper is just one dude. And he's he's eating our lunch. It's like, yeah, well, he's just one dude, he doesn't have to talk to a VP to ⁓ get this. But anyways, so like, I that's why that's why I pissed out. ⁓
+
+Savan Kong (48:35)
+Yep.
+
+Yeah. Yeah. Yeah.
+
+Tim Salazar (48:58)
+from Amazon because I didn't want to do that. So I went over to Chef Steps and that was like, was the first designer there and we, I think we're probably, the software team was three people. It was me, the CTO and then the other engineer that they hired. And that was like, I was also getting into code at the time and I wanted to push code at Amazon, but they wouldn't let me. It was like, I think it was way before everyone being able to do that stuff there.
+
+Savan Kong (49:21)
+Yeah, of course not.
+
+Tim Salazar (49:27)
+Once I got to ⁓ Chef Steps, ⁓ I think on my first day, pushed something up to GitHub. And I was like, shit. This is cool. ⁓ And I started doing that. And I fell in love with actually building this stuff. And building ⁓ was super cool in being able to have users like.
+
+Savan Kong (49:37)
+Yeah.
+
+Tim Salazar (49:56)
+experiment and work with the things that you're doing and seeing them up close. And especially with chef steps, was like also about cooking, right? And I've always been like a big, ⁓ love making food and cooking and stuff. And so that was sort of like a marriage of all the things that interested me. And I was there. That was again, like one of the that's I've been there. I was there the longest of all my jobs in my career. And again, like, there's like lots of highs and lows in there. ⁓ but I really loved a lot of the people that I worked with there.
+
+did a lot of really cool stuff. ⁓ And it was interesting because, yeah, first, like the first few years, they had no idea, we had no idea what we were gonna do. A lot of it was content. was the dudes from Modernist Cuisine, ⁓ the book. So a bunch of the chefs, yeah, a bunch of the chefs from there came and started that. And Chris Young ⁓ was a big.
+
+Savan Kong (50:29)
+What did Chef Steps do? Were they a recipe type?
+
+Uh-huh.
+
+yeah, ⁓ yeah, Nathan Marvold's book. Yeah.
+
+Tim Salazar (50:54)
+wrote a lot of it as well. And so they wanted to sort of spread all that modernist stuff. And so we started as a website, did a bunch of recipes and things like that. We tried to figure out how we were going to monetize it. I think at the time ⁓ there were a lot of, ⁓ I think the MMOCs, I don't know what it stands for, like ⁓ online learning, like education. And so we were trying to figure out, okay, we'll make classes, we'll charge for classes.
+
+Savan Kong (51:19)
+Mm-hmm.
+
+Tim Salazar (51:23)
+I think Skillshare was like a big thing at the time. A lot of places where you just make videos, you make content and charge people for that. Turns out like, like with the amount of money that we were spending on content production, there's, you need a humongous audience in order to like actually recoup that ⁓ and make it worthwhile. ⁓ eventually ⁓ Chefsteps was all funded by ⁓ Gabe Newell of Steam. ⁓
+
+Savan Kong (51:52)
+Mm.
+
+Tim Salazar (51:53)
+and Valve. like, he was just throwing money at this. It was like kind of his experiment. And we, we didn't have to worry about like, making a ton of money at first, ⁓ until we did. And that's, and so like, eventually, he was like, why don't you guys make some hardware? And so we did Suvijit Circulator. And so that was the hardware. So that was the next two years. So years one and two content, years two and three were ⁓
+
+Savan Kong (52:06)
+Yeah. Yeah.
+
+Tim Salazar (52:23)
+hardware and then years ⁓ five and six ⁓ were ⁓ like consumables. And that's what I started doing. ⁓ So we had the sous vide circulator out and I started working on trying to figure out how to make a recurring revenue that was part of a consumables that was like pretty high margin. So I did a bunch of things. did something eventually that was called Jewel Ready and ⁓
+
+Savan Kong (52:45)
+Mm-hmm.
+
+Tim Salazar (52:51)
+it's basically like a bag full of sauce that you sous vide in the bag. And so you would be able to sell this bag, which is high margin pantry, stable, ⁓ easy to ship and all that stuff. it was, it was, it did pretty well. ⁓ And I think that was the connection of the hardware, which was the dual sous vide circulator. And then the content, which was we would make videos about how to make non and that non like was, you could buy ⁓
+
+a tikka masala sauce that you cooked with that. And it's sort of like spurring people to actually cook at the same time and take one shortcut, but also like focus on this other thing. And they're just like cooking stuff all at the same time. So yeah, it turned out it was a cool novel concept. I think that there's probably still folks that are gonna capitalize on it today. But eventually what happened was Gabe decided not to fund.
+
+Savan Kong (53:25)
+Mm-hmm.
+
+Tim Salazar (53:48)
+Chef steps anymore and that was like in the the sixth year and Everybody was like, shit. What do we do and we gotta get profitable and there's no way to turn profit like that quickly
+
+Savan Kong (53:49)
+Yeah.
+
+Yeah, ⁓
+
+how big was the team like at its biggest?
+
+Tim Salazar (54:02)
+I think it was, uh, I think maybe like 50 people. So it's still pretty small, but like, yeah. Uh, but my team at Jewel Ready was I think almost 15. Um, and that was like content producers, um, chefs, uh, had a operations, um, engineers and Emmett was actually, um, working with us and he, did, uh, a lot of the Jewel Ready design, um, and the packaging design and sort of CPG stuff.
+
+and ⁓ really, really stunning stuff. And it was cool. It was awesome. A lot of fun to work on.
+
+Savan Kong (54:39)
+Wow.
+
+How did the business know they needed to pivot if they didn't use money as a barometer for... Was it just whatever this guy was like, hey, I don't think we should do content anymore. Let's get into hardware. And one meeting, you're like, we're doing hardware now.
+
+Tim Salazar (54:58)
+He
+
+didn't really, ⁓ he didn't push us as much as he guided us. And I think a lot of the ⁓ things happened with.
+
+the founders just saying, well, we should try this or we should try that. And then it was really up to us to figure out what we were going to do. And then once Jewel Ready came around, it was like, okay, I was tasked with figuring out how to make ⁓ some recurring over new ⁓ to tack on top of the hardware. So then I just ran experiments, man. I like for the first year or so I ran probably like 10 to 15 different types of experiments of like, okay, what if we did this?
+
+Savan Kong (55:14)
+Hmm.
+
+Tim Salazar (55:39)
+we sell meat out of a truck or something, which we actually did. And we partnered with butchers across the state to try to figure out if we could make money that way. And so I did a lot of different things and ran a bunch of different experiments. So the barometer was really like, within the smaller ecosystem of just this particular startup within the startup.
+
+Savan Kong (55:42)
+Yeah. Wow.
+
+Tim Salazar (56:05)
+Let's use that and I and I used like the standard Like pirate metrics. I was like, okay here like we can acquire users for this much and this is how we do it and then Okay for repeat purchases ⁓ We have this much retention and sort of like figure that and then I was at the point where like a lot of that stuff was Getting figured out but you know, we couldn't scale it ⁓ We were at the point was like I think we got something we didn't we got product market fit. I think we can
+
+start to do this. And then at that point was when ⁓ the plug got pulled. I think that we were sort of in pretty good position. But it's like, this is like any startup, right? Like you go in and you ⁓ try to figure out how to gain traction on one thing that you're trying to solve. And you just move the levers in order to try to figure out what is actually going to get ⁓ you increasing in demand.
+
+Savan Kong (57:02)
+Yeah. I want to give you my hot take Tim and ⁓ I want to hear your reactions to it but Savannah's hot take on designers, good designers, is most of the good designers...
+
+will have the ability to flex into different parts of the business, right? Like I think there's you telling your story about like how you're trying to figure out sort of how to acquire customers and build sort of like new diversified lines of business that you can use. ⁓ That's probably not something that you when you were applying for this job assumed that you were going to do like in a couple of years. ⁓ Same thing with me, like, you know, just in terms of trying to figure out
+
+how to position myself to be more valuable down the line and not just do Photoshop comps and stuff like that. But what's your hot take on sort of like how designers now can be ready to... ⁓
+
+you know, provide more value to businesses in the future. Like what could that look like for UX designers and not even UX designers, but just like designers in general within sort of our own ecosystem of skilled workers.
+
+Tim Salazar (58:18)
+Yeah, that's a good question. think like we're at a precipice right now, especially now that ⁓ Cloud Code is going nuts and everybody's like, man, look at this app I built. It's just like, there's a lot of that going around. And I think like designers are well positioned to take advantage of that. But I think like the thing that ⁓ a lot of companies are not there.
+
+Savan Kong (58:28)
+Yeah.
+
+Tim Salazar (58:44)
+Right? Like they don't understand. They still think that ⁓ a lot of what designers do is just on the ⁓ surface. And we don't like make things look pretty. like when you start talking about the problems or ⁓ what you need in order to like ship stuff, it gets a little bit.
+
+Savan Kong (58:44)
+Mm-hmm. Mm-hmm.
+
+Tim Salazar (59:08)
+hairy in terms of like being able to gain traction on what a designer can actually do. I think that's a big thing is like if your leadership doesn't understand ⁓ how design can be like super valuable and they want you to do X when you really want to do Y, I think that that is something that ⁓ a lot of early stage startups struggle to figure out, especially if you're not coming from product or design. And I think
+
+Savan Kong (59:30)
+Yep. Yep.
+
+Tim Salazar (59:36)
+I think even engineering to a certain extent ⁓ has a better idea of that. ⁓
+
+I kept bringing in this problem of like, now we have all this AI, I can ship stuff straight to, I can push stuff up in a fraction amount of time and I can have this working spec, right? Like I can just build the thing how I want it to work and then Figma is there. Like people would always ask, well, where's the Figma? I'm like, well, there is no Figma at this point because I just went, you know, and this is how it's supposed to work.
+
+Savan Kong (1:00:08)
+You all right? Right?
+
+Tim Salazar (1:00:11)
+And I think that I definitely caused a lot of frustration because of that, because they wanted to be able to just look at the Figma and understand. ⁓
+
+you know, look at the precise code or the precise pixels and things like that. And I wasn't really documenting things in a way that I would write it out. Maybe if I had put all of the prompts as documentation and I said, well, I want it to work like this. And then you could put the prompt in addition to the actual working prototype.
+
+Savan Kong (1:00:36)
+Mm-hmm. Yep.
+
+Tim Salazar (1:00:43)
+and then you write, that's basically your spec right there. I think that that would be helpful in order to understand that. But I think a lot of designers, like you're saying, like, they really need to be able to flex, especially now, because ⁓ you're not always going to get the right mix of understanding.
+
+from the people you work with. And I think that that is always a struggle. And it's an organic struggle, right? Because the people you work with are basically the foundation of how the product gets built. And so those things are going to be really crucial to the ultimate outcome. So I think in a lot of ways, if you are a designer and you're not playing with that stuff, or you're
+
+Savan Kong (1:01:07)
+Mm-hmm. Yeah.
+
+Tim Salazar (1:01:33)
+⁓ not really experimenting on how to move forward in order to not just like make shortcuts or make things faster, but really to increase understanding and increase context for the thing that you're trying to build. But I think that that's really the crucial part. And ⁓ all within sort of this ⁓ really integral piece of increasing confidence into what you're building, like that that's actually going to solve the problem. ⁓
+
+And I think as we get further and further, closer to working prototypes in that way, ⁓ that's the question you're going to keep asking.
+
+Savan Kong (1:02:13)
+Yeah. I want to spend the next maybe like 20 minutes or so ⁓ talking about the future of design and ⁓ especially with sort of like this blurred boundary we have now. ⁓
+
+I think like in the past, there's been a lot of frustration around a couple things, like one having design at that leadership proverbial leadership seat, right? So that you can have like a chief design officer to be able to speak to the importance of design. So that's one piece. I think the other piece of all this is ⁓ this blurred line of what a product manager does versus what a designer has to do versus now what engineers.
+
+years have to do and what that looks like. ⁓ From sort of what you've been doing over the last 10 years, where do you think ⁓ design could, if a person were to get into design now, where do you think they could best position themselves to be an effective contributor to an organization?
+
+Tim Salazar (1:03:22)
+Yeah, that's a really good question. I think that ⁓ in a lot of ways, when designers, ⁓ when I first started, it was all like sort of superficial in terms of like, okay, this is what it looks like. I think when I started at Chef Steps, we didn't hire product people.
+
+Savan Kong (1:03:36)
+Yeah, for sure. Yep.
+
+Tim Salazar (1:03:42)
+Like we, the designers were product managers as well. And so we had to figure out all the shit that product managers typically have to figure out. And that, I think that that made us really understand problems better and sort of also understand the business problem, right? Like there's the, not even just the business problem, but so there's all these things. There's the user problem, there's the business problem.
+
+Savan Kong (1:03:43)
+⁓
+
+Okay.
+
+Yeah.
+
+Mm-hmm.
+
+Tim Salazar (1:04:11)
+And then there's the sales problem, right? Like, you have to understand everything in terms of like, what it's going to take to make the big sale and then the little sale. The big sale is like, OK, that's acquisition. I'm going to buy this thing. This is the reason I'm going to buy it. This is going to move me forward towards progress of like actually achieving my goals or making an outcome. And then the little sale is like, I'm going to use it and I'm going use it every day because it helps me do these things. Those are things like
+
+Savan Kong (1:04:13)
+Yep. Yep.
+
+Mm-hmm.
+
+Tim Salazar (1:04:40)
+that sort of framework is not something that a designer is constantly thinking holistically about because a lot of the times you walk in and you're like, ⁓ I got to figure out how to make this look better or how to make this appeal. ⁓ I got to make this work more easily ⁓ so that I can understand how to use it. And those are all like really important pieces, but it's just a fraction of the puzzle.
+
+Savan Kong (1:04:45)
+Right.
+
+Yep.
+
+Tim Salazar (1:05:07)
+So being able to really think holistically and systems thinking of what are the leverage points, ingress and egress points of being able to get users in, why do users leave, how do they get things done. All that stuff is super, super important and really hard. It's not ⁓ something that comes naturally because ⁓ a lot of times when you are a designer, you're focused on
+
+Okay, how does this look from a brand standpoint or how does this look from a usability standpoint? And those are types of things that especially when you go into highly specialized environments, you have other people to worry about. Other people will, you know, I'll figure out acquisition. That's sales' job. We don't have to think about that. But like really, like if you're not thinking you got it, it's a lost opportunity in how
+
+Savan Kong (1:05:49)
+Mm-hmm.
+
+Tim Salazar (1:06:04)
+Things will get shipped and appeal to users. So it's it's all this all this stuff put together. Does that make sense?
+
+Savan Kong (1:06:07)
+Mm-hmm.
+
+Yeah, yeah, it definitely does. mean, I even think like we were talking about the D.O.D. space a lot of a lot of the D.O.D. space when you procure pieces of software. ⁓
+
+A lot of times the people that get trained aren't really the people that are actually going to be using it. It's going to be different parts of the organization that need to learn it. ⁓ and so like understanding from a design perspective, sort of how all that flows together is in my opinion, really important. the.
+
+Tim Salazar (1:06:27)
+Totally. Yeah.
+
+Savan Kong (1:06:42)
+Like when we start to tease out, you know, the responsibilities of say like customer support and sales and design and engineering and all that shit, like, ⁓ as we sort of like look forward to what AI is producing, ⁓ how do you think like design could be positioned so that they could be more on top of understanding the three sort of like business, ⁓ problems that you were talking about, like the users, the sales, and then
+
+the business problems, like how can designers position themselves to ⁓ be more effective and more valuable within these organizations? Because like, I'm reading a lot right now, talking to a lot of people, and I think a lot of people are, at least in the design perspective, really scared about like the trajectory and how fast things are moving. ⁓ But you know, if you were committed to being in design for the next five, 10 years, like how can you position yourself to be more valuable?
+
+Tim Salazar (1:07:42)
+Yeah, yeah, I'm trying to figure it out. I'm trying to figure it out myself, you know, right? Like, from what I see right now, I think a lot of it is sort of like, there is definitely this fear that ⁓ all these things are going to go away in terms of like, okay, the teams are going to get much, much smaller. ⁓ And if you, I think the thing about it is like, as you're a designer and you're thinking about the entire system, it's the same thing. It has to be designed.
+
+Savan Kong (1:07:44)
+Yeah, me too. ⁓
+
+Tim Salazar (1:08:11)
+Right, like in terms of like the orchestration of all the pieces doing the work. ⁓ If you don't have a good idea of how you're going to ⁓ make that machinery, then it's sort of like there are good gaps are gonna be created. You're gonna have ⁓ to sort of understand how to fill those gaps. So I think that goes back to being flexible from as a design professional into like. ⁓
+
+Savan Kong (1:08:17)
+Mm-hmm.
+
+Tim Salazar (1:08:37)
+OK, I need to do this piece or I need to do that piece. But even on top of that, you pull up just a little bit more. It's like understanding how to be flexible and how to solve it from like an agent orchestration perspective so that you can say like, OK, this is the gap that we're doing. How are we going to fill that with some piece of ⁓ AI that can actually help with that so that you can say, OK, go run this. Go run the first, ⁓ you know.
+
+iterations and figure out like what show me the results and you're like, okay, you're you're basically curating it and you're you're in the arbiter of taste within that so that you're going to say like, okay, this this actually works really well or this doesn't do this or you didn't get this piece. And that's all like a designer's job, right? You're always like looking at something even when you're a manager, you're a bunch of your designers are going out there and doing these things and you're critiquing it and you're saying, do you think about this? Did you consider that? ⁓
+
+Savan Kong (1:09:35)
+Mm-hmm.
+
+Tim Salazar (1:09:36)
+Those are all things that you do with an agent. think that if you sort of understand, I don't know if the teams are going to be one designer ⁓ agent orchestrator that is saying, go out and make this page and do this workflow and do that. ⁓ I think that would really suck. To just be the, I've been the single designer ⁓
+
+at a lot of places for the last few years and it's fucking lonely, man. Like it's hard, right? Like ⁓ you don't get human connection, you don't get feedback. And I think that that's the thing that actually really scares me about AI is that like, it's so much easier for me to go and like ask GPT or Claude ⁓ this question and also like be vulnerable of like, ⁓ am I doing... ⁓
+
+Savan Kong (1:10:09)
+Yeah, is. Yep.
+
+Mm-hmm.
+
+Tim Salazar (1:10:34)
+my work
+
+well enough or am I doing this? And it's like, would I be ⁓ much better served talking to a good friend that could tell me, no, you're doing great, And having that human connection and having that community versus asking GPT who's never really going to have ⁓ that emotional connection with. mean, arguably, you've formed this emotional connection with GPT. Is that healthy?
+
+Savan Kong (1:10:42)
+Mm-hmm.
+
+I want to ask a fun question Tim. I want to maybe forecast us 15 years down the line. But before we forecast ourselves 15 years down the line, I want to take us back 15 years in the past.
+
+Tim Salazar (1:11:05)
+All right.
+
+Savan Kong (1:11:15)
+and you know, when you and I started, ⁓ in this field, it was, my opinion, very straightforward and very simple, right? Like you had product managers, you had your designers, you had your maybe front end engineers back in engineers, and then you had QA maybe, and then your business people, right? Like the, the lines that you drew within roles and responsibilities was, ⁓ to me, very strict.
+
+forward. I think now even within sort of design, you've got service designers, you've got research designers, you've got the UX designers. ⁓ And I think now I'm even seeing like AI specific types of designers. There's a lot more granulation like within these roles. But in the next 15 years, how do you think the roles and responsibilities are going to look like what what gets
+
+to the way of the dodo and becomes useless and then maybe what like new roles you think comes up.
+
+Tim Salazar (1:12:21)
+Yeah,
+
+I mean, think, again, to come full circle, this is like, I was listening to, ⁓ I think it was Aziz Ansari on A Good Hang, and he was talking to Amy Poehler about just being a director ⁓ and making movies and.
+
+Savan Kong (1:12:34)
+Mm-hmm.
+
+Mm-hmm.
+
+Tim Salazar (1:12:41)
+A lot of people don't know what directors do. And really what they do is they like make every single decision about the movie. It's like, and you think about this from an auteur's perspective, if you watch a movie and you say, that's definitely a Martin Scorsese movie, because you can see the decisions that he's made throughout the film and they all stack up in order to like, that's Wes Anderson. Like easily, you you could tell just by looking at it. I think that that is...
+
+Savan Kong (1:13:00)
+Yeah. Yeah.
+
+Tim Salazar (1:13:10)
+because of that amount of specialization within the agents, ⁓ that designers are going to get more pushed towards that, right? And I think that...
+
+⁓ you start to like make every single decision about it and you have to start like build systems and like frameworks. And I'm not talking about like a design system. I'm thinking about like the entire sort of, ⁓ sentiment and the entire like, ⁓ world that you're building within that product. ⁓ everything needs to be decided. And I think that a lot of times, like you want to do that now, but it's just like, there's a lot of different people with their different opinions on how it should be.
+
+and then you don't agree. think that that is going to start diminishing in terms of all these different decision makers because I think...
+
+companies are going to get a lot smaller. People are going to saying, making those decisions. And I think like to a certain extent, everybody is ⁓ the, the market's going to get flooded with a cloud code ⁓ apps. And some of those are going to be really good. And some of them are to be not at all. Right. Like, and, ⁓ because every single, ⁓ you know, person that is creating an app is a, is a director and they're making all those decisions. And every single one of those ⁓ incremental decisions comes out to build this whole, this
+
+Savan Kong (1:14:16)
+Yeah, for sure.
+
+Tim Salazar (1:14:30)
+experience that a lot of people don't think about and a lot of people don't have the time or capacity even to like think about this actually matters how I log in actually matters how I log out matters and all that stuff is just like that is something that is
+
+really overlooked, I think, today. And not only is it overlooked, there are way too many decision makers in the process to actually be in control of that. When you just have a team, like an army of agents, making those not decisions for you, but saying like, okay, ask me about this. this is how it's like, and they're not gonna argue with you. They're just gonna be like, you're a genius, Tim. Like, you made the right choice here.
+
+Savan Kong (1:15:08)
+Yeah. Yeah.
+
+Right.
+
+Tim Salazar (1:15:14)
+And then that's what it's going to be. I think ⁓ that's definitely something that, ⁓ especially for entrepreneurs, they're going to be like, yeah, this is definitely the way. ⁓ If you don't have a vision, though, I think it's going be hard.
+
+Savan Kong (1:15:31)
+Yeah. I wonder fundamentally how does, how do humans work together within a team environment?
+
+in the next 15 years. think that's what's like sort of like where my brain is going is right now the handoffs maybe look a little bit different than they did 15 years in the past and responsibilities maybe looked a little bit different but I don't think by much the types of people we hire maybe a little bit different. You know we may be hiring ⁓
+
+people that are more liberal arts oriented versus creative oriented, so on and so forth. But like, I do wonder sort of like with AI coming up fundamentally when you and I sit together in a room with five other people, what does that sort of like collaboration look like? And how do we actually start to engage with each other with those roles sort of being very blurred and AI taking over a lot of the responsibilities that we had, you know, in the past.
+
+Tim Salazar (1:16:21)
+Yeah.
+
+I think that's a huge ⁓ thing in terms of collaboration and being able to have a dialogue with somebody and communicate that. if you really want to collaborate on something together, ⁓ there are a bunch of... ⁓
+
+Savan Kong (1:16:41)
+Mm-hmm.
+
+Tim Salazar (1:16:50)
+unspoken rules that you need to have in place in order to like be able to have a fruitful conversation. And I don't think like a lot of people have that. I think it's really, really difficult ⁓ to go into an environment where you are not like tasked with being creative together. And that's like a, fundamentally what it is to like go and create a product is like, let's come up with all these ideas. Nobody's like, and somebody comes in and like,
+
+that idea is stupid, then that shuts down the room, right? Like I think that that is ⁓ something that is really, really hard to come by. And I think that, again, like I keep coming back to film is like, that's why ⁓ Ed Catmull is like, ideas are fragile. When he's talking about his whole thing in Pixar is like, you have all these ideas and if somebody shits on an idea, then you kind of like shut down progress on the whole thing.
+
+Savan Kong (1:17:22)
+Mm-hmm. Yeah.
+
+Tim Salazar (1:17:50)
+you don't give people an equal sort of amount of leeway in order to create that thing,
+
+Savan Kong (1:17:57)
+Yeah. Yeah.
+
+Yeah. I mean, there's this, there's a certain amount of trust that you, definitely have to have. ⁓ and I think right now, even just that, pulling on that idea of trust, I think there's a certain amount that you give to people based on their roles and the decisions they make. generally speaking, I'll trust an engineer with the code they commit. Like I won't probably second guess that. on the design side,
+
+Tim Salazar (1:18:20)
+Totally. Yeah.
+
+Savan Kong (1:18:24)
+I think maybe that's a little bit less depending on if you're a good designer or not a good designer, your people are going to trust you with your decisions. But, ⁓ you know, I do I do wonder sort of like
+
+Tim Salazar (1:18:29)
+Yeah. Yeah.
+
+Savan Kong (1:18:38)
+In the future sort of what that balance of trust is going to be and who's going to hold sort of that center of gravity Is it still a PM? I mean do PMs even exist at that point if you can do the research online using AI write the spec Do this sort of end-to-end prototyping and then push it out to people to test like is that even still needed like I I have I don't know I have no clue
+
+Tim Salazar (1:19:03)
+Yeah,
+
+I don't know, man. think it's going to be...
+
+something ⁓ that we sort of are going to decide, right? As we go in, ⁓ becoming the people that are pushing the industry into this new age, the people that are doing the work are going to be like, hey, this is how I think it should work. I still think we need engineers and PMs at the table, and this is how we can ⁓ sort of figure this stuff out. I think
+
+Savan Kong (1:19:13)
+Yeah.
+
+Yep.
+
+Tim Salazar (1:19:37)
+⁓ There will be definitely some like having to swim upstream for some of those things, ⁓ especially when we talk about how we're going to work together because some people just won't be into it and some people would just be like, I don't have to listen to anybody. I could just have AI do it. And for better or worse, that's gonna, I think that's what's gonna happen.
+
+Savan Kong (1:19:57)
+Mm-hmm. Yep.
+
+Yeah. All right, Tim, second to last question. But looking ahead, you mentioned that you are in between titles right now, ⁓ knowing now all the things that you've done and all the different roles that you've had, the different hats you've had to wear. What would be your ideal position this next go around? What does that look like for you?
+
+Tim Salazar (1:20:30)
+⁓ I'm still trying to figure that out too. I think like in a lot of ways I've had a lot of jobs where I've just worked with really really sharp ⁓ exceptional people that are kind and generous and I think that is sort of like the foundation right like I go somewhere for the people ⁓ and then the product is definitely the second part is like I want to be doing something ⁓ that is ⁓
+
+Savan Kong (1:20:50)
+Yeah.
+
+Tim Salazar (1:20:58)
+really substantial, makes a difference, solves problems. it can solve an everyday problem like cooking or can solve a huge problem like the stuff we were doing in defense. It's just like, I think that those really are the top two things is that. I think like the other thing that...
+
+Savan Kong (1:21:11)
+Yeah.
+
+Tim Salazar (1:21:22)
+I think everyone at this point is thinking about is like, what would happen if I just want to start something myself? I just want to do this. then I don't have anyone else to blame. Like, what problem are you solving? I don't have to ask somebody else that. I have to ask myself that and have to figure out if that is something that I can figure out if there is something that is really worth solving and trying to do that that way. But then that brings up
+
+Savan Kong (1:21:35)
+Yeah. Yeah.
+
+Tim Salazar (1:21:51)
+you know, whole other ⁓ Pandora's box of problems to try to solve in terms of like, how you can make money, how you're raise money, how you're gonna do all that, and like, yeah. So both of those things are interesting pathways for me.
+
+Savan Kong (1:21:58)
+Yeah, yeah
+
+⁓ Last question, Tim, I like to ask this ⁓ for people that are parents on the show, but if your kids watch this thing in 10 years, if this is still around and you know, your son is 19, 20, ⁓ what do you hope he gets out of this conversation?
+
+Tim Salazar (1:22:29)
+⁓ Yeah, I think like for me, the thing that is really important for that I want my kids to understand is that everybody is trying to artist, right? Like in terms of like, for me, I'm also just trying to figure stuff out. I don't talk a lot about my career or my jobs or anything. I just try to.
+
+be a funny dad and most of the time they'll think of me as like the guy that makes a bunch of fart jokes and that's great. Like I think that's funny. I think that's cool and I think that that makes them comfortable and stuff. But also like especially when I was ⁓ as I get older I was like trying to figure out what was my dad really like you know like or what was my mom really like when she's not just being my mom or being a parent and stuff like that. So I think that that ⁓
+
+Savan Kong (1:23:03)
+Yeah. Yeah.
+
+Tim Salazar (1:23:24)
+is the humanity in there and the other life that you don't really catch a glimpse of a lot of times because you have this one particular perspective about them. So I think that would be interesting for them. But I also, yeah. Yeah, I mean, I think like the one thing that bums me out about being a dad is like your time is just limited, right? Like you just like.
+
+Savan Kong (1:23:50)
+Mm-hmm.
+
+Tim Salazar (1:23:52)
+10 years from now, I don't know what's going to happen. Our time is limited, so we got to do our best today.
+
+Savan Kong (1:23:58)
+Yeah, I love that. All right, my friend Tim, thank you so much for joining me on the show. I appreciate you, ⁓ Good luck on whatever it is that you do next. And I'll catch you soon. Go Hawks.
+
+Tim Salazar (1:24:12)
+All
+
+right, man. Thank you. Appreciate it. Thanks for having me. Cheers.
+
+Savan Kong (1:24:14)
+Alright, see ya!
+
+Alright, cheers.
+

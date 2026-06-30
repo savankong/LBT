@@ -80,21 +80,26 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
 }
 
 // ── Key Insights editor ───────────────────────────────────────────────────────
-function InsightsEditor({ value, onChange }: { value: string[]; onChange: (v: string[]) => void }) {
+function insightToString(i: string | { heading: string; body: string }): string {
+  return typeof i === 'string' ? i : `${i.heading} — ${i.body}`
+}
+
+function InsightsEditor({ value, onChange }: { value: (string | { heading: string; body: string })[]; onChange: (v: string[]) => void }) {
+  const strings = value.map(insightToString)
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-      {value.map((insight, i) => (
+      {strings.map((insight, i) => (
         <div key={i} style={{ display: 'flex', gap: 8 }}>
           <input style={{ ...inputStyle, flex: 1 }} value={insight}
-            onChange={e => { const next = [...value]; next[i] = e.target.value; onChange(next) }}
+            onChange={e => { const next = [...strings]; next[i] = e.target.value; onChange(next) }}
             placeholder={`Insight ${i + 1}`} />
-          <button onClick={() => onChange(value.filter((_, idx) => idx !== i))}
+          <button onClick={() => onChange(strings.filter((_, idx) => idx !== i))}
             style={{ padding: '0 12px', borderRadius: 8, border: '1.5px solid #ef4444', background: 'transparent', color: '#ef4444', cursor: 'pointer', fontSize: '.8rem' }}>
             ✕
           </button>
         </div>
       ))}
-      <button onClick={() => onChange([...value, ''])}
+      <button onClick={() => onChange([...strings, ''])}
         style={{ padding: '8px 14px', borderRadius: 8, border: '1.5px solid var(--border-med)', background: 'transparent', color: 'var(--muted)', cursor: 'pointer', fontSize: '.8rem', fontWeight: 600, alignSelf: 'flex-start' }}>
         + Add Insight
       </button>
@@ -252,11 +257,33 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
           {tab === 'media' && (
             <>
               <p style={sectionLabel}>Media & Links</p>
-              <Field label="Guest Photo URL">
-                <input style={inputStyle} value={form.photo} onChange={e => set('photo', e.target.value)} />
+              <Field label="Guest Photo">
+                <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginBottom: 8 }}>
+                  <input style={{ ...inputStyle, flex: 1 }} value={form.photo} onChange={e => set('photo', e.target.value)} placeholder="/episodes/slug.jpg or https://..." />
+                  <label style={{
+                    display: 'inline-flex', alignItems: 'center', gap: 6, padding: '9px 14px',
+                    borderRadius: 8, border: '1.5px solid var(--border-med)', cursor: 'pointer',
+                    fontSize: '.8rem', fontWeight: 700, background: 'var(--bg)', color: 'var(--ink)',
+                    whiteSpace: 'nowrap', flexShrink: 0,
+                  }}>
+                    📁 Upload
+                    <input type="file" accept="image/*" style={{ display: 'none' }}
+                      onChange={async e => {
+                        const file = e.target.files?.[0]
+                        if (!file || !form.slug) return
+                        const fd = new FormData()
+                        fd.append('file', file)
+                        fd.append('slug', form.slug)
+                        const res = await fetch('/api/upload-photo', { method: 'POST', body: fd })
+                        const data = await res.json()
+                        if (data.url) set('photo', data.url)
+                      }}
+                    />
+                  </label>
+                </div>
                 {form.photo && (
                   <img src={form.photo} alt="preview" referrerPolicy="no-referrer"
-                    style={{ width: 80, height: 80, objectFit: 'cover', borderRadius: 10, marginTop: 8, border: '2px solid var(--border)' }} />
+                    style={{ width: 80, height: 80, objectFit: 'cover', borderRadius: 10, border: '2px solid var(--border)' }} />
                 )}
               </Field>
               <Field label="YouTube URL" hint="Full watch URL — e.g. https://www.youtube.com/watch?v=...">

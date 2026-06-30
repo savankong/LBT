@@ -26,9 +26,12 @@ export interface Episode {
   amazonUrl?: string
   substack?: string
   guestBio?: string
-  keyInsights?: string[]
+  keyInsights?: (string | { heading: string; body: string })[]
   faq?: FAQ[]
   transcriptFile?: string
+  taxonomyTags?: string[]
+  quote?: string
+  additionalPhotos?: string[]
 }
 
 const CDN = 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367'

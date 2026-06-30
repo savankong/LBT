@@ -1,5 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { getEpisodes } from '@/lib/episodes-db'
+import type { Show } from '@/lib/episodes'
+
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Guests',
@@ -8,30 +12,55 @@ export const metadata: Metadata = {
   openGraph: { title: 'Guests | Life Between Titles', description: 'From retired generals to pediatric surgeons to professional disc golfers — every guest has a real career story.' },
 }
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'ItemList',
-  name: 'Life Between Titles Podcast Guests',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, item: { '@type': 'Person', name: 'Danielle Frank', description: 'Former wine industry professional who quit without a plan' } },
-    { '@type': 'ListItem', position: 2, item: { '@type': 'Person', name: 'Lt. Gen. Matthew "Jerry" Glavy', jobTitle: 'Retired Marine Lieutenant General' } },
-    { '@type': 'ListItem', position: 3, item: { '@type': 'Person', name: 'Dr. Jordan Swanson', jobTitle: 'Pediatric Craniofacial Surgeon' } },
-    { '@type': 'ListItem', position: 4, item: { '@type': 'Person', name: 'Nate Sexton', jobTitle: 'Professional Disc Golfer' } },
-  ],
+const SHOW_COLOR: Record<Show, string> = {
+  'Life Between Titles': '#C26A4A',
+  'Work Unscripted': '#4a7ec2',
+  'Office Hours': '#7c4ac2',
 }
 
-const GUESTS = [
-  { name: 'Danielle Frank', episode: 'Quitting Without a Plan, 22 Years in Wine, and the Book She Carried Forward', show: 'Life Between Titles', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/5bc26bd9-46e8-4def-8ea5-3b5342ab93a6/image0.jpeg' },
-  { name: 'Lt. Gen. Matthew "Jerry" Glavy', episode: 'Retired Marine General on Service, Identity, and Life After the Military', show: 'Work, Unscripted — S2E3', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/8e662514-5308-4700-9261-3a0ec5ba6806/Lt._Gen._Matthew_G._Glavy.jpg' },
-  { name: 'Dr. Jordan Swanson', episode: 'Pediatric Craniofacial Surgeon on the Path Nobody Plans For', show: 'Work, Unscripted — S2E2', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/0b0a42f3-82f0-4a68-9e84-abfcae015c60/BioPhoto-PLA-JordanSwanson-2624x1720.jpeg' },
-  { name: 'Nate Sexton', episode: 'Professional Disc Golfer on Building a Career in an Unlikely Sport', show: 'Work, Unscripted — S2E1', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/24d599c3-60c9-4ffd-808d-679a84e9b06b/EO-161.jpg' },
-  { name: 'Savan Kong', episode: 'The Founder of Life Between Titles on Starting Over', show: 'Life Between Titles — S1E33', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/ca15d266-eeb0-4750-8266-828ab73926ab/savan-thumb.png' },
-  { name: 'David Mazzeo', episode: 'A Career Path You Didn\'t See Coming', show: 'Work, Unscripted — S1E3', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/01703312-cada-40fb-a061-685b731af4f7/IMG_2290.jpeg' },
-  { name: 'Andy Alvarado', episode: 'Finding Purpose in the Unconventional', show: 'Work, Unscripted — S1E2', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/97202540-f5be-4d9d-8d52-5f436be05a2b/andy-solo.jpg' },
-  { name: 'Aaron Brooks', episode: 'Federal Bureau of Prisons Food Service Supervisor', show: 'Work, Unscripted', img: 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367/e17b79aa-72fc-425d-aef8-8c4a8d7b5ce7/IMG_5986.jpeg' },
-]
+const SHOW_ORDER: Show[] = ['Life Between Titles', 'Work Unscripted', 'Office Hours']
 
-export default function GuestsPage() {
+function episodeLabel(show: Show, season: number | undefined, episode: number | undefined) {
+  if (!season && !episode) return show
+  const abbr = show === 'Life Between Titles' ? 'LBT' : show === 'Work Unscripted' ? 'WU' : 'OH'
+  return `${abbr} S${season ?? '?'}E${episode ?? '?'}`
+}
+
+export default async function GuestsPage() {
+  const all = await getEpisodes()
+
+  // published only, sort by show order → season → episode
+  const published = all
+    .filter(ep => ep.status?.toLowerCase() === 'published' && ep.guest.toLowerCase() !== 'savan kong')
+    .sort((a, b) => {
+      const si = SHOW_ORDER.indexOf(a.show) - SHOW_ORDER.indexOf(b.show)
+      if (si !== 0) return si
+      const sd = (a.season ?? 99) - (b.season ?? 99)
+      if (sd !== 0) return sd
+      return (a.episode ?? 999) - (b.episode ?? 999)
+    })
+
+  // group by guest name — preserve first-occurrence sort order
+  const guestMap = new Map<string, typeof published>()
+  for (const ep of published) {
+    const key = ep.guest
+    if (!guestMap.has(key)) guestMap.set(key, [])
+    guestMap.get(key)!.push(ep)
+  }
+
+  const guests = Array.from(guestMap.values())
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Life Between Titles Podcast Guests',
+    itemListElement: guests.map((eps, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: { '@type': 'Person', name: eps[0].guest },
+    })),
+  }
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -48,18 +77,76 @@ export default function GuestsPage() {
       <section className="section">
         <div className="container">
           <div className="guests-grid">
-            {GUESTS.map(g => (
-              <div className="guest-card" key={g.name}>
-                <div className="guest-card-img">
-                  <img src={g.img} alt={g.name} referrerPolicy="no-referrer" />
+            {guests.map(eps => {
+              const ep = eps[0]
+              const color = SHOW_COLOR[ep.show]
+              return (
+                <div className="guest-card" key={ep.guest} style={{ display: 'flex', flexDirection: 'column' }}>
+                  {/* Photo */}
+                  <div className="guest-card-img" style={{ position: 'relative' }}>
+                    {ep.photo ? (
+                      <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" />
+                    ) : (
+                      <div style={{ width: '100%', height: '100%', background: `${color}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', fontWeight: 800, color }}>
+                        {ep.guest.split(' ').map(w => w[0]).slice(0, 2).join('')}
+                      </div>
+                    )}
+                    {/* color bar at bottom of photo */}
+                    <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: color }} />
+                  </div>
+
+                  {/* Body */}
+                  <div className="guest-card-body" style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 10 }}>
+                    {/* Show tag */}
+                    <div className="guest-show-tag" style={{ color }}>
+                      {eps.map(e => episodeLabel(e.show, e.season, e.episode)).join(' · ')}
+                    </div>
+
+                    {/* Name */}
+                    <h4 style={{ fontFamily: 'var(--font-display, inherit)', fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', margin: 0, lineHeight: 1.3 }}>
+                      {ep.guest}
+                    </h4>
+
+                    {/* Episode title(s) */}
+                    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 6 }}>
+                      {eps.map(e => (
+                        <p key={e.slug} style={{ fontSize: '.78rem', color: 'var(--faint)', lineHeight: 1.45, margin: 0 }}>
+                          {e.youtubeTitle || e.description?.slice(0, 80)}
+                        </p>
+                      ))}
+                    </div>
+
+                    {/* Episode link(s) */}
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginTop: 4 }}>
+                      {eps.map(e => (
+                        <Link
+                          key={e.slug}
+                          href={`/shows/${e.slug}`}
+                          style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: 6,
+                            fontSize: '.68rem',
+                            fontWeight: 700,
+                            letterSpacing: '.08em',
+                            textTransform: 'uppercase',
+                            color,
+                            textDecoration: 'none',
+                            paddingTop: 6,
+                            borderTop: '1px solid var(--border)',
+                          }}
+                        >
+                          <span style={{ opacity: .7 }}>▶</span>
+                          {eps.length > 1
+                            ? episodeLabel(e.show, e.season, e.episode)
+                            : 'Watch Episode'}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-                <div className="guest-card-body">
-                  <div className="guest-show-tag">{g.show}</div>
-                  <h3 className="guest-card-name" style={{fontFamily:'var(--font-display,inherit)',fontSize:'1rem',fontWeight:700,color:'var(--ink)',marginBottom:6}}>{g.name}</h3>
-                  <p>{g.episode}</p>
-                </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
