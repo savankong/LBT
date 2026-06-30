@@ -582,6 +582,47 @@ a.featured-ep-link:hover .featured-ep { border-color: var(--terra); }
 .ep-show-tag { font-size: 10px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--terra); margin-bottom: 7px; }
 .episode-card h4 { font-size: .88rem; font-family: 'Archivo',sans-serif; font-weight: 600; color: var(--ink); line-height: 1.45; letter-spacing: 0; }
 
+/* ── Guests stats + filter ───────────────────────────────── */
+.guests-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border-top: 3px solid var(--ink);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+.guests-stat {
+  flex: 1 1 0;
+  min-width: 110px;
+  padding: 18px 16px;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.guests-stat:last-child { border-right: none; }
+.guests-stat-num { font-family: 'Anton', sans-serif; font-size: clamp(1.8rem,3vw,2.4rem); line-height: 1; color: var(--ink); }
+.guests-stat-label { font-family: 'Archivo', sans-serif; font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+
+.guests-filter-row { display: flex; flex-wrap: wrap; gap: 8px; padding-bottom: 8px; }
+.guests-filter-btn {
+  font-family: 'Archivo', sans-serif;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  padding: 8px 14px;
+  border: 1.5px solid var(--border-med);
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.guests-filter-btn:hover { border-color: var(--terra); color: var(--ink); }
+.guests-filter-btn.active { background: var(--terra); border-color: var(--terra); color: var(--ink); }
+.guests-filter-count { opacity: .65; font-weight: 600; }
+
 /* ── Guest cards ─────────────────────────────────────────── */
 .guests-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
 .guest-card {
@@ -863,6 +904,8 @@ body.scrolled .nl-banner {
   .hero-figure { display: none; }
   .hero-glow { display: none; }
   .stat-band-inner { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .guests-stat { flex: 1 1 50%; min-width: 0; }
+  .guests-stat:nth-child(2) { border-right: none; }
 }
 @media (max-width: 480px) {
   .episodes-grid { grid-template-columns: 1fr; }

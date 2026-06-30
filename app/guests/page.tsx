@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getEpisodes } from '@/lib/episodes-db'
 import type { Show } from '@/lib/episodes'
+import GuestsClient from '@/components/GuestsClient'
 
 export const dynamic = 'force-dynamic'
 
@@ -12,20 +13,7 @@ export const metadata: Metadata = {
   openGraph: { title: 'Guests | Life Between Titles', description: 'From retired generals to pediatric surgeons to professional disc golfers — every guest has a real career story.' },
 }
 
-// Triadic palette built off the brand magenta — matches Shows page
-const SHOW_COLOR: Record<Show, string> = {
-  'Life Between Titles': '#ff1b8d',
-  'Work Unscripted': '#00e0ff',
-  'Office Hours': '#ffb800',
-}
-
 const SHOW_ORDER: Show[] = ['Life Between Titles', 'Work Unscripted', 'Office Hours']
-
-function episodeLabel(show: Show, season: number | undefined, episode: number | undefined) {
-  if (!season && !episode) return show
-  const abbr = show === 'Life Between Titles' ? 'LBT' : show === 'Work Unscripted' ? 'WU' : 'OH'
-  return `${abbr} S${season ?? '?'}E${episode ?? '?'}`
-}
 
 export default async function GuestsPage() {
   const all = await getEpisodes()
@@ -75,54 +63,7 @@ export default async function GuestsPage() {
         </div>
       </header>
 
-      <section className="section">
-        <div className="container">
-          <div className="guests-grid">
-            {guests.map(eps => {
-              const ep = eps[0]
-              const color = SHOW_COLOR[ep.show]
-              return (
-                <Link href={`/shows/${ep.slug}`} className="guest-card" key={ep.guest} style={{ display: 'flex', flexDirection: 'column' }}>
-                  {/* Photo */}
-                  <div className="guest-card-img" style={{ position: 'relative' }}>
-                    {ep.photo ? (
-                      <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" />
-                    ) : (
-                      <div style={{ width: '100%', height: '100%', background: `${color}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', fontWeight: 800, color }}>
-                        {ep.guest.split(' ').map(w => w[0]).slice(0, 2).join('')}
-                      </div>
-                    )}
-                    {/* color bar at bottom of photo */}
-                    <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: color }} />
-                  </div>
-
-                  {/* Body */}
-                  <div className="guest-card-body" style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 10 }}>
-                    {/* Show tag */}
-                    <div className="guest-show-tag" style={{ color }}>
-                      {eps.map(e => episodeLabel(e.show, e.season, e.episode)).join(' · ')}
-                    </div>
-
-                    {/* Name */}
-                    <h4 style={{ fontFamily: 'var(--font-display, inherit)', fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', margin: 0, lineHeight: 1.3 }}>
-                      {ep.guest}
-                    </h4>
-
-                    {/* Episode title(s) */}
-                    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 6 }}>
-                      {eps.map(e => (
-                        <p key={e.slug} style={{ fontSize: '.78rem', color: 'var(--faint)', lineHeight: 1.45, margin: 0 }}>
-                          {e.youtubeTitle || e.description?.slice(0, 80)}
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                </Link>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+      <GuestsClient guests={guests} />
 
       <div className="divider" />
       <section className="cta-section">
