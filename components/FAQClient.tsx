@@ -14,7 +14,7 @@ const FAQS = [
   { q: "What's the difference between the three shows?", a: 'Life Between Titles is raw, unscripted conversations with people in the middle of career transitions. Office Hours features structured conversations with experts who help people navigate careers for a living. Work, Unscripted is a deep dive into careers most people have never considered — the unusual, the surprising, the ones that don\'t show up in guidance counselors\' offices.' },
   { q: 'When did the show launch?', a: 'Life Between Titles launched in October 2025.' },
   { q: 'How can I support the show?', a: 'The best ways to support us: listen, share episodes with people who need them, subscribe to the newsletter, and tell us about guests we should talk to. If you want to do more, we have a "Buy Me a Coffee" link and sponsorship options available.' },
-  { q: 'How do I get in touch?', a: 'Email us at hello@lifebetweentitles.com. We read everything.' },
+  { q: 'How do I get in touch?', a: 'contact-form' as const },
 ]
 
 export default function FAQClient() {
@@ -37,13 +37,19 @@ export default function FAQClient() {
                     <path d="M12 5v14M5 12h14" />
                   </svg>
                 </button>
-                {open === i && <div className="faq-a">{faq.a}</div>}
+                {open === i && (
+                  <div className="faq-a">
+                    {faq.a === 'contact-form' ? (
+                      <>Use our <Link href="/contact" style={{ color: 'var(--terra)', fontWeight: 700 }}>contact form</Link> and we&apos;ll get back to you. We read everything.</>
+                    ) : faq.a}
+                  </div>
+                )}
               </div>
             ))}
           </div>
           <div style={{marginTop:64,textAlign:'center'}}>
             <p style={{marginBottom:20}}>Still have questions?</p>
-            <a href="mailto:hello@lifebetweentitles.com" className="btn btn-gold">Email Us Directly</a>
+            <Link href="/contact" className="btn btn-gold">Contact Us</Link>
           </div>
         </div>
       </section>

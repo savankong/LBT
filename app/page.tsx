@@ -108,8 +108,10 @@ export default async function HomePage() {
       <section className="origin-section" id="story" aria-labelledby="story-heading">
         <div className="container origin-grid">
           <div>
-            <span className="label">The Origin Story</span>
-            <h2 id="story-heading">It started with the end…</h2>
+            <Link href="/about" style={{ display: 'block' }}>
+              <span className="label">The Origin Story</span>
+              <h2 id="story-heading">It started with the end…</h2>
+            </Link>
             <p className="origin-quote">
               &ldquo;Nobody wants to sit in the part where you don&apos;t yet know who you are without the title.&rdquo;
             </p>
@@ -118,7 +120,7 @@ export default async function HomePage() {
             </p>
             <Link href="/about" className="link-arrow origin-link">Read our story →</Link>
           </div>
-          <div className="origin-aside">
+          <Link href="/about" className="origin-aside">
             <div className="origin-photo">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/savan-homepage.png" alt="Savan Kong, Founder and Host of Life Between Titles" />
@@ -126,7 +128,7 @@ export default async function HomePage() {
             <div className="origin-name">Savan Kong</div>
             <div className="origin-role">Founder &amp; Host</div>
             <div className="origin-launched">Launched Oct 2025</div>
-          </div>
+          </Link>
         </div>
       </section>
 
