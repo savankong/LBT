@@ -73,7 +73,7 @@ export default function SponsorForm() {
         </div>
         <div className="form-group">
           <label className="form-label" htmlFor="website">Website</label>
-          <input id="website" name="website" className="form-input" type="url" placeholder="https://" value={form.website} onChange={set('website')} />
+          <input id="website" name="website" className="form-input" type="text" placeholder="yourbrand.com" value={form.website} onChange={set('website')} />
         </div>
         <div className="form-group full">
           <label className="form-label" htmlFor="tier">Sponsorship Tier</label>

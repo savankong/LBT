@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 }
 
 const TIERS = [
-  { tier:'Presenting', price:'$600', unit:'/ month', description:'Full-episode presenting sponsorship across one or more shows. Includes host-read ad, dedicated email mention, social promotion, and website placement. Best for brands seeking deep integration with our audience.', features:['Host-read 60s ad','Episode newsletter mention','Social media feature','Website sponsor badge','Custom engagement package'] },
-  { tier:'Mid-Roll', price:'$150', unit:'/ episode', description:'A focused, authentic mid-roll placement within individual episodes. Host-read and tailored to feel native to the conversation rather than a standard commercial break.', features:['Host-read 30s ad','Episode show notes mention','Authentic brand integration','Audience trust premium'] },
-  { tier:'Newsletter', price:'$125', unit:'/ issue', description:'Direct placement in the Life Between Titles Substack newsletter — a highly engaged audience of professionals actively thinking about career and identity.', features:['Sponsored content block','Audience: career transitioners','High open-rate readership','Link placement'] },
+  { tier:'Presenting', price:'$1,200', unit:'/ month', description:'Full-episode presenting sponsorship across one or more shows. Includes host-read ad, dedicated email mention, social promotion, and website placement. Best for brands seeking deep integration with our audience.', features:['Host-read 60s ad','Episode newsletter mention','Social media feature','Website sponsor badge','Custom engagement package'] },
+  { tier:'Mid-Roll', price:'$300', unit:'/ episode', description:'A focused, authentic mid-roll placement within individual episodes. Host-read and tailored to feel native to the conversation rather than a standard commercial break.', features:['Host-read 30s ad','Episode show notes mention','Authentic brand integration','Audience trust premium'] },
+  { tier:'Newsletter', price:'$250', unit:'/ issue', description:'Direct placement in the Life Between Titles Substack newsletter — a highly engaged audience of professionals actively thinking about career and identity.', features:['Sponsored content block','Audience: career transitioners','High open-rate readership','Link placement'] },
 ]
 
 const STATS = [

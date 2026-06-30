@@ -20,9 +20,9 @@ export default async function HomePage() {
       <section className="hero" aria-label="Hero">
         <div className="hero-pillars" aria-hidden="true" />
         <div className="hero-glow" aria-hidden="true" />
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/savan-bw.png" alt="" className="hero-figure" aria-hidden="true" />
         <div className="container hero-inner">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/savan-bw.png" alt="" className="hero-figure" aria-hidden="true" />
           <div className="hero-text">
             <div className="hero-badge">
               <span className="hero-badge-bar" />
