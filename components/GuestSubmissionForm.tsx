@@ -29,7 +29,7 @@ export default function GuestSubmissionForm() {
       })
       setSubmitted(true)
     } catch {
-      setError('Something went wrong submitting the form. Please email hello@lifebetweentitles.com directly.')
+      setError('Something went wrong submitting the form. Please try again in a moment.')
     } finally {
       setSubmitting(false)
     }
@@ -38,8 +38,8 @@ export default function GuestSubmissionForm() {
   if (submitted) {
     return (
       <div className="glass-gold" style={{padding:48,textAlign:'center',maxWidth:520}}>
-        <h3 style={{marginBottom:12}}>Thank you!</h3>
-        <p>We review every submission and respond within a week. If it&apos;s urgent, reach us directly at <a href="mailto:hello@lifebetweentitles.com" style={{color:'var(--terra)'}}>hello@lifebetweentitles.com</a>.</p>
+        <h3 style={{marginBottom:12}}>Thanks, {form.yourName.split(' ')[0] || 'there'}!</h3>
+        <p>We can&apos;t wait to look into {form.guestName || 'your guest'}&apos;s story. We review every submission and respond within a week — we&apos;ll reply to {form.yourEmail}.</p>
       </div>
     )
   }

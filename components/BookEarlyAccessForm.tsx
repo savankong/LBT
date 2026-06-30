@@ -25,14 +25,14 @@ export default function BookEarlyAccessForm() {
       })
       setSubmitted(true)
     } catch {
-      setError('Something went wrong. Please try again or email hello@lifebetweentitles.com.')
+      setError('Something went wrong. Please try again in a moment.')
     } finally {
       setSubmitting(false)
     }
   }
 
   if (submitted) {
-    return <p style={{ fontSize: '.95rem', fontWeight: 700, color: 'var(--ink)' }}>You&apos;re on the list — we&apos;ll email you the moment it&apos;s available.</p>
+    return <p style={{ fontSize: '.95rem', fontWeight: 700, color: 'var(--ink)' }}>You&apos;re on the list — we&apos;ll email {email} the moment it&apos;s available.</p>
   }
 
   return (

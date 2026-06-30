@@ -30,7 +30,7 @@ export default function SponsorForm() {
       })
       setSubmitted(true)
     } catch {
-      setError('Something went wrong submitting the form. Please email hello@lifebetweentitles.com directly.')
+      setError('Something went wrong submitting the form. Please try again in a moment.')
     } finally {
       setSubmitting(false)
     }
@@ -39,8 +39,8 @@ export default function SponsorForm() {
   if (submitted) {
     return (
       <div className="glass-gold" style={{ padding: 48, textAlign: 'center', maxWidth: 560 }}>
-        <h3 style={{ marginBottom: 12 }}>Thanks for reaching out!</h3>
-        <p>We review every sponsorship inquiry and respond within a week. If it&apos;s urgent, email us directly at <a href="mailto:hello@lifebetweentitles.com" style={{ color: 'var(--terra)' }}>hello@lifebetweentitles.com</a>.</p>
+        <h3 style={{ marginBottom: 12 }}>Thanks, {form.name.split(' ')[0] || 'there'}!</h3>
+        <p>We&apos;ve got your inquiry for {form.company || 'your brand'}{form.tier ? ` (${form.tier})` : ''} and review every submission within a week — we&apos;ll reply to {form.email}.</p>
       </div>
     )
   }

@@ -17,8 +17,8 @@ const jsonLd = {
     { '@type': 'Question', name: 'How can I submit a guest to Life Between Titles?', acceptedAnswer: { '@type': 'Answer', text: 'Use the guest submission form at lifebetweentitles.com/guest-submission. We review every submission and respond within a week.' } },
     { '@type': 'Question', name: 'When did Life Between Titles launch?', acceptedAnswer: { '@type': 'Answer', text: 'Life Between Titles launched in October 2025.' } },
     { '@type': 'Question', name: "What's the difference between the three Life Between Titles shows?", acceptedAnswer: { '@type': 'Answer', text: 'Life Between Titles is raw, unscripted conversations with people mid-transition. Office Hours features career experts — coaches, recruiters, therapists. Work, Unscripted is a deep dive into unusual careers most people have never considered.' } },
-    { '@type': 'Question', name: 'How do I become a sponsor of Life Between Titles?', acceptedAnswer: { '@type': 'Answer', text: 'We only partner with sponsors whose products or services genuinely help people improve their careers, lives, or wellbeing. Reach out at hello@lifebetweentitles.com or visit the sponsorship page.' } },
-    { '@type': 'Question', name: 'How do I contact Life Between Titles?', acceptedAnswer: { '@type': 'Answer', text: 'Email hello@lifebetweentitles.com. We read everything.' } },
+    { '@type': 'Question', name: 'How do I become a sponsor of Life Between Titles?', acceptedAnswer: { '@type': 'Answer', text: 'We only partner with sponsors whose products or services genuinely help people improve their careers, lives, or wellbeing. Reach out through the sponsorship page at lifebetweentitles.com/sponsor.' } },
+    { '@type': 'Question', name: 'How do I contact Life Between Titles?', acceptedAnswer: { '@type': 'Answer', text: 'Use the contact form at lifebetweentitles.com/contact. We read everything.' } },
   ],
 }
 

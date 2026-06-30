@@ -952,7 +952,7 @@ body.scrolled .nl-banner {
 
 .ep-sidebar-box {
   border-radius: 0;
-  border: 1px solid var(--border-med);
+  border: 1px solid var(--ink);
   background: var(--bg);
   overflow: hidden;
 }
@@ -1016,17 +1016,6 @@ body.scrolled .nl-banner {
   color: var(--muted);
   margin: 0;
 }
-.ep-affiliate a.ep-affiliate-cta {
-  display: inline-flex;
-  align-items: center;
-  font-size: .78rem;
-  font-weight: 700;
-  color: var(--terra);
-  text-decoration: none;
-  gap: 5px;
-  transition: opacity .15s;
-}
-.ep-affiliate a.ep-affiliate-cta:hover { opacity: .75; }
 
 /* ── Transcript accordion ─────────────────────────────────── */
 .ep-transcript {

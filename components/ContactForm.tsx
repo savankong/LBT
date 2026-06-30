@@ -28,7 +28,7 @@ export default function ContactForm() {
       })
       setSubmitted(true)
     } catch {
-      setError('Something went wrong submitting the form. Please email hello@lifebetweentitles.com directly.')
+      setError('Something went wrong submitting the form. Please try again in a moment.')
     } finally {
       setSubmitting(false)
     }
@@ -37,8 +37,8 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="glass-gold" style={{ padding: 40, textAlign: 'center' }}>
-        <h3 style={{ marginBottom: 12 }}>Thanks for reaching out!</h3>
-        <p>We review every message and respond within a week. If it&apos;s urgent, email us directly at <a href="mailto:hello@lifebetweentitles.com" style={{ color: 'var(--terra)' }}>hello@lifebetweentitles.com</a>.</p>
+        <h3 style={{ marginBottom: 12 }}>Thanks, {form.name.split(' ')[0] || 'there'}!</h3>
+        <p>We&apos;ve got your message and review everything within a week — we&apos;ll reply to {form.email}.</p>
       </div>
     )
   }

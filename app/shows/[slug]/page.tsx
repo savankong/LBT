@@ -56,12 +56,6 @@ function getYoutubeId(url: string) {
   return match ? match[1] : null
 }
 
-const BMC_TIERS = [
-  { label: 'Member', price: '$5/mo' },
-  { label: 'Coffee', price: '$1' },
-  { label: 'Coffee', price: '$25' },
-  { label: 'Coffee', price: '$50' },
-]
 
 export default async function EpisodePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -408,14 +402,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               <span className="ep-affiliate-badge">Support</span>
               <p style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '.86rem', margin: 0 }}>Enjoying the show?</p>
               <p>Buy a coffee or become a monthly member — every bit helps keep these conversations free.</p>
-              <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', margin: '4px 0 2px' }}>
-                {BMC_TIERS.map(t => (
-                  <span key={t.label + t.price} style={{ fontSize: '.66rem', fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', padding: '4px 9px', border: '1px solid var(--terra)', color: 'var(--terra)' }}>
-                    {t.label} · {t.price}
-                  </span>
-                ))}
-              </div>
-              <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="ep-affiliate-cta">Support on Buy Me a Coffee →</a>
+              <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.78rem', padding: '10px 20px', alignSelf: 'flex-start', marginTop: 4 }}>Support LBT</a>
             </div>
 
           </aside>
