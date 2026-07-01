@@ -75,20 +75,25 @@ export default function GuestsClient({ guests }: { guests: Episode[][] }) {
             ))}
           </div>
 
-          <div className="guests-filter-row">
-            <button
-              onClick={() => setActiveTag(null)}
-              className={`guests-filter-btn${activeTag === null ? ' active' : ''}`}
-            >
-              All Guests
-            </button>
-            {availableTags.map(tag => (
+          <div className="ep-filter-tabs" style={{ justifyContent: 'flex-start' }}>
+            {[{ label: 'All Guests', tag: null }, ...availableTags.map(t => ({ label: t, tag: t }))].map(({ label, tag }) => (
               <button
-                key={tag}
+                key={label}
                 onClick={() => setActiveTag(activeTag === tag ? null : tag)}
-                className={`guests-filter-btn${activeTag === tag ? ' active' : ''}`}
+                style={{
+                  padding: '14px 16px',
+                  fontSize: '.76rem', fontWeight: 700,
+                  letterSpacing: '.08em', textTransform: 'uppercase',
+                  border: 'none',
+                  borderBottom: activeTag === tag ? '3px solid var(--terra)' : '3px solid transparent',
+                  background: 'transparent',
+                  color: activeTag === tag ? 'var(--ink)' : 'var(--faint)',
+                  cursor: 'pointer', whiteSpace: 'nowrap',
+                  transition: 'color .18s, border-color .18s',
+                  marginBottom: '-1px', flexShrink: 0,
+                }}
               >
-                {tag} <span className="guests-filter-count">({tagCounts.get(tag)})</span>
+                {label}{tag && <span style={{ opacity: .65, fontWeight: 600, marginLeft: 4 }}>({tagCounts.get(tag)})</span>}
               </button>
             ))}
           </div>

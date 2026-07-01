@@ -906,8 +906,9 @@ body.scrolled .nl-banner {
   .hero-figure { display: none; }
   .hero-glow { display: none; }
   .stat-band-inner { flex-direction: column; align-items: flex-start; gap: 16px; }
-  .guests-stat { flex: 1 1 50%; min-width: 0; }
-  .guests-stat:nth-child(2) { border-right: none; }
+  .guests-stats { display: grid; grid-template-columns: 1fr 1fr; border-bottom: none; }
+  .guests-stat { border-right: none; border-bottom: 1px solid var(--border); padding: 14px 12px; }
+  .guests-stat:nth-child(even) { border-left: 1px solid var(--border); }
   /* Single column grids on mobile */
   .episodes-grid { grid-template-columns: 1fr; }
   .guests-grid { grid-template-columns: 1fr; }
@@ -1279,4 +1280,7 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
 @media (max-width: 768px) {
   .shows-layout { grid-template-columns: 1fr !important; gap: 0; }
   .shows-sidebar { position: static; flex-direction: column; flex-wrap: nowrap; gap: 0; padding: 0; }
+  /* Wrap filter tabs so no horizontal scroll */
+  .ep-filter-tabs { flex-wrap: wrap; overflow-x: visible; }
+  .ep-filter-tabs button { padding: 10px 10px !important; font-size: .65rem !important; }
 }
