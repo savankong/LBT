@@ -20,16 +20,17 @@ export function parseTranscript(raw: string): TranscriptSection[] {
 
   while (i < lines.length) {
     const line = lines[i].trim()
-    // Match "Speaker Name (HH:MM:SS)" or "Speaker Name (MM:SS)"
-    const headerMatch = line.match(/^(.+?)\s+\((\d{1,2}:\d{2}(?::\d{2})?)\)\s*$/)
+    // Match "Speaker Name (HH:MM:SS)" or "Speaker Name (MM:SS.mmm)"
+    const TS = /\d{1,2}:\d{2}(?:[.:]\d+)?(?::\d{2}(?:[.:]\d+)?)?/
+    const headerMatch = line.match(new RegExp(`^(.+?)\\s+\\((${TS.source})\\)\\s*$`))
     if (headerMatch) {
       const speaker = headerMatch[1].trim()
-      const timestamp = headerMatch[2].trim()
+      const timestamp = headerMatch[2].replace(/\.\d+$/, '').trim() // strip milliseconds
       const textLines: string[] = []
       i++
       while (i < lines.length) {
         const next = lines[i].trim()
-        if (next.match(/^(.+?)\s+\(\d{1,2}:\d{2}(?::\d{2})?\)\s*$/)) break
+        if (next.match(new RegExp(`^(.+?)\\s+\\(${TS.source}\\)\\s*$`))) break
         if (next) textLines.push(next)
         i++
       }
