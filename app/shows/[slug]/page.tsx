@@ -8,27 +8,65 @@ import { parseDescription, parseTranscript } from '@/lib/parseEpisode'
 
 export const dynamic = 'force-dynamic'
 
+function episodeDescription(raw: string, maxLen = 155): string {
+  const text = raw.replace(/<br\s*\/?>/gi, ' ').replace(/\s+/g, ' ').trim()
+  if (text.length <= maxLen) return text
+  const chunk = text.slice(0, maxLen)
+  const lastSentence = Math.max(chunk.lastIndexOf('. '), chunk.lastIndexOf('? '), chunk.lastIndexOf('! '))
+  if (lastSentence > 80) return text.slice(0, lastSentence + 1).trim()
+  const lastSpace = chunk.lastIndexOf(' ')
+  return text.slice(0, lastSpace).trim() + '…'
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
   const ep = await getEpisode(slug)
   if (!ep) return {}
-  const title = ep.guest !== 'Savan Kong'
-    ? `${ep.guest} on ${ep.show} | Life Between Titles`
+
+  // Issue 1: title without brand suffix — layout template "%s | Life Between Titles" adds it
+  const pageTitle = ep.guest !== 'Savan Kong'
+    ? `${ep.guest} on ${ep.show}`
     : ep.youtubeTitle
+  // Explicit OG title includes brand name since OG bypasses the template
+  const ogTitle = ep.guest !== 'Savan Kong'
+    ? `${ep.guest} on ${ep.show} | Life Between Titles`
+    : `${ep.youtubeTitle} | Life Between Titles`
+
+  // Issue 3: clean description truncated at a sentence boundary within 155 chars
   const description = ep.description
-    ? ep.description.replace(/<br\s*\/?>/gi, ' ').slice(0, 200).trim() + '…'
-    : `${ep.guest} on Life Between Titles. ${ep.show}, Season ${ep.season}${ep.episode ? `, Episode ${ep.episode}` : ''}.`
+    ? episodeDescription(ep.description)
+    : `${ep.guest} on ${ep.show}. Season ${ep.season}${ep.episode ? `, Episode ${ep.episode}` : ''}.`
+
+  // Issue 4: per-episode keywords (guest name, show, topics from tags)
+  const tagKeywords = [ep.mainTags, ep.tags]
+    .filter(Boolean).join(' ')
+    .split(/\s+/).filter(t => t.startsWith('#'))
+    .map(t => t.replace('#', '').replace(/_/g, ' '))
+  const keywords = [
+    ep.guest,
+    ep.show,
+    'career transition', 'podcast', 'Life Between Titles',
+    'Savan Kong',
+    ...tagKeywords,
+    ...(ep.taxonomyTags ?? []),
+  ].filter(Boolean)
+
+  const photoUrl = ep.photo
+    ? (ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo)
+    : undefined
+
   return {
-    title,
+    title: pageTitle,
     description,
+    keywords,
     alternates: { canonical: `https://www.lifebetweentitles.com/shows/${slug}` },
     openGraph: {
-      title,
+      title: ogTitle,
       description,
       type: 'article',
-      images: ep.photo ? [{ url: ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo, alt: ep.guest }] : [],
+      images: photoUrl ? [{ url: photoUrl, alt: ep.guest }] : [],
     },
-    twitter: { card: ep.photo ? 'summary_large_image' : 'summary', title, description },
+    twitter: { card: photoUrl ? 'summary_large_image' : 'summary', title: ogTitle, description },
   }
 }
 
@@ -98,18 +136,52 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       { '@type': 'ListItem', position: 3, name: ep.youtubeTitle, item: `https://www.lifebetweentitles.com/shows/${slug}` },
     ],
   }
+  const photoUrl = ep.photo
+    ? (ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo)
+    : undefined
+  const cleanDesc = ep.description
+    ? ep.description.replace(/<br\s*\/?>/gi, ' ').replace(/\s+/g, ' ').trim()
+    : undefined
+
+  // Issue 5: enhanced PodcastEpisode schema
+  const SHOW_SPOTIFY: Record<string, string> = {
+    'Life Between Titles': 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir',
+    'Work Unscripted': 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir',
+    'Office Hours': 'https://open.spotify.com/show/1olZo0VDvHh9w0F2D2vEir',
+  }
   const episodeLd = {
     '@context': 'https://schema.org',
     '@type': 'PodcastEpisode',
     name: ep.youtubeTitle,
-    description: intro || undefined,
-    partOfSeries: { '@type': 'PodcastSeries', name: ep.show, url: 'https://www.lifebetweentitles.com/shows' },
-    episodeNumber: ep.episode,
+    description: cleanDesc,
     url: `https://www.lifebetweentitles.com/shows/${slug}`,
-    image: ep.photo ? (ep.photo.startsWith('/') ? `https://www.lifebetweentitles.com${ep.photo}` : ep.photo) : undefined,
-    associatedMedia: [{ '@type': 'AudioObject', contentUrl: ep.spotifyUrl || SPOTIFY_SHOW_URL }],
-    ...(ep.appleUrl ? { sameAs: ep.appleUrl } : {}),
-    ...(ep.guest !== 'Savan Kong' ? { actor: { '@type': 'Person', name: ep.guest, ...(ep.guestBio ? { description: ep.guestBio } : {}) } } : {}),
+    thumbnailUrl: photoUrl,
+    image: photoUrl,
+    partOfSeries: {
+      '@type': 'PodcastSeries',
+      name: ep.show,
+      url: `https://www.lifebetweentitles.com/shows`,
+      sameAs: SHOW_SPOTIFY[ep.show],
+    },
+    episodeNumber: ep.episode,
+    seasonNumber: ep.season,
+    author: {
+      '@type': 'Person',
+      '@id': 'https://www.lifebetweentitles.com/#person-savan-kong',
+      name: 'Savan Kong',
+    },
+    associatedMedia: [
+      { '@type': 'AudioObject', contentUrl: ep.spotifyUrl || SPOTIFY_SHOW_URL },
+      ...(ep.youtubeUrl ? [{ '@type': 'VideoObject', contentUrl: ep.youtubeUrl }] : []),
+    ],
+    ...(ep.appleUrl ? { sameAs: [ep.appleUrl, ...(ep.spotifyUrl ? [ep.spotifyUrl] : [])] } : {}),
+    ...(ep.guest !== 'Savan Kong' ? {
+      actor: {
+        '@type': 'Person',
+        name: ep.guest,
+        ...(ep.guestBio ? { description: ep.guestBio } : {}),
+      },
+    } : {}),
     ...(transcriptSections.length > 0 ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#transcript'] } } : {}),
   }
   const faqLd = ep.faq && ep.faq.length > 0 ? {

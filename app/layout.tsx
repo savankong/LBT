@@ -48,18 +48,31 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
+    // Issue 13: standalone Person schema so AI systems can correctly identify the host
+    {
+      '@type': 'Person',
+      '@id': `${SITE_URL}/#person-savan-kong`,
+      name: 'Savanrith Kong',
+      alternateName: 'Savan Kong',
+      jobTitle: 'Chief Customer Experience Officer, Department of Defense',
+      description: 'Former DoD Chief Customer Experience Officer (CXO) and product executive. Founder and host of the Life Between Titles podcast network, which covers career transitions, professional identity, and reinvention.',
+      url: `${SITE_URL}/about`,
+      image: `${SITE_URL}/savan-about.png`,
+      sameAs: [
+        'https://www.linkedin.com/in/savankong/',
+        'https://www.youtube.com/@LifeBetweenTitles',
+        'https://lifebetweentitles.substack.com',
+        'https://www.instagram.com/lifebetweentitles',
+        'https://buymeacoffee.com/lifebtwtitles',
+      ],
+    },
     {
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
       name: SITE_NAME,
       url: SITE_URL,
       description: SITE_DESC,
-      founder: {
-        '@type': 'Person',
-        name: 'Savan Kong',
-        url: `${SITE_URL}/about`,
-        jobTitle: 'Founder & Host',
-      },
+      founder: { '@id': `${SITE_URL}/#person-savan-kong` },
       sameAs: [
         'https://www.youtube.com/@LifeBetweenTitles',
         'https://lifebetweentitles.substack.com',
