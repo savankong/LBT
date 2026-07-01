@@ -42,6 +42,8 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [activeSeason, setActiveSeason] = useState<number | 'All'>('All')
   const [sort, setSort] = useState<SortOption>('newest')
+  const [seasonOpen, setSeasonOpen] = useState(false)
+  const [topicOpen, setTopicOpen] = useState(false)
 
   const sorted = [...episodes].sort((a, b) => {
     const aSeason = a.season ?? 99
@@ -145,7 +147,11 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
             {/* Season */}
             <div className="shows-sidebar-section">
               <p className="shows-sidebar-label">Season</p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <button className="shows-filter-toggle" onClick={() => setSeasonOpen(o => !o)} aria-expanded={seasonOpen}>
+                <span>Season{activeSeason !== 'All' ? ` · S${activeSeason}` : ''}</span>
+                <span style={{ fontSize: '.6rem' }}>{seasonOpen ? '▲' : '▼'}</span>
+              </button>
+              <div className={`shows-filter-content${seasonOpen ? ' open' : ''}`}>
                 <button
                   onClick={() => setActiveSeason('All')}
                   className={`shows-filter-btn${activeSeason === 'All' ? ' active' : ''}`}
@@ -170,7 +176,11 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                   </button>
                 )}
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <button className="shows-filter-toggle" onClick={() => setTopicOpen(o => !o)} aria-expanded={topicOpen}>
+                <span>Topic{activeTag ? ` · ${activeTag}` : ''}</span>
+                <span style={{ fontSize: '.6rem' }}>{topicOpen ? '▲' : '▼'}</span>
+              </button>
+              <div className={`shows-filter-content${topicOpen ? ' open' : ''}`}>
                 {TAXONOMY_TAGS.filter(tag => availableTags.has(tag)).map(tag => (
                   <button key={tag}
                     onClick={() => setActiveTag(activeTag === tag ? null : tag)}

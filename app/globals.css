@@ -1161,6 +1161,10 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
   .related-grid { grid-template-columns: 1fr; }
 }
 
+/* Desktop: hide toggle buttons, always show filter content */
+.shows-filter-toggle { display: none; }
+.shows-filter-content { display: flex; flex-direction: column; gap: 6px; }
+
 @media (max-width: 768px) {
   .shows-layout {
     grid-template-columns: 1fr;
@@ -1168,14 +1172,35 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
   }
   .shows-sidebar {
     position: static;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px 0;
-    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    gap: 0;
+    border-bottom: 3px solid var(--ink);
+    margin-bottom: 8px;
   }
-  .shows-sidebar-section { flex: 1 1 140px; gap: 6px; }
-  .shows-filter-btn { font-size: .72rem; padding: 5px 10px; }
+  .shows-sidebar-section {
+    border-top: 1px solid var(--border);
+    gap: 0;
+  }
+  .shows-sidebar-label { display: none; }
+  .shows-filter-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 13px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .shows-filter-content { display: none; padding-bottom: 12px; }
+  .shows-filter-content.open { display: flex; }
+  .shows-filter-btn { font-size: .72rem; padding: 7px 12px; }
 }
 
 /* Episode list filter tabs — scroll on mobile */
