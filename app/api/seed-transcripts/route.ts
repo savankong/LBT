@@ -1,81 +1,76 @@
 import { sql } from '@/lib/db'
 import { NextResponse } from 'next/server'
 
-// Mapping: episode slug → transcript filename
-// Transcript files follow: {show}-{season}{episode}-{guest-slug}.txt
-// Episode slugs in DB follow similar pattern
-
 const TRANSCRIPT_MAP: Record<string, string> = {
   // LBT Season 1
-  'lbt-s01-e01-savan-kong': 'lbt-0101-savan-kong.txt',
-  'lbt-s01-e02-howie-cohen': 'lbt-0102-howie-cohen.txt',
-  'lbt-s01-e03-wes-averkamp': 'lbt-0103-wes-averkamp.txt',
-  'lbt-s01-e04-sarah-johnson': 'lbt-0104-sarah-johnson.txt',
-  'lbt-s01-e05-phil-reiman': 'lbt-0105-phil-reiman.txt',
-  'lbt-s01-e06-mike-lee': 'lbt-0106-mike-lee.txt',
-  'lbt-s01-e07-katie-spector': 'lbt-0107-katie-spector.txt',
-  'lbt-s01-e08-anne-gore': 'lbt-0108-anne-gore.txt',
-  'lbt-s01-e10-savan-kong': 'lbt-0110-savan-kong.txt',
-  'lbt-s01-e11-vanessa-okoro': 'lbt-0111-vanessa-okoro.txt',
-  'lbt-s01-e12-savan-kong': 'lbt-0112-savan-kong.txt',
-  'lbt-s01-e13-pamela-davis': 'lbt-0113-pamela-davis.txt',
-  'lbt-s01-e14-savan-kong': 'lbt-0114-savan-kong.txt',
-  'lbt-s01-e15-jason-briefel': 'lbt-0115-jason-briefel.txt',
-  'lbt-s01-e16-jen-tran': 'lbt-0116-jen-tran.txt',
-  'lbt-s01-e17-savan-kong': 'lbt-0117-savan-kong.txt',
-  'lbt-s01-e18-andrew-merchant': 'lbt-0118-andrew-merchant.txt',
-  'lbt-s01-e19-tim-salazar': 'lbt-0119-tim-salazar.txt',
-  'lbt-s01-e20-matt-kelly': 'lbt-0120-matt-kelly.txt',
-  'lbt-s01-e21-savan-kong': 'lbt-0121-savan-kong.txt',
-  'lbt-s01-e22-savan-kong': 'lbt-0122-savan-kong.txt',
-  'lbt-s01-e24-savan-kong': 'lbt-0124-savan-kong.txt',
+  'savan-kong-title-identity': 'lbt-0101-savan-kong.txt',
+  'howie-cohen-relationships-career-cx': 'lbt-0102-howie-cohen.txt',
+  'wes-averkamp-military-transition-peace': 'lbt-0103-wes-averkamp.txt',
+  'sarah-johnson-design-tech-to-purpose': 'lbt-0104-sarah-johnson.txt',
+  'phil-reiman-pentagon-dod-lawyer': 'lbt-0105-phil-reiman.txt',
+  'mike-lee-unemployment-therapy-identity': 'lbt-0106-mike-lee.txt',
+  'katie-spector-veterans-advocacy-va-failure': 'lbt-0107-katie-spector.txt',
+  'anne-gore-usaid-humanitarian-dismantled': 'lbt-0108-anne-gore.txt',
+  'savan-kong-starting-over': 'lbt-0110-savan-kong.txt',
+  'vanessa-okoro-ey-faa-reinvention': 'lbt-0111-vanessa-okoro.txt',
+  'savan-kong-career-change-pattern': 'lbt-0112-savan-kong.txt',
+  'pamela-davis-single-mom-resilience': 'lbt-0113-pamela-davis.txt',
+  'savan-kong-grace-helping-others': 'lbt-0114-savan-kong.txt',
+  'jason-briefel-federal-senior-executives': 'lbt-0115-jason-briefel.txt',
+  'jen-tran-ux-bootcamp-career-change': 'lbt-0116-jen-tran.txt',
+  'savan-kong-one-year-leaving-dod': 'lbt-0117-savan-kong.txt',
+  'andrew-merchant-history-friendship-career': 'lbt-0118-andrew-merchant.txt',
+  'tim-salazar-creative-career-immigrant-parents': 'lbt-0119-tim-salazar.txt',
+  'matt-kelly-enterprise-sales-burnout-reset': 'lbt-0120-matt-kelly.txt',
+  'savan-kong-new-project-announcement': 'lbt-0121-savan-kong.txt',
+  'savan-kong-22-people-job-loss': 'lbt-0122-savan-kong.txt',
+  'savan-kong-amazon-government-layoffs-rif': 'lbt-0124-savan-kong.txt',
   // LBT Season 2
-  'lbt-s02-e02-brett-luartes': 'lbt-0202-brett-luartes.txt',
-  'lbt-s02-e03-leslie-barber': 'lbt-0203-leslie-barber.txt',
-  'lbt-s02-e04-rory-martin': 'lbt-0204-rory-martin.txt',
-  'lbt-s02-e05-david-aviles': 'lbt-0205-david-aviles.txt',
-  'lbt-s02-e06-cat-gaa': 'lbt-0206-cat-gaa.txt',
-  'lbt-s02-e07-angela-kerek': 'lbt-0207-angela-kerek.txt',
-  'lbt-s02-e08-lorie-eber': 'lbt-0208-lorie-eber.txt',
-  'lbt-s02-e09-eric-robinson': 'lbt-0209-eric-robinson.txt',
+  'brett-luartes-pentagon-early-retirement-mexico': 'lbt-0202-brett-luartes.txt',
+  'leslie-barber-fuck-yes-philosophy': 'lbt-0203-leslie-barber.txt',
+  'rory-martin-ai-hustle-50-sobriety': 'lbt-0204-rory-martin.txt',
+  'david-aviles-tech-sales-fired-startup': 'lbt-0205-david-aviles.txt',
+  'cat-gaa-expat-spain-saudi-arabia-home': 'lbt-0206-cat-gaa.txt',
+  'angela-kerek-tennis-lawyer-coach-winning-inside': 'lbt-0207-angela-kerek.txt',
+  'lorie-eber-attorney-to-health-coach': 'lbt-0208-lorie-eber.txt',
+  'eric-robinson-pastor-fbi-scrabble': 'lbt-0209-eric-robinson.txt',
   // OH Season 1
-  'oh-s01-e01-ringo-nishioka': 'oh-0101-ringo-nishioka.txt',
-  'oh-s01-e02-cheryl-dillon': 'oh-0102-cheryl-dillon.txt',
-  'oh-s01-e03-tre-wright': 'oh-0103-tre-wright.txt',
-  'oh-s01-e04-vance-cooper': 'oh-0104-vance-cooper.txt',
+  'ringo-nishioka-bad-managers-leadership': 'oh-0101-ringo-nishioka.txt',
+  'cheryl-dillon-career-coach-hard-things': 'oh-0102-cheryl-dillon.txt',
+  'tre-wright-feedback-culture-leadership': 'oh-0103-tre-wright.txt',
+  'vance-cooper-philadelphia-leadership': 'oh-0104-vance-cooper.txt',
   // WU Season 1
-  'wu-s01-e01-reet-german': 'wu-0101-reet-german.txt',
-  'wu-s01-e02-vanny-whitchelo': 'wu-0102-vanny-whitchelo.txt',
-  'wu-s01-e03-danielle-luhmann': 'wu-0103-danielle-luhmann.txt',
-  'wu-s01-e04-aaron-brooks': 'wu-0104-aaron-brooks.txt',
-  'wu-s01-e05-andy-alvarado': 'wu-0105-andy-alvarado.txt',
-  'wu-s01-e06-david-mazzeo': 'wu-0106-david-mazzeo.txt',
+  'reet-german-23-countries-spiritual-homecoming': 'wu-0101-reet-german.txt',
+  'danielle-luhmann-therapy-practice-adhd': 'wu-0103-danielle-luhmann.txt',
+  'aaron-brooks-federal-prison-food-supervisor': 'wu-0104-aaron-brooks.txt',
+  'andy-alvarado-booking-com-content-creator': 'wu-0105-andy-alvarado.txt',
+  'david-mazzeo-emcee-odea': 'wu-0106-david-mazzeo.txt',
   // WU Season 2
-  'wu-s02-e01-nate-sexton': 'wu-0201-nate-sexton.txt',
-  'wu-s02-e02-jordan-swanson': 'wu-0202-jordan-swanson.txt',
-  'wu-s02-e03-jerry-glavy': 'wu-0203-jerry-glavy.txt',
-  'wu-s02-e04-danielle-frank': 'wu-0204-danielle-frank.txt',
-  'wu-s02-e05-ann-dunkin': 'wu-0205-ann-dunkin.txt',
-  'wu-s02-e06-gladdys-uribe': 'wu-0206-gladdys-uribe.txt',
-  'wu-s02-e07-john-sherman': 'wu-0207-john-sherman.txt',
-  'wu-s02-e08-anthony-dyer': 'wu-0208-anthony-dyer.txt',
-  'wu-s02-e09-brett-cohen': 'wu-0209-brett-cohen.txt',
-  'wu-s02-e10-alan-levy': 'wu-0210-alan-levy.txt',
-  'wu-s02-e11-aaron-dossey': 'wu-0211-aaron-dossey.txt',
-  'wu-s02-e12-wayne-wallis': 'wu-0212-wayne-wallis.txt',
-  'wu-s02-e13-kelli-martin': 'wu-0213-kelli-martin.txt',
-  'wu-s02-e14-katie-savage': 'wu-0214-katie-savage.txt',
-  'wu-s02-e15-billy-mitchell': 'wu-0215-billy-mitchell.txt',
-  'wu-s02-e16-shane-jewel': 'wu-0216-shane-jewel.txt',
-  'wu-s02-e99-david-murphy': 'wu-0299-david-murphy-david-murphy.txt',
+  'nate-sexton-pro-disc-golfer': 'wu-0201-nate-sexton.txt',
+  'jordan-swanson-pediatric-craniofacial-surgeon': 'wu-0202-jordan-swanson.txt',
+  'jerry-glavy-marine-general-cyber-command': 'wu-0203-jerry-glavy.txt',
+  'danielle-frank-wine-spirits-author-reinvention': 'wu-0204-danielle-frank.txt',
+  'ann-dunkin-federal-cio-technology-leadership': 'wu-0205-ann-dunkin.txt',
+  'gladdys-uribe-immigration-attorney': 'wu-0206-gladdys-uribe.txt',
+  'john-sherman-dod-kindness-leadership': 'wu-0207-john-sherman.txt',
+  'anthony-dyer-tito-basketball-book': 'wu-0208-anthony-dyer.txt',
+  'brett-cohen-viral-radio-times-square': 'wu-0209-brett-cohen.txt',
+  'alan-levy-entrepreneur-block-talk-radio': 'wu-0210-alan-levy.txt',
+  'aaron-dossey-insect-protein-scientist': 'wu-0211-aaron-dossey.txt',
+  'wayne-wallis-physician-biotech-semi-retirement': 'wu-0212-wayne-wallis.txt',
+  'kelli-martin-book-editor-publishing': 'wu-0213-kelli-martin.txt',
+  'katie-savage-cio-maryland': 'wu-0214-katie-savage.txt',
+  'billy-mitchell-fedscoop-editorial-government-media': 'wu-0215-billy-mitchell.txt',
+  'shane-jewel-oregon-ballet-theater': 'wu-0216-shane-jewel.txt',
+  'david-murphy-actor-commercial-bali': 'wu-0299-david-murphy-david-murphy.txt',
   // Specials
   'savan-kong-i-am-not-my-job': 'savan-kong-i-am-not-my-job.txt',
   'vanny-whitchelo-khmer-voices-cambodian-podcaster': 'vanny-whitchelo-khmer-voices-cambodian-podcaster.txt',
-  'wu-vance-cooper': 'wu-vance-cooper.txt',
+  // WU Vance Cooper special
+  'loung-ung-work-unscripted': 'wu-vance-cooper.txt',
 }
 
 export async function GET() {
-  // First, fetch all slugs from DB to verify mapping
   const rows = await sql`SELECT slug, transcript_file FROM episodes ORDER BY slug`
   const dbSlugs = (rows as unknown as { slug: string; transcript_file: string | null }[]).map(r => r.slug)
 
@@ -91,7 +86,6 @@ export async function GET() {
     }
   }
 
-  // Return slugs in DB that had no mapping
   const unmapped = dbSlugs.filter(s => !TRANSCRIPT_MAP[s])
 
   return NextResponse.json({ updated: results.length, results, notFoundInDB: notFound, dbSlugsWithNoTranscript: unmapped })
