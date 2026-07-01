@@ -6,10 +6,7 @@ import Link from 'next/link'
 import { getEpisodes, getEpisode, getAdjacentEpisodesDB } from '@/lib/episodes-db'
 import { parseDescription, parseTranscript } from '@/lib/parseEpisode'
 
-export async function generateStaticParams() {
-  const episodes = await getEpisodes()
-  return episodes.map(e => ({ slug: e.slug }))
-}
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
