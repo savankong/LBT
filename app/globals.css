@@ -1274,3 +1274,9 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
   color: var(--ink);
 }
 .shows-main { min-width: 0; }
+
+/* Mobile override — must appear AFTER desktop .shows-layout definition */
+@media (max-width: 768px) {
+  .shows-layout { grid-template-columns: 1fr !important; gap: 0; }
+  .shows-sidebar { position: static; flex-direction: column; flex-wrap: nowrap; gap: 0; padding: 0; }
+}
