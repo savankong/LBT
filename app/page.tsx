@@ -5,7 +5,7 @@ import { getEpisodes } from '@/lib/episodes-db'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Life Between Titles — Podcast Network for Career Transitions',
+  title: 'Life Between Titles | Podcast Network for Career Transitions',
   description: 'Honest, unscripted stories from people navigating layoffs, career pivots, burnout, and identity shifts. Three shows. Free everywhere you listen.',
   alternates: { canonical: 'https://www.lifebetweentitles.com' },
 }
@@ -100,7 +100,7 @@ export default async function HomePage() {
       <section className="stat-band" aria-label="Stat">
         <div className="container stat-band-inner">
           <div className="stat-band-num">40+</div>
-          <div className="stat-band-text">Conversations and counting — free everywhere you listen.</div>
+          <div className="stat-band-text">Conversations and counting. Free everywhere you listen.</div>
         </div>
       </section>
 
@@ -116,7 +116,7 @@ export default async function HomePage() {
               &ldquo;Nobody wants to sit in the part where you don&apos;t yet know who you are without the title.&rdquo;
             </p>
             <p className="origin-body">
-              There&apos;s a version of this story that starts with a job title — a pretty good one. Then one day, it was gone. Life Between Titles is for that middle part, after the door closes and before anything new opens.
+              There&apos;s a version of this story that starts with a job title. A pretty good one. Then one day, it was gone. Life Between Titles is for that middle part, after the door closes and before anything new opens.
             </p>
             <Link href="/about" className="link-arrow origin-link">Read our story →</Link>
           </div>
@@ -141,7 +141,7 @@ export default async function HomePage() {
             <span className="black">Now</span><br />
             <span className="magenta-split">What?</span>
           </h2>
-          <p className="cta-bleach-sub">Know someone in the middle of it? Put them forward — or just press play.</p>
+          <p className="cta-bleach-sub">Know someone in the middle of it? Put them forward. Or just press play.</p>
           <div className="cta-bleach-actions">
             <Link href="/guest-submission" className="btn btn-glass">Submit a Guest →</Link>
             <Link href="/shows" className="btn btn-gold">Listen Now</Link>

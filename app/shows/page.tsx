@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Episodes | Life Between Titles',
-  description: 'Every episode of Life Between Titles, Work Unscripted, and Office Hours — raw conversations about career transitions, identity, and what comes next.',
+  description: 'Every episode of Life Between Titles, Work Unscripted, and Office Hours. Raw conversations about career transitions, identity, and what comes next.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/shows' },
   openGraph: {
     title: 'Episodes | Life Between Titles',

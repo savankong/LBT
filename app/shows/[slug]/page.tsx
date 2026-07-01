@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     : ep.youtubeTitle
   const description = ep.description
     ? ep.description.replace(/<br\s*\/?>/gi, ' ').slice(0, 200).trim() + '…'
-    : `${ep.guest} on Life Between Titles — ${ep.show}, Season ${ep.season}${ep.episode ? `, Episode ${ep.episode}` : ''}.`
+    : `${ep.guest} on Life Between Titles. ${ep.show}, Season ${ep.season}${ep.episode ? `, Episode ${ep.episode}` : ''}.`
   return {
     title,
     description,
@@ -247,7 +247,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 Coming Soon
               </span>
               <p style={{ fontSize: '.88rem', color: 'var(--muted)', margin: 0, lineHeight: 1.5 }}>
-                This episode hasn&apos;t dropped yet — subscribe to get notified when it&apos;s out.
+                This episode hasn&apos;t dropped yet. Subscribe to get notified when it&apos;s out.
               </p>
             </div>
             <a
@@ -308,7 +308,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                     <li key={i} style={{ display: 'flex', gap: 12, alignItems: 'flex-start', fontSize: '.97rem', lineHeight: 1.7, color: 'var(--muted)' }}>
                       <span style={{ color, fontWeight: 700, flexShrink: 0, marginTop: 3 }}>→</span>
                       {typeof insight === 'string' ? insight : (
-                        <span><strong style={{ color: 'var(--ink)' }}>{(insight as {heading:string;body:string}).heading}</strong> — {(insight as {heading:string;body:string}).body}</span>
+                        <span><strong style={{ color: 'var(--ink)' }}>{(insight as {heading:string;body:string}).heading}:</strong> {(insight as {heading:string;body:string}).body}</span>
                       )}
                     </li>
                   ))}
@@ -330,7 +330,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             {ep.substack && (
               <div style={{ borderRadius: 12, padding: '24px 28px', marginBottom: 44, background: `${color}08`, border: `1px solid ${color}28`, borderLeft: `3px solid ${color}` }}>
                 <p style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color, marginBottom: 8 }}>Full Essay</p>
-                <p style={{ fontSize: '.92rem', lineHeight: 1.7, color: 'var(--muted)', marginBottom: 14 }}>We turned this conversation into a long-form essay — with more context, more depth, and the moments that didn&apos;t make the edit.</p>
+                <p style={{ fontSize: '.92rem', lineHeight: 1.7, color: 'var(--muted)', marginBottom: 14 }}>We turned this conversation into a long-form essay. More context, more depth, and the moments that didn&apos;t make the edit.</p>
                 <a href={ep.substack} target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.8rem', padding: '10px 20px' }}>Read on Substack →</a>
               </div>
             )}
@@ -401,7 +401,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
             <div className="ep-sidebar-box">
               <p className="ep-sidebar-label">Support LBT</p>
               <div className="ep-sidebar-pills">
-                <p style={{ fontSize: '.84rem', lineHeight: 1.55, color: 'var(--muted)', margin: '0 0 4px' }}>Enjoying the show? Buy a coffee or become a monthly member — every bit helps keep these conversations free.</p>
+                <p style={{ fontSize: '.84rem', lineHeight: 1.55, color: 'var(--muted)', margin: '0 0 4px' }}>Enjoying the show? Buy a coffee or become a monthly member. Every bit helps keep these conversations free.</p>
                 <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer" className="ep-sidebar-pill">
                   <span className="ep-sidebar-pill-icon">☕</span>
                   Support LBT

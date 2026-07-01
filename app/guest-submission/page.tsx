@@ -3,7 +3,7 @@ import GuestSubmissionForm from '@/components/GuestSubmissionForm'
 
 export const metadata: Metadata = {
   title: 'Submit a Guest',
-  description: 'Know someone who has navigated a real career transition — a layoff, pivot, burnout, or reinvention? Submit them as a guest on Life Between Titles. We review every submission.',
+  description: 'Know someone who has navigated a real career transition: a layoff, pivot, burnout, or reinvention? Submit them as a guest on Life Between Titles. We review every submission.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/guest-submission' },
 }
 

@@ -208,7 +208,7 @@ export default function ShowsClient({ episodes }: { episodes: Episode[] }) {
                   </>
                 ) : (
                   <>
-                    <p style={{ marginBottom: 20 }}>No episodes yet — subscribe to stay in the loop.</p>
+                    <p style={{ marginBottom: 20 }}>No episodes yet. Subscribe to stay in the loop.</p>
                     <a href="https://lifebetweentitles.substack.com" target="_blank" rel="noopener noreferrer" className="btn btn-gold">Subscribe on Substack</a>
                   </>
                 )}

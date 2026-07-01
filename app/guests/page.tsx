@@ -8,9 +8,9 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Guests',
-  description: 'Meet the guests of Life Between Titles — retired generals, surgeons, professional athletes, and people who have navigated extraordinary career transitions. Real stories, honestly told.',
+  description: 'Meet the guests of Life Between Titles: retired generals, surgeons, professional athletes, and people who have navigated extraordinary career transitions. Real stories, honestly told.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/guests' },
-  openGraph: { title: 'Guests | Life Between Titles', description: 'From retired generals to pediatric surgeons to professional disc golfers — every guest has a real career story.' },
+  openGraph: { title: 'Guests | Life Between Titles', description: 'From retired generals to pediatric surgeons to professional disc golfers. Every guest has a real career story.' },
 }
 
 const SHOW_ORDER: Show[] = ['Life Between Titles', 'Work Unscripted', 'Office Hours']
@@ -58,7 +58,7 @@ export default async function GuestsPage() {
           <div className="page-header-inner">
             <span className="label">The Guests</span>
             <h1>Every story is a real one.</h1>
-            <p>From retired generals to pediatric surgeons to professional disc golfers — our guests are people who have built lives worth talking about.</p>
+            <p>From retired generals to pediatric surgeons to professional disc golfers. Our guests are people who have built lives worth talking about.</p>
           </div>
         </div>
       </header>
@@ -70,7 +70,7 @@ export default async function GuestsPage() {
         <div className="cta-box">
           <span className="label">Join the Conversation</span>
           <h2>Know someone with a story to tell?</h2>
-          <p>We look for guests who have lived through real transitions and are willing to talk about it honestly — not the polished version, the real one.</p>
+          <p>We look for guests who have lived through real transitions and are willing to talk about it honestly. Not the polished version. The real one.</p>
           <div className="cta-actions">
             <Link href="/guest-submission" className="btn btn-gold">Submit a Guest</Link>
             <Link href="/about" className="btn btn-glass">About the Show</Link>

@@ -24,14 +24,14 @@ const jsonLd = {
 }
 
 const VALUES = [
-  { num:'01', title:'Honesty over inspiration', body:'The career content world runs on highlight reels and pivot stories that skip the messy middle. We try to do something different. We believe the middle is the whole point, and that the most useful thing we can offer someone in transition is an honest account of what it actually feels like — not a polished version designed to produce a temporary feeling of motivation.', mantra:'We will always choose the harder, truer thing over the easier, shinier one.' },
-  { num:'02', title:'Identity is not a job title', body:'This is the belief the entire channel is built on. Titles are assigned. They change. They get taken away without warning. But the person underneath — the way you think, what you care about, what you are drawn toward, who you are when nobody is watching — that does not change with an org chart.', mantra:'We treat every guest and every listener as a full human being first. Their career is context, not their identity.' },
+  { num:'01', title:'Honesty over inspiration', body:'The career content world runs on highlight reels and pivot stories that skip the messy middle. We try to do something different. We believe the middle is the whole point, and that the most useful thing we can offer someone in transition is an honest account of what it actually feels like. Not a polished version designed to produce a temporary feeling of motivation.', mantra:'We will always choose the harder, truer thing over the easier, shinier one.' },
+  { num:'02', title:'Identity is not a job title', body:'This is the belief the entire channel is built on. Titles are assigned. They change. They get taken away without warning. But the person underneath: the way you think, what you care about, what you are drawn toward, who you are when nobody is watching. That does not change with an org chart.', mantra:'We treat every guest and every listener as a full human being first. Their career is context, not their identity.' },
   { num:'03', title:'The transition is the story', body:'Most narratives about career change are told in retrospect, from the safety of the other side. We are more interested in what it felt like in the room when the news came, in the weeks when nothing had a name yet, in the decisions made without a roadmap.', mantra:'We do not rush past the hard part. We try to stay there.' },
   { num:'04', title:'Real over polished', body:'We have no interest in content that sounds good but costs nothing to say. The conversations on this channel should feel like the ones people have when the professional armor comes off and they start telling the truth.', mantra:'If it did not cost something to say, it probably was not worth saying.' },
   { num:'05', title:'Everyone deserves a thoughtful transition', body:'Career transition support has historically gone to people who could afford a coach, had a strong network, or worked somewhere with outplacement services. Most people do not have that. Life Between Titles is free, honest, and built for that person as much as anyone else.', mantra:'Access to perspective should not depend on your severance package.' },
   { num:'06', title:'The personal and professional are the same conversation', body:'We do not believe that work stress lives only at work, or that burnout is just a scheduling problem. The way someone loses a job can shape their sense of self for years. We treat career transitions as whole-person experiences, because that is what they are.', mantra:'We have never believed the human and the professional were different things.' },
   { num:'07', title:'Curiosity is a career strategy', body:"One of the things we believe most deeply is that getting genuinely curious about other people's paths expands your sense of what is possible for your own. The person who knows what a craniofacial surgeon's day looks like, or what a post-military career really feels like, has a wider map than they started with.", mantra:'Knowing what is possible is half the work of figuring out what you want.' },
-  { num:'08', title:'You do not have to have it figured out', body:"Most of our guests said yes to this show before they had a tidy ending to their story. Some still don't. We are not interested in waiting for resolution before a story is worth telling — the not-knowing is the story, and pretending otherwise just teaches people to perform certainty they do not feel.", mantra:'Clarity is not a prerequisite for being heard.' },
+  { num:'08', title:'You do not have to have it figured out', body:"Most of our guests said yes to this show before they had a tidy ending to their story. Some still don't. We are not interested in waiting for resolution before a story is worth telling. The not-knowing is the story, and pretending otherwise just teaches people to perform certainty they do not feel.", mantra:'Clarity is not a prerequisite for being heard.' },
 ]
 
 export default function AboutPage() {
@@ -52,7 +52,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="founder-grid">
             <div className="founder-img">
-              <img src="/savan-about.png" alt="Savan Kong — Founder and Host of Life Between Titles" />
+              <img src="/savan-about.png" alt="Savan Kong, Founder and Host of Life Between Titles" />
             </div>
             <div className="founder-copy">
               <span className="label">The Founder</span>
@@ -60,11 +60,11 @@ export default function AboutPage() {
               <blockquote className="founder-quote">
                 &ldquo;Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.&rdquo;
               </blockquote>
-              <p>There&apos;s a version of this story that starts with a job title — and a pretty good one. The kind that fills in the blank when someone at a dinner party asks what you do.</p>
+              <p>There&apos;s a version of this story that starts with a job title. A pretty good one. The kind that fills in the blank when someone at a dinner party asks what you do.</p>
               <p style={{marginTop:14}}>Then one day, it was gone.</p>
               <p style={{marginTop:14}}>I spent a long time in that space. The middle part, after the door closes and before anything new opens. What I noticed was that nobody was really talking about it honestly. The career advice industry wants to fast-forward to the bounce-back. Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.</p>
               <p style={{marginTop:14}}>A conversation with a friend named Amita pushed me to stop thinking and start building.</p>
-              <p style={{marginTop:14}}>Life Between Titles launched in October 2025 as a show for people in that middle part. Not about how to update your resume. About what it actually feels like to lose the identity you built your life around — and the slow, surprising work of figuring out who you are without it.</p>
+              <p style={{marginTop:14}}>Life Between Titles launched in October 2025 as a show for people in that middle part. Not about how to update your resume. About what it actually feels like to lose the identity you built your life around. And the slow, surprising work of figuring out who you are without it.</p>
               <p className="founder-thesis"><strong>The thesis is simple:</strong> Titles are temporary. Identity is not.</p>
               <p style={{marginTop:4}}>If you&apos;ve ever found yourself between who you were and who you&apos;re becoming, this show was made for you.</p>
             </div>
@@ -79,7 +79,7 @@ export default function AboutPage() {
           <span className="label" style={{display:'block',marginBottom:16}}>Our Mission</span>
           <h2>The real story lives in the gap.</h2>
           <p style={{maxWidth:680,margin:'24px auto 32px',fontSize:'1rem',lineHeight:1.82}}>
-            Most career content is built around destinations — the promotion, the pivot, the &quot;and then it all worked out&quot; moment. But the real story lives in the gap. The weeks after the layoff email. The Sunday dread before a job you&apos;ve outgrown. The quiet identity crisis that doesn&apos;t have a name yet.
+            Most career content is built around destinations: the promotion, the pivot, the &quot;and then it all worked out&quot; moment. But the real story lives in the gap. The weeks after the layoff email. The Sunday dread before a job you&apos;ve outgrown. The quiet identity crisis that doesn&apos;t have a name yet.
           </p>
           <p className="lead">Life Between Titles exists for that moment. For the person asking: <em>Now what?</em></p>
           <p style={{maxWidth:620,margin:'32px auto 0',fontSize:'.95rem',lineHeight:1.8}}>
@@ -94,8 +94,8 @@ export default function AboutPage() {
         <div className="container" style={{maxWidth:820}}>
           <span className="label">Our Vision</span>
           <h2 style={{marginBottom:28}}>A world that listens to the silence.</h2>
-          <p style={{fontSize:'1.05rem',lineHeight:1.85,marginBottom:20}}>A world where career transitions are met with reflection, not just reaction — and where the question &quot;who am I without this job?&quot; is treated as the beginning of something, not the end.</p>
-          <p style={{fontSize:'1.05rem',lineHeight:1.85,marginBottom:20}}>We&apos;re building toward a future where the gap between titles is understood as one of the most formative chapters a person can live through. Where the instinct isn&apos;t to fill the silence as fast as possible — but to listen to it.</p>
+          <p style={{fontSize:'1.05rem',lineHeight:1.85,marginBottom:20}}>A world where career transitions are met with reflection, not just reaction. Where the question &quot;who am I without this job?&quot; is treated as the beginning of something, not the end.</p>
+          <p style={{fontSize:'1.05rem',lineHeight:1.85,marginBottom:20}}>We&apos;re building toward a future where the gap between titles is understood as one of the most formative chapters a person can live through. Where the instinct isn&apos;t to fill the silence as fast as possible. But to listen to it.</p>
           <p style={{fontSize:'1.2rem',fontStyle:'italic',color:'var(--terra)',lineHeight:1.55}}>Life Between Titles wants to be the channel that generations of career transitioners point to and say: that&apos;s the show that made me feel like I was going to be okay.</p>
         </div>
       </section>
@@ -142,7 +142,7 @@ export default function AboutPage() {
           </h2>
           <p className="cta-bleach-sub">
             We partner with a small number of sponsors who genuinely help people improve their careers, lives, or
-            wellbeing — trust with our audience matters more than ad volume.
+            wellbeing. Trust with our audience matters more than ad volume.
           </p>
           <div className="cta-bleach-actions">
             <Link href="/sponsor" className="btn btn-gold">Become a Sponsor →</Link>

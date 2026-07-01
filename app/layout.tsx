@@ -13,7 +13,7 @@ const SITE_DESC = 'Life Between Titles is a podcast network for career transitio
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Podcast Network for Career Transitions`,
+    default: `${SITE_NAME} | Podcast Network for Career Transitions`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESC,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Podcast Network for Career Transitions`,
+    title: `${SITE_NAME} | Podcast Network for Career Transitions`,
     description: SITE_DESC,
     url: SITE_URL,
     locale: 'en_US',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@lifebetweentitles',
-    title: `${SITE_NAME} — Podcast Network for Career Transitions`,
+    title: `${SITE_NAME} | Podcast Network for Career Transitions`,
     description: SITE_DESC,
   },
   alternates: { canonical: SITE_URL },
@@ -83,7 +83,7 @@ const jsonLd = {
     {
       '@type': 'PodcastSeries',
       name: 'Life Between Titles',
-      description: 'Raw, unscripted conversations with people in the middle of, or just on the other side of, a major career transition — layoffs, pivots, burnout, reinvention.',
+      description: 'Raw, unscripted conversations with people in the middle of, or just on the other side of, a major career transition. Layoffs, pivots, burnout, reinvention.',
       url: `${SITE_URL}/shows#life-between-titles`,
       author: { '@id': `${SITE_URL}/#organization` },
       genre: 'Careers',
@@ -102,7 +102,7 @@ const jsonLd = {
     {
       '@type': 'PodcastSeries',
       name: 'Work, Unscripted',
-      description: 'A deep dive into careers most people have never considered — unusual, surprising paths that do not show up in guidance counselors\' offices.',
+      description: 'A deep dive into careers most people have never considered. Unusual, surprising paths that do not show up in guidance counselors\' offices.',
       url: `${SITE_URL}/shows#work-unscripted`,
       author: { '@id': `${SITE_URL}/#organization` },
       genre: 'Careers',

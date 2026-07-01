@@ -57,7 +57,7 @@ export default function BuildShowForm() {
         </div>
         <div className="form-group full">
           <label className="form-label" htmlFor="message">Tell us about your idea</label>
-          <textarea id="message" name="message" className="form-textarea" required placeholder="What's the show? Who's it for? Where are you in the process — just an idea, or already recording?" value={form.message} onChange={set('message')} />
+          <textarea id="message" name="message" className="form-textarea" required placeholder="What's the show? Who's it for? Where are you in the process: just an idea, or already recording?" value={form.message} onChange={set('message')} />
         </div>
       </div>
       <button type="submit" className="btn btn-gold" style={{ alignSelf: 'flex-start' }} disabled={submitting}>

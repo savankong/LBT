@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-const SHOWS = ['Life Between Titles (Flagship)', 'Office Hours', 'Work, Unscripted', 'Not Sure — Open to Any']
+const SHOWS = ['Life Between Titles (Flagship)', 'Office Hours', 'Work, Unscripted', 'Not Sure (Open to Any)']
 
 function encode(data: Record<string, string>) {
   return Object.keys(data)
@@ -39,7 +39,7 @@ export default function GuestSubmissionForm() {
     return (
       <div className="glass-gold" style={{padding:48,textAlign:'center',maxWidth:520}}>
         <h3 style={{marginBottom:12}}>Thanks, {form.yourName.split(' ')[0] || 'there'}!</h3>
-        <p>We can&apos;t wait to look into {form.guestName || 'your guest'}&apos;s story. We review every submission and respond within a week — we&apos;ll reply to {form.yourEmail}.</p>
+        <p>We can&apos;t wait to look into {form.guestName || 'your guest'}&apos;s story. We review every submission and respond within a week. We&apos;ll reply to {form.yourEmail}.</p>
       </div>
     )
   }
@@ -73,7 +73,7 @@ export default function GuestSubmissionForm() {
         </div>
         <div className="form-group full">
           <label className="form-label" htmlFor="why">Why this guest?</label>
-          <textarea id="why" name="why" className="form-textarea" required placeholder="Tell us about their story. What transition have they been through? Why would they make a compelling guest? Be specific — the more context, the better." value={form.why} onChange={set('why')} />
+          <textarea id="why" name="why" className="form-textarea" required placeholder="Tell us about their story. What transition have they been through? Why would they make a compelling guest? Be specific. The more context, the better." value={form.why} onChange={set('why')} />
         </div>
       </div>
       <button type="submit" className="btn btn-gold" style={{alignSelf:'flex-start'}} disabled={submitting}>

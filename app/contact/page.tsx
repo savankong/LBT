@@ -3,7 +3,7 @@ import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Life Between Titles — questions, feedback, partnership ideas, or just to say hello.',
+  description: 'Get in touch with Life Between Titles. Questions, feedback, partnership ideas, or just to say hello.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/contact' },
 }
 

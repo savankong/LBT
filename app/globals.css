@@ -711,6 +711,7 @@ a.featured-ep-link:hover .featured-ep { border-color: var(--terra); }
 .nl-page-subscribe-box .btn { width: 100%; justify-content: center; }
 @media (max-width: 900px) {
   .nl-page-layout { grid-template-columns: 1fr; }
+  .nl-cards-grid { grid-template-columns: 1fr !important; }
   .nl-page-aside { position: static; }
 }
 
