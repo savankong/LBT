@@ -77,7 +77,7 @@ const TRANSCRIPT_MAP: Record<string, string> = {
 export async function GET() {
   // First, fetch all slugs from DB to verify mapping
   const rows = await sql`SELECT slug, transcript_file FROM episodes ORDER BY slug`
-  const dbSlugs = rows.rows.map((r: { slug: string; transcript_file: string | null }) => r.slug)
+  const dbSlugs = (rows as unknown as { slug: string; transcript_file: string | null }[]).map(r => r.slug)
 
   const results: { slug: string; file: string; status: string }[] = []
   const notFound: string[] = []
@@ -92,7 +92,7 @@ export async function GET() {
   }
 
   // Return slugs in DB that had no mapping
-  const unmapped = dbSlugs.filter((s: string) => !TRANSCRIPT_MAP[s])
+  const unmapped = dbSlugs.filter(s => !TRANSCRIPT_MAP[s])
 
   return NextResponse.json({ updated: results.length, results, notFoundInDB: notFound, dbSlugsWithNoTranscript: unmapped })
 }
