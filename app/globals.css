@@ -1175,12 +1175,15 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
     position: static;
     flex-direction: column;
     gap: 0;
-    border-bottom: 3px solid var(--ink);
-    margin-bottom: 8px;
+    border-bottom: none;
+    margin-bottom: 0;
   }
   .shows-sidebar-section {
     border-top: 1px solid var(--border);
     gap: 0;
+  }
+  .shows-sidebar-section:first-child {
+    border-top: none;
   }
   .shows-sidebar-label { display: none; }
   .shows-filter-toggle {
@@ -1280,7 +1283,8 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
 @media (max-width: 768px) {
   .shows-layout { grid-template-columns: 1fr !important; gap: 0; }
   .shows-sidebar { position: static; flex-direction: column; flex-wrap: nowrap; gap: 0; padding: 0; }
-  /* Wrap filter tabs so no horizontal scroll */
-  .ep-filter-tabs { flex-wrap: wrap; overflow-x: visible; }
-  .ep-filter-tabs button { padding: 10px 10px !important; font-size: .65rem !important; }
+  /* Tab bar: hide sort select, reduce tab padding, allow inner row to scroll */
+  .ep-filter-tabs { overflow-x: auto; flex-wrap: nowrap; }
+  .ep-filter-tabs select { display: none; }
+  .ep-filter-tabs button { padding: 10px 12px !important; font-size: .68rem !important; }
 }
