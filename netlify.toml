@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "https://lifebetweentitles.com/*"
+  to = "https://www.lifebetweentitles.com/:splat"
+  status = 301
+  force = true
