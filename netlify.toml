@@ -4,4 +4,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+  [plugins.inputs]
+    included_files = ["content/transcripts/**"]
 
