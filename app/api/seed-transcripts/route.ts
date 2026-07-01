@@ -1,4 +1,4 @@
-import { sql } from '@netlify/database'
+import { sql } from '@/lib/db'
 import { NextResponse } from 'next/server'
 
 // Mapping: episode slug → transcript filename
