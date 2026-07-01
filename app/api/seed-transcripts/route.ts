@@ -66,8 +66,6 @@ const TRANSCRIPT_MAP: Record<string, string> = {
   // Specials
   'savan-kong-i-am-not-my-job': 'savan-kong-i-am-not-my-job.txt',
   'vanny-whitchelo-khmer-voices-cambodian-podcaster': 'vanny-whitchelo-khmer-voices-cambodian-podcaster.txt',
-  // WU Vance Cooper special
-  'loung-ung-work-unscripted': 'wu-vance-cooper.txt',
 }
 
 export async function GET() {
@@ -86,7 +84,13 @@ export async function GET() {
     }
   }
 
+  // Clear any bad mappings from previous runs
+  const CLEAR_SLUGS = ['loung-ung-work-unscripted']
+  for (const slug of CLEAR_SLUGS) {
+    await sql`UPDATE episodes SET transcript_file = NULL WHERE slug = ${slug}`
+  }
+
   const unmapped = dbSlugs.filter(s => !TRANSCRIPT_MAP[s])
 
-  return NextResponse.json({ updated: results.length, results, notFoundInDB: notFound, dbSlugsWithNoTranscript: unmapped })
+  return NextResponse.json({ updated: results.length, results, cleared: CLEAR_SLUGS, notFoundInDB: notFound, dbSlugsWithNoTranscript: unmapped })
 }
