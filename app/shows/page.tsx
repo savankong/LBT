@@ -17,65 +17,43 @@ export const metadata: Metadata = {
   },
 }
 
-// Issue 11: server-rendered prose about each show for GEO/AI citation
+// Issue 11: server-rendered show descriptions for GEO/AI — visually compact, subordinate to episode grid
 function ShowsAbout() {
+  const shows = [
+    {
+      color: '#ff1b8d',
+      name: 'Life Between Titles',
+      tagline: 'The flagship show.',
+      desc: 'Raw, unscripted conversations with people navigating layoffs, burnout, and career identity shifts. Guests include a USAID humanitarian worker whose agency was dismantled, a DoD senior executive who retired early to Mexico, a former VA attorney who became a veterans’ advocacy leader, and a UX designer who pivoted careers in her forties. For anyone in the uncertain space between one chapter and the next.',
+    },
+    {
+      color: '#00e0ff',
+      name: 'Work Unscripted',
+      tagline: 'Careers most people have never considered.',
+      desc: 'Deep dives into unusual professional paths. Guests include the world’s top professional disc golfer, a pediatric craniofacial surgeon at Children’s Hospital of Philadelphia, a Marine General who led U.S. Cyber Command, the DoD Chief Information Officer, a scientist who pioneered insect protein research, and an immigration attorney who built her practice to serve underrepresented communities.',
+    },
+    {
+      color: '#ffb800',
+      name: 'Office Hours',
+      tagline: 'The practical counterpart.',
+      desc: 'Structured conversations with the coaches, consultants, and experts whose work is to help people navigate career transitions. Shorter and more focused than the other shows — each episode addresses a specific question: how to give feedback, how to find the next role, what it takes to become a leader worth following.',
+    },
+  ]
+
   return (
-    <section aria-label="About the Shows" style={{ borderBottom: '1px solid var(--border)', background: 'var(--bg2)' }}>
-      <div className="container" style={{ maxWidth: 1100, paddingTop: 56, paddingBottom: 64 }}>
-        <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--faint)', textAlign: 'center', marginBottom: 48 }}>About the Shows</p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 40 }}>
-
-          {/* Life Between Titles */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
-              <span style={{ display: 'inline-block', width: 10, height: 10, background: '#ff1b8d', flexShrink: 0 }} />
-              <h2 style={{ fontSize: '1rem', fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', margin: 0 }}>Life Between Titles</h2>
-            </div>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)', marginBottom: 14 }}>
-              The flagship show. Raw, unscripted conversations with people who have lived through the kind of career moments nobody talks about honestly: the layoff that came out of nowhere, the burnout that took years to build, the identity that collapsed when the job title disappeared.
-            </p>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)', marginBottom: 14 }}>
-              Guests are not brought on because they have a polished success story to sell. They come on because they were willing to describe what it actually felt like in the middle. Guests have included a USAID humanitarian worker whose agency was dismantled overnight, a DoD senior executive who took early retirement to move to Mexico, a former VA attorney who became a veterans&rsquo; advocacy leader after watching the system fail the people she represented, a UX designer who changed careers through a coding bootcamp in her forties, and a single mother who rebuilt her professional life from nothing after a devastating loss.
-            </p>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)' }}>
-              The show is for anyone sitting in that uncertain space between one professional chapter and the next — wondering whether the disorientation they feel is a crisis or just the beginning of something better.
-            </p>
-          </div>
-
-          {/* Work Unscripted */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
-              <span style={{ display: 'inline-block', width: 10, height: 10, background: '#00e0ff', flexShrink: 0 }} />
-              <h2 style={{ fontSize: '1rem', fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', margin: 0 }}>Work Unscripted</h2>
-            </div>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)', marginBottom: 14 }}>
-              A deep dive into careers that never show up in guidance counselors&rsquo; offices. Work Unscripted is built on a simple premise: most people have a very narrow idea of what work can look like, and that is worth expanding. Every episode profiles someone who has built a life around doing something most people have never considered pursuing.
-            </p>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)', marginBottom: 14 }}>
-              Guests have included the world&rsquo;s top professional disc golfer, a pediatric craniofacial surgeon who performs facial reconstruction surgeries on children born with complex conditions, a Marine General who led U.S. Cyber Command, a scientist who bet his entire career on insect protein fourteen years before it became a mainstream idea, a Federal CIO who led technology transformation across one of the largest government agencies in the country, and an immigration attorney who built her practice specifically to serve communities that larger firms overlooked.
-            </p>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)' }}>
-              The conversations are about craft, about the unconventional path that led someone to where they are, and about what it actually takes to build a career around work that most people don&rsquo;t know exists.
-            </p>
-          </div>
-
-          {/* Office Hours */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
-              <span style={{ display: 'inline-block', width: 10, height: 10, background: '#ffb800', flexShrink: 0 }} />
-              <h2 style={{ fontSize: '1rem', fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', margin: 0 }}>Office Hours</h2>
-            </div>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)', marginBottom: 14 }}>
-              The practical counterpart to the other two shows. Where Life Between Titles features people going through career transitions and Work Unscripted explores unusual paths, Office Hours brings in the professionals whose entire work is to help people navigate those exact moments. Career coaches, executive recruiters, leadership consultants, therapists, and organizational experts share frameworks, honest assessments, and hard-won perspective.
-            </p>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)', marginBottom: 14 }}>
-              Guests have included a career coach who specializes in helping people through the hardest professional transitions, a leadership consultant who has spent decades studying the mechanics of bad management and what it takes to fix it, and a feedback culture expert who advises organizations on how to build environments where honest communication is actually possible.
-            </p>
-            <p style={{ fontSize: '.9rem', lineHeight: 1.8, color: 'var(--muted)' }}>
-              Office Hours is deliberately shorter and more structured than the other shows. Each episode is organized around a specific question or challenge that comes up repeatedly in career transitions: how to give feedback that changes behavior, how to find your next role when you are not sure what you want, what it actually takes to become a leader worth following. The goal is that you leave each episode with something concrete you can use.
-            </p>
-          </div>
-
+    <section aria-label="About the Shows" style={{ borderBottom: '1px solid var(--border)', background: 'var(--bg)' }}>
+      <div className="container" style={{ maxWidth: 1100, paddingTop: 20, paddingBottom: 20 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '0 32px' }}>
+          {shows.map(s => (
+            <details key={s.name} style={{ borderTop: `2px solid ${s.color}`, paddingTop: 12, paddingBottom: 12 }}>
+              <summary style={{ listStyle: 'none', cursor: 'pointer', display: 'flex', alignItems: 'baseline', gap: 8, userSelect: 'none' }}>
+                <span style={{ fontSize: '.68rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: s.color, whiteSpace: 'nowrap' }}>{s.name}</span>
+                <span style={{ fontSize: '.75rem', color: 'var(--faint)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1 }}>{s.tagline}</span>
+                <span style={{ fontSize: '.65rem', color: 'var(--faint)', flexShrink: 0 }}>▸</span>
+              </summary>
+              <p style={{ fontSize: '.78rem', lineHeight: 1.7, color: 'var(--muted)', marginTop: 10, marginBottom: 0 }}>{s.desc}</p>
+            </details>
+          ))}
         </div>
       </div>
     </section>
