@@ -135,6 +135,7 @@ export async function updateEpisode(slug: string, ep: Episode): Promise<Episode>
       faq             = ${ep.faq ? JSON.stringify(ep.faq) : null},
       transcript_file = ${ep.transcriptFile ?? null},
       promo_links     = ${ep.promoLinks ? JSON.stringify(ep.promoLinks) : null},
+      quote           = ${ep.quote ?? null},
       updated_at      = NOW()
     WHERE slug = ${slug}
     RETURNING *

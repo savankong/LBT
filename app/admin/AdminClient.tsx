@@ -58,10 +58,21 @@ function Field({ label, children, hint }: { label: string; children: React.React
 }
 
 // ── Login ────────────────────────────────────────────────────────────────────
+const SAVED_PW_KEY = 'lbt_admin_pw'
+
 function LoginScreen({ onLogin }: { onLogin: () => void }) {
   const [pw, setPw] = useState('')
   const [err, setErr] = useState(false)
-  const check = () => { if (pw === ADMIN_PASSWORD) onLogin(); else setErr(true) }
+  const [remember, setRemember] = useState(true)
+  const check = () => {
+    if (pw === ADMIN_PASSWORD) {
+      if (remember) localStorage.setItem(SAVED_PW_KEY, pw)
+      else localStorage.removeItem(SAVED_PW_KEY)
+      onLogin()
+    } else {
+      setErr(true)
+    }
+  }
   return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg2)', paddingTop: 'var(--nav-h)' }}>
       <div className="glass" style={{ borderRadius: 20, padding: '48px 40px', width: '100%', maxWidth: 360, textAlign: 'center' }}>
@@ -73,6 +84,10 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
           style={{ ...inputStyle, marginBottom: 12, border: `1.5px solid ${err ? '#ef4444' : 'var(--border-med)'}` }}
           autoFocus />
         {err && <p style={{ color: '#ef4444', fontSize: '.8rem', marginBottom: 12 }}>Incorrect password</p>}
+        <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 16, cursor: 'pointer', fontSize: '.82rem', color: 'var(--muted)' }}>
+          <input type="checkbox" checked={remember} onChange={e => setRemember(e.target.checked)} style={{ width: 15, height: 15, accentColor: 'var(--terra)', cursor: 'pointer' }} />
+          Keep me logged in
+        </label>
         <button onClick={check} className="btn btn-gold" style={{ width: '100%' }}>Enter</button>
       </div>
     </div>
@@ -269,6 +284,11 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
                 <textarea style={{ ...inputStyle, minHeight: 100, resize: 'vertical', lineHeight: 1.6 }}
                   value={form.guestBio ?? ''} onChange={e => set('guestBio', e.target.value)} />
               </Field>
+              <Field label="Pull Quote" hint="Shown large at the top of the episode page — pick a single powerful line from the transcript">
+                <textarea style={{ ...inputStyle, minHeight: 80, resize: 'vertical', lineHeight: 1.6, fontStyle: 'italic' }}
+                  value={form.quote ?? ''} onChange={e => set('quote', e.target.value)}
+                  placeholder="If you say yes to opportunities, even if you're not clear on what the outcome's gonna be…" />
+              </Field>
               <Field label="Key Insights" hint="Bullet-style takeaways shown at the top of the page (GEO-optimized)">
                 <InsightsEditor value={form.keyInsights ?? []} onChange={v => set('keyInsights', v)} />
               </Field>
@@ -391,7 +411,10 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
 
 // ── Main Admin UI ─────────────────────────────────────────────────────────────
 export default function AdminClient() {
-  const [authed, setAuthed] = useState(false)
+  const [authed, setAuthed] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return localStorage.getItem(SAVED_PW_KEY) === ADMIN_PASSWORD
+  })
   const [episodes, setEpisodes] = useState<Episode[]>([])
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
