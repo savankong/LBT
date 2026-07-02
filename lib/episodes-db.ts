@@ -38,6 +38,7 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
     homepageFeatured: r.homepage_featured as boolean | undefined,
     promoLinks: (() => {
       if (!r.promo_links) return undefined
+      if (Array.isArray(r.promo_links)) return r.promo_links as { label: string; url: string; type?: string }[]
       try { return JSON.parse(r.promo_links as string) as { label: string; url: string; type?: string }[] } catch { return undefined }
     })(),
   }
