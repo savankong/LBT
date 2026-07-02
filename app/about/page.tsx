@@ -38,25 +38,16 @@ export default function AboutPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <header className="page-header">
-        <div className="container">
-          <div className="page-header-inner">
-            <span className="label">Our Story</span>
-            <h1>Built for the middle part.</h1>
-            <p>Life Between Titles launched in October 2025. This is the story of why.</p>
-          </div>
-        </div>
-      </header>
-
-      <section className="section">
+      <section style={{ paddingTop: 'calc(var(--nav-h) + clamp(40px,6vh,72px))', paddingBottom: 'clamp(48px,7vh,90px)', background: 'var(--bg2)', borderBottom: '1px solid var(--border)' }}>
         <div className="container">
           <div className="founder-grid">
             <div className="founder-img">
               <img src="/savan-about.png" alt="Savan Kong, Founder and Host of Life Between Titles" />
             </div>
             <div className="founder-copy">
-              <span className="label">The Founder</span>
-              <h2 style={{marginBottom:8}}>It started with the end…</h2>
+              <span className="label">Our Story</span>
+              <h1 style={{ fontSize: 'clamp(2rem,4vw,3.2rem)', marginBottom: 8, lineHeight: 1.1 }}>Built for the middle part.</h1>
+              <h2 style={{ fontSize: 'clamp(1rem,1.6vw,1.3rem)', fontWeight: 500, color: 'var(--muted)', marginBottom: 20, fontFamily: 'var(--font-body)', textTransform: 'none', letterSpacing: 0 }}>It started with the end…</h2>
               <blockquote className="founder-quote">
                 &ldquo;Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.&rdquo;
               </blockquote>
