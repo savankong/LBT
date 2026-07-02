@@ -203,7 +203,7 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
               <button onClick={onClose} style={{ padding: '7px 14px', borderRadius: 8, border: '1.5px solid var(--border-med)', background: 'transparent', color: 'var(--muted)', fontSize: '.8rem', fontWeight: 600, cursor: 'pointer' }}>
                 Cancel
               </button>
-              <button onClick={() => onSave(form)} className="btn btn-gold" style={{ padding: '7px 18px', fontSize: '.85rem' }} disabled={saving}>
+              <button onClick={() => onSave({ ...form, promoLinks: (form.promoLinks ?? []).filter(l => l.label.trim() && l.url.trim()) })} className="btn btn-gold" style={{ padding: '7px 18px', fontSize: '.85rem' }} disabled={saving}>
                 {saving ? 'Saving…' : 'Save'}
               </button>
             </div>

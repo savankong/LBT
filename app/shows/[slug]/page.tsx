@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getEpisodes, getEpisode, getAdjacentEpisodesDB } from '@/lib/episodes-db'
 import { parseDescription, parseTranscript } from '@/lib/parseEpisode'
+import PhotoGallery from '@/components/PhotoGallery'
 
 export const dynamic = 'force-dynamic'
 
@@ -281,14 +282,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       {/* ── Additional Photos ── */}
       {ep.additionalPhotos && ep.additionalPhotos.length > 0 && (
         <div style={{ background: 'var(--bg)', borderBottom: '1px solid var(--border)', padding: 'clamp(24px,4vw,48px) clamp(24px,5vw,48px)' }}>
-          <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-            {ep.additionalPhotos.map((src, i) => (
-              <div key={i} style={{ flex: '1 1 200px', maxWidth: 320, borderRadius: 12, overflow: 'hidden', border: `2px solid ${color}28` }}>
-                <img src={src} alt={`${ep.guest} ${i + 2}`} referrerPolicy="no-referrer"
-                  style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', objectPosition: 'center top', display: 'block' }} />
-              </div>
-            ))}
-          </div>
+          <PhotoGallery photos={ep.additionalPhotos} guest={ep.guest} color={color} />
         </div>
       )}
 
