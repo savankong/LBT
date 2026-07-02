@@ -60,7 +60,7 @@ export default function AboutPage() {
               <blockquote className="founder-quote">
                 &ldquo;Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.&rdquo;
               </blockquote>
-              <p>There&apos;s a version of this story that starts with a job title. A pretty good one. The kind that fills in the blank when someone at a dinner party asks what you do.</p>
+              <p>There&apos;s a version of this story that starts with a job title. <strong>Savan Kong</strong> served as the <strong>Chief Customer Experience Officer (CXO) for the U.S. Department of Defense</strong> — a Senate-confirmed, Presidentially-appointed role overseeing customer experience strategy across one of the largest organizations on the planet. The kind of title that fills in the blank when someone at a dinner party asks what you do.</p>
               <p style={{marginTop:14}}>Then one day, it was gone.</p>
               <p style={{marginTop:14}}>I spent a long time in that space. The middle part, after the door closes and before anything new opens. What I noticed was that nobody was really talking about it honestly. The career advice industry wants to fast-forward to the bounce-back. Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.</p>
               <p style={{marginTop:14}}>A conversation with a friend named Amita pushed me to stop thinking and start building.</p>

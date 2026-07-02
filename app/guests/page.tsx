@@ -46,7 +46,11 @@ export default async function GuestsPage() {
     itemListElement: guests.map((eps, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      item: { '@type': 'Person', name: eps[0].guest },
+      item: {
+        '@type': 'Person',
+        name: eps[0].guest,
+        ...(eps[0].guestBio ? { description: eps[0].guestBio } : {}),
+      },
     })),
   }
 
