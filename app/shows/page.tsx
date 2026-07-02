@@ -45,7 +45,7 @@ function ShowsAbout() {
       <div className="container" style={{ maxWidth: 1100, paddingTop: 20, paddingBottom: 20 }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '0 32px' }}>
           {shows.map(s => (
-            <details key={s.name} style={{ borderTop: `2px solid ${s.color}`, paddingTop: 12, paddingBottom: 12 }}>
+            <details key={s.name} open style={{ borderTop: `2px solid ${s.color}`, paddingTop: 12, paddingBottom: 12 }}>
               <summary style={{ listStyle: 'none', cursor: 'pointer', display: 'flex', alignItems: 'baseline', gap: 8, userSelect: 'none' }}>
                 <span style={{ fontSize: '.68rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: s.color, whiteSpace: 'nowrap' }}>{s.name}</span>
                 <span style={{ fontSize: '.75rem', color: 'var(--faint)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1 }}>{s.tagline}</span>
@@ -60,11 +60,21 @@ function ShowsAbout() {
   )
 }
 
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.lifebetweentitles.com' },
+    { '@type': 'ListItem', position: 2, name: 'Episodes', item: 'https://www.lifebetweentitles.com/shows' },
+  ],
+}
+
 export default async function ShowsPage() {
   const episodes = await getEpisodes()
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <div style={{ paddingTop: 'var(--nav-h)', borderBottom: '3px solid var(--ink)', background: 'var(--bg)' }}>
         <div className="container" style={{ textAlign: 'center', paddingTop: 56, paddingBottom: 8 }}>
           <span className="label" style={{ display: 'block', marginBottom: 10 }}>New episodes every week</span>

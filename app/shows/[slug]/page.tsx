@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: ogTitle,
       description,
-      type: 'article',
+      type: 'video.episode',
       images: photoUrl ? [{ url: photoUrl, alt: ep.guest }] : [],
     },
     twitter: { card: photoUrl ? 'summary_large_image' : 'summary', title: ogTitle, description },
@@ -486,7 +486,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
       {transcriptSections.length > 0 && (
         <div className="ep-transcript" id="transcript">
           <div className="ep-transcript-inner">
-            <details className="ep-transcript-details">
+            <details className="ep-transcript-details" open>
               <summary>
                 <div className="ep-transcript-summary-left">
                   <span className="ep-transcript-title">Full Transcript</span>

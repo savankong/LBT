@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   title: 'Guests',
   description: 'Meet the guests of Life Between Titles: retired generals, surgeons, professional athletes, and people who have navigated extraordinary career transitions. Real stories, honestly told.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/guests' },
-  openGraph: { title: 'Guests | Life Between Titles', description: 'From retired generals to pediatric surgeons to professional disc golfers. Every guest has a real career story.' },
+  openGraph: {
+    title: 'Guests | Life Between Titles',
+    description: 'From retired generals to pediatric surgeons to professional disc golfers. Every guest has a real career story.',
+    images: [{ url: 'https://www.lifebetweentitles.com/savan-homepage.png', width: 1200, height: 630, alt: 'Life Between Titles — Podcast Network for Career Transitions' }],
+  },
 }
 
 const SHOW_ORDER: Show[] = ['Life Between Titles', 'Work Unscripted', 'Office Hours']
@@ -39,6 +43,15 @@ export default async function GuestsPage() {
 
   const guests = Array.from(guestMap.values())
 
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.lifebetweentitles.com' },
+      { '@type': 'ListItem', position: 2, name: 'Guests', item: 'https://www.lifebetweentitles.com/guests' },
+    ],
+  }
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -56,6 +69,7 @@ export default async function GuestsPage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="page-header">
         <div className="container">

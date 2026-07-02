@@ -5,7 +5,11 @@ export const metadata: Metadata = {
   title: 'About',
   description: 'Life Between Titles was founded by Savan Kong — the DoD\'s first Customer Experience Officer and former first employee at Redfin — after experiencing a career transition firsthand. Learn about the mission and story behind the podcast.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/about' },
-  openGraph: { title: 'About Life Between Titles', description: 'Founded in 2025 by Savan Kong. Built for people navigating the uncertain middle space between who they were and who they\'re becoming.' },
+  openGraph: {
+    title: 'About Life Between Titles',
+    description: 'Founded in 2025 by Savan Kong. Built for people navigating the uncertain middle space between who they were and who they\'re becoming.',
+    images: [{ url: 'https://www.lifebetweentitles.com/savan-about.png', width: 1200, height: 630, alt: 'Savan Kong, Founder and Host of Life Between Titles' }],
+  },
 }
 
 const jsonLd = {
@@ -16,6 +20,7 @@ const jsonLd = {
   description: 'Life Between Titles is a podcast network for career transitions, founded by Savan Kong in October 2025.',
   mainEntity: {
     '@type': 'Person',
+    '@id': 'https://www.lifebetweentitles.com/#person-savan-kong',
     name: 'Savan Kong',
     jobTitle: 'Founder & Host',
     worksFor: { '@type': 'Organization', name: 'Life Between Titles' },

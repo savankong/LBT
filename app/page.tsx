@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   title: 'Life Between Titles | Podcast Network for Career Transitions',
   description: 'Honest, unscripted stories from people navigating layoffs, career pivots, burnout, and identity shifts. Three shows. Free everywhere you listen.',
   alternates: { canonical: 'https://www.lifebetweentitles.com' },
+  openGraph: {
+    title: 'Life Between Titles | Podcast Network for Career Transitions',
+    description: 'Honest, unscripted stories from people navigating layoffs, career pivots, burnout, and identity shifts. Three shows. Free everywhere you listen.',
+    images: [{ url: 'https://www.lifebetweentitles.com/savan-homepage.png', width: 1200, height: 630, alt: 'Life Between Titles — Podcast Network for Career Transitions' }],
+  },
 }
 
 const SHOW_COLOR: Record<string, string> = {
