@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Life Between Titles was founded by Savan Kong in October 2025 after experiencing a career transition firsthand. Learn about the mission, values, and the story behind the podcast network.',
+  description: 'Life Between Titles was founded by Savan Kong — the DoD\'s first Customer Experience Officer and former first employee at Redfin — after experiencing a career transition firsthand. Learn about the mission and story behind the podcast.',
   alternates: { canonical: 'https://www.lifebetweentitles.com/about' },
   openGraph: { title: 'About Life Between Titles', description: 'Founded in 2025 by Savan Kong. Built for people navigating the uncertain middle space between who they were and who they\'re becoming.' },
 }
@@ -19,7 +19,7 @@ const jsonLd = {
     name: 'Savan Kong',
     jobTitle: 'Founder & Host',
     worksFor: { '@type': 'Organization', name: 'Life Between Titles' },
-    description: 'Savan Kong founded Life Between Titles in October 2025 after experiencing a career transition firsthand and discovering a lack of honest content for people in that middle space.',
+    description: 'Savanrith "Savan" Kong is an award-winning executive, the DoD\'s first Customer Experience Officer, and former first employee at Redfin. He founded Life Between Titles in October 2025 after experiencing a career transition firsthand. He is also the author of the forthcoming memoir Half-Way Light.',
   },
 }
 
@@ -60,9 +60,10 @@ export default function AboutPage() {
               <blockquote className="founder-quote">
                 &ldquo;Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.&rdquo;
               </blockquote>
-              <p>There&apos;s a version of this story that starts with a job title. <strong>Savan Kong</strong> served as the <strong>Customer Experience Officer (CXO) for the U.S. Department of Defense</strong> — leading customer experience strategy across one of the largest organizations on the planet. The kind of title that fills in the blank when someone at a dinner party asks what you do.</p>
+              <p>There&apos;s a version of this story that starts with a résumé. <strong>Savanrith &ldquo;Savan&rdquo; Kong</strong> was the first employee at Redfin, where he co-authored patented real estate search technology. He went on to serve in the Department of Defense&apos;s Digital Services team, and eventually became the DoD&apos;s first <strong>Customer Experience Officer (CXO)</strong> — leading enterprise-wide CX transformation across one of the largest organizations on the planet. The kind of title that fills in the blank when someone at a dinner party asks what you do.</p>
               <p style={{marginTop:14}}>Then one day, it was gone.</p>
-              <p style={{marginTop:14}}>I spent a long time in that space. The middle part, after the door closes and before anything new opens. What I noticed was that nobody was really talking about it honestly. The career advice industry wants to fast-forward to the bounce-back. Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.</p>
+              <p style={{marginTop:14}}>Savan grew up in South Seattle, raised by Cambodian parents who fled the Khmer Rouge. He went to Lakeside School — the same school as Bill Gates — and spent his career moving between worlds: startups, defense, technology, public service. The through line was always the same question: how do we make opportunity more accessible to the people who&apos;ve historically been left out?</p>
+              <p style={{marginTop:14}}>When the CXO chapter ended, he found himself asking a different version of that question — this time about himself. What I noticed was that nobody was really talking about this honestly. The career advice industry wants to fast-forward to the bounce-back. Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.</p>
               <p style={{marginTop:14}}>A conversation with a friend named Amita pushed me to stop thinking and start building.</p>
               <p style={{marginTop:14}}>Life Between Titles launched in October 2025 as a show for people in that middle part. Not about how to update your resume. About what it actually feels like to lose the identity you built your life around. And the slow, surprising work of figuring out who you are without it.</p>
               <p className="founder-thesis"><strong>The thesis is simple:</strong> Titles are temporary. Identity is not.</p>

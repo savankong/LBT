@@ -55,7 +55,7 @@ const jsonLd = {
       name: 'Savanrith Kong',
       alternateName: 'Savan Kong',
       jobTitle: 'Customer Experience Officer, Department of Defense',
-      description: 'Former DoD Chief Customer Experience Officer (CXO) and product executive. Founder and host of the Life Between Titles podcast network, which covers career transitions, professional identity, and reinvention.',
+      description: 'Award-winning executive and the Department of Defense\'s first Customer Experience Officer (CXO). Former first employee at Redfin, where he co-authored patented real estate search technology. Founder and host of Life Between Titles, a podcast network covering career transitions and professional identity. Author of the forthcoming memoir Half-Way Light.',
       url: `${SITE_URL}/about`,
       image: `${SITE_URL}/savan-about.png`,
       sameAs: [
