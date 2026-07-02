@@ -646,9 +646,9 @@ a.featured-ep-link:hover .featured-ep { border-color: var(--terra); }
 .guest-card p { font-size: .8rem; color: var(--faint); line-height: 1.45; }
 
 /* ── Founder section (about page) ───────────────────────── */
-.founder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.founder-img { border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 3/4; box-shadow: 0 40px 80px -28px rgba(0,0,0,.28); background: #000; }
-.founder-img img { width: 100%; height: 100%; object-fit: cover; object-position: left center; filter: grayscale(1) contrast(1.06); }
+.founder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+.founder-img { border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 40px 80px -28px rgba(0,0,0,.28); background: #000; }
+.founder-img img { width: 100%; height: auto; display: block; filter: grayscale(1) contrast(1.06); }
 .founder-quote {
   font-size: 1.5rem; font-weight: 500; color: var(--ink); line-height: 1.48;
   padding-left: 24px; border-left: 3px solid var(--terra); margin: 28px 0;

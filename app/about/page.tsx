@@ -46,8 +46,8 @@ export default function AboutPage() {
             </div>
             <div className="founder-copy">
               <span className="label">Our Story</span>
-              <h1 style={{ fontSize: 'clamp(2rem,4vw,3.2rem)', marginBottom: 8, lineHeight: 1.1 }}>Built for the middle part.</h1>
-              <h2 style={{ fontSize: 'clamp(1rem,1.6vw,1.3rem)', fontWeight: 500, color: 'var(--muted)', marginBottom: 20, fontFamily: 'var(--font-body)', textTransform: 'none', letterSpacing: 0 }}>It started with the end…</h2>
+              <h1 style={{ marginBottom: 4 }}>Built for the middle part.</h1>
+              <p style={{ fontSize: 'clamp(17px,1.4vw,20px)', color: 'var(--muted)', marginBottom: 24, lineHeight: 1.6 }}>It started with the end…</p>
               <blockquote className="founder-quote">
                 &ldquo;Nobody wants to sit in the part where you don&apos;t know yet who you are without the title.&rdquo;
               </blockquote>
