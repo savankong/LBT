@@ -332,6 +332,17 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
         </div>
       )}
 
+      {/* ── Breadcrumb ── */}
+      <div style={{ background: 'var(--bg)', borderBottom: '1px solid var(--border)' }}>
+        <div style={{ maxWidth: 1140, margin: '0 auto', padding: '10px clamp(20px,5vw,48px)', display: 'flex', alignItems: 'center', gap: 6, fontSize: '.72rem', color: 'var(--faint)', fontWeight: 600, letterSpacing: '.04em' }}>
+          <Link href="/" style={{ color: 'var(--faint)', textDecoration: 'none' }}>Home</Link>
+          <span>/</span>
+          <Link href="/shows" style={{ color: 'var(--faint)', textDecoration: 'none' }}>Episodes</Link>
+          <span>/</span>
+          <span style={{ color: 'var(--muted)' }}>{ep.guest}</span>
+        </div>
+      </div>
+
       {/* ── Title / Header ── */}
       <div style={{ background: 'var(--bg)', paddingTop: 40, paddingBottom: 36, borderBottom: '1px solid var(--border)' }}>
         <div className="ep-detail-header" style={{ textAlign: 'center' }}>
