@@ -77,7 +77,7 @@ export default function GuestsClient({ guests }: { guests: Episode[][] }) {
                 key={label}
                 onClick={() => setActiveTag(activeTag === tag ? null : tag)}
                 style={{
-                  padding: '12px 16px',
+                  padding: '14px 20px',
                   fontSize: '.76rem', fontWeight: 700,
                   letterSpacing: '.08em', textTransform: 'uppercase',
                   border: 'none',
@@ -86,7 +86,7 @@ export default function GuestsClient({ guests }: { guests: Episode[][] }) {
                   color: activeTag === tag ? 'var(--ink)' : 'var(--faint)',
                   cursor: 'pointer', whiteSpace: 'nowrap',
                   transition: 'color .18s, border-color .18s',
-                  flexShrink: 0,
+                  marginBottom: '-1px', flexShrink: 0,
                 }}
               >
                 {label}{tag && <span style={{ opacity: .65, fontWeight: 600, marginLeft: 4 }}>({tagCounts.get(tag)})</span>}
