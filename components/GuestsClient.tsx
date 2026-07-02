@@ -75,13 +75,26 @@ export default function GuestsClient({ guests }: { guests: Episode[][] }) {
             ))}
           </div>
 
+          {/* Mobile: native select */}
+          <select
+            className="ep-filter-select"
+            value={activeTag ?? ''}
+            onChange={e => setActiveTag(e.target.value || null)}
+          >
+            <option value="">All Guests ({guests.length})</option>
+            {availableTags.map(t => (
+              <option key={t} value={t}>{t} ({tagCounts.get(t)})</option>
+            ))}
+          </select>
+
+          {/* Desktop: tab row — wraps to multiple lines */}
           <div className="ep-filter-tabs" style={{ justifyContent: 'flex-start' }}>
             {[{ label: 'All Guests', tag: null }, ...availableTags.map(t => ({ label: t, tag: t }))].map(({ label, tag }) => (
               <button
                 key={label}
                 onClick={() => setActiveTag(activeTag === tag ? null : tag)}
                 style={{
-                  padding: '14px 16px',
+                  padding: '12px 16px',
                   fontSize: '.76rem', fontWeight: 700,
                   letterSpacing: '.08em', textTransform: 'uppercase',
                   border: 'none',
@@ -90,7 +103,7 @@ export default function GuestsClient({ guests }: { guests: Episode[][] }) {
                   color: activeTag === tag ? 'var(--ink)' : 'var(--faint)',
                   cursor: 'pointer', whiteSpace: 'nowrap',
                   transition: 'color .18s, border-color .18s',
-                  marginBottom: '-1px', flexShrink: 0,
+                  flexShrink: 0,
                 }}
               >
                 {label}{tag && <span style={{ opacity: .65, fontWeight: 600, marginLeft: 4 }}>({tagCounts.get(tag)})</span>}
