@@ -58,24 +58,7 @@ export default function GuestsClient({ guests }: { guests: Episode[][] }) {
       {/* ── Stats + filter ── */}
       <section style={{ padding: '0 0 8px', background: 'var(--bg)' }}>
         <div className="container">
-          <div className="guests-stats">
-            <div className="guests-stat">
-              <span className="guests-stat-num">{guests.length}</span>
-              <span className="guests-stat-label">Guests</span>
-            </div>
-            <div className="guests-stat">
-              <span className="guests-stat-num">{availableTags.length}</span>
-              <span className="guests-stat-label">Career Paths</span>
-            </div>
-            {(['Life Between Titles', 'Work Unscripted', 'Office Hours'] as Show[]).map(s => (
-              <div className="guests-stat" key={s}>
-                <span className="guests-stat-num" style={{ color: SHOW_COLOR[s] }}>{showCounts[s]}</span>
-                <span className="guests-stat-label">{s}</span>
-              </div>
-            ))}
-          </div>
-
-          {/* Mobile: native select */}
+{/* Mobile: native select */}
           <select
             className="ep-filter-select"
             value={activeTag ?? ''}
