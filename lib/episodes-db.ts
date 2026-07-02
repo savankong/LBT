@@ -36,6 +36,10 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
       try { return JSON.parse(r.tags as string) as string[] } catch { return [] }
     })(),
     homepageFeatured: r.homepage_featured as boolean | undefined,
+    promoLinks: (() => {
+      if (!r.promo_links) return undefined
+      try { return JSON.parse(r.promo_links as string) as { label: string; url: string; type?: string }[] } catch { return undefined }
+    })(),
   }
 }
 
@@ -87,7 +91,7 @@ export async function createEpisode(ep: Episode): Promise<Episode> {
       slug, video_number, show_name, season, episode_number, guest,
       youtube_title, description, main_tags, tags, resources, status, photo,
       youtube_url, spotify_url, apple_url, amazon_url, substack, guest_bio,
-      key_insights, faq, transcript_file
+      key_insights, faq, transcript_file, promo_links
     ) VALUES (
       ${ep.slug}, ${ep.videoNumber ?? null}, ${ep.show}, ${ep.season},
       ${ep.episode ?? null}, ${ep.guest}, ${ep.youtubeTitle}, ${ep.description},
@@ -96,7 +100,8 @@ export async function createEpisode(ep: Episode): Promise<Episode> {
       ${ep.amazonUrl ?? null}, ${ep.substack ?? null}, ${ep.guestBio ?? null},
       ${ep.keyInsights ? JSON.stringify(ep.keyInsights) : null},
       ${ep.faq ? JSON.stringify(ep.faq) : null},
-      ${ep.transcriptFile ?? null}
+      ${ep.transcriptFile ?? null},
+      ${ep.promoLinks ? JSON.stringify(ep.promoLinks) : null}
     )
     RETURNING *
   `
@@ -128,6 +133,7 @@ export async function updateEpisode(slug: string, ep: Episode): Promise<Episode>
       key_insights    = ${ep.keyInsights ? JSON.stringify(ep.keyInsights) : null},
       faq             = ${ep.faq ? JSON.stringify(ep.faq) : null},
       transcript_file = ${ep.transcriptFile ?? null},
+      promo_links     = ${ep.promoLinks ? JSON.stringify(ep.promoLinks) : null},
       updated_at      = NOW()
     WHERE slug = ${slug}
     RETURNING *

@@ -477,6 +477,24 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
               </div>
             )}
 
+            {/* Promo Links */}
+            {ep.promoLinks && ep.promoLinks.length > 0 && (
+              <div className="ep-sidebar-box">
+                <p className="ep-sidebar-label">From This Episode</p>
+                <div className="ep-sidebar-pills">
+                  {ep.promoLinks.map((link, i) => (
+                    <a key={i} href={link.url} target="_blank" rel="noopener noreferrer sponsored" className="ep-sidebar-pill"
+                      style={{ background: `${color}10`, borderColor: `${color}30` }}>
+                      <span className="ep-sidebar-pill-icon">
+                        {link.type === 'book' ? '📖' : link.type === 'course' ? '🎓' : link.type === 'service' ? '💼' : '🔗'}
+                      </span>
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Support LBT */}
             <div className="ep-sidebar-box">
               <p className="ep-sidebar-label">Support LBT</p>

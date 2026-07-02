@@ -33,6 +33,7 @@ export interface Episode {
   quote?: string
   additionalPhotos?: string[]
   homepageFeatured?: boolean
+  promoLinks?: { label: string; url: string; type?: string }[]
 }
 
 const CDN = 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367'

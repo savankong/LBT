@@ -135,6 +135,41 @@ function FAQEditor({ value, onChange }: { value: { q: string; a: string }[]; onC
   )
 }
 
+function PromoLinksEditor({ value, onChange }: { value: { label: string; url: string; type?: string }[]; onChange: (v: { label: string; url: string; type?: string }[]) => void }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+      {value.map((item, i) => (
+        <div key={i} style={{ border: '1px solid var(--border-med)', borderRadius: 10, padding: '14px 16px', position: 'relative' }}>
+          <button onClick={() => onChange(value.filter((_, idx) => idx !== i))}
+            style={{ position: 'absolute', top: 10, right: 10, border: 'none', background: 'transparent', color: 'var(--faint)', cursor: 'pointer', fontSize: '.8rem', padding: '2px 6px' }}>
+            ✕
+          </button>
+          <label style={labelStyle}>Label (e.g. "Buy Leslie's Book")</label>
+          <input style={{ ...inputStyle, marginBottom: 8 }} value={item.label} placeholder="Buy the book"
+            onChange={e => { const next = [...value]; next[i] = { ...next[i], label: e.target.value }; onChange(next) }} />
+          <label style={labelStyle}>URL</label>
+          <input style={{ ...inputStyle, marginBottom: 8 }} value={item.url} placeholder="https://..."
+            onChange={e => { const next = [...value]; next[i] = { ...next[i], url: e.target.value }; onChange(next) }} />
+          <label style={labelStyle}>Type (optional)</label>
+          <select style={{ ...inputStyle }} value={item.type ?? 'book'}
+            onChange={e => { const next = [...value]; next[i] = { ...next[i], type: e.target.value }; onChange(next) }}>
+            <option value="book">Book</option>
+            <option value="course">Course</option>
+            <option value="service">Service / Coaching</option>
+            <option value="product">Product</option>
+            <option value="website">Website</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      ))}
+      <button onClick={() => onChange([...value, { label: '', url: '', type: 'book' }])}
+        style={{ padding: '8px 14px', borderRadius: 8, border: '1.5px solid var(--border-med)', background: 'transparent', color: 'var(--muted)', cursor: 'pointer', fontSize: '.8rem', fontWeight: 600, alignSelf: 'flex-start' }}>
+        + Add Link
+      </button>
+    </div>
+  )
+}
+
 // ── Episode Drawer ────────────────────────────────────────────────────────────
 function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
   ep: Episode; onSave: (ep: Episode) => void; onDelete: () => void
@@ -303,6 +338,9 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
               </Field>
               <Field label="Transcript File" hint="Filename in /content/transcripts/ e.g. guest-name.txt">
                 <input style={inputStyle} value={form.transcriptFile ?? ''} onChange={e => set('transcriptFile', e.target.value)} />
+              </Field>
+              <Field label="Promo Links" hint="Books, courses, or services the guest is promoting — shown as a sidebar card on their episode page">
+                <PromoLinksEditor value={form.promoLinks ?? []} onChange={v => set('promoLinks', v)} />
               </Field>
             </>
           )}
