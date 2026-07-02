@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getEpisodes } from '@/lib/episodes-db'
+import { getEpisodes, getFeaturedEpisodes } from '@/lib/episodes-db'
 
 export const dynamic = 'force-dynamic'
 
@@ -10,9 +10,16 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.lifebetweentitles.com' },
 }
 
+const SHOW_COLOR: Record<string, string> = {
+  'Life Between Titles': '#ff1b8d',
+  'Work Unscripted': '#00e0ff',
+  'Office Hours': '#ffb800',
+}
+
 export default async function HomePage() {
-  const episodes = await getEpisodes()
-  const featured = episodes.find(e => e.status === 'Published' && e.photo) ?? episodes[0]
+  const [episodes, spotlightEps] = await Promise.all([getEpisodes(), getFeaturedEpisodes()])
+  // Hero featured: first manually-featured ep, else newest published with photo
+  const featured = spotlightEps[0] ?? episodes.find(e => e.status === 'Published' && e.photo) ?? episodes[0]
 
   return (
     <>
@@ -54,7 +61,7 @@ export default async function HomePage() {
                 </div>
                 <div className="featured-ep-body">
                   <div className="featured-ep-meta">
-                    <span className="featured-ep-badge">Latest Episode</span>
+                    <span className="featured-ep-badge">{featured.homepageFeatured ? 'Spotlight' : 'Latest Episode'}</span>
                     <span className="featured-ep-show">
                       {featured.show} · S{String(featured.season ?? 1).padStart(2, '0')}
                       {featured.episode ? ` E${String(featured.episode).padStart(2, '0')}` : ''}
@@ -68,6 +75,41 @@ export default async function HomePage() {
           )}
         </div>
       </section>
+
+      {/* ── Spotlight Episodes (admin-curated) ───────────── */}
+      {spotlightEps.length > 1 && (
+        <section style={{ padding: '56px 0', borderBottom: '1px solid var(--border)', background: 'var(--bg2)' }} aria-label="Spotlight Episodes">
+          <div className="container">
+            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 28 }}>
+              <div>
+                <span className="label">Spotlight</span>
+                <h2 style={{ margin: 0, fontSize: 'clamp(1.4rem,3vw,2rem)' }}>Episodes worth revisiting.</h2>
+              </div>
+              <Link href="/shows" className="link-arrow" style={{ flexShrink: 0 }}>All episodes →</Link>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))', gap: 16 }}>
+              {spotlightEps.map(ep => {
+                const color = SHOW_COLOR[ep.show] ?? '#ff1b8d'
+                return (
+                  <Link key={ep.slug} href={`/shows/${ep.slug}`} style={{ display: 'flex', flexDirection: 'column', background: 'var(--bg)', borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border)', textDecoration: 'none', transition: 'box-shadow .2s' }}>
+                    {ep.photo ? (
+                      <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
+                        style={{ width: '100%', aspectRatio: '16/9', objectFit: 'cover', objectPosition: 'center top' }} />
+                    ) : (
+                      <div style={{ width: '100%', aspectRatio: '16/9', background: `${color}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', fontWeight: 800, color }} />
+                    )}
+                    <div style={{ padding: '14px 16px', flex: 1 }}>
+                      <p style={{ margin: '0 0 6px', fontSize: '.7rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color }}>{ep.show}</p>
+                      <p style={{ margin: '0 0 4px', fontSize: '.92rem', fontWeight: 700, color: 'var(--ink)', lineHeight: 1.35 }}>{ep.guest}</p>
+                      <p style={{ margin: 0, fontSize: '.78rem', color: 'var(--faint)', lineHeight: 1.4 }}>{ep.youtubeTitle}</p>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── Three Shows ──────────────────────────────────── */}
       <section className="shows-section" id="shows" aria-labelledby="shows-heading">

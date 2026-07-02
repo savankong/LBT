@@ -35,6 +35,7 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
       if (Array.isArray(r.tags)) return r.tags as string[]
       try { return JSON.parse(r.tags as string) as string[] } catch { return [] }
     })(),
+    homepageFeatured: r.homepage_featured as boolean | undefined,
   }
 }
 
@@ -136,4 +137,18 @@ export async function updateEpisode(slug: string, ep: Episode): Promise<Episode>
 
 export async function deleteEpisode(slug: string): Promise<void> {
   await sql`DELETE FROM episodes WHERE slug = ${slug}`
+}
+
+export async function getFeaturedEpisodes(): Promise<Episode[]> {
+  return withFallback(
+    async () => {
+      const rows = await sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY video_number DESC NULLS LAST`
+      return rows.map(rowToEpisode)
+    },
+    () => []
+  )
+}
+
+export async function setHomepageFeatured(slug: string, featured: boolean): Promise<void> {
+  await sql`UPDATE episodes SET homepage_featured = ${featured} WHERE slug = ${slug}`
 }

@@ -32,6 +32,7 @@ export interface Episode {
   taxonomyTags?: string[]
   quote?: string
   additionalPhotos?: string[]
+  homepageFeatured?: boolean
 }
 
 const CDN = 'https://images.squarespace-cdn.com/content/v1/69c8615fa7974634a3112367'

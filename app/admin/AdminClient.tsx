@@ -419,6 +419,21 @@ export default function AdminClient() {
     }
   }
 
+  const toggleFeatured = async (slug: string, current: boolean) => {
+    try {
+      const res = await fetch(`/api/episodes/${slug}/feature`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ featured: !current }),
+      })
+      if (!res.ok) throw new Error('toggle failed')
+      setEpisodes(prev => prev.map(e => e.slug === slug ? { ...e, homepageFeatured: !current } : e))
+      showToast(!current ? 'Added to homepage' : 'Removed from homepage')
+    } catch {
+      showToast('Could not update homepage', 'err')
+    }
+  }
+
   const triggerDeploy = async () => {
     setDeploying(true)
     try {
@@ -541,6 +556,68 @@ export default function AdminClient() {
               </div>
             ))
           )}
+        </div>
+
+        {/* ── Homepage Spotlight ── */}
+        <div style={{ marginTop: 48 }}>
+          <div style={{ marginBottom: 20 }}>
+            <h2 style={{ fontSize: '1.2rem', marginBottom: 4 }}>Homepage Spotlight</h2>
+            <p style={{ fontSize: '.82rem', color: 'var(--faint)', margin: 0 }}>
+              Toggle episodes to feature them on the homepage. Starred episodes appear in the spotlight section above the episode grid.
+            </p>
+          </div>
+
+          {/* Featured list */}
+          {episodes.filter(e => e.homepageFeatured).length > 0 && (
+            <div style={{ marginBottom: 20 }}>
+              <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--terra)', marginBottom: 10 }}>
+                Currently Featured ({episodes.filter(e => e.homepageFeatured).length})
+              </p>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+                {episodes.filter(e => e.homepageFeatured).map(ep => (
+                  <div key={ep.slug} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px', borderRadius: 8, background: 'var(--bg)', border: '1.5px solid var(--terra)', maxWidth: 300 }}>
+                    {ep.photo && <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 28, height: 28, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', flexShrink: 0 }} />}
+                    <span style={{ fontSize: '.82rem', fontWeight: 600, color: 'var(--ink)', flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{ep.guest}</span>
+                    <button onClick={() => toggleFeatured(ep.slug, true)}
+                      style={{ border: 'none', background: 'transparent', color: 'var(--faint)', cursor: 'pointer', fontSize: '.8rem', padding: '2px 4px', flexShrink: 0 }}>✕</button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Published episodes to pick from */}
+          <div className="glass" style={{ borderRadius: 12, overflow: 'hidden' }}>
+            <div style={{ padding: '10px 16px', borderBottom: '1px solid var(--border)', background: 'var(--bg2)', display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--faint)' }}>
+                Published Episodes — click ☆ to feature
+              </span>
+            </div>
+            {episodes.filter(e => e.status === 'Published').map((ep, i, arr) => (
+              <div key={ep.slug} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 16px', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none', background: ep.homepageFeatured ? 'rgba(255,27,141,.04)' : 'transparent' }}>
+                <button
+                  onClick={() => toggleFeatured(ep.slug, !!ep.homepageFeatured)}
+                  title={ep.homepageFeatured ? 'Remove from homepage' : 'Add to homepage'}
+                  style={{ border: 'none', background: 'transparent', cursor: 'pointer', fontSize: '1.1rem', color: ep.homepageFeatured ? '#ff1b8d' : 'var(--faint)', padding: 0, flexShrink: 0, lineHeight: 1 }}>
+                  {ep.homepageFeatured ? '★' : '☆'}
+                </button>
+                {ep.photo ? (
+                  <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', flexShrink: 0 }} />
+                ) : (
+                  <div style={{ width: 32, height: 32, borderRadius: '50%', background: `${SHOW_COLOR[ep.show]}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.7rem', fontWeight: 800, color: SHOW_COLOR[ep.show], flexShrink: 0 }}>
+                    {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
+                  </div>
+                )}
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <p style={{ margin: 0, fontSize: '.86rem', fontWeight: 600, color: 'var(--ink)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{ep.guest}</p>
+                  <p style={{ margin: 0, fontSize: '.74rem', color: 'var(--faint)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{ep.youtubeTitle}</p>
+                </div>
+                <span style={{ fontSize: '.7rem', fontWeight: 700, color: SHOW_COLOR[ep.show], flexShrink: 0, textAlign: 'right' }}>
+                  {ep.show.replace('Life Between Titles', 'LBT').replace('Work Unscripted', 'WU').replace('Office Hours', 'OH')}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* DB info */}
