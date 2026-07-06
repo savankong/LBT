@@ -151,6 +151,36 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Book Promo ───────────────────────────────────── */}
+      <section style={{ padding: 'clamp(40px,6vh,72px) 0', background: 'var(--ink)', borderBottom: '1px solid #222' }} aria-label="The Book">
+        <div className="container">
+          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: 'clamp(24px,5vw,56px)', alignItems: 'center' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ebook.png" alt="Laid Off and Lost book cover"
+              style={{ width: 'clamp(80px,11vw,140px)', height: 'auto', display: 'block', filter: 'drop-shadow(0 12px 28px rgba(0,0,0,.6))' }} />
+            <div>
+              <span className="label" style={{ color: 'var(--terra)', display: 'block', marginBottom: 8 }}>New Book — Now Available</span>
+              <h2 style={{ color: '#fff', fontSize: 'clamp(1.3rem,3vw,2rem)', marginBottom: 10, lineHeight: 1.1 }}>
+                Laid Off and Lost.
+              </h2>
+              <p style={{ color: '#aaa', fontSize: 'clamp(.85rem,1.2vw,.98rem)', lineHeight: 1.7, marginBottom: 22, maxWidth: 460 }}>
+                The book version of the podcast. Raw, honest, and for anyone in the messy middle of a career transition. By Savan Kong.
+              </p>
+              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'center' }}>
+                <a href="https://www.amazon.com/dp/B0H7P4DGHX" target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.82rem', padding: '10px 20px' }}>Kindle →</a>
+                <a href="https://www.amazon.com/dp/B0H7QDNCB2" target="_blank" rel="noopener noreferrer"
+                  style={{ display: 'inline-flex', alignItems: 'center', padding: '10px 20px', borderRadius: 10, border: '1.5px solid #444', color: '#fff', fontWeight: 700, fontSize: '.82rem', textDecoration: 'none' }}>
+                  Paperback →
+                </a>
+                <Link href="/book" style={{ color: '#666', fontWeight: 600, fontSize: '.82rem', textDecoration: 'none' }}>
+                  Learn more
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Origin Story ─────────────────────────────────── */}
       <section className="origin-section" id="story" aria-labelledby="story-heading">
         <div className="container origin-grid">

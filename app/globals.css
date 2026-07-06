@@ -1305,3 +1305,34 @@ details.ep-transcript-details[open] .ep-transcript-toggle {
     cursor: pointer;
   }
 }
+
+/* ── Book page ───────────────────────────────────────────────────────────────── */
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 80px);
+  align-items: center;
+}
+.book-copy { order: 1; }
+.book-cover-wrap {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-cover-img {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 40px 60px rgba(0,0,0,.6));
+}
+@media (max-width: 680px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .book-cover-wrap { order: 1; }
+  .book-copy { order: 2; }
+  .book-cover-img { max-width: 220px; margin: 0 auto; }
+}
