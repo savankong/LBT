@@ -123,7 +123,7 @@ export default async function HomePage() {
               <Link href="/shows" className="link-arrow" style={{ flexShrink: 0 }}>All episodes →</Link>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))', gap: 16 }}>
-              {spotlightEps.map(ep => {
+              {spotlightEps.filter(ep => ep.slug !== featured?.slug).map(ep => {
                 const color = SHOW_COLOR[ep.show] ?? '#ff1b8d'
                 return (
                   <Link key={ep.slug} href={`/shows/${ep.slug}`} style={{ display: 'flex', flexDirection: 'column', background: 'var(--bg)', borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border)', textDecoration: 'none', transition: 'box-shadow .2s' }}>
