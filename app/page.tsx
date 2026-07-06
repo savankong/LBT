@@ -86,7 +86,7 @@ export default async function HomePage() {
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: 'clamp(24px,5vw,56px)', alignItems: 'center' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/ebook.png" alt="Laid Off and Lost book cover"
+            <img src="/Cover-LaidOff.jpg" alt="Laid Off and Lost book cover"
               style={{ width: 'clamp(80px,11vw,140px)', height: 'auto', display: 'block', filter: 'drop-shadow(0 12px 28px rgba(0,0,0,.6))' }} />
             <div>
               <span className="label" style={{ color: 'var(--terra)', display: 'block', marginBottom: 8 }}>New Book — Now Available</span>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Laid Off and Lost — by Savan Kong',
     description: 'Available now on Amazon. Kindle and Paperback.',
-    images: [{ url: 'https://www.lifebetweentitles.com/ebook.png', width: 800, height: 1000, alt: 'Laid Off and Lost book cover' }],
+    images: [{ url: 'https://www.lifebetweentitles.com/Cover-LaidOff.jpg', width: 800, height: 1000, alt: 'Laid Off and Lost book cover' }],
   },
 }
 
@@ -51,7 +51,7 @@ export default function BookPage() {
 
             {/* Cover */}
             <div className="book-cover-wrap">
-              <img src="/ebook.png" alt="Laid Off and Lost — book cover" className="book-cover-img" />
+              <img src="/Cover-LaidOff.jpg" alt="Laid Off and Lost — book cover" className="book-cover-img" />
             </div>
           </div>
         </div>
