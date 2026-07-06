@@ -20,17 +20,17 @@ export default function BookPage() {
   return (
     <>
       {/* ── Hero ── */}
-      <div style={{ paddingTop: 'var(--nav-h)', background: 'var(--ink)', borderBottom: '1px solid #222' }}>
+      <div style={{ paddingTop: 'var(--nav-h)', background: '#fff', borderBottom: '1px solid var(--border)' }}>
         <div className="container" style={{ paddingTop: 'clamp(48px,8vh,96px)', paddingBottom: 'clamp(48px,8vh,96px)' }}>
           <div className="book-grid">
             {/* Copy */}
             <div className="book-copy">
               <span className="label" style={{ color: 'var(--terra)' }}>Now Available</span>
-              <h1 style={{ color: '#fff', fontSize: 'clamp(2.4rem,5vw,4rem)', lineHeight: 1.05, marginBottom: 12, letterSpacing: '-.02em' }}>
+              <h1 style={{ color: 'var(--ink)', fontSize: 'clamp(2.4rem,5vw,4rem)', lineHeight: 1.05, marginBottom: 12, letterSpacing: '-.02em' }}>
                 Laid Off<br />
                 <span style={{ color: 'var(--terra)' }}>and Lost.</span>
               </h1>
-              <p style={{ color: '#aaa', fontSize: 'clamp(.95rem,1.3vw,1.1rem)', lineHeight: 1.75, marginBottom: 32, maxWidth: 480 }}>
+              <p style={{ color: 'var(--muted)', fontSize: 'clamp(.95rem,1.3vw,1.1rem)', lineHeight: 1.75, marginBottom: 32, maxWidth: 480 }}>
                 A raw, honest account of what it really feels like to lose a title — and what becomes possible when you stop letting one define you. By Savanrith Kong, founder of Life Between Titles.
               </p>
               <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
@@ -39,12 +39,12 @@ export default function BookPage() {
                   Buy on Kindle →
                 </a>
                 <a href={PAPERBACK_URL} target="_blank" rel="noopener noreferrer"
-                  style={{ display: 'inline-flex', alignItems: 'center', padding: '12px 24px', borderRadius: 10, border: '1.5px solid #444', color: '#fff', fontWeight: 700, fontSize: '.88rem', letterSpacing: '.04em', textDecoration: 'none', background: 'transparent', transition: 'border-color .2s' }}>
+                  style={{ display: 'inline-flex', alignItems: 'center', padding: '12px 24px', borderRadius: 10, border: '1.5px solid var(--border-med)', color: 'var(--ink)', fontWeight: 700, fontSize: '.88rem', letterSpacing: '.04em', textDecoration: 'none', background: 'transparent', transition: 'border-color .2s' }}>
                   Buy Paperback →
                 </a>
               </div>
               <a href={AUTHOR_URL} target="_blank" rel="noopener noreferrer"
-                style={{ display: 'inline-block', marginTop: 20, fontSize: '.78rem', color: '#666', textDecoration: 'none', letterSpacing: '.04em' }}>
+                style={{ display: 'inline-block', marginTop: 20, fontSize: '.78rem', color: 'var(--faint)', textDecoration: 'none', letterSpacing: '.04em' }}>
                 View author page on Amazon →
               </a>
             </div>
