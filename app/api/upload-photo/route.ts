@@ -20,10 +20,10 @@ export async function POST(req: NextRequest) {
   }
 
   const filename = key === 'main' ? `${slug}.${ext}` : `${slug}-${key}.${ext}`
-  const bytes = await file.arrayBuffer()
+  const arrayBuffer = await file.arrayBuffer()
 
   const store = getStore('episode-photos')
-  await store.set(filename, Buffer.from(bytes), {
+  await store.set(filename, arrayBuffer, {
     metadata: { contentType: `image/${ext === 'jpg' ? 'jpeg' : ext}` },
   })
 
