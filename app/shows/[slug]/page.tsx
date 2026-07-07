@@ -227,7 +227,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 src={ep.photo}
                 alt={ep.guest}
                 referrerPolicy="no-referrer"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%' }}
               />
             </div>
           )}
@@ -571,7 +571,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                     <article className="related-card" style={{ borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border-med)', background: 'var(--bg)' }}>
                       <div style={{ aspectRatio: '16/9', background: r.photo ? undefined : `${rc}12`, overflow: 'hidden', position: 'relative' }}>
                         {r.photo ? (
-                          <img src={r.photo} alt={r.guest} referrerPolicy="no-referrer" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
+                          <img src={r.photo} alt={r.guest} referrerPolicy="no-referrer" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%' }} />
                         ) : (
                           <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.8rem', fontWeight: 800, color: rc }}>
                             {r.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}

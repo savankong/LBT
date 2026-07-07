@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { writeFile, mkdir } from 'fs/promises'
-import path from 'path'
+import { getStore } from '@netlify/blobs'
 
 export const dynamic = 'force-dynamic'
 
@@ -8,6 +7,7 @@ export async function POST(req: NextRequest) {
   const formData = await req.formData()
   const file = formData.get('file') as File | null
   const slug = formData.get('slug') as string | null
+  const key = (formData.get('key') as string | null) ?? 'main'
 
   if (!file || !slug) {
     return NextResponse.json({ error: 'Missing file or slug' }, { status: 400 })
@@ -19,14 +19,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid file type' }, { status: 400 })
   }
 
-  const filename = `${slug}.${ext}`
-  const dir = path.join(process.cwd(), 'public', 'episodes')
-  await mkdir(dir, { recursive: true })
-  const filePath = path.join(dir, filename)
-
+  const filename = key === 'main' ? `${slug}.${ext}` : `${slug}-${key}.${ext}`
   const bytes = await file.arrayBuffer()
-  await writeFile(filePath, Buffer.from(bytes))
 
-  const url = `/episodes/${filename}`
+  const store = getStore('episode-photos')
+  await store.set(filename, Buffer.from(bytes), {
+    metadata: { contentType: `image/${ext === 'jpg' ? 'jpeg' : ext}` },
+  })
+
+  const url = `/api/photo/${filename}`
   return NextResponse.json({ ok: true, url })
 }

@@ -11,7 +11,7 @@ export default function PhotoGallery({ photos, guest, color }: { photos: string[
           <div key={i} onClick={() => setLightbox(src)}
             style={{ flex: '1 1 200px', maxWidth: 320, borderRadius: 12, overflow: 'hidden', border: `2px solid ${color}28`, cursor: 'zoom-in' }}>
             <img src={src} alt={`${guest} ${i + 2}`} referrerPolicy="no-referrer"
-              style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', objectPosition: 'center top', display: 'block' }} />
+              style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', objectPosition: 'center 20%', display: 'block' }} />
           </div>
         ))}
       </div>

@@ -137,7 +137,7 @@ export default async function HomePage() {
                   <Link key={ep.slug} href={`/shows/${ep.slug}`} style={{ display: 'flex', flexDirection: 'column', background: 'var(--bg)', borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border)', textDecoration: 'none', transition: 'box-shadow .2s' }}>
                     {ep.photo ? (
                       <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer"
-                        style={{ width: '100%', aspectRatio: '16/9', objectFit: 'cover', objectPosition: 'center top' }} />
+                        style={{ width: '100%', aspectRatio: '16/9', objectFit: 'cover', objectPosition: 'center 20%' }} />
                     ) : (
                       <div style={{ width: '100%', aspectRatio: '16/9', background: `${color}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', fontWeight: 800, color }} />
                     )}

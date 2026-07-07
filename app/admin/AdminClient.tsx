@@ -325,21 +325,68 @@ function EpisodeDrawer({ ep, onSave, onDelete, onClose, isNew, saving }: {
                     <input type="file" accept="image/*" style={{ display: 'none' }}
                       onChange={async e => {
                         const file = e.target.files?.[0]
-                        if (!file || !form.slug) return
+                        if (!file || !form.slug) { alert('Save episode first to get a slug'); return }
                         const fd = new FormData()
                         fd.append('file', file)
                         fd.append('slug', form.slug)
+                        fd.append('key', 'main')
                         const res = await fetch('/api/upload-photo', { method: 'POST', body: fd })
                         const data = await res.json()
                         if (data.url) set('photo', data.url)
+                        else alert(data.error ?? 'Upload failed')
                       }}
                     />
                   </label>
                 </div>
                 {form.photo && (
                   <img src={form.photo} alt="preview" referrerPolicy="no-referrer"
-                    style={{ width: 80, height: 80, objectFit: 'cover', objectPosition: 'center top', borderRadius: 10, border: '2px solid var(--border)' }} />
+                    style={{ width: 80, height: 80, objectFit: 'cover', objectPosition: 'center center', borderRadius: 10, border: '2px solid var(--border)' }} />
                 )}
+              </Field>
+              <Field label="Additional Photos" hint="Extra photos shown in a gallery on the episode page — click to enlarge">
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
+                  {(form.additionalPhotos ?? []).map((url, i) => (
+                    <div key={i} style={{ position: 'relative' }}>
+                      <img src={url} alt={`photo ${i + 1}`} referrerPolicy="no-referrer"
+                        style={{ width: 72, height: 72, objectFit: 'cover', objectPosition: 'center center', borderRadius: 8, border: '2px solid var(--border)', display: 'block' }} />
+                      <button
+                        onClick={() => {
+                          const photos = [...(form.additionalPhotos ?? [])]
+                          photos.splice(i, 1)
+                          set('additionalPhotos', photos)
+                        }}
+                        style={{ position: 'absolute', top: -6, right: -6, width: 18, height: 18, borderRadius: '50%', background: '#ef4444', color: '#fff', border: 'none', cursor: 'pointer', fontSize: '.65rem', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700 }}>
+                        ×
+                      </button>
+                    </div>
+                  ))}
+                  <label style={{
+                    width: 72, height: 72, borderRadius: 8, border: '1.5px dashed var(--border-med)',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    cursor: 'pointer', fontSize: '1.4rem', color: 'var(--faint)', flexShrink: 0,
+                  }}>
+                    +
+                    <input type="file" accept="image/*" multiple style={{ display: 'none' }}
+                      onChange={async e => {
+                        const files = Array.from(e.target.files ?? [])
+                        if (!files.length || !form.slug) { alert('Save episode first to get a slug'); return }
+                        const existing = form.additionalPhotos ?? []
+                        const urls: string[] = [...existing]
+                        for (let i = 0; i < files.length; i++) {
+                          const fd = new FormData()
+                          fd.append('file', files[i])
+                          fd.append('slug', form.slug)
+                          fd.append('key', `extra${existing.length + i + 1}-${Date.now()}`)
+                          const res = await fetch('/api/upload-photo', { method: 'POST', body: fd })
+                          const data = await res.json()
+                          if (data.url) urls.push(data.url)
+                        }
+                        set('additionalPhotos', urls)
+                        e.target.value = ''
+                      }}
+                    />
+                  </label>
+                </div>
               </Field>
               <Field label="YouTube URL" hint="Full watch URL — e.g. https://www.youtube.com/watch?v=...">
                 <input style={inputStyle} value={form.youtubeUrl ?? ''} onChange={e => set('youtubeUrl', e.target.value)} />
@@ -597,7 +644,7 @@ export default function AdminClient() {
                 {/* Photo */}
                 <div style={{ alignSelf: 'center' }}>
                   {ep.photo ? (
-                    <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top' }} />
+                    <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%' }} />
                   ) : (
                     <div style={{ width: 32, height: 32, borderRadius: '50%', background: `${SHOW_COLOR[ep.show]}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.72rem', fontWeight: 800, color: SHOW_COLOR[ep.show] }}>
                       {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
@@ -637,7 +684,7 @@ export default function AdminClient() {
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
                 {episodes.filter(e => e.homepageFeatured).map(ep => (
                   <div key={ep.slug} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px', borderRadius: 8, background: 'var(--bg)', border: '1.5px solid var(--terra)', maxWidth: 300 }}>
-                    {ep.photo && <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 28, height: 28, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', flexShrink: 0 }} />}
+                    {ep.photo && <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 28, height: 28, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%', flexShrink: 0 }} />}
                     <span style={{ fontSize: '.82rem', fontWeight: 600, color: 'var(--ink)', flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{ep.guest}</span>
                     <button onClick={() => toggleFeatured(ep.slug, true)}
                       style={{ border: 'none', background: 'transparent', color: 'var(--faint)', cursor: 'pointer', fontSize: '.8rem', padding: '2px 4px', flexShrink: 0 }}>✕</button>
@@ -663,7 +710,7 @@ export default function AdminClient() {
                   {ep.homepageFeatured ? '★' : '☆'}
                 </button>
                 {ep.photo ? (
-                  <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', flexShrink: 0 }} />
+                  <img src={ep.photo} alt={ep.guest} referrerPolicy="no-referrer" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%', flexShrink: 0 }} />
                 ) : (
                   <div style={{ width: 32, height: 32, borderRadius: '50%', background: `${SHOW_COLOR[ep.show]}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.7rem', fontWeight: 800, color: SHOW_COLOR[ep.show], flexShrink: 0 }}>
                     {ep.guest.split(' ').map(w => w[0]).join('').slice(0, 2)}
