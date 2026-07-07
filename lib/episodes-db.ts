@@ -133,9 +133,10 @@ export async function updateEpisode(slug: string, ep: Episode): Promise<Episode>
       guest_bio       = ${ep.guestBio ?? null},
       key_insights    = ${ep.keyInsights ? JSON.stringify(ep.keyInsights) : null},
       faq             = ${ep.faq ? JSON.stringify(ep.faq) : null},
-      transcript_file = ${ep.transcriptFile ?? null},
-      promo_links     = ${ep.promoLinks ? JSON.stringify(ep.promoLinks) : null},
-      quote           = ${ep.quote ?? null},
+      transcript_file    = ${ep.transcriptFile ?? null},
+      promo_links        = ${ep.promoLinks ? JSON.stringify(ep.promoLinks) : null},
+      quote              = ${ep.quote ?? null},
+      additional_photos  = ${ep.additionalPhotos ? JSON.stringify(ep.additionalPhotos) : null},
       updated_at      = NOW()
     WHERE slug = ${slug}
     RETURNING *
