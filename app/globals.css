@@ -541,9 +541,9 @@ a.featured-ep-link:hover .featured-ep { border-color: var(--terra); }
   background: var(--bg2);
   border-bottom: 1px solid var(--border);
 }
-.page-header-inner { max-width: 680px; }
+.page-header-inner { max-width: 100%; }
 .page-header h1 { margin-bottom: 20px; font-size: clamp(2.5rem,5.5vw,5rem); }
-.page-header p { font-size: clamp(17px,1.4vw,20px); color: var(--muted); max-width: 560px; line-height: 1.6; }
+.page-header p { font-size: clamp(17px,1.4vw,20px); color: var(--muted); max-width: 100%; line-height: 1.6; }
 
 /* ── Show cards (shows page) ─────────────────────────────── */
 .shows-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }

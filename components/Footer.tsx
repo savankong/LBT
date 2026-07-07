@@ -40,7 +40,6 @@ export default function Footer() {
             <h4>Work With Us</h4>
             <Link href="/sponsor">Become a Sponsor</Link>
             <Link href="/guest-submission">Submit a Guest</Link>
-            <Link href="/build">Build Your Own Show</Link>
             <a href="https://buymeacoffee.com/lifebtwtitles" target="_blank" rel="noopener noreferrer">Support LBT</a>
           </div>
         </div>

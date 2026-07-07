@@ -431,7 +431,13 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                 {ep.faq.map(({ q, a }, i) => (
                   <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: 22, paddingBottom: 22 }}>
                     <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', marginBottom: 10, lineHeight: 1.45, letterSpacing: '-.01em', fontFamily: 'inherit' }}>{q}</h3>
-                    <p style={{ fontSize: '.92rem', lineHeight: 1.82, color: 'var(--muted)', margin: 0 }}>{a}</p>
+                    <p style={{ fontSize: '.92rem', lineHeight: 1.82, color: 'var(--muted)', margin: 0 }}>
+                      {a.split(/(https?:\/\/[^\s]+)/g).map((part, j) =>
+                        /^https?:\/\//.test(part)
+                          ? <a key={j} href={part} target="_blank" rel="noopener noreferrer" style={{ color, textDecoration: 'underline', wordBreak: 'break-all' }}>{part}</a>
+                          : part
+                      )}
+                    </p>
                   </div>
                 ))}
               </div>
