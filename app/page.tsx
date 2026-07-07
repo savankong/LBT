@@ -82,27 +82,35 @@ export default async function HomePage() {
       </section>
 
       {/* ── Book Promo ───────────────────────────────────── */}
-      <section style={{ padding: 'clamp(40px,6vh,72px) 0', background: 'var(--ink)', borderBottom: '1px solid #222' }} aria-label="The Book">
-        <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: 'clamp(24px,5vw,56px)', alignItems: 'center' }}>
+      <section style={{ padding: 'clamp(48px,7vh,80px) 0', background: '#0d0d0d', borderBottom: '1px solid #1a1a1a' }} aria-label="The Book">
+        <div style={{ maxWidth: '100%', padding: '0 clamp(24px,5vw,80px)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: 'clamp(32px,5vw,72px)', alignItems: 'center', maxWidth: 1400, margin: '0 auto' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/Cover-LaidOff.jpg" alt="Laid Off and Lost book cover"
-              style={{ width: 'clamp(80px,11vw,140px)', height: 'auto', display: 'block', filter: 'drop-shadow(0 12px 28px rgba(0,0,0,.6))' }} />
+            <Link href="/book">
+              <img src="/Cover-LaidOff.jpg" alt="Laid Off and Lost book cover"
+                style={{ width: 'clamp(110px,13vw,180px)', height: 'auto', display: 'block', filter: 'drop-shadow(0 16px 40px rgba(0,0,0,.7))', borderRadius: 4 }} />
+            </Link>
             <div>
-              <span className="label" style={{ color: 'var(--terra)', display: 'block', marginBottom: 8 }}>New Book — Now Available</span>
-              <h2 style={{ color: '#fff', fontSize: 'clamp(1.3rem,3vw,2rem)', marginBottom: 10, lineHeight: 1.1 }}>
+              <span className="label" style={{ color: 'var(--terra)', display: 'block', marginBottom: 10 }}>New Book. Now Available.</span>
+              <h2 style={{ color: '#fff', fontSize: 'clamp(1.5rem,3vw,2.4rem)', marginBottom: 14, lineHeight: 1.05 }}>
                 Laid Off and Lost.
               </h2>
-              <p style={{ color: '#aaa', fontSize: 'clamp(.85rem,1.2vw,.98rem)', lineHeight: 1.7, marginBottom: 22, maxWidth: 460 }}>
-                The book version of the podcast. Raw, honest, and for anyone in the messy middle of a career transition. By Savan Kong.
+              <p style={{ color: '#bbb', fontSize: 'clamp(.88rem,1.2vw,1rem)', lineHeight: 1.8, marginBottom: 10, maxWidth: 680 }}>
+                Most career books teach you how to craft a new resume. This one tells you the whole truth about what happens when the career comes to an end and nobody talks about it: the identity crisis that emerges when you lose your title, the isolation that silently worsens the situation, and the process of clarifying what you are actually trying to rebuild.
+              </p>
+              <p style={{ color: '#888', fontSize: 'clamp(.85rem,1.1vw,.95rem)', lineHeight: 1.75, marginBottom: 24, maxWidth: 680 }}>
+                Written from inside the transition itself, not the other side of it. Savan Kong was unemployed for a year after leaving the Department of Defense, received an ADHD diagnosis at 46, and wrote every page while still figuring it out. Each chapter ends with a Try This section: specific, doable actions for that week.
               </p>
               <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'center' }}>
-                <a href="https://www.amazon.com/dp/B0H7P4DGHX" target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '.82rem', padding: '10px 20px' }}>Kindle →</a>
+                <a href="https://www.amazon.com/dp/B0H7P4DGHX" target="_blank" rel="noopener noreferrer"
+                  style={{ display: 'inline-flex', alignItems: 'center', padding: '11px 22px', borderRadius: 10, background: 'var(--terra)', color: '#fff', fontWeight: 600, fontSize: '.88rem', textDecoration: 'none', letterSpacing: '.02em' }}>
+                  Kindle →
+                </a>
                 <a href="https://www.amazon.com/dp/B0H7QDNCB2" target="_blank" rel="noopener noreferrer"
-                  style={{ display: 'inline-flex', alignItems: 'center', padding: '10px 20px', borderRadius: 10, border: '1.5px solid #444', color: '#fff', fontWeight: 700, fontSize: '.82rem', textDecoration: 'none' }}>
+                  style={{ display: 'inline-flex', alignItems: 'center', padding: '11px 22px', borderRadius: 10, border: '1.5px solid #444', color: '#fff', fontWeight: 600, fontSize: '.88rem', textDecoration: 'none' }}>
                   Paperback →
                 </a>
-                <Link href="/book" style={{ color: '#666', fontWeight: 600, fontSize: '.82rem', textDecoration: 'none' }}>
+                <Link href="/book" style={{ color: '#555', fontWeight: 600, fontSize: '.85rem', textDecoration: 'none' }}>
                   Learn more
                 </Link>
               </div>
