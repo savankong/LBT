@@ -8,6 +8,7 @@ const LINKS = [
   { href: '/about',   label: 'About' },
   { href: '/newsletter', label: 'Newsletter' },
   { href: '/book',    label: 'The Book' },
+  { href: '/tools',   label: 'Toolkit' },
   { href: '/sponsor', label: 'Sponsor' },
 ]
 
