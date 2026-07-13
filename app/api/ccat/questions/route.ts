@@ -16,12 +16,13 @@ async function ensureTable() {
       created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     )
   `
+  await sql`ALTER TABLE ccat_questions ADD COLUMN IF NOT EXISTS prompt_svg TEXT NOT NULL DEFAULT ''`
 }
 
 export async function GET() {
   await ensureTable()
   const rows = await sql`
-    SELECT id, category, prompt, choices, correct_index, explanation, active
+    SELECT id, category, prompt, prompt_svg, choices, correct_index, explanation, active
     FROM ccat_questions
     ORDER BY id
   `
@@ -30,6 +31,7 @@ export async function GET() {
     id: r.id,
     category: r.category,
     prompt: r.prompt,
+    promptSvg: r.prompt_svg || '',
     choices: r.choices,
     correctIndex: r.correct_index,
     explanation: r.explanation,
@@ -40,10 +42,10 @@ export async function GET() {
 export async function POST(req: NextRequest) {
   await ensureTable()
   const body = await req.json()
-  const { category, prompt, choices, correctIndex, explanation } = body
+  const { category, prompt, promptSvg, choices, correctIndex, explanation } = body
   const result = await sql`
-    INSERT INTO ccat_questions (category, prompt, choices, correct_index, explanation)
-    VALUES (${category}, ${prompt}, ${JSON.stringify(choices)}, ${correctIndex}, ${explanation ?? ''})
+    INSERT INTO ccat_questions (category, prompt, prompt_svg, choices, correct_index, explanation)
+    VALUES (${category}, ${prompt}, ${promptSvg ?? ''}, ${JSON.stringify(choices)}, ${correctIndex}, ${explanation ?? ''})
     RETURNING id
   `
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -22,10 +22,10 @@ export async function POST() {
   if (Number((existing as any[])[0]?.c) > 0) {
     return NextResponse.json({ ok: false, message: 'Table already has data. Clear it first if you want to re-seed.' })
   }
-  for (const q of questions as { category: string; prompt: string; choices: string[]; correctIndex: number; explanation: string }[]) {
+  for (const q of questions as { category: string; prompt: string; promptSvg?: string; choices: string[]; correctIndex: number; explanation: string }[]) {
     await sql`
-      INSERT INTO ccat_questions (category, prompt, choices, correct_index, explanation)
-      VALUES (${q.category}, ${q.prompt}, ${JSON.stringify(q.choices)}, ${q.correctIndex}, ${q.explanation})
+      INSERT INTO ccat_questions (category, prompt, prompt_svg, choices, correct_index, explanation)
+      VALUES (${q.category}, ${q.prompt}, ${q.promptSvg ?? ''}, ${JSON.stringify(q.choices)}, ${q.correctIndex}, ${q.explanation})
     `
   }
   return NextResponse.json({ ok: true, inserted: questions.length })

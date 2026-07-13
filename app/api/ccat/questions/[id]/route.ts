@@ -6,11 +6,12 @@ export const dynamic = 'force-dynamic'
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const body = await req.json()
-  const { category, prompt, choices, correctIndex, explanation, active } = body
+  const { category, prompt, promptSvg, choices, correctIndex, explanation, active } = body
   await sql`
     UPDATE ccat_questions
     SET category      = ${category},
         prompt        = ${prompt},
+        prompt_svg    = ${promptSvg ?? ''},
         choices       = ${JSON.stringify(choices)},
         correct_index = ${correctIndex},
         explanation   = ${explanation ?? ''},

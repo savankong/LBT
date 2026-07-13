@@ -461,6 +461,7 @@ interface CcatQuestion {
   id?: number
   category: 'Math' | 'Verbal' | 'Spatial'
   prompt: string
+  promptSvg: string
   choices: string[]
   correctIndex: number
   explanation: string
@@ -468,7 +469,7 @@ interface CcatQuestion {
 }
 
 function blankQuestion(): CcatQuestion {
-  return { category: 'Math', prompt: '', choices: ['', '', '', ''], correctIndex: 0, explanation: '', active: true }
+  return { category: 'Math', prompt: '', promptSvg: '', choices: ['', '', '', ''], correctIndex: 0, explanation: '', active: true }
 }
 
 // ── CCAT Question Drawer ──────────────────────────────────────────────────────
@@ -565,6 +566,21 @@ function QuestionDrawer({ q, onSave, onDelete, onClose, isNew, saving }: {
               value={form.explanation} onChange={e => set('explanation', e.target.value)}
               placeholder="Explain the correct answer. <b>bold</b> is supported." />
           </Field>
+
+          {/* SVG Visual (Spatial) */}
+          <div>
+            <label style={labelStyle}>SVG Visual <span style={{ fontWeight: 400, textTransform: 'none', letterSpacing: 0, color: 'var(--faint)' }}>(optional — paste inline SVG for spatial/visual questions)</span></label>
+            <textarea style={{ ...inputStyle, minHeight: 90, resize: 'vertical', lineHeight: 1.4, fontFamily: 'monospace', fontSize: '.78rem' }}
+              value={form.promptSvg} onChange={e => set('promptSvg', e.target.value)}
+              placeholder='<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">…</svg>' />
+            {form.promptSvg.trim().startsWith('<svg') && (
+              <div style={{ marginTop: 10, padding: 12, background: 'var(--bg2)', borderRadius: 8, border: '1px solid var(--border)' }}>
+                <p style={{ fontSize: '.7rem', color: 'var(--faint)', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '.06em', fontWeight: 700 }}>Preview</p>
+                {/* eslint-disable-next-line react/no-danger */}
+                <div dangerouslySetInnerHTML={{ __html: form.promptSvg }} style={{ maxWidth: '100%', overflowX: 'auto' }} />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </>

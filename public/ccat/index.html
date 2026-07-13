@@ -819,6 +819,8 @@
       visualBlock = `<div class="qvisual">${q.promptVisual.map((svg,i)=>`
         <div style="text-align:center">${svg}${q.promptLabels?`<div class="eyebrow" style="margin-top:0.3rem">${q.promptLabels[i]}</div>`:''}</div>
       `).join("")}</div>`;
+    } else if(q.promptSvg){
+      visualBlock = `<div class="qvisual" style="overflow-x:auto">${q.promptSvg}</div>`;
     }
 
     const optsHtml = q.choices.map((choice, i)=>{
