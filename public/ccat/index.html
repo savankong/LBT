@@ -609,18 +609,26 @@
 
   const SPATIAL_GENS = [genRotationSeq, genCountSeq, genOddOneOut, genShapeAnalogy];
 
-  /* ============================= QUESTION BANK (from questions.json) ============================= */
+  /* ============================= QUESTION BANK (from DB via API) ============================= */
   let BANK = { Math: [], Verbal: [], Spatial: [] };
 
   async function loadBank(){
     try {
-      const r = await fetch('/ccat/questions.json');
-      if(!r.ok) return;
+      const r = await fetch('/api/ccat/questions');
+      if(!r.ok) throw new Error('api failed');
       const qs = await r.json();
       for(const q of qs){
-        if(BANK[q.category]) BANK[q.category].push(q);
+        if(q.active !== false && BANK[q.category]) BANK[q.category].push(q);
       }
-    } catch(e){ /* network unavailable — generators handle it */ }
+    } catch(e){
+      // fallback to static JSON if API unavailable
+      try {
+        const r2 = await fetch('/ccat/questions.json');
+        if(!r2.ok) return;
+        const qs = await r2.json();
+        for(const q of qs){ if(BANK[q.category]) BANK[q.category].push(q); }
+      } catch(e2){ /* generators handle it */ }
+    }
   }
 
   /* ============================= QUESTION FACTORY ============================= */
