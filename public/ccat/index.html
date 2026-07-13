@@ -78,6 +78,33 @@
   .lbt-back:hover{ color:var(--text); }
   /* shift the test runner's own topbar so it sits below the shell */
   .topbar{ top:52px; }
+
+  /* ---- Question navigator grid ---- */
+  .qnav{
+    margin-top:1.5rem; padding:1.25rem; background:var(--bg-raised);
+    border:1px solid var(--rule); border-radius:8px;
+  }
+  .qnav-label{
+    font:700 0.7rem/1 sans-serif; text-transform:uppercase; letter-spacing:0.1em;
+    color:var(--text-faint); margin-bottom:0.75rem; display:flex; justify-content:space-between; align-items:center;
+  }
+  .qnav-legend{ display:flex; gap:1rem; }
+  .qnav-legend span{ display:flex; align-items:center; gap:0.3rem; font-size:0.68rem; font-weight:600; color:var(--text-faint); }
+  .qnav-grid{
+    display:flex; flex-wrap:wrap; gap:6px;
+  }
+  .qbox{
+    width:32px; height:32px; border-radius:4px; border:1.5px solid var(--rule-strong);
+    background:var(--bg); color:var(--text-soft);
+    font:var(--font-mono); font-size:0.7rem; font-weight:700;
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer; transition:border-color .1s, background .1s;
+    padding:0;
+  }
+  .qbox:hover{ border-color:var(--accent); color:var(--accent); }
+  .qbox.current{ border-color:var(--accent); background:var(--accent); color:var(--accent-contrast); }
+  .qbox.answered{ background:var(--bg-sunken); border-color:var(--rule-strong); color:var(--text); }
+  .qbox.answered.current{ background:var(--accent); border-color:var(--accent); color:var(--accent-contrast); }
   :focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:2px;}
   .mono{font:var(--font-mono); font-variant-numeric:tabular-nums;}
   .eyebrow{
@@ -778,6 +805,12 @@
       return `<button class="option" data-idx="${i}"><span class="bubble">${letter}</span>${inner}</button>`;
     }).join("");
 
+    const navBoxes = Array.from({length: total}, (_,i) => {
+      const answered = state.answers[i] !== undefined;
+      const current  = i === state.idx;
+      return `<button class="qbox${current?' current':''}${answered?' answered':''}" data-qi="${i}">${i+1}</button>`;
+    }).join('');
+
     app.innerHTML = `
       <div class="topbar">
         <div class="topbar-inner">
@@ -797,6 +830,17 @@
             <button class="btn btn-ghost" data-action="quit">Exit to home</button>
             <button class="btn btn-primary" id="next-btn" ${state.instantFeedback ? 'disabled' : ''}>${state.idx===total-1 ? "Finish" : "Next"} →</button>
           </div>
+        </div>
+        <div class="qnav">
+          <div class="qnav-label">
+            <span>Question Navigator</span>
+            <div class="qnav-legend">
+              <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--accent);"></span> Current</span>
+              <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--bg-sunken);border:1.5px solid var(--rule-strong);"></span> Answered</span>
+              <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;border:1.5px solid var(--rule-strong);"></span> Skipped</span>
+            </div>
+          </div>
+          <div class="qnav-grid" id="qnav-grid">${navBoxes}</div>
         </div>
       </div>
     `;
@@ -821,6 +865,24 @@
     app.querySelector('[data-action="quit"]').onclick = ()=>{
       if(confirm("Exit this session? Your progress on this attempt won't be saved.")) renderHome();
     };
+    app.querySelector("#qnav-grid").addEventListener("click", e => {
+      const btn = e.target.closest(".qbox");
+      if(!btn) return;
+      const target = +btn.dataset.qi;
+      if(target === state.idx) return;
+      // save any pending selection for current question
+      const q = state.questions[state.idx];
+      const chosen = state.pendingChoice;
+      if(chosen !== undefined) {
+        state.answers[state.idx] = {
+          chosen, correct: chosen === q.correctIndex,
+          category: q.category, timeSpent: (Date.now()-state.qStart)/1000
+        };
+      }
+      state.pendingChoice = undefined;
+      state.idx = target;
+      renderRunner();
+    });
   }
 
   function lockAnswer(i){

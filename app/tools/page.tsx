@@ -16,91 +16,90 @@ const TOOLS = [
   {
     tag: 'Aptitude Testing',
     title: 'CCAT Practice',
-    desc: 'The Criteria Cognitive Aptitude Test is used by thousands of employers in their hiring process. Practice free — timed full tests (50 questions, 15 min), sprints, and drills by category (math, verbal, spatial).',
-    meta: ['50 questions', '15-min timed', 'Math · Verbal · Spatial'],
+    body: 'The Criteria Cognitive Aptitude Test is used by thousands of employers in their hiring process. Practice free — timed full tests (50 questions, 15 min), sprints, and drills by category: math, verbal, and spatial reasoning.',
     href: '/ccat/index.html',
-    cta: 'Start Practicing →',
-    primary: true,
-    badge: 'Free',
+    live: true,
   },
   {
-    tag: 'Coming Soon',
+    tag: 'Resume',
     title: 'Resume Tips',
-    desc: 'Proven frameworks for writing a resume that actually gets read — what to cut, what to lead with, and how to frame a transition without apologizing for it.',
-    meta: ['Checklist', 'Examples'],
+    body: 'Proven frameworks for writing a resume that actually gets read — what to cut, what to lead with, and how to frame a career transition without apologizing for it.',
     href: '#',
-    cta: 'Coming Soon',
-    primary: false,
-    badge: 'Soon',
+    live: false,
   },
   {
-    tag: 'Coming Soon',
+    tag: 'Interviewing',
     title: 'Interview Prep',
-    desc: 'Common interview question banks and frameworks for answering behavioral questions confidently, including the ones you hate most.',
-    meta: ['Question bank', 'STAR method'],
+    body: 'Common behavioral question banks and frameworks for answering confidently, including the ones that catch people off guard when they are mid-transition.',
     href: '#',
-    cta: 'Coming Soon',
-    primary: false,
-    badge: 'Soon',
+    live: false,
   },
 ]
 
 export default function ToolsPage() {
   return (
     <>
-      {/* Header */}
-      <div className="page-header">
-        <div className="page-header-inner">
-          <span className="label" style={{ color: 'var(--terra)' }}>Free Resources</span>
-          <h1>Career Toolkit</h1>
-          <p>Practical tools to help you navigate whatever transition you&apos;re in the middle of. All free.</p>
-        </div>
-      </div>
-
-      {/* Tools grid */}
-      <section style={{ padding: 'clamp(48px,7vh,80px) 0', background: 'var(--bg2)' }}>
+      <header className="page-header">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px,1fr))', gap: 20 }}>
-            {TOOLS.map(t => (
-              <div key={t.title} style={{
-                background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 12,
-                padding: '1.6rem', display: 'flex', flexDirection: 'column', gap: '0.9rem',
-                position: 'relative', opacity: t.href === '#' ? 0.6 : 1,
-              }}>
-                <span style={{
-                  position: 'absolute', top: '1.1rem', right: '1.1rem',
-                  fontSize: '.68rem', fontWeight: 700, letterSpacing: '.06em',
-                  border: '1px solid var(--border-med)', borderRadius: 4, padding: '2px 7px',
-                  color: t.primary ? 'var(--terra)' : 'var(--faint)',
-                  borderColor: t.primary ? 'var(--terra)' : 'var(--border-med)',
-                }}>{t.badge}</span>
+          <div className="page-header-inner">
+            <span className="label">Free Resources</span>
+            <h1>Career Toolkit</h1>
+            <p>Practical tools for people navigating a career transition. All free, no sign-up required.</p>
+          </div>
+        </div>
+      </header>
 
-                <div>
-                  <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--terra)', marginBottom: 8 }}>{t.tag}</p>
-                  <h3 style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, color: 'var(--ink)' }}>{t.title}</h3>
-                </div>
+      <section className="section">
+        <div className="container">
+          <div className="nl-page-layout">
 
-                <p style={{ fontSize: '.95rem', lineHeight: 1.75, color: 'var(--ink)', flex: 1 }}>{t.desc}</p>
+            {/* ── Main content ── */}
+            <div>
+              <p style={{ maxWidth: 640, fontSize: '1.02rem', lineHeight: 1.8, marginBottom: 18 }}>
+                Most career resources assume you already know what you want. These don&apos;t. They meet you where most
+                transitions actually start — in the middle of the uncertainty, before anything is clear.
+              </p>
+              <p style={{ maxWidth: 640, fontSize: '1.02rem', lineHeight: 1.8, marginBottom: 40 }}>
+                We built this section to give you concrete things to do when &ldquo;just take it one day at a time&rdquo;
+                isn&apos;t enough. Start with the CCAT if you&apos;re job hunting — it shows up in more hiring processes
+                than most people realize, and practicing it takes the surprise out of it.
+              </p>
 
-                <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                  {t.meta.map(m => (
-                    <span key={m} style={{ fontSize: '.75rem', fontWeight: 600, background: 'var(--bg2)', border: '1px solid var(--border-med)', borderRadius: 20, padding: '4px 12px', color: 'var(--muted)' }}>{m}</span>
-                  ))}
-                </div>
-
-                {t.href !== '#' ? (
-                  <Link href={t.href} className="btn btn-gold" style={{ textAlign: 'center', fontWeight: 600 }}>{t.cta}</Link>
-                ) : (
-                  <span className="btn" style={{ textAlign: 'center', opacity: 0.4, cursor: 'default', fontWeight: 600 }}>{t.cta}</span>
-                )}
+              <span className="label" style={{ marginBottom: 24, display: 'block' }}>What&apos;s Here</span>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 20 }} className="nl-cards-grid">
+                {TOOLS.map(t => (
+                  <div key={t.title} className="glass" style={{ borderRadius: 0, padding: '36px 28px', opacity: t.live ? 1 : 0.55 }}>
+                    <span className="label" style={{ display: 'block', marginBottom: 10, color: 'var(--terra)' }}>{t.tag}</span>
+                    <h4 style={{ marginBottom: 12, fontSize: '1.1rem' }}>{t.title}</h4>
+                    <p style={{ fontSize: '.9rem', lineHeight: 1.7, color: 'var(--muted)', marginBottom: 20 }}>{t.body}</p>
+                    {t.live ? (
+                      <a href={t.href} className="btn btn-gold" style={{ display: 'inline-flex', textDecoration: 'none', fontSize: '.85rem' }}>
+                        Start Practicing →
+                      </a>
+                    ) : (
+                      <span style={{ fontSize: '.8rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--faint)' }}>Coming Soon</span>
+                    )}
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+
+            {/* ── Aside ── */}
+            <aside className="nl-page-aside">
+              <div className="nl-page-subscribe-box">
+                <span className="label">Free · No Sign-up</span>
+                <h3>CCAT Practice</h3>
+                <p>50 questions, 15-minute timer — the real format. Timed full tests, 20-question sprints, or untimed drills with instant feedback. Your history saves automatically.</p>
+                <a href="/ccat/index.html" className="btn btn-gold">Launch Practice Test →</a>
+              </div>
+            </aside>
+
           </div>
         </div>
       </section>
 
       {/* CTA strip */}
-      <section style={{ padding: 'clamp(40px,6vh,64px) 0', background: 'var(--bg)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: 'clamp(40px,6vh,64px) 0', background: 'var(--bg2)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: 560 }}>
           <span className="label" style={{ display: 'block', marginBottom: 10 }}>While You&apos;re Practicing</span>
           <h2 style={{ marginBottom: 14, fontSize: 'clamp(1.3rem,2.5vw,1.9rem)' }}>Hear from people who made it through.</h2>
