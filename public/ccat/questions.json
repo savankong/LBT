@@ -2,288 +2,929 @@
   {
     "category": "Math",
     "prompt": "If a shirt costs $45 and is on sale for 20% off, what is the sale price?",
-    "choices": ["$36", "$38", "$34", "$40"],
+    "choices": [
+      "$36",
+      "$38",
+      "$34",
+      "$40"
+    ],
     "correctIndex": 0,
-    "explanation": "20% of $45 = $9. Sale price = $45 − $9 = <b>$36</b>."
+    "explanation": "20% of $45 = $9. Sale price = $45 \u2212 $9 = <b>$36</b>."
   },
   {
     "category": "Math",
     "prompt": "A factory produces 240 units in 8 hours. How many units does it produce in 5 hours at the same rate?",
-    "choices": ["150", "160", "120", "180"],
+    "choices": [
+      "150",
+      "160",
+      "120",
+      "180"
+    ],
     "correctIndex": 0,
-    "explanation": "Rate = 240 ÷ 8 = 30 units/hour. In 5 hours: 30 × 5 = <b>150</b>."
+    "explanation": "Rate = 240 \u00f7 8 = 30 units/hour. In 5 hours: 30 \u00d7 5 = <b>150</b>."
   },
   {
     "category": "Math",
     "prompt": "What is the next number in the series? 3, 6, 12, 24, ?",
-    "choices": ["48", "36", "42", "30"],
+    "choices": [
+      "48",
+      "36",
+      "42",
+      "30"
+    ],
     "correctIndex": 0,
-    "explanation": "Each term doubles. 24 × 2 = <b>48</b>."
+    "explanation": "Each term doubles. 24 \u00d7 2 = <b>48</b>."
   },
   {
     "category": "Math",
-    "prompt": "If 5x − 7 = 18, what is x?",
-    "choices": ["5", "4", "6", "3"],
+    "prompt": "If 5x \u2212 7 = 18, what is x?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
     "correctIndex": 0,
-    "explanation": "5x = 18 + 7 = 25. x = 25 ÷ 5 = <b>5</b>."
+    "explanation": "5x = 18 + 7 = 25. x = 25 \u00f7 5 = <b>5</b>."
   },
   {
     "category": "Math",
     "prompt": "A car travels 180 miles in 3 hours. At the same speed, how far will it travel in 5 hours?",
-    "choices": ["300 miles", "270 miles", "360 miles", "250 miles"],
+    "choices": [
+      "300 miles",
+      "270 miles",
+      "360 miles",
+      "250 miles"
+    ],
     "correctIndex": 0,
-    "explanation": "Speed = 180 ÷ 3 = 60 mph. Distance = 60 × 5 = <b>300 miles</b>."
+    "explanation": "Speed = 180 \u00f7 3 = 60 mph. Distance = 60 \u00d7 5 = <b>300 miles</b>."
   },
   {
     "category": "Math",
     "prompt": "What is 35% of 200?",
-    "choices": ["70", "65", "75", "80"],
+    "choices": [
+      "70",
+      "65",
+      "75",
+      "80"
+    ],
     "correctIndex": 0,
-    "explanation": "35/100 × 200 = <b>70</b>."
+    "explanation": "35/100 \u00d7 200 = <b>70</b>."
   },
   {
     "category": "Math",
     "prompt": "A project takes 12 workers 8 days to complete. How many days would it take 16 workers at the same rate?",
-    "choices": ["6", "7", "5", "8"],
+    "choices": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
     "correctIndex": 0,
-    "explanation": "Total work = 12 × 8 = 96 worker-days. 96 ÷ 16 = <b>6</b> days."
+    "explanation": "Total work = 12 \u00d7 8 = 96 worker-days. 96 \u00f7 16 = <b>6</b> days."
   },
   {
     "category": "Math",
     "prompt": "What number comes next? 100, 91, 82, 73, ?",
-    "choices": ["64", "62", "65", "60"],
+    "choices": [
+      "64",
+      "62",
+      "65",
+      "60"
+    ],
     "correctIndex": 0,
-    "explanation": "The series decreases by 9 each time. 73 − 9 = <b>64</b>."
+    "explanation": "The series decreases by 9 each time. 73 \u2212 9 = <b>64</b>."
   },
   {
     "category": "Math",
     "prompt": "If 3 apples cost $2.40, how much do 7 apples cost?",
-    "choices": ["$5.60", "$4.80", "$6.00", "$4.20"],
+    "choices": [
+      "$5.60",
+      "$4.80",
+      "$6.00",
+      "$4.20"
+    ],
     "correctIndex": 0,
-    "explanation": "Price per apple = $2.40 ÷ 3 = $0.80. 7 × $0.80 = <b>$5.60</b>."
+    "explanation": "Price per apple = $2.40 \u00f7 3 = $0.80. 7 \u00d7 $0.80 = <b>$5.60</b>."
   },
   {
     "category": "Math",
     "prompt": "A rectangle has a length of 14 cm and a width of 8 cm. What is its area?",
-    "choices": ["112 cm²", "96 cm²", "108 cm²", "124 cm²"],
+    "choices": [
+      "112 cm\u00b2",
+      "96 cm\u00b2",
+      "108 cm\u00b2",
+      "124 cm\u00b2"
+    ],
     "correctIndex": 0,
-    "explanation": "Area = length × width = 14 × 8 = <b>112 cm²</b>."
+    "explanation": "Area = length \u00d7 width = 14 \u00d7 8 = <b>112 cm\u00b2</b>."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that means most nearly the same as \"TENACIOUS.\"",
-    "choices": ["persistent", "timid", "generous", "vague"],
+    "choices": [
+      "persistent",
+      "timid",
+      "generous",
+      "vague"
+    ],
     "correctIndex": 0,
     "explanation": "\"Tenacious\" means holding firm or persistent. <b>Persistent</b> is the closest match."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word most nearly OPPOSITE to \"VERBOSE.\"",
-    "choices": ["concise", "wordy", "loud", "unclear"],
+    "choices": [
+      "concise",
+      "wordy",
+      "loud",
+      "unclear"
+    ],
     "correctIndex": 0,
     "explanation": "\"Verbose\" means using too many words. Its opposite is <b>concise</b>."
   },
   {
     "category": "Verbal",
     "prompt": "ARCHITECT is to BUILDING as COMPOSER is to ___?",
-    "choices": ["symphony", "concert", "instrument", "musician"],
+    "choices": [
+      "symphony",
+      "concert",
+      "instrument",
+      "musician"
+    ],
     "correctIndex": 0,
     "explanation": "An architect creates a building; a composer creates a <b>symphony</b>."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that means most nearly the same as \"AMBIVALENT.\"",
-    "choices": ["uncertain", "confident", "eager", "hostile"],
+    "choices": [
+      "uncertain",
+      "confident",
+      "eager",
+      "hostile"
+    ],
     "correctIndex": 0,
-    "explanation": "\"Ambivalent\" means having mixed feelings or being undecided — closest to <b>uncertain</b>."
+    "explanation": "\"Ambivalent\" means having mixed feelings or being undecided \u2014 closest to <b>uncertain</b>."
   },
   {
     "category": "Verbal",
     "prompt": "All project managers at the firm are PMP-certified. Lexi is a project manager at the firm. Which conclusion follows?",
-    "choices": ["Lexi is PMP-certified.", "Lexi is not PMP-certified.", "Lexi manages a team.", "Cannot be determined."],
+    "choices": [
+      "Lexi is PMP-certified.",
+      "Lexi is not PMP-certified.",
+      "Lexi manages a team.",
+      "Cannot be determined."
+    ],
     "correctIndex": 0,
     "explanation": "Since all project managers at the firm are PMP-certified and Lexi is one, Lexi must be <b>PMP-certified</b>."
   },
   {
     "category": "Verbal",
     "prompt": "SURGEON is to SCALPEL as PAINTER is to ___?",
-    "choices": ["brush", "canvas", "paint", "gallery"],
+    "choices": [
+      "brush",
+      "canvas",
+      "paint",
+      "gallery"
+    ],
     "correctIndex": 0,
     "explanation": "A surgeon's tool is a scalpel; a painter's tool is a <b>brush</b>."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word most nearly OPPOSITE to \"BENIGN.\"",
-    "choices": ["malignant", "gentle", "kind", "neutral"],
+    "choices": [
+      "malignant",
+      "gentle",
+      "kind",
+      "neutral"
+    ],
     "correctIndex": 0,
     "explanation": "\"Benign\" means harmless or gentle. Its opposite is <b>malignant</b> (harmful)."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that means most nearly the same as \"PRAGMATIC.\"",
-    "choices": ["practical", "idealistic", "emotional", "stubborn"],
+    "choices": [
+      "practical",
+      "idealistic",
+      "emotional",
+      "stubborn"
+    ],
     "correctIndex": 0,
-    "explanation": "\"Pragmatic\" means dealing with things sensibly and realistically — closest to <b>practical</b>."
+    "explanation": "\"Pragmatic\" means dealing with things sensibly and realistically \u2014 closest to <b>practical</b>."
   },
   {
     "category": "Verbal",
     "prompt": "No managers in the division received a bonus. Carlos received a bonus. Which conclusion follows?",
-    "choices": ["Carlos is not a manager.", "Carlos is a manager.", "Carlos was promoted.", "Cannot be determined."],
+    "choices": [
+      "Carlos is not a manager.",
+      "Carlos is a manager.",
+      "Carlos was promoted.",
+      "Cannot be determined."
+    ],
     "correctIndex": 0,
     "explanation": "If no managers received a bonus and Carlos received one, Carlos cannot be a manager."
   },
   {
     "category": "Verbal",
     "prompt": "ARID is to DESERT as FRIGID is to ___?",
-    "choices": ["tundra", "ocean", "tropics", "swamp"],
+    "choices": [
+      "tundra",
+      "ocean",
+      "tropics",
+      "swamp"
+    ],
     "correctIndex": 0,
     "explanation": "Arid describes a desert's climate; frigid describes a <b>tundra's</b> climate."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that best fits the blank: \"The charity event was a _____ gathering of community leaders who united to support a common cause.\"",
-    "choices": ["harmonious", "discordant", "disparate", "chaotic"],
+    "choices": [
+      "harmonious",
+      "discordant",
+      "disparate",
+      "chaotic"
+    ],
     "correctIndex": 0,
-    "explanation": "Leaders who \"united to support a common cause\" were working together — making the gathering <b>harmonious</b>."
+    "explanation": "Leaders who \"united to support a common cause\" were working together \u2014 making the gathering <b>harmonious</b>."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that best fits the blank: \"The city council's decision was _____ by the local press, which saw it as a necessary measure to address the growing housing crisis.\"",
-    "choices": ["lauded", "criticized", "disregarded", "condemned"],
+    "choices": [
+      "lauded",
+      "criticized",
+      "disregarded",
+      "condemned"
+    ],
     "correctIndex": 0,
-    "explanation": "The press saw it as \"a necessary measure\" — a positive view — so it was <b>lauded</b> (praised)."
+    "explanation": "The press saw it as \"a necessary measure\" \u2014 a positive view \u2014 so it was <b>lauded</b> (praised)."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that best fits the blank: \"The teacher was known for her _____ methods, often employing creative strategies to make difficult concepts more accessible.\"",
-    "choices": ["innovative", "traditional", "monotonous", "rigid"],
+    "choices": [
+      "innovative",
+      "traditional",
+      "monotonous",
+      "rigid"
+    ],
     "correctIndex": 0,
-    "explanation": "\"Creative strategies\" signals something new and fresh — <b>innovative</b> fits best."
+    "explanation": "\"Creative strategies\" signals something new and fresh \u2014 <b>innovative</b> fits best."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that best fits the blank: \"Her _____ remarks during the discussion revealed a lack of understanding of the complex issues at hand.\"",
-    "choices": ["flippant", "insightful", "perceptive", "astute"],
+    "choices": [
+      "flippant",
+      "insightful",
+      "perceptive",
+      "astute"
+    ],
     "correctIndex": 0,
-    "explanation": "Remarks that reveal a lack of understanding are <b>flippant</b> — shallow and not treating the subject seriously."
+    "explanation": "Remarks that reveal a lack of understanding are <b>flippant</b> \u2014 shallow and not treating the subject seriously."
   },
   {
     "category": "Verbal",
     "prompt": "Choose the word that best fits the blank: \"The company's financial troubles were _____ by a series of poor investments and declining market conditions.\"",
-    "choices": ["worsened", "improved", "solved", "alleviated"],
+    "choices": [
+      "worsened",
+      "improved",
+      "solved",
+      "alleviated"
+    ],
     "correctIndex": 0,
-    "explanation": "Poor investments and declining conditions made things worse — so the troubles were <b>worsened</b>."
+    "explanation": "Poor investments and declining conditions made things worse \u2014 so the troubles were <b>worsened</b>."
   },
   {
     "category": "Verbal",
     "prompt": "HEART is to CARDIOLOGIST as KIDNEY is to ___?",
-    "choices": ["nephrologist", "neurologist", "endocrinologist", "pediatrician"],
+    "choices": [
+      "nephrologist",
+      "neurologist",
+      "endocrinologist",
+      "pediatrician"
+    ],
     "correctIndex": 0,
     "explanation": "A cardiologist specializes in the heart; a <b>nephrologist</b> specializes in the kidneys."
   },
   {
     "category": "Verbal",
     "prompt": "OASIS is to DESERT as _____ is to SEA.",
-    "choices": ["island", "boat", "ocean", "peninsula"],
+    "choices": [
+      "island",
+      "boat",
+      "ocean",
+      "peninsula"
+    ],
     "correctIndex": 0,
     "explanation": "An oasis is an isolated landmass feature within a desert; an <b>island</b> is an isolated landmass within the sea."
   },
   {
     "category": "Verbal",
-    "prompt": "What would be the next group of letters in the following series? cst … dtu … euv … fvw … ?",
-    "choices": ["gwx", "hwx", "gxy", "hyw"],
+    "prompt": "What would be the next group of letters in the following series? cst \u2026 dtu \u2026 euv \u2026 fvw \u2026 ?",
+    "choices": [
+      "gwx",
+      "hwx",
+      "gxy",
+      "hyw"
+    ],
     "correctIndex": 0,
-    "explanation": "Each position increments by 1 each step: c→d→e→f→<b>g</b>, s→t→u→v→<b>w</b>, t→u→v→w→<b>x</b>. Answer: <b>gwx</b>."
+    "explanation": "Each position increments by 1 each step: c\u2192d\u2192e\u2192f\u2192<b>g</b>, s\u2192t\u2192u\u2192v\u2192<b>w</b>, t\u2192u\u2192v\u2192w\u2192<b>x</b>. Answer: <b>gwx</b>."
   },
   {
     "category": "Verbal",
     "prompt": "If the first two statements are true, is the final statement true? \"All children hate to eat broccoli. Adam hates to eat broccoli. Therefore, Adam is a child.\"",
-    "choices": ["Uncertain", "True", "False", "Cannot be evaluated"],
+    "choices": [
+      "Uncertain",
+      "True",
+      "False",
+      "Cannot be evaluated"
+    ],
     "correctIndex": 0,
-    "explanation": "This is a logical fallacy — adults can also hate broccoli. Knowing Adam hates it doesn't confirm he's a child. The conclusion is <b>uncertain</b>."
+    "explanation": "This is a logical fallacy \u2014 adults can also hate broccoli. Knowing Adam hates it doesn't confirm he's a child. The conclusion is <b>uncertain</b>."
   },
   {
     "category": "Verbal",
     "prompt": "How many of these five pairs are exactly the same?\n7810 Aspen St. / 7810 Aspen St.\n225 Maplewood Ln. / 225 Maplewood Ln.\n4529 Holly Dr. / 4529 Holy Dr.\n6124 Willow Rd. / 6124 WIllow Rd.\n1298 Birch Ct. / 1299 Birch Ct.",
-    "choices": ["2", "1", "3", "4"],
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
     "correctIndex": 0,
-    "explanation": "Pair 1 ✓, Pair 2 ✓, Pair 3 ✗ (Holly vs Holy), Pair 4 ✗ (WIllow has capital I), Pair 5 ✗ (1298 vs 1299). Exactly <b>2</b> match."
+    "explanation": "Pair 1 \u2713, Pair 2 \u2713, Pair 3 \u2717 (Holly vs Holy), Pair 4 \u2717 (WIllow has capital I), Pair 5 \u2717 (1298 vs 1299). Exactly <b>2</b> match."
   },
   {
     "category": "Verbal",
     "prompt": "How many of these five pairs are exactly the same?\nStonebridge Investments / Stonebridge Investments\nLakeside Consultants LLC / Lakeside Consultants LLC\nPineview Medical Group / Pineview Medical Groups\nValley Forge Realty / Valley Forge Reality\nTimberline Financial / Timberline Finance",
-    "choices": ["2", "1", "3", "4"],
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
     "correctIndex": 0,
-    "explanation": "Pair 1 ✓, Pair 2 ✓, Pair 3 ✗ (Groups vs Group), Pair 4 ✗ (Realty vs Reality), Pair 5 ✗ (Financial vs Finance). Exactly <b>2</b> match."
+    "explanation": "Pair 1 \u2713, Pair 2 \u2713, Pair 3 \u2717 (Groups vs Group), Pair 4 \u2717 (Realty vs Reality), Pair 5 \u2717 (Financial vs Finance). Exactly <b>2</b> match."
   },
   {
     "category": "Math",
     "prompt": "A city of 75,000 residents hosted a music festival. Only 35% of the city's population attended. How many people did NOT attend?",
-    "choices": ["48,750", "26,250", "28,250", "35,000"],
+    "choices": [
+      "48,750",
+      "26,250",
+      "28,250",
+      "35,000"
+    ],
     "correctIndex": 0,
-    "explanation": "35% attended = 0.35 × 75,000 = 26,250. Those who did NOT attend = 75,000 − 26,250 = <b>48,750</b>."
+    "explanation": "35% attended = 0.35 \u00d7 75,000 = 26,250. Those who did NOT attend = 75,000 \u2212 26,250 = <b>48,750</b>."
   },
   {
     "category": "Math",
     "prompt": "Leila bought $10,000 worth of identical laptops and sold them for $14,000, making a profit of $400 per laptop. How many laptops did she trade?",
-    "choices": ["10", "5", "6", "7"],
+    "choices": [
+      "10",
+      "5",
+      "6",
+      "7"
+    ],
     "correctIndex": 0,
-    "explanation": "Total profit = $14,000 − $10,000 = $4,000. Number of laptops = $4,000 ÷ $400 = <b>10</b>."
+    "explanation": "Total profit = $14,000 \u2212 $10,000 = $4,000. Number of laptops = $4,000 \u00f7 $400 = <b>10</b>."
   },
   {
     "category": "Math",
     "prompt": "780 students applied for a tuition waiver; 650 were denied. What is the rejection rate?",
-    "choices": ["5 in 6", "1 in 10", "13 in 50", "1 in 2"],
+    "choices": [
+      "5 in 6",
+      "1 in 10",
+      "13 in 50",
+      "1 in 2"
+    ],
     "correctIndex": 0,
-    "explanation": "650 ÷ 780 = 5/6. The rejection rate is <b>5 in 6</b>."
+    "explanation": "650 \u00f7 780 = 5/6. The rejection rate is <b>5 in 6</b>."
   },
   {
     "category": "Math",
     "prompt": "An airline offers 6 flights/day to Europe for 16 days/month, and 4 flights/day to the Middle East for 10 days/month. What is the total number of flights per month?",
-    "choices": ["136", "16", "40", "96"],
+    "choices": [
+      "136",
+      "16",
+      "40",
+      "96"
+    ],
     "correctIndex": 0,
-    "explanation": "Europe: 6 × 16 = 96. Middle East: 4 × 10 = 40. Total = 96 + 40 = <b>136</b>."
+    "explanation": "Europe: 6 \u00d7 16 = 96. Middle East: 4 \u00d7 10 = 40. Total = 96 + 40 = <b>136</b>."
   },
   {
     "category": "Math",
     "prompt": "10 is 20% of what number?",
-    "choices": ["50", "40", "45", "55"],
+    "choices": [
+      "50",
+      "40",
+      "45",
+      "55"
+    ],
     "correctIndex": 0,
-    "explanation": "10 = 0.20 × x → x = 10 ÷ 0.20 = <b>50</b>."
+    "explanation": "10 = 0.20 \u00d7 x \u2192 x = 10 \u00f7 0.20 = <b>50</b>."
   },
   {
     "category": "Math",
     "prompt": "The table below shows books sold in Jan and Feb. Store A: 120, 140. Store B: 100, 110. Store C: 130, 120. Store D: 90, 100. Which store sold the most books across January and February combined?",
-    "choices": ["Store A", "Store B", "Store C", "Store D"],
+    "choices": [
+      "Store A",
+      "Store B",
+      "Store C",
+      "Store D"
+    ],
     "correctIndex": 0,
     "explanation": "Store A: 120+140=<b>260</b>. Store B: 210. Store C: 250. Store D: 190. <b>Store A</b> sold the most."
   },
   {
     "category": "Math",
     "prompt": "According to polls, 24% of citizens did not vote last election. If there are 120,000 citizens, how many DID vote?",
-    "choices": ["91,200", "89,200", "89,400", "90,800"],
+    "choices": [
+      "91,200",
+      "89,200",
+      "89,400",
+      "90,800"
+    ],
     "correctIndex": 0,
-    "explanation": "76% voted = 0.76 × 120,000 = <b>91,200</b>."
+    "explanation": "76% voted = 0.76 \u00d7 120,000 = <b>91,200</b>."
   },
   {
     "category": "Math",
     "prompt": "780 students applied for a tuition waiver; only 130 were granted it. What is the acceptance rate?",
-    "choices": ["1 in 6", "1 in 10", "1 in 50", "1 in 3"],
+    "choices": [
+      "1 in 6",
+      "1 in 10",
+      "1 in 50",
+      "1 in 3"
+    ],
     "correctIndex": 0,
-    "explanation": "130 ÷ 780 = 1/6. The acceptance rate is <b>1 in 6</b>."
+    "explanation": "130 \u00f7 780 = 1/6. The acceptance rate is <b>1 in 6</b>."
   },
   {
     "category": "Math",
     "prompt": "A store bought 23 identical TVs for $23,000 and sold them for $27,600 total. What was the profit per TV?",
-    "choices": ["$200", "$0", "$100", "$300"],
+    "choices": [
+      "$200",
+      "$0",
+      "$100",
+      "$300"
+    ],
     "correctIndex": 0,
-    "explanation": "Total profit = $27,600 − $23,000 = $4,600. Per TV = $4,600 ÷ 23 = <b>$200</b>."
+    "explanation": "Total profit = $27,600 \u2212 $23,000 = $4,600. Per TV = $4,600 \u00f7 23 = <b>$200</b>."
   },
   {
     "category": "Math",
     "prompt": "A line graph shows daily website traffic. The highest day had 40,000 visitors (Thursday) and the lowest had 5,000 (Saturday). What is the difference in thousands?",
-    "choices": ["35", "20", "24", "28"],
+    "choices": [
+      "35",
+      "20",
+      "24",
+      "28"
+    ],
     "correctIndex": 0,
-    "explanation": "40 − 5 = <b>35</b> thousand visitors difference between the peak and lowest days."
+    "explanation": "40 \u2212 5 = <b>35</b> thousand visitors difference between the peak and lowest days."
+  },
+  {
+    "category": "Math",
+    "prompt": "Chewing gum sells for $0.10 per box. How many boxes can you buy for $2.50?",
+    "choices": [
+      "25",
+      "22",
+      "20",
+      "17",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "$2.50 \u00f7 $0.10 = <b>25</b> boxes."
+  },
+  {
+    "category": "Math",
+    "prompt": "Candy costs $0.15 per piece. How many pieces can you buy for $3.00?",
+    "choices": [
+      "20",
+      "18",
+      "22",
+      "15",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "$3.00 \u00f7 $0.15 = <b>20</b> pieces."
+  },
+  {
+    "category": "Math",
+    "prompt": "Stickers cost $0.08 each. How many can you buy for $2.00?",
+    "choices": [
+      "25",
+      "20",
+      "28",
+      "22",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "$2.00 \u00f7 $0.08 = <b>25</b> stickers."
+  },
+  {
+    "category": "Math",
+    "prompt": "A bus token costs $0.75. How many tokens can you buy for $9.00?",
+    "choices": [
+      "12",
+      "10",
+      "11",
+      "13",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "$9.00 \u00f7 $0.75 = <b>12</b> tokens."
+  },
+  {
+    "category": "Math",
+    "prompt": "Which of the following is the smallest value?",
+    "choices": [
+      "0.0077",
+      "7",
+      "0.7",
+      "0.07",
+      "0.009"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comparing all values: 7 > 0.7 > 0.09 > 0.07 > 0.009 > <b>0.0077</b>. The smallest is 0.0077."
+  },
+  {
+    "category": "Math",
+    "prompt": "Which of the following is the largest value?",
+    "choices": [
+      "0.55",
+      "0.5",
+      "0.505",
+      "0.5005",
+      "0.05"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comparing decimal places: <b>0.55</b> = 0.5500, which is greater than all other options."
+  },
+  {
+    "category": "Math",
+    "prompt": "Which of the following is the smallest value?",
+    "choices": [
+      "0.003",
+      "3",
+      "0.3",
+      "0.03",
+      "0.033"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 > 0.3 > 0.033 > 0.03 > <b>0.003</b>. The smallest is 0.003."
+  },
+  {
+    "category": "Math",
+    "prompt": "Charles eats 102 mg of calcium daily. The Recommended Dietary Allowance (RDA) for an adult is 1300 mg. Which of the following is closest to the percent of the RDA Charles eats?",
+    "choices": [
+      "8%",
+      "18%",
+      "35%",
+      "55%",
+      "84%"
+    ],
+    "correctIndex": 0,
+    "explanation": "102 \u00f7 1300 = 0.0785 = 7.85% \u2248 <b>8%</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A patient takes 250 mg of medication daily. The maximum recommended daily dose is 2000 mg. Which percentage best represents the portion of the maximum dose the patient takes?",
+    "choices": [
+      "13%",
+      "8%",
+      "20%",
+      "25%",
+      "35%"
+    ],
+    "correctIndex": 0,
+    "explanation": "250 \u00f7 2000 = 0.125 = 12.5% \u2248 <b>13%</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "David runs 780 meters daily. The recommended daily running distance is 5000 meters. Which percentage best represents how much of the recommendation David meets?",
+    "choices": [
+      "16%",
+      "8%",
+      "12%",
+      "25%",
+      "32%"
+    ],
+    "correctIndex": 0,
+    "explanation": "780 \u00f7 5000 = 0.156 = 15.6% \u2248 <b>16%</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: DECREASE is to INCREASE as\u2026",
+    "choices": [
+      "BEAUTY is to UGLINESS",
+      "STRETCH is to ENLARGE",
+      "SITTING is to WALKING",
+      "SQUARE is to TRIANGLE",
+      "UPLOAD is to UPDATE"
+    ],
+    "correctIndex": 0,
+    "explanation": "Decrease and increase are <b>opposites</b>. Beauty and ugliness are also opposites \u2014 the same relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: EXPAND is to CONTRACT as\u2026",
+    "choices": [
+      "PUSH is to PULL",
+      "HEAT is to FIRE",
+      "NORTH is to COMPASS",
+      "LIGHT is to LAMP",
+      "GIVE is to LEND"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand and contract are opposites. <b>Push and pull</b> are also opposites \u2014 the same relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: ADVANCE is to RETREAT as\u2026",
+    "choices": [
+      "ATTACK is to DEFEND",
+      "LAUGH is to SMILE",
+      "ENTER is to ARRIVE",
+      "SPEAK is to TALK",
+      "RUN is to WALK"
+    ],
+    "correctIndex": 0,
+    "explanation": "Advance and retreat are opposites (opposing directions/actions). <b>Attack and defend</b> are also opposing actions in the same context."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: VINEYARD is to GRAPES as\u2026",
+    "choices": [
+      "ORCHARD is to ORANGES",
+      "WILD is to WOLF",
+      "WINE is to GLASS",
+      "HOUSE is to ROOF",
+      "TREES is to FOREST"
+    ],
+    "correctIndex": 0,
+    "explanation": "A vineyard is where grapes grow. An <b>orchard</b> is where oranges (and other fruits) grow \u2014 same producer-to-product relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: BAKERY is to BREAD as\u2026",
+    "choices": [
+      "MINE is to COAL",
+      "SCHOOL is to STUDENTS",
+      "RIVER is to WATER",
+      "FARM is to FARMER",
+      "HOSPITAL is to DOCTORS"
+    ],
+    "correctIndex": 0,
+    "explanation": "A bakery produces bread. A <b>mine</b> produces coal \u2014 same place-to-product relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: APIARY is to HONEY as\u2026",
+    "choices": [
+      "WINERY is to WINE",
+      "FOREST is to TREES",
+      "OCEAN is to FISH",
+      "SCHOOL is to KNOWLEDGE",
+      "FACTORY is to WORKERS"
+    ],
+    "correctIndex": 0,
+    "explanation": "An apiary is where bees produce honey. A <b>winery</b> is where grapes are made into wine \u2014 same production relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: WATER is to ISLAND as\u2026",
+    "choices": [
+      "DESERT is to OASIS",
+      "FISH is to OCEAN",
+      "OCEAN is to BOAT",
+      "HOUSE is to ROOF",
+      "TREES is to FOREST"
+    ],
+    "correctIndex": 0,
+    "explanation": "Water surrounds an island. A <b>desert</b> surrounds an oasis \u2014 same surrounding-medium-to-isolated-feature relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: FOREST is to CLEARING as\u2026",
+    "choices": [
+      "DESERT is to OASIS",
+      "OCEAN is to WAVE",
+      "MOUNTAIN is to PEAK",
+      "CITY is to BUILDING",
+      "SKY is to BIRD"
+    ],
+    "correctIndex": 0,
+    "explanation": "A clearing is an open space within a forest. An <b>oasis</b> is an isolated fertile space within a desert \u2014 same relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Select the pair of words that has the same relationship: OCEAN is to ISLAND as\u2026",
+    "choices": [
+      "DESERT is to OASIS",
+      "SKY is to CLOUD",
+      "FOREST is to TREE",
+      "MOUNTAIN is to HILL",
+      "RIVER is to STREAM"
+    ],
+    "correctIndex": 0,
+    "explanation": "An island is a landmass surrounded by ocean. An <b>oasis</b> is a fertile area surrounded by desert \u2014 same surrounding relationship."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the words that best complete the sentence: \"Before any software update is released, all proposed _____ are thoroughly tested to ensure they will not _____ existing features.\"",
+    "choices": [
+      "revisions .. disrupt",
+      "advertisements .. promote",
+      "adjustments .. improve",
+      "revisions .. duplicate",
+      "updates .. upgrade"
+    ],
+    "correctIndex": 0,
+    "explanation": "Software changes are called <b>revisions</b>. Testing confirms they won't <b>disrupt</b> (break or interfere with) existing features."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the words that best complete the sentence: \"Before signing the contract, all _____ were reviewed carefully to ensure they would not _____ the agreed terms.\"",
+    "choices": [
+      "revisions .. alter",
+      "changes .. support",
+      "additions .. clarify",
+      "updates .. improve",
+      "amendments .. duplicate"
+    ],
+    "correctIndex": 0,
+    "explanation": "<b>Revisions</b> are the changes reviewed, and the goal is to confirm they don't <b>alter</b> (change) what was already agreed upon."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the words that best complete the sentence: \"Before the new policy was implemented, all _____ were presented to leadership to confirm they would not _____ daily workflows.\"",
+    "choices": [
+      "changes .. disrupt",
+      "ideas .. support",
+      "revisions .. improve",
+      "updates .. duplicate",
+      "proposals .. enhance"
+    ],
+    "correctIndex": 0,
+    "explanation": "<b>Changes</b> to policy are reviewed, and leadership confirms they won't <b>disrupt</b> (interfere with) how daily work gets done."
+  },
+  {
+    "category": "Math",
+    "prompt": "The combined ages of a dog and its owner are 96 years. The owner is 3 times older than the dog. How old is the owner?",
+    "choices": [
+      "72",
+      "24",
+      "34",
+      "81",
+      "None of these"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let dog = x, owner = 3x. Then x + 3x = 96 \u2192 4x = 96 \u2192 x = 24. Owner = 3 \u00d7 24 = <b>72</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "Two siblings' combined age is 48. The older sibling is 3 times the age of the younger. How old is the older sibling?",
+    "choices": [
+      "36",
+      "12",
+      "24",
+      "30",
+      "40"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let younger = x, older = 3x. Then 4x = 48 \u2192 x = 12. Older = 3 \u00d7 12 = <b>36</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A mother and daughter together are 52 years old. The mother is 3 times the age of the daughter. How old is the daughter?",
+    "choices": [
+      "13",
+      "10",
+      "15",
+      "17",
+      "26"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let daughter = x, mother = 3x. Then 4x = 52 \u2192 x = <b>13</b>. Mother = 39."
+  },
+  {
+    "category": "Math",
+    "prompt": "Ben is 75% of his uncle's age and 3 times older than his nephew. If Ben's uncle is 50 years old, how old is Ben's nephew?",
+    "choices": [
+      "12.5",
+      "10.5",
+      "28",
+      "17",
+      "9.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ben = 75% \u00d7 50 = 37.5 years old. Ben = 3 \u00d7 nephew \u2192 nephew = 37.5 \u00f7 3 = <b>12.5</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "Sarah is 80% of her aunt's age and twice as old as her cousin. If Sarah's aunt is 40 years old, how old is Sarah's cousin?",
+    "choices": [
+      "16",
+      "12",
+      "14",
+      "18",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sarah = 80% \u00d7 40 = 32. Sarah = 2 \u00d7 cousin \u2192 cousin = 32 \u00f7 2 = <b>16</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "Marcus is 60% of his father's age and 4 times older than his son. If Marcus's father is 50 years old, how old is Marcus's son?",
+    "choices": [
+      "7.5",
+      "5",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Marcus = 60% \u00d7 50 = 30. Marcus = 4 \u00d7 son \u2192 son = 30 \u00f7 4 = <b>7.5</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "What would be the next letter in the following sequence? f | g | e | h | d | ?",
+    "choices": [
+      "i",
+      "c",
+      "e",
+      "j",
+      "b"
+    ],
+    "correctIndex": 0,
+    "explanation": "Odd positions (f, e, d) descend by 1. Even positions (g, h, ?) ascend by 1. Next even position = <b>i</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "What would be the next letter in the following sequence? a | z | b | y | c | ?",
+    "choices": [
+      "x",
+      "d",
+      "w",
+      "e",
+      "y"
+    ],
+    "correctIndex": 0,
+    "explanation": "Odd positions (a, b, c) ascend from the start of the alphabet. Even positions (z, y, ?) descend from the end. Next even = <b>x</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "What would be the next letter in the following sequence? m | o | n | p | o | ?",
+    "choices": [
+      "q",
+      "p",
+      "r",
+      "n",
+      "s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Odd positions (m, n, o) ascend by 1. Even positions (o, p, ?) also ascend by 1. Next even = <b>q</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Assume the first two statements are true. Is the final statement True, False, or Uncertain?\n\nAll company employees live within a 2-hour drive of the office.\nJonah lives 1.5 hours from the office.\nJonah is a company employee.",
+    "choices": [
+      "Uncertain",
+      "True",
+      "False"
+    ],
+    "correctIndex": 0,
+    "explanation": "<b>Uncertain.</b> Living within 2 hours doesn't make someone an employee \u2014 Jonah could be a neighbor, contractor, or visitor."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Assume the first two statements are true. Is the final statement True, False, or Uncertain?\n\nAll members of the club own a membership card.\nPriya owns a membership card.\nPriya is a member of the club.",
+    "choices": [
+      "Uncertain",
+      "True",
+      "False"
+    ],
+    "correctIndex": 0,
+    "explanation": "<b>Uncertain.</b> Having a card doesn't guarantee membership \u2014 Priya may have received one as a guest or gift."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Assume the first two statements are true. Is the final statement True, False, or Uncertain?\n\nNo pets are allowed in the library.\nRex is a dog.\nRex is not allowed in the library.",
+    "choices": [
+      "True",
+      "False",
+      "Uncertain"
+    ],
+    "correctIndex": 0,
+    "explanation": "<b>True.</b> Rex is a dog (a pet), and no pets are allowed \u2014 so Rex is definitively not allowed in the library."
   }
 ]
