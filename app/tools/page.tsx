@@ -18,7 +18,7 @@ const TOOLS = [
     title: 'CCAT Practice',
     desc: 'The Criteria Cognitive Aptitude Test is used by thousands of employers in their hiring process. Practice free — timed full tests (50 questions, 15 min), sprints, and drills by category (math, verbal, spatial).',
     meta: ['50 questions', '15-min timed', 'Math · Verbal · Spatial'],
-    href: '/tools/ccat',
+    href: '/ccat/index.html',
     cta: 'Start Practicing →',
     primary: true,
     badge: 'Free',
