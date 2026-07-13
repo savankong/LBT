@@ -43,16 +43,6 @@ const TOOLS = [
     primary: false,
     badge: 'Soon',
   },
-  {
-    tag: 'Coming Soon',
-    title: 'LinkedIn Audit',
-    desc: 'A checklist to make your LinkedIn profile work for you during a transition — what recruiters actually look at and what they skip.',
-    meta: ['Checklist', 'Profile tips'],
-    href: '#',
-    cta: 'Coming Soon',
-    primary: false,
-    badge: 'Soon',
-  },
 ]
 
 export default function ToolsPage() {
@@ -86,15 +76,15 @@ export default function ToolsPage() {
                 }}>{t.badge}</span>
 
                 <div>
-                  <p style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--faint)', marginBottom: 6 }}>{t.tag}</p>
-                  <h3 style={{ fontSize: '1.15rem', fontWeight: 800, margin: 0 }}>{t.title}</h3>
+                  <p style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--terra)', marginBottom: 8 }}>{t.tag}</p>
+                  <h3 style={{ fontSize: '1.25rem', fontWeight: 800, margin: 0, color: 'var(--ink)' }}>{t.title}</h3>
                 </div>
 
-                <p style={{ fontSize: '.9rem', lineHeight: 1.65, color: 'var(--muted)', flex: 1 }}>{t.desc}</p>
+                <p style={{ fontSize: '.95rem', lineHeight: 1.75, color: 'var(--ink)', flex: 1 }}>{t.desc}</p>
 
                 <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                   {t.meta.map(m => (
-                    <span key={m} style={{ fontSize: '.72rem', fontWeight: 600, background: 'var(--bg2)', border: '1px solid var(--border)', borderRadius: 20, padding: '3px 10px', color: 'var(--faint)' }}>{m}</span>
+                    <span key={m} style={{ fontSize: '.75rem', fontWeight: 600, background: 'var(--bg2)', border: '1px solid var(--border-med)', borderRadius: 20, padding: '4px 12px', color: 'var(--muted)' }}>{m}</span>
                   ))}
                 </div>
 

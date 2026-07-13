@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Math",
+    "prompt": "If a shirt costs $45 and is on sale for 20% off, what is the sale price?",
+    "choices": ["$36", "$38", "$34", "$40"],
+    "correctIndex": 0,
+    "explanation": "20% of $45 = $9. Sale price = $45 − $9 = <b>$36</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A factory produces 240 units in 8 hours. How many units does it produce in 5 hours at the same rate?",
+    "choices": ["150", "160", "120", "180"],
+    "correctIndex": 0,
+    "explanation": "Rate = 240 ÷ 8 = 30 units/hour. In 5 hours: 30 × 5 = <b>150</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "What is the next number in the series? 3, 6, 12, 24, ?",
+    "choices": ["48", "36", "42", "30"],
+    "correctIndex": 0,
+    "explanation": "Each term doubles. 24 × 2 = <b>48</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "If 5x − 7 = 18, what is x?",
+    "choices": ["5", "4", "6", "3"],
+    "correctIndex": 0,
+    "explanation": "5x = 18 + 7 = 25. x = 25 ÷ 5 = <b>5</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A car travels 180 miles in 3 hours. At the same speed, how far will it travel in 5 hours?",
+    "choices": ["300 miles", "270 miles", "360 miles", "250 miles"],
+    "correctIndex": 0,
+    "explanation": "Speed = 180 ÷ 3 = 60 mph. Distance = 60 × 5 = <b>300 miles</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "What is 35% of 200?",
+    "choices": ["70", "65", "75", "80"],
+    "correctIndex": 0,
+    "explanation": "35/100 × 200 = <b>70</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A project takes 12 workers 8 days to complete. How many days would it take 16 workers at the same rate?",
+    "choices": ["6", "7", "5", "8"],
+    "correctIndex": 0,
+    "explanation": "Total work = 12 × 8 = 96 worker-days. 96 ÷ 16 = <b>6</b> days."
+  },
+  {
+    "category": "Math",
+    "prompt": "What number comes next? 100, 91, 82, 73, ?",
+    "choices": ["64", "62", "65", "60"],
+    "correctIndex": 0,
+    "explanation": "The series decreases by 9 each time. 73 − 9 = <b>64</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "If 3 apples cost $2.40, how much do 7 apples cost?",
+    "choices": ["$5.60", "$4.80", "$6.00", "$4.20"],
+    "correctIndex": 0,
+    "explanation": "Price per apple = $2.40 ÷ 3 = $0.80. 7 × $0.80 = <b>$5.60</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A rectangle has a length of 14 cm and a width of 8 cm. What is its area?",
+    "choices": ["112 cm²", "96 cm²", "108 cm²", "124 cm²"],
+    "correctIndex": 0,
+    "explanation": "Area = length × width = 14 × 8 = <b>112 cm²</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that means most nearly the same as \"TENACIOUS.\"",
+    "choices": ["persistent", "timid", "generous", "vague"],
+    "correctIndex": 0,
+    "explanation": "\"Tenacious\" means holding firm or persistent. <b>Persistent</b> is the closest match."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word most nearly OPPOSITE to \"VERBOSE.\"",
+    "choices": ["concise", "wordy", "loud", "unclear"],
+    "correctIndex": 0,
+    "explanation": "\"Verbose\" means using too many words. Its opposite is <b>concise</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "ARCHITECT is to BUILDING as COMPOSER is to ___?",
+    "choices": ["symphony", "concert", "instrument", "musician"],
+    "correctIndex": 0,
+    "explanation": "An architect creates a building; a composer creates a <b>symphony</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that means most nearly the same as \"AMBIVALENT.\"",
+    "choices": ["uncertain", "confident", "eager", "hostile"],
+    "correctIndex": 0,
+    "explanation": "\"Ambivalent\" means having mixed feelings or being undecided — closest to <b>uncertain</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "All project managers at the firm are PMP-certified. Lexi is a project manager at the firm. Which conclusion follows?",
+    "choices": ["Lexi is PMP-certified.", "Lexi is not PMP-certified.", "Lexi manages a team.", "Cannot be determined."],
+    "correctIndex": 0,
+    "explanation": "Since all project managers at the firm are PMP-certified and Lexi is one, Lexi must be <b>PMP-certified</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "SURGEON is to SCALPEL as PAINTER is to ___?",
+    "choices": ["brush", "canvas", "paint", "gallery"],
+    "correctIndex": 0,
+    "explanation": "A surgeon's tool is a scalpel; a painter's tool is a <b>brush</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word most nearly OPPOSITE to \"BENIGN.\"",
+    "choices": ["malignant", "gentle", "kind", "neutral"],
+    "correctIndex": 0,
+    "explanation": "\"Benign\" means harmless or gentle. Its opposite is <b>malignant</b> (harmful)."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that means most nearly the same as \"PRAGMATIC.\"",
+    "choices": ["practical", "idealistic", "emotional", "stubborn"],
+    "correctIndex": 0,
+    "explanation": "\"Pragmatic\" means dealing with things sensibly and realistically — closest to <b>practical</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "No managers in the division received a bonus. Carlos received a bonus. Which conclusion follows?",
+    "choices": ["Carlos is not a manager.", "Carlos is a manager.", "Carlos was promoted.", "Cannot be determined."],
+    "correctIndex": 0,
+    "explanation": "If no managers received a bonus and Carlos received one, Carlos cannot be a manager."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "ARID is to DESERT as FRIGID is to ___?",
+    "choices": ["tundra", "ocean", "tropics", "swamp"],
+    "correctIndex": 0,
+    "explanation": "Arid describes a desert's climate; frigid describes a <b>tundra's</b> climate."
+  }
+]

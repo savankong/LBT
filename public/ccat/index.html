@@ -64,18 +64,20 @@
     padding:0 clamp(16px,4vw,40px); height:52px;
     background:var(--bg); border-bottom:1px solid var(--rule);
   }
-  .lbt-logo{
-    font-size:1.1rem; font-weight:900; letter-spacing:.12em; text-transform:uppercase;
-    color:var(--text); text-decoration:none;
-  }
+  .lbt-logo-wrap{ display:flex; align-items:center; text-decoration:none; }
+  .lbt-logo-img{ height:28px; width:auto; display:block; }
+  @media(prefers-color-scheme:dark){ .lbt-logo-img{ filter:brightness(0) invert(1); } }
+  :root[data-theme="dark"] .lbt-logo-img{ filter:brightness(0) invert(1); }
+  :root[data-theme="light"] .lbt-logo-img{ filter:none; }
   .lbt-back{
     font-size:.8rem; font-weight:700; letter-spacing:.04em;
     color:var(--text-soft); text-decoration:none;
-    display:flex; align-items:center; gap:4px;
+    display:flex; align-items:center; gap:4px; border:none; background:none; cursor:pointer;
+    padding:0; font-family:inherit;
   }
-  .lbt-back:hover{color:var(--text);}
+  .lbt-back:hover{ color:var(--text); }
   /* shift the test runner's own topbar so it sits below the shell */
-  .topbar{top:52px;}
+  .topbar{ top:52px; }
   :focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:2px;}
   .mono{font:var(--font-mono); font-variant-numeric:tabular-nums;}
   .eyebrow{
@@ -240,8 +242,10 @@
 </style>
 
 <div class="lbt-shell">
-  <a href="/" class="lbt-logo">LBT</a>
-  <a href="/tools" class="lbt-back">← Back to Toolkit</a>
+  <a href="/" class="lbt-logo-wrap">
+    <img src="/lbt-logo.png" alt="LBT" class="lbt-logo-img" />
+  </a>
+  <a href="/tools" class="lbt-back" id="lbt-back-btn">← Back to Toolkit</a>
 </div>
 <div id="app"></div>
 
@@ -576,8 +580,26 @@
 
   const SPATIAL_GENS = [genRotationSeq, genCountSeq, genOddOneOut, genShapeAnalogy];
 
+  /* ============================= QUESTION BANK (from questions.json) ============================= */
+  let BANK = { Math: [], Verbal: [], Spatial: [] };
+
+  async function loadBank(){
+    try {
+      const r = await fetch('/ccat/questions.json');
+      if(!r.ok) return;
+      const qs = await r.json();
+      for(const q of qs){
+        if(BANK[q.category]) BANK[q.category].push(q);
+      }
+    } catch(e){ /* network unavailable — generators handle it */ }
+  }
+
   /* ============================= QUESTION FACTORY ============================= */
   function generateOne(category){
+    // 50% chance to use a bank question if available for this category
+    if(BANK[category] && BANK[category].length && Math.random() < 0.5){
+      return pick(BANK[category]);
+    }
     if(category==="Math") return pick(MATH_GENS)();
     if(category==="Verbal") return pick(VERBAL_GENS)();
     if(category==="Spatial") return pick(SPATIAL_GENS)();
@@ -620,9 +642,38 @@
     };
   }
 
-  /* ---------- HOME ---------- */
-  function renderHome(){
+  /* ============================= HASH ROUTING ============================= */
+  function nav(screen){ history.pushState({screen}, '', '#' + screen); }
+
+  function updateBackBtn(){
+    const btn = document.getElementById('lbt-back-btn');
+    if(!btn) return;
+    const onTest = location.hash === '#test';
+    btn.textContent = onTest ? '← Exit Test' : '← Back to Toolkit';
+    btn.onclick = onTest ? (e) => {
+      e.preventDefault();
+      if(confirm('Exit this session? Progress on this attempt won\'t be saved.')) {
+        stopTimer();
+        history.pushState({screen:'home'}, '', '#home');
+        renderHome();
+      }
+    } : null;
+    btn.href = onTest ? '#' : '/tools';
+  }
+
+  window.addEventListener('popstate', e => {
+    const screen = e.state?.screen ?? 'home';
     stopTimer();
+    if(screen === 'home') renderHome(true);
+    else if(screen === 'history') renderHistory(true);
+    else renderHome(true);
+    updateBackBtn();
+  });
+
+  /* ---------- HOME ---------- */
+  function renderHome(fromPop){
+    stopTimer();
+    if(!fromPop) nav('home');
     const hist = loadHistory();
     const last = hist[0];
     app.innerHTML = `
@@ -708,6 +759,7 @@
 
   /* ---------- RUNNER ---------- */
   function renderRunner(){
+    nav('test'); updateBackBtn();
     const q = state.questions[state.idx];
     const total = state.questions.length;
     const pct = Math.round((state.idx/total)*100);
@@ -830,6 +882,7 @@
 
   /* ---------- RESULTS ---------- */
   function renderResults(rec){
+    nav('results'); updateBackBtn();
     const catColors = {Math:"#3556D9", Verbal:"#2E8B57", Spatial:"#C98A2C"};
     const missed = state.questions.map((q,i)=>({q, a:state.answers[i], i}))
       .filter(x=>!x.a.correct);
@@ -881,8 +934,9 @@
   }
 
   /* ---------- HISTORY ---------- */
-  function renderHistory(){
+  function renderHistory(fromPop){
     stopTimer();
+    if(!fromPop) nav('history'); updateBackBtn();
     const hist = loadHistory();
     let chart = "";
     if(hist.length>1){
@@ -948,6 +1002,6 @@
     if(map[key]!==undefined && opts[map[key]]){ opts[map[key]].click(); }
   });
 
-  renderHome();
+  loadBank().then(() => { renderHome(); updateBackBtn(); });
 })();
 </script>
