@@ -138,5 +138,152 @@
     "choices": ["tundra", "ocean", "tropics", "swamp"],
     "correctIndex": 0,
     "explanation": "Arid describes a desert's climate; frigid describes a <b>tundra's</b> climate."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that best fits the blank: \"The charity event was a _____ gathering of community leaders who united to support a common cause.\"",
+    "choices": ["harmonious", "discordant", "disparate", "chaotic"],
+    "correctIndex": 0,
+    "explanation": "Leaders who \"united to support a common cause\" were working together — making the gathering <b>harmonious</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that best fits the blank: \"The city council's decision was _____ by the local press, which saw it as a necessary measure to address the growing housing crisis.\"",
+    "choices": ["lauded", "criticized", "disregarded", "condemned"],
+    "correctIndex": 0,
+    "explanation": "The press saw it as \"a necessary measure\" — a positive view — so it was <b>lauded</b> (praised)."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that best fits the blank: \"The teacher was known for her _____ methods, often employing creative strategies to make difficult concepts more accessible.\"",
+    "choices": ["innovative", "traditional", "monotonous", "rigid"],
+    "correctIndex": 0,
+    "explanation": "\"Creative strategies\" signals something new and fresh — <b>innovative</b> fits best."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that best fits the blank: \"Her _____ remarks during the discussion revealed a lack of understanding of the complex issues at hand.\"",
+    "choices": ["flippant", "insightful", "perceptive", "astute"],
+    "correctIndex": 0,
+    "explanation": "Remarks that reveal a lack of understanding are <b>flippant</b> — shallow and not treating the subject seriously."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "Choose the word that best fits the blank: \"The company's financial troubles were _____ by a series of poor investments and declining market conditions.\"",
+    "choices": ["worsened", "improved", "solved", "alleviated"],
+    "correctIndex": 0,
+    "explanation": "Poor investments and declining conditions made things worse — so the troubles were <b>worsened</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "HEART is to CARDIOLOGIST as KIDNEY is to ___?",
+    "choices": ["nephrologist", "neurologist", "endocrinologist", "pediatrician"],
+    "correctIndex": 0,
+    "explanation": "A cardiologist specializes in the heart; a <b>nephrologist</b> specializes in the kidneys."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "OASIS is to DESERT as _____ is to SEA.",
+    "choices": ["island", "boat", "ocean", "peninsula"],
+    "correctIndex": 0,
+    "explanation": "An oasis is an isolated landmass feature within a desert; an <b>island</b> is an isolated landmass within the sea."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "What would be the next group of letters in the following series? cst … dtu … euv … fvw … ?",
+    "choices": ["gwx", "hwx", "gxy", "hyw"],
+    "correctIndex": 0,
+    "explanation": "Each position increments by 1 each step: c→d→e→f→<b>g</b>, s→t→u→v→<b>w</b>, t→u→v→w→<b>x</b>. Answer: <b>gwx</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "If the first two statements are true, is the final statement true? \"All children hate to eat broccoli. Adam hates to eat broccoli. Therefore, Adam is a child.\"",
+    "choices": ["Uncertain", "True", "False", "Cannot be evaluated"],
+    "correctIndex": 0,
+    "explanation": "This is a logical fallacy — adults can also hate broccoli. Knowing Adam hates it doesn't confirm he's a child. The conclusion is <b>uncertain</b>."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "How many of these five pairs are exactly the same?\n7810 Aspen St. / 7810 Aspen St.\n225 Maplewood Ln. / 225 Maplewood Ln.\n4529 Holly Dr. / 4529 Holy Dr.\n6124 Willow Rd. / 6124 WIllow Rd.\n1298 Birch Ct. / 1299 Birch Ct.",
+    "choices": ["2", "1", "3", "4"],
+    "correctIndex": 0,
+    "explanation": "Pair 1 ✓, Pair 2 ✓, Pair 3 ✗ (Holly vs Holy), Pair 4 ✗ (WIllow has capital I), Pair 5 ✗ (1298 vs 1299). Exactly <b>2</b> match."
+  },
+  {
+    "category": "Verbal",
+    "prompt": "How many of these five pairs are exactly the same?\nStonebridge Investments / Stonebridge Investments\nLakeside Consultants LLC / Lakeside Consultants LLC\nPineview Medical Group / Pineview Medical Groups\nValley Forge Realty / Valley Forge Reality\nTimberline Financial / Timberline Finance",
+    "choices": ["2", "1", "3", "4"],
+    "correctIndex": 0,
+    "explanation": "Pair 1 ✓, Pair 2 ✓, Pair 3 ✗ (Groups vs Group), Pair 4 ✗ (Realty vs Reality), Pair 5 ✗ (Financial vs Finance). Exactly <b>2</b> match."
+  },
+  {
+    "category": "Math",
+    "prompt": "A city of 75,000 residents hosted a music festival. Only 35% of the city's population attended. How many people did NOT attend?",
+    "choices": ["48,750", "26,250", "28,250", "35,000"],
+    "correctIndex": 0,
+    "explanation": "35% attended = 0.35 × 75,000 = 26,250. Those who did NOT attend = 75,000 − 26,250 = <b>48,750</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "Leila bought $10,000 worth of identical laptops and sold them for $14,000, making a profit of $400 per laptop. How many laptops did she trade?",
+    "choices": ["10", "5", "6", "7"],
+    "correctIndex": 0,
+    "explanation": "Total profit = $14,000 − $10,000 = $4,000. Number of laptops = $4,000 ÷ $400 = <b>10</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "780 students applied for a tuition waiver; 650 were denied. What is the rejection rate?",
+    "choices": ["5 in 6", "1 in 10", "13 in 50", "1 in 2"],
+    "correctIndex": 0,
+    "explanation": "650 ÷ 780 = 5/6. The rejection rate is <b>5 in 6</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "An airline offers 6 flights/day to Europe for 16 days/month, and 4 flights/day to the Middle East for 10 days/month. What is the total number of flights per month?",
+    "choices": ["136", "16", "40", "96"],
+    "correctIndex": 0,
+    "explanation": "Europe: 6 × 16 = 96. Middle East: 4 × 10 = 40. Total = 96 + 40 = <b>136</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "10 is 20% of what number?",
+    "choices": ["50", "40", "45", "55"],
+    "correctIndex": 0,
+    "explanation": "10 = 0.20 × x → x = 10 ÷ 0.20 = <b>50</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "The table below shows books sold in Jan and Feb. Store A: 120, 140. Store B: 100, 110. Store C: 130, 120. Store D: 90, 100. Which store sold the most books across January and February combined?",
+    "choices": ["Store A", "Store B", "Store C", "Store D"],
+    "correctIndex": 0,
+    "explanation": "Store A: 120+140=<b>260</b>. Store B: 210. Store C: 250. Store D: 190. <b>Store A</b> sold the most."
+  },
+  {
+    "category": "Math",
+    "prompt": "According to polls, 24% of citizens did not vote last election. If there are 120,000 citizens, how many DID vote?",
+    "choices": ["91,200", "89,200", "89,400", "90,800"],
+    "correctIndex": 0,
+    "explanation": "76% voted = 0.76 × 120,000 = <b>91,200</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "780 students applied for a tuition waiver; only 130 were granted it. What is the acceptance rate?",
+    "choices": ["1 in 6", "1 in 10", "1 in 50", "1 in 3"],
+    "correctIndex": 0,
+    "explanation": "130 ÷ 780 = 1/6. The acceptance rate is <b>1 in 6</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A store bought 23 identical TVs for $23,000 and sold them for $27,600 total. What was the profit per TV?",
+    "choices": ["$200", "$0", "$100", "$300"],
+    "correctIndex": 0,
+    "explanation": "Total profit = $27,600 − $23,000 = $4,600. Per TV = $4,600 ÷ 23 = <b>$200</b>."
+  },
+  {
+    "category": "Math",
+    "prompt": "A line graph shows daily website traffic. The highest day had 40,000 visitors (Thursday) and the lowest had 5,000 (Saturday). What is the difference in thousands?",
+    "choices": ["35", "20", "24", "28"],
+    "correctIndex": 0,
+    "explanation": "40 − 5 = <b>35</b> thousand visitors difference between the peak and lowest days."
   }
 ]
