@@ -98,6 +98,106 @@ export default function ToolsPage() {
         </div>
       </section>
 
+      {/* ── CCAT Info section ── */}
+      <section className="section" style={{ borderTop: '1px solid var(--border)', background: 'var(--bg2)' }}>
+        <div className="container" style={{ maxWidth: 860 }}>
+          <span className="label" style={{ display: 'block', marginBottom: 10, color: 'var(--terra)' }}>Know the Test</span>
+          <h2 style={{ fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', marginBottom: 8 }}>What is the CCAT?</h2>
+          <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'var(--muted)', maxWidth: 680, marginBottom: 40 }}>
+            The CCAT (Criteria Cognitive Aptitude Test) is a 50-question cognitive assessment with a strict 15-minute time limit.
+            It measures problem-solving and critical thinking — not job-specific knowledge. Most people don&apos;t finish all 50 questions,
+            and that&apos;s normal. The goal is accuracy and smart time management.
+          </p>
+
+          {/* Question types */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 20, marginBottom: 48 }}>
+            {[
+              {
+                label: 'Spatial / Abstract',
+                icon: '◈',
+                points: [
+                  'Shape sequences — what comes next?',
+                  '"Odd one out" — find what doesn\'t belong',
+                  'Matrix completion — 3×3 grid patterns',
+                ],
+              },
+              {
+                label: 'Math & Logic',
+                icon: '∑',
+                points: [
+                  'Direct calculations (no calculator)',
+                  'Word problems',
+                  'Number & letter series',
+                  'Syllogisms & critical thinking',
+                ],
+              },
+              {
+                label: 'Verbal',
+                icon: 'Aa',
+                points: [
+                  'Word analogies',
+                  'Sentence completion',
+                  'Antonyms',
+                  'Attention to detail',
+                ],
+              },
+            ].map(({ label, icon, points }) => (
+              <div key={label} className="glass" style={{ borderRadius: 0, padding: '28px 24px' }}>
+                <div style={{ fontSize: '1.5rem', marginBottom: 10, color: 'var(--terra)' }}>{icon}</div>
+                <h4 style={{ fontSize: '.95rem', marginBottom: 14 }}>{label}</h4>
+                <ul style={{ margin: 0, padding: '0 0 0 16px', display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  {points.map(p => (
+                    <li key={p} style={{ fontSize: '.85rem', lineHeight: 1.6, color: 'var(--muted)' }}>{p}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          {/* Scoring + Tips side by side */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }} className="nl-cards-grid">
+            <div>
+              <h3 style={{ fontSize: '1rem', marginBottom: 16 }}>Scoring benchmarks</h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                {[
+                  { score: '24 / 50', label: 'Average score', note: 'Most test-takers land here', color: 'var(--muted)' },
+                  { score: '28 / 50', label: 'Passing for most roles', note: 'Common hiring threshold', color: '#d97706' },
+                  { score: '32+ / 50', label: 'Top-tier candidacy', note: 'Competitive for senior roles', color: '#16a34a' },
+                ].map(({ score, label, note, color }) => (
+                  <div key={score} style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
+                    <span style={{ fontWeight: 800, fontSize: '1rem', color, minWidth: 56, flexShrink: 0 }}>{score}</span>
+                    <div>
+                      <div style={{ fontSize: '.88rem', fontWeight: 600 }}>{label}</div>
+                      <div style={{ fontSize: '.78rem', color: 'var(--faint)' }}>{note}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p style={{ fontSize: '.8rem', color: 'var(--faint)', marginTop: 16, lineHeight: 1.6 }}>
+                Your score report shows your raw score plus percentile rankings for each section — useful for identifying where to focus practice.
+              </p>
+            </div>
+
+            <div>
+              <h3 style={{ fontSize: '1rem', marginBottom: 16 }}>Tips that actually help</h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                {[
+                  ['Skip and come back', 'Don\'t get stuck. Flag hard questions and keep moving — you can return with remaining time.'],
+                  ['Know your category strengths', 'If verbal is your strongest section, make sure you get those points. Spatial reasoning is the easiest to skip quickly.'],
+                  ['Time awareness is the skill', 'At 15 min for 50 questions, you have 18 seconds per question. Practice under real time pressure — not just untimed drills.'],
+                  ['Expect not to finish', 'Most people answer 30–40 questions. Unanswered questions don\'t count against you.'],
+                ].map(([title, body]) => (
+                  <div key={title as string} style={{ paddingBottom: 10, borderBottom: '1px solid var(--border)' }}>
+                    <div style={{ fontSize: '.87rem', fontWeight: 700, marginBottom: 3 }}>{title}</div>
+                    <div style={{ fontSize: '.82rem', color: 'var(--muted)', lineHeight: 1.6 }}>{body}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA strip */}
       <section style={{ padding: 'clamp(40px,6vh,64px) 0', background: 'var(--bg2)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: 560 }}>
