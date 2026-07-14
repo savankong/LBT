@@ -747,6 +747,28 @@ export default function AdminClient() {
     }
   }
 
+  const handleReseed = async () => {
+    if (!confirm('This will DELETE all questions in the database and re-import from the JSON file. Continue?')) return
+    setSeeding(true)
+    try {
+      const clearRes = await fetch('/api/ccat/clear', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: ADMIN_PASSWORD }),
+      })
+      if (!clearRes.ok) { showToast('Clear failed', 'err'); return }
+      const seedRes = await fetch('/api/ccat/seed', { method: 'POST' })
+      const data = await seedRes.json()
+      if (!data.ok) { showToast(data.message, 'err'); return }
+      await fetchQuestions()
+      showToast(`Re-seeded ${data.inserted} questions from JSON`)
+    } catch (err) {
+      showToast(`Re-seed failed: ${err}`, 'err')
+    } finally {
+      setSeeding(false)
+    }
+  }
+
   const triggerDeploy = async () => {
     setDeploying(true)
     try {
@@ -947,6 +969,12 @@ export default function AdminClient() {
                 <button onClick={handleSeed} disabled={seeding}
                   style={{ padding: '9px 16px', borderRadius: 8, border: '1.5px solid var(--terra)', background: 'transparent', color: 'var(--terra)', fontSize: '.82rem', fontWeight: 700, cursor: 'pointer', opacity: seeding ? .6 : 1 }}>
                   {seeding ? 'Seeding…' : '↑ Import from JSON'}
+                </button>
+              )}
+              {questions.length > 0 && (
+                <button onClick={handleReseed} disabled={seeding}
+                  style={{ padding: '9px 16px', borderRadius: 8, border: '1.5px solid #ef4444', background: 'transparent', color: '#ef4444', fontSize: '.82rem', fontWeight: 700, cursor: 'pointer', opacity: seeding ? .6 : 1 }}>
+                  {seeding ? 'Re-seeding…' : '↺ Clear & Re-seed'}
                 </button>
               )}
               <button onClick={() => { setQIsNew(true); setQEditing(blankQuestion()) }} className="btn btn-gold" style={{ fontSize: '.84rem' }}>
