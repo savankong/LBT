@@ -27,14 +27,14 @@ export async function GET() {
     const order = await getSpotlightOrder()
 
     const rows = await sql`
-      SELECT slug, guest, photo, show, youtube_title
+      SELECT slug, guest, photo, show_name, youtube_title
       FROM episodes
       WHERE homepage_featured = TRUE AND status = 'Published'
     `
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const eps = (rows as any[]).map(r => ({
       slug: r.slug, guest: r.guest, photo: r.photo,
-      show: r.show, youtubeTitle: r.youtube_title,
+      show: r.show_name, youtubeTitle: r.youtube_title,
     }))
 
     // Sort by stored order; unordered ones go to the end
