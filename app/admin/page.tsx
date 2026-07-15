@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import AdminClient from './AdminClient'
+import EpisodesClient from './EpisodesClient'
 
 export const metadata: Metadata = {
   title: 'Admin | Life Between Titles',
@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function AdminPage() {
-  return <AdminClient />
+  return <EpisodesClient />
 }

@@ -151,7 +151,7 @@ export async function deleteEpisode(slug: string): Promise<void> {
 export async function getFeaturedEpisodes(): Promise<Episode[]> {
   return withFallback(
     async () => {
-      const rows = await sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY video_number DESC NULLS LAST`
+      const rows = await sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY spotlight_order ASC NULLS LAST, video_number DESC NULLS LAST`
       return rows.map(rowToEpisode)
     },
     () => []
