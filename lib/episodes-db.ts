@@ -151,14 +151,23 @@ export async function deleteEpisode(slug: string): Promise<void> {
 export async function getFeaturedEpisodes(): Promise<Episode[]> {
   return withFallback(
     async () => {
-      // spotlight_order column is added lazily; fall back to video_number if it doesn't exist yet
-      let rows
+      const [epRows, settingRows] = await Promise.all([
+        sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY video_number DESC NULLS LAST`,
+        sql`SELECT value FROM site_settings WHERE key = 'spotlight_order'`.catch(() => []),
+      ])
+      const eps = epRows.map(rowToEpisode)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const raw = (settingRows as any[])[0]?.value
+      if (!raw) return eps
       try {
-        rows = await sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY spotlight_order ASC NULLS LAST, video_number DESC NULLS LAST`
-      } catch {
-        rows = await sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY video_number DESC NULLS LAST`
-      }
-      return rows.map(rowToEpisode)
+        const order: string[] = JSON.parse(raw)
+        const orderMap = new Map(order.map((slug, i) => [slug, i]))
+        return [...eps].sort((a, b) => {
+          const ai = orderMap.has(a.slug) ? orderMap.get(a.slug)! : 9999
+          const bi = orderMap.has(b.slug) ? orderMap.get(b.slug)! : 9999
+          return ai - bi
+        })
+      } catch { return eps }
     },
     () => []
   )
