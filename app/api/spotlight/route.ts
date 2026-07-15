@@ -9,19 +9,24 @@ async function ensureColumn() {
 
 // GET: return featured episodes in spotlight_order
 export async function GET() {
-  await ensureColumn()
-  const rows = await sql`
-    SELECT slug, guest, photo, show, youtube_title, spotlight_order
-    FROM episodes
-    WHERE homepage_featured = TRUE AND status = 'Published'
-    ORDER BY spotlight_order ASC NULLS LAST, video_number DESC NULLS LAST
-  `
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return NextResponse.json((rows as any[]).map(r => ({
-    slug: r.slug, guest: r.guest, photo: r.photo,
-    show: r.show, youtubeTitle: r.youtube_title,
-    spotlightOrder: r.spotlight_order,
-  })))
+  try {
+    await ensureColumn()
+    const rows = await sql`
+      SELECT slug, guest, photo, show, youtube_title, spotlight_order
+      FROM episodes
+      WHERE homepage_featured = TRUE AND status = 'Published'
+      ORDER BY spotlight_order ASC NULLS LAST, video_number DESC NULLS LAST
+    `
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return NextResponse.json((rows as any[]).map(r => ({
+      slug: r.slug, guest: r.guest, photo: r.photo,
+      show: r.show, youtubeTitle: r.youtube_title,
+      spotlightOrder: r.spotlight_order,
+    })))
+  } catch (err) {
+    console.error('GET /api/spotlight', err)
+    return NextResponse.json({ error: String(err) }, { status: 500 })
+  }
 }
 
 // PUT: accept ordered array of slugs, update spotlight_order for each

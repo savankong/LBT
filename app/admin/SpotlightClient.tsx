@@ -28,11 +28,23 @@ export default function SpotlightClient() {
     setLoading(true)
     try {
       const [fRes, aRes] = await Promise.all([fetch('/api/spotlight'), fetch('/api/episodes')])
-      if (!fRes.ok || !aRes.ok) throw new Error('fetch failed')
-      setFeatured(await fRes.json())
-      const all: Episode[] = await aRes.json()
-      setAllPublished(all.filter(e => e.status === 'Published'))
-    } catch { showToast('Could not load data', 'err') } finally { setLoading(false) }
+      if (!fRes.ok) {
+        const err = await fRes.json().catch(() => ({ error: fRes.statusText }))
+        showToast(`Spotlight error: ${err.error ?? fRes.status}`, 'err')
+      } else {
+        setFeatured(await fRes.json())
+      }
+      if (!aRes.ok) {
+        showToast('Could not load episodes list', 'err')
+      } else {
+        const all: Episode[] = await aRes.json()
+        setAllPublished(all.filter(e => e.status === 'Published'))
+      }
+    } catch (err) {
+      showToast(`Load error: ${err}`, 'err')
+    } finally {
+      setLoading(false)
+    }
   }
 
   useEffect(() => { if (authed) fetchData() }, [authed])
