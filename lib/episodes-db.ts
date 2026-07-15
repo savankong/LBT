@@ -151,10 +151,11 @@ export async function deleteEpisode(slug: string): Promise<void> {
 export async function getFeaturedEpisodes(): Promise<Episode[]> {
   return withFallback(
     async () => {
-      const [epRows, settingRows] = await Promise.all([
-        sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY video_number DESC NULLS LAST`,
-        sql`SELECT value FROM site_settings WHERE key = 'spotlight_order'`.catch(() => []),
-      ])
+      const epRows = await sql`SELECT * FROM episodes WHERE homepage_featured = TRUE AND status = 'Published' ORDER BY video_number DESC NULLS LAST`
+      let settingRows: { value: string }[] = []
+      try {
+        settingRows = (await sql`SELECT value FROM site_settings WHERE key = 'spotlight_order'`) as { value: string }[]
+      } catch { /* site_settings may not exist yet */ }
       const eps = epRows.map(rowToEpisode)
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const raw = (settingRows as any[])[0]?.value
