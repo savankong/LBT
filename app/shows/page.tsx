@@ -45,7 +45,7 @@ function ShowsAbout() {
       <div className="container" style={{ maxWidth: 1100, paddingTop: 20, paddingBottom: 20 }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '0 32px' }}>
           {shows.map(s => (
-            <details key={s.name} open style={{ borderTop: `2px solid ${s.color}`, paddingTop: 12, paddingBottom: 12 }}>
+            <details key={s.name} style={{ borderTop: `2px solid ${s.color}`, paddingTop: 12, paddingBottom: 12 }}>
               <summary style={{ listStyle: 'none', cursor: 'pointer', display: 'flex', alignItems: 'baseline', gap: 8, userSelect: 'none' }}>
                 <span style={{ fontSize: '.68rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: s.color, whiteSpace: 'nowrap' }}>{s.name}</span>
                 <span style={{ fontSize: '.75rem', color: 'var(--faint)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1 }}>{s.tagline}</span>
