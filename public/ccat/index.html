@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CCAT Practice — Timed Aptitude Drill</title>
 <style>
   :root{
@@ -86,9 +87,10 @@
   }
   .qnav-label{
     font:700 0.7rem/1 sans-serif; text-transform:uppercase; letter-spacing:0.1em;
-    color:var(--text-faint); margin-bottom:0.75rem; display:flex; justify-content:space-between; align-items:center;
+    color:var(--text-faint); margin-bottom:0.75rem; display:flex; flex-wrap:wrap;
+    justify-content:space-between; align-items:center; gap:0.6rem 1rem; white-space:nowrap;
   }
-  .qnav-legend{ display:flex; gap:1rem; }
+  .qnav-legend{ display:flex; gap:1rem; flex-wrap:wrap; }
   .qnav-legend span{ display:flex; align-items:center; gap:0.3rem; font-size:0.68rem; font-weight:600; color:var(--text-faint); }
   .qnav-grid{
     display:flex; flex-wrap:wrap; gap:6px;
@@ -263,9 +265,13 @@
   /* ---- History ---- */
   .hist-chart{background:var(--bg-raised); border:1px solid var(--rule); border-radius:6px; padding:1.2rem; margin-top:1.5rem;}
   table{width:100%; border-collapse:collapse; margin-top:1.5rem; font-size:0.88rem;}
-  th{text-align:left; font:700 0.7rem/1 sans-serif; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-faint); padding:0.5rem 0.6rem; border-bottom:1px solid var(--rule-strong);}
-  td{padding:0.6rem; border-bottom:1px solid var(--rule);}
-  .table-wrap{overflow-x:auto;}
+  th{text-align:left; font:700 0.7rem/1 sans-serif; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-faint); padding:0.5rem 0.6rem; border-bottom:1px solid var(--rule-strong); white-space:nowrap;}
+  td{padding:0.6rem; border-bottom:1px solid var(--rule); white-space:nowrap;}
+  .table-wrap{overflow-x:auto; -webkit-overflow-scrolling:touch;}
+  @media (max-width:480px){
+    table{font-size:0.78rem;}
+    th,td{padding:0.45rem 0.5rem;}
+  }
   .empty{color:var(--text-faint); padding:2rem 0; text-align:center; font-size:0.9rem;}
 
   .topnav{display:flex; align-items:center; justify-content:space-between; margin-bottom:0.5rem;}
