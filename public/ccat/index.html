@@ -507,9 +507,11 @@
 
   /* ============================= SPATIAL GENERATORS (SVG) ============================= */
   const SHAPE_POINTS = {
-    triangle: "50,12 88,85 12,85",
+    // scalene (off-center apex) so no rotation is ever confusable with another
+    triangle: "20,85 80,85 66,15",
     arrow: "50,8 82,48 63,48 63,92 37,92 37,48 18,48",
-    chevronL: "20,20 55,20 55,45 80,45 80,80 20,80"
+    // bold tetromino-style L (large notch) so the missing corner is always obvious
+    chevronL: "20,20 45,20 45,55 80,55 80,80 20,80"
   };
   function svgShape({shape="triangle", rotation=0, filled=true, size=100, stroke="var(--text)"}={}){
     const pts = SHAPE_POINTS[shape];
