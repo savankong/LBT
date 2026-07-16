@@ -226,6 +226,9 @@
   .options.visual .option{flex-direction:column; padding:0.9rem 0.5rem 0.7rem; gap:0.4rem;}
   .options.visual .bubble{width:24px;height:24px;font-size:0.7rem;}
   .options.visual svg{width:56px;height:56px;}
+  .options.visual.letter-only{grid-template-columns:repeat(auto-fit,minmax(64px,1fr));}
+  .options.visual.letter-only .option{align-items:center; justify-content:center; padding:0.9rem 0.5rem;}
+  .options.visual.letter-only .bubble{width:40px; height:40px; font-size:1.05rem;}
 
   .explain{
     margin-top:1.25rem; padding:0.9rem 1rem; border-radius:6px; background:var(--bg-sunken);
@@ -833,8 +836,12 @@
       visualBlock = `<div class="qdiagram">${q.promptSvg}</div>`;
     }
 
+    // when a promptSvg diagram already shows the real answer content, choices are just
+    // placeholder letters ("A","B","C"...) — don't render them again as redundant text
+    const isLetterOnly = !!q.promptSvg && q.choices.every((c,i)=> String(c).trim().toUpperCase() === String.fromCharCode(65+i));
     const optsHtml = q.choices.map((choice, i)=>{
       const letter = String.fromCharCode(65+i);
+      if(isLetterOnly) return `<button class="option" data-idx="${i}"><span class="bubble">${letter}</span></button>`;
       const inner = q.isVisual ? choice : `<span class="otext">${esc(choice)}</span>`;
       return `<button class="option" data-idx="${i}"><span class="bubble">${letter}</span>${inner}</button>`;
     }).join("");
@@ -858,7 +865,7 @@
           <div class="qcat-label ${catClass}"><span class="cat-dot"></span>${q.category}</div>
           <div class="qprompt">${esc(q.prompt)}</div>
           ${visualBlock}
-          <div class="options ${q.isVisual?'visual':''}" id="opts">${optsHtml}</div>
+          <div class="options ${(q.isVisual||isLetterOnly)?'visual':''}${isLetterOnly?' letter-only':''}" id="opts">${optsHtml}</div>
           <div class="explain" id="explain"></div>
           <div class="qfooter">
             <button class="btn btn-ghost" data-action="quit">Exit to home</button>
