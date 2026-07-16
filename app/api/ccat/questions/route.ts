@@ -3,7 +3,10 @@ import { sql } from '@/lib/db'
 
 export const dynamic = 'force-dynamic'
 
+let tableEnsured = false
+
 async function ensureTable() {
+  if (tableEnsured) return
   await sql`
     CREATE TABLE IF NOT EXISTS ccat_questions (
       id         SERIAL PRIMARY KEY,
@@ -17,6 +20,7 @@ async function ensureTable() {
     )
   `
   await sql`ALTER TABLE ccat_questions ADD COLUMN IF NOT EXISTS prompt_svg TEXT NOT NULL DEFAULT ''`
+  tableEnsured = true
 }
 
 export async function GET() {
