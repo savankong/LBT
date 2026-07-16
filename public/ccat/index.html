@@ -196,6 +196,8 @@
   .qprompt{font-size:1.2rem; font-weight:600; line-height:1.5; margin-bottom:1.5rem;}
   .qvisual{display:flex; justify-content:center; gap:1.5rem; margin:1rem 0 1.75rem; flex-wrap:wrap;}
   .qvisual svg{width:76px; height:76px;}
+  .qdiagram{margin:1rem auto 1.75rem; max-width:560px; overflow-x:auto;}
+  .qdiagram svg{width:100%; height:auto; display:block;}
 
   .options{display:flex; flex-direction:column; gap:0.6rem;}
   .option{
@@ -820,7 +822,7 @@
         <div style="text-align:center">${svg}${q.promptLabels?`<div class="eyebrow" style="margin-top:0.3rem">${q.promptLabels[i]}</div>`:''}</div>
       `).join("")}</div>`;
     } else if(q.promptSvg){
-      visualBlock = `<div class="qvisual" style="overflow-x:auto">${q.promptSvg}</div>`;
+      visualBlock = `<div class="qdiagram">${q.promptSvg}</div>`;
     }
 
     const optsHtml = q.choices.map((choice, i)=>{
