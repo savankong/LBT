@@ -578,49 +578,7 @@
       explanation:`${ex} Next frame has <b>${next}</b> dots.`};
   }
 
-  function genOddOneOut(){
-    const shape = pick(["triangle","arrow","chevronL"]);
-    const baseRot = rnd(0,11)*30;
-    const filled = pick([true,false]);
-    const oddIdx = rnd(0,3);
-    const oddRot = baseRot + pick([90,120,150,180]);
-    const tiles = [0,1,2,3].map(i => svgShape({shape, rotation: i===oddIdx?oddRot:baseRot, filled}));
-    return {category:"Spatial", isVisual:true,
-      prompt:"Four shapes share the same orientation, and one is rotated differently. Select the odd one out.",
-      promptVisual: [], choices: tiles, correctIndex: oddIdx,
-      explanation:`All others are rotated to ${baseRot%360}°; the odd shape sits at ${oddRot%360}°.`};
-  }
-
-  function genShapeAnalogy(){
-    const shapeA = pick(["triangle","arrow","chevronL"]);
-    const shapeC = pick(["triangle","arrow","chevronL"]);
-    const transform = pick(["rotate90","rotate180","fillToggle","grow"]);
-    function apply(shape, base){
-      if(transform==="rotate90") return svgShape({shape, rotation: base.rotation+90, filled: base.filled});
-      if(transform==="rotate180") return svgShape({shape, rotation: base.rotation+180, filled: base.filled});
-      if(transform==="fillToggle") return svgShape({shape, rotation: base.rotation, filled: !base.filled});
-      return svgShape({shape, rotation: base.rotation, filled: base.filled}); // grow uses same, size shown via viewBox scale below
-    }
-    const baseA = {rotation: pick([0,90,180,270]), filled:true};
-    const svgA = svgShape({shape:shapeA, ...baseA});
-    const svgB = apply(shapeA, baseA);
-    const baseC = {rotation: pick([0,90,180,270]), filled: pick([true,false])};
-    const svgC = svgShape({shape:shapeC, ...baseC});
-    const svgCorrect = apply(shapeC, baseC);
-    const distractors = [];
-    distractors.push(svgShape({shape:shapeC, rotation: baseC.rotation, filled: baseC.filled})); // unchanged
-    distractors.push(svgShape({shape:shapeC, rotation: baseC.rotation+45, filled: baseC.filled}));
-    distractors.push(svgShape({shape:shapeC, rotation: baseC.rotation+ (transform==="rotate90"?180:90), filled: !baseC.filled}));
-    const choices = shuffle([svgCorrect, ...distractors]);
-    const names = {rotate90:"rotated 90° clockwise", rotate180:"rotated 180°", fillToggle:"filled/unfilled is swapped", grow:"kept the same relative size"};
-    return {category:"Spatial", isVisual:true,
-      prompt:`Shape A relates to Shape B. Apply the same relationship to Shape C to find Shape D.`,
-      promptVisual: [svgA, svgB, svgC], promptLabels:["A","B","C"],
-      choices, correctIndex: choices.indexOf(svgCorrect),
-      explanation:`A → B is ${names[transform]}. Applying that same change to C gives the correct D.`};
-  }
-
-  const SPATIAL_GENS = [genRotationSeq, genCountSeq, genOddOneOut, genShapeAnalogy];
+  const SPATIAL_GENS = [genRotationSeq, genCountSeq];
 
   /* ============================= QUESTION BANK (from DB via API) ============================= */
   let BANK = { Math: [], Verbal: [], Spatial: [] };
@@ -645,10 +603,15 @@
   }
 
   /* ============================= QUESTION FACTORY ============================= */
-  function generateOne(category){
-    // 50% chance to use a bank question if available for this category
+  function generateOne(category, usedIds){
+    // 50% chance to use a bank question if available for this category (and not already used in this set)
     if(BANK[category] && BANK[category].length && Math.random() < 0.5){
-      return pick(BANK[category]);
+      const available = usedIds ? BANK[category].filter(q => !usedIds.has(q.id)) : BANK[category];
+      if(available.length){
+        const q = pick(available);
+        if(usedIds) usedIds.add(q.id);
+        return q;
+      }
     }
     if(category==="Math") return pick(MATH_GENS)();
     if(category==="Verbal") return pick(VERBAL_GENS)();
@@ -657,10 +620,11 @@
   }
   function generateSet(category, n, filteredCats){
     const pool = filteredCats && filteredCats.length ? filteredCats : (category==="Mixed" ? ["Math","Verbal","Spatial"] : null);
+    const usedIds = new Set();
     const out=[];
     for(let i=0;i<n;i++){
-      if(pool) out.push(generateOne(pick(pool)));
-      else out.push(generateOne(category));
+      if(pool) out.push(generateOne(pick(pool), usedIds));
+      else out.push(generateOne(category, usedIds));
     }
     return out;
   }
@@ -794,7 +758,7 @@
       const cats = [...selectedCats];
       const cat = cats.length === 1 ? cats[0] : "Mixed";
       const filteredCats = cat === "Mixed" ? cats.filter(c=>c!=="Mixed") : null;
-      resetTestState({mode:"practice", category:cat, count:15, seconds:null, instantFeedback:true, filteredCats});
+      resetTestState({mode:"practice", category:cat, count:50, seconds:null, instantFeedback:true, filteredCats});
       renderRunner();
     };
     app.querySelector('[data-action="show-history"]').onclick = renderHistory;
