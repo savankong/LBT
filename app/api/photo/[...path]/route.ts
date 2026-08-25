@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStore } from '@netlify/blobs'
+import { GetObjectCommand } from '@aws-sdk/client-s3'
+import { spaces, PHOTOS_BUCKET } from '@/lib/spaces'
 
 export const dynamic = 'force-dynamic'
 
@@ -11,10 +12,10 @@ export async function GET(
   const filename = path.join('/')
 
   try {
-    const store = getStore('episode-photos')
-    const blob = await store.get(filename, { type: 'arrayBuffer' })
+    const obj = await spaces.send(new GetObjectCommand({ Bucket: PHOTOS_BUCKET, Key: filename }))
+    const bytes = await obj.Body?.transformToByteArray()
 
-    if (!blob) {
+    if (!bytes) {
       return new NextResponse('Not found', { status: 404 })
     }
 
@@ -24,7 +25,7 @@ export async function GET(
       : ext === 'gif' ? 'image/gif'
       : 'image/jpeg'
 
-    return new NextResponse(blob, {
+    return new NextResponse(Buffer.from(bytes), {
       headers: {
         'Content-Type': contentType,
         'Cache-Control': 'public, max-age=31536000, immutable',

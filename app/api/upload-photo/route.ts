@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStore } from '@netlify/blobs'
+import { PutObjectCommand } from '@aws-sdk/client-s3'
+import { spaces, PHOTOS_BUCKET } from '@/lib/spaces'
 
 export const dynamic = 'force-dynamic'
 
@@ -22,10 +23,12 @@ export async function POST(req: NextRequest) {
   const filename = key === 'main' ? `${slug}.${ext}` : `${slug}-${key}.${ext}`
   const arrayBuffer = await file.arrayBuffer()
 
-  const store = getStore('episode-photos')
-  await store.set(filename, arrayBuffer, {
-    metadata: { contentType: `image/${ext === 'jpg' ? 'jpeg' : ext}` },
-  })
+  await spaces.send(new PutObjectCommand({
+    Bucket: PHOTOS_BUCKET,
+    Key: filename,
+    Body: new Uint8Array(arrayBuffer),
+    ContentType: `image/${ext === 'jpg' ? 'jpeg' : ext}`,
+  }))
 
   const url = `/api/photo/${filename}`
   return NextResponse.json({ ok: true, url })
