@@ -47,6 +47,14 @@ async function main() {
   await sql`CREATE INDEX IF NOT EXISTS episodes_show_idx ON episodes (show_name)`
   await sql`CREATE INDEX IF NOT EXISTS episodes_status_idx ON episodes (status)`
 
+  // These three were never in the live schema this was migrated from either —
+  // the old app added them via one-off "hit this URL once" API routes
+  // (app/api/add-homepage-featured, app/api/add-promo-links). Managing them
+  // here instead makes them part of the real, repeatable schema going forward.
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS homepage_featured BOOLEAN DEFAULT FALSE`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS promo_links JSONB`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS additional_photos TEXT`
+
   await sql`
     CREATE TABLE IF NOT EXISTS site_settings (
       key   TEXT PRIMARY KEY,
