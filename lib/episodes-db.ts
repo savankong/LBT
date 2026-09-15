@@ -44,7 +44,7 @@ function rowToEpisode(r: Record<string, unknown>): Episode {
   }
 }
 
-// Falls back to static data if DB is unavailable (e.g. local build without netlify dev)
+// Falls back to static data if DB is unavailable (e.g. local build without DATABASE_URL set)
 async function withFallback<T>(
   fn: () => Promise<T>,
   fallback: () => T

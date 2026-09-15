@@ -19,8 +19,6 @@
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.109.1",
-    "@neondatabase/serverless": "^1.1.0",
-    "@netlify/database": "^1.1.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

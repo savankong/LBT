@@ -2,9 +2,8 @@
  * Auto-generate guest bios using Claude, then write them to the DB.
  *
  * Usage:
- *   NETLIFY_DB_URL=<url> ANTHROPIC_API_KEY=<key> npx tsx scripts/generate-guest-bios.ts
+ *   DATABASE_URL=<url> ANTHROPIC_API_KEY=<key> npx tsx scripts/generate-guest-bios.ts
  *
- * Get DB URL:  netlify database connect --json
  * Get API key: https://console.anthropic.com/settings/keys
  *
  * Flags:
@@ -15,7 +14,7 @@
  */
 
 import Anthropic from '@anthropic-ai/sdk'
-import { getDatabase } from '@netlify/database'
+import { sql } from '../lib/db'
 
 // ── CLI flags ──────────────────────────────────────────────────────────────
 const args = process.argv.slice(2)
@@ -25,8 +24,8 @@ const SLUG      = args[args.indexOf('--slug') + 1] ?? null
 const SHOW      = args[args.indexOf('--show') + 1] ?? null
 
 // ── Validate env ───────────────────────────────────────────────────────────
-if (!process.env.NETLIFY_DB_URL) {
-  console.error('❌  Set NETLIFY_DB_URL. Get it from: netlify database connect --json')
+if (!process.env.DATABASE_URL) {
+  console.error('❌  Set DATABASE_URL')
   process.exit(1)
 }
 if (!process.env.ANTHROPIC_API_KEY) {
@@ -35,7 +34,6 @@ if (!process.env.ANTHROPIC_API_KEY) {
 }
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
-const { sql } = getDatabase()
 
 // ── Bio generation ─────────────────────────────────────────────────────────
 async function generateBio(guest: string, show: string, title: string, description: string): Promise<string> {
