@@ -887,6 +887,39 @@ CHAPTERS
     photo: '',
   },
   {
+    slug: 'kathleen-hicks-first-woman-pentagon',
+    show: 'Work Unscripted',
+    season: 2,
+    episode: 19,
+    guest: 'Kathleen Hicks',
+    youtubeTitle: 'Kathleen Hicks: Leading the Pentagon as the First Woman in the Room',
+    description: `Kathleen Hicks became the first Senate-confirmed woman to serve as Deputy Secretary of Defense, the highest-ranking woman in the department's history. She left the role in January 2025, her third time leaving government, after three decades building a career she never approached as a burden to carry, but as a duty to hand off.
+
+In this episode:
+• What it actually takes to lead the Pentagon as a woman in a role no woman had held before
+• How three decades in and out of government shaped her sense of duty over burden
+• What confidence looks like when you're the first person in the room, not the last
+• Why she calls this her third time leaving government, and what that pattern taught her
+• What leadership without permission actually means in practice
+
+CHAPTERS
+• Becoming the first Senate-confirmed woman to serve as Deputy Secretary of Defense
+• Three decades building a career, and three exits from government
+• Leading the Pentagon as the first woman in the room
+• Duty to hand off vs. burden to carry
+• What comes after the highest-ranking role a woman has held at the DoD`,
+    mainTags: '#lifebetweentitles #careertransition #lifetransition #identity #workunscripted',
+    tags: '#pentagon #defense #womeninleadership',
+    resources: '',
+    status: 'Published',
+    photo: '',
+    youtubeUrl: 'https://www.youtube.com/watch?v=h8G1iKhnblI&list=PLX8QYlaLLwxw',
+    spotifyUrl: 'https://open.spotify.com/episode/2cF7k1EUfa7sL1ZzB87Vhp?si=SJHm0LS0Rr6OCGzzj8imRA',
+    appleUrl: 'https://podcasts.apple.com/us/podcast/kathleen-hicks-leading-the-pentagon-as-the-first-woman/id1844748787?i=1000779314026',
+    substack: 'https://lifebetweentitles.substack.com/p/she-left-the-baton-in-the-office',
+    homepageFeatured: true,
+  },
+  {
     slug: 'david-murphy-actor-commercial-bali',
     show: 'Work Unscripted',
     season: 2,
