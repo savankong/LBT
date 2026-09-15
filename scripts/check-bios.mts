@@ -1,5 +1,4 @@
-import { getDatabase } from '@netlify/database'
-const { sql } = getDatabase()
+import { sql } from '../lib/db'
 const rows = await sql`SELECT slug, guest, show_name, guest_bio FROM episodes WHERE status = 'Published' AND guest != 'Savan Kong' ORDER BY show_name, video_number` as any[]
 const missing = rows.filter((r: any) => !r.guest_bio)
 const has = rows.filter((r: any) => r.guest_bio)

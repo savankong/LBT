@@ -1,7 +1,7 @@
 /**
  * Generates a SQL seed file from lib/episodes.ts
  * Run: npx tsx scripts/generate-seed-sql.ts > /tmp/seed.sql
- * Then: netlify database connect --query "$(cat /tmp/seed.sql)"
+ * Then: psql "$DATABASE_URL" -f /tmp/seed.sql
  */
 import { EPISODES } from '../lib/episodes.js'
 

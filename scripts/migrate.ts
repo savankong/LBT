@@ -1,10 +1,9 @@
-import { neon } from '@neondatabase/serverless'
 import * as dotenv from 'dotenv'
 import { resolve } from 'path'
 
 dotenv.config({ path: resolve(process.cwd(), '.env.local') })
 
-const sql = neon(process.env.DATABASE_URL!)
+const { sql } = await import('../lib/db')
 
 async function migrate() {
   console.log('Running migration…')
@@ -32,23 +31,27 @@ async function migrate() {
       faq             JSONB,
       transcript_file TEXT,
       created_at      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-      updated_at      TIMESTAMPTZ NOT NULL DEFAULT NOW()
+      updated_at      TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      spotify_url     TEXT,
+      apple_url       TEXT,
+      amazon_url      TEXT,
+      quote           TEXT
     )
   `
 
-  // Index for fast slug lookups
-  await sql`
-    CREATE INDEX IF NOT EXISTS episodes_slug_idx ON episodes (slug)
-  `
+  await sql`CREATE INDEX IF NOT EXISTS episodes_slug_idx ON episodes (slug)`
+  await sql`CREATE INDEX IF NOT EXISTS episodes_show_idx ON episodes (show_name)`
+  await sql`CREATE INDEX IF NOT EXISTS episodes_status_idx ON episodes (status)`
 
-  // Index for show filtering
-  await sql`
-    CREATE INDEX IF NOT EXISTS episodes_show_idx ON episodes (show_name)
-  `
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS homepage_featured BOOLEAN DEFAULT FALSE`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS promo_links JSONB`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS additional_photos TEXT`
 
-  // Index for status filtering
   await sql`
-    CREATE INDEX IF NOT EXISTS episodes_status_idx ON episodes (status)
+    CREATE TABLE IF NOT EXISTS site_settings (
+      key   TEXT PRIMARY KEY,
+      value TEXT NOT NULL DEFAULT ''
+    )
   `
 
   console.log('✓ Migration complete')
