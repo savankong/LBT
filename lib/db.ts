@@ -1,12 +1,24 @@
-import { getDatabase } from '@netlify/database'
+import { Pool, type QueryResultRow } from 'pg'
 
-type DbSql = ReturnType<typeof getDatabase>['sql']
+let _pool: Pool | null = null
 
-let _sql: DbSql | null = null
-
-function getSql(): DbSql {
-  if (!_sql) _sql = getDatabase().sql
-  return _sql
+function getPool(): Pool {
+  if (!_pool) {
+    const connectionString = process.env.DATABASE_URL
+    if (!connectionString) {
+      throw new Error('DATABASE_URL is not set')
+    }
+    _pool = new Pool({ connectionString })
+  }
+  return _pool
 }
 
-export const sql: DbSql = ((...args: Parameters<DbSql>) => getSql()(...args)) as DbSql
+/** Tagged-template query helper, e.g. `await sql\`SELECT * FROM episodes WHERE slug = ${slug}\`` */
+export async function sql<T extends QueryResultRow = QueryResultRow>(
+  strings: TemplateStringsArray,
+  ...values: unknown[]
+): Promise<T[]> {
+  const text = strings.reduce((acc, str, i) => acc + (i > 0 ? `$${i}` : '') + str, '')
+  const result = await getPool().query<T>(text, values)
+  return result.rows
+}

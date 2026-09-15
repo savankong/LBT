@@ -1,12 +1,6 @@
 'use client'
 import { useState } from 'react'
 
-function encode(data: Record<string, string>) {
-  return Object.keys(data)
-    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
-    .join('&')
-}
-
 export default function BookEarlyAccessForm() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
@@ -18,11 +12,12 @@ export default function BookEarlyAccessForm() {
     setSubmitting(true)
     setError('')
     try {
-      await fetch('/__forms.html', {
+      const res = await fetch('/api/forms', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'book-early-access', email }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 'form-name': 'book-early-access', email }),
       })
+      if (!res.ok) throw new Error('Submission failed')
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again in a moment.')

@@ -310,7 +310,6 @@ export default function EpisodesClient() {
   const [filterShow, setFilterShow] = useState<Show | 'All'>('All')
   const [filterStatus, setFilterStatus] = useState<Status | 'All'>('All')
   const [toast, setToast] = useState<{ msg: string; type: 'ok' | 'err' } | null>(null)
-  const [deploying, setDeploying] = useState(false)
 
   const showToast = (msg: string, type: 'ok' | 'err' = 'ok') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3500)
@@ -347,15 +346,6 @@ export default function EpisodesClient() {
     } catch (err) { showToast(`Delete failed: ${err}`, 'err') } finally { setSaving(false) }
   }
 
-  const triggerDeploy = async () => {
-    setDeploying(true)
-    try {
-      const res = await fetch('/api/trigger-deploy', { method: 'POST' })
-      const data = await res.json(); if (!res.ok) throw new Error(data.error)
-      showToast('Deploy triggered — rebuilding in ~1 min')
-    } catch (err) { showToast(`Deploy failed: ${err}`, 'err') } finally { setDeploying(false) }
-  }
-
   const filtered = episodes
     .filter(e => filterShow === 'All' || e.show === filterShow)
     .filter(e => filterStatus === 'All' || e.status === filterStatus)
@@ -372,10 +362,6 @@ export default function EpisodesClient() {
           <p style={{ color: 'var(--faint)', fontSize: '.84rem', margin: 0 }}>{loading ? 'Loading…' : `${episodes.length} episodes`}</p>
         </div>
         <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-          <button onClick={triggerDeploy} disabled={deploying}
-            style={{ padding: '9px 16px', borderRadius: 8, border: '1.5px solid #16a34a', background: 'transparent', color: '#16a34a', fontSize: '.82rem', fontWeight: 700, cursor: 'pointer', opacity: deploying ? .6 : 1 }}>
-            {deploying ? 'Deploying…' : '↑ Publish Site'}
-          </button>
           <button onClick={() => { setIsNew(true); setEditing(blankEpisode()) }} className="btn btn-gold" style={{ fontSize: '.84rem' }}>+ New Episode</button>
         </div>
       </div>

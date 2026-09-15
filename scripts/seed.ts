@@ -1,17 +1,15 @@
 /**
  * Seeds episodes table from lib/episodes.ts static data.
- * Usage: NETLIFY_DB_URL=<url> npx tsx scripts/seed.ts
- * Get the URL from: netlify database connect --json
+ * Usage: DATABASE_URL=<url> npx tsx scripts/seed.ts
  */
-import { getDatabase } from '@netlify/database'
+import { sql } from '../lib/db'
 
 async function main() {
-  if (!process.env.NETLIFY_DB_URL) {
-    console.error('Set NETLIFY_DB_URL first. Get it from: netlify database connect --json')
+  if (!process.env.DATABASE_URL) {
+    console.error('Set DATABASE_URL first')
     process.exit(1)
   }
 
-  const { sql } = getDatabase()
   const { EPISODES } = await import('../lib/episodes.js')
 
   console.log(`Seeding ${EPISODES.length} episodes…`)

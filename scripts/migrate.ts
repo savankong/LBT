@@ -1,10 +1,9 @@
-import { neon } from '@neondatabase/serverless'
 import * as dotenv from 'dotenv'
 import { resolve } from 'path'
 
 dotenv.config({ path: resolve(process.cwd(), '.env.local') })
 
-const sql = neon(process.env.DATABASE_URL!)
+const { sql } = await import('../lib/db')
 
 async function migrate() {
   console.log('Running migration…')
@@ -49,6 +48,23 @@ async function migrate() {
   // Index for status filtering
   await sql`
     CREATE INDEX IF NOT EXISTS episodes_status_idx ON episodes (status)
+  `
+
+  // 0002: platform URLs
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS spotify_url TEXT`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS apple_url TEXT`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS amazon_url TEXT`
+
+  // 0003: spotlight, promo links, pull quote, additional photos
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS homepage_featured BOOLEAN NOT NULL DEFAULT FALSE`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS promo_links JSONB`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS quote TEXT`
+  await sql`ALTER TABLE episodes ADD COLUMN IF NOT EXISTS additional_photos JSONB`
+  await sql`
+    CREATE TABLE IF NOT EXISTS site_settings (
+      key   TEXT PRIMARY KEY,
+      value TEXT NOT NULL DEFAULT ''
+    )
   `
 
   console.log('✓ Migration complete')

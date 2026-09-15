@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStore } from '@netlify/blobs'
+import { getPhoto } from '@/lib/photo-store'
 
 export const dynamic = 'force-dynamic'
 
@@ -11,22 +11,14 @@ export async function GET(
   const filename = path.join('/')
 
   try {
-    const store = getStore('episode-photos')
-    const blob = await store.get(filename, { type: 'arrayBuffer' })
-
-    if (!blob) {
+    const photo = await getPhoto(filename)
+    if (!photo) {
       return new NextResponse('Not found', { status: 404 })
     }
 
-    const ext = filename.split('.').pop()?.toLowerCase() ?? 'jpg'
-    const contentType = ext === 'png' ? 'image/png'
-      : ext === 'webp' ? 'image/webp'
-      : ext === 'gif' ? 'image/gif'
-      : 'image/jpeg'
-
-    return new NextResponse(blob, {
+    return new NextResponse(new Uint8Array(photo.body), {
       headers: {
-        'Content-Type': contentType,
+        'Content-Type': photo.contentType,
         'Cache-Control': 'public, max-age=31536000, immutable',
       },
     })

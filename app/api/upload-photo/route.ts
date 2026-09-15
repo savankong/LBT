@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStore } from '@netlify/blobs'
+import { putPhoto } from '@/lib/photo-store'
 
 export const dynamic = 'force-dynamic'
 
@@ -21,11 +21,9 @@ export async function POST(req: NextRequest) {
 
   const filename = key === 'main' ? `${slug}.${ext}` : `${slug}-${key}.${ext}`
   const arrayBuffer = await file.arrayBuffer()
+  const contentType = `image/${ext === 'jpg' ? 'jpeg' : ext}`
 
-  const store = getStore('episode-photos')
-  await store.set(filename, arrayBuffer, {
-    metadata: { contentType: `image/${ext === 'jpg' ? 'jpeg' : ext}` },
-  })
+  await putPhoto(filename, Buffer.from(arrayBuffer), contentType)
 
   const url = `/api/photo/${filename}`
   return NextResponse.json({ ok: true, url })
