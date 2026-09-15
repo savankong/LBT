@@ -3,12 +3,6 @@ import { useState } from 'react'
 
 const TIERS = ['Presenting Sponsor', 'Mid-Roll Sponsor', 'Newsletter Sponsor', 'Not Sure — Let\'s Talk']
 
-function encode(data: Record<string, string>) {
-  return Object.keys(data)
-    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
-    .join('&')
-}
-
 export default function SponsorForm() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
@@ -23,11 +17,12 @@ export default function SponsorForm() {
     setSubmitting(true)
     setError('')
     try {
-      await fetch('/__forms.html', {
+      const res = await fetch('/api/forms', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'sponsor-inquiry', ...form }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 'form-name': 'sponsor-inquiry', ...form }),
       })
+      if (!res.ok) throw new Error('Submission failed')
       setSubmitted(true)
     } catch {
       setError('Something went wrong submitting the form. Please try again in a moment.')
@@ -49,8 +44,6 @@ export default function SponsorForm() {
     <form
       name="sponsor-inquiry"
       method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
       style={{ display: 'flex', flexDirection: 'column', gap: 20 }}
     >
